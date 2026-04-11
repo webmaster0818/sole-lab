@@ -8,7 +8,7 @@ const navItems = [
   { label: "おすすめ3選", href: "/ranking/" },
   { label: "ピットソール", href: "/pitsole/" },
   { label: "ランウェイキュアソール", href: "/runway-cure-sole/" },
-  { label: "スリムアップインソール", href: "/slimup-insole/" },
+  { label: "スリムアップインソール", href: "/slim-up-insole/" },
 ];
 
 export default function Header() {
