@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const products = [
   {
@@ -7,7 +8,8 @@ const products = [
     price: "1,771円〜/月",
     points: ["世界特許取得の独自構造", "累計販売数10万足突破", "骨格から姿勢をサポート"],
     href: "/pitsole/",
-    accent: "#0ea5e9",
+    accent: "#e8627c",
+    badge: "人気No.1",
   },
   {
     name: "ランウェイキュアソール",
@@ -15,7 +17,8 @@ const products = [
     price: "1,650円〜/月",
     points: ["3つのアーチをサポート", "美姿勢で歩行をサポート", "薄型で靴を選ばない"],
     href: "/runway-cure-sole/",
-    accent: "#8b5cf6",
+    accent: "#c9a76c",
+    badge: "美姿勢",
   },
   {
     name: "スリムアップインソール",
@@ -23,7 +26,8 @@ const products = [
     price: "1,100円〜/月",
     points: ["手頃な価格設定", "初めての方におすすめ", "シンプルな設計で使いやすい"],
     href: "/slimup-insole/",
-    accent: "#10b981",
+    accent: "#34d399",
+    badge: "コスパ◎",
   },
 ];
 
@@ -87,21 +91,44 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            あなたに合った
-            <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">ダイエットインソール</span>
-            が見つかる
-          </h1>
-          <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto mb-8 leading-relaxed">
-            人気のダイエットインソール3商品を、口コミ・効果・料金の観点から徹底比較。
-            あなたにぴったりの一足を見つけてください。
-          </p>
-          <Link href="/ranking/" className="btn-cta text-base md:text-lg">
-            おすすめランキングを見る
-          </Link>
+      <section className="relative overflow-hidden py-20 md:py-28">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#fdf2f4] via-[#fef3e8] to-[#f0fdf4]" />
+        <div className="absolute top-10 right-10 w-32 h-32 bg-[#e8627c]/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-10 left-10 w-40 h-40 bg-[#34d399]/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#c9a76c]/8 rounded-full blur-3xl" />
+
+        <div className="relative max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div className="text-center md:text-left">
+            <p className="inline-block text-xs font-semibold text-[#c9a76c] bg-[#f5eed6] px-3 py-1 rounded-full mb-4 tracking-wider">
+              DIET INSOLE COMPARISON
+            </p>
+            <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
+              歩くだけで、
+              <br />
+              <span className="text-gradient-fresh">キレイは叶う。</span>
+            </h1>
+            <p className="text-gray-600 text-sm md:text-base max-w-lg mx-auto md:mx-0 mb-8 leading-relaxed">
+              忙しい毎日でも、いつもの靴に入れるだけ。
+              <br className="hidden md:block" />
+              人気のダイエットインソール3商品を徹底比較して、
+              <br className="hidden md:block" />
+              あなたにぴったりの一足を見つけてください。
+            </p>
+            <Link href="/ranking/" className="btn-cta text-base md:text-lg">
+              おすすめランキングを見る
+            </Link>
+          </div>
+          <div className="relative mx-auto w-full max-w-sm">
+            <div className="absolute -inset-4 bg-gradient-to-tr from-[#e8627c]/20 via-[#c9a76c]/15 to-[#34d399]/20 rounded-3xl blur-2xl" />
+            <Image
+              src="/images/hero-banner.png"
+              alt="自信を持って歩くキャリアウーマン"
+              width={400}
+              height={400}
+              className="relative rounded-2xl shadow-lg"
+              priority
+            />
+          </div>
         </div>
       </section>
 
@@ -116,16 +143,22 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {products.map((product) => (
-              <div key={product.name} className="card flex flex-col">
-                <div
-                  className="h-1 rounded-full mb-4"
+              <div key={product.name} className="card flex flex-col relative">
+                <span
+                  className="absolute -top-3 left-4 text-[11px] font-bold text-white px-3 py-1 rounded-full"
                   style={{ backgroundColor: product.accent }}
+                >
+                  {product.badge}
+                </span>
+                <div
+                  className="h-1 rounded-full mb-4 mt-2"
+                  style={{ background: `linear-gradient(90deg, ${product.accent}, ${product.accent}80)` }}
                 />
                 <h3 className="text-lg font-bold text-gray-900 mb-1">
                   {product.name}
                 </h3>
                 <p className="text-xs text-gray-500 mb-3">{product.tagline}</p>
-                <p className="text-sm font-semibold text-[#0ea5e9] mb-4">
+                <p className="text-sm font-semibold mb-4" style={{ color: product.accent }}>
                   {product.price}
                 </p>
                 <ul className="space-y-2 mb-6 flex-1">
@@ -134,7 +167,7 @@ export default function Home() {
                       key={point}
                       className="flex items-start gap-2 text-sm text-gray-600"
                     >
-                      <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                      <span className="mt-0.5 shrink-0" style={{ color: product.accent }}>
                         &#10003;
                       </span>
                       {point}
@@ -151,15 +184,17 @@ export default function Home() {
       </section>
 
       {/* Reasons */}
-      <section className="section-light py-16 md:py-20">
-        <div className="max-w-5xl mx-auto px-4">
+      <section className="section-light py-16 md:py-20 relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-48 h-48 bg-[#e8627c]/5 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-36 h-36 bg-[#34d399]/5 rounded-full blur-3xl" />
+        <div className="relative max-w-5xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-center text-gray-900 mb-10">
             ソールラボが選ばれる理由
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {reasons.map((reason) => (
               <div key={reason.title} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-sky-100 text-[#0ea5e9] mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-[#fdf2f4] to-[#fef3e8] text-[#e8627c] mb-4 shadow-sm">
                   {reason.icon}
                 </div>
                 <h3 className="text-base font-bold text-gray-900 mb-2">
@@ -184,12 +219,12 @@ export default function Home() {
             {faqs.map((faq) => (
               <details
                 key={faq.question}
-                className="group border border-gray-200 rounded-lg"
+                className="group border border-[#f3e0e4] rounded-xl"
               >
-                <summary className="flex items-center justify-between cursor-pointer px-5 py-4 text-sm font-semibold text-gray-900 hover:bg-gray-50 rounded-lg transition-colors">
+                <summary className="flex items-center justify-between cursor-pointer px-5 py-4 text-sm font-semibold text-gray-900 hover:bg-[#fdf2f4] rounded-xl transition-colors">
                   <span>{faq.question}</span>
                   <svg
-                    className="w-5 h-5 text-gray-400 shrink-0 ml-4 group-open:rotate-180 transition-transform"
+                    className="w-5 h-5 text-[#e8627c] shrink-0 ml-4 group-open:rotate-180 transition-transform"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -212,17 +247,34 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="section-primary-light py-16 md:py-20">
-        <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-            自分に合ったインソールを見つけよう
-          </h2>
-          <p className="text-sm text-gray-600 mb-8 leading-relaxed">
-            3つのダイエットインソールを比較して、あなたの目的・予算に合った商品を見つけてください。
-          </p>
-          <Link href="/ranking/" className="btn-cta text-base md:text-lg">
-            おすすめランキングを見る
-          </Link>
+      <section className="section-primary-light py-16 md:py-20 relative overflow-hidden">
+        <div className="absolute top-0 left-1/4 w-32 h-32 bg-[#c9a76c]/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-1/4 w-40 h-40 bg-[#e8627c]/10 rounded-full blur-3xl" />
+        <div className="relative max-w-4xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="order-2 md:order-1 mx-auto w-full max-w-xs">
+            <Image
+              src="/images/cta-lifestyle.png"
+              alt="自信を持って歩く女性"
+              width={320}
+              height={320}
+              className="rounded-2xl shadow-md"
+            />
+          </div>
+          <div className="order-1 md:order-2 text-center md:text-left">
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
+              自分に合ったインソールを
+              <br />
+              見つけよう
+            </h2>
+            <p className="text-sm text-gray-600 mb-8 leading-relaxed">
+              3つのダイエットインソールを比較して、
+              <br className="hidden md:block" />
+              あなたの目的・予算に合った商品を見つけてください。
+            </p>
+            <Link href="/ranking/" className="btn-cta text-base md:text-lg">
+              おすすめランキングを見る
+            </Link>
+          </div>
         </div>
       </section>
     </>

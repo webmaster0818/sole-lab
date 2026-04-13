@@ -1,17 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --color-primary: #0ea5e9;
-  --color-primary-dark: #0284c7;
-  --color-primary-light: #e0f2fe;
-  --color-cta: #f97316;
-  --color-cta-hover: #ea580c;
-  --color-footer-bg: #0c4a6e;
+  --color-primary: #e8627c;
+  --color-primary-dark: #d14d68;
+  --color-primary-light: #fdf2f4;
+  --color-cta: #d4956b;
+  --color-cta-hover: #c07a52;
+  --color-accent-fresh: #34d399;
+  --color-footer-bg: #3d1a38;
   --color-text: #1e293b;
   --color-text-light: #64748b;
   --color-bg: #ffffff;
-  --color-bg-section: #f8fafc;
-  --color-border: #e2e8f0;
+  --color-bg-section: #fef7f8;
+  --color-border: #f3e0e4;
+  --color-gold: #c9a76c;
+  --color-gold-light: #f5eed6;
 }
 
 @theme inline {
@@ -34,14 +37,14 @@ body {
 .card {
   background: #ffffff;
   border: 1px solid var(--color-border);
-  border-radius: 12px;
+  border-radius: 16px;
   padding: 1.5rem;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .card:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(232, 98, 124, 0.12);
+  transform: translateY(-3px);
 }
 
 /* Button styles */
@@ -50,18 +53,20 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0.875rem 2rem;
-  background: var(--color-cta);
+  background: linear-gradient(135deg, var(--color-cta), #e8a87c);
   color: #ffffff;
   font-weight: 700;
   border-radius: 9999px;
-  transition: background 0.2s ease, transform 0.1s ease;
+  transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.3s ease;
   text-decoration: none;
   font-size: 1rem;
+  box-shadow: 0 4px 15px rgba(212, 149, 107, 0.3);
 }
 
 .btn-cta:hover {
-  background: var(--color-cta-hover);
-  transform: scale(1.02);
+  background: linear-gradient(135deg, var(--color-cta-hover), #d4956b);
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(212, 149, 107, 0.4);
 }
 
 .btn-outline {
@@ -90,5 +95,23 @@ body {
 }
 
 .section-primary-light {
-  background: var(--color-primary-light);
+  background: linear-gradient(135deg, var(--color-primary-light), #fef3e8);
+}
+
+/* Sparkle animation */
+@keyframes sparkle {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+.sparkle-dot {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+/* Fresh accent gradient text */
+.text-gradient-fresh {
+  background: linear-gradient(135deg, var(--color-primary), #c9a76c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
