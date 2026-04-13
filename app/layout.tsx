@@ -26,15 +26,15 @@ const structuredData = {
     {
       "@type": "WebSite",
       name: "ソールラボ",
-      url: "https://sole-lab.com",
+      url: "https://sole-laboratory.com",
       description:
         "ダイエットインソール徹底比較。ピットソール・ランウェイキュアソール・スリムアップインソールの口コミ・効果・料金を比較。",
     },
     {
       "@type": "Organization",
       name: "ソールラボ",
-      url: "https://sole-lab.com",
-      logo: "https://sole-lab.com/logo.png",
+      url: "https://sole-laboratory.com",
+      logo: "https://sole-laboratory.com/logo.png",
     },
   ],
 };

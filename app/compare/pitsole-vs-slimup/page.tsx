@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "ピットソールとスリムアップインソールを徹底比較。価格・効果・技術・サイズ展開・口コミの違いを表で整理し、あなたに合うダイエットインソールの選び方を解説します。",
   alternates: {
-    canonical: "https://sole-lab.com/compare/pitsole-vs-slimup/",
+    canonical: "https://sole-laboratory.com/compare/pitsole-vs-slimup/",
   },
 };
 
@@ -21,12 +21,12 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
   dateModified: "2026-04-08",

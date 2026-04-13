@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "スリムアップインソールの最安値はどこ？公式サイト・楽天・Amazon・Yahoo!ショッピングの価格比較や販売店情報をまとめました。市販では買えない理由やお得なセット購入も解説。",
   alternates: {
-    canonical: "https://sole-lab.com/slim-up-insole/price/",
+    canonical: "https://sole-laboratory.com/slim-up-insole/price/",
   },
 };
 
@@ -68,12 +68,12 @@ const articleStructuredData = {
   author: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
   dateModified: "2026-04-08",

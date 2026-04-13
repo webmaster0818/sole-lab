@@ -7,14 +7,14 @@ export const metadata: Metadata = {
   description:
     "ランウェイキュアソールとスリムアップインソールを徹底比較。価格・サイズ・機能・監修・口コミ評価まで全項目を比較表付きで解説。あなたに合うダイエットインソールが分かります。",
   alternates: {
-    canonical: "https://sole-lab.com/compare/runway-vs-slimup/",
+    canonical: "https://sole-laboratory.com/compare/runway-vs-slimup/",
   },
   openGraph: {
     title:
       "ランウェイキュアソール vs スリムアップインソール徹底比較！｜ソールラボ",
     description:
       "ランウェイキュアソールとスリムアップインソールを全項目で比較。価格・機能・口コミの違いが一目で分かる。",
-    url: "https://sole-lab.com/compare/runway-vs-slimup/",
+    url: "https://sole-laboratory.com/compare/runway-vs-slimup/",
     type: "article",
   },
 };
@@ -29,12 +29,12 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
   dateModified: "2026-04-08",

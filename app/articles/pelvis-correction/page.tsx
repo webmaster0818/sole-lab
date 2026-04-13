@@ -18,12 +18,12 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
   dateModified: "2026-04-08",

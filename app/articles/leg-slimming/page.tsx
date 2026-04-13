@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "ダイエット インソール 脚",
   ],
   alternates: {
-    canonical: "https://sole-lab.com/articles/leg-slimming/",
+    canonical: "https://sole-laboratory.com/articles/leg-slimming/",
   },
 };
 
@@ -26,12 +26,12 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
   dateModified: "2026-04-08",

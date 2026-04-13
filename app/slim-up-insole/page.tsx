@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "美容整体師・井上剛志監修のスリムアップインソールを徹底検証。実際の口コミ・評判から効果の仕組み、最安値情報、サイズ選びまで詳しく解説。悪い口コミも正直にお伝えします。",
   alternates: {
-    canonical: "https://sole-lab.com/slim-up-insole/",
+    canonical: "https://sole-laboratory.com/slim-up-insole/",
   },
 };
 
@@ -47,12 +47,12 @@ const reviewStructuredData = {
   author: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
   dateModified: "2026-04-08",

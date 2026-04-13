@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "ランウェイキュアソールの口コミ・効果を検証【美姿勢の実力】｜ソールラボ",
     description:
       "ランウェイキュアソールの口コミ・評判・効果を徹底検証。3点アーチサポートの仕組みから最安値情報まで。",
-    url: "https://sole-lab.com/runway-cure-sole/",
+    url: "https://sole-laboratory.com/runway-cure-sole/",
     type: "article",
   },
 };
@@ -25,12 +25,12 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
   dateModified: "2026-04-08",

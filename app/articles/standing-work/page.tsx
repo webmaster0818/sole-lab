@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "立ち仕事で足が疲れない最強インソールを厳選紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの特徴・選び方・疲れ軽減の仕組みを徹底解説。足が疲れにくいインソールをお探しの方必見。",
   alternates: {
-    canonical: "https://sole-lab.com/articles/standing-work",
+    canonical: "https://sole-laboratory.com/articles/standing-work",
   },
 };
 
@@ -19,12 +19,12 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
   dateModified: "2026-04-08",

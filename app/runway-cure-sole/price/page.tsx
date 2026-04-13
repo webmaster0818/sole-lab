@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       "ランウェイキュアソールの最安値・販売店情報【2026年】｜ソールラボ",
     description:
       "ランウェイキュアソールを最安値で買えるのはどこ？公式サイトのセット割引や販売チャネル別の価格比較をまとめました。",
-    url: "https://sole-lab.com/runway-cure-sole/price/",
+    url: "https://sole-laboratory.com/runway-cure-sole/price/",
     type: "article",
   },
 };
@@ -26,12 +26,12 @@ const structuredData = {
   author: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
-    url: "https://sole-lab.com",
+    url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
   dateModified: "2026-04-08",
@@ -92,19 +92,19 @@ const breadcrumbStructuredData = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://sole-lab.com/",
+      item: "https://sole-laboratory.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "ランウェイキュアソール",
-      item: "https://sole-lab.com/runway-cure-sole/",
+      item: "https://sole-laboratory.com/runway-cure-sole/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "最安値・販売店情報",
-      item: "https://sole-lab.com/runway-cure-sole/price/",
+      item: "https://sole-laboratory.com/runway-cure-sole/price/",
     },
   ],
 };
