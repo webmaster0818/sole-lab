@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -187,26 +188,11 @@ export default function PitsoleSizePage() {
           __html: JSON.stringify(breadcrumbStructuredData),
         }}
       />
+      <Breadcrumb items={[{ label: "ピットソール", href: "/pitsole/" }, { label: "サイズ選びガイド" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-pink-50 to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          {/* Breadcrumb */}
-          <nav className="text-xs text-gray-500 mb-6 flex items-center gap-1 flex-wrap">
-            <Link href="/" className="hover:text-[#e8627c] transition-colors">
-              トップ
-            </Link>
-            <span>/</span>
-            <Link
-              href="/pitsole/"
-              className="hover:text-[#e8627c] transition-colors"
-            >
-              ピットソール
-            </Link>
-            <span>/</span>
-            <span className="text-gray-900 font-medium">サイズ選び</span>
-          </nav>
-
           <p className="text-sm text-[#e8627c] font-medium mb-2">
             サイズ選び完全ガイド
           </p>

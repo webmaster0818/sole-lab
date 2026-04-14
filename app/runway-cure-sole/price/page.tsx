@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -133,29 +134,7 @@ export default function RunwayCureSolePricePage() {
       />
 
       {/* Breadcrumb */}
-      <nav
-        aria-label="パンくずリスト"
-        className="max-w-4xl mx-auto px-4 py-3 text-xs text-gray-500"
-      >
-        <ol className="flex items-center gap-1">
-          <li>
-            <Link href="/" className="hover:text-[#8b5cf6] transition-colors">
-              ホーム
-            </Link>
-          </li>
-          <li aria-hidden="true">/</li>
-          <li>
-            <Link
-              href="/runway-cure-sole/"
-              className="hover:text-[#8b5cf6] transition-colors"
-            >
-              ランウェイキュアソール
-            </Link>
-          </li>
-          <li aria-hidden="true">/</li>
-          <li className="text-gray-900 font-medium">最安値・販売店情報</li>
-        </ol>
-      </nav>
+      <Breadcrumb items={[{ label: "ランウェイキュアソール", href: "/runway-cure-sole/" }, { label: "最安値・販売店" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-purple-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">

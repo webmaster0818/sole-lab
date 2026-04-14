@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "ダイエットインソールの知識・コラム一覧",
@@ -136,17 +137,7 @@ export default function ArticlesPage() {
           __html: JSON.stringify(breadcrumbStructuredData),
         }}
       />
-
-      {/* Breadcrumb */}
-      <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-xs text-gray-500">
-          <Link href="/" className="hover:text-[#e8627c] transition-colors">
-            ホーム
-          </Link>
-          <span className="mx-1">/</span>
-          <span className="text-gray-800 font-medium">知識・コラム一覧</span>
-        </nav>
-      </div>
+      <Breadcrumb items={[{ label: "知識・コラム一覧" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-pink-50 to-white py-12 md:py-20">

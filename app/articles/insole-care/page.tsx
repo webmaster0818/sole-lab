@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -115,6 +116,7 @@ export default function InsoleCare() {
           __html: JSON.stringify(breadcrumbStructuredData),
         }}
       />
+      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "使い方・手入れ" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-pink-50 to-white py-12 md:py-20">

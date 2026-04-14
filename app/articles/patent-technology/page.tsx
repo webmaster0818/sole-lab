@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -115,6 +116,7 @@ export default function PatentTechnologyPage() {
           __html: JSON.stringify(breadcrumbStructuredData),
         }}
       />
+      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "特許技術解説" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-emerald-50 to-white py-12 md:py-20">

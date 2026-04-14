@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -197,6 +198,7 @@ export default function PitsolePage() {
           }),
         }}
       />
+      <Breadcrumb items={[{ label: "ピットソール 口コミ・効果" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-sky-50 to-white py-12 md:py-20">

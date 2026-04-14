@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -137,6 +138,7 @@ export default function PitsolePricePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
+      <Breadcrumb items={[{ label: "ピットソール", href: "/pitsole/" }, { label: "最安値・販売店" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-amber-50 to-white py-12 md:py-20">

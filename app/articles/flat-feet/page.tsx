@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -94,22 +95,7 @@ export default function FlatFeetPage() {
       />
 
       {/* Breadcrumb */}
-      <nav
-        aria-label="パンくずリスト"
-        className="max-w-4xl mx-auto px-4 py-3 text-xs text-gray-500"
-      >
-        <ol className="flex items-center gap-1">
-          <li>
-            <Link href="/" className="hover:text-[#0ea5e9] transition-colors">
-              ホーム
-            </Link>
-          </li>
-          <li aria-hidden="true">/</li>
-          <li className="text-gray-900 font-medium">
-            扁平足・浮き指にインソールは効果ある？
-          </li>
-        </ol>
-      </nav>
+      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "扁平足・浮き指" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
