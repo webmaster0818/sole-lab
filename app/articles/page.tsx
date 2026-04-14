@@ -59,6 +59,24 @@ const articles = [
     description:
       "科学的根拠をもとに期待できる効果とできない効果を正直に検証。",
   },
+  {
+    href: "/articles/insole-care/",
+    title: "インソールの正しい使い方・洗い方・寿命まとめ【長持ちさせるコツ】",
+    description:
+      "インソールの正しい装着方法から素材別の洗い方、交換時期の見極め方まで徹底解説。",
+  },
+  {
+    href: "/articles/patent-technology/",
+    title: "ダイエットインソールの特許技術を徹底解説【BMZ・各社の独自技術】",
+    description:
+      "BMZの世界特許・キュボイドバランス理論から各社の独自技術まで比較解説。",
+  },
+  {
+    href: "/articles/diet-mechanism/",
+    title: "インソールでダイエットできる仕組みを専門家視点で解説",
+    description:
+      "ダイエットインソールが体に作用するメカニズムを科学的根拠とともに解説。",
+  },
 ];
 
 const collectionStructuredData = {
