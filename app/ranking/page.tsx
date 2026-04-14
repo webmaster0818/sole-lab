@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     "【2026年最新】ダイエットインソールおすすめ3選を徹底比較！効果・口コミ・料金まで",
   description:
     "2026年最新版。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で徹底比較。特許技術・料金・口コミ・サイズ展開まで、あなたに合ったダイエットインソールが見つかります。",
+  alternates: {
+    canonical: "https://sole-laboratory.com/ranking/",
+  },
 };
 
 const structuredData = {

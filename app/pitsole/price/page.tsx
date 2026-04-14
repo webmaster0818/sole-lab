@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     "ピットソールの最安値は？どこで買える？販売店比較【2026年】｜ソールラボ",
   description:
     "ピットソール(Pitsole)の最安値・販売店を徹底比較。公式サイト・楽天・Amazonの価格差、セット割引の詳細、偽物リスクまで解説。最安は3足セットで実質1足4,934円。",
+  alternates: {
+    canonical: "https://sole-laboratory.com/pitsole/price/",
+  },
 };
 
 const structuredData = {

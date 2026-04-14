@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     "ダイエットインソールは嘘？効果の科学的根拠を検証",
   description:
     "「履くだけで痩せる」ダイエットインソールは本当に効果があるのか？科学的根拠をもとに期待できる効果とできない効果を正直に検証。正しい使い方やおすすめ商品も紹介。",
+  alternates: {
+    canonical: "https://sole-laboratory.com/articles/insole-truth/",
+  },
 };
 
 const structuredData = {
@@ -590,6 +593,26 @@ export default function InsoleTruthPage() {
               className="inline-block bg-white hover:bg-gray-50 text-emerald-600 border border-emerald-600 font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base text-center"
             >
               歩くだけダイエットの記事を読む
+            </Link>
+          </div>
+        </div>
+      </section>
+      {/* 関連記事 */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/articles/how-to-choose/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールの選び方5つのポイント【失敗しない】</p>
+            </Link>
+            <Link href="/articles/walking-diet/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">歩くだけダイエットは本当に効果ある？インソールで効率UP</p>
+            </Link>
+            <Link href="/articles/pelvis-correction/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">骨盤矯正インソールの効果を科学的に解説</p>
+            </Link>
+            <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50">
+              <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>
             </Link>
           </div>
         </div>

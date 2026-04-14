@@ -148,6 +148,19 @@ export default function SlimUpInsolePage() {
           __html: JSON.stringify(faqStructuredData),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "トップ", "item": "https://sole-laboratory.com/" },
+              { "@type": "ListItem", "position": 2, "name": "スリムアップインソールの口コミ・効果を検証", "item": "https://sole-laboratory.com/slim-up-insole/" }
+            ]
+          }),
+        }}
+      />
 
       {/* Breadcrumb */}
       <nav

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     "ピットソール vs ランウェイキュアソール徹底比較！どっちがおすすめ？",
   description:
     "ピットソールとランウェイキュアソールを料金・サイズ・特許技術・口コミで徹底比較。世界特許のBMZ社ピットソールと3点アーチのランウェイキュアソール、あなたに合うのはどっち？",
+  alternates: {
+    canonical: "https://sole-laboratory.com/compare/pitsole-vs-runway/",
+  },
 };
 
 const structuredData = {

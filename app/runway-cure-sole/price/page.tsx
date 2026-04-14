@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     "ランウェイキュアソールの最安値・販売店情報【2026年】｜ソールラボ",
   description:
     "ランウェイキュアソール（Runway Cure Sole）の最安値・販売店情報を徹底調査。FLOReショップ公式サイトの価格、セット割引、楽天・Amazonの取り扱い状況、購入前の注意点まで詳しく解説します。",
+  alternates: {
+    canonical: "https://sole-laboratory.com/runway-cure-sole/price/",
+  },
   openGraph: {
     title:
       "ランウェイキュアソールの最安値・販売店情報【2026年】｜ソールラボ",

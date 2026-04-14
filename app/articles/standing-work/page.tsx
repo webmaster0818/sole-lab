@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "立ち仕事で足が疲れない最強インソールを厳選紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの特徴・選び方・疲れ軽減の仕組みを徹底解説。足が疲れにくいインソールをお探しの方必見。",
   alternates: {
-    canonical: "https://sole-laboratory.com/articles/standing-work",
+    canonical: "https://sole-laboratory.com/articles/standing-work/",
   },
 };
 
@@ -652,6 +652,26 @@ export default function StandingWorkPage() {
           </div>
         </section>
       </article>
+      {/* 関連記事 */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/articles/flat-feet/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">扁平足・浮き指にインソールは効果ある？おすすめ3選</p>
+            </Link>
+            <Link href="/articles/how-to-choose/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールの選び方5つのポイント【失敗しない】</p>
+            </Link>
+            <Link href="/articles/leg-slimming/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">脚痩せしたい人のインソール選び完全ガイド</p>
+            </Link>
+            <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50">
+              <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

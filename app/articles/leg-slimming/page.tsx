@@ -721,6 +721,26 @@ export default function LegSlimmingArticlePage() {
           </div>
         </div>
       </section>
+      {/* 関連記事 */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/articles/walking-diet/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">歩くだけダイエットは本当に効果ある？インソールで効率UP</p>
+            </Link>
+            <Link href="/articles/pelvis-correction/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">骨盤矯正インソールの効果を科学的に解説</p>
+            </Link>
+            <Link href="/articles/insole-truth/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールは嘘？効果の科学的根拠を検証</p>
+            </Link>
+            <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50">
+              <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     "ランウェイキュアソールの口コミ・効果を検証【美姿勢の実力】",
   description:
     "ランウェイキュアソール（Runway Cure Sole）の口コミ・評判・効果を徹底検証。足裏3点アーチサポートによる美姿勢の仕組み、メリット・デメリット、最安値情報、サイズ選びまで詳しく解説します。",
+  alternates: {
+    canonical: "https://sole-laboratory.com/runway-cure-sole/",
+  },
   openGraph: {
     title: "ランウェイキュアソールの口コミ・効果を検証【美姿勢の実力】｜ソールラボ",
     description:
@@ -197,6 +200,19 @@ export default function RunwayCureSolePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(faqStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "トップ", "item": "https://sole-laboratory.com/" },
+              { "@type": "ListItem", "position": 2, "name": "ランウェイキュアソールの口コミ・効果を検証", "item": "https://sole-laboratory.com/runway-cure-sole/" }
+            ]
+          }),
         }}
       />
 

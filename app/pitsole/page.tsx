@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     "ピットソールの口コミ・効果を徹底検証【累計200万足の実力】",
   description:
     "ピットソール(Pitsole)の口コミ・評判を徹底調査。悪い口コミ「痩せない」の真相、効果の仕組み、最安値情報、偽物の見分け方まで。ダイエットカフェ評価2.7/5の実態を正直にレビュー。",
+  alternates: {
+    canonical: "https://sole-laboratory.com/pitsole/",
+  },
 };
 
 const structuredData = {
@@ -174,6 +177,19 @@ export default function PitsolePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "トップ", "item": "https://sole-laboratory.com/" },
+              { "@type": "ListItem", "position": 2, "name": "ピットソールの口コミ・効果を徹底検証", "item": "https://sole-laboratory.com/pitsole/" }
+            ]
+          }),
+        }}
       />
 
       {/* Hero */}

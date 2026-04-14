@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "ダイエットインソール比較｜人気3商品の口コミ・効果・最安値を徹底比較【2026年】",
+  description: "ダイエットインソール3商品（ピットソール・ランウェイキュアソール・スリムアップインソール）の口コミ・効果・料金を徹底比較。あなたにぴったりのダイエットインソールが見つかるレビューサイトです。",
+  alternates: {
+    canonical: "https://sole-laboratory.com/",
+  },
+};
 
 const products = [
   {
@@ -87,9 +96,26 @@ const faqs = [
   },
 ];
 
+const faqStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer,
+    },
+  })),
+};
+
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+      />
       {/* Hero */}
       <section className="relative overflow-hidden py-20 md:py-28">
         <div className="absolute inset-0 bg-gradient-to-br from-[#fdf2f4] via-[#fef3e8] to-[#f0fdf4]" />
