@@ -6,6 +6,12 @@ export const metadata: Metadata = {
     "ピットソールの口コミ・効果を徹底検証【累計200万足の実力】",
   description:
     "ピットソール(Pitsole)の口コミ・評判を徹底調査。悪い口コミ「痩せない」の真相、効果の仕組み、最安値情報、偽物の見分け方まで。ダイエットカフェ評価2.7/5の実態を正直にレビュー。",
+  openGraph: {
+    title: "ピットソールの口コミ・効果を徹底検証【累計200万足の実力】｜ソールラボ",
+    description: "ピットソール(Pitsole)の口コミ・評判を徹底調査。悪い口コミ「痩せない」の真相から最安値情報まで。",
+    url: "https://sole-laboratory.com/pitsole/",
+    type: "article",
+  },
   alternates: {
     canonical: "https://sole-laboratory.com/pitsole/",
   },
@@ -994,6 +1000,35 @@ export default function PitsolePage() {
                 他のインソールと比較する
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 関連ページ */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-6">ピットソール関連ページ</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/pitsole/size/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソールのサイズ選び完全ガイド</p>
+              <p className="text-xs text-gray-500 mt-1">失敗しない切り方も解説</p>
+            </Link>
+            <Link href="/pitsole/price/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソールの最安値・販売店まとめ</p>
+              <p className="text-xs text-gray-500 mt-1">公式・楽天・Amazonを徹底比較</p>
+            </Link>
+            <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソール vs ランウェイ比較</p>
+              <p className="text-xs text-gray-500 mt-1">どちらが自分に合う？違いを解説</p>
+            </Link>
+            <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソール vs スリムアップ比較</p>
+              <p className="text-xs text-gray-500 mt-1">効果・価格・口コミで徹底比較</p>
+            </Link>
+            <Link href="/ranking/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors md:col-span-2">
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめランキング</p>
+              <p className="text-xs text-gray-500 mt-1">人気インソールを比較して選ぶ</p>
+            </Link>
           </div>
         </div>
       </section>
