@@ -606,6 +606,31 @@ export default function SwellingInsolePage() {
         </div>
       </section>
 
+      {/* 足底内在筋トレーニング */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
+            足底内在筋を鍛えてむくみを根本改善
+          </h3>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            むくみの根本的な改善には、インソールの使用に加えて足底内在筋のトレーニングが効果的です。インソールで正しい足の使い方をサポートしつつ、筋力強化で根本改善を目指しましょう。
+          </p>
+          <div className="space-y-3 mb-4">
+            <div className="bg-white p-4 rounded-lg border border-gray-200">
+              <h4 className="font-bold text-gray-800 mb-1">タオルギャザー運動</h4>
+              <p className="text-gray-700 text-sm">床に広げたタオルを足指でつかんで引き寄せる運動です。毎日3セット行うことで、足底の筋力が強化され、血流の改善につながります。</p>
+            </div>
+            <div className="bg-white p-4 rounded-lg border border-gray-200">
+              <h4 className="font-bold text-gray-800 mb-1">足首回し運動</h4>
+              <p className="text-gray-700 text-sm">足首をゆっくり大きく回すことで、ふくらはぎの筋ポンプ機能を促進します。座ったままできるので、デスクワーク中にもおすすめです。</p>
+            </div>
+          </div>
+          <p className="text-gray-600 text-sm bg-blue-50 p-3 rounded-lg">
+            インソールで正しい足の使い方をサポートしつつ、これらのトレーニングで筋力を強化することで、むくみの根本改善が期待できます。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">

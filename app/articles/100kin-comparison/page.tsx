@@ -759,6 +759,35 @@ export default function HyakkinComparisonPage() {
         </div>
       </section>
 
+      {/* 100均インソールがダイエットに向かない理由 */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
+            100均インソールがダイエットに向かない3つの科学的理由
+          </h3>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            100均インソールは手軽に試せる反面、ダイエット目的での使用には科学的な限界があります。以下の3つの理由を理解した上で、目的に合った選択をしましょう。
+          </p>
+          <ul className="space-y-3 text-gray-700 mb-4">
+            <li className="flex items-start">
+              <span className="text-red-500 mr-2 mt-1 flex-shrink-0">✕</span>
+              <span><strong>素材がEVAフォーム→数週間でへたる：</strong>ダイエット用インソールは3〜6ヶ月の持続力が求められますが、100均の素材は早期に弾力を失い、サポート機能が低下します。</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-red-500 mr-2 mt-1 flex-shrink-0">✕</span>
+              <span><strong>アーチサポートが浅い→筋肉活性化効果が限定的：</strong>足裏のアーチを適切に支えないため、姿勢改善や筋活動の変化といったダイエット効果が十分に得られません。</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-red-500 mr-2 mt-1 flex-shrink-0">✕</span>
+              <span><strong>特許技術がない→骨格矯正の精度が低い：</strong>専用インソールに搭載される特許技術による骨格矯正と比べ、100均製品では精度の高い補正が期待できません。</span>
+            </li>
+          </ul>
+          <p className="text-gray-600 text-sm bg-blue-50 p-3 rounded-lg">
+            ただし「足の疲労軽減」や「快適性」の向上には100均インソールでも一定の効果があります。目的に応じて使い分けることが大切です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">

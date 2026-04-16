@@ -645,6 +645,35 @@ export default function OLegInsolePage() {
         </div>
       </section>
 
+      {/* O脚の程度別インソール効果 */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
+            O脚の程度別インソール効果の期待度
+          </h3>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            O脚の程度によって、インソールに期待できる効果は異なります。自分の状態を確認し、適切な対策を選びましょう。
+          </p>
+          <div className="space-y-3 mb-4">
+            <div className="bg-green-50 p-4 rounded-lg">
+              <h4 className="font-bold text-green-800 mb-1">軽度O脚（膝の隙間が指2本程度）</h4>
+              <p className="text-gray-700 text-sm">インソール＋ストレッチで改善が大いに期待できます。日常的な使用で徐々に脚のラインが整っていくでしょう。</p>
+            </div>
+            <div className="bg-yellow-50 p-4 rounded-lg">
+              <h4 className="font-bold text-yellow-800 mb-1">中度O脚（膝の隙間が指3〜4本）</h4>
+              <p className="text-gray-700 text-sm">インソール＋運動療法の併用を推奨します。インソールだけでなく、筋力トレーニングやストレッチを組み合わせることが重要です。</p>
+            </div>
+            <div className="bg-red-50 p-4 rounded-lg">
+              <h4 className="font-bold text-red-800 mb-1">重度O脚</h4>
+              <p className="text-gray-700 text-sm">整形外科の受診を優先してください。インソールは補助的な役割にとどまり、専門的な治療が必要です。</p>
+            </div>
+          </div>
+          <p className="text-gray-600 text-sm bg-blue-50 p-3 rounded-lg">
+            いずれの程度でも、かかとの安定感とアーチサポートの両方があるインソールを選ぶことが重要です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">

@@ -746,6 +746,32 @@ export default function PitsoleNotWorkingPage() {
         </div>
       </section>
 
+      {/* ダイエットカフェ口コミ分析 */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-6">
+            ダイエットカフェの口コミ分析：痩せた12件 vs 痩せなかった26件
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            ダイエットカフェに寄せられたピットソールの口コミ38件を分析したところ、<strong>痩せたと報告したのは12件（約31%）</strong>、痩せなかったと報告したのは26件という結果でした。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-white rounded-lg p-4 border border-green-200">
+              <h4 className="font-bold text-green-700 mb-2">痩せた人の共通点</h4>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                3ヶ月以上継続して使用し、毎日1万歩以上歩いている方が多く見られました。インソールを入れるだけでなく、積極的にウォーキングを取り入れていたことが成功のポイントです。
+              </p>
+            </div>
+            <div className="bg-white rounded-lg p-4 border border-red-200">
+              <h4 className="font-bold text-red-700 mb-2">痩せなかった人の共通点</h4>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                1ヶ月未満で使用をやめてしまった方や、日常の歩行量が少ない方が大半でした。ピットソールは即効性のあるダイエット器具ではなく、継続的な歩行と組み合わせることで効果を発揮する設計です。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">

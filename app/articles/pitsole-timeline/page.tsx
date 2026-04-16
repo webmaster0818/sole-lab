@@ -599,6 +599,24 @@ export default function PitsoleTimelinePage() {
         </div>
       </section>
 
+      {/* 3ヶ月体験レビュー検証 */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-6">
+            3ヶ月間の体験レビュー検証結果
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            実際のレビュー事例では、<strong>半年間の継続使用で-2.2kgを達成</strong>したという報告があります。3ヶ月間のレビューでは、姿勢改善は比較的早期に実感できるものの、体重変化は緩やかに進む傾向が確認されています。
+          </p>
+          <div className="bg-white rounded-lg p-4 border border-amber-200">
+            <h4 className="font-bold text-amber-700 mb-2">効果が出にくい人の特徴</h4>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              デスクワーク中心で日常の歩行量が少ない方は、ピットソールの効果を実感しにくい傾向があります。ピットソールは歩行時の筋肉活動量を増やす設計のため、意識的にウォーキングの時間を確保することが重要です。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">

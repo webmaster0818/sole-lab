@@ -638,6 +638,32 @@ export default function PostpartumInsolePage() {
         </div>
       </section>
 
+      {/* 産後の靴選びとインソール */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
+            産後の靴選びとインソールの相性
+          </h3>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            産後は足のサイズが変わることがあります。浮腫みや靭帯の緩みにより、妊娠前より0.5〜1サイズ大きくなるケースも珍しくありません。靴選びとインソールの組み合わせを意識しましょう。
+          </p>
+          <ul className="space-y-3 text-gray-700 mb-4">
+            <li className="flex items-start">
+              <span className="text-blue-500 mr-2 mt-1 flex-shrink-0">●</span>
+              <span><strong>スニーカー＋インソールが最も安全な組み合わせ：</strong>足全体をしっかり支えられるスニーカーにインソールを入れることで、産後の不安定な足をサポートします。</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-blue-500 mr-2 mt-1 flex-shrink-0">●</span>
+              <span><strong>ヒールのある靴は産後3〜6ヶ月は避けるのが無難：</strong>靭帯が緩んだ状態でヒールを履くと、足首の捻挫や膝への負担が増加するリスクがあります。</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-blue-500 mr-2 mt-1 flex-shrink-0">●</span>
+              <span><strong>骨盤ベルトとインソールの併用で相乗効果：</strong>骨盤ベルトで上半身の安定を、インソールで下半身の安定をサポートすることで、全身のバランス改善が期待できます。</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">

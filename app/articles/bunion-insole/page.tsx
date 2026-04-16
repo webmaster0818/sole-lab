@@ -618,6 +618,35 @@ export default function BunionInsolePage() {
         </div>
       </section>
 
+      {/* 外反母趾の進行度とインソール対応 */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
+            外反母趾の進行度とインソール対応の目安
+          </h3>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            外反母趾の角度（HV角）によって、適切なインソールの選び方が変わります。進行度に合わせた対応を確認しましょう。
+          </p>
+          <div className="space-y-3 mb-4">
+            <div className="bg-green-50 p-4 rounded-lg">
+              <h4 className="font-bold text-green-800 mb-1">軽度（15〜20度）</h4>
+              <p className="text-gray-700 text-sm">アーチサポートインソールで悪化防止と痛みの軽減が期待できます。早期のケアが進行予防に効果的です。</p>
+            </div>
+            <div className="bg-yellow-50 p-4 rounded-lg">
+              <h4 className="font-bold text-yellow-800 mb-1">中度（20〜40度）</h4>
+              <p className="text-gray-700 text-sm">外反母趾専用インソールの使用を推奨します。ダイエットインソールは要注意で、特にランウェイキュアソールの3点アーチが親指付け根に当たる場合があります。</p>
+            </div>
+            <div className="bg-red-50 p-4 rounded-lg">
+              <h4 className="font-bold text-red-800 mb-1">重度（40度以上）</h4>
+              <p className="text-gray-700 text-sm">医療機関でのオーダーメイドインソールを推奨します。市販品では十分な矯正力が得られない場合があります。</p>
+            </div>
+          </div>
+          <p className="text-gray-600 text-sm bg-blue-50 p-3 rounded-lg">
+            「ゲル素材のクロスラインが親指を広げ、摩擦と痛みを軽減する」タイプのインソールが外反母趾には特に効果的です。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">

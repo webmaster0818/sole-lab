@@ -652,6 +652,24 @@ export default function SlimupGuidePage() {
         </div>
       </section>
 
+      {/* アーチプッシュアップ構造 */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-6">
+            井上剛志監修のアーチプッシュアップ構造とは
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            スリムアップインソールは、土踏まず部分を持ち上げる<strong>「アーチプッシュアップ」構造</strong>を採用しています。この構造により骨格筋をサポートし、正しい歩行姿勢へと導きます。
+          </p>
+          <div className="bg-white rounded-lg p-4 border border-orange-200">
+            <h4 className="font-bold text-orange-700 mb-2">カットしてサイズ調整する際の注意点</h4>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              靴に元々入っているインソールよりスリムアップインソールの方が大きい場合があります。カットする際は一度に大きく切らず、少しずつ調整しながらフィット感を確認してください。切りすぎると元に戻せないため、慎重に進めましょう。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">

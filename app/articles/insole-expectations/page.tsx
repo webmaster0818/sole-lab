@@ -660,6 +660,38 @@ export default function InsoleExpectationsPage() {
         </div>
       </section>
 
+      {/* 義肢装具士の見解 */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
+            義肢装具士の見解：インソールでできること・できないこと
+          </h3>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            専門家（義肢装具士）の見解として、インソール単体で大幅な体重減少を実現するのは難しいとされています。インソールの効果を正しく理解しましょう。
+          </p>
+          <div className="grid md:grid-cols-2 gap-4 mb-4">
+            <div className="bg-green-50 p-4 rounded-lg">
+              <h4 className="font-bold text-green-800 mb-2">できること</h4>
+              <ul className="text-gray-700 space-y-1 text-sm">
+                <li>・姿勢改善による身体バランスの向上</li>
+                <li>・筋活動の変化（使われにくい筋肉の活性化）</li>
+                <li>・歩行効率の向上による運動量の増加</li>
+              </ul>
+            </div>
+            <div className="bg-red-50 p-4 rounded-lg">
+              <h4 className="font-bold text-red-800 mb-2">できないこと</h4>
+              <ul className="text-gray-700 space-y-1 text-sm">
+                <li>・脂肪燃焼の直接的な促進</li>
+                <li>・食事制限の代替</li>
+              </ul>
+            </div>
+          </div>
+          <p className="text-gray-600 text-sm bg-yellow-50 p-3 rounded-lg">
+            プラシーボ効果の可能性も指摘されていますが、インソールの使用が健康的な生活習慣のきっかけになるのであれば、それ自体が有益であるといえます。
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">

@@ -675,6 +675,24 @@ export default function RunwaySizeGuidePage() {
         </div>
       </section>
 
+      {/* 30日間サイズ交換保証 */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-6">
+            30日間サイズ交換保証の活用方法
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            公式サイトで<strong>3足セット以上を購入すると、30日間のサイズ交換保証</strong>が付きます。ランウェイキュアソールはサイズ展開がM（22.5-23.5cm）とL（24.0-25.0cm）の2種類のみのため、選択ミスのリスクが高く、この保証の活用を強くおすすめします。
+          </p>
+          <div className="bg-white rounded-lg p-4 border border-purple-200">
+            <h4 className="font-bold text-purple-700 mb-2">外反母趾の方へのアドバイス</h4>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              外反母趾の方は、最初から長時間使用せず短時間から慣らしていくことが大切です。実際の利用者からは「数日で慣れた」との声も多く寄せられています。違和感が続く場合はサイズ交換保証を利用しましょう。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">

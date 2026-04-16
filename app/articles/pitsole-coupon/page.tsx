@@ -691,6 +691,32 @@ export default function PitsoleCouponPage() {
         </div>
       </section>
 
+      {/* Amazonタイムセール活用法 */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-6">
+            Amazonタイムセールの活用法
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            Amazonの特選タイムセールでは、ピットソールが<strong>25%OFF</strong>になるチャンスがあります。タイムセールは不定期開催のため、事前にウォッチリストに登録しておくと通知を受け取れます。
+          </p>
+          <div className="space-y-4">
+            <div className="bg-white rounded-lg p-4 border border-yellow-200">
+              <h4 className="font-bold text-yellow-700 mb-2">実店舗での購入</h4>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                ドン・キホーテの一部店舗でもピットソールが販売されており、実店舗で購入できる唯一のルートです。ただし取り扱い店舗は限られるため、事前に在庫確認することをおすすめします。
+              </p>
+            </div>
+            <div className="bg-white rounded-lg p-4 border border-green-200">
+              <h4 className="font-bold text-green-700 mb-2">最安値は公式3足セット</h4>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                公式サイトの3足セット購入で+1足プレゼント、合計4足で18,117円（税込）。1足あたり約4,529円が現時点での最安値です。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">

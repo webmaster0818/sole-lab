@@ -644,6 +644,24 @@ export default function PitsoleMensPage() {
         </div>
       </section>
 
+      {/* XLサイズ対応 */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-6">
+            XLサイズ（28-29cm）の対応について
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            2026年時点で、ピットソールには<strong>XLサイズ（28-29cm）が追加</strong>されています。これまで足のサイズが27.5cmを超える男性はLサイズでは対応しきれないケースがありましたが、XLサイズの登場により幅広い足サイズに対応可能になりました。
+          </p>
+          <div className="bg-white rounded-lg p-4 border border-blue-200">
+            <h4 className="font-bold text-blue-700 mb-2">ビジネスシューズでの使用ポイント</h4>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              ビジネスシューズは靴自体が大きめに作られていることが多いため、足のサイズが28cm前後の方でもLサイズで十分入るケースがあります。まずはLサイズで試し、窮屈に感じる場合はXLサイズを検討するのがおすすめです。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
