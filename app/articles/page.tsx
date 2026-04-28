@@ -78,6 +78,54 @@ const articles = [
     description:
       "ダイエットインソールが体に作用するメカニズムを科学的根拠とともに解説。",
   },
+  {
+    href: "/articles/runway-not-working/",
+    title: "ランウェイキュアソールは痩せない？効果の真相と正しい期待値",
+    description:
+      "ランウェイキュアソールの痩せない原因を分析し、効果を最大化する使い方を解説。",
+  },
+  {
+    href: "/articles/runway-coupon/",
+    title: "ランウェイキュアソールのクーポン・キャンペーン情報【2026年最新】",
+    description:
+      "ランウェイキュアソールを最安値で購入する方法。セット割引・ポイント活用法を解説。",
+  },
+  {
+    href: "/articles/slimup-not-working/",
+    title: "スリムアップインソールは痩せない？口コミから効果を検証",
+    description:
+      "スリムアップインソールの痩せない原因を分析し、正しい使い方を解説。",
+  },
+  {
+    href: "/articles/slimup-coupon/",
+    title: "スリムアップインソールの最安値・キャンペーン情報【2026年最新】",
+    description:
+      "スリムアップインソールを最安値で購入する方法。セット割引・購入先比較を解説。",
+  },
+  {
+    href: "/articles/desk-work/",
+    title: "デスクワークの足の疲れにインソールは効果ある？おすすめと対策",
+    description:
+      "デスクワーク中心の方のインソール活用法と足の疲れ・むくみ対策を解説。",
+  },
+  {
+    href: "/articles/walking-insole/",
+    title: "ウォーキング用インソールおすすめ3選｜歩きやすさと痩せ効果",
+    description:
+      "ウォーキングに最適なダイエットインソール3選。歩きやすさと痩せ効果を両立する選び方。",
+  },
+  {
+    href: "/articles/mens-diet-insole/",
+    title: "ダイエットインソール男性向けおすすめ3選｜メンズの選び方ガイド",
+    description:
+      "男性向けダイエットインソールの選び方。サイズ対応・ビジネスシューズとの相性を解説。",
+  },
+  {
+    href: "/articles/cheap-insole/",
+    title: "ダイエットインソールの安いおすすめ比較｜コスパ重視で選ぶ",
+    description:
+      "ダイエットインソールをコスパ重視で比較。セット割引・1足あたり価格ランキング。",
+  },
 ];
 
 const collectionStructuredData = {

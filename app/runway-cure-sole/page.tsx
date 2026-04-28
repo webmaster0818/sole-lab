@@ -818,34 +818,28 @@ export default function RunwayCureSolePage() {
         </div>
       </section>
 
-      {/* Related Articles */}
-      <section className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-xl font-bold text-gray-900 mb-6">
-          関連記事
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link
-            href="/ranking/"
-            className="block border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors"
-          >
-            <p className="text-sm font-bold text-gray-900 mb-1">
-              ダイエットインソールおすすめ3選を徹底比較
-            </p>
-            <p className="text-xs text-gray-500">
-              ピットソール・ランウェイキュアソール・スリムアップインソールを比較
-            </p>
-          </Link>
-          <Link
-            href="/pitsole/"
-            className="block border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors"
-          >
-            <p className="text-sm font-bold text-gray-900 mb-1">
-              ピットソールの口コミ・効果を徹底検証
-            </p>
-            <p className="text-xs text-gray-500">
-              世界特許取得の骨格矯正インソールの実力を検証
-            </p>
-          </Link>
+      {/* 関連ページ */}
+      <section className="py-8">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <Link href="/articles/runway-not-working/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールは痩せない？効果の真相</p>
+              <p className="text-xs text-gray-500 mt-1">痩せない原因を分析し、正しい期待値を解説</p>
+            </Link>
+            <Link href="/articles/runway-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのクーポン・キャンペーン情報</p>
+              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を徹底解説</p>
+            </Link>
+            <Link href="/articles/runway-size-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのサイズ選びガイド</p>
+              <p className="text-xs text-gray-500 mt-1">外反母趾でも使える？サイズ別フィッティング解説</p>
+            </Link>
+            <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
+            </Link>
+          </div>
         </div>
       </section>
     </>

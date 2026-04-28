@@ -1019,6 +1019,31 @@ export default function SlimUpInsolePage() {
         </div>
       </section>
 
+      {/* 関連ページ */}
+      <section className="py-8">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <Link href="/articles/slimup-not-working/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">スリムアップインソールは痩せない？口コミから検証</p>
+              <p className="text-xs text-gray-500 mt-1">痩せない原因を分析し、効果を最大化する使い方を解説</p>
+            </Link>
+            <Link href="/articles/slimup-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">スリムアップインソールの最安値・キャンペーン情報</p>
+              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を徹底解説</p>
+            </Link>
+            <Link href="/articles/slimup-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">スリムアップインソールのサイズ選び・使い方ガイド</p>
+              <p className="text-xs text-gray-500 mt-1">フリーサイズのカット方法と効果的な使い方を解説</p>
+            </Link>
+            <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-gradient-to-b from-emerald-50 to-white py-12 md:py-16 mb-8">
         <div className="max-w-3xl mx-auto px-4 text-center">
