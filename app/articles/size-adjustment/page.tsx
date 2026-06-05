@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールのサイズ調整方法｜自分でカットするコツと失敗しない手順",
   description: "インソールのサイズ調整方法を解説。自分でカットするコツ・失敗しない手順を紹介。",
-  author: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",

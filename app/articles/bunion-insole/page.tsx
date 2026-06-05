@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title:
@@ -22,16 +23,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "外反母趾にインソールは効果ある？痛みを軽減するおすすめと注意点",
   description:
     "外反母趾の原因・症状を解説し、インソールによる改善メカニズム・おすすめ商品・選び方・受診目安をまとめたガイド。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -159,6 +156,18 @@ export default function BunionInsolePage() {
           </div>
         </div>
       </section>
+
+      {/* AI Overviews 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>外反母趾にインソールは有効ですが、進行度により効果が異なります。HV角35°未満（軽度〜中度）では58.3%に痛みの軽減効果が報告されていますが、35°以上（重度）では18.8%にとどまります。早期からのインソール使用が重要です。</p>
+        </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <MedicalDisclaimer />
+      </div>
 
       {/* 外反母趾とは */}
       <section className="py-12 md:py-16">

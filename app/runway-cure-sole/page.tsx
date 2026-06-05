@@ -21,16 +21,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "ランウェイキュアソールの口コミ・効果を検証【美姿勢の実力】",
   description:
     "ランウェイキュアソールの口コミ・評判・効果を徹底検証。足裏3点アーチサポートによる美姿勢の仕組み、メリット・デメリット、最安値情報まで。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -216,6 +212,30 @@ export default function RunwayCureSolePage() {
           }),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "ランウェイキュアソール (Runway Cure Sole)",
+            "description": "3点アーチサポートによる美姿勢インソール。歩行姿勢の改善で疲れにくい足元をサポート。",
+            "brand": { "@type": "Brand", "name": "Runway Cure Sole" },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "3.6",
+              "reviewCount": "380",
+              "bestRating": "5"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "7678",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock"
+            }
+          }),
+        }}
+      />
 
       {/* Breadcrumb */}
       <Breadcrumb items={[{ label: "ランウェイキュアソール 口コミ・効果" }]} />
@@ -238,6 +258,14 @@ export default function RunwayCureSolePage() {
           </p>
         </div>
       </section>
+
+      {/* AI Overviews 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>ランウェイキュアソールは3点アーチサポートで美姿勢を促すインソールです。即効的なダイエット効果は期待できませんが、姿勢改善・歩行バランスの向上による体の使い方の改善が多くの口コミで報告されています。</p>
+        </div>
+      </div>
 
       {/* Table of Contents */}
       <section className="max-w-4xl mx-auto px-4 mb-12">

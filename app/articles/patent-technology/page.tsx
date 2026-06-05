@@ -14,16 +14,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "ダイエットインソールの特許技術を徹底解説【BMZ・各社の独自技術】",
   description:
     "ダイエットインソールの特許技術を比較解説。BMZのキュボイドバランス理論・CCLP理論（世界特許）、3点アーチサポート、整体師監修設計を徹底比較。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

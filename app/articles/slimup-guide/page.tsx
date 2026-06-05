@@ -22,16 +22,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "スリムアップインソールのサイズ選び・痩せる使い方ガイド",
   description:
     "スリムアップインソールのサイズ展開・使い方・他社との違いを解説。コスパ最強インソールの活用法。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

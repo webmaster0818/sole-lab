@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title:
@@ -14,16 +15,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "骨盤矯正インソールの効果を科学的に解説",
   description:
     "骨盤の歪みの原因とインソールによる矯正メカニズムを科学的に解説。選び方・おすすめ商品・効果を高める習慣まで網羅。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -117,6 +114,10 @@ export default function PelvisCorrectionPage() {
           </p>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <MedicalDisclaimer />
+      </div>
 
       {/* Table of Contents */}
       <section className="max-w-4xl mx-auto px-4 mb-12">

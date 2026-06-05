@@ -22,16 +22,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "ランウェイキュアソールの最安値・販売店情報【2026年】",
   description:
     "ランウェイキュアソールの最安値・販売店情報を徹底調査。公式サイトのセット割引から楽天・Amazonの取り扱い状況まで。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

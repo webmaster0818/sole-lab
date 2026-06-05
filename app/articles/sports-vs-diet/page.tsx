@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { title: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方", description: "スポーツインソールとダイエットインソールの違いを徹底比較。目的に合った選び方を解説。", url: "https://sole-laboratory.com/articles/sports-vs-diet/", type: "article" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方", description: "スポーツインソールとダイエットインソールの違いを徹底比較。目的に合った選び方を解説。", author: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方", description: "スポーツインソールとダイエットインソールの違いを徹底比較。目的に合った選び方を解説。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
 
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "スポーツインソールとダイエットインソールの一番の違いは何ですか？", acceptedAnswer: { "@type": "Answer", text: "最大の違いは設計目的です。スポーツインソールは運動時のパフォーマンス向上と怪我予防を目的とし、衝撃吸収と安定性に特化しています。ダイエットインソールは日常歩行での正しい姿勢と筋肉活性化を目的とし、カロリー消費の向上や体型改善に焦点を当てています。" } },

@@ -20,16 +20,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "ピットソールの口コミ・効果を徹底検証【累計200万足の実力】",
   description:
     "ピットソール(Pitsole)の口コミ・評判を徹底調査。悪い口コミ・良い口コミの両面から効果を検証し、最安値情報や偽物の見分け方まで解説。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -73,6 +69,22 @@ const faqStructuredData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "スニーカー、ウォーキングシューズ、ビジネスシューズなど、インソールが取り外せるタイプの靴であれば使用可能です。パンプスやヒールは靴内の余裕が少ないため、窮屈に感じる場合があります。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "男性でも使えますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "はい。XS〜Lサイズ（21〜27.5cm）の展開があり、男女兼用です。Lサイズ（26.5〜27.5cm）が標準的な男性サイズに対応しています。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "洗えますか？お手入れ方法は？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "水洗いは推奨されていません。使用後は陰干しで乾燥させ、除菌スプレーなどでケアするのがおすすめです。耐久目安は約3〜6ヶ月で、へたりを感じたら交換時期です。",
       },
     },
     {
@@ -198,6 +210,30 @@ export default function PitsolePage() {
           }),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "ピットソール (Pitsole)",
+            "description": "世界特許取得技術採用のダイエットサポートインソール。足裏アーチサポートで姿勢改善・歩行効率向上。",
+            "brand": { "@type": "Brand", "name": "BACCHUS" },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "3.8",
+              "reviewCount": "1250",
+              "bestRating": "5"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "6578",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock"
+            }
+          }),
+        }}
+      />
       <Breadcrumb items={[{ label: "ピットソール 口コミ・効果" }]} />
 
       {/* Hero */}
@@ -231,6 +267,14 @@ export default function PitsolePage() {
           </div>
         </div>
       </section>
+
+      {/* AI Overviews 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>ピットソールは「履くだけで劇的に痩せる」商品ではありませんが、足裏アーチサポートによる姿勢改善・歩行効率の向上を通じて、ダイエットをサポートするインソールです。臨床試験では3ヶ月使用で39人中35人が体重減少という結果が報告されています。</p>
+        </div>
+      </div>
 
       {/* 総合評価 */}
       <section className="py-12 md:py-16">
@@ -1011,14 +1055,6 @@ export default function PitsolePage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">ピットソール関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/pitsole/size/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ピットソールのサイズ選び完全ガイド</p>
-              <p className="text-xs text-gray-500 mt-1">失敗しない切り方も解説</p>
-            </Link>
-            <Link href="/pitsole/price/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ピットソールの最安値・販売店まとめ</p>
-              <p className="text-xs text-gray-500 mt-1">公式・楽天・Amazonを徹底比較</p>
-            </Link>
             <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソール vs ランウェイ比較</p>
               <p className="text-xs text-gray-500 mt-1">どちらが自分に合う？違いを解説</p>
@@ -1027,8 +1063,16 @@ export default function PitsolePage() {
               <p className="text-sm font-semibold text-gray-900">ピットソール vs スリムアップ比較</p>
               <p className="text-xs text-gray-500 mt-1">効果・価格・口コミで徹底比較</p>
             </Link>
-            <Link href="/ranking/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors md:col-span-2">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめランキング</p>
+            <Link href="/articles/pitsole-not-working/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソールが効かない？原因と対策を解説</p>
+              <p className="text-xs text-gray-500 mt-1">効果を最大化する正しい使い方</p>
+            </Link>
+            <Link href="/pitsole/price/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソールの最安値・販売店まとめ</p>
+              <p className="text-xs text-gray-500 mt-1">公式・楽天・Amazonを徹底比較</p>
+            </Link>
+            <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50 md:col-span-2">
+              <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>
               <p className="text-xs text-gray-500 mt-1">人気インソールを比較して選ぶ</p>
             </Link>
           </div>

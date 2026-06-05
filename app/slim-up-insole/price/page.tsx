@@ -61,16 +61,12 @@ const structuredData = {
 
 const articleStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "スリムアップインソールの最安値・販売店情報【2026年】",
   description:
     "スリムアップインソールの最安値・販売店情報を徹底調査。公式サイト・楽天・Amazon・Yahooの価格比較やお得なセット購入を解説。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

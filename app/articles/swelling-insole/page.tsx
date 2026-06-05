@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title:
@@ -22,16 +23,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "足のむくみ改善にインソールが効果的な理由｜おすすめと対策",
   description:
     "足のむくみの原因とインソールによる改善メカニズムを解説し、おすすめ商品とむくみ対策をまとめたガイド。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -159,6 +156,10 @@ export default function SwellingInsolePage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <MedicalDisclaimer />
+      </div>
 
       {/* むくみの原因 */}
       <section className="py-12 md:py-16">

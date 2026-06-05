@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title: "外反母趾の原因と予防法｜インソール以外の対策も紹介",
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: { title: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を徹底解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", url: "https://sole-laboratory.com/articles/hallux-valgus-prevention/", type: "article" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を徹底解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", author: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を徹底解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
 
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "外反母趾はなぜ女性に多いのですか？", acceptedAnswer: { "@type": "Answer", text: "女性に多い主な理由は、ヒールやパンプスなど先の細い靴の着用頻度が高いこと、女性ホルモンの影響で靭帯が柔らかく伸びやすいこと、男性に比べて筋力が弱く足のアーチを維持しにくいことの3点です。ただし近年は男性の外反母趾も増加傾向にあります。" } },
@@ -41,6 +42,10 @@ export default function HalluxValgusPreventionPage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">外反母趾は進行性の症状です。原因を理解し、早めの予防対策を行いましょう。<br className="hidden md:block" />インソール、足指トレーニング、靴選びの3本柱で総合的にケアする方法を解説します。</p>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <MedicalDisclaimer />
+      </div>
 
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">

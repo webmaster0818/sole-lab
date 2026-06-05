@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title: "足のアーチとは？崩れる原因と対策｜インソールで矯正できる？",
@@ -16,10 +17,10 @@ export const metadata: Metadata = {
 };
 
 const structuredData = {
-  "@context": "https://schema.org", "@type": "Article",
+  "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "足のアーチとは？崩れる原因と対策｜インソールで矯正できる？",
   description: "足のアーチの役割、崩れる原因、対策を徹底解説。インソールによる矯正効果も紹介。",
-  author: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17", dateModified: "2026-05-17",
 };
@@ -68,6 +69,10 @@ export default function FootArchPage() {
           </p>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <MedicalDisclaimer />
+      </div>
 
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">

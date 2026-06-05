@@ -13,15 +13,11 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "立ち仕事で足が疲れない最強インソール3選【2026年】",
   description:
     "立ち仕事で足が疲れないインソールを厳選紹介。選び方・疲れ軽減の仕組み・おすすめ3選を徹底解説。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -113,6 +109,14 @@ export default function StandingWorkPage() {
           </p>
         </div>
       </section>
+
+      {/* AI Overviews 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>立ち仕事で疲れないインソールの選び方は、①アーチサポートで足裏の負荷分散、②低反発素材で衝撃吸収、③ヒールカップでかかと安定の3点が重要です。8時間以上の立ち仕事にはクッション性と通気性を兼ね備えた製品がおすすめです。</p>
+        </div>
+      </div>
 
       {/* Table of Contents */}
       <section className="max-w-4xl mx-auto px-4 mb-12">
@@ -634,14 +638,17 @@ export default function StandingWorkPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/articles/flat-feet/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">扁平足・浮き指にインソールは効果ある？おすすめ3選</p>
+            <Link href="/articles/desk-work/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">デスクワークの疲れにインソールは効果ある？</p>
             </Link>
-            <Link href="/articles/how-to-choose/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールの選び方5つのポイント【失敗しない】</p>
+            <Link href="/articles/walking-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ウォーキング用インソールの選び方ガイド</p>
             </Link>
-            <Link href="/articles/leg-slimming/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">脚痩せしたい人のインソール選び完全ガイド</p>
+            <Link href="/articles/back-pain/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">インソールと腰痛の関係｜足元から腰痛を改善する方法</p>
+            </Link>
+            <Link href="/articles/swelling-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">むくみ対策インソールの効果と選び方</p>
             </Link>
             <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50">
               <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>

@@ -20,15 +20,11 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールで身長アップ？シークレットインソールの効果と注意点",
   description:
     "シークレットインソールの効果と注意点を徹底解説。身長アップの仕組み、バレないための選び方、姿勢改善との関係まで。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

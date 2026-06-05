@@ -20,15 +20,11 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "パンプス用インソールおすすめ5選｜ヒール靴の疲れ対策",
   description:
     "パンプス用インソールのおすすめ5選を紹介。ヒール靴での足の疲れ・前滑り・つま先の痛みを解消するインソールの選び方を解説。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

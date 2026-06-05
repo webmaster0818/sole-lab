@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title: "インソールと膝痛の関係｜歩行姿勢の改善で膝への負担を軽減",
@@ -20,11 +21,11 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールと膝痛の関係｜歩行姿勢の改善で膝への負担を軽減",
   description:
     "インソールで膝痛を軽減する方法を徹底解説。歩行姿勢の改善で膝への負担を軽減するメカニズムを紹介。",
-  author: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",
@@ -96,6 +97,10 @@ export default function KneePainPage() {
           </p>
         </div>
       </section>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <MedicalDisclaimer />
+      </div>
 
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">

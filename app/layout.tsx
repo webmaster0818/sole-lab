@@ -18,6 +18,17 @@ export const metadata: Metadata = {
   },
   description:
     "ダイエットインソール徹底比較。ピットソール・ランウェイキュアソール・スリムアップインソールの口コミ・効果・料金を比較。",
+  metadataBase: new URL("https://sole-laboratory.com"),
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large" as const,
+    },
+  },
 };
 
 const structuredData = {
@@ -32,9 +43,15 @@ const structuredData = {
     },
     {
       "@type": "Organization",
-      name: "ソールラボ",
+      name: "株式会社MediaX",
       url: "https://sole-laboratory.com",
       logo: "https://sole-laboratory.com/logo.png",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "渋谷区",
+        addressRegion: "東京都",
+        addressCountry: "JP",
+      },
     },
   ],
 };
@@ -47,6 +64,9 @@ export default function RootLayout({
   return (
     <html lang="ja" className={`${notoSansJP.variable} h-full antialiased`}>
       <head>
+        <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta httpEquiv="Pragma" content="no-cache" />
+        <meta httpEquiv="Expires" content="0" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

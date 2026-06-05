@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "子供用イン���ールおすすめ5選｜成長期の足をサ��ートする選び方",
   description: "子供用インソールのおすすめ5選を紹介。成��期の足のアーチ形成をサポートする選び方を解説。",
-  author: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",

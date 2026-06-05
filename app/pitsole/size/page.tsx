@@ -14,16 +14,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "ピットソールのサイズ選び完全ガイド【失敗しない切り方も解説】",
   description:
     "ピットソール(Pitsole)のサイズ選び・切り方を徹底解説。XS〜XLの全サイズ一覧、靴別のフィッティング、正しいカット手順、サイズが合わない場合の交換方法まで。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

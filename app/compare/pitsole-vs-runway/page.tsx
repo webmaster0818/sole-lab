@@ -14,16 +14,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "ピットソール vs ランウェイキュアソール徹底比較！どっちがおすすめ？",
   description:
     "ピットソールとランウェイキュアソールを料金・サイズ・技術・口コミの4軸で徹底比較。それぞれの強みと弱みを正直に解説します。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

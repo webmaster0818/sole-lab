@@ -40,16 +40,12 @@ const structuredData = {
 
 const reviewStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "スリムアップインソールの口コミ・効果を検証【整体師監修】",
   description:
     "美容整体師・井上剛志監修のスリムアップインソールを徹底検証。口コミ・評判・効果・最安値情報まで詳しく解説。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -162,6 +158,30 @@ export default function SlimUpInsolePage() {
           }),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "スリムアップインソール",
+            "description": "美容整体師・井上剛志監修のダイエットインソール。骨格筋サポートで姿勢改善。",
+            "brand": { "@type": "Brand", "name": "スリムアップインソール" },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "3.5",
+              "reviewCount": "210",
+              "bestRating": "5"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "6980",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock"
+            }
+          }),
+        }}
+      />
 
       {/* Breadcrumb */}
       <Breadcrumb items={[{ label: "スリムアップインソール 口コミ・効果" }]} />
@@ -184,6 +204,14 @@ export default function SlimUpInsolePage() {
           </p>
         </div>
       </section>
+
+      {/* AI Overviews 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>スリムアップインソールは美容整体師・井上剛志氏監修のインソールです。土踏まずのサポートにより普段使わない足の筋肉を活性化し、歩行時の姿勢改善をサポートします。価格は単品6,980円（税込）。</p>
+        </div>
+      </div>
 
       {/* Table of Contents */}
       <section className="max-w-4xl mx-auto px-4 mb-12">

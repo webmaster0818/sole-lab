@@ -14,16 +14,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "インソールの正しい使い方・洗い方・寿命まとめ【長持ちさせるコツ】",
   description:
     "インソールの正しい使い方・装着方法から素材別の洗い方、寿命の目安・交換サインまで徹底解説。ダイエットインソールを長持ちさせるお手入れのコツも紹介。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

@@ -14,16 +14,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "インソールでダイエットできる仕組みを専門家視点で解説",
   description:
     "インソールダイエットの仕組み・原理・メカニズムを科学的根拠とともに解説。なぜ痩せると言われるのか、専門家視点で期待できる効果とその限界を正直に検証。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

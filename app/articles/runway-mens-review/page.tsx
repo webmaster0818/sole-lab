@@ -20,15 +20,11 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "ランウェイキュアソール メンズ向けレビュー｜男性の使用感を徹底検証",
   description:
     "ランウェイキュアソールを男性が実際に使用したレビュー。メンズのフィット感・ダイエット効果・サイズ選びを徹底検証します。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

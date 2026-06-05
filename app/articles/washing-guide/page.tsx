@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールの洗い方・お手入れ完全ガイド｜寿命を延ばす方法",
   description: "インソールの正しい洗い方・お手入れ方法を徹底解説。寿命を延ばす方法を紹介。",
-  author: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",

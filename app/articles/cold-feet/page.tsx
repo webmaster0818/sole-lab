@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: { title: "冷え性対策インソール｜足元から温める方法とおすすめ商品", description: "冷え性対策としてのインソール活用法を徹底解説。足が冷える原因と改善方法を紹介。", url: "https://sole-laboratory.com/articles/cold-feet/", type: "article" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "冷え性対策インソール｜足元から温める方法とおすすめ商品", description: "冷え性対策としてのインソール活用法を徹底解説。足が冷える原因と改善方法を紹介。", author: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "冷え性対策インソール｜足元から温める方法とおすすめ商品", description: "冷え性対策としてのインソール活用法を徹底解説。足が冷える原因と改善方法を紹介。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
 
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "インソールで足の冷えは本当に改善しますか？", acceptedAnswer: { "@type": "Answer", text: "はい、適切なインソールは足の冷え改善に効果があります。保温素材で地面からの冷気を遮断するタイプと、歩行姿勢を改善して血行を促進するタイプの2種類があります。後者は根本的な冷え性改善が期待でき、正しい筋肉の使い方により足先への血流が改善されます。" } },

@@ -14,16 +14,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "【2026年最新】ダイエットインソールおすすめ3選を徹底比較！効果・口コミ・料金まで",
   description:
     "ピットソール・ランウェイキュアソール・スリムアップインソールを徹底比較。料金・特許技術・口コミ・サイズ展開まで詳しく解説。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -47,7 +43,7 @@ const faqStructuredData = {
     },
     {
       "@type": "Question",
-      name: "どのくらいで効果を実感できますか？",
+      name: "どのくらいの期間で効果を実感できますか？",
       acceptedAnswer: {
         "@type": "Answer",
         text: "個人差がありますが、姿勢の変化は1〜2週間、体型への変化は2〜3ヶ月程度の継続使用が目安です。毎日の歩行時間が長い方ほど実感しやすい傾向があります。",
@@ -75,6 +71,46 @@ const faqStructuredData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "商品によります。薄型設計のものはパンプスにも対応していますが、靴の中の余裕によっては窮屈になることがあります。スニーカーやウォーキングシューズでの使用が最も効果的です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "外反母趾でも使えますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "ピットソール・スリムアップインソールは外反母趾の方でも使用可能ですが、ランウェイキュアソールは外反母趾の方は注意が必要と記載があります。痛みがある場合は使用を中止し、医師に相談してください。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "インソールの寿命はどのくらいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "使用頻度や体重にもよりますが、一般的には3〜6ヶ月が目安です。クッション性や形状が変形してきたら交換時期です。複数足をローテーションで使うことで寿命を延ばせます。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "他のインソールと併用できますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "基本的にインソールの重ね使いは推奨されていません。靴の中が窮屈になり、逆効果になる可能性があります。元々靴に入っているインソールを取り外してから使用してください。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "洗えますか？お手入れ方法は？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "多くのインソールは水洗い可能ですが、商品ごとに推奨のお手入れ方法が異なります。一般的には、中性洗剤で手洗いし、陰干しで乾燥させるのが基本です。スリムアップインソールは抗菌防臭機能を搭載しています。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "セット購入と単品購入、どちらがおすすめですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "継続使用を前提にするなら、セット購入が圧倒的にお得です。ピットソールは3足セットで1足無料、スリムアップインソールは3足セットで+1足無料と、実質1足あたりの価格が大幅に下がります。ただし、初めて試す方はまず単品で自分の足に合うか確認するのも手です。",
       },
     },
   ],
@@ -1293,6 +1329,30 @@ export default function RankingPage() {
             </Link>
             <Link href="/slimup-insole/" className="btn-outline text-sm">
               3位 スリムアップインソールを見る
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 関連記事 */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/pitsole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソールの口コミ・効果を徹底検証</p>
+            </Link>
+            <Link href="/runway-cure-sole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールの口コミ・効果を検証</p>
+            </Link>
+            <Link href="/slim-up-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">スリムアップインソールの口コミ・効果を検証</p>
+            </Link>
+            <Link href="/articles/how-to-choose/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールの選び方5つのポイント</p>
+            </Link>
+            <Link href="/articles/insole-truth/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50 md:col-span-2">
+              <p className="text-sm font-semibold text-[#e8627c]">ダイエットインソールは嘘？効果の科学的根拠を検証 →</p>
             </Link>
           </div>
         </div>

@@ -20,15 +20,11 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "ランニング用インソールおすすめ5選｜走る人向けの選び方ガイド",
   description:
     "ランニング用インソールのおすすめ5選を紹介。走行時の衝撃吸収・膝や足裏の負担軽減に最適なインソールの選び方を解説。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

@@ -20,15 +20,11 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "脚痩せしたい人のインソール選び完全ガイド",
   description:
     "脚痩せ・下半身痩せにインソールが効果的な理由を徹底解説。脚が太くなる原因からインソールの選び方、おすすめ商品3選、脚痩せ習慣まで。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -232,6 +228,14 @@ export default function LegSlimmingArticlePage() {
           </div>
         </div>
       </section>
+
+      {/* AI Overviews 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>脚痩せにインソールが効果的な理由は、足裏アーチを正しくサポートすることで歩行時の筋肉の使い方が変わり、普段使われていない脚の筋肉が活性化されるためです。ただし、インソール単体での即効的な脚痩せは期待できず、正しい歩行習慣との併用が必要です。</p>
+        </div>
+      </div>
 
       {/* 目次 */}
       <section className="py-8 md:py-12">

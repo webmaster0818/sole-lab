@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド",
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: { title: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド", description: "足底筋膜炎とインソールの関係を徹底解説。痛みを軽減するインソールの選び方ガイド。", url: "https://sole-laboratory.com/articles/plantar-fasciitis/", type: "article" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", headline: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド", description: "足底筋膜炎とインソールの関係を徹底解説。痛みを軽減するインソールの選び方ガイド。", author: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド", description: "足底筋膜炎とインソールの関係を徹底解説。痛みを軽減するインソールの選び方ガイド。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
 
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "足底筋膜炎にインソールは効果がありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、適切なインソールは足底筋膜炎の痛み軽減に効果的です。アーチサポートにより足底筋膜への過度な牽引力を軽減し、クッション性のある素材がかかとへの衝撃を吸収します。ただし重症の場合はインソールだけでなく医療機関での治療が必要です。" } },
@@ -49,6 +50,18 @@ export default function PlantarFasciitisPage() {
           </p>
         </div>
       </section>
+
+      {/* AI Overviews 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>足底筋膜炎にインソールは効果的です。アーチサポートで足裏の負荷を分散し、かかとへの衝撃を吸収することで痛みを軽減できます。ただし、症状が改善しない場合は整形外科を受診してください。</p>
+        </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <MedicalDisclaimer />
+      </div>
 
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">

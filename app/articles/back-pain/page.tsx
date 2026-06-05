@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title: "インソールと腰痛の関係｜足元から腰痛を改善する方法",
@@ -20,15 +21,11 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールと腰痛の関係｜足元から腰痛を改善する方法",
   description:
     "インソールで腰痛を改善する方法を徹底解説。足元の歪みが腰痛を引き起こすメカニズムと改善効果を紹介。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -149,6 +146,18 @@ export default function BackPainPage() {
           </p>
         </div>
       </section>
+
+      {/* AI Overviews 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>インソールで腰痛が改善する可能性はあります。足裏の3つのアーチが崩れると姿勢が乱れ腰に負担がかかりますが、アーチサポート付きインソールで足元から姿勢を整えることで腰への負担を軽減できます。ただし重度の腰痛は必ず医師にご相談ください。</p>
+        </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-4">
+        <MedicalDisclaimer />
+      </div>
 
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
@@ -521,6 +530,9 @@ export default function BackPainPage() {
             <Link href="/articles/knee-pain/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">インソールと膝痛の関係</p>
             </Link>
+            <Link href="/articles/pelvis-correction/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">骨盤矯正インソールの効果を科学的に解説</p>
+            </Link>
             <Link href="/articles/posture-correction/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">姿勢矯正インソールの効果</p>
             </Link>
@@ -528,7 +540,7 @@ export default function BackPainPage() {
               <p className="text-sm font-semibold text-gray-900">立ち仕事のインソール対策</p>
             </Link>
             <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50">
-              <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る</p>
+              <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>
             </Link>
           </div>
         </div>

@@ -14,16 +14,12 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
     "ダイエットインソールは嘘？効果の科学的根拠を検証",
   description:
     "「履くだけで痩せる」ダイエットインソールは本当に効果があるのか？科学的根拠をもとに期待できる効果とできない効果を正直に検証。",
-  author: {
-    "@type": "Organization",
-    name: "ソールラボ",
-    url: "https://sole-laboratory.com",
-  },
+  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
@@ -115,6 +111,14 @@ export default function InsoleTruthPage() {
           </div>
         </div>
       </section>
+
+      {/* AI Overviews 結論ボックス */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
+          <p>ダイエットインソールは「嘘」ではありませんが、「履くだけで痩せる魔法の道具」でもありません。正しい効果は、姿勢改善・歩行効率向上による運動効率のサポートです。継続使用と適度な運動の併用が成功の条件です。</p>
+        </div>
+      </div>
 
       {/* 「履くだけで痩せる」は本当？ */}
       <section className="py-12 md:py-16">
@@ -604,14 +608,17 @@ export default function InsoleTruthPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/articles/how-to-choose/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールの選び方5つのポイント【失敗しない】</p>
+            <Link href="/articles/diet-mechanism/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">インソールでダイエットできる仕組みを専門家視点で解説</p>
+            </Link>
+            <Link href="/articles/insole-expectations/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールに期待できる効果とは？</p>
             </Link>
             <Link href="/articles/walking-diet/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">歩くだけダイエットは本当に効果ある？インソールで効率UP</p>
             </Link>
-            <Link href="/articles/pelvis-correction/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">骨盤矯正インソールの効果を科学的に解説</p>
+            <Link href="/articles/effective-walking/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">効果的なウォーキングの方法とインソール活用術</p>
             </Link>
             <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50">
               <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>
