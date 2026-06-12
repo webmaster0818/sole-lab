@@ -84,7 +84,7 @@ const faqStructuredData = {
       name: "洗えますか？お手入れ方法は？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "水洗いは推奨されていません。使用後は陰干しで乾燥させ、除菌スプレーなどでケアするのがおすすめです。耐久目安は約3〜6ヶ月で、へたりを感じたら交換時期です。",
+        text: "公式の案内では、中性洗剤を使って手早く手洗いし、十分にすすいだあと陰干しで乾燥させます。洗濯機の使用は厳禁とされています。日常のケアは陰干しと除菌スプレーがおすすめです。",
       },
     },
     {
@@ -190,7 +190,7 @@ const faqs = [
   {
     question: "洗えますか？お手入れ方法は？",
     answer:
-      "水洗いは推奨されていません。使用後は陰干しで乾燥させ、除菌スプレーなどでケアするのがおすすめです。耐久目安は約3〜6ヶ月で、へたりを感じたら交換時期です。",
+      "公式の案内では、中性洗剤を使って手早く手洗いし、十分にすすいだあと陰干しで乾燥させます。洗濯機の使用は厳禁とされています（公式販売ページ・2026年6月参照）。日常のケアは陰干しと除菌スプレーがおすすめです。",
   },
   {
     question: "知恵袋で「痩せない」「怪しい」という声を見ますが本当ですか？",
@@ -993,6 +993,33 @@ export default function PitsolePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* 公式スペック */}
+      <section id="specs" className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
+          ピットソールの公式スペック（出典つき）
+        </h2>
+        <p className="text-sm text-gray-600 leading-relaxed mb-6">
+          公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年6月12日確認）。公式に記載のない項目は「公式表記なし」としています。
+        </p>
+        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-4">
+          <table className="w-full text-sm">
+            <tbody className="divide-y divide-gray-100 text-gray-600">
+              <tr><td className="px-4 py-3 font-medium text-gray-900 w-40">販売元</td><td className="px-4 py-3">株式会社バッカス（株式会社セレスのグループ会社）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td><td className="px-4 py-3">XS（21〜22.5cm）/ S（23〜24.5cm）/ M（25〜26cm）/ L（26.5〜27.5cm）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ調整</td><td className="px-4 py-3">カット可（つま先の余分をペンでなぞりハサミで切る手順を公式が案内）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">素材</td><td className="px-4 py-3">公式表記なし</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">特許</td><td className="px-4 py-3">特許第4733957号（キュボイドバランス理論）・特許第5498631号・特許第6799881号</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">お手入れ</td><td className="px-4 py-3">中性洗剤で手早く手洗いし、十分にすすいで陰干し。洗濯機の使用は厳禁</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">生産国</td><td className="px-4 py-3">中国</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">偽造品対策</td><td className="px-4 py-3">Amazon Transparency（正規品認証プログラム）登録済み</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-gray-500 leading-relaxed">
+          出典: バッカス公式オンラインショップ・公式Yahoo!/楽天/Amazon店舗の商品ページ表記（2026年6月12日参照）。特許番号は株式会社セレスの公式ニュースリリース（2022年4月）で確認。仕様は変更される場合があります。
+        </p>
       </section>
 
       {/* FAQ */}

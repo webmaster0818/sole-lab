@@ -923,6 +923,34 @@ export default function SlimUpInsolePage() {
         </div>
       </section>
 
+      {/* 公式スペック */}
+      <section id="specs" className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-emerald-500">
+          スリムアップインソールの公式スペック（出典つき）
+        </h2>
+        <p className="text-sm text-gray-600 leading-relaxed mb-6">
+          公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年6月12日確認）。公式に記載のない項目は「公式表記なし」としています。
+        </p>
+        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-4">
+          <table className="w-full text-sm">
+            <tbody className="divide-y divide-gray-100 text-gray-600">
+              <tr><td className="px-4 py-3 font-medium text-gray-900 w-40">販売元</td><td className="px-4 py-3">株式会社ロッピングライフ（旧・株式会社イッティ）／公式ショップ「一番星」</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">監修</td><td className="px-4 py-3">美容整体師・井上剛志氏</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">素材</td><td className="px-4 py-3">EVA、ポリエチレン</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td><td className="px-4 py-3">S（23.0〜24.5cm）/ M（25.0〜26.5cm）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ調整</td><td className="px-4 py-3">カット可（つま先・サイド部分の調整を公式が案内）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">構造</td><td className="px-4 py-3">3つの特殊構造（フリーフィンガーサポート／アーチプッシュアップ／スリーアップバランス）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">抗菌・防臭</td><td className="px-4 py-3">抗菌防臭加工あり</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">お手入れ</td><td className="px-4 py-3">基本は乾いた布で拭き取り。中性洗剤での水洗い可（頻繁な水洗いは非推奨）。ドライヤー使用不可</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">生産国</td><td className="px-4 py-3">公式表記なし</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-gray-500 leading-relaxed">
+          出典: 一番星公式ショップ・イッティ公式楽天市場店・公式Yahoo!店の商品ページ表記（2026年6月12日参照）。仕様は変更される場合があるため、購入前に必ず公式サイトの最新情報をご確認ください。
+        </p>
+      </section>
+
       {/* Section 9: FAQ */}
       <section id="faq" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-emerald-500">

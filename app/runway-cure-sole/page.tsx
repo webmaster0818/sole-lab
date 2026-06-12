@@ -799,6 +799,33 @@ export default function RunwayCureSolePage() {
         </div>
       </section>
 
+      {/* 公式スペック */}
+      <section id="specs" className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+          ランウェイキュアソールの公式スペック（出典つき）
+        </h2>
+        <p className="text-sm text-gray-600 leading-relaxed mb-6">
+          公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年6月12日確認）。公式に記載のない項目は「公式表記なし」としています。
+        </p>
+        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-4">
+          <table className="w-full text-sm">
+            <tbody className="divide-y divide-gray-100 text-gray-600">
+              <tr><td className="px-4 py-3 font-medium text-gray-900 w-40">販売元</td><td className="px-4 py-3">株式会社FLORe（FLOReショップ／キレイplus公式ショップ楽天市場店）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td><td className="px-4 py-3">M（22.5〜23.5cm）/ L（24.0〜25.0cm）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">素材</td><td className="px-4 py-3">公式表記なし</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">構造</td><td className="px-4 py-3">3点アーチサポート設計（特許表記なし）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">カラー</td><td className="px-4 py-3">ブラック</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">お手入れ</td><td className="px-4 py-3">公式表記なし</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">生産国</td><td className="px-4 py-3">中国</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">保証</td><td className="px-4 py-3">90日間使用して実感がない場合の全額返金保証（公式サイト）</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-gray-500 leading-relaxed">
+          出典: FLOReショップ公式サイト・キレイplus公式ショップ楽天市場店・Amazon公式出品（FLOReショップ）の商品ページ表記（2026年6月12日参照）。仕様・価格・保証条件は変更される場合があるため、購入前に必ず公式サイトの最新情報をご確認ください。
+        </p>
+      </section>
+
       {/* Section 9: Bunion */}
       <section id="bunion" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">

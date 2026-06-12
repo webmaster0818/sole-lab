@@ -175,33 +175,38 @@ export default function RankingPage() {
               </a>
             </li>
             <li>
+              <a href="#specs" className="hover:text-[#0ea5e9] transition-colors">
+                4. 3製品の公式スペック比較（出典つき）
+              </a>
+            </li>
+            <li>
               <a href="#type" className="hover:text-[#0ea5e9] transition-colors">
-                4. タイプ別おすすめはコレ！
+                5. タイプ別おすすめはコレ！
               </a>
             </li>
             <li>
               <a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">
-                5. ダイエットインソールの正しい選び方5つのポイント
+                6. ダイエットインソールの正しい選び方5つのポイント
               </a>
             </li>
             <li>
               <a href="#maximize" className="hover:text-[#0ea5e9] transition-colors">
-                6. 効果を最大化する使い方
+                7. 効果を最大化する使い方
               </a>
             </li>
             <li>
               <a href="#shihan" className="hover:text-[#0ea5e9] transition-colors">
-                7. 痩せるインソールは市販で買える？販売チャネル比較
+                8. 痩せるインソールは市販で買える？販売チャネル比較
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
-                8. よくある質問（FAQ）10選
+                9. よくある質問（FAQ）10選
               </a>
             </li>
             <li>
               <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
-                9. まとめ
+                10. まとめ
               </a>
             </li>
           </ol>
@@ -978,6 +983,88 @@ export default function RankingPage() {
       </section>
 
       {/* Section 4: Recommendations by Type */}
+      <section id="specs" className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+          3製品の公式スペック比較（出典つき）
+        </h2>
+        <p className="text-sm text-gray-600 leading-relaxed mb-6">
+          各製品の公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年6月12日確認）。
+          公式に記載のない項目は「公式表記なし」と明記し、推測値は載せていません。
+        </p>
+        <div className="bg-white border border-gray-200 rounded-xl overflow-x-auto mb-4">
+          <table className="w-full text-sm min-w-[640px]">
+            <thead>
+              <tr className="bg-gray-50 border-b border-gray-200">
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">項目</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">ピットソール</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">ランウェイキュアソール</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">スリムアップインソール</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100 text-gray-600">
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">販売元</td>
+                <td className="px-4 py-3">株式会社バッカス</td>
+                <td className="px-4 py-3">株式会社FLORe</td>
+                <td className="px-4 py-3">株式会社ロッピングライフ（旧イッティ）</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">素材</td>
+                <td className="px-4 py-3">公式表記なし</td>
+                <td className="px-4 py-3">公式表記なし</td>
+                <td className="px-4 py-3">EVA、ポリエチレン</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td>
+                <td className="px-4 py-3">XS〜L（21〜27.5cm）の4サイズ</td>
+                <td className="px-4 py-3">M（22.5〜23.5cm）/ L（24.0〜25.0cm）</td>
+                <td className="px-4 py-3">S（23.0〜24.5cm）/ M（25.0〜26.5cm）</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">サイズのカット調整</td>
+                <td className="px-4 py-3">可（公式が手順を案内）</td>
+                <td className="px-4 py-3">公式表記なし</td>
+                <td className="px-4 py-3">可（つま先・サイドを調整）</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">お手入れ</td>
+                <td className="px-4 py-3">中性洗剤で手洗い→陰干し（洗濯機は厳禁）</td>
+                <td className="px-4 py-3">公式表記なし</td>
+                <td className="px-4 py-3">基本は乾拭き。中性洗剤での水洗い可（頻繁な水洗いは非推奨）</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">構造・技術</td>
+                <td className="px-4 py-3">特許技術採用（特許第4733957号・第5498631号・第6799881号）</td>
+                <td className="px-4 py-3">3点アーチサポート設計（特許表記なし）</td>
+                <td className="px-4 py-3">3つの特殊構造（立方骨サポート等。特許表記なし）</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">抗菌・防臭</td>
+                <td className="px-4 py-3">公式表記なし</td>
+                <td className="px-4 py-3">公式表記なし</td>
+                <td className="px-4 py-3">抗菌防臭加工あり</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">生産国</td>
+                <td className="px-4 py-3">中国</td>
+                <td className="px-4 py-3">中国</td>
+                <td className="px-4 py-3">公式表記なし</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">保証・その他</td>
+                <td className="px-4 py-3">偽造品対策（Amazon Transparency）登録</td>
+                <td className="px-4 py-3">90日間の全額返金保証（公式サイト）</td>
+                <td className="px-4 py-3">美容整体師・井上剛志氏監修</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-gray-500 leading-relaxed">
+          出典: 各製品の公式販売ページおよび公式EC店舗（バッカス公式オンラインショップ／FLOReショップ・キレイplus公式ショップ楽天市場店／一番星公式ショップ）の表記を2026年6月12日に確認。
+          ピットソールの特許番号は販売元親会社・株式会社セレスの公式ニュースリリースで確認。仕様・価格は変更される場合があるため、購入前に必ず公式サイトの最新情報をご確認ください。
+        </p>
+      </section>
+
       <section id="type" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-8 pb-3 border-b-2 border-[#0ea5e9]">
