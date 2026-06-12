@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-06-12",
 };
 
-const faqs = [{"q": "ドンキにダイエットインソールはありますか？", "a": "汎用のインソールは豊富ですが、特許技術採用の本格的なダイエットインソールの取り扱いは限られます。本格派は公式通販やAmazon・楽天が中心です。"}, {"q": "ドンキのインソールは安いですか？", "a": "手頃な価格で種類が豊富です。すぐに手軽なインソールが欲しい方に向いています。"}, {"q": "専用品との違いは何ですか？", "a": "目的が異なります。ドンキ品は手軽さ・種類重視、ダイエットインソールは姿勢・歩行を整える設計です。"}];
+const faqs = [{"q": "ドンキにダイエットインソールはありますか？", "a": "汎用のインソールは豊富ですが、特許技術採用の本格的なダイエットインソールの取り扱いは限られます。本格派は公式通販やAmazon・楽天が中心です。"}, {"q": "ランウェイキュアソールやピットソールはドンキで売っていますか？", "a": "ドン・キホーテでのランウェイキュアソール・ピットソールの取り扱いは確認されていません。ランウェイキュアソールは公式サイト（FLOReショップ）、ピットソールは公式サイトと正規のAmazon・楽天店舗が主な購入ルートです。店頭の類似商品とは設計が異なるためご注意ください。"}, {"q": "ドンキのインソールは安いですか？", "a": "手頃な価格で種類が豊富です。すぐに手軽なインソールが欲しい方に向いています。"}, {"q": "専用品との違いは何ですか？", "a": "目的が異なります。ドンキ品は手軽さ・種類重視、ダイエットインソールは姿勢・歩行を整える設計です。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -111,6 +111,12 @@ export default function DonkiPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500">※評価はユーザーの口コミ傾向をもとにした編集部独自の目安です。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ランウェイキュアソールやピットソールはドンキで売ってる？</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「ランウェイキュアソール ドンキ」「ピットソール ドンキ」と探す方は多いですが、<strong>どちらもドン・キホーテでの取り扱いは確認されていません</strong>。ランウェイキュアソールは公式サイト（FLOReショップ）が中心、ピットソールは公式サイトと正規のAmazon・楽天店舗が主な購入ルートです。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドンキの店頭にもアーチサポートをうたうインソールは並んでいますが、これらは別商品です。セット割引や正規品保証は公式ルート限定のため、確実に正規品が欲しい場合は公式サイトを利用しましょう。各製品の詳細は<Link href="/runway-cure-sole/" className="text-[#e8627c] underline font-medium">ランウェイキュアソールの口コミ・販売店情報</Link>と<Link href="/pitsole/" className="text-[#e8627c] underline font-medium">ピットソールの口コミ・効果検証</Link>で解説しています。</p>
         </section>
 
         <section className="mb-12">

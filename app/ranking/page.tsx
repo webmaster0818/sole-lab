@@ -4,9 +4,9 @@ import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "【2026年最新】ダイエットインソールおすすめ3選を徹底比較！効果・口コミ・料金まで",
+    "ダイエットインソールおすすめランキング3選【2026年最新】効果・口コミ・市販情報まで徹底比較",
   description:
-    "2026年最新版。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で徹底比較。特許技術・料金・口コミ・サイズ展開まで、あなたに合ったダイエットインソールが見つかります。",
+    "2026年最新のダイエットインソールおすすめランキング。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で徹底比較。市販（ドンキ・ニトリ・100均・薬局）で買えるかも解説し、あなたに合った痩せるインソールが見つかります。",
   alternates: {
     canonical: "https://sole-laboratory.com/ranking/",
   },
@@ -16,9 +16,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "【2026年最新】ダイエットインソールおすすめ3選を徹底比較！効果・口コミ・料金まで",
+    "ダイエットインソールおすすめランキング3選【2026年最新】効果・口コミ・市販情報まで徹底比較",
   description:
-    "ピットソール・ランウェイキュアソール・スリムアップインソールを徹底比較。料金・特許技術・口コミ・サイズ展開まで詳しく解説。",
+    "ピットソール・ランウェイキュアソール・スリムアップインソールをランキング形式で徹底比較。料金・特許技術・口コミ・市販の取扱状況まで詳しく解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -26,7 +26,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-04-08",
+  dateModified: "2026-06-12",
 };
 
 const faqStructuredData = {
@@ -137,14 +137,14 @@ export default function RankingPage() {
       <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
-            2026年4月最新版
+            2026年6月最新版
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ダイエットインソール
             <br className="md:hidden" />
-            おすすめ<span className="text-[#0ea5e9]">3選</span>を
+            おすすめ<span className="text-[#0ea5e9]">ランキング3選</span>
             <br className="md:hidden" />
-            徹底比較！
+            を徹底比較！
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             累計200万足のピットソール、美姿勢サポートのランウェイキュアソール、美容整体師監修のスリムアップインソール。
@@ -190,13 +190,18 @@ export default function RankingPage() {
               </a>
             </li>
             <li>
+              <a href="#shihan" className="hover:text-[#0ea5e9] transition-colors">
+                7. 痩せるインソールは市販で買える？販売チャネル比較
+              </a>
+            </li>
+            <li>
               <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
-                7. よくある質問（FAQ）10選
+                8. よくある質問（FAQ）10選
               </a>
             </li>
             <li>
               <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
-                8. まとめ
+                9. まとめ
               </a>
             </li>
           </ol>
@@ -1191,6 +1196,82 @@ export default function RankingPage() {
       </section>
 
       {/* Section 7: FAQ */}
+      <section id="shihan" className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+          痩せるインソールは市販で買える？販売チャネル比較
+        </h2>
+
+        <p className="text-sm text-gray-600 leading-relaxed mb-6">
+          「痩せるインソールは市販で買えるの？」という質問は非常に多く寄せられます。
+          結論として、ドンキ・ニトリ・100均・薬局などの店頭に並ぶのは衝撃吸収や消臭目的の<strong>汎用インソールが中心</strong>で、
+          本記事で比較している3商品のような姿勢・歩行サポート設計のダイエットインソールは<strong>公式通販が主な購入ルート</strong>です。
+        </p>
+
+        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-gray-50 border-b border-gray-200">
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">購入場所</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">買える主なインソール</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">ダイエット目的との相性</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100">
+              <tr className="bg-sky-50">
+                <td className="px-4 py-3 font-medium text-gray-900">公式通販</td>
+                <td className="px-4 py-3 text-gray-600">ピットソール等の専用設計品</td>
+                <td className="px-4 py-3 text-[#0ea5e9] font-bold">◎ 姿勢・歩行サポート設計</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">ドン・キホーテ</td>
+                <td className="px-4 py-3 text-gray-600">衝撃吸収・消臭・身長アップ系</td>
+                <td className="px-4 py-3 text-gray-600">△ 汎用品が中心</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">ニトリ</td>
+                <td className="px-4 py-3 text-gray-600">クッション・サポート系</td>
+                <td className="px-4 py-3 text-gray-600">△ 快適性重視の設計</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">100均（ダイソー等）</td>
+                <td className="px-4 py-3 text-gray-600">クッション・サイズ調整系</td>
+                <td className="px-4 py-3 text-gray-600">△ 低価格だが機能は限定的</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">ドラッグストア・薬局</td>
+                <td className="px-4 py-3 text-gray-600">足裏ケア・疲労軽減系</td>
+                <td className="px-4 py-3 text-gray-600">△ ケア用途が中心</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p className="text-sm text-gray-600 leading-relaxed mb-6">
+          市販の汎用インソールが悪いわけではなく、「すぐ欲しい」「まず安く試したい」というニーズには十分応えてくれます。
+          ただし、アーチサポートによる姿勢・歩行の改善を狙うなら、専用設計の製品を公式通販で選ぶのが確実です。
+          各販売店の詳しい情報は以下の記事で解説しています。
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <Link href="/articles/where-to-buy-insole/" className="block p-3 border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors">
+            <p className="text-sm font-semibold text-gray-900">ダイエットインソールはどこで売ってる？</p>
+            <p className="text-xs text-gray-500 mt-1">市販・通販の販売チャネル総まとめ</p>
+          </Link>
+          <Link href="/articles/donki-insole/" className="block p-3 border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors">
+            <p className="text-sm font-semibold text-gray-900">ドンキのインソール事情</p>
+            <p className="text-xs text-gray-500 mt-1">取扱品と専用品の違い</p>
+          </Link>
+          <Link href="/articles/nitori-insole/" className="block p-3 border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors">
+            <p className="text-sm font-semibold text-gray-900">ニトリのインソール事情</p>
+            <p className="text-xs text-gray-500 mt-1">クッション系中心のラインナップ</p>
+          </Link>
+          <Link href="/articles/100kin-comparison/" className="block p-3 border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors">
+            <p className="text-sm font-semibold text-gray-900">100均インソールの実力</p>
+            <p className="text-xs text-gray-500 mt-1">専用品との違いを比較</p>
+          </Link>
+        </div>
+      </section>
+
       <section id="faq" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
           よくある質問（FAQ）10選

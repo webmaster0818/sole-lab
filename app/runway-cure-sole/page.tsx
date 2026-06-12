@@ -4,16 +4,16 @@ import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "ランウェイキュアソールの口コミ・効果を検証【美姿勢の実力】",
+    "ランウェイキュアソールの口コミ・評判を検証｜どこで売ってる？外反母趾でも使える？",
   description:
-    "ランウェイキュアソール（Runway Cure Sole）の口コミ・評判・効果を徹底検証。足裏3点アーチサポートによる美姿勢の仕組み、メリット・デメリット、最安値情報、サイズ選びまで詳しく解説します。",
+    "ランウェイキュアソール（Runway Cure Sole）の口コミ・評判・効果を徹底検証。どこで売ってる？（市販・ドンキ・Amazon・楽天の取扱状況）、外反母趾でも使えるか、メリット・デメリット、最安値情報、サイズ選びまで詳しく解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/runway-cure-sole/",
   },
   openGraph: {
-    title: "ランウェイキュアソールの口コミ・効果を検証【美姿勢の実力】｜ソールラボ",
+    title: "ランウェイキュアソールの口コミ・評判を検証｜どこで売ってる？外反母趾でも使える？｜ソールラボ",
     description:
-      "ランウェイキュアソールの口コミ・評判・効果を徹底検証。3点アーチサポートの仕組みから最安値情報まで。",
+      "ランウェイキュアソールの口コミ・評判・効果を徹底検証。販売店情報（市販・ドンキ・通販）から外反母趾への対応、最安値情報まで。",
     url: "https://sole-laboratory.com/runway-cure-sole/",
     type: "article",
   },
@@ -23,9 +23,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ランウェイキュアソールの口コミ・効果を検証【美姿勢の実力】",
+    "ランウェイキュアソールの口コミ・評判を検証｜どこで売ってる？外反母趾でも使える？",
   description:
-    "ランウェイキュアソールの口コミ・評判・効果を徹底検証。足裏3点アーチサポートによる美姿勢の仕組み、メリット・デメリット、最安値情報まで。",
+    "ランウェイキュアソールの口コミ・評判・効果を徹底検証。販売店情報（市販・ドンキ・通販）、外反母趾への対応、メリット・デメリット、最安値情報まで。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -33,7 +33,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-04-08",
+  dateModified: "2026-06-12",
 };
 
 const faqStructuredData = {
@@ -102,6 +102,14 @@ const faqStructuredData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "公式サイト（FLOReショップ）での購入が最もお得です。セット割引は公式サイト限定となっており、正規品の保証も受けられます。非正規ルートでの購入は類似品のリスクがあるためご注意ください。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "ドンキや薬局などの実店舗で売っていますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "ドン・キホーテや一般的なドラッグストア・靴店での取り扱いは確認されていません。購入は公式サイト（FLOReショップ）が中心で、Amazon・楽天の出品状況は時期により変動します。セット割引は公式サイト限定です。",
       },
     },
   ],
@@ -244,7 +252,7 @@ export default function RunwayCureSolePage() {
       <section className="bg-gradient-to-b from-purple-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#8b5cf6] font-semibold mb-3">
-            2026年4月最新版
+            2026年6月最新版
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ランウェイキュアソールの
@@ -303,23 +311,33 @@ export default function RunwayCureSolePage() {
               </a>
             </li>
             <li>
+              <a href="#where-to-buy" className="hover:text-[#8b5cf6] transition-colors">
+                7. どこで売ってる？市販・ドンキ・通販の取扱状況
+              </a>
+            </li>
+            <li>
               <a href="#sizing" className="hover:text-[#8b5cf6] transition-colors">
-                7. サイズ選びのポイント
+                8. サイズ選びのポイント
+              </a>
+            </li>
+            <li>
+              <a href="#bunion" className="hover:text-[#8b5cf6] transition-colors">
+                9. 外反母趾でも使える？注意点と判断基準
               </a>
             </li>
             <li>
               <a href="#for-whom" className="hover:text-[#8b5cf6] transition-colors">
-                8. 向いている人・向いていない人
+                10. 向いている人・向いていない人
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:text-[#8b5cf6] transition-colors">
-                9. よくある質問（FAQ）
+                11. よくある質問（FAQ）
               </a>
             </li>
             <li>
               <a href="#summary" className="hover:text-[#8b5cf6] transition-colors">
-                10. まとめ
+                12. まとめ
               </a>
             </li>
           </ol>
@@ -661,7 +679,81 @@ export default function RunwayCureSolePage() {
         </div>
       </section>
 
-      {/* Section 7: Sizing */}
+      {/* Section 7: Where to Buy */}
+      <section id="where-to-buy" className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+          どこで売ってる？市販・ドンキ・通販の取扱状況
+        </h2>
+
+        <p className="text-sm text-gray-600 leading-relaxed mb-6">
+          「ランウェイキュアソールはどこで売ってる？」という疑問にお答えします。
+          結論から言うと、<strong>購入は公式サイト（FLOReショップ）が中心</strong>で、実店舗での取り扱いは確認されていません。
+        </p>
+
+        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-gray-50 border-b border-gray-200">
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">販売チャネル</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">取扱状況</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">備考</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100">
+              <tr className="bg-purple-50">
+                <td className="px-4 py-3 font-medium text-gray-900">公式サイト（FLOReショップ）</td>
+                <td className="px-4 py-3 text-[#8b5cf6] font-bold">◎ 取扱あり</td>
+                <td className="px-4 py-3 text-gray-600">セット割引・正規品保証あり</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">Amazon・楽天</td>
+                <td className="px-4 py-3 text-gray-600">△ 時期により変動</td>
+                <td className="px-4 py-3 text-gray-600">セット割引は公式サイト限定</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">ドン・キホーテ</td>
+                <td className="px-4 py-3 text-gray-600">× 確認されていません</td>
+                <td className="px-4 py-3 text-gray-600">汎用インソールの取扱が中心</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">ドラッグストア・薬局</td>
+                <td className="px-4 py-3 text-gray-600">× 確認されていません</td>
+                <td className="px-4 py-3 text-gray-600">市販品とは販売ルートが異なる</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">靴店・バラエティショップ</td>
+                <td className="px-4 py-3 text-gray-600">× 確認されていません</td>
+                <td className="px-4 py-3 text-gray-600">-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="space-y-3 text-sm text-gray-600 leading-relaxed mb-6">
+          <p>
+            ドン・キホーテやドラッグストアにも各種インソールは並んでいますが、それらは衝撃吸収・消臭などの汎用品が中心で、
+            ランウェイキュアソールのような3点アーチサポート設計の製品とは目的が異なります。
+            店頭で似たパッケージの商品を見かけても、別商品の場合があるためご注意ください。
+          </p>
+          <p>
+            また、非正規ルートで購入した場合は正規品の保証が受けられず、類似品のリスクもあります。
+            確実に正規品を購入したい方は公式サイトの利用がおすすめです。
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <Link href="/articles/donki-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <p className="text-sm font-semibold text-gray-900">ドンキのインソールはダイエットに使える？</p>
+            <p className="text-xs text-gray-500 mt-1">ドンキの取扱品と専用品の違いを解説</p>
+          </Link>
+          <Link href="/articles/where-to-buy-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <p className="text-sm font-semibold text-gray-900">ダイエットインソールはどこで売ってる？</p>
+            <p className="text-xs text-gray-500 mt-1">市販・通販の販売チャネルを総まとめ</p>
+          </Link>
+        </div>
+      </section>
+
+      {/* Section 8: Sizing */}
       <section id="sizing" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
           サイズ選びのポイント
@@ -707,7 +799,74 @@ export default function RunwayCureSolePage() {
         </div>
       </section>
 
-      {/* Section 8: Who It's For */}
+      {/* Section 9: Bunion */}
+      <section id="bunion" className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+          外反母趾でも使える？注意点と判断基準
+        </h2>
+
+        <div className="space-y-3 text-sm text-gray-600 leading-relaxed mb-6">
+          <p>
+            口コミでも多く見られる疑問が「外反母趾でも使えるか」です。
+            ランウェイキュアソールには親指と人差し指の間に通すクロス部分があり、
+            この構造が外反母趾の出っ張り部分に当たって食い込みを感じる場合があります。
+          </p>
+          <p>
+            使用自体は可能ですが、症状の程度によって向き不向きが分かれます。以下を目安にしてください。
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div className="bg-white border border-gray-200 rounded-xl p-5">
+            <p className="text-sm font-bold text-[#8b5cf6] mb-4">使える可能性が高いケース</p>
+            <ul className="space-y-3 text-sm text-gray-600">
+              <li className="flex items-start gap-2">
+                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                変形が軽度で、普段の歩行に痛みがない
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                短時間の使用から様子を見られる
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                ゆとりのあるスニーカーで使用する
+              </li>
+            </ul>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5">
+            <p className="text-sm font-bold text-red-500 mb-4">慎重に判断したいケース</p>
+            <ul className="space-y-3 text-sm text-gray-600">
+              <li className="flex items-start gap-2">
+                <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
+                親指の付け根に常に痛み・腫れがある
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
+                変形が進んでいて靴選びにも苦労している
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
+                過去にインソールで痛みが悪化した経験がある
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg text-sm text-gray-700 mb-6">
+          <p>
+            <strong>ご注意：</strong>インソールはあくまで足元のサポートを目的としたもので、外反母趾の治療を目的とした医療機器ではありません。
+            強い痛みや変形の進行がある場合は、自己判断せず整形外科の受診をおすすめします。
+          </p>
+        </div>
+
+        <Link href="/articles/bunion-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+          <p className="text-sm font-semibold text-gray-900">外反母趾向けインソールの選び方</p>
+          <p className="text-xs text-gray-500 mt-1">外反母趾の方がインソールを選ぶときのポイントを詳しく解説</p>
+        </Link>
+      </section>
+
+      {/* Section 10: Who It's For */}
       <section id="for-whom" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
