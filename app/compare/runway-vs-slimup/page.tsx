@@ -46,7 +46,7 @@ const faqStructuredData = {
       name: "ランウェイキュアソールとスリムアップインソールはどちらが安いですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "単品価格はランウェイキュアソールが4,980円、スリムアップインソールが6,980円でランウェイキュアソールの方が安いです。ただしセット割引を含めると、ランウェイキュアソールは5足セットで1足2,980円、スリムアップインソールは3足セットで実質1足4,480円となり、いずれもまとめ買いが最もお得です。",
+        text: "単品価格はどちらも6,980円（税込）で同額です（2026年6月時点の公式表示）。セット割引を含めると、ランウェイキュアソールは3足セット17,960円で1足あたり約5,987円、スリムアップインソールは3足+1足無料セット17,920円で実質1足あたり4,480円となり、セット購入の単価ではスリムアップインソールが有利です。",
       },
     },
     {
@@ -191,12 +191,12 @@ export default function RunwayVsSlimupPage() {
             <tbody className="divide-y divide-gray-100">
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">単品価格（税込）</td>
-                <td className="px-4 py-3 text-center text-gray-600">4,980円</td>
+                <td className="px-4 py-3 text-center text-gray-600">6,980円</td>
                 <td className="px-4 py-3 text-center text-gray-600">6,980円</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">お得なセット</td>
-                <td className="px-4 py-3 text-center text-gray-600">セット割引あり（5足で1足2,980円）</td>
+                <td className="px-4 py-3 text-center text-gray-600">2足11,980円 / 3足17,960円（1足約5,987円）</td>
                 <td className="px-4 py-3 text-center text-gray-600">2足11,980円 / 3足17,920円+1足無料</td>
               </tr>
               <tr>
@@ -265,15 +265,15 @@ export default function RunwayVsSlimupPage() {
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex justify-between">
                   <span>1足（単品）</span>
-                  <span className="font-medium text-gray-900">4,980円</span>
+                  <span className="font-medium text-gray-900">6,980円</span>
                 </li>
                 <li className="flex justify-between">
-                  <span>3足セット</span>
-                  <span className="font-medium text-gray-900">9,960円（1足3,320円）</span>
+                  <span>2足セット</span>
+                  <span className="font-medium text-gray-900">11,980円（1足5,990円）</span>
                 </li>
                 <li className="flex justify-between items-center">
-                  <span>5足セット</span>
-                  <span className="font-bold text-[#8b5cf6]">14,900円（1足2,980円）</span>
+                  <span>3足セット</span>
+                  <span className="font-bold text-[#8b5cf6]">17,960円（1足約5,987円）</span>
                 </li>
               </ul>
               <p className="mt-3 text-xs text-gray-500">販売元：FLOReショップ公式サイト</p>
@@ -307,11 +307,11 @@ export default function RunwayVsSlimupPage() {
             <ul className="space-y-1.5 text-sm text-gray-600">
               <li className="flex items-start gap-2">
                 <span className="text-indigo-600 mt-0.5 shrink-0">&#10003;</span>
-                単品価格はランウェイキュアソールが2,000円安い（4,980円 vs 6,980円）
+                単品価格はどちらも6,980円（税込）で同額（2026年6月時点の公式表示）
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-indigo-600 mt-0.5 shrink-0">&#10003;</span>
-                最安単価もランウェイキュアソールが優位（2,980円 vs 4,480円）
+                セット購入の最安単価はスリムアップインソールが有利（実質4,480円 vs 約5,987円）
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-indigo-600 mt-0.5 shrink-0">&#10003;</span>
@@ -780,8 +780,8 @@ export default function RunwayVsSlimupPage() {
           </p>
           <p>
             <strong>ランウェイキュアソール</strong>は、足裏3点アーチサポートによる美姿勢へのアプローチが特徴。
-            女性専用設計で薄型のため、パンプスやローヒールにもフィットします。
-            単品4,980円、5足セットなら1足2,980円とコスパにも優れています。
+            女性専用設計のソックス型（足に直接装着するタイプ）で、手持ちの靴と合わせて使えます。
+            単品6,980円（税込）で、3足セットなら1足あたり約5,987円になります（2026年6月時点の公式表示）。
             雑誌掲載実績もあり、美容意識の高い女性に支持されている商品です。
           </p>
           <p>

@@ -93,7 +93,7 @@ const faqStructuredData = {
       name: "パンプスやヒールにも使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "薄型設計のため、ある程度のパンプスには対応可能です。ただし、つま先が極端に細いデザインやヒールが高すぎる靴では窮屈になる場合があります。スニーカーやローヒールの靴での使用が最も効果的です。",
+        text: "足に直接装着するソックス型のため、靴の形状を選びにくいのが特徴です。ただし、つま先が極端に細いデザインやヒールが高すぎる靴では窮屈になる場合があります。スニーカーやローヒールの靴での使用が最も効果的です。",
       },
     },
     {
@@ -237,7 +237,7 @@ export default function RunwayCureSolePage() {
             },
             "offers": {
               "@type": "Offer",
-              "price": "7678",
+              "price": "6980",
               "priceCurrency": "JPY",
               "availability": "https://schema.org/InStock"
             }
@@ -528,7 +528,7 @@ export default function RunwayCureSolePage() {
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
                 ランウェイキュアソールは、この3つのアーチを同時にサポートする設計になっています。
-                インソールを靴にセットするだけで、崩れたアーチを本来の位置に近づけ、自然と正しい姿勢を促します。
+                足に直接装着するソックス型で、履くだけで崩れたアーチを本来の位置に近づけ、自然と正しい姿勢を促します。
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
@@ -573,7 +573,7 @@ export default function RunwayCureSolePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
-                薄型設計で手持ちの靴にそのまま使える
+                足に装着するソックス型で手持ちの靴をそのまま使える
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
@@ -622,7 +622,7 @@ export default function RunwayCureSolePage() {
 
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
             ランウェイキュアソールは、販売元であるFLOReショップの公式サイトで購入するのが最もお得です。
-            セット購入で1足あたりの単価が下がる割引が用意されています。
+            セット購入で1足あたりの単価が下がる割引が用意されています（以下は公式EC店舗の表示価格・2026年6月12日確認）。
           </p>
 
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
@@ -637,27 +637,30 @@ export default function RunwayCureSolePage() {
               <tbody className="divide-y divide-gray-100">
                 <tr>
                   <td className="px-4 py-3 text-gray-600">1足（単品）</td>
-                  <td className="px-4 py-3 text-right text-gray-900 font-medium">4,980円</td>
-                  <td className="px-4 py-3 text-right text-gray-500">4,980円</td>
+                  <td className="px-4 py-3 text-right text-gray-900 font-medium">6,980円</td>
+                  <td className="px-4 py-3 text-right text-gray-500">6,980円</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3 text-gray-600">3足セット</td>
-                  <td className="px-4 py-3 text-right text-gray-900 font-medium">9,960円</td>
-                  <td className="px-4 py-3 text-right text-[#8b5cf6] font-bold">3,320円</td>
+                  <td className="px-4 py-3 text-gray-600">2足セット</td>
+                  <td className="px-4 py-3 text-right text-gray-900 font-medium">11,980円</td>
+                  <td className="px-4 py-3 text-right text-[#8b5cf6] font-bold">5,990円</td>
                 </tr>
                 <tr className="bg-purple-50">
                   <td className="px-4 py-3 text-gray-600 font-medium">
-                    5足セット
+                    3足セット
                     <span className="ml-2 text-xs text-white bg-[#8b5cf6] px-2 py-0.5 rounded-full">
                       最安値
                     </span>
                   </td>
-                  <td className="px-4 py-3 text-right text-gray-900 font-medium">14,900円</td>
-                  <td className="px-4 py-3 text-right text-[#8b5cf6] font-bold">2,980円</td>
+                  <td className="px-4 py-3 text-right text-gray-900 font-medium">17,960円</td>
+                  <td className="px-4 py-3 text-right text-[#8b5cf6] font-bold">約5,987円</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-gray-500 leading-relaxed mb-6">
+            出典: キレイplus公式ショップ楽天市場店・Amazon公式出品（FLOReショップ）の表示価格（2026年6月12日参照）。価格は変更される場合があるため、購入前に必ず公式サイトの最新表示をご確認ください。
+          </p>
 
           <div className="bg-white border border-gray-200 rounded-lg p-4 md:p-5">
             <p className="text-sm font-bold text-gray-900 mb-2">販売店について</p>
@@ -811,6 +814,7 @@ export default function RunwayCureSolePage() {
           <table className="w-full text-sm">
             <tbody className="divide-y divide-gray-100 text-gray-600">
               <tr><td className="px-4 py-3 font-medium text-gray-900 w-40">販売元</td><td className="px-4 py-3">株式会社FLORe（FLOReショップ／キレイplus公式ショップ楽天市場店）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">タイプ</td><td className="px-4 py-3">ソックス型（足に直接装着するタイプ。靴の中敷きとして挿入する形状ではありません）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td><td className="px-4 py-3">M（22.5〜23.5cm）/ L（24.0〜25.0cm）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">素材</td><td className="px-4 py-3">公式表記なし</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">構造</td><td className="px-4 py-3">3点アーチサポート設計（特許表記なし）</td></tr>
