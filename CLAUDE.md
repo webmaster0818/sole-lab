@@ -24,3 +24,10 @@
 
 ## 2026-06-13 ③拡張フェーズ着手（MediaXAI「③進めよう」承認）
 - 目標121→200ページ。既存スラッグ棚卸し→カニバリゼロの新規KW設計→solegen.pyパターンで生成。
+
+## 2026-06-13 Phase C バッチ1完了✅（13本: 121→134ページ）
+- C1スポーツ6: volleyball/futsal/marathon/table-tennis/ski-snowboard/trail-running
+- C2職業7: teacher/chef-kitchen/delivery-driver/warehouse-work/childcare-worker/pharmacist/part-time-standing
+- 設計マップ: ~/.openclaw/workspace/sole-lab-kw-expansion-phase-c.md（第1期65本→186p、残14本はGSC実証後に追補で200到達）
+- データ: sole-kw-gen/soledata_c1.py c2.py（solegen.py DATE=2026-06-13に更新済み）。ランウェイ=ソックス型を全記事で正確に反映
+- sitemap 134URL。残りクラスタ: C3靴3/C4属性4/C5症状7/C6シーン5/C7購入6/C8ブランド比較6/C9知識9/C10ダイエット7=52本
