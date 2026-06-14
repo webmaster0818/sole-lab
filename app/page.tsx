@@ -34,7 +34,7 @@ const products = [
     tagline: "コスパ重視のダイエットインソール",
     price: "1,100円〜/月",
     points: ["手頃な価格設定", "初めての方におすすめ", "シンプルな設計で使いやすい"],
-    href: "/slimup-insole/",
+    href: "/slim-up-insole/",
     accent: "#34d399",
     badge: "コスパ◎",
   },
@@ -231,6 +231,42 @@ export default function Home() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Browse by theme */}
+      <section className="py-16 md:py-20">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold text-center text-gray-900 mb-3">
+            目的から記事を探す
+          </h2>
+          <p className="text-sm text-gray-500 text-center mb-10">
+            症状・スポーツ・職業・靴・販売店など、テーマ別に選び方ガイドを用意しています
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+            {[
+              { label: "足の症状・お悩み別", emoji: "🦶", href: "/articles/#symptom" },
+              { label: "スポーツ別の選び方", emoji: "🏃", href: "/articles/#sports" },
+              { label: "職業・立ち仕事別", emoji: "💼", href: "/articles/#job" },
+              { label: "靴の種類別", emoji: "👟", href: "/articles/#shoes" },
+              { label: "ダイエット・脚痩せ", emoji: "✨", href: "/articles/#diet" },
+              { label: "購入・販売店ガイド", emoji: "🛒", href: "/articles/#buy" },
+            ].map((cat) => (
+              <Link
+                key={cat.href}
+                href={cat.href}
+                className="flex items-center gap-2 bg-white border border-[#f3e0e4] rounded-xl px-4 py-3 text-sm font-medium text-gray-700 hover:bg-[#fdf2f4] hover:text-[#e8627c] transition-colors"
+              >
+                <span className="text-lg">{cat.emoji}</span>
+                {cat.label}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/articles/" className="btn-outline text-sm">
+              すべての記事を見る
+            </Link>
           </div>
         </div>
       </section>

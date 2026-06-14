@@ -710,7 +710,7 @@ export default function RankingPage() {
 
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
-                  href="/slimup-insole/"
+                  href="/slim-up-insole/"
                   className="btn-cta text-sm"
                   style={{ background: "#10b981" }}
                 >
@@ -1122,7 +1122,7 @@ export default function RankingPage() {
                 抗菌防臭機能も備えた実用的なインソールです。
               </p>
               <Link
-                href="/slimup-insole/"
+                href="/slim-up-insole/"
                 className="btn-outline text-sm w-full"
               >
                 詳しく見る
@@ -1495,7 +1495,7 @@ export default function RankingPage() {
             >
               2位 ランウェイキュアソールを見る
             </Link>
-            <Link href="/slimup-insole/" className="btn-outline text-sm">
+            <Link href="/slim-up-insole/" className="btn-outline text-sm">
               3位 スリムアップインソールを見る
             </Link>
           </div>

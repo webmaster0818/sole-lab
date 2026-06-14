@@ -54,10 +54,18 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/slimup-insole/"
+                  href="/slim-up-insole/"
                   className="text-sm text-pink-100 hover:text-white transition-colors"
                 >
                   スリムアップインソール
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/articles/"
+                  className="text-sm text-pink-100 hover:text-white transition-colors"
+                >
+                  記事一覧
                 </Link>
               </li>
             </ul>
@@ -66,25 +74,48 @@ export default function Footer() {
           {/* Categories */}
           <div>
             <p className="text-sm font-semibold mb-3 text-pink-200">
-              カテゴリー
+              テーマ別に探す
             </p>
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/ranking/"
+                  href="/articles/#symptom"
                   className="text-sm text-pink-100 hover:text-white transition-colors"
                 >
-                  ランキング・比較
+                  足の症状・お悩み別
                 </Link>
               </li>
               <li>
-                <span className="text-sm text-pink-100">口コミ・評判</span>
+                <Link
+                  href="/articles/#sports"
+                  className="text-sm text-pink-100 hover:text-white transition-colors"
+                >
+                  スポーツ別の選び方
+                </Link>
               </li>
               <li>
-                <span className="text-sm text-pink-100">効果・使い方</span>
+                <Link
+                  href="/articles/#job"
+                  className="text-sm text-pink-100 hover:text-white transition-colors"
+                >
+                  職業・立ち仕事別
+                </Link>
               </li>
               <li>
-                <span className="text-sm text-pink-100">料金・最安値情報</span>
+                <Link
+                  href="/articles/#buy"
+                  className="text-sm text-pink-100 hover:text-white transition-colors"
+                >
+                  購入・販売店ガイド
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/articles/#howto"
+                  className="text-sm text-pink-100 hover:text-white transition-colors"
+                >
+                  使い方・基礎知識
+                </Link>
               </li>
             </ul>
           </div>
