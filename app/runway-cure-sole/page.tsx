@@ -1053,6 +1053,10 @@ export default function RunwayCureSolePage() {
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのサイズ選びガイド</p>
               <p className="text-xs text-gray-500 mt-1">外反母趾でも使える？サイズ別フィッティング解説</p>
             </Link>
+            <Link href="/articles/runway-mens-review/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ランウェイ メンズ向けレビュー</p>
+              <p className="text-xs text-gray-500 mt-1">男性の使用感を検証</p>
+            </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>

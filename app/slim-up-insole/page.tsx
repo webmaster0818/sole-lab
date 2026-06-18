@@ -1092,6 +1092,10 @@ export default function SlimUpInsolePage() {
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールのサイズ選び・使い方ガイド</p>
               <p className="text-xs text-gray-500 mt-1">フリーサイズのカット方法と効果的な使い方を解説</p>
             </Link>
+            <Link href="/articles/slimup-long-review/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">スリムアップインソール 長期レビュー（3ヶ月使用）</p>
+              <p className="text-xs text-gray-500 mt-1">継続使用の効果を検証</p>
+            </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>

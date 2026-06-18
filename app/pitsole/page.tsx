@@ -1111,6 +1111,26 @@ export default function PitsolePage() {
               <p className="text-sm font-semibold text-gray-900">ピットソールの最安値・販売店まとめ</p>
               <p className="text-xs text-gray-500 mt-1">公式・楽天・Amazonを徹底比較</p>
             </Link>
+            <Link href="/articles/pitsole-coupon/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソールのクーポン・キャンペーン情報</p>
+              <p className="text-xs text-gray-500 mt-1">お得に購入する方法</p>
+            </Link>
+            <Link href="/articles/pitsole-all-sizes/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソールのサイズ展開・実寸レビュー</p>
+              <p className="text-xs text-gray-500 mt-1">サイズ選びの参考に</p>
+            </Link>
+            <Link href="/articles/pitsole-mens/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソールはメンズに使える？</p>
+              <p className="text-xs text-gray-500 mt-1">男性の使用感を解説</p>
+            </Link>
+            <Link href="/articles/pitsole-timeline/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソールの効果はいつから？</p>
+              <p className="text-xs text-gray-500 mt-1">変化が出るまでの期間の目安</p>
+            </Link>
+            <Link href="/articles/pitsole-vs-tential/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソール vs TENTIAL 比較</p>
+              <p className="text-xs text-gray-500 mt-1">機能性インソール2強を比較</p>
+            </Link>
             <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50 md:col-span-2">
               <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>
               <p className="text-xs text-gray-500 mt-1">人気インソールを比較して選ぶ</p>
