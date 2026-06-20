@@ -48,3 +48,9 @@
 - 対応：各製品ページの「関連ページ」を全クラスタ網羅に拡張。pitsole+5(coupon/all-sizes/mens/timeline/vs-tential)、runway+1(mens-review)、slimup+1(long-review)。これでpitsole=6/runway=4/slimup=4のクラスタ全リンクが製品ページから張られ、「製品名+口コミ/効果/最安値/サイズ/メンズ/比較」の購買直前クエリに対しハブ&スポークが完成
 - 並列sub-agent3体。架空価格/口コミ/料金/会社情報は不変更・デザイン維持。sitemap lastmod3件更新(181URL不変)。deploy=sole-lab-deploy・本番200/pitsoleクラスタ6リンクをcurl検証・GSC再送信
 - ※GSC取得異常(0表示)のためデータ依存の「11-20位刈り取り」は計測切り分け後。残：②ranking/compare CV / ③一次価値・診断ツール / ④薄ページ品質底上げ
+
+## 2026-06-20 ②収益核強化（ranking/トップ→compare内部リンク導線）✅（MediaXAI「①②進めよう」承認）
+- 課題：3つの1対1比較ページ(compare/pitsole-vs-runway,pitsole-vs-slimup,runway-vs-slimup)が、ヘッド語の受け皿であるranking・トップから無リンク＝比較クラスタが評価を受けられていなかった（compare→ranking/productは既存だが逆向きが欠落）
+- 対応：ranking比較セクション末尾に「2製品を1対1でさらに詳しく比較する」3カード、トップ製品ハイライト末尾に「気になる2製品を1対1で比較する」3カードを新設。ranking/トップ→compare×3の導線を張り、ヘッド語の受け皿から比較クラスタ(製品A vs B=購買直前)へ評価集約＆回遊強化
+- ①製品名クラスタは6/18にハブ化済み。架空データ/料金/会社情報不変更・デザイン維持。sitemap lastmod(/ /ranking/)更新・本番200/compare3リンクをcurl検証・GSC再送信
+- 残：①の11-20位刈り取り(GSC取得異常の切り分け後) / ③足型診断ツール(moat) / ④薄ページ品質底上げ
