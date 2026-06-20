@@ -206,6 +206,24 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          {/* 1対1の比較への導線 */}
+          <div className="mt-12">
+            <h3 className="text-base md:text-lg font-bold text-center text-gray-900 mb-5">
+              気になる2製品を1対1で比較する
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+              <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors text-center">
+                <p className="text-sm font-semibold text-gray-900">ピットソール vs ランウェイ</p>
+              </Link>
+              <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors text-center">
+                <p className="text-sm font-semibold text-gray-900">ピットソール vs スリムアップ</p>
+              </Link>
+              <Link href="/compare/runway-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors text-center">
+                <p className="text-sm font-semibold text-gray-900">ランウェイ vs スリムアップ</p>
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -42,3 +42,9 @@
 - 全ページ到達性: Header/Footerに「記事一覧」追加、Footer「カテゴリー」の死んだspan3件→ハブ各カテゴリーへのリンク化、トップに「目的から記事を探す」セクション新設（6カテゴリー導線+全記事リンク）
 - 🐛切れリンク修正: /slimup-insole/（ハイフン無し=404）が page/ranking×3/Footer の5箇所→正規 /slim-up-insole/ に。スリムアップ製品ページがトップ・ランキング・フッターから到達不能だった重大バグを解消
 - sitemap lastmod更新: / /articles/ /ranking/ を2026-06-14に（URL数181不変）。source/deploy両repo push済み、本番反映を全項目curl検証済み（/articles/=164リンク・トップ導線・切れリンク0・sitemap反映）
+
+## 2026-06-18 ①刈り取り：製品名クエリ取り切り（内部リンクハブ完成）✅（MediaXAI「①進めて」承認）
+- 課題：3製品ページがスポーク記事(pitsole-*/runway-*/slimup-*)からは被リンクされているのに、製品ページ→クラスタ記事のhub→spokeリンクが欠落（pitsoleは6記事中1記事しかリンク無し）。購買直前クラスタが集約されていなかった
+- 対応：各製品ページの「関連ページ」を全クラスタ網羅に拡張。pitsole+5(coupon/all-sizes/mens/timeline/vs-tential)、runway+1(mens-review)、slimup+1(long-review)。これでpitsole=6/runway=4/slimup=4のクラスタ全リンクが製品ページから張られ、「製品名+口コミ/効果/最安値/サイズ/メンズ/比較」の購買直前クエリに対しハブ&スポークが完成
+- 並列sub-agent3体。架空価格/口コミ/料金/会社情報は不変更・デザイン維持。sitemap lastmod3件更新(181URL不変)。deploy=sole-lab-deploy・本番200/pitsoleクラスタ6リンクをcurl検証・GSC再送信
+- ※GSC取得異常(0表示)のためデータ依存の「11-20位刈り取り」は計測切り分け後。残：②ranking/compare CV / ③一次価値・診断ツール / ④薄ページ品質底上げ

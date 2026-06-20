@@ -980,6 +980,27 @@ export default function RankingPage() {
             </div>
           </div>
         </div>
+
+        {/* 1対1の詳細比較への導線 */}
+        <div className="mt-10">
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4">
+            2製品を1対1でさらに詳しく比較する
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソール vs ランウェイ</p>
+              <p className="text-xs text-gray-500 mt-1">人気2製品の違いを徹底比較</p>
+            </Link>
+            <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソール vs スリムアップ</p>
+              <p className="text-xs text-gray-500 mt-1">効果・価格・口コミで比較</p>
+            </Link>
+            <Link href="/compare/runway-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ランウェイ vs スリムアップ</p>
+              <p className="text-xs text-gray-500 mt-1">どちらが自分に合う？</p>
+            </Link>
+          </div>
+        </div>
       </section>
 
       {/* Section 4: Recommendations by Type */}
