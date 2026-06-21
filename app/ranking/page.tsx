@@ -154,6 +154,38 @@ export default function RankingPage() {
         </div>
       </section>
 
+      {/* 悩み・目的別 早見表（CVR導線） */}
+      <section className="max-w-4xl mx-auto px-4 mb-12">
+        <div className="bg-[#f0f9ff] border border-[#bae6fd] rounded-xl p-5 md:p-7">
+          <h2 className="text-base md:text-xl font-bold text-gray-900 mb-2">
+            目的・悩み別｜あなたに合うダイエットインソールは？
+          </h2>
+          <p className="text-sm text-gray-600 mb-5">
+            重視するポイントから、3製品のうちどれが向いているかをすぐにチェックできます。
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <Link href="/pitsole/" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-[#0ea5e9] transition-colors group">
+              <p className="text-xs font-bold text-[#0ea5e9] mb-1">効果・実績を重視</p>
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#0ea5e9]">ピットソール</p>
+              <p className="text-xs text-gray-500 mt-1">特許構造で本格的に取り組みたい人に</p>
+            </Link>
+            <Link href="/runway-cure-sole/" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-[#0ea5e9] transition-colors group">
+              <p className="text-xs font-bold text-[#0ea5e9] mb-1">姿勢・バランス重視</p>
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#0ea5e9]">ランウェイキュアソール</p>
+              <p className="text-xs text-gray-500 mt-1">美姿勢サポートを求める人に</p>
+            </Link>
+            <Link href="/slim-up-insole/" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-[#0ea5e9] transition-colors group">
+              <p className="text-xs font-bold text-[#0ea5e9] mb-1">価格・コスパ重視</p>
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#0ea5e9]">スリムアップインソール</p>
+              <p className="text-xs text-gray-500 mt-1">まず手頃に試したい人に</p>
+            </Link>
+          </div>
+          <p className="text-xs text-gray-500 mt-4">
+            ※ 下のランキングで、効果・価格・口コミなど6つの基準の詳しい比較を確認できます。
+          </p>
+        </div>
+      </section>
+
       {/* Table of Contents */}
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
