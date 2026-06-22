@@ -140,9 +140,14 @@ export default function Home() {
               <br className="hidden md:block" />
               あなたにぴったりの一足を見つけてください。
             </p>
-            <Link href="/ranking/" className="btn-cta text-base md:text-lg">
-              おすすめランキングを見る
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+              <Link href="/ranking/" className="btn-cta text-base md:text-lg">
+                おすすめランキングを見る
+              </Link>
+              <Link href="/diagnosis/" className="btn-outline text-base md:text-lg">
+                あなたに合う1足を診断
+              </Link>
+            </div>
           </div>
           <div className="relative mx-auto w-full max-w-sm">
             <div className="absolute -inset-4 bg-gradient-to-tr from-[#e8627c]/20 via-[#c9a76c]/15 to-[#34d399]/20 rounded-3xl blur-2xl" />

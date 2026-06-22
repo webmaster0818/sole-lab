@@ -183,6 +183,11 @@ export default function RankingPage() {
           <p className="text-xs text-gray-500 mt-4">
             ※ 下のランキングで、効果・価格・口コミなど6つの基準の詳しい比較を確認できます。
           </p>
+          <div className="mt-4 text-center">
+            <Link href="/diagnosis/" className="inline-flex items-center gap-1 text-sm font-semibold text-[#0ea5e9] hover:underline">
+              4つの質問で「あなたに合う1足」を診断する →
+            </Link>
+          </div>
         </div>
       </section>
 
