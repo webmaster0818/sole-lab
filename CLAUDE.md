@@ -71,3 +71,9 @@
 - ③診断ツール 4問→6問に拡充: 「求める装着感(矯正感/薄さ/シンプル)」「選ぶ際の重視点(実績口コミ/使い回し/価格)」を追加し3製品の差別化精度UP。トップ/ranking/メタの「○つの質問」表記も6に統一
 - ④薄ページ強化 第2弾8本(nitori/drugstore/muji/core-training/ec-buy/soccer/tennis/diet-period)を並列agentで事実ベース強化(1300台→1900字超)。STRICT:架空の製品仕様/価格/口コミ/統計なし・特定店舗商品価格は「店頭/公式で確認」誘導・景表法配慮(diet-period=履くだけで痩せる否定)・3製品/料金不変更
 - 本番200/診断6問/GSC再送信。第1弾8本と合わせ薄ページ16本強化済。残:さらに薄い記事(中央値2368以下が他にも)・GSC観測後の11-20位刈り取り
+
+## 2026-06-24 ④薄ページ強化 第三弾✅（MediaXAI「薄い記事第三弾進めて」）
+- CJK文字数計測で中央値(約2,334)以下の未強化記事を抽出→次の薄い8本を並列agentで事実ベース強化(約1,460→本文1,900〜2,500字超): baseball/metabolism/hairdresser/badminton/thickness-guide/lower-body-diet/sales-staff/workman
+- STRICT遵守: 架空の製品仕様/価格/口コミ/統計なし。ダイエット系(metabolism/lower-body-diet)=「履くだけで痩せない・個人差・食事/運動併用」明記(景表法)。ワークマン等店舗品=商品名/価格断定せず店頭/公式誘導。3製品の事実/料金/デザイン不変更・追記のみ
+- 第1弾8+第2弾8+第三弾8=計24本強化。build185/sitemap lastmod8件・deploy=sole-lab-deploy(rsync)両push・本番8本cjk~4000をcurl検証(全て立上り済)
+- ※agent2体がAPI500で最終報告のみ失敗したが、ファイル編集+ローカルbuildは完了済みを確認(badminton2973/workman2461 cjk)。残: 第4弾(中央値以下が他に十数本)・GSC観測後の刈り取り
