@@ -69,6 +69,22 @@ const QUESTIONS: {
       { label: "バランス重視", scores: { runway: 1 } },
     ],
   },
+  {
+    q: "求める「装着感」に近いのは？",
+    options: [
+      { label: "しっかりした矯正感がほしい", scores: { pitsole: 2 } },
+      { label: "自然で目立たない薄さがいい", scores: { runway: 2 } },
+      { label: "シンプルで気軽に使えれば十分", scores: { slimup: 2 } },
+    ],
+  },
+  {
+    q: "選ぶときに最も気になるのは？",
+    options: [
+      { label: "実績・口コミの多さ（信頼感）", scores: { pitsole: 2 } },
+      { label: "いろんな靴で使い回せること", scores: { runway: 2 } },
+      { label: "とにかく試しやすい価格", scores: { slimup: 2 } },
+    ],
+  },
 ];
 
 export default function Diagnosis() {

@@ -60,3 +60,9 @@
 - 全164記事のJP文字数を計測→薄い8本(sandals/wide-shoes/safety-shoes/correct-usage/fake-genuine/refund-guarantee/boots/rain-boots、中央値2333に対し1334-1470)を特定
 - 並列sub-agent8体で一般的事実ベースの選び方・使い方・FAQを拡充(1400→1900字超に)。STRICT:架空の製品仕様/価格/口コミ/統計/研究を作らない・3製品の事実不変更・景表法配慮・偽物記事は特定業者中傷なし・返金記事は「公式で要確認」誘導。デザイン/内部リンク維持
 - sitemap lastmod8件更新・本番200/GSC再送信。残④:他の薄ページ(median以下が他にも)・真の重複は無し。残フェーズ0: ③ranking用途別 ④reviewsテンプレは別途(kimono側で進行中の手法と同様、保護ルール範囲で)
+
+## 2026-06-23 ③moat タイプ診断ツール新設✅（MediaXAI「③進めよう」承認）
+- /diagnosis/ 新設: app/diagnosis/Diagnosis.tsx(use client・4問スコアリング→3製品から相性提案)+page.tsx(metadata/FAQ schema/3製品特徴/CTA)。質問=重視点/経験/靴種/予算→pitsole(効果実績)/runway(姿勢薄型)/slimup(コスパ初めて)に加点
+- クライアント側完結=コストゼロ。診断結果→製品ページ+ranking送客。トップHero(診断ボタン追加)・ranking早見表(診断リンク)から導線=回遊/滞在/被リンク/指名検索の起点(moat)
+- 製品位置づけは既存homepage products配列の事実ベース・架空効果なし・「目安/個人差」明記。本番200/4問動作/home・ranking導線をスクショ+curl検証。sitemap185
+- 残: 診断の質問拡充・GSC観測後の刈り取り(11-20位)・④薄ページ第2弾

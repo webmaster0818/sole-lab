@@ -185,7 +185,7 @@ export default function RankingPage() {
           </p>
           <div className="mt-4 text-center">
             <Link href="/diagnosis/" className="inline-flex items-center gap-1 text-sm font-semibold text-[#0ea5e9] hover:underline">
-              4つの質問で「あなたに合う1足」を診断する →
+              6つの質問で「あなたに合う1足」を診断する →
             </Link>
           </div>
         </div>
