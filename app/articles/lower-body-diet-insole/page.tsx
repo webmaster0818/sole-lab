@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-05",
 };
 
-const faqs = [{"q": "インソールで下半身は痩せますか？", "a": "単独で痩せるものではありません。骨盤や歩行フォームを整えて下半身を使いやすくする補助で、食事・運動との組み合わせが前提です。"}, {"q": "下半身だけ痩せにくいのはなぜですか？", "a": "骨盤の傾きや歩き方のクセ、むくみ、冷えなどが複合的に関係します。足元と姿勢を整えることが下半身ケアの土台になります。"}, {"q": "どんな運動と組み合わせると良いですか？", "a": "スクワットやヒップリフトなど下半身・お尻の運動、ウォーキングが効果的です。インソールで歩行フォームを整えると相乗効果が期待できます。"}];
+const faqs = [{"q": "インソールで下半身は痩せますか？", "a": "単独で痩せるものではありません。骨盤や歩行フォームを整えて下半身を使いやすくする補助で、食事・運動との組み合わせが前提です。効果には個人差があります。"}, {"q": "下半身だけ痩せにくいのはなぜですか？", "a": "骨盤の傾きや歩き方のクセ、むくみ、冷えなどが複合的に関係します。足元と姿勢を整えることが下半身ケアの土台になります。"}, {"q": "どんな運動と組み合わせると良いですか？", "a": "スクワットやヒップリフトなど下半身・お尻の運動、ウォーキングが効果的です。インソールで歩行フォームを整えると、下半身を使いやすくする補助が期待できます。"}, {"q": "どのくらいの期間で実感できますか？", "a": "感じ方には大きな個人差があり、特定の期間で変化を約束できるものではありません。インソールは歩行・姿勢を整える補助と考え、食事・運動と続けながら様子を見ましょう。"}, {"q": "立ち仕事のむくみにも使えますか？", "a": "足元が安定すると歩くときに足の筋肉を使いやすくなり、血流のサポートにつながると考えられます。ただしむくみが続く・強い場合は、自己判断せず医療機関に相談してください。"}, {"q": "毎日履き続けても問題ありませんか？", "a": "基本的には日常使いを想定した製品が多いですが、痛みや違和感が出た場合は使用を中止しましょう。最初は短時間から慣らし、合わない場合は無理に使い続けないことが大切です。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -79,6 +79,18 @@ export default function LowerBodyDietPage() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">姿勢・歩行と下半身の一般的な関係</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">体を支える土台は足裏です。足裏のアーチが崩れて重心が内側や外側に偏ると、その上にある膝・骨盤・背骨の位置にも影響し、姿勢が崩れやすくなると考えられています。姿勢が崩れた状態で歩くと、本来使うはずの筋肉が休み、逆に一部の筋肉ばかりに負担が集中しがちです。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">特に下半身は、お尻（殿筋）や裏もも（ハムストリングス）を使えていないと、前ももやふくらはぎの外側など特定の場所に張りが出やすくなる傾向があります。歩く量が多くても歩き方が偏っていると、使う筋肉が一部に限られてしまうのが下半身太りを感じる一因です。歩行は毎日繰り返す動作だからこそ、フォームのクセは下半身の見え方に少しずつ積み重なっていきます。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールで重心・歩き方を整える考え方</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールの基本的な役割は、足裏のアーチを支えて重心の位置を安定させることです。重心が安定すると、かかとで着地し、足裏全体で体重を受け、親指側でしっかり蹴り出す——という一連の歩行動作がスムーズになりやすくなります。これにより、お尻や裏ももなど下半身全体の筋肉を、より自然に使える状態に近づけることが期待できます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">あくまでインソールは「歩き方・姿勢を整える補助」であり、履くだけで脚が細くなったり下半身が痩せたりするものではありません。効果の感じ方には個人差があり、変化を約束するものでもありません。足元の土台を整えたうえで、自分の歩き方を意識し、運動・食事と組み合わせていくことが前提だと理解しておきましょう。</p>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">下半身痩せの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
@@ -115,8 +127,15 @@ export default function LowerBodyDietPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">下半身痩せのための使い方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、骨盤を立てた姿勢で、かかと着地→蹴り出しの歩き方を意識しましょう。ウォーキングや日常歩行で下半身を使う習慣が大切です。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">下半身痩せには食事管理と下半身・体幹の運動が基本です。インソールは姿勢・歩行を整える補助として活用しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、骨盤を立てた姿勢で、かかと着地→足裏全体→蹴り出しの歩き方を意識しましょう。視線をやや遠くに置き、歩幅を少し広げると、お尻や裏ももを使いやすくなります。通勤や買い物などの日常歩行も、フォームを意識すれば下半身を使うトレーニングの機会になります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">日常での歩行習慣との併用が大切です。エレベーターより階段を選ぶ、一駅分歩く、こまめに立って歩くなど、歩く量を無理のない範囲で増やすと、足の筋ポンプが働いてむくみのケアにもつながると考えられます。長時間座りっぱなし・立ちっぱなしを避け、ときどき足首を回す・ふくらはぎを動かすことも習慣にしましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">下半身痩せには食事管理と下半身・体幹の運動が基本です。インソールは姿勢・歩行を整える補助として活用し、スクワットやヒップリフト、ウォーキングなどと組み合わせていきましょう。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">使うときの注意点</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは「履くだけで下半身が痩せる」ものではありません。脚やせや細見えを断定する表現には注意し、あくまで歩行・姿勢を整える補助と考えましょう。効果の感じ方には個人差があり、変化を保証するものではない点を理解しておくことが大切です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズや靴に合わないインソールは、かえって姿勢や歩行を崩すことがあります。最初は短時間から慣らし、痛み・しびれ・強い違和感が出たら使用を中止してください。むくみや脚の不調が長く続く場合や、持病がある場合は、自己判断せず医療機関や専門家に相談しましょう。</p>
         </section>
 
         <section className="mb-12">

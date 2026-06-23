@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-05",
 };
 
-const faqs = [{"q": "バドミントンでインソールを使うメリットは？", "a": "着地衝撃の吸収と後足部の安定で、素早いフットワークでも踏ん張りやすく、膝・足首・アキレス腱の負担を軽減できます。"}, {"q": "ジャンプの膝への負担は減りますか？", "a": "衝撃吸収性のあるインソールは着地の衝撃を和らげ、膝への負担軽減の補助になります。ウォームアップやトレーニングと併用しましょう。"}, {"q": "バドミントンシューズの中敷きは外すべき？", "a": "フィットと衝撃吸収を保つため、元の中敷きを外してインソールと入れ替えるのがおすすめです。"}];
+const faqs = [{"q": "バドミントンでインソールを使うメリットは？", "a": "着地衝撃の吸収と後足部の安定で、素早いフットワークでも踏ん張りやすく、膝・足首・アキレス腱の負担を軽減できます。"}, {"q": "ジャンプの膝への負担は減りますか？", "a": "衝撃吸収性のあるインソールは着地の衝撃を和らげ、膝への負担軽減の補助になります。ウォームアップやトレーニングと併用しましょう。"}, {"q": "バドミントンシューズの中敷きは外すべき？", "a": "フィットと衝撃吸収を保つため、元の中敷きを外してインソールと入れ替えるのがおすすめです。"}, {"q": "インソールを入れると靴がきつくなりませんか？", "a": "厚みのあるインソールはフィット感が変わることがあります。元の中敷きと入れ替える、薄型を選ぶ、靴ひもで微調整するなどで対応しましょう。試合用の靴に入れる場合は、本番前に練習で慣らしておくと安心です。"}, {"q": "グリップ力（足の滑り）は気になった方がよいですか？", "a": "前後左右の切り返しでは足が靴内で滑るとロスや踏ん張りにくさにつながります。表面が滑りにくい素材や、かかとを包むヒールカップのあるインソールだと足のズレを抑えやすくなります。"}, {"q": "効果はどれくらいで感じられますか？", "a": "感じ方には個人差があります。足の形や動きの癖、シューズとの相性によっても変わるため、まずは練習で使い心地を確かめながら自分に合うものを探すのがおすすめです。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -76,6 +76,8 @@ export default function BadmintonPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バドミントンで足に負担がかかる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">バドミントンは、コートを前後左右に素早く動き、ジャンプスマッシュの着地やランジ姿勢を繰り返す競技です。短時間に多くのストップ＆ゴーとジャンプがあり、足裏・膝・足首・アキレス腱への衝撃と負担が集中します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールで着地衝撃を吸収し、かかとを安定させて足のブレを抑えると、素早いフットワークでも踏ん張りやすく、ケガのリスクを減らす補助になります。アーチサポートはランジからの切り返しの力も支えます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">特にバドミントンは、シャトルを追って一歩目を素早く出す競技です。ホームポジションから前後左右へ瞬時に踏み出し、すぐに戻る動きを何度も繰り返すため、急停止（ブレーキング）の負荷もかかります。停止と踏み出しのたびに足元がぐらつくと、無駄な力が必要になり、スタミナの消耗にもつながりやすくなります。足元が安定すると、こうしたロスを抑える補助が期待できます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">どのくらい効果を感じるかには個人差があり、足の形・動きの癖・シューズとの相性によっても変わります。インソールはあくまで動きとケガ予防を補助するものとして、トレーニングやストレッチと併せて活用しましょう。</p>
         </section>
 
         <section className="mb-12">
@@ -89,6 +91,24 @@ export default function BadmintonPage() {
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
             </div>
           ))}
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">安定性・衝撃吸収・グリップで選ぶ</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">バドミントン向けのインソールは、大きく「安定性」「衝撃吸収」「グリップ」の3つの視点で見ると選びやすくなります。それぞれが動きのどの場面を助けるかを押さえておきましょう。</p>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">安定性（切り返し・急停止を支える）</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">かかとを包み込むヒールカップやアーチサポートがあると、前後左右への切り返しや急停止で足が左右にブレにくくなります。土踏まずが落ち込みやすい方や、踏ん張ったときにぐらつきを感じる方は、安定性を重視すると動きの土台が作りやすくなります。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">衝撃吸収（ジャンプの着地を和らげる）</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">ジャンプスマッシュやステップの着地を繰り返すバドミントンでは、かかと部や前足部のクッション性が大切です。着地衝撃を和らげることで、膝・足首・アキレス腱・足裏への負担軽減の補助になります。長時間プレーや連戦が多い方ほど、衝撃吸収のあるタイプが向いています。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">グリップ（足が靴内で滑らない）</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">表面が滑りにくいインソールは、激しい切り返しでも足が靴の中でズレにくく、力をコート面に伝えやすくなります。足の滑りが気になる方や、靴の中で足が前に動く感覚がある方は、グリップ性やかかとのホールドにも注目しましょう。</p>
+          </div>
+          <p className="text-xs text-gray-500">※どの要素を優先すべきかは、プレースタイルや足の状態によって異なります。気になる症状が続く場合は専門家への相談も検討してください。</p>
         </section>
 
         <section id="recommend" className="mb-12">
@@ -115,8 +135,10 @@ export default function BadmintonPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バドミントンシューズでの使い方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">バドミントンシューズは軽量設計でクッションが薄めなことがあります。元の中敷きと入れ替えると衝撃吸収を補えます。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">膝やアキレス腱に不安がある方は、インソールに加えてウォームアップとストレッチを丁寧に行いましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">バドミントンシューズは軽量設計でクッションが薄めなことがあります。元の中敷きと入れ替えると衝撃吸収を補えます。シューズによっては中敷きが取り外せないタイプもあるため、購入前に外せるかを確認しておくと安心です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">シューズとの相性を考える際は、インソールの厚みに注意しましょう。厚みのあるインソールを入れるとフィット感が変わり、靴がきつく感じたり、つま先の余裕がなくなったりすることがあります。激しく動くバドミントンでは、足が靴の中で動かない適度なフィットが大切です。元の中敷きを抜いて入れ替えれば、厚みの増加を抑えながら衝撃吸収を高められます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズ調整では、つま先に少しゆとりを残しつつ、かかとが浮かない状態を目安にします。インソールが大きい場合は、製品の指示に従ってつま先側をカットして合わせます。長すぎる・短すぎるまま使うと本来のサポートが得られにくいため、自分の足とシューズに合わせて整えましょう。新しいインソールに替えた直後は感覚が変わるので、試合本番ではなく練習で慣らしてから使うのがおすすめです。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">膝やアキレス腱に不安がある方は、インソールに加えてウォームアップとストレッチを丁寧に行いましょう。痛みやしびれが続く場合は、無理をせず専門家に相談してください。</p>
         </section>
 
         <section className="mb-12">

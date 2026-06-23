@@ -91,6 +91,40 @@ export default function ThicknessGuidePage() {
           ))}
         </section>
 
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">薄型・標準・厚手の特徴と向く靴</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールの厚みは大きく薄型・標準・厚手の3タイプに分けられます。明確な規格があるわけではなく、製品ごとに「薄型」「フルレングス」などの表記で示されるのが一般的です。それぞれの特徴と向く靴・用途を整理すると、次のように考えられます。</p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-200 rounded-xl">
+              <thead>
+                <tr className="bg-[#f0f9ff] text-gray-900">
+                  <th className="p-3 text-left border-b border-gray-200">タイプ</th>
+                  <th className="p-3 text-left border-b border-gray-200">特徴</th>
+                  <th className="p-3 text-left border-b border-gray-200">向く靴・用途</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-700">
+                <tr><td className="p-3 border-b border-gray-200 font-medium">薄型</td><td className="p-3 border-b border-gray-200">かさばらず靴を選びにくい。クッションやサイズ調整の効果は控えめ。</td><td className="p-3 border-b border-gray-200">革靴・パンプス・安全靴・スパイクなど中が浅い靴。サポートだけ加えたいとき。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium">標準</td><td className="p-3 border-b border-gray-200">サポートとクッションのバランスが取りやすい中間的な厚み。</td><td className="p-3 border-b border-gray-200">余裕のあるスニーカー・運動靴。日常使い全般。</td></tr>
+                <tr><td className="p-3 font-medium">厚手</td><td className="p-3">クッション性・サイズ調整効果が高い。靴の中が狭くなりやすい。</td><td className="p-3">ぶかぶかの靴のサイズ調整、衝撃をやわらげたい用途。元の中敷きを外して使うことが多い。</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500">※厚みの呼び方や効果の感じ方には個人差があります。実際の厚みは各製品の表記をご確認ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厚みとフィット感・つま先の余裕の関係</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れると、その厚みの分だけ足の位置が持ち上がり、靴の中の空間が狭くなります。とくに甲の高さやつま先の余裕に影響しやすく、厚いものほど甲がきつく感じたり、つま先が靴の先端に当たりやすくなったりします。逆に薄型は元のフィット感をほとんど変えずにサポートだけを足せるのが利点です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">フィット感を保つ目安として、立った状態でつま先が靴の先端に当たらず、足指が軽く動かせる余裕を残せているかを確認しましょう。かかとが浮く、甲が圧迫される、指先が窮屈といった場合は、厚みが合っていないサインです。元の中敷きを外して入れ替えると、その分の余裕が生まれ、厚手でも収まりやすくなります。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴のサイズへの影響と選び方</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">厚いインソールは靴の内寸を実質的に小さくするため、サイズ調整として使えます。少し大きい靴のフィットを高めたいときは厚手が役立ち、ジャストサイズの靴には薄型〜標準が無難です。これから靴を新調する場合に厚手のインソールを使う予定があるなら、その分を見込んで靴を選ぶと失敗しにくくなります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">多くのインソールはサイズ展開があり、靴やつま先の形に合わせて先端をハサミでカットして調整できるタイプもあります。購入前に対応サイズを確認し、必要に応じてカット可否もチェックしておきましょう。サイズ調整の具体的な手順は<Link href="/articles/size-adjustment/" className="text-[#e8627c] underline font-medium">インソールのサイズ調整</Link>もあわせてご覧ください。</p>
+        </section>
+
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厚みの選び方におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">靴の内寸に合う厚みで、アーチサポートのあるインソールを選びましょう。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
@@ -114,9 +148,15 @@ export default function ThicknessGuidePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厚みで失敗しないコツ</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">迷ったら、まず元の中敷きを外してインソールを入れ替え、実際に履いて窮屈さを確認しましょう。つま先や甲がきつい場合は薄型に変えるか、サイズをカットして調整します。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">厚型でサイズ調整をする場合も、足指が動かせる余裕を残すことが大切です。窮屈な状態は痛みや疲れの原因になります。</p>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある失敗と注意点</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">厚みでよくある失敗は、サポート力を期待して厚手を選んだ結果、靴が窮屈になってしまうケースです。サポート力は必ずしも厚みに比例するわけではなく、薄型でもアーチサポート設計の製品があります。中が浅い靴には、無理に厚手を入れず薄型を選ぶ方が快適です。</p>
+          <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <li>元の中敷きを外さずに厚手を重ねて、甲やつま先がきつくなる。</li>
+            <li>左右で入れ方が違い、フィット感や歩き心地に左右差が出る。</li>
+            <li>サイズが合わず先端が浮く・たわむ。カット対応の製品なら少しずつ削って調整する。</li>
+            <li>窮屈なまま履き続け、痛みや疲れ、足のトラブルにつながる。</li>
+          </ul>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">迷ったら、まず元の中敷きを外してインソールを入れ替え、実際に履いて窮屈さを確認しましょう。つま先や甲がきつい場合は薄型に変えるか、サイズをカットして調整します。厚手でサイズ調整をする場合も、足指が動かせる余裕を残すことが大切です。痛みや違和感が続くときは無理をせず、使用を見直しましょう。</p>
         </section>
 
         <section className="mb-12">

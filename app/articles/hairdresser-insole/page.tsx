@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-05",
 };
 
-const faqs = [{"q": "美容師の足の疲れにインソールは効きますか？", "a": "硬い床の衝撃を吸収しアーチを支えることで、立ちっぱなしの足の疲れ・むくみを軽くする補助になります。合間のストレッチと併用するとより効果的です。"}, {"q": "おしゃれな靴にも入りますか？", "a": "薄型のインソールを選べば、スリムな靴にも収まります。厚みが気になる場合は元の中敷きを外して入れ替えると窮屈になりにくいです。"}, {"q": "どのくらいで疲れの軽減を感じますか？", "a": "個人差はありますが、多くの方が1〜2週間ほどで足の疲れにくさを実感します。まずは2週間継続して試してみましょう。"}];
+const faqs = [{"q": "美容師の足の疲れにインソールは効きますか？", "a": "硬い床の衝撃を吸収しアーチを支えることで、立ちっぱなしの足の疲れ・むくみを軽くする補助になります。合間のストレッチと併用するとより効果的です。"}, {"q": "おしゃれな靴にも入りますか？", "a": "薄型のインソールを選べば、スリムな靴にも収まります。厚みが気になる場合は元の中敷きを外して入れ替えると窮屈になりにくいです。"}, {"q": "どのくらいで疲れの軽減を感じますか？", "a": "個人差はありますが、多くの方が1〜2週間ほどで足の疲れにくさを実感します。まずは2週間継続して試してみましょう。"}, {"q": "インソールはどんな靴に合わせるのがおすすめですか？", "a": "サロンでは滑りにくく足を覆うタイプの靴が安心です。脱ぎ履きの多い方はインソールを入れ替えやすい靴を選ぶと衛生面でも管理しやすくなります。サンダルやミュールはホールド力が弱く、インソールが安定しにくい点に注意しましょう。"}, {"q": "サイズが合わない場合はどうすればいいですか？", "a": "多くのインソールはつま先側をハサミでカットしてサイズ調整できます。一度に切りすぎず、靴に入れて少しずつ合わせるのがコツです。かかとの位置がずれないことを優先して調整しましょう。"}, {"q": "足の痛みやしびれが続く場合もインソールで対処できますか？", "a": "インソールは疲れをやわらげる補助であって、医療目的のものではありません。痛みやしびれ、腫れが続く場合は自己判断せず、整形外科など医療機関へ相談してください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -76,6 +76,8 @@ export default function HairdresserPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">美容師の足が疲れる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">美容師の仕事は、ほぼ一日中立ちっぱなしで、施術中はその場で姿勢を保ち続けます。サロンの床はタイルやコンクリートなど硬いことが多く、足裏への衝撃が蓄積しやすい環境です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">立ち続けると足裏のアーチが疲労で沈み込み、衝撃を吸収できずに疲れ・むくみが強まります。インソールでアーチを支え、硬い床からの衝撃をクッションで吸収すると、足の疲れを軽くする助けになります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">夕方に足がむくむのは、長時間の立位で重力により水分や血液が下半身にたまりやすくなるためです。本来はふくらはぎの筋肉が伸び縮みして血液を心臓へ戻すポンプの役割を果たしますが、同じ姿勢で立ち続けるとこの動きが乏しくなり、足首やふくらはぎがだるく重く感じやすくなります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">また、足に合わない靴やすり減った中敷きを使い続けると、体重が一部に偏ってかかり、特定の部位だけが疲れやすくなることもあります。足裏全体で体重を受け止められるよう環境を整えることが、立ち仕事の負担対策の基本です。なお、足の疲れの感じ方には個人差があり、ここで紹介する内容は一般的な情報です。</p>
         </section>
 
         <section className="mb-12">
@@ -89,6 +91,13 @@ export default function HairdresserPage() {
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
             </div>
           ))}
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">仕事靴での使い方と注意点</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは入れて終わりではなく、靴の中で正しく機能させてこそ役立ちます。まずは靴に元から入っている中敷きを外し、その上に重ねず入れ替えて使うのが基本です。重ねると厚みでつま先が窮屈になり、かえって足に負担がかかることがあります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">入れるときは、かかとを靴の後ろにしっかり合わせ、土踏まずのサポート位置が自分の足のアーチと合っているかを確認しましょう。位置がずれると本来のサポートが得られません。歩いたり立ったりしたときに違和感がないか、出勤前に一度試しておくと安心です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">衛生面では、汗をかきやすい仕事靴だからこそこまめなケアが大切です。取り外せるインソールは仕事終わりに取り出して陰干しし、湿気を逃すと臭いやムレを抑えられます。複数枚を用意して日替わりで使い、しっかり乾かしてから使い回すのもおすすめです。</p>
         </section>
 
         <section id="recommend" className="mb-12">
@@ -116,7 +125,8 @@ export default function HairdresserPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">立ち仕事の疲れをためないコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">施術の合間に足踏みやかかと上げをすると、ふくらはぎの筋ポンプが働いてむくみがたまりにくくなります。インソールと組み合わせると効果的です。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">毎日長時間使うとインソールはへたりやすいので、3〜6ヶ月を目安に交換すると効果を保てます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">毎日長時間使うとインソールはへたりやすいので、3〜6ヶ月を目安に交換すると効果を保てます。クッションが薄くつぶれてきた、土踏まずの支えが弱く感じる、といったサインが交換の目安です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">仕事中は水分をこまめにとり、休憩時に足首を回したりつま先立ちをしたりして血流を促すのも有効です。帰宅後に足を少し高くして休めると、むくみのリセットに役立つとされています。インソールはあくまで疲れをやわらげる補助であり、無理のない範囲で休息や姿勢の見直しと組み合わせることが大切です。</p>
         </section>
 
         <section className="mb-12">

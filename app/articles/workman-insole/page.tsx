@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-05",
 };
 
-const faqs = [{"q": "ワークマンのインソールでダイエットできますか？", "a": "ワークマン品は主に疲れ軽減・衝撃吸収向けで、ダイエット専用設計ではありません。姿勢・歩き方を整えるダイエット目的には専用品が向いています。"}, {"q": "立ち仕事の疲れ対策には十分ですか？", "a": "はい。コスパよく衝撃吸収や疲労軽減に対応できるため、立ち仕事や作業の疲れ対策には十分実用的です。"}, {"q": "専用ダイエットインソールとの一番の違いは？", "a": "目的の違いです。ワークマン品は疲れ軽減重視、ダイエットインソールは姿勢・歩行を整えて使う筋肉を増やす設計です。"}];
+const faqs = [{"q": "ワークマンのインソールでダイエットできますか？", "a": "ワークマン品は主に疲れ軽減・衝撃吸収向けで、ダイエット専用設計ではありません。姿勢・歩き方を整えるダイエット目的には専用品が向いています。"}, {"q": "立ち仕事の疲れ対策には十分ですか？", "a": "はい。コスパよく衝撃吸収や疲労軽減に対応できるため、立ち仕事や作業の疲れ対策には十分実用的です。"}, {"q": "専用ダイエットインソールとの一番の違いは？", "a": "目的の違いです。ワークマン品は疲れ軽減重視、ダイエットインソールは姿勢・歩行を整えて使う筋肉を増やす設計です。"}, {"q": "ワークマンのインソールの価格や取り扱いを知りたいです。", "a": "商品ラインナップ・価格・在庫は時期や店舗で変わります。最新の取り扱いは、お近くの店舗または公式オンラインストアで確認するのが確実です。"}, {"q": "サイズが合わないときはどうすればいいですか？", "a": "多くの汎用インソールはカット線が入っており、靴の中敷きに合わせてハサミで微調整できます。切りすぎを防ぐため、少しずつ調整するのがおすすめです。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -76,6 +76,12 @@ export default function WorkmanPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ワークマンのインソールの特徴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ワークマンは作業者向けに、衝撃吸収や疲労軽減、消臭などを重視した低価格のインソールを展開しています。立ち仕事や歩き回る作業の疲れ対策として、コストパフォーマンスに優れているのが魅力です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方で、ダイエットインソールは、足元を安定させて姿勢・歩き方を整え、使う筋肉を増やすことを目的にした設計です。ワークマン品は疲れ軽減には十分ですが、姿勢改善やボディメイクを狙うなら専用設計の製品のほうが目的に合います。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ワークマンのインソールは、おおまかに次のようなカテゴリーで考えると選びやすくなります。具体的な商品名・価格・在庫は時期や店舗によって変わるため、最終的には店舗や公式オンラインストアで最新の取り扱いを確認してください。</p>
+          <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed">
+            <li><span className="font-bold">衝撃吸収タイプ：</span>かかとや前足部にクッション素材を配し、歩行や着地の衝撃をやわらげます。立ち仕事や長時間の歩行で足裏の負担を減らしたい人向けです。</li>
+            <li><span className="font-bold">防臭・通気タイプ：</span>抗菌防臭加工やメッシュ構造で、ムレやニオイをケアします。汗をかきやすい作業靴・安全靴に入れる用途で選ばれます。</li>
+            <li><span className="font-bold">コスパ重視の汎用タイプ：</span>シンプルな構造で価格を抑えたモデル。複数の靴に入れ替えたい、まず試したいという人に向いています。</li>
+          </ul>
         </section>
 
         <section className="mb-12">
@@ -117,6 +123,18 @@ export default function WorkmanPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">目的別の選び方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">とにかく安く疲れを軽減したい・作業靴に入れたいならワークマンの汎用インソールが手軽です。一方、姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選びましょう。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">両者は価格帯も目的も異なります。どちらが優れているかではなく、自分の目的に合うかで選ぶのがポイントです。</p>
+          <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed">
+            <li><span className="font-bold">立ち仕事・作業で足が疲れる：</span>衝撃吸収タイプの汎用インソールが手軽。安全靴やワークシューズに入れて負担を軽くしたい人に。</li>
+            <li><span className="font-bold">靴の中のムレ・ニオイが気になる：</span>防臭・通気タイプを。汗の多い季節や長時間着用する靴に向きます。</li>
+            <li><span className="font-bold">姿勢・歩き方を整えてダイエットにつなげたい：</span>アーチサポートなどを備えた専用設計のダイエットインソールが目的に合います。</li>
+          </ul>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">サイズ調整・使い方の注意点</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">汎用インソールはサイズ展開がS・M・Lなど幅を持たせてあることが多く、靴にぴったり合わせるにはカット調整が必要になる場合があります。多くの製品にはカット用のガイド線が入っているので、いま使っている靴の中敷きを型紙にして、つま先側から少しずつ切ると失敗しにくくなります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使うときは、靴に元から入っている中敷きを抜いてから入れ替えるか、薄手のものを上に重ねるのが基本です。厚みが増すと靴がきつくなったり、かかとが浮いたりすることがあるため、装着後は実際に歩いてフィット感を確かめましょう。違和感や痛みが続く場合は無理に使い続けないでください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">衛生面では、抗菌防臭加工があっても定期的に乾燥させ、汚れたら早めに交換するのが快適に使うコツです。お手入れ方法や交換目安は製品ごとに異なるため、パッケージや公式の表示に従ってください。</p>
         </section>
 
         <section className="mb-12">
