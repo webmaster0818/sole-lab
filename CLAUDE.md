@@ -77,3 +77,8 @@
 - STRICT遵守: 架空の製品仕様/価格/口コミ/統計なし。ダイエット系(metabolism/lower-body-diet)=「履くだけで痩せない・個人差・食事/運動併用」明記(景表法)。ワークマン等店舗品=商品名/価格断定せず店頭/公式誘導。3製品の事実/料金/デザイン不変更・追記のみ
 - 第1弾8+第2弾8+第三弾8=計24本強化。build185/sitemap lastmod8件・deploy=sole-lab-deploy(rsync)両push・本番8本cjk~4000をcurl検証(全て立上り済)
 - ※agent2体がAPI500で最終報告のみ失敗したが、ファイル編集+ローカルbuildは完了済みを確認(badminton2973/workman2461 cjk)。残: 第4弾(中央値以下が他に十数本)・GSC観測後の刈り取り
+
+## 2026-06-25 ④薄ページ強化 第四弾✅（MediaXAI「第四弾も進めよう」）
+- 中央値(約2,402)以下の未強化記事から次の薄い8本を並列agentで事実ベース強化(約1,490→本文2,200〜2,900字): calf-slimming/business-shoes/security-guard/factory-work/breaking-in/corn-callus/basketball/cycling
+- STRICT: 架空の製品仕様/価格/口コミ/統計なし。ふくらはぎ痩せ(calf-slimming)=「履くだけで細くならない・個人差・食事運動併用」明記(景表法)。魚の目タコ(corn-callus)=「治療でなく予防/負担軽減・痛み悪化は皮膚科受診」。安全靴(factory-work)=規格断定なし。店舗品=店頭/公式確認。3製品の事実/料金/デザイン不変更・追記のみ
+- 第1〜三弾24本＋第四弾8本=計32本強化。build185/sitemap lastmod8件・deploy=sole-lab-deploy両push・本番cjk検証。残: さらに薄い記事(中央値以下が他にも)・GSC観測後の刈り取り
