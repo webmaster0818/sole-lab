@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-05",
 };
 
-const faqs = [{"q": "自転車のインソールでペダリングは変わりますか？", "a": "アーチを支えると足裏全体で力を受けてペダルに伝えやすくなり、効率や安定感の向上が見込めます。劇的ではありませんが、長距離での疲れにくさにつながります。"}, {"q": "ロードバイクで足裏がしびれます。改善しますか？", "a": "母趾球への圧集中が一因のことが多く、アーチサポートで圧を分散すると、しびれ（ホットフット）の軽減が期待できます。"}, {"q": "ビンディングシューズに入りますか？", "a": "薄型のインソールなら入ります。内寸がタイトなため、元の中敷きを外して入れ替え、クリートとの相性を確認しましょう。"}];
+const faqs = [{"q": "自転車のインソールでペダリングは変わりますか？", "a": "アーチを支えると足裏全体で力を受けてペダルに伝えやすくなり、効率や安定感の向上が見込めます。劇的ではありませんが、長距離での疲れにくさにつながります。感じ方には個人差があります。"}, {"q": "ロードバイクで足裏がしびれます。改善しますか？", "a": "母趾球への圧集中が一因のことが多く、アーチサポートで圧を分散すると、しびれ（ホットフット）の軽減が期待できます。改善には個人差があり、痛みやしびれが続く場合は医療機関への相談をおすすめします。"}, {"q": "ビンディングシューズに入りますか？", "a": "薄型のインソールなら入ります。内寸がタイトなため、元の中敷きを外して入れ替え、クリートとの相性を確認しましょう。"}, {"q": "普通のスニーカーで自転車に乗る場合もインソールは有効ですか？", "a": "通勤・通学などフラットペダルでスニーカーを履く場合も、アーチを支えることで足裏の疲れや力の逃げを抑えやすくなります。靴の中敷きと入れ替えて使えるかをまず確認しましょう。"}, {"q": "厚いインソールと薄いインソール、どちらを選べばよいですか？", "a": "サイクリングシューズは内寸がタイトなため、基本は薄型でアーチサポートのあるものが扱いやすいです。厚みのあるものを入れるとつま先やかかとが窮屈になり、ペダリングに影響することがあります。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -76,6 +76,8 @@ export default function CyclingPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">自転車で足裏に負担がかかる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ロードバイクや自転車のペダリングは、足裏の母趾球付近でペダルを押し続ける動作の繰り返しです。アーチの支えがないと力が一点に集中し、ペダリング効率が落ちるうえ、神経が圧迫されて足裏や指のしびれ（ホットフット）が起こることがあります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールでアーチを支えると、足裏全体で力を受けてペダルに伝えやすくなり、効率が高まります。圧の集中が分散されることで、長距離でのしびれも軽減できます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一般的に、ペダリングは「踏み込む」だけでなく「引き上げる」局面もあり、足が靴の中で安定しているほど力のロスが少なくなると言われています。アーチが落ち込んで足裏がぐらつくと、踏み込みのたびに足が左右や前後に動き、その分だけ余計な力を使ってしまいます。足の土台が安定することは、効率だけでなく膝や足首のブレを抑えることにもつながると考えられています。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ただし、こうした変化の感じ方には個人差があります。足の形・乗り方・走行距離によって効果は異なるため、まずは普段の距離で試しながら、自分の足に合う支え方を確かめていくのがおすすめです。</p>
         </section>
 
         <section className="mb-12">
@@ -89,6 +91,19 @@ export default function CyclingPage() {
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
             </div>
           ))}
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ビンディングシューズと普通の靴での選び方の違い</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">同じ自転車向けでも、ビンディングシューズ（クリート固定）とスニーカーなどの普通の靴では、インソールに求める条件が少し変わります。乗り方に合わせて選ぶと失敗しにくくなります。</p>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">ビンディングシューズ（クリート固定）の場合</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">ソールが硬く内寸がタイトなため、薄型でアーチサポートのあるものが向いています。足がペダルに固定されるぶん圧が一点に集中しやすく、母趾球まわりを支えてしびれを防げる設計が役立ちます。元の中敷きと入れ替え、クリート位置との相性を確認しましょう。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">スニーカー・普通の靴（フラットペダル）の場合</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">通勤・通学やクロスバイクでスニーカーを履く場合は、ビンディングほど内寸がシビアでないため、アーチサポートに加えて軽いクッション性のあるものも選べます。靴の中敷きを外して入れ替えられるか、サイズが合うかをまず確認するのがおすすめです。</p>
+          </div>
         </section>
 
         <section id="recommend" className="mb-12">
@@ -117,6 +132,13 @@ export default function CyclingPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">長距離ライドでの使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ビンディングシューズに入れる際は、元の中敷きと入れ替えてクリート位置との相性を確認しましょう。フィットしないとペダリングに影響します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">長距離でしびれが出やすい方は、こまめに足の位置を変える・休憩で足を動かすこともあわせて行うと効果的です。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">サイズ・厚みの注意点</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイクリングシューズは内寸が狭めに作られていることが多いため、インソール選びではサイズと厚みに注意が必要です。元の中敷きを外して入れ替えることを前提に考えると、靴の容量を圧迫しにくくなります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズはつま先に余裕を残しつつ、かかとが浮かない範囲で合わせます。インソールが大きい場合は、メーカーの推奨に沿ってつま先側をカットして調整できる製品もあります。逆に小さすぎると足裏全体を支えきれず、アーチサポートの効果が出にくくなります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">厚みは、厚いほどクッション性は増しますが、靴の中で足が持ち上がってつま先やかかとが窮屈になりやすく、ペダリング時の収まりが悪くなることがあります。一般的にサイクリングでは、薄型でアーチをしっかり支えるタイプが扱いやすいとされています。装着後は短い距離から試し、当たりや窮屈さがないかを確認しましょう。</p>
         </section>
 
         <section className="mb-12">

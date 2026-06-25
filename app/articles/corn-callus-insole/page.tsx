@@ -74,8 +74,14 @@ export default function CornCallusPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">タコ・魚の目ができる原因とインソールの役割</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">タコ（胼胝）や魚の目（鶏眼）は、足裏の特定の部分に圧や摩擦が繰り返しかかることで皮膚が厚くなる現象です。アーチの崩れ（扁平足・開張足・ハイアーチ）や合わない靴で荷重が偏ると、同じ場所にできやすくなります。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">削るだけでは荷重の偏りが残るため再発します。インソールでアーチを支えて接地のバランスを整え、圧が集中する部分の荷重を分散すると、タコ・魚の目の再発を防ぐ補助になります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">タコ（胼胝）や魚の目（鶏眼）は、足裏の特定の部分に圧（体重）や摩擦が繰り返しかかることで、皮膚が自分を守ろうとして厚く硬くなる現象です。一般的に、次のような要因が重なって起こりやすいと考えられています。</p>
+          <ul className="text-sm md:text-base text-gray-700 leading-relaxed mb-4 space-y-2 list-disc pl-5">
+            <li><span className="font-bold">圧（荷重）の偏り：</span>アーチの崩れ（扁平足・開張足・ハイアーチ）があると、足裏の一部に体重が集中し、その部分の皮膚が厚くなりやすくなります。</li>
+            <li><span className="font-bold">摩擦：</span>サイズの合わない靴や、足が靴の中で前後左右にずれる状態が続くと、特定の場所が繰り返しこすれてタコ・魚の目の原因になります。</li>
+            <li><span className="font-bold">歩き方のクセ：</span>つま先重心・外側重心など接地のバランスが偏ると、同じ場所にばかり負担がかかり続けます。</li>
+          </ul>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">こうした「圧と摩擦の集中」が続く限り、表面を削るだけでは元の負担が残るため再発しやすくなります。そこでインソールの出番です。インソールはアーチを下から支えて接地のバランスを整え、一点に集まりがちな荷重を足裏全体へ分散させる役割を担います。靴の中での足のズレを抑えることで、摩擦をやわらげる助けにもなります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ただし、インソールはタコ・魚の目を<span className="font-bold">「治す」治療器具ではありません</span>。あくまで原因となる圧や摩擦の偏りを軽減し、再発予防をサポートする手段として位置づけ、過度な期待をせずに取り入れることが大切です。</p>
         </section>
 
         <section className="mb-12">
@@ -114,9 +120,15 @@ export default function CornCallusPage() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">使うときの注意点</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを取り入れる際は、次の点に気をつけると失敗しにくくなります。まず、インソールを入れると靴の中が窮屈になり、かえって圧や摩擦が増えてしまうことがあります。サイズに少し余裕のある靴と組み合わせ、必要なら厚みの薄いタイプを選びましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">また、足は新しいインソールに慣れるまで時間がかかります。最初は短時間から使い始め、違和感や痛みがないかを確かめながら徐々に使用時間を延ばすのが安心です。使ってみて痛みが出る・かえって悪化する場合は無理に続けず、使用を中止してください。インソールはあくまで負担を軽減するサポートであり、効果の感じ方には個人差があります。</p>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ケアと受診の目安</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">できてしまったタコ・魚の目は、自分で無理に削ると傷や感染の原因になります。とくに魚の目の芯や、糖尿病など持病がある方は、皮膚科で処置を受けるのが安全です。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは荷重の偏りという『原因』に働きかける再発予防の手段です。あわせて、サイズの合った靴選びと足のアーチケアを行いましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">できてしまったタコ・魚の目は、自分で無理に削ると傷や感染の原因になります。とくに芯のある魚の目や、糖尿病など持病がある方は、自己処置を避け、皮膚科で処置を受けるのが安全です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">削っても繰り返す、痛みが強い、赤く腫れる・歩くのがつらいといった場合は、自己判断で対処を続けず、早めに皮膚科や整形外科を受診しましょう。インソールはあくまで荷重の偏りという『原因』に働きかける再発予防のサポートであり、医療的な処置に代わるものではありません。あわせて、サイズの合った靴選びと足のアーチケアを行い、必要に応じて専門家の診断を受けることをおすすめします。</p>
         </section>
 
         <section className="mb-12">
