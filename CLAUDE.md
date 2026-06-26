@@ -82,3 +82,10 @@
 - 中央値(約2,402)以下の未強化記事から次の薄い8本を並列agentで事実ベース強化(約1,490→本文2,200〜2,900字): calf-slimming/business-shoes/security-guard/factory-work/breaking-in/corn-callus/basketball/cycling
 - STRICT: 架空の製品仕様/価格/口コミ/統計なし。ふくらはぎ痩せ(calf-slimming)=「履くだけで細くならない・個人差・食事運動併用」明記(景表法)。魚の目タコ(corn-callus)=「治療でなく予防/負担軽減・痛み悪化は皮膚科受診」。安全靴(factory-work)=規格断定なし。店舗品=店頭/公式確認。3製品の事実/料金/デザイン不変更・追記のみ
 - 第1〜三弾24本＋第四弾8本=計32本強化。build185/sitemap lastmod8件・deploy=sole-lab-deploy両push・本番cjk検証。残: さらに薄い記事(中央値以下が他にも)・GSC観測後の刈り取り
+
+## 2026-06-26 アフィリエイトリンク設置（MediaXAI提供felmat 3製品）✅
+- 従来サイトは外部アフィリンク0（公式は本文言及のみ）だった→3製品(pitsole/runway/slimup)のfelmatリンクを全コンバージョン箇所に設置
+- 集約: app/lib/affiliate.ts(3製品のfelmat URL)＋app/components/OfficialCTA.tsx(rel="sponsored nofollow noopener"・target=_blank・「PR・公式サイトへ移動します」表記つきCTA)。URLは全てコンポーネント経由＝ハードコード無しで誤設置防止
+- 設置箇所: 3製品ページ(結論直後+末尾の2箇所)/ranking(各製品)/diagnosis結果カード(result製品・client描画)/compare3ページ(比較2製品+「該当商品がない3つ目」を追加掲載)/トップ製品カード(3製品)。並列agent4体で実施
+- ステマ規制・景表法: Footerに「本サイトはアフィリエイト広告(PR)を利用」開示を追加（content-policyにも既存記載あり）＋各CTAにPR表記
+- 製品の事実/価格/3製品記述/デザインは不変更(CTA追加のみ)。build185/sitemap lastmod8件・deploy=sole-lab-deploy両push・本番でfelmatリンク/rel sponsored/正URL/PR開示をcurl検証
