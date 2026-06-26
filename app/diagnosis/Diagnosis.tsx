@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import OfficialCTA from "../components/OfficialCTA";
 
 type Key = "pitsole" | "runway" | "slimup";
 
@@ -123,8 +124,9 @@ export default function Diagnosis() {
         </h3>
         <p className="mt-1 text-sm text-gray-500">{result.tagline}</p>
         <p className="mt-4 text-sm text-gray-700 leading-relaxed text-left">{result.reason}</p>
-        <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href={result.href} className="btn-cta text-sm">
+        <div className="mt-6 flex flex-col sm:flex-row sm:items-center gap-3 justify-center">
+          <OfficialCTA product={best} className="btn-cta text-sm" />
+          <Link href={result.href} className="btn-outline text-sm">
             {result.name}を詳しく見る
           </Link>
           <Link href="/ranking/" className="btn-outline text-sm">

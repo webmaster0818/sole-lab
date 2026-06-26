@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import OfficialCTA from "../../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -815,10 +816,36 @@ export default function RunwayVsSlimupPage() {
               スリムアップインソール詳細
             </Link>
           </div>
+          <div className="mt-5 flex flex-col sm:flex-row gap-4 justify-center">
+            <OfficialCTA product="runway" label="ランウェイキュアソールを公式サイトでチェック" />
+            <OfficialCTA product="slimup" label="スリムアップインソールを公式サイトでチェック" />
+          </div>
           <div className="mt-4">
             <Link href="/ranking/" className="btn-cta text-sm md:text-base">
               ダイエットインソールおすすめランキングを見る
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* もう1つの選択肢：ピットソール */}
+      <section className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+          もう1つの選択肢：ピットソール
+        </h2>
+        <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
+          <p className="text-sm text-gray-600 leading-relaxed mb-4">
+            技術的な裏付けや販売実績を重視するなら、BMZ社の世界特許技術を採用した「ピットソール」も選択肢に入れてみてください。
+            単品6,578円、XS〜L（21〜27.5cm）の幅広いサイズ展開で男女兼用、累計200万足の販売実績がある定番インソールです。
+          </p>
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+            <Link
+              href="/pitsole/"
+              className="inline-flex items-center justify-center px-5 py-3 text-sm font-semibold text-[#0ea5e9] border-2 border-[#0ea5e9] rounded-full hover:bg-sky-50 transition-colors"
+            >
+              ピットソールの詳細を見る
+            </Link>
+            <OfficialCTA product="pitsole" label="ピットソールを公式サイトでチェック" />
           </div>
         </div>
       </section>

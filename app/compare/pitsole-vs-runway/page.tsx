@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import OfficialCTA from "../../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -656,17 +657,40 @@ export default function PitsoleVsRunwayPage() {
               <p className="text-xs text-gray-500 mb-1">迷ったらこちら</p>
               <p className="text-lg font-bold text-[#0ea5e9] mb-2">ピットソール</p>
               <p className="text-xs text-gray-500 mb-4">技術力・サイズ展開・実績で選ぶなら</p>
-              <Link href="/pitsole/" className="btn-cta text-sm inline-block w-full">
+              <Link href="/pitsole/" className="btn-cta text-sm inline-block w-full mb-3">
                 ピットソールの詳細を見る
               </Link>
+              <OfficialCTA product="pitsole" label="ピットソールを公式サイトでチェック" />
             </div>
             <div className="card text-center">
               <p className="text-xs text-gray-500 mb-1">パンプス派の女性に</p>
               <p className="text-lg font-bold text-[#8b5cf6] mb-2">ランウェイキュアソール</p>
               <p className="text-xs text-gray-500 mb-4">薄型設計・女性特化で選ぶなら</p>
-              <Link href="/runway-cure-sole/" className="btn-outline text-sm inline-block w-full">
+              <Link href="/runway-cure-sole/" className="btn-outline text-sm inline-block w-full mb-3">
                 ランウェイキュアソールの詳細を見る
               </Link>
+              <OfficialCTA product="runway" label="ランウェイキュアソールを公式サイトでチェック" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* もう1つの選択肢：スリムアップインソール */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
+            もう1つの選択肢：スリムアップインソール
+          </h2>
+          <div className="card">
+            <p className="text-sm text-gray-600 leading-relaxed mb-4">
+              この2つで迷う方は、整体師監修の「スリムアップインソール」も候補に入れてみてください。
+              単品6,980円で、3足セット購入時に1足無料となるまとめ買いのコスパと、抗菌防臭加工・男女兼用のフリーサイズが特徴です。
+            </p>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+              <Link href="/slim-up-insole/" className="btn-outline text-sm inline-block">
+                スリムアップインソールの詳細を見る
+              </Link>
+              <OfficialCTA product="slimup" label="スリムアップインソールを公式サイトでチェック" />
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import OfficialCTA from "../../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -825,13 +826,40 @@ export default function PitsoleVsSlimupPage() {
               どちらを選んでも、継続使用が効果実感の鍵です。まずは自分の優先順位を明確にして、合った1足を選んでみてください。
             </p>
           </div>
-          <div className="mt-6 flex flex-col sm:flex-row gap-4">
-            <Link href="/pitsole/" className="btn-cta text-center flex-1">
-              ピットソールの詳細を見る
-            </Link>
-            <Link href="/slim-up-insole/" className="btn-outline text-center flex-1">
-              スリムアップインソールの詳細を見る
-            </Link>
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="text-center flex flex-col items-center gap-3">
+              <Link href="/pitsole/" className="btn-cta text-center w-full">
+                ピットソールの詳細を見る
+              </Link>
+              <OfficialCTA product="pitsole" label="ピットソールを公式サイトでチェック" />
+            </div>
+            <div className="text-center flex flex-col items-center gap-3">
+              <Link href="/slim-up-insole/" className="btn-outline text-center w-full">
+                スリムアップインソールの詳細を見る
+              </Link>
+              <OfficialCTA product="slimup" label="スリムアップインソールを公式サイトでチェック" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* もう1つの選択肢：ランウェイキュアソール */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
+            もう1つの選択肢：ランウェイキュアソール
+          </h2>
+          <div className="card">
+            <p className="text-sm text-gray-600 leading-relaxed mb-4">
+              女性で美姿勢を重視するなら、3点アーチサポートの「ランウェイキュアソール」も選択肢になります。
+              足に直接装着するソックス型で手持ちの靴と合わせやすく、M/L（22.5〜25cm）の女性向けサイズ展開が特徴です。
+            </p>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+              <Link href="/runway-cure-sole/" className="btn-outline text-sm inline-block">
+                ランウェイキュアソールの詳細を見る
+              </Link>
+              <OfficialCTA product="runway" label="ランウェイキュアソールを公式サイトでチェック" />
+            </div>
           </div>
         </div>
       </section>

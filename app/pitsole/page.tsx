@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
+import OfficialCTA from "../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -286,6 +287,9 @@ export default function PitsolePage() {
         <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>ピットソールは「履くだけで劇的に痩せる」商品ではありませんが、足裏アーチサポートによる姿勢改善・歩行効率の向上を通じて、ダイエットをサポートするインソールです。臨床試験では3ヶ月使用で39人中35人が体重減少という結果が報告されています。</p>
+        </div>
+        <div className="text-center my-8">
+          <OfficialCTA product="pitsole" />
         </div>
       </div>
 
@@ -1020,6 +1024,9 @@ export default function PitsolePage() {
         <p className="text-xs text-gray-500 leading-relaxed">
           出典: バッカス公式オンラインショップ・公式Yahoo!/楽天/Amazon店舗の商品ページ表記（2026年6月12日参照）。特許番号は株式会社セレスの公式ニュースリリース（2022年4月）で確認。仕様は変更される場合があります。
         </p>
+        <div className="text-center my-8">
+          <OfficialCTA product="pitsole" />
+        </div>
       </section>
 
       {/* FAQ */}

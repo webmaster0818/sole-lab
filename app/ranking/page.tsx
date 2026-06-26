@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
+import OfficialCTA from "../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -529,10 +530,11 @@ export default function RankingPage() {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-3">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-3">
                 <Link href="/pitsole/" className="btn-cta text-sm">
                   ピットソールの詳細レビューを見る
                 </Link>
+                <OfficialCTA product="pitsole" className="btn-outline text-sm" />
               </div>
             </div>
           </div>
@@ -633,7 +635,7 @@ export default function RankingPage() {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-3">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-3">
                 <Link
                   href="/runway-cure-sole/"
                   className="btn-cta text-sm"
@@ -641,6 +643,7 @@ export default function RankingPage() {
                 >
                   ランウェイキュアソールの詳細レビューを見る
                 </Link>
+                <OfficialCTA product="runway" className="btn-outline text-sm" />
               </div>
             </div>
           </div>
@@ -745,7 +748,7 @@ export default function RankingPage() {
                 </ul>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-3">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-3">
                 <Link
                   href="/slim-up-insole/"
                   className="btn-cta text-sm"
@@ -753,6 +756,7 @@ export default function RankingPage() {
                 >
                   スリムアップインソールの詳細レビューを見る
                 </Link>
+                <OfficialCTA product="slimup" className="btn-outline text-sm" />
               </div>
             </div>
           </div>

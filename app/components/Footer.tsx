@@ -128,6 +128,9 @@ export default function Footer() {
             <Link href="/content-policy/" className="text-xs text-pink-300 hover:text-white transition-colors">記事制作ポリシー</Link>
           </div>
           <p className="text-xs text-pink-300 mt-4">
+            本サイトはアフィリエイト広告（PR）を利用しています。商品の「公式サイトでチェック」等のリンクは広告であり、各社の公式サイトへ移動します。
+          </p>
+          <p className="text-xs text-pink-300 mt-2">
             &copy; {new Date().getFullYear()} ソールラボ All Rights Reserved.
           </p>
         </div>

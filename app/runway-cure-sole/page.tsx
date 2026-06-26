@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
+import OfficialCTA from "../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -272,6 +273,9 @@ export default function RunwayCureSolePage() {
         <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>ランウェイキュアソールは3点アーチサポートで美姿勢を促すインソールです。即効的なダイエット効果は期待できませんが、姿勢改善・歩行バランスの向上による体の使い方の改善が多くの口コミで報告されています。</p>
+        </div>
+        <div className="text-center my-8">
+          <OfficialCTA product="runway" />
         </div>
       </div>
 
@@ -1032,6 +1036,10 @@ export default function RunwayCureSolePage() {
             <Link href="/ranking/" className="btn-cta text-sm md:text-base">
               他のインソールと比較する
             </Link>
+          </div>
+
+          <div className="text-center my-8">
+            <OfficialCTA product="runway" />
           </div>
         </div>
       </section>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
+import OfficialCTA from "../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -210,6 +211,9 @@ export default function SlimUpInsolePage() {
         <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>スリムアップインソールは美容整体師・井上剛志氏監修のインソールです。土踏まずのサポートにより普段使わない足の筋肉を活性化し、歩行時の姿勢改善をサポートします。価格は単品6,980円（税込）。</p>
+        </div>
+        <div className="text-center my-8">
+          <OfficialCTA product="slimup" />
         </div>
       </div>
 
@@ -1072,6 +1076,10 @@ export default function SlimUpInsolePage() {
               </li>
             ))}
           </ul>
+        </div>
+
+        <div className="text-center my-8">
+          <OfficialCTA product="slimup" />
         </div>
       </section>
 

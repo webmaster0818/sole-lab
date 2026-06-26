@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import OfficialCTA from "./components/OfficialCTA";
 
 export const metadata: Metadata = {
   title: "ダイエットインソール比較｜人気3商品の口コミ・効果・最安値を徹底比較【2026年】",
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 const products = [
   {
     name: "ピットソール",
+    key: "pitsole" as const,
     tagline: "特許取得の骨格矯正インソール",
     price: "1,771円〜/月",
     points: ["世界特許取得の独自構造", "累計販売数10万足突破", "骨格から姿勢をサポート"],
@@ -22,6 +24,7 @@ const products = [
   },
   {
     name: "ランウェイキュアソール",
+    key: "runway" as const,
     tagline: "美姿勢サポートインソール",
     price: "1,650円〜/月",
     points: ["3つのアーチをサポート", "美姿勢で歩行をサポート", "薄型で靴を選ばない"],
@@ -31,6 +34,7 @@ const products = [
   },
   {
     name: "スリムアップインソール",
+    key: "slimup" as const,
     tagline: "コスパ重視のダイエットインソール",
     price: "1,100円〜/月",
     points: ["手頃な価格設定", "初めての方におすすめ", "シンプルな設計で使いやすい"],
@@ -208,6 +212,13 @@ export default function Home() {
                 <Link href={product.href} className="btn-outline text-sm w-full">
                   詳しく見る
                 </Link>
+                <div className="mt-3 flex justify-center">
+                  <OfficialCTA
+                    product={product.key}
+                    label="公式サイトでチェック"
+                    className="btn-cta text-sm w-full text-center"
+                  />
+                </div>
               </div>
             ))}
           </div>
