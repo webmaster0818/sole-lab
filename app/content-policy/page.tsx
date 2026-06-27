@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Breadcrumb from "../components/Breadcrumb";
+import { NG_OK_EXPRESSIONS, KEIHYO_POLICY_HEADING } from "../lib/keihyo";
 
 export const metadata: Metadata = {
   title: "記事制作ポリシー | ソールラボ",
@@ -114,6 +115,46 @@ export default function ContentPolicyPage() {
               </div>
             </div>
           </div>
+        </section>
+
+        {/* 景表法・薬機法 表現方針 */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+            <span className="bg-[#e8627c] text-white text-sm px-3 py-1 rounded">RULE</span>
+            {KEIHYO_POLICY_HEADING}
+          </h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-5">
+            ソールラボが扱うインソールは<strong>医薬品・医療機器ではありません</strong>。
+            痩身・治療効果を保証するような断定的・誇大な表現は使用せず、景品表示法・薬機法に配慮した表現を編集部の基準として統一しています。
+            実際に編集部が用いている「使用しない表現」と「推奨する言い換え」を公開します。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-gray-50 border-b border-gray-200">
+                  <th className="text-left px-4 py-3 font-semibold text-gray-900 w-1/3">使用しない表現（NG）</th>
+                  <th className="text-left px-4 py-3 font-semibold text-gray-900">推奨する言い換え（OK）</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {NG_OK_EXPRESSIONS.map((e, i) => (
+                  <tr key={i} className="align-top">
+                    <td className="px-4 py-3 text-red-500">{e.ng}</td>
+                    <td className="px-4 py-3 text-gray-700">
+                      {e.ok}
+                      {e.note && (
+                        <span className="block mt-1 text-xs text-gray-400">※ {e.note}</span>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 leading-relaxed mt-4">
+            効果の感じ方には個人差があり、体型・姿勢の変化には食事管理・適度な運動との併用、毎日の継続使用が前提となります。
+            足・膝・腰などに痛みや疾患がある場合は、自己判断せず医師・専門家にご相談ください。
+          </p>
         </section>
 
         {/* 記事制作フロー */}

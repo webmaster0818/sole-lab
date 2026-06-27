@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
 import OfficialCTA from "../components/OfficialCTA";
+import KeihyoNote from "../components/KeihyoNote";
 
 export const metadata: Metadata = {
   title:
@@ -1096,6 +1097,11 @@ export default function PitsolePage() {
           </div>
         </div>
       </section>
+
+      {/* 効果表記の注記 */}
+      <div className="max-w-4xl mx-auto px-4">
+        <KeihyoNote />
+      </div>
 
       {/* 関連ページ */}
       <section className="py-12 md:py-16">

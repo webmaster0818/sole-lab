@@ -1,18 +1,42 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "運営者情報 | ソールラボ",
+  title: "運営者情報・編集方針 | ソールラボ",
   description:
-    "ソールラボの運営者情報・編集方針・免責事項についてご確認ください。",
+    "ソールラボの運営者情報・編集体制・情報の検証方針・効果表現に関する方針（景表法/薬機法配慮）・免責事項についてご確認ください。",
   alternates: {
     canonical: "https://sole-laboratory.com/about/",
+  },
+};
+
+const orgStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "ソールラボ",
+  url: "https://sole-laboratory.com",
+  description:
+    "ダイエットインソールを公式情報・出典に基づいて比較・検証する情報メディア。",
+  publisher: {
+    "@type": "Organization",
+    name: "株式会社MediaX",
+    address: {
+      "@type": "PostalAddress",
+      addressRegion: "東京都",
+      addressLocality: "渋谷区",
+      addressCountry: "JP",
+    },
   },
 };
 
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgStructuredData) }}
+      />
       <Breadcrumb items={[{ label: "運営者情報" }]} />
       <main className="max-w-4xl mx-auto px-4 py-8">
         <h1 className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b-2 border-[#e8627c]">
@@ -92,7 +116,14 @@ export default function AboutPage() {
                 特定の商品を不当に優遇・排除することなく、公正な比較情報を提供します。
               </li>
               <li>
-                掲載情報は定期的に見直し、最新の状態を維持するよう努めます。
+                価格・スペックなどは各メーカー・販売元の公式情報を確認し、出典と参照日を明記します。掲載情報は定期的に見直し、最新の状態を維持するよう努めます。
+              </li>
+              <li>
+                インソールは医薬品・医療機器ではないため、痩身・治療効果を断定する表現は用いず、景品表示法・薬機法に配慮した表現を編集部の基準として統一しています（
+                <Link href="/content-policy/" className="text-[#e8627c] underline">
+                  効果・表現に関する方針（NG/OK表）はこちら
+                </Link>
+                ）。
               </li>
               <li>
                 当サイトはアフィリエイトプログラムに参加しており、掲載リンクを通じて商品が購入された場合、当サイト運営者が報酬を受け取ることがあります。ただし、報酬の有無が評価やランキングに影響を与えることはありません。
@@ -101,10 +132,41 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* 免責事項 */}
+        {/* 編集・検証体制 */}
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
             <span className="text-[#e8627c] mr-2">4.</span>
+            編集・検証体制と情報の確認方法
+          </h2>
+          <div className="text-sm text-gray-700 leading-relaxed space-y-2">
+            <p>
+              記事はソールラボ編集部が企画・調査・執筆・確認を行っています。各記事には著者として「ソールラボ編集部」を明記し、製品情報には確認日（参照日）を記載しています。
+            </p>
+            <p>掲載情報は次の手順で確認しています。</p>
+            <ul className="list-disc pl-5 space-y-1">
+              <li>
+                価格・スペック・保証・販売チャネルは、各メーカー・販売元の<strong>公式サイト／公式EC店舗の表記を一次情報として確認</strong>し、出典URLと参照日を明記します。
+              </li>
+              <li>
+                公式に記載のない項目は推測で補わず「公式表記なし」と明示します。架空の口コミ・体験談・統計・調査結果は作成しません。
+              </li>
+              <li>
+                効果に関する表現は<Link href="/content-policy/" className="text-[#e8627c] underline">記事制作ポリシー</Link>のNG/OK基準に照らして確認します。健康・身体に関わる内容には医療免責を併記します。
+              </li>
+              <li>
+                掲載後も価格改定・キャンペーン・廃盤などに合わせて定期的に見直します。誤りが判明した場合は速やかに修正します。
+              </li>
+            </ul>
+            <p className="text-xs text-gray-500">
+              ※ 当サイトは医療機関ではありません。足・膝・腰などの痛みや疾患に関する判断は、医師・専門家にご相談ください。
+            </p>
+          </div>
+        </section>
+
+        {/* 免責事項 */}
+        <section className="mb-8">
+          <h2 className="text-lg font-bold text-gray-900 mb-3">
+            <span className="text-[#e8627c] mr-2">5.</span>
             免責事項
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">
@@ -121,7 +183,7 @@ export default function AboutPage() {
         </section>
 
         <p className="text-xs text-gray-400 mt-8 text-right">
-          最終更新日：2026年5月20日
+          最終更新日：2026年6月27日
         </p>
       </main>
     </>

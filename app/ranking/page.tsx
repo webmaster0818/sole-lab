@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
 import OfficialCTA from "../components/OfficialCTA";
+import KeihyoNote from "../components/KeihyoNote";
 
 export const metadata: Metadata = {
   title:
@@ -1584,6 +1585,9 @@ export default function RankingPage() {
             <Link href="/articles/insole-truth/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50 md:col-span-2">
               <p className="text-sm font-semibold text-[#e8627c]">ダイエットインソールは嘘？効果の科学的根拠を検証 →</p>
             </Link>
+          </div>
+          <div className="max-w-4xl mx-auto px-4">
+            <KeihyoNote />
           </div>
         </div>
       </section>
