@@ -156,6 +156,38 @@ export default function RankingPage() {
         </div>
       </section>
 
+      {/* このランキングの評価基準・作成方針（根拠の透明化） */}
+      <section className="max-w-4xl mx-auto px-4 mb-12">
+        <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-7">
+          <h2 className="text-base md:text-xl font-bold text-gray-900 mb-2">
+            このランキングの評価基準・作成方針
+          </h2>
+          <p className="text-sm text-gray-600 mb-4">
+            広告のためのランキングではなく、編集部が次の6つの基準で各製品の公式情報・口コミの傾向を整理した「比較編集」です。順位は効果を保証するものではなく、目的別の向き・不向きを判断しやすくするためのものです。
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 mb-4">
+            {[
+              ["①料金・コスパ", "単品/セットの1足あたり価格（公式EC表示）"],
+              ["②サイズ展開・対応靴", "対応サイズ・靴のタイプとの相性"],
+              ["③構造・独自技術", "公式が表示する設計・特許表記の有無"],
+              ["④口コミ評価の傾向", "良い/悪い両面の声の傾向（断定しない）"],
+              ["⑤効果実感までの目安", "即効性をうたわず継続前提で整理"],
+              ["⑥返品・保証制度", "公式の返金保証・条件の有無"],
+            ].map(([k, v]) => (
+              <div key={k} className="flex gap-2 text-sm">
+                <span className="font-bold text-gray-900 shrink-0">{k}</span>
+                <span className="text-gray-600">{v}</span>
+              </div>
+            ))}
+          </div>
+          <ul className="space-y-1.5 text-xs text-gray-500 border-t border-gray-100 pt-4">
+            <li>・価格・スペックは各製品の公式サイト／公式EC店舗の表示を2026年6月に確認した値です（変更される場合があります）。</li>
+            <li>・本ページはアフィリエイト広告（PR）を利用していますが、広告報酬の有無や金額が順位・評価に影響することはありません。</li>
+            <li>・インソールは医薬品・医療機器ではなく、痩身・治療効果を保証するものではありません。効果の感じ方には個人差があります（<Link href="/content-policy/" className="text-[#0ea5e9] underline">効果・表現に関する方針</Link>）。</li>
+          </ul>
+        </div>
+      </section>
+
       {/* 悩み・目的別 早見表（CVR導線） */}
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-[#f0f9ff] border border-[#bae6fd] rounded-xl p-5 md:p-7">

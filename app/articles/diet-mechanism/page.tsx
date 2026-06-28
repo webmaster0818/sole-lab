@@ -144,6 +144,14 @@ export default function DietMechanismPage() {
         </div>
       </section>
 
+      {/* 結論先出し（直答） */}
+      <div className="max-w-4xl mx-auto px-4 mt-6">
+        <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">結論：インソールだけで痩せるわけではありません</p>
+          <p>インソールは医薬品・医療機器ではなく、履くだけで体重が落ちるものではありません。期待できるのは、足裏のアーチや姿勢・歩行のバランスをサポートし、<strong>日常での体の使い方を整える「補助」</strong>です。体型の変化には食事管理や適度な運動との併用、毎日の継続が前提で、感じ方には個人差があります。本記事ではその仕組みと限界を正直に解説します。</p>
+        </div>
+      </div>
+
       {/* 「履くだけで痩せる」は本当か？ */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">

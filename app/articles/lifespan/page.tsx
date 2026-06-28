@@ -148,6 +148,14 @@ export default function LifespanPage() {
         </div>
       </section>
 
+      {/* 結論先出し（直答） */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">結論：交換時期の目安</p>
+          <p>インソールの寿命は素材・使用頻度で変わりますが、一般的な交換の目安は<strong>約3〜6か月</strong>です（毎日使用で3〜4か月、週3〜4回で5〜6か月）。「クッションのへたり」「におい・変色」「すり減り・かかとの傾き」などの劣化サインが出たら、足のトラブルを防ぐため早めの交換がおすすめです。</p>
+        </div>
+      </div>
+
       {/* Table of Contents */}
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">

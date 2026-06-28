@@ -89,3 +89,10 @@
 - 設置箇所: 3製品ページ(結論直後+末尾の2箇所)/ranking(各製品)/diagnosis結果カード(result製品・client描画)/compare3ページ(比較2製品+「該当商品がない3つ目」を追加掲載)/トップ製品カード(3製品)。並列agent4体で実施
 - ステマ規制・景表法: Footerに「本サイトはアフィリエイト広告(PR)を利用」開示を追加（content-policyにも既存記載あり）＋各CTAにPR表記
 - 製品の事実/価格/3製品記述/デザインは不変更(CTA追加のみ)。build185/sitemap lastmod8件・deploy=sole-lab-deploy両push・本番でfelmatリンク/rel sponsored/正URL/PR開示をcurl検証
+
+## 2026-06-27 フュージョン実行計画 おすすめ順(1)KW抽出→(3)景表法テンプレ→(2)about（MediaXAI「おすすめ順で進めよう」）✅
+- 集客実行計画を2モデルfusion(claude+codex)で策定済→おすすめ順で着手
+- (1)ストライキングディスタンス刈り取り: gsc-api/striking_distance.py新規(位置low-high×表示順・CTRギャップflag)。GSC実データで最大レバー特定=/runway-cure-sole/ 341imp/0clk@13.8位。0クリックの大半が「どこで買えるか」系(ドンキ86imp@10.1/店舗19@7.6/取扱店舗15@7.7/販売店17/どこで売ってる12/最安値)＝計約149imp。titleが「口コミ・評判」先頭で販売店/ドンキ/最安値語が無くクリックされず→title前出し「ランウェイキュアソールはどこで売ってる？販売店・ドンキ・最安値と口コミを検証【2026年】」+冒頭結論box に販売店直答1行追加+dateModified更新。料金表/公式スペック不変更
+- (3)景表法NG-OKテンプレ: app/lib/keihyo.ts(NG⇔OK 7組+統一注記文+方針見出しを一元化)+components/KeihyoNote.tsx。ranking・3製品ページ全CV箇所に定位置配置。content-policyにNG/OK表を公開(透明性=E-E-A-T+将来BtoB被リンク資産の土台)
+- (2)/about E-E-A-T: Organization構造化データ追加(運営=MediaX・会社情報保護のまま不変更)。新section「編集・検証体制と情報の確認方法」(公式を一次情報・出典/参照日明記・公式表記なし明示・架空口コミ/統計作らない・NG/OK基準で確認・医療免責)。編集方針に景表法配慮明記+content-policyへ相互リンク。架空監修者は付けない(名義貸し=景表法リスク。実体ある専門家のみ=P3任意)
+- 全て追加のみ(料金/公式スペック/3製品事実 不変更)。build/sitemap lastmod6件・deploy=sole-lab-deploy両push・本番curl全項目検証(runway title LIVE / content-policy NG/OK / about検証体制 / ranking注記)。残: (A)残り刈り取り(/ranking根拠透明化+8-10位記事群のページ1の崖) (B)下流CVギャップ(解約/最安値/効果なし検証+向いてない人併記)
