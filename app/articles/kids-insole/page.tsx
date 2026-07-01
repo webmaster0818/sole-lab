@@ -73,6 +73,14 @@ export default function KidsInsolePage() {
         </div>
       </section>
 
+      {/* 結論先出し（直答） */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">結論：子供用インソールの選び方</p>
+          <p>子供用インソールは<strong>成長に合わせたサイズ</strong>（足は半年で0.5〜1cm伸びるため3〜6か月ごとに見直し・カット調整できるものが便利）、<strong>柔らかめのアーチサポート</strong>（偏平足対策。硬すぎは筋肉の発達を妨げるため成長段階に合わせる）、<strong>衝撃吸収性・通気性や抗菌性</strong>、<strong>靴とのフィット感</strong>で選ぶのが基本です。導入の目安は足のアーチが形成される6歳頃以降。足の痛みや歩き方・変形が気になる場合は自己判断せず、<strong>小児整形外科など専門医に相談</strong>してください。</p>
+        </div>
+      </div>
+
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>

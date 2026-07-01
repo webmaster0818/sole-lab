@@ -73,6 +73,14 @@ export default function WashingGuidePage() {
         </div>
       </section>
 
+      {/* 結論先出し（直答） */}
+      <div className="max-w-4xl mx-auto px-4 mt-4">
+        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">結論：インソールの洗い方の基本</p>
+          <p>基本は<strong>ぬるま湯＋中性洗剤でやさしく手洗い→よくすすいで→風通しの良い日陰で陰干し</strong>です。水洗いの可否は素材で異なり、EVA・ポリウレタン・ジェルは水洗いOK、革（レザー）は水洗いNG（拭き取り）。<strong>洗濯機・ドライヤー・直射日光・漂白剤は変形や劣化の原因になるため避ける</strong>のが基本です。</p>
+        </div>
+      </div>
+
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>

@@ -96,3 +96,9 @@
 - (3)景表法NG-OKテンプレ: app/lib/keihyo.ts(NG⇔OK 7組+統一注記文+方針見出しを一元化)+components/KeihyoNote.tsx。ranking・3製品ページ全CV箇所に定位置配置。content-policyにNG/OK表を公開(透明性=E-E-A-T+将来BtoB被リンク資産の土台)
 - (2)/about E-E-A-T: Organization構造化データ追加(運営=MediaX・会社情報保護のまま不変更)。新section「編集・検証体制と情報の確認方法」(公式を一次情報・出典/参照日明記・公式表記なし明示・架空口コミ/統計作らない・NG/OK基準で確認・医療免責)。編集方針に景表法配慮明記+content-policyへ相互リンク。架空監修者は付けない(名義貸し=景表法リスク。実体ある専門家のみ=P3任意)
 - 全て追加のみ(料金/公式スペック/3製品事実 不変更)。build/sitemap lastmod6件・deploy=sole-lab-deploy両push・本番curl全項目検証(runway title LIVE / content-policy NG/OK / about検証体制 / ranking注記)。残: (A)残り刈り取り(/ranking根拠透明化+8-10位記事群のページ1の崖) (B)下流CVギャップ(解約/最安値/効果なし検証+向いてない人併記)
+
+## 2026-06-29 A 残り刈り取り(MediaXAI「Aで」)✅
+- /ranking/を根拠透明な比較編集に転換: ヒーロー直下に「このランキングの評価基準・作成方針」ブロック新設(6評価基準=料金/サイズ/構造/口コミ傾向/効果目安/返品保証 各見方+採点方針「広告でなく目的別向き不向き・順位は効果保証でない」+価格2026年6月公式確認+PR表記[報酬は順位に影響しない]+医薬品医療機器でない/個人差→content-policyへ)。アフィリ色を薄め編集根拠を前面化=刈り取りとthin-affiliate回避を同時
+- ページ1の崖8-10位記事に結論先出し: ★GSCでこれら記事の流入クエリは匿名化(lifespan97表示の殆ど匿名)→当て推量のtitle改変は逆効果と判断し、クエリ非依存でCTR/スニペットに効く「結論直答」を最大表示2記事に追加。lifespan(10.3/97)=交換目安3〜6か月、diet-mechanism(8.7/57)=痩せるわけでない/姿勢補助/個人差/食事運動併用(景表法安全)
+- slim-up(8.0/0clk)は既にtitle口コミ効果+本文販売店/最安値/ドンキ網羅済+クエリ証拠なしで無理な改変せず(runwayは"どこで売ってる"が明確支配クエリで最適化が効いた)。runwayのwhere-to-buy最適化は順位が動き始め(販売店系7-10位・表示増)
+- 追加のみ(料金/公式スペック/3製品事実不変更)。build/sitemap lastmod3件(ranking,lifespan,diet-mechanism)・deploy両push・本番200 cache回避curl検証・GSC再送信。残: B(下流CVギャップ=解約/最安値比較/効果なし中立検証+向いてない人併記)/GSC観測後の追加刈り取り

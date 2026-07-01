@@ -156,6 +156,18 @@ export default function InsoleExpectationsPage() {
         </div>
       </section>
 
+      {/* 結論先出し（直答） */}
+      <div className="max-w-4xl mx-auto px-4 mt-6">
+        <div className="bg-[#fdf2f4] border-l-4 border-[#e8627c] p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-gray-900 mb-1">
+            結論：インソールに期待できること・できないこと
+          </p>
+          <p>
+            ダイエットインソールは、足裏アーチのサポートによる<strong>姿勢・歩行バランスの補整や足の疲労軽減</strong>、歩行の質を高めることが期待できます。一方で<strong>「履くだけで痩せる」わけではなく</strong>、体型の変化には食事管理やウォーキングなどの運動との併用・3ヶ月以上の継続が前提で、効果には個人差があります（医療機器ではありません）。過度な期待ではなく「歩行の質を高めてダイエットを効率化するサポートツール」として使うのが、失敗しないコツです。
+          </p>
+        </div>
+      </div>
+
       {/* 「効果ない」と感じる3つの理由 */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
