@@ -20,7 +20,7 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-02",
 };
 
 const faqs = [{"q": "返金保証は必ず使えますか？", "a": "保証期間・対象・申請方法などの条件を満たす必要があります。購入前に条件を確認し、満たせない場合は返金されない点に注意しましょう。"}, {"q": "定期購入の解約はいつまでにすれば良い？", "a": "多くは『次回発送の◯日前まで』に解約連絡が必要です。発送日から逆算して早めに連絡するのが安全です。"}, {"q": "単品購入と定期購入どちらが良い？", "a": "まず試したいなら単品、継続前提で割安に使いたいなら定期が向きます。定期は最低回数と解約条件を必ず確認しましょう。"}, {"q": "開封後でも返金してもらえますか？", "a": "返金保証が「開封・使用後でも対象」か「未開封のみ対象」かは、販売店ごとに条件が異なります。一般に、返送が必要だったり、商品やパッケージの状態が条件になる場合があります。具体的な可否は購入前に各公式サイトの保証規約で必ず確認しましょう。"}, {"q": "定期コースの解約方法はどうすれば良い？", "a": "解約方法は電話のみ・マイページ・問い合わせフォームなど販売店によって異なります。受付時間や次回発送の何日前までかといった期限も様々です。注文前に解約方法と連絡先を確認しておくと安心です。詳しい条件は各公式サイトでご確認ください。"}];
@@ -72,6 +72,57 @@ export default function RefundGuaranteePage() {
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">返金保証は『条件（期間・対象・申請方法）』を、定期購入は『最低継続回数・解約期限・解約方法』を、購入前に必ず確認しましょう。条件を把握しておけば、保証を活かしつつ無駄な出費を防げます。</p>
         </div>
 
+        <section id="compare" className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">3製品の返金保証・返品・購入形態（定期の有無）比較</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">当サイトで扱う3製品（ピットソール／ランウェイキュアソール／スリムアップインソール）について、各製品の公式ページで確認できた「返金保証・返品・購入形態（単品・セット・定期の有無）」を横断でまとめました。下表は各製品ページの公式確認済みの記述に基づく整理です。条件は変更される場合があるため、購入前に必ず各公式サイトで最新の内容をご確認ください。</p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-200 rounded-xl">
+              <thead>
+                <tr className="bg-[#f0f9ff] text-gray-900">
+                  <th className="p-3 text-left border-b border-gray-200 whitespace-nowrap">製品</th>
+                  <th className="p-3 text-left border-b border-gray-200">返金保証</th>
+                  <th className="p-3 text-left border-b border-gray-200">返品・交換</th>
+                  <th className="p-3 text-left border-b border-gray-200">購入形態</th>
+                  <th className="p-3 text-left border-b border-gray-200">定期縛り</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-700 align-top">
+                <tr>
+                  <td className="p-3 border-b border-gray-200 font-medium whitespace-nowrap"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td>
+                  <td className="p-3 border-b border-gray-200">公式ページに全額返金保証の記載なし（公式サイトで要確認）</td>
+                  <td className="p-3 border-b border-gray-200">公式サイト購入は未使用・未開封品に限りサイズ交換可（到着後7日以内に連絡）</td>
+                  <td className="p-3 border-b border-gray-200">単品／3足セット／6足セット（まとめ買い）</td>
+                  <td className="p-3 border-b border-gray-200">定期縛りなし（都度購入）</td>
+                </tr>
+                <tr>
+                  <td className="p-3 border-b border-gray-200 font-medium whitespace-nowrap"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td>
+                  <td className="p-3 border-b border-gray-200">公式サイトに「90日間使用して実感がない場合の全額返金保証」の記載あり（条件は公式で要確認）</td>
+                  <td className="p-3 border-b border-gray-200">公式ページに返品条件の明記なし（全額返金保証の申請条件は公式サイトで要確認）</td>
+                  <td className="p-3 border-b border-gray-200">1足（単品）／2足セット／3足セット</td>
+                  <td className="p-3 border-b border-gray-200">定期縛りなし（都度購入）</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-medium whitespace-nowrap"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td>
+                  <td className="p-3">公式ページに全額返金保証の記載なし（公式サイトで要確認）</td>
+                  <td className="p-3">公式サイト購入は未開封品に限り返品可（詳細条件は公式の返品ポリシーで要確認）</td>
+                  <td className="p-3">単品／2足セット／3足セット（+1足プレゼント）</td>
+                  <td className="p-3">定期縛りなし（都度購入）</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="bg-[#f0f9ff] border border-[#e0f2fe] rounded-xl p-5 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <p className="font-bold text-gray-900 mb-2">この表からわかること</p>
+            <ul className="list-disc pl-5 space-y-2">
+              <li><span className="font-bold text-gray-900">3製品はいずれも「単品・セット販売（都度購入）」で、定期購入（サブスク）ではありません。</span>そのため「最低○回の継続」「解約連絡が必要」といった定期縛りは、各製品ページの記載を確認した範囲ではありません。定期コースの解約に悩む心配は基本的に不要です。</li>
+              <li><span className="font-bold text-gray-900">全額返金保証が明記されているのはランウェイキュアソール（90日間使用して実感がない場合）</span>のみです。ピットソール・スリムアップインソールの公式ページには全額返金保証の記載を確認できませんでした。</li>
+              <li><span className="font-bold text-gray-900">返品・交換</span>は、ピットソール・スリムアップインソールとも「公式サイト購入・未開封（ピットソールは未使用も）」が条件です。ピットソールは到着後7日以内の連絡が必要です。</li>
+            </ul>
+          </div>
+          <p className="text-xs text-gray-500 leading-relaxed mb-2">※上記は各製品ページ（<Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link>／<Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link>／<Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link>）で公式確認済みとして掲載している記述にもとづく整理です。返金保証の適用条件・返品送料・申請方法などの詳細や、記載のない項目（「公式サイトで要確認」）は、必ず各公式サイトの最新の利用規約・返品特約でご確認ください。条件・価格・保証内容は変更される場合があります。</p>
+          <p className="text-xs text-gray-500 leading-relaxed">※本記事は各製品の公式サイトを紹介するPR（アフィリエイト広告）を含みます。詳しい条件は各製品ページおよび公式サイトをご確認ください。</p>
+        </section>
+
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">返金保証・定期購入の仕組みと落とし穴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">返金保証は『一定期間内に効果に満足できなければ返金』といった制度ですが、保証期間・対象商品・申請手続き・返送の要否など条件が細かく決まっていることが多いです。条件を満たさないと返金されません。</p>
@@ -84,7 +135,7 @@ export default function RefundGuaranteePage() {
           <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             <li><span className="font-bold text-gray-900">保証の条件・期間：</span>何日以内に申請が必要か、対象商品・対象セットはどれか、申請に必要な書類（注文番号・明細など）や返送の要否を確認します。</li>
             <li><span className="font-bold text-gray-900">開封後の可否：</span>「未開封のみ」か「使用後でも対象」かは販売店により異なります。返金保証と未開封の返品制度は別物なので、それぞれの扱いを確認しましょう。</li>
-            <li><span className="font-bold text-gray-900">定期縛りの有無：</span>「最低◯回の継続が条件」といった回数縛りがあるか、初回特価の場合の総額はいくらになるかを把握しておきます。</li>
+            <li><span className="font-bold text-gray-900">定期縛りの有無：</span>「最低◯回の継続が条件」といった回数縛りがあるか、初回特価の場合の総額はいくらになるかを把握しておきます。なお、当サイトで扱う3製品はいずれも単品・セット販売（都度購入）で定期購入ではありません（<a href="#compare" className="text-[#0ea5e9] underline">3製品の比較はこちら</a>）。定期購入の商品を検討する際の一般的なチェック項目としてご活用ください。</li>
             <li><span className="font-bold text-gray-900">解約方法・連絡先：</span>電話・マイページ・フォームのどれで受け付けるか、受付時間、次回発送の何日前までに連絡が必要かを事前に控えておきます。</li>
           </ul>
           <div className="bg-[#f0f9ff] border border-[#e0f2fe] rounded-xl p-5 text-sm md:text-base text-gray-700 leading-relaxed">

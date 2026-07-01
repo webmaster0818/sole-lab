@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import OfficialCTA from "../../components/OfficialCTA";
 
 export const metadata: Metadata = {
-  title: "ダイエットインソールは市販でどこで売ってる？【2026年】販売店まとめ",
+  title: "ダイエットインソールは市販でどこで売ってる？【2026年】3製品の最安値・販売店比較",
   description:
-    "ダイエットインソールはどこで買える？ドラッグストア・ドンキ・ニトリ・無印・ワークマン・東急ハンズなど市販の販売店と、通販との違いを比較して解説。",
+    "ダイエットインソールはどこで買える？ピットソール・ランウェイキュアソール・スリムアップインソール3製品の販売チャネル（公式/Amazon・楽天/ドンキ/ドラッグストア）と単品・セット最安値・返金保証を横断比較。市販店と通販の違いも解説。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/where-to-buy-insole/",
   },
@@ -20,7 +21,7 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-02",
 };
 
 const faqs = [{"q": "ダイエットインソールはドラッグストアで売っていますか？", "a": "汎用的なアーチサポート・クッションのインソールは購入できます。ただし特許技術採用の本格的なダイエットインソールは公式通販やAmazon・楽天が中心です。"}, {"q": "市販品と通販品はどちらが良いですか？", "a": "疲れ軽減目的なら市販の汎用品でも十分です。本格的なダイエット目的や返金保証を求めるなら、専用設計の製品を正規通販で買うのがおすすめです。"}, {"q": "実店舗で本格的なダイエットインソールは買えますか？", "a": "取り扱いは限られます。ピットソールなどは公式通販やAmazon・楽天が中心で、正規品保証や返金保証を受けやすいのもネットのメリットです。"}];
@@ -71,6 +72,104 @@ export default function WhereToBuyPage() {
           <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">一般的なインソールはドラッグストア・ドンキ・ニトリ・東急ハンズなどで購入できますが、特許技術を採用した本格的なダイエットインソール（ピットソール等）は公式通販やAmazon・楽天での取り扱いが中心です。目的に合わせて選びましょう。</p>
         </div>
+
+        <section id="hikaku" className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">主要3製品の最安値・販売店 横断比較</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">当サイトで検証している本格派ダイエットインソール3製品（<Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link>／<Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link>／<Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link>）について、「どこで買えるか（販売チャネル）」と「いくらで買えるか（単品・セット最安値・返金保証）」を各製品ページの公式確認値をもとに一覧にまとめました。</p>
+
+          {/* 表A：販売チャネル別の取扱可否 */}
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">表A：3製品 × 販売チャネルの取扱可否</h3>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-gray-200 rounded-xl">
+              <thead>
+                <tr className="bg-[#f0f9ff] text-gray-900">
+                  <th className="p-3 text-left border-b border-gray-200">製品</th>
+                  <th className="p-3 text-center border-b border-gray-200">公式サイト</th>
+                  <th className="p-3 text-center border-b border-gray-200">Amazon・楽天</th>
+                  <th className="p-3 text-center border-b border-gray-200">ドンキ</th>
+                  <th className="p-3 text-center border-b border-gray-200">ドラッグストア・薬局</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-700">
+                <tr>
+                  <td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td>
+                  <td className="p-3 border-b border-gray-200 text-center text-[#0ea5e9] font-bold">◎</td>
+                  <td className="p-3 border-b border-gray-200 text-center text-[#0ea5e9] font-bold">◎<span className="block text-[10px] text-gray-500 font-normal">公式出品</span></td>
+                  <td className="p-3 border-b border-gray-200 text-center text-gray-400">×</td>
+                  <td className="p-3 border-b border-gray-200 text-center text-gray-400">×</td>
+                </tr>
+                <tr>
+                  <td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td>
+                  <td className="p-3 border-b border-gray-200 text-center text-[#0ea5e9] font-bold">◎</td>
+                  <td className="p-3 border-b border-gray-200 text-center text-amber-500 font-bold">△<span className="block text-[10px] text-gray-500 font-normal">時期により変動</span></td>
+                  <td className="p-3 border-b border-gray-200 text-center text-gray-400">×</td>
+                  <td className="p-3 border-b border-gray-200 text-center text-gray-400">×</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td>
+                  <td className="p-3 text-center text-[#0ea5e9] font-bold">◎</td>
+                  <td className="p-3 text-center text-[#0ea5e9] font-bold">◎<span className="block text-[10px] text-gray-500 font-normal">Yahoo!も可</span></td>
+                  <td className="p-3 text-center text-gray-400">×</td>
+                  <td className="p-3 text-center text-gray-400">×</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mb-2">◎=取扱あり／△=時期により変動／×=取扱は確認されていません。いずれの製品も<strong>ドンキ・ドラッグストア・薬局などの実店舗での取扱は確認されておらず、購入は公式サイトが中心</strong>です。Amazon・楽天は非正規出品のリスクがあるため、販売元（公式店舗）の表記をご確認ください。</p>
+          <p className="text-xs text-gray-500 mb-8">出典: 各製品ページの公式確認情報（<Link href="/pitsole/" className="underline">ピットソール</Link>=2026年4月／<Link href="/runway-cure-sole/" className="underline">ランウェイ</Link>・<Link href="/slim-up-insole/" className="underline">スリムアップ</Link>=2026年6月12日参照）。</p>
+
+          {/* 表B：価格・セット最安値・返金保証 */}
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">表B：3製品 × 単品価格・セット最安値（1足あたり）・返金保証</h3>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-gray-200 rounded-xl">
+              <thead>
+                <tr className="bg-[#f0f9ff] text-gray-900">
+                  <th className="p-3 text-left border-b border-gray-200">製品</th>
+                  <th className="p-3 text-left border-b border-gray-200">単品（税込）</th>
+                  <th className="p-3 text-left border-b border-gray-200">セット最安値（1足あたり）</th>
+                  <th className="p-3 text-left border-b border-gray-200">返金保証</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-700">
+                <tr>
+                  <td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td>
+                  <td className="p-3 border-b border-gray-200">6,578円</td>
+                  <td className="p-3 border-b border-gray-200"><span className="font-bold text-[#0ea5e9]">4,934円</span><span className="block text-[10px] text-gray-500">3足19,734円/6足39,468円</span></td>
+                  <td className="p-3 border-b border-gray-200">公式で要確認<span className="block text-[10px] text-gray-500">未使用・未開封のサイズ交換は可（7日以内）</span></td>
+                </tr>
+                <tr>
+                  <td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td>
+                  <td className="p-3 border-b border-gray-200">6,980円</td>
+                  <td className="p-3 border-b border-gray-200"><span className="font-bold text-[#0ea5e9]">約5,987円</span><span className="block text-[10px] text-gray-500">2足11,980円/3足17,960円</span></td>
+                  <td className="p-3 border-b border-gray-200">90日間の全額返金保証<span className="block text-[10px] text-gray-500">実感がない場合（公式サイト）</span></td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td>
+                  <td className="p-3">6,980円</td>
+                  <td className="p-3"><span className="font-bold text-[#0ea5e9]">4,480円</span><span className="block text-[10px] text-gray-500">3足17,920円（+1足プレゼント）</span></td>
+                  <td className="p-3">公式で要確認<span className="block text-[10px] text-gray-500">未開封品の返品可（条件は公式）</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mb-2">※価格・セット構成・返金条件は各製品の<strong>公式サイト・公式EC店舗で確認した値</strong>です（ピットソール=2026年4月／ランウェイ・スリムアップ=2026年6月12日参照）。1足あたりはセット最安プランを税込価格から算出。返金保証の有無・条件は製品ごとに異なり、記載のない項目は「公式で要確認」としています。</p>
+          <p className="text-xs text-gray-500 mb-6">※価格・キャンペーン・保証条件は変更される場合があるため、購入前に必ず各公式サイトで最新の内容をご確認ください。効果には個人差があり、履くだけで痩せることを保証するものではありません。</p>
+
+          <div className="bg-[#f0f9ff] border border-[#e0f2fe] rounded-xl p-5 mb-6">
+            <p className="text-sm font-bold text-gray-900 mb-2">このページ（横断比較）と各製品ページ（詳細）の使い分け</p>
+            <p className="text-sm text-gray-700 leading-relaxed">このページは3製品の販売店・価格をまとめて見比べるための<strong>横断比較ハブ</strong>です。価格の内訳やセットの条件、口コミ・サイズ選び・返金の詳しい手順など、各製品の詳細は個別ページでご確認ください。</p>
+            <div className="grid sm:grid-cols-3 gap-2 mt-4">
+              <Link href="/pitsole/" className="block text-center text-sm font-medium text-[#e8627c] border border-[#f3e0e4] rounded-lg px-3 py-2 hover:bg-[#fdf2f4] transition-colors">ピットソールの詳細 →</Link>
+              <Link href="/runway-cure-sole/" className="block text-center text-sm font-medium text-[#e8627c] border border-[#f3e0e4] rounded-lg px-3 py-2 hover:bg-[#fdf2f4] transition-colors">ランウェイの詳細 →</Link>
+              <Link href="/slim-up-insole/" className="block text-center text-sm font-medium text-[#e8627c] border border-[#f3e0e4] rounded-lg px-3 py-2 hover:bg-[#fdf2f4] transition-colors">スリムアップの詳細 →</Link>
+            </div>
+          </div>
+
+          <div className="text-center my-6">
+            <OfficialCTA product="pitsole" />
+          </div>
+          <p className="text-xs text-gray-400 text-center">※上記は各製品の公式サイトへのリンク（アフィリエイト・PR）を含みます。当サイトはアフィリエイト広告（PR）を利用しています。</p>
+        </section>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">市販店とネット通販の違い</h2>
