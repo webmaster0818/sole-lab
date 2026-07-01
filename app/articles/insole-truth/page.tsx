@@ -347,6 +347,47 @@ export default function InsoleTruthPage() {
         </div>
       </section>
 
+      {/* 「痩せなかった」理由と向いていない人 */}
+      <section className="section-light py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
+            「痩せなかった・効果がなかった」と感じる主な理由
+          </h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
+            「効果がなかった」という声の多くには、共通する理由があります。インソールは医薬品・医療機器ではなく、履くだけで体重が落ちるものではありません。次のようなケースでは変化を感じにくくなります。
+          </p>
+          <div className="space-y-3 mb-8">
+            {[
+              ["食事・運動を全く変えていない", "ダイエットの基本は「消費カロリー＞摂取カロリー」。インソールはあくまで日常の姿勢・歩行をサポートする補助で、食事管理や適度な運動との併用が前提です。"],
+              ["使用期間が短く即効性を期待した", "姿勢や歩き方の変化は数週間〜数ヶ月かけて表れるのが一般的です。数日で判断せず、毎日の継続が必要です。"],
+              ["サイズ・使い方が合っていない", "サイズが合わない、正しく装着できていないと本来のサポートが働きません。対応サイズと使い方を確認しましょう。"],
+              ["もともと歩く量が少ない", "インソールは「歩くこと」で意味を持ちます。歩行量が少ないと体の使い方の変化も出にくくなります。"],
+              ["過度な期待をしていた", "「履くだけで大幅に痩せる」といった効果は期待できません。現実的な期待値を持つことが、後悔しない判断につながります。"],
+            ].map(([title, desc], i) => (
+              <div key={i} className="bg-white border border-gray-200 rounded-lg p-4 md:p-5">
+                <p className="text-sm font-bold text-gray-900 mb-1">
+                  <span className="text-emerald-600 mr-1">理由{i + 1}.</span>{title}
+                </p>
+                <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4">こんな人には向いていません</h3>
+          <div className="bg-white border border-red-200 rounded-xl p-5 mb-4">
+            <ul className="space-y-2.5 text-sm text-gray-700">
+              <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>楽して・履くだけで短期間に痩せたい人（そうした効果は期待できません）</li>
+              <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>毎日の継続や、食事・運動との併用が難しい人</li>
+              <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>すでに十分な運動習慣があり、さらなる即効性を求めている人</li>
+              <li className="flex items-start gap-2"><span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>病気や医療的な理由で減量が必要な人（自己判断せず医師にご相談ください）</li>
+            </ul>
+          </div>
+          <p className="text-xs text-gray-500 leading-relaxed">
+            ※ 効果の感じ方には個人差があります。インソールは治療や医療を目的としたものではありません。足・膝・腰などに痛みがある場合や、体調・持病に不安がある場合は、専門家・医師にご相談ください。
+          </p>
+        </div>
+      </section>
+
       {/* 実際のユーザーの声 */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
