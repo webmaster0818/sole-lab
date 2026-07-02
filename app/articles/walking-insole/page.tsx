@@ -266,11 +266,11 @@ export default function WalkingInsolePage() {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4">
                 <div>
                   <span className="text-gray-500 block text-xs">価格</span>
-                  <span className="text-gray-900 font-medium">6,380円</span>
+                  <span className="text-gray-900 font-medium">6,980円</span>
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">セット最安値</span>
-                  <span className="text-[#c9a76c] font-bold">3,938円/足</span>
+                  <span className="text-[#c9a76c] font-bold">約5,987円/足</span>
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">サイズ</span>

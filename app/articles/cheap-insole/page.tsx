@@ -41,7 +41,7 @@ const faqs = [
   {
     question: "ダイエットインソールで一番安いのはどれですか？",
     answer:
-      "セット購入時の1足あたり最安値はランウェイキュアソールの5足セット（1足あたり3,938円）です。ただし、スリムアップインソールの3足+1足プレゼント（実質4足で17,920円、1足あたり4,480円）もコスパが良好です。単品で最も安いのはランウェイキュアソールの6,380円です。",
+      "セット購入時の1足あたり最安値はピットソールの5足セット（1足あたり4,378円）で、スリムアップインソールの3足+1足プレゼント（実質4足で17,920円、1足あたり4,480円）が僅差で続きます。ランウェイキュアソールは公式ラインナップが単品6,980円・2足セット11,980円・3足セット17,960円で、セット時は1足あたり約5,987円です。単品で最も安いのはピットソールの6,578円です。",
   },
   {
     question: "100均のインソールとダイエットインソールの違いは何ですか？",
@@ -56,7 +56,7 @@ const faqs = [
   {
     question: "ダイエットインソールを安く買う方法は？",
     answer:
-      "最も安く買う方法は各製品の公式サイトでのセット購入です。3〜5足セットで25〜38%OFFになります。楽天やAmazonのポイント大量還元セール時も狙い目ですが、セット割引の方が確実にお得な場合がほとんどです。",
+      "最も安く買う方法は各製品の公式サイトでのセット購入です。セット購入で約14〜36%OFFになります。楽天やAmazonのポイント大量還元セール時も狙い目ですが、セット割引の方が確実にお得な場合がほとんどです。",
   },
   {
     question: "初めてダイエットインソールを試すなら、安い製品から始めるべきですか？",
@@ -179,18 +179,18 @@ export default function CheapInsolePage() {
                 </thead>
                 <tbody>
                   <tr className="border-b border-gray-100 bg-amber-50">
-                    <td className="py-3 px-4 text-gray-900 font-bold">ランウェイキュアソール</td>
-                    <td className="py-3 px-4 text-gray-900">6,380円</td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">3,938円/足</td>
-                    <td className="py-3 px-4 text-gray-700">5足セット</td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">約38%OFF</td>
-                  </tr>
-                  <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-bold">ピットソール</td>
                     <td className="py-3 px-4 text-gray-900">6,578円</td>
-                    <td className="py-3 px-4 text-gray-700 font-bold">4,378円/足</td>
+                    <td className="py-3 px-4 text-[#c9a76c] font-bold">4,378円/足</td>
                     <td className="py-3 px-4 text-gray-700">5足セット</td>
-                    <td className="py-3 px-4 text-gray-700">約33%OFF</td>
+                    <td className="py-3 px-4 text-[#c9a76c] font-bold">約33%OFF</td>
+                  </tr>
+                  <tr className="border-b border-gray-100">
+                    <td className="py-3 px-4 text-gray-900 font-bold">ランウェイキュアソール</td>
+                    <td className="py-3 px-4 text-gray-900">6,980円</td>
+                    <td className="py-3 px-4 text-gray-700 font-bold">約5,987円/足</td>
+                    <td className="py-3 px-4 text-gray-700">3足セット（17,960円）</td>
+                    <td className="py-3 px-4 text-gray-700">約14%OFF</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-bold">スリムアップインソール</td>
@@ -206,10 +206,10 @@ export default function CheapInsolePage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              セット購入時の1足あたり最安値は<strong>ランウェイキュアソール（3,938円/足）</strong>です。ただし、ランウェイキュアソールは女性向け（22.5〜25.0cm）のため、男性はピットソールかスリムアップインソールが選択肢になります。
+              セット購入時の1足あたり最安値は<strong>ピットソール（4,378円/足・5足セット）</strong>で、スリムアップインソール（4,480円/足）が僅差で続きます。ランウェイキュアソールはセット時約5,987円/足とやや高めですが、ソックス型で靴を選ばない使いやすさが特長です（女性向けサイズ22.5〜25.0cm）。
             </p>
             <p>
-              3製品ともセット購入で大幅な割引が受けられます。単品購入はコスパが悪いため、購入を決めたらセットで購入するのが鉄則です。
+              3製品ともセット購入で割引が受けられます。単品購入はコスパが悪いため、購入を決めたらセットで購入するのが鉄則です。なお、いずれも実店舗（ドンキ・薬局など）での取り扱いは確認されておらず、セット割引は公式サイト限定です。取扱状況の詳細は<Link href="/articles/where-to-buy-insole/" className="text-[#0ea5e9] underline">3製品の販売店・最安値比較</Link>と<Link href="/runway-cure-sole/#where-to-buy" className="text-[#0ea5e9] underline">ランウェイキュアソールの販売店情報</Link>で確認できます。
             </p>
           </div>
         </div>
@@ -228,13 +228,13 @@ export default function CheapInsolePage() {
                 <span className="text-2xl font-bold text-[#c9a76c] shrink-0">1位</span>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h3 className="text-base font-bold text-gray-900">ランウェイキュアソール 5足セット</h3>
+                    <h3 className="text-base font-bold text-gray-900">ピットソール 5足セット</h3>
                     <span className="text-xs bg-amber-100 text-[#c9a76c] px-2 py-0.5 rounded-full font-medium">最安値</span>
                   </div>
                   <p className="text-sm text-gray-600 leading-relaxed mb-2">
-                    1足あたり3,938円で最安値。薄型で履き心地も良く、5足あれば全ての靴に対応可能。ただし女性限定（22.5〜25.0cm）のため、男性は選択不可。
+                    1足あたり4,378円でセット時の最安値。世界特許+臨床データのエビデンスに加え、男女対応4サイズ展開で家族でも使いやすいのが強みです。
                   </p>
-                  <p className="text-sm font-medium text-[#c9a76c]">総額19,690円（1足あたり3,938円、約38%OFF）</p>
+                  <p className="text-sm font-medium text-[#c9a76c]">総額21,890円（1足あたり4,378円、約33%OFF）</p>
                 </div>
               </div>
             </div>
@@ -244,13 +244,13 @@ export default function CheapInsolePage() {
                 <span className="text-2xl font-bold text-gray-500 shrink-0">2位</span>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h3 className="text-base font-bold text-gray-900">ピットソール 5足セット</h3>
-                    <span className="text-xs bg-red-100 text-[#e8627c] px-2 py-0.5 rounded-full font-medium">エビデンス最強</span>
+                    <h3 className="text-base font-bold text-gray-900">スリムアップインソール 3足セット+1足</h3>
+                    <span className="text-xs bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full font-medium">シェア向き</span>
                   </div>
                   <p className="text-sm text-gray-600 leading-relaxed mb-2">
-                    1足あたり4,378円。世界特許+臨床データという圧倒的なエビデンスを考慮すると、コスパは最強かもしれません。男女対応で4サイズ展開。
+                    1足あたり4,480円と僅差の2位。3足購入で1足プレゼントなので実質4足。フリーサイズで家族やパートナーとシェアでき、夫婦で使うなら1人あたり約9,000円です。
                   </p>
-                  <p className="text-sm font-medium text-[#c9a76c]">総額21,890円（1足あたり4,378円、約33%OFF）</p>
+                  <p className="text-sm font-medium text-[#c9a76c]">総額17,920円（実質4足、1足あたり4,480円、約36%OFF）</p>
                 </div>
               </div>
             </div>
@@ -260,13 +260,13 @@ export default function CheapInsolePage() {
                 <span className="text-2xl font-bold text-gray-400 shrink-0">3位</span>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h3 className="text-base font-bold text-gray-900">スリムアップインソール 3足セット+1足</h3>
-                    <span className="text-xs bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full font-medium">シェア向き</span>
+                    <h3 className="text-base font-bold text-gray-900">ランウェイキュアソール 3足セット</h3>
+                    <span className="text-xs bg-sky-100 text-[#0ea5e9] px-2 py-0.5 rounded-full font-medium">薄型ソックス型</span>
                   </div>
                   <p className="text-sm text-gray-600 leading-relaxed mb-2">
-                    1足あたり4,480円。3足購入で1足プレゼントなので実質4足。フリーサイズで家族やパートナーとシェアでき、夫婦で使うなら1人あたり約9,000円。
+                    1足あたり約5,987円。足に直接装着するソックス型で靴を選ばず使えるのが独自の強み。女性向けサイズ（22.5〜25.0cm）です。
                   </p>
-                  <p className="text-sm font-medium text-[#c9a76c]">総額17,920円（実質4足、1足あたり4,480円、約36%OFF）</p>
+                  <p className="text-sm font-medium text-[#c9a76c]">総額17,960円（1足あたり約5,987円、約14%OFF）</p>
                 </div>
               </div>
             </div>
@@ -417,10 +417,10 @@ export default function CheapInsolePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               {
-                type: "とにかく安さ重視の女性",
-                recommendation: "ランウェイキュアソール 5足セット",
-                reason: "1足あたり3,938円で最安値。5足あれば全ての靴に対応でき、長期間使い回せます。",
-                price: "総額19,690円",
+                type: "とにかく安さ重視",
+                recommendation: "ピットソール 5足セット",
+                reason: "1足あたり4,378円でセット時の最安値。5足あれば全ての靴に対応でき、長期間使い回せます。",
+                price: "総額21,890円",
               },
               {
                 type: "効果と価格のバランス重視",
@@ -436,9 +436,9 @@ export default function CheapInsolePage() {
               },
               {
                 type: "まず1足だけ試したい",
-                recommendation: "ランウェイキュアソール 単品",
-                reason: "単品6,380円で3製品中最安。薄型で履き心地も良く、お試しに最適。",
-                price: "6,380円",
+                recommendation: "ピットソール 単品",
+                reason: "単品6,578円で3製品中最安。靴を選ばず使いたい女性はソックス型のランウェイキュアソール（単品6,980円）も選択肢です。",
+                price: "6,578円",
               },
             ].map((item) => (
               <div key={item.type} className="bg-white border border-gray-200 rounded-xl p-5">
@@ -478,9 +478,9 @@ export default function CheapInsolePage() {
                 <tbody>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-medium">ランウェイキュアソール</td>
-                    <td className="py-3 px-4 text-gray-900">3,938円/足</td>
+                    <td className="py-3 px-4 text-gray-900">約5,987円/足</td>
                     <td className="py-3 px-4 text-gray-700">約120日</td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">約33円/日</td>
+                    <td className="py-3 px-4 text-gray-700">約50円/日</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-medium">ピットソール</td>
@@ -502,7 +502,7 @@ export default function CheapInsolePage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-emerald-700">ポイント：</span>
-              どの製品も1日あたり30〜40円。缶コーヒー1本より安いコストで、毎日の歩行をダイエットに活用できます。ジムの月会費（5,000〜10,000円/月）と比べても圧倒的に安く、通勤しながら使えるため時間の節約にもなります。
+              どの製品も1日あたり約36〜50円。缶コーヒー1本前後のコストで、毎日の歩行をダイエットに活用できます。ジムの月会費（5,000〜10,000円/月）と比べても圧倒的に安く、通勤しながら使えるため時間の節約にもなります。
             </p>
           </div>
         </div>

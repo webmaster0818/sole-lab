@@ -569,7 +569,7 @@ export default function SlimupNotWorkingPage() {
                       item: "セット最安値",
                       slimup: "4,480円/足",
                       pitsole: "4,378円/足",
-                      runway: "3,938円/足",
+                      runway: "約5,987円/足",
                     },
                     {
                       item: "男女対応",

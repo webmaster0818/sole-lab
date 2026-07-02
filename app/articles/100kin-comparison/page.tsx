@@ -863,6 +863,14 @@ export default function HyakkinComparisonPage() {
               </p>
             </Link>
             <Link
+              href="/runway-cure-sole/#where-to-buy"
+              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+            >
+              <p className="text-sm font-semibold text-gray-900">
+                ランウェイキュアソールはどこで売ってる？販売店・最安値まとめ
+              </p>
+            </Link>
+            <Link
               href="/ranking/"
               className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
             >

@@ -41,12 +41,12 @@ const faqs = [
   {
     question: "ランウェイキュアソールにクーポンコードはありますか？",
     answer:
-      "2026年4月現在、ランウェイキュアソール公式サイトで常時利用できるクーポンコードは確認されていません。ただし、公式サイトではセット割引（3足セット・5足セット）が常時適用されており、これが実質的な割引となっています。期間限定のキャンペーンで特別クーポンが発行される場合もあります。",
+      "2026年4月現在、ランウェイキュアソール公式サイトで常時利用できるクーポンコードは確認されていません。ただし、公式サイトではセット割引（2足セット・3足セット）が用意されており、これが実質的な割引となっています。期間限定のキャンペーンで特別クーポンが発行される場合もあります。",
   },
   {
     question: "ランウェイキュアソールを最安値で買うにはどうすればいいですか？",
     answer:
-      "最安値で購入するなら公式サイトのセット割引がおすすめです。3足セットなら1足あたり約4,000円前後、5足セットならさらに安くなります。楽天やAmazonはポイント還元がありますが、本体価格は公式サイトより高い場合が多いため、ポイント還元を含めた実質価格で比較しましょう。",
+      "最安値で購入するなら公式サイトのセット割引がおすすめです。3足セット（17,960円）なら1足あたり約5,987円です。楽天やAmazonはポイント還元がありますが、本体価格は公式サイトより高い場合が多いため、ポイント還元を含めた実質価格で比較しましょう。",
   },
   {
     question: "楽天やAmazonで買ったランウェイキュアソールは正規品ですか？",
@@ -56,7 +56,7 @@ const faqs = [
   {
     question: "ランウェイキュアソールのセット割引は何足セットがお得ですか？",
     answer:
-      "コスパ最強は5足セットです。ただし、初めて購入する方は3足セット（約30%OFF）が無難です。通勤用・プライベート用・予備の3足あれば日常使用には十分で、サイズが合わなかった場合のリスクも抑えられます。リピーターなら5足セットで1足あたりの価格をさらに下げるのがお得です。",
+      "1足あたりの価格が最も下がるのは3足セット（17,960円、1足あたり約5,987円）です。2足セット（11,980円、1足あたり5,990円）とほぼ同単価のため、通勤用・プライベート用の2足で十分な方は2足セットでも損はありません。サイズが合うか不安な方はまず単品で試すのも選択肢です。",
   },
   {
     question: "ランウェイキュアソールのキャンペーンはいつ開催されますか？",
@@ -221,38 +221,38 @@ export default function RunwayCouponPage() {
                 <tbody>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900">1足単品</td>
-                    <td className="py-3 px-4 text-gray-900">6,380円</td>
-                    <td className="py-3 px-4 text-gray-900">6,380円</td>
+                    <td className="py-3 px-4 text-gray-900">6,980円</td>
+                    <td className="py-3 px-4 text-gray-900">6,980円</td>
                     <td className="py-3 px-4 text-gray-500">-</td>
                     <td className="py-3 px-4 text-gray-500">△</td>
                   </tr>
                   <tr className="border-b border-gray-100 bg-amber-50">
                     <td className="py-3 px-4 text-gray-900 font-bold">
-                      3足セット
+                      2足セット
                     </td>
                     <td className="py-3 px-4 text-gray-900 font-bold">
-                      13,134円
+                      11,980円
                     </td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">
-                      4,378円
+                      5,990円
                     </td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">
-                      約31%OFF
+                      約14%OFF
                     </td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">◎</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-bold">
-                      5足セット
+                      3足セット
                     </td>
                     <td className="py-3 px-4 text-gray-900 font-bold">
-                      19,690円
+                      17,960円
                     </td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">
-                      3,938円
+                      約5,987円
                     </td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">
-                      約38%OFF
+                      約14%OFF
                     </td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">◎</td>
                   </tr>
@@ -263,10 +263,10 @@ export default function RunwayCouponPage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              初めての方には<strong>3足セット（1足あたり4,378円、約31%OFF）</strong>がおすすめです。通勤用・プライベート用・予備の3足あれば日常使用に十分対応できます。
+              初めての方には<strong>2足セット（1足あたり5,990円、約14%OFF）</strong>が試しやすい選択です。通勤用・プライベート用の2足で日常使用に対応できます。
             </p>
             <p>
-              リピーターやご家族で使う方には5足セット（1足あたり3,938円、約38%OFF）がコスパ最強です。1足あたりの価格が4,000円を切るのは5足セットだけです。
+              ローテーション用に3足そろえるなら3足セット（17,960円、1足あたり約5,987円）が1足単価の最安です。価格は公式サイトの表示（2026年6月確認）に基づくため、購入前に最新の表示をご確認ください。
             </p>
           </div>
 
@@ -316,7 +316,7 @@ export default function RunwayCouponPage() {
                       公式サイト（3足）
                     </td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">
-                      4,378円
+                      約5,987円
                     </td>
                     <td className="py-3 px-4 text-gray-500">なし</td>
                     <td className="py-3 px-4 text-emerald-600 font-bold">
@@ -374,16 +374,16 @@ export default function RunwayCouponPage() {
             {[
               {
                 rank: "1",
-                title: "公式サイト 5足セット",
-                desc: "1足あたり3,938円で最安値。家族やリピーターに最適。5足あれば全ての靴に対応でき、予備も確保できます。",
-                price: "総額19,690円（1足あたり3,938円）",
+                title: "公式サイト 3足セット",
+                desc: "1足あたり約5,987円で1足単価の最安。通勤用・プライベート用・予備の3足構成で全ての靴に対応できます。",
+                price: "総額17,960円（1足あたり約5,987円）",
                 badge: "最安値",
               },
               {
                 rank: "2",
-                title: "公式サイト 3足セット",
-                desc: "1足あたり4,378円で約31%OFF。初めての方に最もおすすめ。通勤用・プライベート用・予備の3足構成がベスト。",
-                price: "総額13,134円（1足あたり4,378円）",
+                title: "公式サイト 2足セット",
+                desc: "1足あたり5,990円で約14%OFF。初めての方に試しやすい構成。通勤用・プライベート用の2足から始められます。",
+                price: "総額11,980円（1足あたり5,990円）",
                 badge: "おすすめ",
               },
               {
@@ -453,7 +453,7 @@ export default function RunwayCouponPage() {
               },
               {
                 title: "価格の確認",
-                desc: "定価6,380円の商品が2,000〜3,000円で売られている場合は偽物の可能性が高い。安すぎる価格には理由があります。",
+                desc: "定価6,980円の商品が2,000〜3,000円で売られている場合は偽物の可能性が高い。安すぎる価格には理由があります。",
               },
               {
                 title: "素材と品質",
@@ -576,9 +576,9 @@ export default function RunwayCouponPage() {
                     <td className="py-3 px-4 text-gray-900 font-medium">
                       ランウェイキュアソール
                     </td>
-                    <td className="py-3 px-4 text-gray-900">6,380円</td>
+                    <td className="py-3 px-4 text-gray-900">6,980円</td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">
-                      3,938円/足
+                      約5,987円/足
                     </td>
                     <td className="py-3 px-4 text-gray-700">○</td>
                   </tr>
@@ -672,7 +672,7 @@ export default function RunwayCouponPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              ランウェイキュアソールを最もお得に購入する方法は、<strong>公式サイトのセット割引</strong>を利用することです。3足セットなら1足あたり4,378円（約31%OFF）、5足セットなら1足あたり3,938円（約38%OFF）で購入できます。
+              ランウェイキュアソールを最もお得に購入する方法は、<strong>公式サイトのセット割引</strong>を利用することです。2足セットなら1足あたり5,990円、3足セットなら1足あたり約5,987円（約14%OFF）で購入できます（公式サイト表示・2026年6月確認）。
             </p>
             <p>
               楽天やAmazonはポイント還元がありますが、本体価格が高いため実質価格でも公式サイトが安いケースがほとんどです。正規品保証という安心感も含めると、公式サイトでの購入が最もおすすめです。
