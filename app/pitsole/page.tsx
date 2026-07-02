@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-03",
 };
 
 const faqStructuredData = {
@@ -55,6 +55,14 @@ const faqStructuredData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "公式サイトまたは正規販売ルート（公式楽天・Amazon店舗）で購入するのが最も確実です。フリマアプリや非正規ショップでは偽物・使用済み品のリスクがあります。正規品にはBACCHUSのロゴと製品番号が記載されています。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "ピットソールの類似品と偽物はどう違いますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "偽物は正規品を装った偽造・転売品で、類似品は別ブランドの形状が似たインソール（100均・ワークマン・TENTIALなど）です。類似品は違法ではありませんが、ピットソールの臨床データに基づく設計や正規ルートのサポートは適用されません。比較検討する場合は、各製品が何を根拠にしているかを確認してから選びましょう。",
       },
     },
     {
@@ -173,6 +181,11 @@ const faqs = [
     question: "ピットソールの偽物を見分ける方法は？",
     answer:
       "公式サイトまたは正規販売ルート（公式楽天・Amazon店舗）で購入するのが最も確実です。フリマアプリや非正規ショップでは偽物・使用済み品のリスクがあります。正規品にはBACCHUSのロゴと製品番号が記載されています。",
+  },
+  {
+    question: "ピットソールの類似品と偽物はどう違いますか？",
+    answer:
+      "偽物は正規品を装った偽造・転売品で、類似品は別ブランドの形状が似たインソール（100均・ワークマン・TENTIALなど）です。類似品は違法ではありませんが、ピットソールの臨床データに基づく設計や正規ルートのサポートは適用されません。比較検討する場合は、各製品が何を根拠にしているかを確認してから選びましょう。",
   },
   {
     question: "サイズが合わない場合は交換できますか？",
@@ -911,6 +924,44 @@ export default function PitsolePage() {
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 類似品との違い */}
+      <section id="similar-products" className="py-12 md:py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
+            ピットソールの類似品と選ぶときの注意点
+          </h2>
+          <p className="text-sm text-gray-500 mb-6">
+            「偽物」（正規品の偽造・転売品）とは別に、形状の似た「類似品」（別ブランドのアーチサポートインソール）も多く流通しています
+          </p>
+          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-6">
+            <p>
+              100円ショップやワークマン・ホームセンターの店頭にも、アーチサポートをうたうインソールは数多く並んでいます。これらは偽物ではなく別商品ですが、<strong>ピットソールの特徴である臨床データに基づく設計や、正規ルート購入時のサポートは類似品には適用されません</strong>。「安いから」と類似品を選ぶ場合は、何を根拠にした製品なのかを確認してから判断するのがおすすめです。
+            </p>
+            <p>
+              類似品・代替品を比較検討したい方は、次の記事で違いを整理しています。
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <Link href="/articles/100kin-comparison/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#0ea5e9] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">100均インソールとの違い</p>
+              <p className="text-xs text-gray-500 mt-1">価格差の理由と使い分けを検証</p>
+            </Link>
+            <Link href="/articles/workman-insole/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#0ea5e9] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ワークマンのインソールとの違い</p>
+              <p className="text-xs text-gray-500 mt-1">店頭で買える類似品の実力</p>
+            </Link>
+            <Link href="/compare/pitsole-vs-tential/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#0ea5e9] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">TENTIALインソールとの比較</p>
+              <p className="text-xs text-gray-500 mt-1">よく比較される2製品を1対1で検証</p>
+            </Link>
+            <Link href="/ranking/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#0ea5e9] transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソール3製品の比較</p>
+              <p className="text-xs text-gray-500 mt-1">ランウェイ・スリムアップとの違い</p>
+            </Link>
           </div>
         </div>
       </section>
