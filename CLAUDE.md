@@ -126,3 +126,9 @@
 - 内部リンク集中: runway本体は6/27改修済み(販売店系7-10位上昇中)のため不変更。リンク0だったcheap-insole(公式限定の文脈で#where-to-buy深リンク)+100kin-comparison(関連記事導線)を追加。donki/drugstore/ec-buy等は既にリンク済み確認
 - pitsole/slimup価格は不変更(pitsole 5足セット21,890円等は当時記載を維持=**次回公式再確認を推奨**とMediaXAIに報告済み)
 - sitemap lastmod7件(182URL)・deploy=sole-lab-deploy両push・本番3指標(新価格反映/旧価格0/リンク)cache回避curl検証・GSC再送信。残: 戦略v2②ピットソール奪還(口コミ出典整理+類似品見分け)→③ranking top10化→④moat資産化2本
+
+## 2026-07-03 戦略v2②ピットソール奪還（MediaXAI「②進めよう」）✅
+- 精査結果: /pitsole/は悪い/良い口コミ(ダイエットカフェ出典・2.7/5正直掲載)・偽物見分け・知恵袋FAQ完備済み→唯一の実ギャップ=「類似品」(7i pos32.3のクエリに対応セクション無し)
+- 「類似品と選ぶときの注意点」セクション新設(id=similar-products・偽物との役割分離明示)+比較導線4本(100kin-comparison/workman-insole/compare/pitsole-vs-tential/ranking)+類似品FAQを本文faqs配列とschema mainEntityの両方に追加(※この2つは別リテラルなので片方だけ更新しないこと)
+- 事実ベースのみ・類似品の中傷なし・料金/スペック/既存口コミ不変更。dateModified 2026-07-03・sitemap lastmod・deploy両push・本番curl検証・GSC再送信
+- ※「ピットソール 口コミ」50位の主因は新規ドメイン権威不足=③④で対応、とMediaXAIに報告済み。残: ③ranking top10化/④moat資産化(診断共有URL+景表法ガイド独立化)/W1W2効果測定(7月中旬)

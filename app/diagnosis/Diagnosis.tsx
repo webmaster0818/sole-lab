@@ -130,7 +130,7 @@ export default function Diagnosis() {
             {result.name}を詳しく見る
           </Link>
           <Link href="/ranking/" className="btn-outline text-sm">
-            3製品をランキングで比較する
+            ダイエットインソールおすすめランキングで比較する
           </Link>
         </div>
         <button

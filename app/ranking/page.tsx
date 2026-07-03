@@ -28,7 +28,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-06-12",
+  dateModified: "2026-07-03",
 };
 
 const faqStructuredData = {
@@ -139,7 +139,7 @@ export default function RankingPage() {
       <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
-            2026年6月最新版
+            2026年7月更新
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ダイエットインソール
