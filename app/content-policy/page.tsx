@@ -150,6 +150,9 @@ export default function ContentPolicyPage() {
                 ))}
               </tbody>
             </table>
+          <p className="mt-3 text-xs text-gray-500">
+            この基準の解説・チェックリスト付き完全版は「<a href="/articles/keihyoho-guide/" className="text-[#e8627c] underline">広告表現NG⇔OK対訳ガイド</a>」で公開しています（引用歓迎）。
+          </p>
           </div>
           <p className="text-xs text-gray-500 leading-relaxed mt-4">
             効果の感じ方には個人差があり、体型・姿勢の変化には食事管理・適度な運動との併用、毎日の継続使用が前提となります。

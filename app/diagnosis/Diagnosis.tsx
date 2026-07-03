@@ -133,10 +133,19 @@ export default function Diagnosis() {
             ダイエットインソールおすすめランキングで比較する
           </Link>
         </div>
+        <div className="mt-5">
+          <Link
+            href={`/diagnosis/result/${best}/`}
+            className="text-sm font-semibold underline"
+            style={{ color: result.accent }}
+          >
+            この結果を共有する（結果ページを開く）
+          </Link>
+        </div>
         <button
           type="button"
           onClick={reset}
-          className="mt-5 text-xs text-gray-400 underline hover:text-gray-600"
+          className="mt-4 text-xs text-gray-400 underline hover:text-gray-600"
         >
           もう一度診断する
         </button>
