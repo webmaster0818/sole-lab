@@ -3,16 +3,16 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "ピットソール 全サイズ実寸レビュー｜フィット感を徹底検証",
+  title: "ピットソール サイズ別実寸レビュー｜フィット感を徹底検証",
   description:
-    "ピットソールのXS・S・M・L全サイズの実寸を計測し、フィット感を徹底レビュー。足のサイズ別おすすめや、靴との相性、カット方法まで詳しく解説。サイズ選びで失敗したくない方必見です。",
+    "ピットソールのXS・S・M・L 4サイズの実寸を計測し、フィット感を徹底レビュー。足のサイズ別おすすめや、靴との相性、カット方法まで詳しく解説。サイズ選びで失敗したくない方必見です。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
   },
   openGraph: {
-    title: "ピットソール 全サイズ実寸レビュー｜フィット感を徹底検証",
+    title: "ピットソール サイズ別実寸レビュー｜フィット感を徹底検証",
     description:
-      "ピットソールの全サイズ（XS〜L）の実寸を計測し、フィット感を徹底レビュー。サイズ選びのコツを解説。",
+      "ピットソールのXS〜L 4サイズの実寸を計測し、フィット感を徹底レビュー。サイズ選びのコツを解説。",
     url: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
     type: "article",
   },
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "ピットソール 全サイズ実寸レビュー｜フィット感を徹底検証",
+  headline: "ピットソール サイズ別実寸レビュー｜フィット感を徹底検証",
   description:
-    "ピットソールのXS〜L全サイズの実寸を計測し、フィット感を徹底レビューします。",
+    "ピットソールのXS〜L 4サイズの実寸を計測し、フィット感を徹底レビューします。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -100,7 +100,7 @@ const breadcrumbStructuredData = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "ピットソール全サイズ実寸レビュー",
+      name: "ピットソール サイズ別実寸レビュー",
       item: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
     },
   ],
@@ -127,7 +127,7 @@ export default function PitsoleAllSizesPage() {
       />
 
       {/* Breadcrumb */}
-      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ピットソール全サイズ実寸レビュー" }]} />
+      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ピットソール サイズ別実寸レビュー" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
@@ -138,10 +138,10 @@ export default function PitsoleAllSizesPage() {
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソール
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">全サイズ実寸</span>レビュー
+            <span className="text-[#0ea5e9]">サイズ別実寸</span>レビュー
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            XS・S・M・L全4サイズの実寸を計測し、フィット感を徹底検証。
+            XS・S・M・Lの4サイズの実寸を計測し、フィット感を徹底検証。
             <br className="hidden md:block" />
             あなたの足に最適なサイズの選び方を分かりやすく解説します。
           </p>
@@ -218,7 +218,7 @@ export default function PitsoleAllSizesPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            ピットソールはXS・S・M・Lの4サイズ展開で、21cm〜27.5cmまでの幅広い足サイズに対応しています。各サイズの公式対応範囲と実寸の概要を一覧で確認しましょう。
+            ピットソールはXS〜XLの5サイズ展開で、21cm〜29cmまでの幅広い足サイズに対応しています（XLはブラック・ピンク限定、公式サイトにて2026年7月確認）。本記事ではXS〜Lの4サイズを実寸計測しています。各サイズの公式対応範囲と実寸の概要を一覧で確認しましょう。
           </p>
 
           <div className="overflow-x-auto mb-6">
@@ -260,6 +260,13 @@ export default function PitsoleAllSizesPage() {
                   <td className="border border-gray-200 px-4 py-3">約28.0cm</td>
                   <td className="border border-gray-200 px-4 py-3">約9.3cm</td>
                   <td className="border border-gray-200 px-4 py-3">26.5〜27.5cm</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#0ea5e9]">XL</td>
+                  <td className="border border-gray-200 px-4 py-3">28〜29cm</td>
+                  <td className="border border-gray-200 px-4 py-3">—（実寸未検証）</td>
+                  <td className="border border-gray-200 px-4 py-3">—（実寸未検証）</td>
+                  <td className="border border-gray-200 px-4 py-3">28.0〜29.0cm（ブラック・ピンク限定）</td>
                 </tr>
               </tbody>
             </table>
@@ -409,7 +416,7 @@ export default function PitsoleAllSizesPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            Lサイズはメンズのスニーカー（26.5〜27.5cm）に最適です。ランニングシューズやウォーキングシューズとの相性は抜群で、かかと部分のフィット感が安定感をもたらします。ただし28cm以上の足には対応できないため、その場合は他のインソールの検討が必要です。ピットソールのサイズ情報の詳細は<Link href="/pitsole/size/" className="text-[#0ea5e9] hover:underline">ピットソールサイズページ</Link>でも確認できます。
+            Lサイズはメンズのスニーカー（26.5〜27.5cm）に最適です。ランニングシューズやウォーキングシューズとの相性は抜群で、かかと部分のフィット感が安定感をもたらします。なお28cm以上の方には、ブラック・ピンク限定でXLサイズ（28〜29cm）が公式に用意されています（2026年7月確認）。ピットソールのサイズ情報の詳細は<Link href="/pitsole/size/" className="text-[#0ea5e9] hover:underline">ピットソールサイズページ</Link>でも確認できます。
           </p>
         </section>
 
@@ -638,7 +645,7 @@ export default function PitsoleAllSizesPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ピットソール全4サイズの実寸レビューをまとめます。適切なサイズ選びができれば、世界特許の3点サポート構造の効果を最大限に発揮できます。
+            ピットソールXS〜Lの4サイズの実寸レビューをまとめます。適切なサイズ選びができれば、世界特許の3点サポート構造の効果を最大限に発揮できます。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
@@ -650,6 +657,7 @@ export default function PitsoleAllSizesPage() {
               <li><span className="font-bold">S（23〜24.5cm）：</span>標準的な女性向け。最も売れているサイズ。</li>
               <li><span className="font-bold">M（25〜26cm）：</span>大きめ女性・小さめ男性向け。男女兼用。</li>
               <li><span className="font-bold">L（26.5〜27.5cm）：</span>標準的な男性向け。スニーカーに最適。</li>
+              <li><span className="font-bold">XL（28〜29cm）：</span>ブラック・ピンク限定。28cm以上の方向け（公式対応範囲・本記事では実寸未検証）。</li>
               <li><span className="font-bold">共通ルール：</span>迷ったら大きめを選び、カットラインで微調整。</li>
             </ul>
           </div>

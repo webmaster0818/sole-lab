@@ -165,7 +165,7 @@ export default function LifespanPage() {
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
               <a href="#why-replace" className="hover:text-[#0ea5e9] transition-colors">
-                1. インソールに���命がある理由
+                1. インソールに寿命がある理由
               </a>
             </li>
             <li>
@@ -400,7 +400,7 @@ export default function LifespanPage() {
                   4
                 </span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">
-                  取れない悪��
+                  取れない悪臭
                 </h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">

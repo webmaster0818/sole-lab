@@ -340,7 +340,7 @@ export default function StandingWorkPage() {
               ピットソール（Pitsole）
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              累計販売数200万足を突破した実績を持つ、世界特許取得のダイエットインソールです。BMZ社の特許技術「足の骨格アライメント理論」に基づく設計で、足裏の3つのアーチを的確にサポート。立ち仕事においても、足裏全体で体重を効率的に支え、長時間の使用でも疲れにくい構造になっています。
+              累計販売数200万足を突破した実績を持つ、世界特許取得のダイエットインソールです。特許技術「足の骨格アライメント理論」に基づく設計で、足裏の3つのアーチを的確にサポート。立ち仕事においても、足裏全体で体重を効率的に支え、長時間の使用でも疲れにくい構造になっています。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
@@ -351,7 +351,7 @@ export default function StandingWorkPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
-                <span>XS〜Lの4サイズ展開（21〜27.5cm対応）で男女兼用</span>
+                <span>XS〜XLの5サイズ展開（21〜29cm対応・XLはブラック・ピンク限定）で男女兼用（公式サイトにて2026年7月確認）</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>

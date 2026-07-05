@@ -93,7 +93,7 @@ export default function LoafersPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ローファーにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ローファーには、薄型でカット調整ができ、アーチを支えられるインソールが向いています。ピットソールはXS〜L（21〜27.5cm）でカット調整でき、学生用の小さめサイズにも対応しやすいのが特徴です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ローファーには、薄型でカット調整ができ、アーチを支えられるインソールが向いています。ピットソールはXS〜XLの5サイズ（21〜29cm・XLはブラック・ピンク限定、公式サイトにて2026年7月確認）でカット調整でき、学生用の小さめサイズにも対応しやすいのが特徴です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

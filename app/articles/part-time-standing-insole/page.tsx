@@ -93,7 +93,7 @@ export default function PartTimeStandingPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">立ち仕事のアルバイト・パートにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">手頃に始めるならカット調整できるスリムアップ（S/M・抗菌防臭）、しっかり支えたいなら特許技術のアーチサポートを持つピットソール（XS〜L・カット可）という選び方ができます。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">手頃に始めるならカット調整できるスリムアップ（S/M・抗菌防臭）、しっかり支えたいなら特許技術のアーチサポートを持つピットソール（XS〜XLの5サイズ・カット可）という選び方ができます。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

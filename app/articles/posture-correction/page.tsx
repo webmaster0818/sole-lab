@@ -353,7 +353,7 @@ export default function PostureCorrectionPage() {
               </p>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>-- 世界特許取得のアーチサポート技術</li>
-                <li>-- サイズ展開：XS〜L（21〜27.5cm）男女兼用</li>
+                <li>-- サイズ展開：XS〜XL（21〜29cm・XLはブラック/ピンク限定）</li>
                 <li>-- 体幹安定・骨盤矯正にも効果的</li>
               </ul>
             </div>
@@ -435,7 +435,7 @@ export default function PostureCorrectionPage() {
               </p>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>-- 美容整体師監修の設計</li>
-                <li>-- 男女兼用の幅広いサイズ対応</li>
+                <li>-- S（23.0〜24.5cm）/M（25.0〜26.5cm）の2サイズ展開</li>
                 <li>-- 骨盤矯正アプローチ</li>
               </ul>
             </div>
@@ -445,7 +445,7 @@ export default function PostureCorrectionPage() {
               <p className="text-xs text-gray-500 mb-1">特許技術</p>
               <p className="text-sm font-medium text-gray-900 mb-2">なし（美容整体師監修）</p>
               <p className="text-xs text-gray-500 mb-1">価格（税込）</p>
-              <p className="text-sm font-medium text-gray-900">1足あたり 2,178円〜</p>
+              <p className="text-sm font-medium text-gray-900">単品6,980円・セットなら1足あたり4,480円〜</p>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">

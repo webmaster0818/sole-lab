@@ -508,7 +508,7 @@ export default function InsoleTruthPage() {
                   "美姿勢サポートに特化した構造",
                   "ヒール靴にも対応する薄型タイプあり",
                 ],
-                price: "4,378円（税込）〜",
+                price: "6,980円（税込）〜",
                 best: "姿勢改善を重視する方",
               },
               {
@@ -520,7 +520,7 @@ export default function InsoleTruthPage() {
                   "傾斜設計で自然と筋肉を刺激",
                   "男女兼用の豊富なサイズ展開",
                 ],
-                price: "2,178円（税込）〜",
+                price: "6,980円（税込）〜",
                 best: "まずは気軽に試してみたい方",
               },
             ].map((item) => (

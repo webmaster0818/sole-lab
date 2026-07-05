@@ -34,14 +34,14 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-28",
-  dateModified: "2026-04-28",
+  dateModified: "2026-07-05",
 };
 
 const faqs = [
   {
     question: "ダイエットインソールで一番安いのはどれですか？",
     answer:
-      "セット購入時の1足あたり最安値はピットソールの5足セット（1足あたり4,378円）で、スリムアップインソールの3足+1足プレゼント（実質4足で17,920円、1足あたり4,480円）が僅差で続きます。ランウェイキュアソールは公式ラインナップが単品6,980円・2足セット11,980円・3足セット17,960円で、セット時は1足あたり約5,987円です。単品で最も安いのはピットソールの6,578円です。",
+      "セット購入時の1足あたり最安値はピットソールの6足セット（総額24,156円、1足あたり4,026円）で、スリムアップインソールの3足+1足プレゼント（実質4足で17,920円、1足あたり4,480円）が続きます。ランウェイキュアソールは公式ラインナップが単品6,980円・2足セット11,980円・3足セット17,960円で、セット時は1足あたり約5,987円です。単品で最も安いのはピットソールの6,578円です（各公式サイトにて2026年7月確認）。",
   },
   {
     question: "100均のインソールとダイエットインソールの違いは何ですか？",
@@ -51,17 +51,17 @@ const faqs = [
   {
     question: "安いダイエットインソールでも効果はありますか？",
     answer:
-      "価格だけで効果は決まりません。重要なのはアーチサポートの設計と自分の足へのフィット感です。ただし、1,000円未満の安すぎるインソールは単なるクッションの場合が多く、ダイエット効果は期待できません。当サイトで紹介している3製品はいずれもセット購入で4,000〜5,000円/足で、効果と価格のバランスが取れています。",
+      "価格だけで効果は決まりません。重要なのはアーチサポートの設計と自分の足へのフィット感です。ただし、1,000円未満の安すぎるインソールは単なるクッションの場合が多く、ダイエット効果は期待できません。当サイトで紹介している3製品はいずれもセット購入で約4,000〜6,000円/足で、効果と価格のバランスが取れています。",
   },
   {
     question: "ダイエットインソールを安く買う方法は？",
     answer:
-      "最も安く買う方法は各製品の公式サイトでのセット購入です。セット購入で約14〜36%OFFになります。楽天やAmazonのポイント大量還元セール時も狙い目ですが、セット割引の方が確実にお得な場合がほとんどです。",
+      "最も安く買う方法は各製品の公式サイトでのセット購入です。セット購入で約14〜39%OFFになります。楽天やAmazonのポイント大量還元セール時も狙い目ですが、セット割引の方が確実にお得な場合がほとんどです。",
   },
   {
     question: "初めてダイエットインソールを試すなら、安い製品から始めるべきですか？",
     answer:
-      "コスパを重視するならスリムアップインソール（セット時4,480円/足）がおすすめです。ただし、効果と価格のバランスが最も良いのはピットソール（セット時4,378円/足）です。1足あたりの差は100円程度のため、エビデンスの強さを考慮するとピットソールの方がコスパが良いとも言えます。",
+      "コスパを重視するならピットソール（6足セット時4,026円/足・公式サイトにて2026年7月確認）がおすすめです。セット時の1足単価が3製品で最も安いうえ、世界特許+臨床データというエビデンスの強さも備えています。まとめ買いの総額を抑えたい場合は、スリムアップインソールの3足+1足プレゼント（実質4足、4,480円/足）も選択肢です。",
   },
 ];
 
@@ -152,7 +152,7 @@ export default function CheapInsolePage() {
               コスパ比較
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
-              2026年4月更新
+              2026年7月更新
             </span>
           </div>
         </div>
@@ -181,9 +181,9 @@ export default function CheapInsolePage() {
                   <tr className="border-b border-gray-100 bg-amber-50">
                     <td className="py-3 px-4 text-gray-900 font-bold">ピットソール</td>
                     <td className="py-3 px-4 text-gray-900">6,578円</td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">4,378円/足</td>
-                    <td className="py-3 px-4 text-gray-700">5足セット</td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">約33%OFF</td>
+                    <td className="py-3 px-4 text-[#c9a76c] font-bold">4,026円/足</td>
+                    <td className="py-3 px-4 text-gray-700">6足セット（24,156円）</td>
+                    <td className="py-3 px-4 text-[#c9a76c] font-bold">約39%OFF</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-bold">ランウェイキュアソール</td>
@@ -206,7 +206,7 @@ export default function CheapInsolePage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              セット購入時の1足あたり最安値は<strong>ピットソール（4,378円/足・5足セット）</strong>で、スリムアップインソール（4,480円/足）が僅差で続きます。ランウェイキュアソールはセット時約5,987円/足とやや高めですが、ソックス型で靴を選ばない使いやすさが特長です（女性向けサイズ22.5〜25.0cm）。
+              セット購入時の1足あたり最安値は<strong>ピットソール（4,026円/足・6足セット）</strong>で、スリムアップインソール（4,480円/足）が続きます。ピットソールのセット構成は2足12,364円・4足18,120円・6足24,156円の3種類です。ランウェイキュアソールはセット時約5,987円/足とやや高めですが、ソックス型で靴を選ばない使いやすさが特長です（女性向けサイズ22.5〜25.0cm）。価格はいずれも各公式サイトにて2026年7月確認の税込表示です。
             </p>
             <p>
               3製品ともセット購入で割引が受けられます。単品購入はコスパが悪いため、購入を決めたらセットで購入するのが鉄則です。なお、いずれも実店舗（ドンキ・薬局など）での取り扱いは確認されておらず、セット割引は公式サイト限定です。取扱状況の詳細は<Link href="/articles/where-to-buy-insole/" className="text-[#0ea5e9] underline">3製品の販売店・最安値比較</Link>と<Link href="/runway-cure-sole/#where-to-buy" className="text-[#0ea5e9] underline">ランウェイキュアソールの販売店情報</Link>で確認できます。
@@ -228,13 +228,13 @@ export default function CheapInsolePage() {
                 <span className="text-2xl font-bold text-[#c9a76c] shrink-0">1位</span>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <h3 className="text-base font-bold text-gray-900">ピットソール 5足セット</h3>
+                    <h3 className="text-base font-bold text-gray-900">ピットソール 6足セット</h3>
                     <span className="text-xs bg-amber-100 text-[#c9a76c] px-2 py-0.5 rounded-full font-medium">最安値</span>
                   </div>
                   <p className="text-sm text-gray-600 leading-relaxed mb-2">
-                    1足あたり4,378円でセット時の最安値。世界特許+臨床データのエビデンスに加え、男女対応4サイズ展開で家族でも使いやすいのが強みです。
+                    1足あたり4,026円でセット時の最安値。世界特許+臨床データのエビデンスに加え、男女対応のサイズ展開で家族でも使いやすいのが強みです。
                   </p>
-                  <p className="text-sm font-medium text-[#c9a76c]">総額21,890円（1足あたり4,378円、約33%OFF）</p>
+                  <p className="text-sm font-medium text-[#c9a76c]">総額24,156円（1足あたり4,026円、約39%OFF・公式サイトにて2026年7月確認）</p>
                 </div>
               </div>
             </div>
@@ -248,7 +248,7 @@ export default function CheapInsolePage() {
                     <span className="text-xs bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full font-medium">シェア向き</span>
                   </div>
                   <p className="text-sm text-gray-600 leading-relaxed mb-2">
-                    1足あたり4,480円と僅差の2位。3足購入で1足プレゼントなので実質4足。フリーサイズで家族やパートナーとシェアでき、夫婦で使うなら1人あたり約9,000円です。
+                    1足あたり4,480円の2位。3足購入で1足プレゼントなので実質4足。サイズはS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズから選べるので、家族それぞれの足に合うサイズで揃えやすく、サイズが合えば夫婦で分けて1人あたり約9,000円という使い方もできます。
                   </p>
                   <p className="text-sm font-medium text-[#c9a76c]">総額17,920円（実質4足、1足あたり4,480円、約36%OFF）</p>
                 </div>
@@ -305,7 +305,7 @@ export default function CheapInsolePage() {
                     { item: "耐久性", diet: "○ 3〜6ヶ月", cheap: "× 1〜2週間" },
                     { item: "素材品質", diet: "◎ 高品質素材", cheap: "△ 廉価素材" },
                     { item: "抗菌防臭", diet: "○ 機能付き", cheap: "× なし" },
-                    { item: "価格", diet: "4,000〜5,000円/足", cheap: "110円" },
+                    { item: "価格", diet: "4,000〜6,000円/足", cheap: "110円" },
                   ].map((row) => (
                     <tr key={row.item} className="border-b border-gray-100">
                       <td className="py-3 px-4 text-gray-900 font-medium">{row.item}</td>
@@ -370,7 +370,7 @@ export default function CheapInsolePage() {
               {
                 num: "01",
                 title: "公式サイトのセット割引を活用する",
-                desc: "最も確実にお得な方法。各製品の公式サイトでセット購入すると25〜38%OFFになります。3足セットが最もバランスが良く、初めての方におすすめです。",
+                desc: "最も確実にお得な方法。各製品の公式サイトでセット購入すると約14〜39%OFFになります。ピットソールは2足・4足・6足、ランウェイキュアソールは2足・3足のセット構成で、まとめ買いするほど1足あたりの価格が下がります。",
               },
               {
                 num: "02",
@@ -385,7 +385,7 @@ export default function CheapInsolePage() {
               {
                 num: "04",
                 title: "家族やパートナーとシェアする",
-                desc: "スリムアップインソールの3足+1足プレゼント（実質4足）を夫婦で分ければ、1人あたり約9,000円で2足分。家族でまとめ買いするとさらにお得です。",
+                desc: "スリムアップインソールの3足+1足プレゼント（実質4足）を夫婦で分ければ、1人あたり約9,000円で2足分。サイズはS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズ展開のため、それぞれの足に合うサイズを選べる場合に有効です。",
               },
               {
                 num: "05",
@@ -418,20 +418,20 @@ export default function CheapInsolePage() {
             {[
               {
                 type: "とにかく安さ重視",
-                recommendation: "ピットソール 5足セット",
-                reason: "1足あたり4,378円でセット時の最安値。5足あれば全ての靴に対応でき、長期間使い回せます。",
-                price: "総額21,890円",
+                recommendation: "ピットソール 6足セット",
+                reason: "1足あたり4,026円でセット時の最安値。6足あれば全ての靴に対応でき、長期間使い回せます。",
+                price: "総額24,156円",
               },
               {
                 type: "効果と価格のバランス重視",
-                recommendation: "ピットソール 3足セット",
-                reason: "1足あたり4,696円でエビデンス最強。効果が出ないリスクを考えると最もコスパが良い選択。",
-                price: "総額14,089円",
+                recommendation: "ピットソール 4足セット",
+                reason: "1足あたり4,530円でエビデンス最強。効果が出ないリスクを考えると最もコスパが良い選択。",
+                price: "総額18,120円",
               },
               {
                 type: "夫婦・カップルで使いたい",
                 recommendation: "スリムアップインソール 3足+1足",
-                reason: "フリーサイズ・男女兼用で4足を2人でシェア。1人あたり約9,000円で2足分。",
+                reason: "S・Mの2サイズ展開。それぞれの足に合うサイズを選べれば、4足を2人でシェアして1人あたり約9,000円で2足分。",
                 price: "総額17,920円",
               },
               {
@@ -484,9 +484,9 @@ export default function CheapInsolePage() {
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-medium">ピットソール</td>
-                    <td className="py-3 px-4 text-gray-900">4,378円/足</td>
+                    <td className="py-3 px-4 text-gray-900">4,026円/足</td>
                     <td className="py-3 px-4 text-gray-700">約120日</td>
-                    <td className="py-3 px-4 text-gray-700">約36円/日</td>
+                    <td className="py-3 px-4 text-gray-700">約34円/日</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-medium">スリムアップインソール</td>
@@ -502,7 +502,7 @@ export default function CheapInsolePage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-emerald-700">ポイント：</span>
-              どの製品も1日あたり約36〜50円。缶コーヒー1本前後のコストで、毎日の歩行をダイエットに活用できます。ジムの月会費（5,000〜10,000円/月）と比べても圧倒的に安く、通勤しながら使えるため時間の節約にもなります。
+              どの製品も1日あたり約34〜50円。缶コーヒー1本前後のコストで、毎日の歩行をダイエットに活用できます。ジムの月会費（5,000〜10,000円/月）と比べても圧倒的に安く、通勤しながら使えるため時間の節約にもなります。
             </p>
           </div>
         </div>
@@ -525,7 +525,7 @@ export default function CheapInsolePage() {
               その上で、「毎日ある程度歩く習慣がある方」や「これからウォーキングを始めたい方」にはおすすめできます。逆に「歩く気が全くない方」には、いくら安くても購入する意味はありません。
             </p>
             <p>
-              コスパを重視するなら、まずは3足セットで購入し、通勤靴・プライベート靴・運動靴に1足ずつ入れて3ヶ月使ってみてください。3ヶ月後に効果を実感できれば継続、実感できなければ自分には合わなかったと判断できます。
+              コスパを重視するなら、まずは複数足セットで購入し、通勤靴・プライベート靴・運動靴などに1足ずつ入れて3ヶ月使ってみてください。3ヶ月後に効果を実感できれば継続、実感できなければ自分には合わなかったと判断できます。
             </p>
           </div>
         </div>
@@ -592,10 +592,10 @@ export default function CheapInsolePage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              ダイエットインソールを安く購入するなら、<strong>公式サイトのセット割引</strong>を活用するのが最も確実な方法です。セット購入なら1足あたり4,000〜5,000円程度で、1日あたりわずか30〜40円のコストで毎日の歩行をダイエットに活用できます。
+              ダイエットインソールを安く購入するなら、<strong>公式サイトのセット割引</strong>を活用するのが最も確実な方法です。セット購入なら1足あたり約4,000〜6,000円で、1日あたり約34〜50円のコストで毎日の歩行をダイエットに活用できます。
             </p>
             <p>
-              女性でとにかく安さ重視ならランウェイキュアソール、効果と価格のバランス重視ならピットソール、夫婦でシェアしたいならスリムアップインソールがおすすめです。
+              セット時の1足単価の安さと効果のエビデンス重視ならピットソール（6足セットで4,026円/足）、靴を選ばず使いたい女性はランウェイキュアソール、サイズが合えば夫婦でシェアできるスリムアップインソールもおすすめです。
             </p>
             <p>
               100均インソールや1,000円以下の安すぎる製品にはダイエット効果はありません。「安かろう悪かろう」ではなく、効果のある製品をセット割引で賢く買うのがコスパ最強の選択です。

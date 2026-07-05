@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "ピットソールの最安値は？どこで買える？販売店比較【2026年】｜ソールラボ",
   description:
-    "ピットソール(Pitsole)の最安値・販売店を徹底比較。公式サイト・楽天・Amazonの価格差、セット割引の詳細、偽物リスクまで解説。最安は3足セットで実質1足4,934円。",
+    "ピットソール(Pitsole)の最安値・販売店を徹底比較。公式サイト・楽天・Amazonの価格差、セット割引の詳細、偽物リスクまで解説。最安は6足セットで1足あたり4,026円。",
   alternates: {
     canonical: "https://sole-laboratory.com/pitsole/price/",
   },
@@ -26,7 +26,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-04-08",
+  dateModified: "2026-07-05",
 };
 
 const faqStructuredData = {
@@ -38,7 +38,7 @@ const faqStructuredData = {
       name: "ピットソールの最安値はいくらですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "最安値は3足セットまたは6足セットの購入で、実質1足あたり4,934円（税込）です。公式サイトまたは楽天の公式ショップで購入できます。単品購入の場合は6,578円（税込）です。",
+        text: "最安値は6足セット（24,156円・税込）の購入で、1足あたり4,026円です。4足セットは18,120円（1足あたり4,530円）です。公式サイトまたは楽天の公式ショップで購入できます。単品購入の場合は6,578円（税込）です（公式サイトにて2026年7月確認）。",
       },
     },
     {
@@ -70,7 +70,7 @@ const faqStructuredData = {
       name: "ピットソールのセット購入は本当にお得ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "3足セット（19,734円）は1足無料プレゼントで計4足届くため、1足あたり4,934円と単品より約1,644円お得です。6足セット（39,468円）は2足無料で計8足届き、同じく1足4,934円です。洗い替えやサイズ違いを揃えたい方にはセット購入がおすすめです。",
+        text: "セットは2足セット（12,364円・1足あたり6,182円）、4足セット（18,120円・1足あたり4,530円）、6足セット（24,156円・1足あたり4,026円）の3種類です。4足セットは単品比で約31%、6足セットは約39%お得になります。洗い替えやサイズ違いを揃えたい方にはセット購入がおすすめです。",
       },
     },
   ],
@@ -81,8 +81,8 @@ const priceComparison = [
     channel: "公式サイト",
     shopName: "BACCHUS ONLINE SHOP",
     single: "6,578円",
-    set3: "19,734円（+1足無料）",
-    set6: "39,468円（+2足無料）",
+    set4: "18,120円（4,530円/足）",
+    set6: "24,156円（4,026円/足）",
     shipping: "送料無料",
     guarantee: true,
     points: false,
@@ -92,8 +92,8 @@ const priceComparison = [
     channel: "楽天市場",
     shopName: "BACCHUS ONLINE SHOP",
     single: "6,578円",
-    set3: "19,734円（+1足無料）",
-    set6: "39,468円（+2足無料）",
+    set4: "18,120円（4,530円/足）",
+    set6: "24,156円（4,026円/足）",
     shipping: "送料無料",
     guarantee: true,
     points: true,
@@ -103,7 +103,7 @@ const priceComparison = [
     channel: "Amazon",
     shopName: "単品販売のみ",
     single: "6,578円",
-    set3: "取扱なし",
+    set4: "取扱なし",
     set6: "取扱なし",
     shipping: "条件付き送料無料",
     guarantee: true,
@@ -114,7 +114,7 @@ const priceComparison = [
     channel: "メルカリ等",
     shopName: "個人出品",
     single: "変動あり",
-    set3: "—",
+    set4: "—",
     set6: "—",
     shipping: "出品者による",
     guarantee: false,
@@ -225,35 +225,40 @@ export default function PitsolePricePage() {
           </h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
             <p className="text-lg font-bold text-amber-800 mb-3">
-              最安値は「3足セット」または「6足セット」で実質1足4,934円（税込）
+              最安値は「6足セット」で1足あたり4,026円（税込）
             </p>
             <p className="text-gray-700 text-sm leading-relaxed mb-4">
               ピットソールの最安値は、公式サイトまたは楽天公式ショップの<strong>セット購入</strong>です。
-              3足セット（19,734円）なら1足無料プレゼントで計4足届くため、
-              <strong>1足あたり4,934円</strong>と単品より約25%もお得になります。
+              セットは2足・4足・6足の3種類で、6足セット（24,156円）なら
+              <strong>1足あたり4,026円</strong>と単品比で約39%もお得になります（公式サイトにて2026年7月確認）。
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-xs text-gray-500 mb-1">単品購入</p>
                 <p className="text-2xl font-bold text-gray-900">6,578円</p>
                 <p className="text-xs text-gray-500">1足あたり6,578円</p>
               </div>
+              <div className="bg-white rounded-lg p-4 text-center">
+                <p className="text-xs text-gray-500 mb-1">2足セット</p>
+                <p className="text-2xl font-bold text-gray-900">12,364円</p>
+                <p className="text-xs text-gray-700">1足あたり6,182円</p>
+              </div>
               <div className="bg-white rounded-lg p-4 text-center ring-2 ring-amber-400">
                 <p className="text-xs text-amber-600 font-bold mb-1">おすすめ</p>
-                <p className="text-2xl font-bold text-amber-600">19,734円</p>
-                <p className="text-xs text-gray-700 font-medium">3足+1足無料 = 実質4,934円/足</p>
+                <p className="text-2xl font-bold text-amber-600">18,120円</p>
+                <p className="text-xs text-gray-700 font-medium">4足セット = 4,530円/足（約31%お得）</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-xs text-gray-500 mb-1">6足セット</p>
-                <p className="text-2xl font-bold text-gray-900">39,468円</p>
-                <p className="text-xs text-gray-700">6足+2足無料 = 実質4,934円/足</p>
+                <p className="text-2xl font-bold text-gray-900">24,156円</p>
+                <p className="text-xs text-gray-700">1足あたり4,026円（約39%お得）</p>
               </div>
             </div>
           </div>
           <p className="text-gray-700 text-sm leading-relaxed">
-            結論として、<strong>初めての方には3足セット</strong>がおすすめです。
-            洗い替え用やサイズ違いも揃えられるうえ、1足無料で実質25%オフ。
-            家族でシェアしたい方は6足セットも同じ単価でさらにお得です。
+            結論として、<strong>初めての方には4足セット</strong>がバランスの良い選択です。
+            洗い替え用やサイズ違いも揃えられるうえ、単品比で約31%お得。
+            家族でシェアしたい方は6足セット（1足あたり4,026円）が最安単価です。
           </p>
         </section>
 
@@ -264,7 +269,7 @@ export default function PitsolePricePage() {
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
             ピットソールが購入できる販売チャネルと価格を一覧にまとめました。
-            2026年4月時点の最新情報です。
+            公式サイトにて2026年7月確認時点の情報です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
@@ -277,7 +282,10 @@ export default function PitsolePricePage() {
                     単品
                   </th>
                   <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-gray-300">
-                    3足セット
+                    4足セット
+                  </th>
+                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-gray-300">
+                    6足セット
                   </th>
                   <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-gray-300">
                     正規品保証
@@ -304,7 +312,10 @@ export default function PitsolePricePage() {
                       {item.single}
                     </td>
                     <td className="p-3 text-center text-gray-700">
-                      {item.set3}
+                      {item.set4}
+                    </td>
+                    <td className="p-3 text-center text-gray-700">
+                      {item.set6}
                     </td>
                     <td className="p-3 text-center">
                       {item.guarantee ? (
@@ -322,7 +333,7 @@ export default function PitsolePricePage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            ※ 価格はすべて税込表示。2026年4月時点の情報です。
+            ※ 価格はすべて税込表示。公式サイトにて2026年7月確認時点の情報です。最新の価格は各販売サイトでご確認ください。
           </p>
         </section>
 
@@ -349,7 +360,7 @@ export default function PitsolePricePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-0.5 shrink-0">&#10003;</span>
-                  <span>3足・6足セットの無料プレゼント特典</span>
+                  <span>2足・4足・6足のセット割引（最大約39%お得）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-0.5 shrink-0">&#10003;</span>
@@ -416,7 +427,7 @@ export default function PitsolePricePage() {
             </ul>
           </div>
           <p className="text-gray-700 text-sm leading-relaxed mb-4">
-            例えば、3足セット（19,734円）をお買い物マラソン中に楽天カードで購入すると、
+            例えば、4足セット（18,120円）をお買い物マラソン中に楽天カードで購入すると、
             数百円〜数千円分のポイントが還元される場合があります。
             価格自体は公式サイトと同じですが、<strong>ポイント分を考慮すると楽天が実質最安値</strong>になる可能性があります。
           </p>
@@ -439,7 +450,7 @@ export default function PitsolePricePage() {
               <li className="flex items-start gap-2">
                 <span className="text-yellow-600 font-bold shrink-0">!</span>
                 <span>
-                  <strong>セット割引がない</strong> — 3足セット・6足セットの取り扱いがなく、単品（6,578円）のみ。
+                  <strong>セット割引がない</strong> — 2足・4足・6足セットの取り扱いがなく、単品（6,578円）のみ。
                   複数足が必要な場合は割高になります。
                 </span>
               </li>
@@ -567,24 +578,43 @@ export default function PitsolePricePage() {
               </p>
             </div>
 
-            {/* 3足セット */}
+            {/* 2足セット */}
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-5">
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-bold text-gray-900">2足セット</h3>
+                <span className="text-lg font-bold text-gray-900">12,364円</span>
+              </div>
+              <p className="text-sm text-gray-700 mb-3">
+                1足あたり<strong>6,182円</strong> — 洗い替え用にもう1足欲しい方向け。
+              </p>
+              <div className="bg-white rounded-lg p-3 text-sm">
+                <p className="text-gray-600">
+                  単品2足分との比較: 6,578円 × 2 = 13,156円
+                </p>
+                <p className="text-gray-700 font-bold">
+                  → セットなら792円お得（約6%オフ）
+                </p>
+              </div>
+            </div>
+
+            {/* 4足セット */}
             <div className="bg-amber-50 border-2 border-amber-400 rounded-xl p-5 relative">
               <span className="absolute -top-3 left-4 bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                 おすすめ
               </span>
               <div className="flex items-center justify-between mb-2">
-                <h3 className="font-bold text-gray-900">3足セット + 1足無料</h3>
-                <span className="text-lg font-bold text-amber-600">19,734円</span>
+                <h3 className="font-bold text-gray-900">4足セット</h3>
+                <span className="text-lg font-bold text-amber-600">18,120円</span>
               </div>
               <p className="text-sm text-gray-700 mb-3">
-                支払いは3足分 → <strong>計4足届く</strong>（1足あたり4,934円）
+                1足あたり<strong>4,530円</strong> — 洗い替え・靴ごとの入れ替えに十分な足数。
               </p>
               <div className="bg-white rounded-lg p-3 text-sm">
                 <p className="text-gray-600">
                   単品4足分との比較: 6,578円 × 4 = 26,312円
                 </p>
                 <p className="text-amber-700 font-bold">
-                  → セットなら6,578円お得！（約25%オフ）
+                  → セットなら8,192円お得！（約31%オフ）
                 </p>
               </div>
             </div>
@@ -592,27 +622,27 @@ export default function PitsolePricePage() {
             {/* 6足セット */}
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-5">
               <div className="flex items-center justify-between mb-2">
-                <h3 className="font-bold text-gray-900">6足セット + 2足無料</h3>
-                <span className="text-lg font-bold text-gray-900">39,468円</span>
+                <h3 className="font-bold text-gray-900">6足セット</h3>
+                <span className="text-lg font-bold text-gray-900">24,156円</span>
               </div>
               <p className="text-sm text-gray-700 mb-3">
-                支払いは6足分 → <strong>計8足届く</strong>（1足あたり4,934円）
+                1足あたり<strong>4,026円</strong> — 全ラインナップ中の最安単価。
               </p>
               <div className="bg-white rounded-lg p-3 text-sm">
                 <p className="text-gray-600">
-                  単品8足分との比較: 6,578円 × 8 = 52,624円
+                  単品6足分との比較: 6,578円 × 6 = 39,468円
                 </p>
                 <p className="text-green-700 font-bold">
-                  → セットなら13,156円お得！（約25%オフ）
+                  → セットなら15,312円お得！（約39%オフ）
                 </p>
               </div>
             </div>
           </div>
           <p className="text-gray-700 text-sm leading-relaxed">
-            3足セットと6足セットは<strong>1足あたりの単価は同じ（4,934円）</strong>です。
+            1足あたりの単価が最も安いのは<strong>6足セット（4,026円/足）</strong>です。
             家族で使いたい方や、靴ごとに入れ替えたい方は6足セットが便利ですが、
-            まずは3足セットで試すのが無難でしょう。インソールの耐久目安は約3〜6ヶ月なので、
-            セット購入なら交換用のストックとしても活用できます。
+            まずは4足セットで試すのが無難でしょう。インソールの耐久目安は約3〜6ヶ月なので、
+            セット購入なら交換用のストックとしても活用できます（価格は公式サイトにて2026年7月確認）。
           </p>
         </section>
 
@@ -625,7 +655,7 @@ export default function PitsolePricePage() {
             {[
               {
                 q: "ピットソールの最安値はいくらですか？",
-                a: "最安値は3足セットまたは6足セットの購入で、実質1足あたり4,934円（税込）です。公式サイトまたは楽天の公式ショップで購入できます。単品購入の場合は6,578円（税込）です。",
+                a: "最安値は6足セット（24,156円・税込）の購入で、1足あたり4,026円です。4足セットは18,120円（1足あたり4,530円）です。公式サイトまたは楽天の公式ショップで購入できます。単品購入の場合は6,578円（税込）です（公式サイトにて2026年7月確認）。",
               },
               {
                 q: "ピットソールはどこで買えますか？",
@@ -672,8 +702,8 @@ export default function PitsolePricePage() {
               <li className="flex items-start gap-2">
                 <span className="text-amber-500 font-bold shrink-0">&#9733;</span>
                 <span>
-                  <strong>最安値は3足・6足セット</strong>で1足あたり4,934円（税込）。
-                  単品は6,578円。
+                  <strong>最安値は6足セット</strong>で1足あたり4,026円（税込）。
+                  4足セットは4,530円/足、単品は6,578円。
                 </span>
               </li>
               <li className="flex items-start gap-2">
@@ -704,7 +734,7 @@ export default function PitsolePricePage() {
             </ul>
           </div>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
-            ピットソールをお得に購入するなら、<strong>公式サイトまたは楽天公式ショップの3足セット</strong>が最もバランスの良い選択肢です。
+            ピットソールをお得に購入するなら、<strong>公式サイトまたは楽天公式ショップの4足セット</strong>が最もバランスの良い選択肢です。
             楽天経済圏を活用している方はお買い物マラソンなどのキャンペーンを狙うとさらにお得。
             大切なのは、<strong>必ず正規販売ルートで購入すること</strong>。
             数百円の節約のために偽物リスクを負うのは賢い買い物とは言えません。

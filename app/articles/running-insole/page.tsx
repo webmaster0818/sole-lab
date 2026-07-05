@@ -341,7 +341,7 @@ export default function RunningInsolePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
-                <span>XS〜Lの4サイズ展開（21〜27.5cm対応）で男女兼用</span>
+                <span>XS〜XLの5サイズ展開（21〜29cm対応・公式サイトにて2026年7月確認）</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
@@ -398,7 +398,7 @@ export default function RunningInsolePage() {
               スリムアップインソール（Slim Up Insole）
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              美容整体師が監修した機能性インソールで、正しい重心移動を促す設計が特徴です。ランニング時に適切な筋肉を使いやすくなるため、走行効率の向上と同時にダイエット効果も期待できます。男女兼用で幅広いサイズに対応しています。
+              美容整体師が監修した機能性インソールで、正しい重心移動を促す設計が特徴です。ランニング時に適切な筋肉を使いやすくなるため、走行効率の向上と同時にダイエット効果も期待できます。サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズです（公式サイトにて2026年7月確認）。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
@@ -411,7 +411,7 @@ export default function RunningInsolePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
-                <span>男女兼用の幅広いサイズ展開</span>
+                <span>S/Mの2サイズ展開（〜26.5cm）</span>
               </li>
             </ul>
             <Link

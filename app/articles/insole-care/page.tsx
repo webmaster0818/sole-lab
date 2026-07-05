@@ -1023,7 +1023,7 @@ export default function InsoleCare() {
                   <span className="text-[#e8627c] shrink-0 mt-0.5">
                     &#10003;
                   </span>
-                  3足セットや5足セットで購入すると、ローテーションで寿命を延ばせるうえ、1足あたりのコストも抑えられます
+                  2足・4足・6足のまとめ買いセットで購入すると、ローテーションで寿命を延ばせるうえ、1足あたりのコストも抑えられます
                 </li>
               </ul>
               <div className="mt-4">

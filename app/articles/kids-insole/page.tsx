@@ -5,11 +5,11 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "子供用インソールおすすめ5選｜成長期の足をサポートする選び方",
   description:
-    "子供用インソールのおす���め5選を紹介。成長期の足のアーチ形成・偏平足対策・運動時の衝撃吸収に最適なインソールの選び方を解説。ピットソール・��ンウェイキュアソール��スリムアップインソールの子供への活用法も。",
+    "子供用インソールのおすすめ5選を紹介。成長期の足のアーチ形成・偏平足対策・運動時の衝撃吸収に最適なインソールの選び方を解説。ピットソール・ランウェイキュアソール・スリムアップインソールの子供への活用法も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/kids-insole/" },
   openGraph: {
-    title: "子供用イン��ールおすすめ5選｜成長期の足をサポートする選び方",
-    description: "子��用インソールのおすすめ5選を紹介。成長期の足のアーチ形成をサポートする選び方を解説。",
+    title: "子供用インソールおすすめ5選｜成長期の足をサポートする選び方",
+    description: "子供用インソールのおすすめ5選を紹介。成長期の足のアーチ形成をサポートする選び方を解説。",
     url: "https://sole-laboratory.com/articles/kids-insole/",
     type: "article",
   },
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "子供用イン���ールおすすめ5選｜成長期の足をサ��ートする選び方",
-  description: "子供用インソールのおすすめ5選を紹介。成��期の足のアーチ形成をサポートする選び方を解説。",
+  headline: "子供用インソールおすすめ5選｜成長期の足をサポートする選び方",
+  description: "子供用インソールのおすすめ5選を紹介。成長期の足のアーチ形成をサポートする選び方を解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
@@ -31,10 +31,10 @@ const faqStructuredData = {
   "@type": "FAQPage",
   mainEntity: [
     { "@type": "Question", name: "子供にインソールを使わせるのは何歳からが良いですか？", acceptedAnswer: { "@type": "Answer", text: "一般的に6歳頃から足のアーチが形成され始めるため、6〜7歳以降でのインソール使用が適切です。ただし、足の発達には個人差があるため、お子さんが足の痛みを訴えたり、歩き方に気になる点があれば、年齢に関わらず小児整形外科に相談の上、インソールの導入を検討してください。" } },
-    { "@type": "Question", name: "子供の偏平足はインソールで治ります���？", acceptedAnswer: { "@type": "Answer", text: "子供の偏平足の多くは成長とともに自然に改善します（生理的扁平足）。インソールはアーチの形成をサポートし、正しい足の発達を促す役割を果たします。ただし、インソールだけで「治す」というよりは、正しい発達をサポートするツールとして位置づけてくだ��い。" } },
+    { "@type": "Question", name: "子供の偏平足はインソールで治りますか？", acceptedAnswer: { "@type": "Answer", text: "子供の偏平足の多くは成長とともに自然に改善します（生理的扁平足）。インソールはアーチの形成をサポートし、正しい足の発達を促す役割を果たします。ただし、インソールだけで「治す」というよりは、正しい発達をサポートするツールとして位置づけてください。" } },
     { "@type": "Question", name: "成長が早い子供のインソールはどのくらいで買い替えますか？", acceptedAnswer: { "@type": "Answer", text: "子供の足は半年で0.5〜1cm程度成長するため、3〜6ヶ月ごとにサイズの見直しが必要です。カットタイプのインソールであれば多少の成長には対応できますが、靴自体を買い替えるタイミングでインソールも新調するのが目安です。" } },
     { "@type": "Question", name: "運動靴にインソールを入れても子供のパフォーマンスに影響はありませんか？", acceptedAnswer: { "@type": "Answer", text: "適切なインソールは子供のパフォーマンスを向上させる可能性があります。足裏の安定性が高まることで、走る・跳ぶ・方向転換などの動作が安定し、怪我のリスクも軽減されます。ただし、厚すぎるインソールは靴内が窮屈になるため、薄型〜中厚のものを選んでください。" } },
-    { "@type": "Question", name: "大人用のインソールを子供にカットして使っても大丈夫で���か？", acceptedAnswer: { "@type": "Answer", text: "XSサイズ（21cm〜）に対応している大人用インソールであれば、カットして子供に使用可能です。ただし、子供の足は大人と骨格が異なるため、アーチの位置が合わない場合があります。可能であれば子供用に設計されたインソールか、子供サイズに対応した製品を選ぶことをおすすめします。" } },
+    { "@type": "Question", name: "大人用のインソールを子供にカットして使っても大丈夫ですか？", acceptedAnswer: { "@type": "Answer", text: "XSサイズ（21cm〜）に対応している大人用インソールであれば、カットして子供に使用可能です。ただし、子供の足は大人と骨格が異なるため、アーチの位置が合わない場合があります。可能であれば子供用に設計されたインソールか、子供サイズに対応した製品を選ぶことをおすすめします。" } },
   ],
 };
 
@@ -89,7 +89,7 @@ export default function KidsInsolePage() {
             <li><a href="#development" className="hover:text-[#0ea5e9] transition-colors">2. 子供の足の発達とインソールの関係</a></li>
             <li><a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">3. 子供用インソールの選び方</a></li>
             <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">4. 子供用インソールおすすめ5選</a></li>
-            <li><a href="#usage" className="hover:text-[#0ea5e9] transition-colors">5. 使い方と注��点</a></li>
+            <li><a href="#usage" className="hover:text-[#0ea5e9] transition-colors">5. 使い方と注意点</a></li>
             <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">6. よくある質問（FAQ）</a></li>
             <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">7. まとめ</a></li>
           </ol>
@@ -98,7 +98,7 @@ export default function KidsInsolePage() {
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <section id="why" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">子供にインソー���が必要な理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">子供にインソールが必要な理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">子供の足は大人と異なり、骨格や筋肉が発達途上にあります。この大切な成長期に足をサポートすることで、将来的な足のトラブルを予防し、正しい体の発達を促すことができます。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">成長期のアーチ形成をサポート</h3>
@@ -127,7 +127,7 @@ export default function KidsInsolePage() {
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">3〜5歳：アーチ未発達���</h3>
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">3〜5歳：アーチ未発達期</h3>
               <p className="text-sm text-gray-700 leading-relaxed">この年齢では足裏の脂肪が厚く、アーチが見えない「生理的扁平足」の状態が正常です。基本的にインソールは不要ですが、歩き方に著しい異常がある場合は小児整形外科に相談しましょう。この時期は裸足で遊ぶことが足の発達に最も良い刺激になります。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
@@ -146,7 +146,7 @@ export default function KidsInsolePage() {
         </section>
 
         <section id="how-to-choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">子供用イン��ールの選び方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">子供用インソールの選び方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">子供用インソールを選ぶ際に注意すべきポイントを解説します。</p>
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
@@ -154,7 +154,7 @@ export default function KidsInsolePage() {
               <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">適度なアーチサポート</h3>
             </div>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed">子供用インソールのアーチサポートは「硬すぎず、柔らかすぎず」が重要です。硬すぎるサポートは足の筋肉の発達を妨げ、柔らかすぎると効果がありません。成長段階に合った適度なサポート力のインソールを選びましょう。迷った場合は小児整形外科で相談するのがベスト���す。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">子供用インソールのアーチサポートは「硬すぎず、柔らかすぎず」が重要です。硬すぎるサポートは足の筋肉の発達を妨げ、柔らかすぎると効果がありません。成長段階に合った適度なサポート力のインソールを選びましょう。迷った場合は小児整形外科で相談するのがベストです。</p>
           </div>
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
@@ -176,14 +176,14 @@ export default function KidsInsolePage() {
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
               <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
-              <h3 className="text-base md:text-lg font-bold text-gray-900">���イズ調整のしやすさ</h3>
+              <h3 className="text-base md:text-lg font-bold text-gray-900">サイズ調整のしやすさ</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">子供の足は成長が早いため、カットしてサイズ調整できるインソールが経済的です。成長に合わせて少しずつカットし直すことで、1つのインソールを長く使い続けることができます。カットラインが印刷された製品であれば、保護者が簡単にサイズ調整できます。</p>
           </div>
         </section>
 
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">子���用インソー��おすすめ5選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">子供用インソールおすすめ5選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">成長期の子供の足をサポートするインソールを5つ厳選しました。</p>
 
           <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -204,10 +204,10 @@ export default function KidsInsolePage() {
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美容整体師監修の正しい重心移動を促す設計が、子供の歩き方改善に効果的です。男女兼用で幅広いサイズに対応しており、成長が早いお子さんにも長く使いやすい設計です。正しい歩き方の基礎を身につけるために、日常的な使用をおすすめします。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>正しい重心移動で子供の歩き方を改善</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>男女兼用で幅広いサイズに対���</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>男女兼用で幅広いサイズに対応</span></li>
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師監修で正しい発達をサポート</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソール���詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -216,10 +216,10 @@ export default function KidsInsolePage() {
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">Mサイズ（22.5〜23.5cm）が小学校高学年〜中学生の女の子に対応しています。美姿勢サポート機能で、成長期の姿勢改善を助けます。薄型設計のため、学校の上履きや通学靴にも入れやすいのが特徴です。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美姿勢サポートで成長期の姿勢改善</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型で上履きや通学靴にも対���</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型で上履きや通学靴にも対応</span></li>
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>Mサイズが小学生高学年〜中学生の女子に対応</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウ���イキュアソールの詳細レビュー��見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -263,11 +263,11 @@ export default function KidsInsolePage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">定期的にサイズを確認する</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">子供の足は成長が早いため、3ヶ月に1回はインソールのサイズが合っているか確認しましょう。つま先部分にインソールが届いていない、かかとがはみ出しているなどの場合はサイズが合っていません。靴を買い替えるタイミングでインソールもサイズの見直しを行ってくださ���。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">子供の足は成長が早いため、3ヶ月に1回はインソールのサイズが合っているか確認しましょう。つま先部分にインソールが届いていない、かかとがはみ出しているなどの場合はサイズが合っていません。靴を買い替えるタイミングでインソールもサイズの見直しを行ってください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">裸足で遊ぶ時間も確保する</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">インソールに頼りすぎず、裸足で遊ぶ時間も大切にしましょう。裸足で芝生や砂場を歩くことは、足裏の感覚を鍛え、筋肉の発達を促す最良のトレーニングです。インソールは外出時のサポートとして位置づけ、家の中では裸足で過ごす習慣を維持してください��</p>
+              <p className="text-sm text-gray-700 leading-relaxed">インソールに頼りすぎず、裸足で遊ぶ時間も大切にしましょう。裸足で芝生や砂場を歩くことは、足裏の感覚を鍛え、筋肉の発達を促す最良のトレーニングです。インソールは外出時のサポートとして位置づけ、家の中では裸足で過ごす習慣を維持してください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">痛みが続く場合は専門医に相談</h3>
@@ -329,7 +329,7 @@ export default function KidsInsolePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link href="/articles/flat-feet/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">扁平足・浮き指にインソールは効果ある？</p></Link>
             <Link href="/articles/sneaker-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">スニーカー用インソールおすすめ5選</p></Link>
-            <Link href="/articles/size-adjustment/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">インソールのサイズ���整方法</p></Link>
+            <Link href="/articles/size-adjustment/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">インソールのサイズ調整方法</p></Link>
             <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"><p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る</p></Link>
           </div>
         </div>

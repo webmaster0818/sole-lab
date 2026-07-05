@@ -56,7 +56,7 @@ const faqStructuredData = {
       name: "ピットソールの世界特許とは何ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "BMZ社が取得した足裏アーチサポートに関する特許技術です。足の骨格を正しい位置に導くことで、体幹を安定させ、効率的な歩行をサポートする構造が特許として認められています。",
+        text: "ピットソールに採用されている足裏アーチサポートに関する特許技術です。足の骨格を正しい位置に導くことで、体幹を安定させ、効率的な歩行をサポートする構造が特許として認められています。",
       },
     },
     {
@@ -64,7 +64,7 @@ const faqStructuredData = {
       name: "男性でも使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ピットソール（XS〜Lサイズ、21〜27.5cm対応）とスリムアップインソールは男女兼用です。ランウェイキュアソールはM（22.5〜23.5cm）とL（24〜25cm）の展開で、主に女性向けの設計となっています。",
+        text: "ピットソール（XS〜XLの5サイズ、21〜29cm対応。XLはブラック・ピンク限定、公式サイトにて2026年7月確認）とスリムアップインソールは男女兼用です。ランウェイキュアソールはM（22.5〜23.5cm）とL（24〜25cm）の展開で、主に女性向けの設計となっています。",
       },
     },
     {
@@ -112,7 +112,7 @@ const faqStructuredData = {
       name: "セット購入と単品購入、どちらがおすすめですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "継続使用を前提にするなら、セット購入が圧倒的にお得です。ピットソールは3足セットで1足無料、スリムアップインソールは3足セットで+1足無料と、実質1足あたりの価格が大幅に下がります。ただし、初めて試す方はまず単品で自分の足に合うか確認するのも手です。",
+        text: "継続使用を前提にするなら、セット購入が圧倒的にお得です。ピットソールは4足セット18,120円（4,530円/足）・6足セット24,156円（4,026円/足）と単価が下がり（公式サイトにて2026年7月確認）、スリムアップインソールは3足セットで+1足無料と、実質1足あたりの価格が大幅に下がります。ただし、初めて試す方はまず単品で自分の足に合うか確認するのも手です。",
       },
     },
   ],
@@ -332,7 +332,7 @@ export default function RankingPage() {
               科学的根拠と特許技術
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed mb-3">
-              今回比較する3商品のうち、ピットソールはBMZ社が世界特許を取得した足裏アーチサポート技術を採用しています。
+              今回比較する3商品のうち、ピットソールは世界特許を取得した足裏アーチサポート技術を採用しています。
               これは足の骨格を正しい位置に導く独自構造で、特許として認められた技術です。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed">
@@ -411,7 +411,7 @@ export default function RankingPage() {
                     お得なセット
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
-                    3足セットで1足無料
+                    4足18,120円 / 6足24,156円
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
                     セット割引あり
@@ -425,13 +425,13 @@ export default function RankingPage() {
                     サイズ展開
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
-                    XS〜L（21〜27.5cm）
+                    XS〜XL（21〜29cm）
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
                     M/L（22.5〜25cm）
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
-                    複数サイズ対応
+                    S / M
                   </td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -488,7 +488,7 @@ export default function RankingPage() {
               </div>
 
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                BMZ社が開発・販売するダイエットインソールで、累計販売数200万足を突破した人気商品です。
+                バッカス（セレス株式会社の子会社）が販売するダイエットインソールで、累計販売数200万足を突破した人気商品です（公式サイトにて2026年7月確認）。
                 世界特許を取得した足裏アーチサポート技術により、骨格を正しい位置に導き、体幹を安定させることで姿勢改善・ダイエットサポートを目指します。
                 楽天ランキングでも1位を獲得した実績があり、知名度・販売実績ともにトップクラスです。
               </p>
@@ -515,13 +515,13 @@ export default function RankingPage() {
                       <span className="text-green-500 mt-0.5 shrink-0">
                         &#9675;
                       </span>
-                      サイズ展開が豊富（21〜27.5cm）
+                      サイズ展開が豊富（XS〜XLの5サイズ・21〜29cm）
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-green-500 mt-0.5 shrink-0">
                         &#9675;
                       </span>
-                      3足セットで1足無料のコスパ
+                      6足セットで1足あたり4,026円のコスパ
                     </li>
                   </ul>
                 </div>
@@ -832,7 +832,7 @@ export default function RankingPage() {
                       6,578円
                     </td>
                     <td className="px-3 py-2.5 text-center text-gray-700">
-                      約4,386円（3足セット+1足無料時）
+                      4,026円（6足セット24,156円時・公式サイトにて2026年7月確認）
                     </td>
                   </tr>
                   <tr className="bg-gray-50">
@@ -893,10 +893,10 @@ export default function RankingPage() {
                       ピットソール
                     </td>
                     <td className="px-3 py-2.5 text-center text-gray-700">
-                      XS / S / M / L
+                      XS / S / M / L / XL
                     </td>
                     <td className="px-3 py-2.5 text-center text-gray-700">
-                      21〜27.5cm
+                      21〜29cm（XLはブラック・ピンク限定）
                     </td>
                   </tr>
                   <tr className="bg-gray-50">
@@ -915,19 +915,19 @@ export default function RankingPage() {
                       スリムアップインソール
                     </td>
                     <td className="px-3 py-2.5 text-center text-gray-700">
-                      複数サイズ対応
+                      S / M
                     </td>
                     <td className="px-3 py-2.5 text-center text-gray-700">
-                      幅広いサイズに対応
+                      23.0〜26.5cm
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
-              サイズ展開ではピットソールが最も充実しており、21〜27.5cmと男女問わず対応できます。
+              サイズ展開ではピットソールが最も充実しており、XS〜XLの5サイズ・21〜29cm（XLはブラック・ピンク限定）と男女問わず対応できます（公式サイトにて2026年7月確認）。
               ランウェイキュアソールはM（22.5〜23.5cm）とL（24〜25cm）の2サイズで、主に女性向けの展開です。
-              男性や足のサイズが大きい方はピットソールまたはスリムアップインソールが適しています。
+              男性や足のサイズが大きい方はピットソール（最大29cm）が適しています。
             </p>
           </div>
 
@@ -942,7 +942,7 @@ export default function RankingPage() {
                   ピットソール
                 </p>
                 <p className="text-sm text-gray-600">
-                  BMZ社が世界特許を取得した足裏アーチサポート技術を採用。骨格を正しい位置に導く独自構造により、体幹強化と姿勢改善をサポートします。
+                  世界特許を取得した足裏アーチサポート技術を採用。骨格を正しい位置に導く独自構造により、体幹強化と姿勢改善をサポートします。
                 </p>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-4">
@@ -1111,7 +1111,7 @@ export default function RankingPage() {
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td>
-                <td className="px-4 py-3">XS〜L（21〜27.5cm）の4サイズ</td>
+                <td className="px-4 py-3">XS〜XL（21〜29cm）の5サイズ ※XLはブラック・ピンク限定</td>
                 <td className="px-4 py-3">M（22.5〜23.5cm）/ L（24.0〜25.0cm）</td>
                 <td className="px-4 py-3">S（23.0〜24.5cm）/ M（25.0〜26.5cm）</td>
               </tr>
@@ -1176,7 +1176,7 @@ export default function RankingPage() {
                 ピットソール
               </p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                3足セットで1足無料のコスパの良さに加え、世界特許取得の信頼性、累計200万足の販売実績。
+                4足・6足セット（1足あたり4,530円/4,026円）のコスパの良さに加え、世界特許取得の信頼性、累計200万足の販売実績。
                 サイズ展開も豊富で、迷ったらまずピットソールを選べば間違いありません。
               </p>
               <Link href="/pitsole/" className="btn-outline text-sm w-full">
@@ -1471,11 +1471,11 @@ export default function RankingPage() {
             },
             {
               q: "Q3. ピットソールの世界特許とは何ですか？",
-              a: "BMZ社が取得した足裏アーチサポートに関する特許技術です。足の骨格を正しい位置に導くことで、体幹を安定させ、効率的な歩行をサポートする構造が特許として認められています。",
+              a: "ピットソールに採用されている足裏アーチサポートに関する特許技術です。足の骨格を正しい位置に導くことで、体幹を安定させ、効率的な歩行をサポートする構造が特許として認められています。",
             },
             {
               q: "Q4. 男性でも使えますか？",
-              a: "ピットソール（XS〜Lサイズ、21〜27.5cm対応）とスリムアップインソールは男女兼用です。ランウェイキュアソールはM（22.5〜23.5cm）とL（24〜25cm）の展開で、主に女性向けの設計となっています。",
+              a: "ピットソール（XS〜XLの5サイズ、21〜29cm対応。XLはブラック・ピンク限定、公式サイトにて2026年7月確認）とスリムアップインソールは男女兼用です。ランウェイキュアソールはM（22.5〜23.5cm）とL（24〜25cm）の展開で、主に女性向けの設計となっています。",
             },
             {
               q: "Q5. パンプスやヒールにも使えますか？",
@@ -1499,7 +1499,7 @@ export default function RankingPage() {
             },
             {
               q: "Q10. セット購入と単品購入、どちらがおすすめですか？",
-              a: "継続使用を前提にするなら、セット購入が圧倒的にお得です。ピットソールは3足セットで1足無料、スリムアップインソールは3足セットで+1足無料と、実質1足あたりの価格が大幅に下がります。ただし、初めて試す方はまず単品で自分の足に合うか確認するのも手です。",
+              a: "継続使用を前提にするなら、セット購入が圧倒的にお得です。ピットソールは4足セット18,120円（4,530円/足）・6足セット24,156円（4,026円/足）と単価が下がり（公式サイトにて2026年7月確認）、スリムアップインソールは3足セットで+1足無料と、実質1足あたりの価格が大幅に下がります。ただし、初めて試す方はまず単品で自分の足に合うか確認するのも手です。",
             },
           ].map((item) => (
             <details

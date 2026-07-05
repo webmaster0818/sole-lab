@@ -557,7 +557,7 @@ export default function HyakkinComparisonPage() {
                   <tr className="border-b border-gray-100">
                     <td className="py-2 text-gray-900">1回の購入価格</td>
                     <td className="py-2 text-gray-600">100〜300円</td>
-                    <td className="py-2 text-gray-900">2,178〜6,578円</td>
+                    <td className="py-2 text-gray-900">6,578〜6,980円</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-2 text-gray-900">交換頻度</td>
@@ -580,7 +580,7 @@ export default function HyakkinComparisonPage() {
               </table>
             </div>
             <p className="text-xs text-gray-500 mt-3">
-              ※ ダイエットインソールはまとめ買いで割安になる場合が多いです。ピットソール3足セットなら1足あたり約4,000円台になります。
+              ※ ダイエットインソールはまとめ買いで割安になる場合が多いです。ピットソール6足セットなら1足あたり約4,026円になります（公式サイトにて2026年7月確認）。
             </p>
           </div>
 
@@ -628,7 +628,7 @@ export default function HyakkinComparisonPage() {
                   "美姿勢サポートに特化した薄型設計",
                   "ヒール靴にも対応するため通勤にも使いやすい",
                 ],
-                price: "4,378円（税込）〜",
+                price: "6,980円（税込）〜",
                 best: "姿勢改善も同時に目指す方",
               },
               {
@@ -639,7 +639,7 @@ export default function HyakkinComparisonPage() {
                   "傾斜設計で自然と筋肉を刺激するアプローチ",
                   "男女兼用で豊富なサイズ展開",
                 ],
-                price: "2,178円（税込）〜",
+                price: "6,980円（税込）〜",
                 best: "まずはお手頃価格で試したい方",
               },
             ].map((item) => (

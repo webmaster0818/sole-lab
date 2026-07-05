@@ -17,7 +17,7 @@ const products = [
     key: "pitsole" as const,
     tagline: "特許取得の骨格矯正インソール",
     price: "1,771円〜/月",
-    points: ["世界特許取得の独自構造", "累計販売数10万足突破", "骨格から姿勢をサポート"],
+    points: ["世界特許取得の独自構造", "累計販売数200万足突破（2025年4月時点・公式発表）", "骨格から姿勢をサポート"],
     href: "/pitsole/",
     accent: "#e8627c",
     badge: "人気No.1",

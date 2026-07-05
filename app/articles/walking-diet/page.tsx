@@ -349,7 +349,7 @@ export default function WalkingDietPage() {
                   "美姿勢サポートに特化",
                   "ヒール靴にも対応する薄型設計",
                 ],
-                price: "4,378円（税込）〜",
+                price: "6,980円（税込）〜",
                 best: "姿勢改善も同時に目指す方",
               },
               {
@@ -360,7 +360,7 @@ export default function WalkingDietPage() {
                   "傾斜設計で自然と筋肉を刺激",
                   "男女兼用の豊富なサイズ展開",
                 ],
-                price: "2,178円（税込）〜",
+                price: "6,980円（税込）〜",
                 best: "コスパ重視で気軽に試したい方",
               },
             ].map((item) => (

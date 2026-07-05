@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-28",
-  dateModified: "2026-04-28",
+  dateModified: "2026-07-05",
 };
 
 const faqs = [
@@ -152,7 +152,7 @@ export default function WalkingInsolePage() {
               ダイエット おすすめ
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
-              2026年4月更新
+              2026年7月更新
             </span>
           </div>
         </div>
@@ -232,11 +232,11 @@ export default function WalkingInsolePage() {
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">セット最安値</span>
-                  <span className="text-[#c9a76c] font-bold">4,378円/足</span>
+                  <span className="text-[#c9a76c] font-bold">4,026円/足</span>
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">サイズ</span>
-                  <span className="text-gray-900 font-medium">XS〜L（4サイズ）</span>
+                  <span className="text-gray-900 font-medium">XS〜XL（5サイズ）</span>
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">対象</span>
@@ -299,7 +299,7 @@ export default function WalkingInsolePage() {
                 </span>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                美容整体師・井上剛志氏監修の骨格筋アプローチ。フリーサイズでウォーキングシューズに合わせてカット可能。3足+1足プレゼントのセット割引でコスパ最強。ウォーキング用とランニング用で使い分けも可能。
+                美容整体師・井上剛志氏監修の骨格筋アプローチ。サイズはS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズ展開（公式サイトにて2026年7月確認）。3足+1足プレゼントのセット割引でコスパ良好。ウォーキング用とランニング用で使い分けも可能。
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4">
                 <div>
@@ -312,11 +312,11 @@ export default function WalkingInsolePage() {
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">サイズ</span>
-                  <span className="text-gray-900 font-medium">フリーサイズ</span>
+                  <span className="text-gray-900 font-medium">S・M（2サイズ）</span>
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">対象</span>
-                  <span className="text-gray-900 font-medium">男女兼用</span>
+                  <span className="text-gray-900 font-medium">23.0〜26.5cm</span>
                 </div>
               </div>
               <Link href="/slim-up-insole/" className="text-sm text-[#e8627c] font-medium hover:underline">

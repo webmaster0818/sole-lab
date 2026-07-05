@@ -27,7 +27,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-04-08",
+  dateModified: "2026-07-05",
 };
 
 const faqStructuredData = {
@@ -47,7 +47,7 @@ const faqStructuredData = {
       name: "男性が使うならどちらがおすすめですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "男性にはピットソール一択です。ランウェイキュアソールはM/Lサイズ（22.5〜25cm）の女性向け展開のみで、男性サイズに対応していません。ピットソールはXS〜L（21〜27.5cm）の男女兼用です。",
+        text: "男性にはピットソール一択です。ランウェイキュアソールはM/Lサイズ（22.5〜25cm）の女性向け展開のみで、男性サイズに対応していません。ピットソールはXS〜XL（21〜29cm・XLはブラック/ピンク限定）です。",
       },
     },
     {
@@ -55,7 +55,7 @@ const faqStructuredData = {
       name: "コスパが良いのはどちらですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "単品購入ではランウェイキュアソールがやや手頃です。ただしピットソールも公式サイトのまとめ買い（3足セット・5足セット）を利用すれば1足あたりの単価を大幅に抑えられます。長期利用を考えるならまとめ買い割引の大きいピットソールがコスパ面で有利になるケースもあります。",
+        text: "単品価格はピットソール6,578円、ランウェイキュアソール6,980円でピットソールがやや手頃です。さらにピットソールは公式サイトのまとめ買い（2足12,364円・4足18,120円・6足24,156円、1足あたり4,026〜6,182円）で単価を抑えられます（公式サイトにて2026年7月確認）。長期利用を考えるならまとめ買い割引の大きいピットソールがコスパ面で有利になるケースが多いでしょう。",
       },
     },
     {
@@ -86,12 +86,12 @@ const faqs = [
   {
     question: "男性が使うならどちらがおすすめですか？",
     answer:
-      "男性にはピットソール一択です。ランウェイキュアソールはM/Lサイズ（22.5〜25cm）の女性向け展開のみで、男性サイズに対応していません。ピットソールはXS〜L（21〜27.5cm）の男女兼用です。",
+      "男性にはピットソール一択です。ランウェイキュアソールはM/Lサイズ（22.5〜25cm）の女性向け展開のみで、男性サイズに対応していません。ピットソールはXS〜XL（21〜29cm・XLはブラック/ピンク限定）です。",
   },
   {
     question: "コスパが良いのはどちらですか？",
     answer:
-      "単品購入ではランウェイキュアソールがやや手頃です。ただしピットソールも公式サイトのまとめ買い（3足セット・5足セット）を利用すれば1足あたりの単価を大幅に抑えられます。長期利用を考えるならまとめ買い割引の大きいピットソールがコスパ面で有利になるケースもあります。",
+      "単品価格はピットソール6,578円、ランウェイキュアソール6,980円でピットソールがやや手頃です。さらにピットソールは公式サイトのまとめ買い（2足12,364円・4足18,120円・6足24,156円、1足あたり4,026〜6,182円）で単価を抑えられます（公式サイトにて2026年7月確認）。長期利用を考えるならまとめ買い割引の大きいピットソールがコスパ面で有利になるケースが多いでしょう。",
   },
   {
     question: "両方とも普段のスニーカーに入れられますか？",
@@ -180,7 +180,7 @@ export default function PitsoleVsRunwayPage() {
                 </tr>
                 <tr className="bg-gray-50/50">
                   <td className="px-4 py-3 border border-gray-200 font-medium text-gray-700">サイズ展開</td>
-                  <td className="px-4 py-3 border border-gray-200 text-gray-600">XS/S/M/L（21〜27.5cm）</td>
+                  <td className="px-4 py-3 border border-gray-200 text-gray-600">XS/S/M/L/XL（21〜29cm・XL色限定）</td>
                   <td className="px-4 py-3 border border-gray-200 text-gray-600">M/L（22.5〜25cm）</td>
                 </tr>
                 <tr>
@@ -240,16 +240,20 @@ export default function PitsoleVsRunwayPage() {
                   <span className="font-semibold text-gray-900">6,578円</span>
                 </li>
                 <li className="flex justify-between">
-                  <span>3足セット</span>
-                  <span className="font-semibold text-gray-900">1足あたり約4,000円台</span>
+                  <span>2足セット</span>
+                  <span className="font-semibold text-gray-900">12,364円（6,182円/足）</span>
                 </li>
                 <li className="flex justify-between">
-                  <span>5足セット</span>
-                  <span className="font-semibold text-gray-900">1足あたり約3,000円台</span>
+                  <span>4足セット</span>
+                  <span className="font-semibold text-gray-900">18,120円（4,530円/足）</span>
+                </li>
+                <li className="flex justify-between">
+                  <span>6足セット</span>
+                  <span className="font-semibold text-gray-900">24,156円（4,026円/足）</span>
                 </li>
               </ul>
               <p className="text-xs text-gray-500 mt-3">
-                ※公式サイトのまとめ買いで大幅割引。楽天・Amazonでも購入可能。
+                ※公式サイトのまとめ買いで割引（公式サイトにて2026年7月確認）。楽天・Amazonでも購入可能。
               </p>
             </div>
             <div className="card">
@@ -315,7 +319,7 @@ export default function PitsoleVsRunwayPage() {
                   <span className="text-gray-600">26.5〜27.5cm</span>
                 </div>
               </div>
-              <p className="text-xs text-gray-500 mt-3">4サイズ展開・男女兼用</p>
+              <p className="text-xs text-gray-500 mt-3">5サイズ展開（21〜29cm）</p>
             </div>
             <div className="card">
               <div className="h-1 rounded-full mb-4 bg-[#8b5cf6]" />
@@ -337,7 +341,7 @@ export default function PitsoleVsRunwayPage() {
           <div className="card">
             <h3 className="text-base font-bold text-gray-900 mb-3">サイズ対応力の判定</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              サイズ展開ではピットソールが圧倒的に有利です。XS〜Lの4サイズで21〜27.5cmをカバーし、男女兼用で使えます。
+              サイズ展開ではピットソールが圧倒的に有利です。XS〜XLの5サイズで21〜29cmをカバーします（XLはブラック/ピンク限定・公式サイトにて2026年7月確認）。
               足の小さい女性から標準的な男性サイズまで幅広く対応しているため、「自分のサイズがない」という心配がほとんどありません。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mt-3">
@@ -552,7 +556,7 @@ export default function PitsoleVsRunwayPage() {
                 },
                 {
                   title: "男性や足の大きい方",
-                  desc: "XS〜L（21〜27.5cm）の4サイズ展開で男女兼用。ランウェイキュアソールでは対応できない25cm以上の方は、ピットソール一択です。",
+                  desc: "XS〜XL（21〜29cm）の5サイズ展開。ランウェイキュアソールでは対応できない25cm超の方は、ピットソール一択です。",
                 },
                 {
                   title: "口コミや実績を確認してから買いたい方",
@@ -642,7 +646,7 @@ export default function PitsoleVsRunwayPage() {
           <div className="card mb-6">
             <p className="text-sm text-gray-600 leading-relaxed">
               総合的に見ると、<span className="font-bold text-[#0ea5e9]">多くの方にはピットソールがおすすめ</span>です。
-              世界特許の技術力、XS〜Lの幅広いサイズ展開、累計200万足の販売実績、楽天ランキング1位という圧倒的な実績は、初めてのダイエットインソール選びにおいて大きな安心材料になります。
+              世界特許の技術力、XS〜XLの幅広いサイズ展開、累計200万足の販売実績、楽天ランキング1位という圧倒的な実績は、初めてのダイエットインソール選びにおいて大きな安心材料になります。
               男女兼用でサイズの心配が少なく、口コミも豊富なため、購入前に十分な情報を集めた上で判断できる点も強みです。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mt-4">
@@ -684,7 +688,7 @@ export default function PitsoleVsRunwayPage() {
           <div className="card">
             <p className="text-sm text-gray-600 leading-relaxed mb-4">
               この2つで迷う方は、整体師監修の「スリムアップインソール」も候補に入れてみてください。
-              単品6,980円で、3足セット購入時に1足無料となるまとめ買いのコスパと、抗菌防臭加工・男女兼用のフリーサイズが特徴です。
+              単品6,980円で、3足セット購入時に1足無料となるまとめ買いのコスパと、抗菌防臭加工・S（23.0〜24.5cm）／M（25.0〜26.5cm）の2サイズ展開（公式サイトにて2026年7月確認）が特徴です。
             </p>
             <div className="flex flex-col sm:flex-row sm:items-center gap-4">
               <Link href="/slim-up-insole/" className="btn-outline text-sm inline-block">

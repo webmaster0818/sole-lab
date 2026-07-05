@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-07-03",
+  dateModified: "2026-07-05",
 };
 
 const faqStructuredData = {
@@ -86,7 +86,7 @@ const faqStructuredData = {
       name: "男性でも使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい。XS〜Lサイズ（21〜27.5cm）の展開があり、男女兼用です。Lサイズ（26.5〜27.5cm）が標準的な男性サイズに対応しています。",
+        text: "はい。XS〜XLサイズ（21〜29cm）の5サイズ展開があり、男女兼用です。Lサイズ（26.5〜27.5cm）が標準的な男性サイズに対応し、XLサイズ（28〜29cm）はブラック・ピンクのカラーのみの展開です。",
       },
     },
     {
@@ -169,6 +169,7 @@ const sizes = [
   { label: "S", range: "23〜24.5cm", note: "標準的な女性サイズ" },
   { label: "M", range: "25〜26cm", note: "大きめ女性・小さめ男性" },
   { label: "L", range: "26.5〜27.5cm", note: "標準的な男性サイズ" },
+  { label: "XL", range: "28〜29cm", note: "大きめの男性サイズ（ブラック・ピンクのみ）" },
 ];
 
 const faqs = [
@@ -200,7 +201,7 @@ const faqs = [
   {
     question: "男性でも使えますか？",
     answer:
-      "はい。XS〜Lサイズ（21〜27.5cm）の展開があり、男女兼用です。Lサイズ（26.5〜27.5cm）が標準的な男性サイズに対応しています。",
+      "はい。XS〜XLサイズ（21〜29cm）の5サイズ展開があり、男女兼用です。Lサイズ（26.5〜27.5cm）が標準的な男性サイズに対応し、XLサイズ（28〜29cm）はブラック・ピンクのカラーのみの展開です。",
   },
   {
     question: "洗えますか？お手入れ方法は？",
@@ -599,7 +600,7 @@ export default function PitsolePage() {
                   <span className="text-[#0ea5e9] mt-0.5 shrink-0">
                     &#10003;
                   </span>
-                  サイズ展開が広く男女兼用（21〜27.5cm）
+                  サイズ展開が広く男女兼用（21〜29cm・5サイズ）
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#0ea5e9] mt-0.5 shrink-0">
@@ -611,7 +612,7 @@ export default function PitsolePage() {
                   <span className="text-[#0ea5e9] mt-0.5 shrink-0">
                     &#10003;
                   </span>
-                  まとめ買いで実質無料分がつくお得なセット
+                  まとめ買いセットで1足あたりの単価が下がる（6足セットで単品比約39%お得）
                 </li>
               </ul>
             </div>
@@ -690,18 +691,32 @@ export default function PitsolePage() {
                   <td className="px-4 py-3 text-gray-900">6,578円</td>
                   <td className="px-4 py-3 text-gray-500">お試しに</td>
                 </tr>
+                <tr className="border-b border-gray-100">
+                  <td className="px-4 py-3 text-gray-900 font-medium">
+                    2足セット
+                  </td>
+                  <td className="px-4 py-3 text-gray-900 font-medium">
+                    12,364円
+                  </td>
+                  <td className="px-4 py-3 text-gray-900 font-medium">
+                    6,182円
+                  </td>
+                  <td className="px-4 py-3 text-gray-500">
+                    洗い替えに
+                  </td>
+                </tr>
                 <tr className="border-b border-gray-100 bg-sky-50">
                   <td className="px-4 py-3 text-gray-900 font-medium">
-                    3足セット
+                    4足セット
                   </td>
                   <td className="px-4 py-3 text-gray-900 font-medium">
-                    19,734円
+                    18,120円
                   </td>
                   <td className="px-4 py-3 text-[#0ea5e9] font-bold">
-                    4,934円
+                    4,530円
                   </td>
                   <td className="px-4 py-3 text-[#0ea5e9] font-medium">
-                    +1足無料
+                    単品比 約31%お得
                   </td>
                 </tr>
                 <tr>
@@ -709,13 +724,13 @@ export default function PitsolePage() {
                     6足セット
                   </td>
                   <td className="px-4 py-3 text-gray-900 font-medium">
-                    39,468円
+                    24,156円
                   </td>
                   <td className="px-4 py-3 text-[#0ea5e9] font-bold">
-                    4,934円
+                    4,026円
                   </td>
                   <td className="px-4 py-3 text-[#0ea5e9] font-medium">
-                    +2足無料
+                    単品比 約39%お得
                   </td>
                 </tr>
               </tbody>
@@ -731,7 +746,7 @@ export default function PitsolePage() {
                   <span className="font-bold text-gray-900 w-20 shrink-0">
                     公式サイト
                   </span>
-                  まとめ買い割引・無料分が最もお得。正規品保証あり。
+                  2足・4足・6足のセット割引が最もお得。正規品保証あり。
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-gray-900 w-20 shrink-0">
@@ -754,7 +769,7 @@ export default function PitsolePage() {
               </ul>
             </div>
             <p className="text-xs text-gray-500">
-              ※ 価格は2026年4月時点の情報です。最新の価格は各販売サイトでご確認ください。
+              ※ 価格は公式サイトにて2026年7月確認時点の情報です。最新の価格は各販売サイトでご確認ください。
             </p>
           </div>
         </div>
@@ -1057,13 +1072,13 @@ export default function PitsolePage() {
           ピットソールの公式スペック（出典つき）
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
-          公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年6月12日確認）。公式に記載のない項目は「公式表記なし」としています。
+          公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年7月4日確認）。公式に記載のない項目は「公式表記なし」としています。
         </p>
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-4">
           <table className="w-full text-sm">
             <tbody className="divide-y divide-gray-100 text-gray-600">
               <tr><td className="px-4 py-3 font-medium text-gray-900 w-40">販売元</td><td className="px-4 py-3">株式会社バッカス（株式会社セレスのグループ会社）</td></tr>
-              <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td><td className="px-4 py-3">XS（21〜22.5cm）/ S（23〜24.5cm）/ M（25〜26cm）/ L（26.5〜27.5cm）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td><td className="px-4 py-3">XS（21〜22.5cm）/ S（23〜24.5cm）/ M（25〜26cm）/ L（26.5〜27.5cm）/ XL（28〜29cm ※ブラック・ピンクのみ）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ調整</td><td className="px-4 py-3">カット可（つま先の余分をペンでなぞりハサミで切る手順を公式が案内）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">素材</td><td className="px-4 py-3">公式表記なし</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">特許</td><td className="px-4 py-3">特許第4733957号（キュボイドバランス理論）・特許第5498631号・特許第6799881号</td></tr>
@@ -1074,7 +1089,7 @@ export default function PitsolePage() {
           </table>
         </div>
         <p className="text-xs text-gray-500 leading-relaxed">
-          出典: バッカス公式オンラインショップ・公式Yahoo!/楽天/Amazon店舗の商品ページ表記（2026年6月12日参照）。特許番号は株式会社セレスの公式ニュースリリース（2022年4月）で確認。仕様は変更される場合があります。
+          出典: バッカス公式オンラインショップ・公式Yahoo!/楽天/Amazon店舗の商品ページ表記（2026年7月4日参照）。特許番号は株式会社セレスの公式ニュースリリース（2022年4月）で確認。仕様は変更される場合があります。
         </p>
         <div className="text-center my-8">
           <OfficialCTA product="pitsole" />

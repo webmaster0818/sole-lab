@@ -35,7 +35,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-04-08",
+  dateModified: "2026-07-05",
 };
 
 const faqStructuredData = {
@@ -55,7 +55,7 @@ const faqStructuredData = {
       name: "男性が使えるのはどちらですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "スリムアップインソールは男女兼用のフリーサイズで、はさみでカットして調整できるため男性も使用可能です。ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向けサイズのみのため、男性には対応していません。",
+        text: "スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開で最大26.5cmまで対応しており（公式サイトにて2026年7月確認）、足のサイズが26.5cm以内であれば男性も使用可能です。ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向けサイズのみのため、男性には対応していません。",
       },
     },
     {
@@ -203,12 +203,12 @@ export default function RunwayVsSlimupPage() {
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">サイズ</td>
                 <td className="px-4 py-3 text-center text-gray-600">M / L（22.5〜25.0cm）</td>
-                <td className="px-4 py-3 text-center text-gray-600">フリーサイズ（カット調整）</td>
+                <td className="px-4 py-3 text-center text-gray-600">S / M（23.0〜26.5cm）</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">対象</td>
                 <td className="px-4 py-3 text-center text-gray-600">女性向け</td>
-                <td className="px-4 py-3 text-center text-gray-600">男女兼用</td>
+                <td className="px-4 py-3 text-center text-gray-600">性別指定なし（公式表記なし・〜26.5cm）</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">技術・設計</td>
@@ -237,11 +237,11 @@ export default function RunwayVsSlimupPage() {
         <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
           <p>
             一覧で見ると、<strong>ランウェイキュアソール</strong>は「女性に特化した美姿勢サポート」、
-            <strong>スリムアップインソール</strong>は「専門家監修の男女兼用タイプ」というコンセプトの違いが明確です。
-            価格面ではランウェイキュアソールが単品で約2,000円安く、セット割引も充実しています。
+            <strong>スリムアップインソール</strong>は「専門家監修で最大26.5cmまで対応するタイプ」というコンセプトの違いが明確です。
+            単品価格はどちらも6,980円（税込）で同額、セット購入の1足あたり単価ではスリムアップインソールが有利です。
           </p>
           <p>
-            一方でスリムアップインソールは抗菌防臭機能やフリーサイズ対応など、日常的な使いやすさに強みがあります。
+            一方でスリムアップインソールは抗菌防臭機能やS/Mの2サイズ展開（最大26.5cm・公式サイトにて2026年7月確認）など、日常的な使いやすさに強みがあります。
             以下でそれぞれの項目を詳しく掘り下げていきましょう。
           </p>
         </div>
@@ -419,12 +419,12 @@ export default function RunwayVsSlimupPage() {
                 <tr>
                   <td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td>
                   <td className="px-4 py-3 text-center text-gray-600">M（22.5〜23.5cm）/ L（24.0〜25.0cm）</td>
-                  <td className="px-4 py-3 text-center text-gray-600">フリーサイズ（はさみでカット調整）</td>
+                  <td className="px-4 py-3 text-center text-gray-600">S（23.0〜24.5cm）/ M（25.0〜26.5cm）</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-medium text-gray-900">対象</td>
                   <td className="px-4 py-3 text-center text-gray-600">女性専用</td>
-                  <td className="px-4 py-3 text-center text-gray-600">男女兼用</td>
+                  <td className="px-4 py-3 text-center text-gray-600">性別指定なし（公式表記なし・〜26.5cm）</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-medium text-gray-900">対応靴の種類</td>
@@ -434,7 +434,7 @@ export default function RunwayVsSlimupPage() {
                 <tr>
                   <td className="px-4 py-3 font-medium text-gray-900">サイズ調整</td>
                   <td className="px-4 py-3 text-center text-gray-600">2サイズから選択</td>
-                  <td className="px-4 py-3 text-center text-gray-600">カットして微調整可能</td>
+                  <td className="px-4 py-3 text-center text-gray-600">2サイズから選択（切って合わせる方式の公式案内なし）</td>
                 </tr>
               </tbody>
             </table>
@@ -447,13 +447,13 @@ export default function RunwayVsSlimupPage() {
               足のサイズが22.5〜25.0cmの女性に限定されますが、その分女性の足に最適化されたフィット感があります。
             </p>
             <p>
-              <strong>スリムアップインソール</strong>はフリーサイズで男女兼用。はさみでカットして自分の靴に合わせられるため、
-              家族やパートナーと共有しやすいメリットがあります。
-              ただし、カットの手間がかかることと、切り過ぎてしまうと元に戻せない点には注意が必要です。
+              <strong>スリムアップインソール</strong>はS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開で、最大26.5cmまで対応します（公式サイトにて2026年7月確認）。
+              ランウェイキュアソールより対応範囲が広く、足のサイズが範囲内であれば男性も使用できます。
+              カットはつま先・サイドの微調整用のため、足の実寸に合うサイズを選びましょう。
             </p>
             <p>
-              女性で足のサイズが22.5〜25.0cmに収まる方は、既にサイズが合わせてあるランウェイキュアソールの方が手軽です。
-              男性や足のサイズが範囲外の方は、スリムアップインソール一択となります。
+              女性で足のサイズが22.5〜25.0cmに収まる方は、女性専用設計のランウェイキュアソールが手軽です。
+              男性や25.0cmを超える方は、26.5cmまでならスリムアップインソールが選択肢となります。
             </p>
           </div>
         </div>
@@ -788,12 +788,12 @@ export default function RunwayVsSlimupPage() {
           <p>
             <strong>スリムアップインソール</strong>は、YouTube登録者約136万人の美容整体師・井上剛志氏が監修。
             骨格筋サポート構造と抗菌防臭機能を搭載した機能派インソールです。
-            フリーサイズの男女兼用で、はさみでカット調整できるため幅広い足のサイズに対応可能。
+            S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開で、最大26.5cmまで対応します（公式サイトにて2026年7月確認）。
             単品6,980円、3足セットは17,920円で+1足無料と、まとめ買い特典も充実しています。
           </p>
           <p>
             最終的には、<strong>女性で美姿勢×コスパ重視ならランウェイキュアソール</strong>、
-            <strong>専門家監修×機能性×男女兼用ならスリムアップインソール</strong>がそれぞれ最適解です。
+            <strong>専門家監修×機能性×26.5cmまでの幅広い対応ならスリムアップインソール</strong>がそれぞれ最適解です。
             どちらも2〜3ヶ月の継続使用が推奨されているため、セット購入でじっくり試すのが賢い選び方でしょう。
           </p>
         </div>
@@ -836,7 +836,7 @@ export default function RunwayVsSlimupPage() {
         <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm text-gray-600 leading-relaxed mb-4">
             技術的な裏付けや販売実績を重視するなら、BMZ社の世界特許技術を採用した「ピットソール」も選択肢に入れてみてください。
-            単品6,578円、XS〜L（21〜27.5cm）の幅広いサイズ展開で男女兼用、累計200万足の販売実績がある定番インソールです。
+            単品6,578円、XS〜XL（21〜29cm）の幅広いサイズ展開、累計200万足の販売実績がある定番インソールです。
           </p>
           <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <Link

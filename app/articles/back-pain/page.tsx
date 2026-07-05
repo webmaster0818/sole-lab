@@ -6,7 +6,7 @@ import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 export const metadata: Metadata = {
   title: "インソールと腰痛の関係｜足元から腰痛を改善する方法",
   description:
-    "インソールで腰��を改善する方法を徹底解説。足元の歪みが腰痛を引き起こすメカニズム、インソールによる改善効果、選び方のポイントを紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
+    "インソールで腰痛を改善する方法を徹底解説。足元の歪みが腰痛を引き起こすメカニズム、インソールによる改善効果、選び方のポイントを紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/back-pain/",
   },
@@ -346,7 +346,7 @@ export default function BackPainPage() {
                 <h3 className="text-base md:text-lg font-bold text-gray-900">ヒールカップの深さ</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                深めのヒールカップはかかとを安定させ、着地時の左右のブレを防ぎます。かかとが安定することで、その上の膝、骨盤、腰椎のアライメントも安定し、腰痛改善に寄与しま���。
+                深めのヒールカップはかかとを安定させ、着地時の左右のブレを防ぎます。かかとが安定することで、その上の膝、骨盤、腰椎のアライメントも安定し、腰痛改善に寄与します。
               </p>
             </div>
 

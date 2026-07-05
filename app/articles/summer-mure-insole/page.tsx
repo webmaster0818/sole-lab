@@ -93,7 +93,7 @@ export default function SummerMurePage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">夏の蒸れ対策におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">蒸れ対策の観点で特に挙げられるのは、抗菌防臭のEVA/PE素材でカット調整もできるスリムアップインソールです。ピットソール（XS〜L・カット可）は特許取得のアーチサポートが特徴で、日々のケアと組み合わせて夏も使えます。ランウェイキュアソールはソックス型で靴の中敷きを増やさないため、サンダルなど中敷きを入れにくい夏の履き物と組み合わせやすいタイプです。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">蒸れ対策の観点で特に挙げられるのは、抗菌防臭のEVA/PE素材でカット調整もできるスリムアップインソールです。ピットソール（XS〜XLの5サイズ・カット可）は特許取得のアーチサポートが特徴で、日々のケアと組み合わせて夏も使えます。ランウェイキュアソールはソックス型で靴の中敷きを増やさないため、サンダルなど中敷きを入れにくい夏の履き物と組み合わせやすいタイプです。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

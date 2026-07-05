@@ -91,7 +91,7 @@ export default function RefundGuaranteePage() {
                   <td className="p-3 border-b border-gray-200 font-medium whitespace-nowrap"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td>
                   <td className="p-3 border-b border-gray-200">公式ページに全額返金保証の記載なし（公式サイトで要確認）</td>
                   <td className="p-3 border-b border-gray-200">公式サイト購入は未使用・未開封品に限りサイズ交換可（到着後7日以内に連絡）</td>
-                  <td className="p-3 border-b border-gray-200">単品／3足セット／6足セット（まとめ買い）</td>
+                  <td className="p-3 border-b border-gray-200">単品／2足・4足・6足セット（まとめ買い）</td>
                   <td className="p-3 border-b border-gray-200">定期縛りなし（都度購入）</td>
                 </tr>
                 <tr>

@@ -93,7 +93,7 @@ export default function IndoorSlippersPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">室内・在宅ワークにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">室内・在宅シーンで特に相性が良いのは、足に直接装着するソックス型のランウェイキュアソールです。3点アーチ設計で、素足にスリッパでも、靴下の上からでも使えます。外出時の靴にはピットソール（XS〜L・カット可・特許取得のアーチサポート）やスリムアップインソール（EVA/PE素材・カット可）を入れておくと、屋内外でケアがつながります。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">室内・在宅シーンで特に相性が良いのは、足に直接装着するソックス型のランウェイキュアソールです。3点アーチ設計で、素足にスリッパでも、靴下の上からでも使えます。外出時の靴にはピットソール（XS〜XL・カット可・特許取得のアーチサポート）やスリムアップインソール（EVA/PE素材・カット可）を入れておくと、屋内外でケアがつながります。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

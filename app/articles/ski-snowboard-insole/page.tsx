@@ -93,7 +93,7 @@ export default function SkiSnowboardPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スキー・スノーボードにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、日常の歩行・姿勢サポートを目的としたインソールで、ウィンタースポーツ専用モデルではありません。ピットソール（XS〜L・21〜27.5cm対応）とスリムアップインソール（S・M）はカットしてサイズ調整できるため、ブーツの中敷きを型紙にして合わせやすいタイプです。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、日常の歩行・姿勢サポートを目的としたインソールで、ウィンタースポーツ専用モデルではありません。ピットソール（XS〜XL・21〜29cm対応）とスリムアップインソール（S・M）はカットしてサイズ調整できるため、ブーツの中敷きを型紙にして合わせやすいタイプです。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

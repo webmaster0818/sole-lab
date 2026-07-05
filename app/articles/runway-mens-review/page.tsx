@@ -3,16 +3,16 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "ランウェイキュアソール メンズ向けレビュー｜男性の使用感を徹底検証",
+  title: "ランウェイキュアソールは男性でも使える？サイズ対応の真実と代替案",
   description:
-    "ランウェイキュアソールを男性が実際に使用したレビューを紹介。メンズの足に合うフィット感、ダイエット効果、サイズ選びのコツを徹底検証。男性ユーザーのリアルな口コミも掲載。",
+    "ランウェイキュアソールの公式サイズはM（22.5〜23.5cm）/L（24.0〜25.0cm）の女性向け2サイズのみ（公式サイトにて2026年7月確認）。25cmを超える男性は対応外です。足サイズ別の判断基準と、ピットソール・スリムアップインソールなど男性が選べる代替案を公式確認情報のみで解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/runway-mens-review/",
   },
   openGraph: {
-    title: "ランウェイキュアソール メンズ向けレビュー｜男性の使用感を徹底検証",
+    title: "ランウェイキュアソールは男性でも使える？サイズ対応の真実と代替案",
     description:
-      "ランウェイキュアソールを男性が実際に使用したレビュー。メンズのフィット感・効果を徹底検証。",
+      "ランウェイキュアソールの公式サイズはM/L（22.5〜25.0cm）の女性向け展開のみ。25cm超の男性は対応外。足サイズ別の代替案を公式確認情報で解説。",
     url: "https://sole-laboratory.com/articles/runway-mens-review/",
     type: "article",
   },
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "ランウェイキュアソール メンズ向けレビュー｜男性の使用感を徹底検証",
+  headline: "ランウェイキュアソールは男性でも使える？サイズ対応の真実と代替案",
   description:
-    "ランウェイキュアソールを男性が実際に使用したレビュー。メンズのフィット感・ダイエット効果・サイズ選びを徹底検証します。",
+    "ランウェイキュアソールの公式サイズはM（22.5〜23.5cm）/L（24.0〜25.0cm）の女性向け2サイズのみ。25cmを超える男性は対応外です。足サイズ別の判断基準と男性向けの代替案を公式確認情報に基づいて解説します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -31,7 +31,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-07-05",
 };
 
 const faqStructuredData = {
@@ -43,39 +43,39 @@ const faqStructuredData = {
       name: "ランウェイキュアソールは男性でも使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、ランウェイキュアソールは男女兼用の設計です。サイズ展開が22cm〜27cm程度に対応しており、一般的な男性の足サイズ（25〜27cm）をカバーしています。ただし27.5cm以上の方はフィット感がやや物足りない可能性があるため、他の選択肢も検討してみてください。",
+        text: "公式のサイズ展開はM（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向け2サイズのみで、対応最大は25.0cmです（公式サイトにて2026年7月確認）。足の実寸が25.0cmを超える男性は対応外となります。実寸が25.0cm以内の男性であれば物理的には装着できますが、公式は女性向け商品として案内しており、男性向けの使用案内はありません。",
       },
     },
     {
       "@type": "Question",
-      name: "男性のダイエットにも効果がありますか？",
+      name: "メンズ用（男性用）のランウェイキュアソールは販売されていますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "男性でもダイエット効果は期待できます。ランウェイキュアソールは美姿勢サポートと骨盤周りの筋肉活性化を促す設計で、歩行時の筋肉使用量を増やすことでカロリー消費を高めます。ただし男性は女性に比べて体重が重いため、インソールの消耗が早くなる傾向があります。",
+        text: "2026年7月に公式サイトを確認した時点で、メンズ用サイズや男性向けモデルの案内はありません。サイズはM/Lの2サイズ（22.5〜25.0cm）のみの展開です。",
       },
     },
     {
       "@type": "Question",
-      name: "ビジネスシューズにも使えますか？",
+      name: "足のサイズが26cm・27cmの男性が使う方法はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ランウェイキュアソールは薄型設計のため、多くのビジネスシューズに対応可能です。ただし靴の中敷きが取り外せないタイプの場合は厚みが増しすぎることがあるため、中敷きが取り外し可能な靴での使用をおすすめします。",
+        text: "ありません。ランウェイキュアソールは足に直接履くソックス型で、対応最大サイズは25.0cmです（公式サイトにて2026年7月確認）。靴の中敷き型と違いカットなどでの調整もできないため、サイズを超える足に無理に合わせる方法はなく、対応サイズの合う別製品を選ぶのが現実的です。",
       },
     },
     {
       "@type": "Question",
-      name: "運動靴とビジネスシューズの兼用はできますか？",
+      name: "25cmを超える男性はどのインソールを選べばよいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "同じインソールを複数の靴に入れ替えて使うことは可能ですが、靴のサイズや形状が異なると最適なフィット感を得られません。できれば用途ごとに1足ずつ用意し、それぞれの靴に常時入れておくのが効果を最大化するポイントです。",
+        text: "靴に入れる中敷き型のピットソールはXS/S/M/L/XLの5サイズ展開で、21.0〜29.0cmまで対応します（XLはブラック/ピンク限定・公式サイトにて2026年7月確認）。25cm超の男性はM以上が候補です。また、足の実寸が26.5cm以内であればスリムアップインソールのM（25.0〜26.5cm）も選択肢になります。",
       },
     },
     {
       "@type": "Question",
-      name: "体重が重い男性でも耐久性に問題はありませんか？",
+      name: "ランウェイキュアソールの価格はいくらですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ランウェイキュアソールは通常使用で3〜4ヶ月が交換目安です。体重80kg以上の方は負荷が大きいため、2〜3ヶ月での交換を推奨します。クッション性やサポート力の低下を感じたら早めに交換することで、常に最適な効果を維持できます。",
+        text: "公式サイトでは単品6,980円、2足セット11,980円、3足セット17,960円で案内されています（2026年7月確認）。最新の価格やキャンペーンは公式サイトでご確認ください。",
       },
     },
   ],
@@ -100,7 +100,7 @@ const breadcrumbStructuredData = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "ランウェイキュアソール メンズレビュー",
+      name: "ランウェイキュアソールは男性でも使える？",
       item: "https://sole-laboratory.com/articles/runway-mens-review/",
     },
   ],
@@ -127,23 +127,25 @@ export default function RunwayMensReviewPage() {
       />
 
       {/* Breadcrumb */}
-      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ランウェイキュアソール メンズレビュー" }]} />
+      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ランウェイキュアソールは男性でも使える？" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
-            2026年最新版 メンズレビュー
+            公式サイトにて2026年7月確認
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            ランウェイキュアソール
+            ランウェイキュアソールは
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">メンズ向け</span>レビュー
+            <span className="text-[#0ea5e9]">男性でも使える？</span>
+            <br />
+            サイズ対応の真実と代替案
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            美姿勢サポートインソール「ランウェイキュアソール」を男性目線で徹底検証。
+            結論：公式サイズはM（22.5〜23.5cm）/L（24.0〜25.0cm）の女性向け2サイズのみ。
             <br className="hidden md:block" />
-            フィット感・ダイエット効果・サイズ選びのコツを実体験に基づきレビューします。
+            25cmを超える男性は対応外です。足サイズ別の判断基準と代替案を公式確認情報で解説します。
           </p>
         </div>
       </section>
@@ -156,33 +158,33 @@ export default function RunwayMensReviewPage() {
           </p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#overview" className="hover:text-[#0ea5e9] transition-colors">
-                1. ランウェイキュアソールは男性にも使えるのか
+              <a href="#conclusion" className="hover:text-[#0ea5e9] transition-colors">
+                1. 結論：公式サイズは女性向けM/Lの2サイズのみ
               </a>
             </li>
             <li>
               <a href="#size" className="hover:text-[#0ea5e9] transition-colors">
-                2. メンズのサイズ選び
+                2. 公式サイズ展開と男性の足サイズの関係
               </a>
             </li>
             <li>
-              <a href="#fit" className="hover:text-[#0ea5e9] transition-colors">
-                3. 男性が感じるフィット感レビュー
+              <a href="#under25" className="hover:text-[#0ea5e9] transition-colors">
+                3. 足の実寸が25.0cm以内の男性の場合
               </a>
             </li>
             <li>
-              <a href="#effect" className="hover:text-[#0ea5e9] transition-colors">
-                4. 男性のダイエット効果を検証
+              <a href="#alternatives" className="hover:text-[#0ea5e9] transition-colors">
+                4. 25cmを超える男性の代替案
               </a>
             </li>
             <li>
-              <a href="#scenes" className="hover:text-[#0ea5e9] transition-colors">
-                5. 男性の使用シーン別レビュー
+              <a href="#chart" className="hover:text-[#0ea5e9] transition-colors">
+                5. 足サイズ別の選択肢早見表
               </a>
             </li>
             <li>
-              <a href="#comparison" className="hover:text-[#0ea5e9] transition-colors">
-                6. 他のインソールとの比較
+              <a href="#price" className="hover:text-[#0ea5e9] transition-colors">
+                6. 3製品の価格比較（公式確認値）
               </a>
             </li>
             <li>
@@ -202,37 +204,37 @@ export default function RunwayMensReviewPage() {
       {/* Main Content */}
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
-        <section id="overview" className="mb-14">
+        <section id="conclusion" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            ランウェイキュアソールは男性にも使えるのか
+            結論：公式サイズは女性向けM/Lの2サイズのみ
           </h2>
 
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-6">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+              <span className="font-bold text-amber-700">結論：</span>
+              ランウェイキュアソール（RUNWAY CURE SOLE）の公式サイズ展開は
+              <span className="font-bold">M（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズのみ</span>
+              で、対応最大は25.0cmです（公式サイトにて2026年7月確認）。公式は女性向け商品として案内しており、
+              <span className="font-bold">足の実寸が25.0cmを超える男性は対応外</span>です。
+            </p>
+          </div>
+
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ランウェイキュアソール（RUNWAY CURE SOLE）は「美姿勢サポートインソール」として女性向けの印象が強い商品ですが、実際には男女兼用の設計となっています。男性が使用しても問題なく効果を発揮する製品です。
+            「ランウェイキュアソール メンズ」「男性でも使える？」と検索される方は多いのですが、まずこの事実を押さえてください。ランウェイキュアソールは靴に入れる中敷き型のインソールではなく、<span className="font-bold">足に直接履くソックス型</span>の製品です。ソックス型である以上、足の実寸がサイズ範囲に収まらなければ正しく装着できず、中敷き型のようにカットして調整する余地もありません。
           </p>
 
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            男性が使うメリット
-          </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            男性がランウェイキュアソールを使用するメリットは複数あります。まず、デスクワークや立ち仕事で崩れがちな姿勢を足元から改善できる点です。男性は女性に比べて体重が重い分、足裏への負荷も大きく、インソールによるアーチサポートの恩恵を受けやすいのです。
+            経済産業省・JIS等で用いられる一般的な靴サイズの分布として、成人男性の足サイズは25cm以上が中心です。つまり、<span className="font-bold">一般的な足サイズの成人男性の多くは、ランウェイキュアソールの対応範囲（最大25.0cm）に収まりません</span>。
           </p>
 
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            また、骨盤周りの筋肉活性化により基礎代謝が向上し、内臓脂肪の減少が期待できます。男性に多い内臓脂肪型肥満（メタボリックシンドローム）の改善に、歩行の質を高めるアプローチは有効です。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            男性が使う際の注意点
-          </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            一方で、男性が使用する際にはいくつか注意が必要です。最大の注意点はサイズ展開です。ランウェイキュアソールは27cm程度までの対応となるため、28cm以上の方は使用できない可能性があります。また、体重80kg以上の方は通常よりインソールの消耗が早いため、交換サイクルを短めに設定する必要があります。
+            当サイトの<Link href="/runway-cure-sole/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソール製品ページ</Link>でも、公式確認済みのサイズ情報として「男性はサイズ非対応のため使用できない」旨を明記しています。本記事はこの公式情報を前提に、「では男性はどうすればよいのか」に正面から答えます。
           </p>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <span className="font-bold text-amber-700">ポイント：</span>
-              ランウェイキュアソールは男女兼用設計。男性でも姿勢改善・ダイエット効果を十分に期待できますが、サイズと耐久性の面で確認が必要です。
+              <span className="font-bold">お詫びと訂正（2026年7月5日）：</span>
+              本記事は以前「男性も使用できる」前提の内容を掲載していましたが、公式サイトの再確認により、サイズ展開が女性向けM/L（22.5〜25.0cm）のみであることを確認したため、全面的に訂正しました。
             </p>
           </div>
         </section>
@@ -240,256 +242,194 @@ export default function RunwayMensReviewPage() {
         {/* Section 2 */}
         <section id="size" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            メンズのサイズ選び
+            公式サイズ展開と男性の足サイズの関係
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            男性がランウェイキュアソールを選ぶ際、サイズ選びは非常に重要です。男性の一般的な足サイズは25〜27cm程度ですが、甲の高さや足幅も考慮する必要があります。
+            公式サイトに掲載されているサイズ展開は次の2つだけです（公式サイトにて2026年7月確認）。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            サイズ展開と対応表
+            ランウェイキュアソール公式サイズ表
           </h3>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse border border-gray-200 rounded-lg">
               <thead>
                 <tr className="bg-gray-50">
                   <th className="border border-gray-200 px-4 py-3 text-left font-bold">サイズ表記</th>
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">対応cm</th>
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">男性の目安</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">対応サイズ（cm）</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">男性の足サイズとの関係</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-200 px-4 py-3">S</td>
-                  <td className="border border-gray-200 px-4 py-3">22〜23.5cm</td>
-                  <td className="border border-gray-200 px-4 py-3">男性には小さい</td>
+                  <td className="border border-gray-200 px-4 py-3">M</td>
+                  <td className="border border-gray-200 px-4 py-3">22.5〜23.5</td>
+                  <td className="border border-gray-200 px-4 py-3">一般的な男性の足サイズより小さい</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-4 py-3">M</td>
-                  <td className="border border-gray-200 px-4 py-3">24〜25cm</td>
-                  <td className="border border-gray-200 px-4 py-3">小さめの男性向け</td>
-                </tr>
-                <tr>
                   <td className="border border-gray-200 px-4 py-3">L</td>
-                  <td className="border border-gray-200 px-4 py-3">25.5〜27cm</td>
-                  <td className="border border-gray-200 px-4 py-3">標準的な男性向け</td>
+                  <td className="border border-gray-200 px-4 py-3">24.0〜25.0</td>
+                  <td className="border border-gray-200 px-4 py-3">足の実寸25.0cm以内の男性のみ範囲内</td>
                 </tr>
               </tbody>
             </table>
           </div>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            サイズ選びのコツ
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            男性の場合、足幅が広い方が多いため、実際の足長よりも0.5cm大きめのサイズを選ぶと快適にフィットします。また、カットタイプのインソールであれば微調整が可能です。初めて購入する場合は、自分の足のサイズを正確に計測してから選びましょう。
-          </p>
-
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            足のサイズ計測方法やカットの仕方については、<Link href="/articles/runway-size-guide/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソールサイズガイド</Link>で詳しく解説しています。また、サイズ調整のコツについては<Link href="/articles/size-adjustment/" className="text-[#0ea5e9] hover:underline">インソールサイズ調整の記事</Link>も参考になります。
-          </p>
-
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
-            <p className="text-sm text-gray-700 leading-relaxed">
-              27cm以上の足サイズの方は、ピットソール（XS〜L：21〜27.5cm対応）も検討してみてください。<Link href="/pitsole/size/" className="text-[#0ea5e9] hover:underline">ピットソールのサイズ情報</Link>で詳細を確認できます。
-            </p>
-          </div>
-        </section>
-
-        {/* Section 3 */}
-        <section id="fit" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            男性が感じるフィット感レビュー
-          </h2>
-
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            実際に男性がランウェイキュアソールを使用した際のフィット感を、複数の観点からレビューします。
-          </p>
-
-          <div className="space-y-4 mb-6">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                装着直後の感覚
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                装着直後は土踏まず部分のサポートをしっかりと感じます。普段フラットな中敷きを使っている男性は、最初は「アーチの押し上げ」が気になるかもしれません。ただしこの違和感は3日〜1週間程度で慣れ、その後は「これがないと物足りない」と感じるようになったという声が多いです。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                1日使用後の感想
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                8時間のデスクワーク後に立ち上がった際、通常感じる足裏のだるさが軽減されていることに気づきます。特にかかと部分の安定感があり、地面をしっかり踏めている感覚があります。通勤の歩行時にも姿勢が自然と良くなり、歩幅がやや広がる印象です。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                1週間後の変化
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                1週間もすると完全にインソールに足が馴染み、歩行時の姿勢改善を自覚できるようになります。鏡で自分の立ち姿を見たときに、以前より背筋が伸びていることに気づく方が多いです。また、夕方になっても足の疲れが溜まりにくくなるのが実感できます。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                スニーカーでの使用感
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                スニーカーに入れた場合、純正の中敷きを外して入れ替えることでちょうど良い空間に収まります。ランウェイキュアソールは薄型設計のため、スニーカー内の快適性を損なわずにサポート機能を追加できます。休日のウォーキングやランニング時にも安定感のある歩行が可能です。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                革靴・ビジネスシューズでの使用感
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                薄型設計のランウェイキュアソールは、多くのビジネスシューズにも対応します。ただし、もともとタイトフィットの革靴に入れると窮屈に感じることがあるため、中敷きが取り外せるタイプの靴での使用が理想的です。営業職など歩行が多い男性からは「一日中歩いても足が痛くならない」という声が寄せられています。
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Section 4 */}
-        <section id="effect" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            男性のダイエット効果を検証
-          </h2>
-
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            ランウェイキュアソールを使用した男性のダイエット効果について検証します。男性特有の体質や生活習慣を考慮した分析です。
+          <p className="text-xs text-gray-500 mb-6">
+            出典：ランウェイキュアソール公式サイト（2026年7月確認）。S・XLなどのサイズや、メンズ用モデルの案内はありません。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            男性のダイエットメカニズム
+            なぜ「サイズ超えでも無理に使う」ができないのか
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ランウェイキュアソールは美姿勢サポートにより、歩行時に骨盤周りの筋肉群（大臀筋・中臀筋・腸腰筋）を効率的に使えるよう促します。男性は女性に比べて筋肉量が多いため、正しい筋肉の使い方ができれば基礎代謝の向上効果も大きくなります。
+            ランウェイキュアソールはソックスのように足へ直接履くタイプです。中敷き型インソールであれば「大きめを買ってカットする」「かかとを合わせて余りを許容する」といった調整の余地がありますが、ソックス型は足全体を包む構造のため、対応サイズを超える足に合わせる手段がありません。
           </p>
 
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            特に男性に多い内臓脂肪型肥満は、有酸素運動に反応しやすい特徴があります。インソールで歩行の質を高めることで、通勤や日常の歩行が効率的な有酸素運動に変わり、内臓脂肪の減少が期待できます。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            効果を感じるまでの期間（男性の場合）
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            男性ユーザーの口コミを分析すると、以下のようなタイムラインが見えてきます。
-          </p>
-
-          <div className="space-y-3 mb-6">
-            <div className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg p-4">
-              <span className="flex-shrink-0 w-16 text-xs font-bold text-[#0ea5e9] bg-sky-50 rounded px-2 py-1 text-center">1週目</span>
-              <p className="text-sm text-gray-700">姿勢改善を実感。歩き方が変わる感覚。足の疲れが軽減。</p>
-            </div>
-            <div className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg p-4">
-              <span className="flex-shrink-0 w-16 text-xs font-bold text-[#0ea5e9] bg-sky-50 rounded px-2 py-1 text-center">2〜3週</span>
-              <p className="text-sm text-gray-700">歩行量が自然に増加。階段を使う機会が増える。体の軽さを感じ始める。</p>
-            </div>
-            <div className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg p-4">
-              <span className="flex-shrink-0 w-16 text-xs font-bold text-[#0ea5e9] bg-sky-50 rounded px-2 py-1 text-center">1ヶ月</span>
-              <p className="text-sm text-gray-700">ウエスト周りの変化を実感する方が出始める。体重1〜2kg減少の報告も。</p>
-            </div>
-            <div className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg p-4">
-              <span className="flex-shrink-0 w-16 text-xs font-bold text-[#0ea5e9] bg-sky-50 rounded px-2 py-1 text-center">2〜3ヶ月</span>
-              <p className="text-sm text-gray-700">体重2〜4kg減少、体脂肪率の低下を実感。スーツのウエストに余裕が出る。</p>
-            </div>
-          </div>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            効果を最大化するコツ（男性向け）
-          </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            男性がランウェイキュアソールのダイエット効果を最大化するには、以下のポイントを意識しましょう。通勤時に1駅分多く歩く、エレベーターではなく階段を使う、昼休みに10分のウォーキングを加えるなど、日常の歩行量を意識的に増やすことが重要です。インソールによる姿勢改善が歩行の質を高めてくれるため、無理なく消費カロリーを増やせます。
+            自分の足の実寸を正確に測る方法は、<Link href="/articles/runway-size-guide/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソールサイズガイド</Link>で解説しています。靴のサイズ（足入れサイズ）と足の実寸は異なることが多いため、判断は必ず実寸で行ってください。
           </p>
 
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-amber-700">ポイント：</span>
-              インソール単体で劇的に痩せることはありませんが、歩行習慣と組み合わせることで、男性でも2〜3ヶ月で効果を実感できるケースが多いです。より高いダイエット効果を求める方は、<Link href="/articles/diet-mechanism/" className="text-[#0ea5e9] hover:underline">インソールダイエットのメカニズム解説</Link>も参考にしてください。
+              判断基準は「足の実寸が25.0cm以内かどうか」の一点です。25.0cmを超える男性は、次のセクションで紹介する代替製品を検討してください。
+            </p>
+          </div>
+        </section>
+
+        {/* Section 3 */}
+        <section id="under25" className="mb-14">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+            足の実寸が25.0cm以内の男性の場合
+          </h2>
+
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            足の実寸が25.0cm以内（Lサイズ範囲：24.0〜25.0cm）であれば、サイズのうえでは物理的に装着できます。ただし、次の点を理解したうえで判断してください。
+          </p>
+
+          <div className="space-y-4 mb-6">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
+                公式は女性向け商品として案内している
+              </h3>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                公式サイトの商品説明・サイズ展開は女性を想定したものです（2026年7月確認）。男性向けの使用案内・推奨は公式にはなく、男性が使用した場合のフィット感や効果について公式の情報はありません。当サイトも男性の使用を推奨する立場は取りません。
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
+                足囲（ワイズ）・甲の高さは実寸と別問題
+              </h3>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                足長が範囲内でも、一般に男性は女性より足囲や甲の高さが大きい傾向があります。女性の足を想定したソックス型製品では、足長が合っても圧迫感が生じる可能性は否定できません。この点についても公式の男性向け情報はないため、確実なことは言えません。
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
+                迷ったら対応サイズが明確な製品を選ぶ
+              </h3>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                足の実寸が25.0cm以内の男性でも、「男性の足サイズを含む対応表を公式が明示している製品」を選ぶ方が、サイズ選びの失敗リスクは小さくなります。後述のピットソールは公式サイズ表に男性の一般的な足サイズ範囲が含まれています。
+              </p>
+            </div>
+          </div>
+
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+            サイズ選び全般の考え方は<Link href="/articles/size-adjustment/" className="text-[#0ea5e9] hover:underline">インソールサイズ調整の記事</Link>も参考になります（カット調整の話は中敷き型が対象で、ソックス型のランウェイキュアソールには適用できません）。
+          </p>
+        </section>
+
+        {/* Section 4 */}
+        <section id="alternatives" className="mb-14">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+            25cmを超える男性の代替案
+          </h2>
+
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
+            足の実寸が25.0cmを超える男性がランウェイキュアソールと同系統（姿勢サポート・足元ケア系）の製品を探す場合、当サイトで公式情報を確認済みの選択肢は次の2つです。いずれも数値は公式サイトにて2026年7月確認のものです。
+          </p>
+
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
+            ピットソール：21.0〜29.0cmの5サイズ展開
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <Link href="/pitsole/" className="text-[#0ea5e9] hover:underline">ピットソール</Link>は靴に入れる中敷き型のインソールで、公式サイズ展開はXS/S/M/L/XLの5サイズ。男性の一般的な足サイズを含む広い範囲をカバーしています。
+          </p>
+
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse border border-gray-200 rounded-lg">
+              <thead>
+                <tr className="bg-gray-50">
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">サイズ表記</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">対応サイズ（cm）</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">備考</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3">XS</td>
+                  <td className="border border-gray-200 px-4 py-3">21.0〜22.5</td>
+                  <td className="border border-gray-200 px-4 py-3">—</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-200 px-4 py-3">S</td>
+                  <td className="border border-gray-200 px-4 py-3">23.0〜24.5</td>
+                  <td className="border border-gray-200 px-4 py-3">—</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3">M</td>
+                  <td className="border border-gray-200 px-4 py-3">25.0〜26.0</td>
+                  <td className="border border-gray-200 px-4 py-3">25cm超の男性の第一候補</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-200 px-4 py-3">L</td>
+                  <td className="border border-gray-200 px-4 py-3">26.5〜27.5</td>
+                  <td className="border border-gray-200 px-4 py-3">—</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3">XL</td>
+                  <td className="border border-gray-200 px-4 py-3">28.0〜29.0</td>
+                  <td className="border border-gray-200 px-4 py-3">カラーはブラック/ピンクのみ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mb-6">
+            出典：ピットソール公式サイト（2026年7月確認）。詳細は<Link href="/pitsole/size/" className="text-[#0ea5e9] hover:underline">ピットソールのサイズ情報ページ</Link>をご覧ください。
+          </p>
+
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
+            スリムアップインソール：最大26.5cmまで
+          </h3>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <Link href="/slim-up-insole/" className="text-[#0ea5e9] hover:underline">スリムアップインソール</Link>の公式サイズ展開はS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズで、対応最大は26.5cmです（公式サイトにて2026年7月確認）。足の実寸が26.5cm以内の男性であれば選択肢になりますが、それを超える場合は対応外です。
+          </p>
+
+          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+            <p className="text-sm text-gray-700 leading-relaxed">
+              足の実寸が26.5cmを超える男性の場合、当サイトで公式サイズを確認済みの3製品のうち対応するのは<span className="font-bold">ピットソール（L/XL）のみ</span>です。3製品の詳しい比較は<Link href="/compare/pitsole-vs-runway/" className="text-[#0ea5e9] hover:underline">ピットソール vs ランウェイキュアソール比較</Link>や<Link href="/ranking/" className="text-[#0ea5e9] hover:underline">おすすめランキングページ</Link>をご覧ください。
             </p>
           </div>
         </section>
 
         {/* Section 5 */}
-        <section id="scenes" className="mb-14">
+        <section id="chart" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            男性の使用シーン別レビュー
+            足サイズ別の選択肢早見表
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            男性がランウェイキュアソールを使用する代表的なシーンごとに、効果と使用感をレビューします。
-          </p>
-
-          <div className="space-y-4 mb-6">
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
-              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-                通勤・ビジネスシーン
-              </h3>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-2">
-                毎日の通勤で片道20〜30分歩く男性にとって、ランウェイキュアソールは通勤時間をダイエット時間に変えてくれます。ビジネスシューズに装着すれば、往復の歩行で効率的に筋肉を使えます。営業で外回りが多い方からは「一日中歩いても足が楽」「姿勢がよくなり商談にも自信が持てる」という声も聞かれます。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
-              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-                ジム・運動時
-              </h3>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-2">
-                ジムのトレーニングシューズに入れて使用する男性も多いです。ウォーキングマシンやランニングマシン使用時に姿勢が安定し、正しいフォームで有酸素運動ができます。筋トレ時にもスクワットやデッドリフトの安定性が向上し、フォームが改善されたという報告があります。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
-              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-                休日のウォーキング・散歩
-              </h3>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-2">
-                休日にスニーカーで街歩きやウォーキングを楽しむ男性には最適です。普段の散歩が姿勢改善とダイエットを兼ねた運動に変わるため、特別な努力をせずに健康管理ができます。買い物や街歩きなど、1〜2時間の歩行でも効果的に筋肉を使えます。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
-              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-                立ち仕事
-              </h3>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-2">
-                工場勤務、販売員、料理人など立ち仕事が多い男性にも好評です。長時間の立位でも足裏が安定するため、腰痛や膝痛の予防につながります。立ち仕事で悩んでいる方は<Link href="/articles/standing-work/" className="text-[#0ea5e9] hover:underline">立ち仕事向けインソール記事</Link>も参考にしてください。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
-              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-                ゴルフ・スポーツ
-              </h3>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-2">
-                ゴルフシューズに入れて使う男性ユーザーからは「スイング時の下半身の安定感が増した」という声があります。足裏のアーチがしっかりサポートされることで、地面からの力をスムーズに伝えられるようになるためです。ゴルフでのインソール活用については<Link href="/articles/golf-insole/" className="text-[#0ea5e9] hover:underline">ゴルフ向けインソール記事</Link>もご覧ください。
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Section 6 */}
-        <section id="comparison" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            他のインソールとの比較
-          </h2>
-
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            男性がインソールを選ぶ際の比較対象として、ピットソールとスリムアップインソールとの違いを整理します。
+            男性が足の実寸から選択肢を判断するための早見表です。各製品の対応範囲はすべて公式サイトにて2026年7月確認の数値に基づきます。
           </p>
 
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse border border-gray-200 rounded-lg">
               <thead>
                 <tr className="bg-gray-50">
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">比較項目</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">足の実寸</th>
                   <th className="border border-gray-200 px-4 py-3 text-left font-bold">ランウェイキュアソール</th>
                   <th className="border border-gray-200 px-4 py-3 text-left font-bold">ピットソール</th>
                   <th className="border border-gray-200 px-4 py-3 text-left font-bold">スリムアップインソール</th>
@@ -497,53 +437,80 @@ export default function RunwayMensReviewPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-200 px-4 py-3 font-medium">男性対応サイズ</td>
-                  <td className="border border-gray-200 px-4 py-3">〜27cm</td>
-                  <td className="border border-gray-200 px-4 py-3">〜27.5cm</td>
-                  <td className="border border-gray-200 px-4 py-3">〜27cm</td>
+                  <td className="border border-gray-200 px-4 py-3 font-medium">〜25.0cm</td>
+                  <td className="border border-gray-200 px-4 py-3">L範囲内（ただし公式は女性向け案内）</td>
+                  <td className="border border-gray-200 px-4 py-3">対応（S〜M）</td>
+                  <td className="border border-gray-200 px-4 py-3">対応（S〜M）</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-4 py-3 font-medium">主な特徴</td>
-                  <td className="border border-gray-200 px-4 py-3">美姿勢・薄型設計</td>
-                  <td className="border border-gray-200 px-4 py-3">3点サポート・ダイエット</td>
-                  <td className="border border-gray-200 px-4 py-3">整体師監修・重心移動</td>
+                  <td className="border border-gray-200 px-4 py-3 font-medium">25.0cm超〜26.5cm</td>
+                  <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
+                  <td className="border border-gray-200 px-4 py-3">対応（M〜L）</td>
+                  <td className="border border-gray-200 px-4 py-3">対応（M）</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-200 px-4 py-3 font-medium">ビジネスシューズ対応</td>
-                  <td className="border border-gray-200 px-4 py-3">薄型で対応しやすい</td>
-                  <td className="border border-gray-200 px-4 py-3">やや厚みあり</td>
-                  <td className="border border-gray-200 px-4 py-3">標準的な厚み</td>
+                  <td className="border border-gray-200 px-4 py-3 font-medium">26.5cm超〜29.0cm</td>
+                  <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
+                  <td className="border border-gray-200 px-4 py-3">対応（L〜XL ※XLはブラック/ピンクのみ）</td>
+                  <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-4 py-3 font-medium">ダイエット効果</td>
-                  <td className="border border-gray-200 px-4 py-3">中程度</td>
-                  <td className="border border-gray-200 px-4 py-3">高い（臨床データあり）</td>
-                  <td className="border border-gray-200 px-4 py-3">中程度</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-200 px-4 py-3 font-medium">コスパ</td>
-                  <td className="border border-gray-200 px-4 py-3">中程度</td>
-                  <td className="border border-gray-200 px-4 py-3">高い（まとめ買い割引）</td>
-                  <td className="border border-gray-200 px-4 py-3">中程度</td>
+                  <td className="border border-gray-200 px-4 py-3 font-medium">29.0cm超</td>
+                  <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
+                  <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
+                  <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ダイエット効果を最優先する男性にはピットソールが最もおすすめです。ビジネスシューズでの使用を重視する場合は、薄型のランウェイキュアソールが適しています。整体的なアプローチで体全体のバランスを整えたい方にはスリムアップインソールも選択肢に入ります。
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+            境界値（各範囲の区切り）付近の方は、必ず各製品の公式サイズ表の刻みで判断してください。製品タイプも異なる点に注意が必要です（ランウェイキュアソール＝足に履くソックス型、ピットソール・スリムアップインソール＝靴に入れる中敷き型）。
+          </p>
+        </section>
+
+        {/* Section 6 */}
+        <section id="price" className="mb-14">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+            3製品の価格比較（公式確認値）
+          </h2>
+
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
+            参考として、各製品の公式サイト価格を掲載します（いずれも公式サイトにて2026年7月確認・税込表示に基づく）。最新の価格・キャンペーンは各公式サイトでご確認ください。
           </p>
 
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            男性のダイエットにおすすめのインソールを総合的に比較したい方は、<Link href="/articles/mens-diet-insole/" className="text-[#0ea5e9] hover:underline">メンズダイエットインソール記事</Link>もご覧ください。また、3商品の詳細比較は<Link href="/compare/pitsole-vs-runway/" className="text-[#0ea5e9] hover:underline">ピットソール vs ランウェイキュアソール比較</Link>で確認できます。
-          </p>
-
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
-            <p className="text-sm text-gray-700 leading-relaxed">
-              3商品の料金・機能・口コミを一覧で比較したい方は
-              <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。
-            </p>
+          <div className="overflow-x-auto mb-6">
+            <table className="w-full text-sm border-collapse border border-gray-200 rounded-lg">
+              <thead>
+                <tr className="bg-gray-50">
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">製品</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">単品</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">セット価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3 font-medium">ランウェイキュアソール</td>
+                  <td className="border border-gray-200 px-4 py-3">6,980円</td>
+                  <td className="border border-gray-200 px-4 py-3">2足11,980円 / 3足17,960円</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-200 px-4 py-3 font-medium">ピットソール</td>
+                  <td className="border border-gray-200 px-4 py-3">6,578円</td>
+                  <td className="border border-gray-200 px-4 py-3">2足12,364円 / 4足18,120円 / 6足24,156円</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-3 font-medium">スリムアップインソール</td>
+                  <td className="border border-gray-200 px-4 py-3">6,980円</td>
+                  <td className="border border-gray-200 px-4 py-3">公式サイトでご確認ください</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+            ランウェイキュアソールの価格・購入方法の詳細は<Link href="/runway-cure-sole/price/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソール料金ページ</Link>で解説しています。ただし前述のとおり、25cmを超える男性はサイズ対応外である点にご注意ください。
+          </p>
         </section>
 
         {/* Section 7: FAQ */}
@@ -558,43 +525,43 @@ export default function RunwayMensReviewPage() {
                 Q. ランウェイキュアソールは男性でも使えますか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. はい、男女兼用の設計です。サイズ展開が22cm〜27cm程度に対応しており、一般的な男性の足サイズ（25〜27cm）をカバーしています。ただし27.5cm以上の方はフィット感がやや物足りない可能性があるため、他の選択肢も検討してみてください。
+                A. 公式のサイズ展開はM（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向け2サイズのみで、対応最大は25.0cmです（公式サイトにて2026年7月確認）。足の実寸が25.0cmを超える男性は対応外となります。実寸が25.0cm以内の男性であれば物理的には装着できますが、公式は女性向け商品として案内しており、男性向けの使用案内はありません。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                Q. 男性のダイエットにも効果がありますか？
+                Q. メンズ用（男性用）のランウェイキュアソールは販売されていますか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. 男性でもダイエット効果は期待できます。ランウェイキュアソールは美姿勢サポートと骨盤周りの筋肉活性化を促す設計で、歩行時の筋肉使用量を増やすことでカロリー消費を高めます。ただし男性は女性に比べて体重が重いため、インソールの消耗が早くなる傾向があります。
+                A. 2026年7月に公式サイトを確認した時点で、メンズ用サイズや男性向けモデルの案内はありません。サイズはM/Lの2サイズ（22.5〜25.0cm）のみの展開です。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                Q. ビジネスシューズにも使えますか？
+                Q. 足のサイズが26cm・27cmの男性が使う方法はありますか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. ランウェイキュアソールは薄型設計のため、多くのビジネスシューズに対応可能です。ただし靴の中敷きが取り外せないタイプの場合は厚みが増しすぎることがあるため、中敷きが取り外し可能な靴での使用をおすすめします。
+                A. ありません。ランウェイキュアソールは足に直接履くソックス型で、対応最大サイズは25.0cmです（公式サイトにて2026年7月確認）。靴の中敷き型と違いカットなどでの調整もできないため、サイズを超える足に無理に合わせる方法はなく、対応サイズの合う別製品を選ぶのが現実的です。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                Q. 運動靴とビジネスシューズの兼用はできますか？
+                Q. 25cmを超える男性はどのインソールを選べばよいですか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. 同じインソールを複数の靴に入れ替えて使うことは可能ですが、靴のサイズや形状が異なると最適なフィット感を得られません。できれば用途ごとに1足ずつ用意し、それぞれの靴に常時入れておくのが効果を最大化するポイントです。
+                A. 靴に入れる中敷き型のピットソールはXS/S/M/L/XLの5サイズ展開で、21.0〜29.0cmまで対応します（XLはブラック/ピンク限定・公式サイトにて2026年7月確認）。25cm超の男性はM以上が候補です。また、足の実寸が26.5cm以内であればスリムアップインソールのM（25.0〜26.5cm）も選択肢になります。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                Q. 体重が重い男性でも耐久性に問題はありませんか？
+                Q. ランウェイキュアソールの価格はいくらですか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. ランウェイキュアソールは通常使用で3〜4ヶ月が交換目安です。体重80kg以上の方は負荷が大きいため、2〜3ヶ月での交換を推奨します。クッション性やサポート力の低下を感じたら早めに交換することで、常に最適な効果を維持できます。
+                A. 公式サイトでは単品6,980円、2足セット11,980円、3足セット17,960円で案内されています（2026年7月確認）。最新の価格やキャンペーンは公式サイトでご確認ください。
               </p>
             </div>
           </div>
@@ -607,30 +574,30 @@ export default function RunwayMensReviewPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ランウェイキュアソールは女性向けのイメージがありますが、男性でも十分に効果を発揮するインソールです。以下に男性ユーザーにとってのポイントを整理します。
+            「ランウェイキュアソールは男性でも使えるのか」という疑問への答えを、公式確認済みの事実のみで整理します。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
             <h3 className="text-sm md:text-base font-bold text-gray-900 mb-3">
-              男性向け総合評価
+              男性向けの結論（公式サイトにて2026年7月確認）
             </h3>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><span className="font-bold">フィット感：</span>25〜27cmの男性に良好。薄型設計でビジネスシューズにも対応。</li>
-              <li><span className="font-bold">ダイエット効果：</span>2〜3ヶ月の継続使用で体型変化を実感する方が多い。</li>
-              <li><span className="font-bold">姿勢改善：</span>1週間程度で姿勢の変化を自覚。デスクワーク男性に好評。</li>
-              <li><span className="font-bold">耐久性：</span>体重が重い男性は2〜3ヶ月での交換推奨。</li>
-              <li><span className="font-bold">コスパ：</span>日常使用で十分な費用対効果あり。</li>
+              <li><span className="font-bold">サイズ展開：</span>M（22.5〜23.5cm）/L（24.0〜25.0cm）の女性向け2サイズのみ。メンズ用モデルはない。</li>
+              <li><span className="font-bold">25cm超の男性：</span>対応外。ソックス型のためカット等での調整も不可。</li>
+              <li><span className="font-bold">実寸25.0cm以内の男性：</span>物理的には装着できるが、公式は女性向けとして案内しており男性向けの使用案内はない。</li>
+              <li><span className="font-bold">代替案：</span>ピットソール（5サイズ・21.0〜29.0cm、XLはブラック/ピンク限定）。実寸26.5cm以内ならスリムアップインソールMも選択肢。</li>
+              <li><span className="font-bold">価格：</span>ランウェイ単品6,980円/2足11,980円/3足17,960円。</li>
             </ul>
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            27cm以下の足サイズで、ビジネスシューズとの相性を重視する男性にはランウェイキュアソールがおすすめです。より強いダイエット効果やサイズ27.5cmまでの対応を求める方は、<Link href="/pitsole/" className="text-[#0ea5e9] hover:underline">ピットソール</Link>を検討してみてください。
+            足の実寸が25cmを超える男性は、対応サイズが公式に明示されている<Link href="/pitsole/" className="text-[#0ea5e9] hover:underline">ピットソール</Link>を第一候補として検討してください。サイズの詳細は<Link href="/pitsole/size/" className="text-[#0ea5e9] hover:underline">ピットソールのサイズ情報ページ</Link>で確認できます。
           </p>
 
           <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              ランウェイキュアソールの料金プランや購入方法については
-              <Link href="/runway-cure-sole/price/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール料金ページ</Link>で詳しく解説しています。また、効果が感じにくい場合の対処法は<Link href="/articles/runway-not-working/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソール効果なし？の記事</Link>を参考にしてください。
+              ランウェイキュアソールの製品情報・公式スペックは
+              <Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール製品ページ</Link>で、3製品の総合比較は<Link href="/ranking/" className="text-[#0ea5e9] hover:underline">おすすめランキングページ</Link>で確認できます。
             </p>
           </div>
         </section>

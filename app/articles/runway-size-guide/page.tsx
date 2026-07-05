@@ -4,14 +4,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "ランウェイキュアソールのサイズ選び｜外反母趾でも使える？",
+    "ランウェイキュアソールのサイズ選び｜M・Lどっち？対応表つき解説",
   description:
-    "ランウェイキュアソールのサイズ展開・サイズ選びのポイントを徹底解説。外反母趾の方が使用する際の注意点、靴別フィッティングガイド、よくある質問まで網羅した完全ガイド。",
+    "ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開・女性向けのソックス型。M/Lの選び方、境目サイズの考え方、対応外サイズの方向けの代替製品対応表、よくある質問まで公式情報ベースで解説します。",
   openGraph: {
     title:
-      "ランウェイキュアソールのサイズ選び｜外反母趾でも使える？｜ソールラボ",
+      "ランウェイキュアソールのサイズ選び｜M・Lどっち？対応表つき解説｜ソールラボ",
     description:
-      "ランウェイキュアソールのサイズ展開・選び方・外反母趾での注意点を徹底解説。",
+      "ランウェイキュアソールのサイズ展開はM/Lの2サイズ（女性向け・ソックス型）。選び方と対応外サイズの代替案を公式情報ベースで解説。",
     url: "https://sole-laboratory.com/articles/runway-size-guide/",
     type: "article",
   },
@@ -24,9 +24,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ランウェイキュアソールのサイズ選び｜外反母趾でも使える？",
+    "ランウェイキュアソールのサイズ選び｜M・Lどっち？対応表つき解説",
   description:
-    "ランウェイキュアソールのサイズ展開・選び方・外反母趾での注意点を解説。",
+    "ランウェイキュアソールのサイズ展開（M/Lの2サイズ・女性向けソックス型）と選び方、対応外サイズの方向けの代替案を公式情報ベースで解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -34,34 +34,39 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-16",
-  dateModified: "2026-04-16",
+  dateModified: "2026-07-05",
 };
 
 const faqs = [
   {
+    question: "ランウェイキュアソールのサイズ展開を教えてください。",
+    answer:
+      "M（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開です（公式サイトにて2026年7月確認）。女性向けの設計で、対応範囲は最大25.0cmまでです。靴に入れる中敷きタイプではなく、足に直接装着するソックス型のため、ご自身の足のサイズに合わせて選びます。",
+  },
+  {
+    question: "足のサイズが23.5〜24.0cmの場合、MとLどちらを選べばいいですか？",
+    answer:
+      "公式FAQでは、普段の靴のサイズが23.5cmの方にはMサイズが案内されています。23.5cmと24.0cmの間はちょうどM/Lの境目にあたるため、該当する方は購入前に公式サイトのサイズ案内を確認するのが確実です。また、3足以上のセット購入であればMとLを混ぜて注文できる場合があると公式サイトに記載されています。",
+  },
+  {
+    question: "ランウェイキュアソールはハサミでのカット調整ができますか？",
+    answer:
+      "できません。ランウェイキュアソールは靴に入れる中敷き（インソール）ではなく、足に直接装着するソックス型のため、カットによる調整という概念自体がありません。M（22.5〜23.5cm）またはL（24.0〜25.0cm）の中から、ご自身の足のサイズに合うほうを選んでください。",
+  },
+  {
+    question: "男性でもランウェイキュアソールを使えますか？",
+    answer:
+      "M（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向けサイズ展開のため、男性にはサイズが合わない場合が多いです。男性には、XS〜XLの5サイズで21〜29cmに対応するピットソール（XLはブラック/ピンク限定）が選択肢になります。",
+  },
+  {
     question: "ランウェイキュアソールは外反母趾でも使えますか？",
     answer:
-      "軽度の外反母趾であれば使用可能ですが、注意が必要です。ランウェイキュアソールの3点アーチサポートは横アーチも支えるため、外反母趾の変形が強い場合は親指の付け根に負担がかかる可能性があります。痛みが出た場合は無理に使用せず、医師に相談してください。",
+      "使用自体は可能ですが、親指と人差し指の間にあるクロス部分が外反母趾の部分に食い込む場合があります。症状が重い方は短時間から試すか、医師に相談されることをおすすめします。なお、ランウェイキュアソールは外反母趾の治療を目的とした医療機器ではありません。",
   },
   {
-    question: "ランウェイキュアソールのサイズが合わない場合は返品できますか？",
+    question: "サイズが合わなかった場合の保証はありますか？",
     answer:
-      "公式サイトでの購入の場合、未使用・未開封の状態であれば返品が可能です。ただし、カットしてしまった場合や使用後の返品は基本的に受け付けられません。サイズに不安がある場合は、まず1足で試してからセット購入を検討するのがおすすめです。",
-  },
-  {
-    question: "ランウェイキュアソールはヒールの靴にも使えますか？",
-    answer:
-      "ランウェイキュアソールは薄型設計のため、3〜5cmのローヒール・ミドルヒールには対応可能です。ただし、7cm以上のハイヒールやピンヒールは足裏の接地面積が小さく、インソールのサポート効果が十分に発揮されないため推奨されません。パンプス用に使う場合はつま先部分のカットが必要です。",
-  },
-  {
-    question: "ランウェイキュアソールとピットソールのサイズ感は同じですか？",
-    answer:
-      "サイズ展開（XS〜Lの4サイズ）は同じですが、インソールの厚みや形状が異なります。ランウェイキュアソールのほうが薄型設計のため、タイトな靴にも入りやすい傾向があります。ただし、サイズ選びの基本（靴のサイズに合わせる、大きめを選んでカット）は共通です。",
-  },
-  {
-    question: "ランウェイキュアソールは洗えますか？",
-    answer:
-      "ランウェイキュアソールはぬるま湯で手洗いが可能です。中性洗剤を使って軽く洗い、陰干しで乾かしてください。洗濯機の使用や乾燥機は型崩れの原因になるため避けましょう。衛生面を保つため、2週間に1回程度のお手入れをおすすめします。",
+      "公式サイトには、90日間使用して実感がない場合の全額返金保証の記載があります（2026年7月確認時点）。適用条件や対象となる購入形態は変更される場合があるため、購入前に必ず公式サイトで最新の保証条件をご確認ください。",
   },
 ];
 
@@ -97,7 +102,7 @@ const breadcrumbStructuredData = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "サイズ・外反母趾",
+      name: "サイズ選びガイド",
       item: "https://sole-laboratory.com/articles/runway-size-guide/",
     },
   ],
@@ -124,7 +129,7 @@ export default function RunwaySizeGuidePage() {
       <Breadcrumb
         items={[
           { label: "ランウェイキュアソール", href: "/runway-cure-sole/" },
-          { label: "サイズ・外反母趾" },
+          { label: "サイズ選びガイド" },
         ]}
       />
 
@@ -138,37 +143,40 @@ export default function RunwaySizeGuidePage() {
             ランウェイキュアソールの
             <span className="text-[#e8627c]">サイズ選び</span>
             <br />
-            外反母趾でも使える？
+            M・Lどっちを選ぶ？対応表つき解説
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            ランウェイキュアソールのサイズ展開からサイズ選びのコツ、外反母趾の方の注意点まで徹底解説。靴別のフィッティングガイドもあわせて紹介します。
+            ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開・女性向けのソックス型です。M/Lの選び方、境目サイズの考え方、対応外サイズの方向けの代替案まで、公式サイトの情報（2026年7月確認）をもとに解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-pink-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
               ランウェイキュアソール サイズ
             </span>
             <span className="bg-pink-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
-              外反母趾
+              M・Lの選び方
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
-              2026年4月更新
+              2026年7月更新
             </span>
           </div>
         </div>
       </section>
 
-      {/* 競合との差別化 */}
+      {/* まず知っておきたい前提 */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            この記事の特徴
+            まず知っておきたい：ソックス型＝「靴」ではなく「足」に合わせて選ぶ
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              ランウェイキュアソールのサイズに関する記事は少なく、公式サイトの情報だけでは不十分なケースがあります。特に「外反母趾でも使えるか」という疑問に対して、具体的に踏み込んで解説しているサイトはほとんどありません。
+              ランウェイキュアソールは、靴の中に入れて使う中敷き（インソール）ではなく、
+              <strong>足に直接装着するソックス型</strong>のアイテムです（公式サイトにて2026年7月確認）。
+              そのため、サイズ選びの基準は「靴の大きさ」ではなく「ご自身の足のサイズ」になります。
             </p>
             <p>
-              この記事では、サイズ展開の詳細だけでなく、<strong>外反母趾との相性についての注意点</strong>、<strong>靴の種類別のフィッティングポイント</strong>、<strong>他社製品とのサイズ感の比較</strong>まで、購入前に知っておくべき情報を網羅します。
+              また、中敷きタイプのようにハサミで形を整えて合わせるという発想は、ソックス型のランウェイキュアソールには当てはまりません。
+              <strong>M・Lの2サイズの中から足に合うサイズを選ぶ</strong>のが唯一の調整方法です。この記事では、その選び方を順に整理します。
             </p>
           </div>
         </div>
@@ -178,7 +186,7 @@ export default function RunwaySizeGuidePage() {
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            サイズ展開一覧
+            サイズ展開一覧（M・Lの2サイズ）
           </h2>
           <div className="card">
             <div className="overflow-x-auto">
@@ -189,41 +197,24 @@ export default function RunwaySizeGuidePage() {
                       サイズ
                     </th>
                     <th className="py-3 text-left text-gray-500 font-medium">
-                      対応cm
+                      対応サイズ（cm）
                     </th>
                     <th className="py-3 text-left text-gray-500 font-medium">
-                      おすすめの方
-                    </th>
-                    <th className="py-3 text-left text-gray-500 font-medium">
-                      カット調整
+                      目安
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   {[
                     {
-                      size: "XS",
-                      cm: "21〜22.5cm",
-                      target: "小さめの足の女性・学生",
-                      cut: "可能",
-                    },
-                    {
-                      size: "S",
-                      cm: "23〜24.5cm",
-                      target: "標準〜やや小さめの女性",
-                      cut: "可能",
-                    },
-                    {
                       size: "M",
-                      cm: "25〜26cm",
-                      target: "大きめの女性・小さめの男性",
-                      cut: "可能",
+                      cm: "22.5〜23.5",
+                      target: "足のサイズが22.5〜23.5cmの女性",
                     },
                     {
                       size: "L",
-                      cm: "26.5〜27.5cm",
-                      target: "標準的な男性",
-                      cut: "可能",
+                      cm: "24.0〜25.0",
+                      target: "足のサイズが24.0〜25.0cmの女性",
                     },
                   ].map((row) => (
                     <tr key={row.size} className="border-b border-gray-100">
@@ -232,20 +223,24 @@ export default function RunwaySizeGuidePage() {
                       </td>
                       <td className="py-3 text-gray-900">{row.cm}</td>
                       <td className="py-3 text-gray-600">{row.target}</td>
-                      <td className="py-3 text-emerald-600">{row.cut}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ すべてのサイズでつま先部分のカット調整が可能です。
+              ※ 公式サイトにて2026年7月確認。女性向けのサイズ展開で、対応範囲は最大25.0cmです。仕様は変更される場合があるため、購入前に公式サイトの最新情報をご確認ください。
             </p>
           </div>
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-6">
             <p>
-              ランウェイキュアソールのサイズ展開は、ピットソールと同じXS〜Lの4サイズです。整体師監修の骨盤補整設計が特徴で、ピットソールと比較するとやや薄型に設計されているため、靴内のスペースが限られるパンプスなどにも装着しやすくなっています。
+              サイズはM・Lの2種類のみで、22.5cm未満の方・25.0cmを超える方・男性の多くは対応範囲外となります。
+              対応範囲外の方向けの代替案は、この記事の
+              <a href="#out-of-range" className="text-[#e8627c] underline">
+                「対応外サイズの方への代替案」
+              </a>
+              で製品別に整理しています。
             </p>
           </div>
         </div>
@@ -255,35 +250,25 @@ export default function RunwaySizeGuidePage() {
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            サイズ選びの5つのポイント
+            M・Lの選び方 3つのポイント
           </h2>
 
           <div className="space-y-4">
             {[
               {
                 num: "01",
-                title: "靴のサイズを基準にする",
-                desc: "足の実寸ではなく、普段履いている靴のサイズを基準にサイズを選びましょう。例えば、足の実寸が23.5cmでも24cmの靴を履いている場合は、Sサイズ（23〜24.5cm）を選びます。ランウェイキュアソールは靴の中に入れて使うため、靴のサイズに合わせることが重要です。",
+                title: "足のサイズ（実寸）を基準に選ぶ",
+                desc: "ソックス型のため、選ぶ基準は靴のサイズではなくご自身の足のサイズです。足のサイズが22.5〜23.5cmならM、24.0〜25.0cmならLが対応範囲です。普段の靴のサイズと足の実寸が異なる方もいるため、足のサイズが曖昧な場合は一度測ってから選ぶと確実です。",
               },
               {
                 num: "02",
-                title: "迷ったら大きいサイズを選ぶ",
-                desc: "サイズの境目で迷った場合は、大きいほうを選びましょう。ランウェイキュアソールはつま先部分をカットして調整できるため、大きめからカットするほうが失敗のリスクが少ないです。小さいサイズを選んでしまうとアーチサポートの位置がずれる可能性があります。",
+                title: "境目（23.5〜24.0cm）の方は公式のサイズ案内を確認する",
+                desc: "公式FAQでは、普段の靴のサイズが23.5cmの方にはMサイズが案内されています。一方、23.5cmと24.0cmの間はM/Lの区分の境目にあたるため、該当する方は購入前に公式サイトのサイズ案内を確認するのが確実です。公式FAQには「迷った場合は大きめのサイズを選ぶと調整しやすい」という案内もあります。",
               },
               {
                 num: "03",
-                title: "元の中敷きを取り外す",
-                desc: "靴に元々入っている中敷きを取り外してからランウェイキュアソールを入れてください。元の中敷きの上に重ねると、靴の中が窮屈になるだけでなく、アーチサポートの位置がずれて効果が半減します。元の中敷きをテンプレートとしてカットの際に使うと便利です。",
-              },
-              {
-                num: "04",
-                title: "つま先に0.5〜1cmの余裕を確認",
-                desc: "インソールを入れた状態で靴を履き、つま先に0.5〜1cmの余裕があることを確認してください。余裕がない場合は、つま先を歩行時に圧迫し、外反母趾やタコの原因になります。特に幅の狭い靴では注意が必要です。",
-              },
-              {
-                num: "05",
-                title: "実際に歩いてフィット感を確認",
-                desc: "装着後、必ず室内で数分間歩いてフィット感を確認しましょう。かかとがしっかり収まっているか、土踏まずのサポートが適切な位置に当たっているか、歩行時にインソールがズレないかの3点をチェックしてください。",
+                title: "セット購入ならM/Lを混ぜられる場合がある",
+                desc: "公式サイトには、3足以上のセット購入であればMとLを混ぜて注文できる場合があるという記載があります。境目のサイズでどちらか判断がつかない方は、セット購入時にサイズ違いで注文できるか公式サイトで確認するのも一つの方法です。",
               },
             ].map((item) => (
               <div key={item.num} className="card">
@@ -306,96 +291,63 @@ export default function RunwaySizeGuidePage() {
         </div>
       </section>
 
-      {/* 外反母趾の注意点 */}
+      {/* ソックス型と靴の相性 */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            外反母趾の方への重要な注意点
+            ソックス型ならではの靴との相性
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              外反母趾をお持ちの方からよく寄せられる「ランウェイキュアソールは外反母趾でも使えるか？」という質問に、正直にお答えします。
+              ランウェイキュアソールは足に直接装着するソックス型のため、中敷きの入れ替えが必要なインソールと違い、
+              <strong>靴の形状を選びにくい</strong>のが特徴です（公式サイトにて2026年7月確認）。
+              ただし公式サイトでは、靴のタイプによって向き不向きがあることも案内されています。
             </p>
           </div>
 
-          <div className="card border-2 border-amber-200 bg-amber-50 mb-6">
-            <h3 className="text-base font-bold text-gray-900 mb-3">
-              結論：使用できるが注意が必要
-            </h3>
-            <p className="text-sm text-gray-600 leading-relaxed">
-              ランウェイキュアソールの3点アーチサポート構造は、横アーチ（前足部の横方向のアーチ）もサポートします。横アーチのサポートは外反母趾の予防に効果的な場合もありますが、<strong>すでに変形が進んでいる外反母趾の場合、親指の付け根（母趾球）に負担がかかる可能性があります</strong>。
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="card bg-emerald-50 border-emerald-200">
               <h3 className="text-sm font-bold text-emerald-700 mb-3">
-                使用OK：軽度の外反母趾
+                相性が良いとされる靴
               </h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-500 shrink-0 mt-0.5">
                     &#10003;
                   </span>
-                  親指の角度が15度未満
+                  スニーカー
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-500 shrink-0 mt-0.5">
                     &#10003;
                   </span>
-                  痛みがない or 時々軽い痛みがある程度
+                  ローヒールの靴
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-500 shrink-0 mt-0.5">
                     &#10003;
                   </span>
-                  アーチサポートで改善が期待できる段階
+                  手持ちの靴をそのまま使える（中敷きの入れ替え不要）
                 </li>
               </ul>
             </div>
 
             <div className="card bg-amber-50 border-[#c9a76c]">
               <h3 className="text-sm font-bold text-[#c9a76c] mb-3">
-                要注意：中度の外反母趾
+                窮屈になる場合がある靴
               </h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
                   <span className="text-[#c9a76c] shrink-0 mt-0.5">!</span>
-                  親指の角度が15〜30度
+                  つま先が極端に細いデザインの靴
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#c9a76c] shrink-0 mt-0.5">!</span>
-                  歩行時に時々痛みがある
+                  ヒールが高すぎる靴
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#c9a76c] shrink-0 mt-0.5">!</span>
-                  短時間の使用から始め、痛みが出たら中止
-                </li>
-              </ul>
-            </div>
-
-            <div className="card bg-red-50 border-red-200">
-              <h3 className="text-sm font-bold text-[#e8627c] mb-3">
-                非推奨：重度の外反母趾
-              </h3>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
-                    &#10007;
-                  </span>
-                  親指の角度が30度以上
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
-                    &#10007;
-                  </span>
-                  日常的に強い痛みがある
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
-                    &#10007;
-                  </span>
-                  医師の診断・治療を優先すべき段階
+                  タイトなサイズ感の靴（足＋装着分のゆとりが必要になる場合）
                 </li>
               </ul>
             </div>
@@ -403,126 +355,150 @@ export default function RunwaySizeGuidePage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-8">
             <p>
-              外反母趾の程度は自己判断が難しい場合もあります。不安がある方は、整形外科を受診してからインソールの使用を検討されることをおすすめします。また、外反母趾用の専用インソールとランウェイキュアソールは設計思想が異なるため、外反母趾の治療を目的とする場合は医療用インソール（オーダーメイド矯正具）を検討してください。
-            </p>
-            <p>
-              ランウェイキュアソールは「外反母趾の治療器具」ではなく「姿勢改善・ダイエットサポートインソール」です。外反母趾への直接的な治療効果を期待して購入するのは適切ではありません。あくまで、軽度の方が姿勢改善の副次的効果としてアーチサポートを受けるという位置づけで使用してください。
+              公式サイトでは、スニーカーやローヒールの靴での使用が最も効果的とされています。パンプスなどつま先が細い靴やハイヒールを日常的に履く方は、装着した状態で窮屈にならないかを考慮したうえで検討してください。
             </p>
           </div>
         </div>
       </section>
 
-      {/* 靴別フィッティングガイド */}
-      <section className="py-12 md:py-16">
+      {/* 対応外サイズの方への代替案 */}
+      <section id="out-of-range" className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            靴別フィッティングガイド
+            対応外サイズの方への代替案
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              ランウェイキュアソールは薄型設計のため、様々な種類の靴に対応しています。ただし、靴の種類によってフィッティングのポイントが異なります。
+              ランウェイキュアソールの対応範囲は22.5〜25.0cm（女性向け）のため、
+              <strong>22.5cm未満の方・25.0cmを超える方・男性の多く</strong>は対応外となります。
+              その場合は、当サイトで扱っている他の2製品（いずれも靴に入れる中敷きタイプ）のサイズ展開が参考になります。
             </p>
           </div>
 
-          <div className="space-y-4">
-            {[
-              {
-                type: "スニーカー",
-                compatibility: "◎ 最適",
-                points: [
-                  "最も装着しやすく、相性の良い靴タイプです",
-                  "元の中敷きを取り外して入れ替えるだけでOK",
-                  "クッション性のあるスニーカーと組み合わせると快適さが向上",
-                  "ウォーキングやランニング用スニーカーとの併用が効果的",
-                  "幅広タイプなら外反母趾の方でも窮屈になりにくい",
-                ],
-              },
-              {
-                type: "パンプス",
-                compatibility: "○ 対応可",
-                points: [
-                  "薄型設計のランウェイキュアソールはパンプスにも対応",
-                  "つま先部分を多めにカットして靴の形状に合わせる",
-                  "ヒール高3〜5cmのローヒールが最も相性が良い",
-                  "ポインテッドトゥ（先が尖った形）は大幅なカットが必要",
-                  "ストラップ付きのパンプスだとズレにくい",
-                ],
-              },
-              {
-                type: "ブーツ",
-                compatibility: "○ 対応可",
-                points: [
-                  "ショートブーツ・ロングブーツともに使用可能",
-                  "元の中敷きを取り外してから装着",
-                  "厚手の靴下を履く場合はワンサイズ大きめのブーツが必要",
-                  "防水・防寒ブーツでも基本的に問題なし",
-                  "レインブーツは中がツルツルでズレやすい場合があるため注意",
-                ],
-              },
-              {
-                type: "ビジネスシューズ（革靴）",
-                compatibility: "○ 対応可",
-                points: [
-                  "紐付きの革靴が最も装着しやすい",
-                  "ローファーはフィット感が変わるため試し履き必須",
-                  "先の細い革靴はつま先部分の大幅カットが必要",
-                  "元の中敷きの取り外しが必須（スペース確保のため）",
-                  "通勤での長時間使用に最適",
-                ],
-              },
-              {
-                type: "サンダル・ミュール",
-                compatibility: "△ 不向き",
-                points: [
-                  "かかとが固定されないサンダルではインソールがズレやすい",
-                  "バックストラップ付きのサンダルなら使用可能な場合も",
-                  "足の甲が露出するため、インソールが見える場合がある",
-                  "基本的にはサンダル以外の靴での使用を推奨",
-                  "室内でのスリッパ代わりには使用できません",
-                ],
-              },
-            ].map((item) => (
-              <div key={item.type} className="card">
-                <div className="flex items-start gap-3 mb-3">
-                  <h3 className="text-base font-bold text-gray-900">
-                    {item.type}
-                  </h3>
-                  <span
-                    className={`text-xs font-medium px-2 py-0.5 rounded-full shrink-0 ${
-                      item.compatibility.includes("最適")
-                        ? "bg-emerald-100 text-emerald-700"
-                        : item.compatibility.includes("不向き")
-                        ? "bg-red-100 text-[#e8627c]"
-                        : "bg-blue-100 text-blue-700"
-                    }`}
-                  >
-                    {item.compatibility}
-                  </span>
-                </div>
-                <ul className="space-y-1">
-                  {item.points.map((point) => (
-                    <li
-                      key={point}
-                      className="text-sm text-gray-600 flex items-start gap-2"
-                    >
-                      <span className="text-[#e8627c] shrink-0 mt-0.5">
-                        &#10003;
-                      </span>
-                      {point}
-                    </li>
+          <div className="card mb-6">
+            <h3 className="text-base font-bold text-gray-900 mb-3">
+              ピットソール（中敷きタイプ・XS〜XLの5サイズ）
+            </h3>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-gray-200">
+                    <th className="py-3 text-left text-gray-500 font-medium">
+                      サイズ
+                    </th>
+                    <th className="py-3 text-left text-gray-500 font-medium">
+                      対応サイズ（cm）
+                    </th>
+                    <th className="py-3 text-left text-gray-500 font-medium">
+                      備考
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { size: "XS", cm: "21〜22.5", note: "-" },
+                    { size: "S", cm: "23〜24.5", note: "-" },
+                    { size: "M", cm: "25〜26", note: "-" },
+                    { size: "L", cm: "26.5〜27.5", note: "-" },
+                    {
+                      size: "XL",
+                      cm: "28〜29",
+                      note: "ブラック/ピンク限定",
+                    },
+                  ].map((row) => (
+                    <tr key={row.size} className="border-b border-gray-100">
+                      <td className="py-3 text-gray-900 font-bold">
+                        {row.size}
+                      </td>
+                      <td className="py-3 text-gray-900">{row.cm}</td>
+                      <td className="py-3 text-gray-600">{row.note}</td>
+                    </tr>
                   ))}
-                </ul>
-              </div>
-            ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-gray-500 mt-4">
+              ※ 21〜29cmに対応するXS〜XLの5サイズ展開。男性や25.0cm超の方の選択肢になります。
+            </p>
+          </div>
+
+          <div className="card mb-6">
+            <h3 className="text-base font-bold text-gray-900 mb-3">
+              スリムアップインソール（中敷きタイプ・S/Mの2サイズ）
+            </h3>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-gray-200">
+                    <th className="py-3 text-left text-gray-500 font-medium">
+                      サイズ
+                    </th>
+                    <th className="py-3 text-left text-gray-500 font-medium">
+                      対応サイズ（cm）
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { size: "S", cm: "23.0〜24.5" },
+                    { size: "M", cm: "25.0〜26.5" },
+                  ].map((row) => (
+                    <tr key={row.size} className="border-b border-gray-100">
+                      <td className="py-3 text-gray-900 font-bold">
+                        {row.size}
+                      </td>
+                      <td className="py-3 text-gray-900">{row.cm}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-gray-500 mt-4">
+              ※ 最大26.5cmまで。25.0〜26.5cmの方の選択肢になります。
+            </p>
+          </div>
+
+          <div className="card bg-blue-50 border-blue-200">
+            <h3 className="text-sm font-bold text-blue-700 mb-3">
+              足のサイズ別・早見メモ
+            </h3>
+            <ul className="space-y-2 text-sm text-gray-600">
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 shrink-0 mt-0.5">&#10003;</span>
+                22.5cm未満の方 → ピットソールXS（21〜22.5cm）が候補
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 shrink-0 mt-0.5">&#10003;</span>
+                22.5〜25.0cmの女性 → ランウェイキュアソールの対応範囲
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 shrink-0 mt-0.5">&#10003;</span>
+                25.0cm超の方 → ピットソールM以上、またはスリムアップインソールM（26.5cmまで）が候補
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 shrink-0 mt-0.5">&#10003;</span>
+                男性 → ランウェイキュアソールはサイズ非対応が多く、ピットソール（最大29cm）が候補
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-6">
+            <p>
+              各サイズ・仕様は公式サイトにて確認した情報です（2026年7月時点）。変更される場合があるため、購入前に必ず各公式サイトの最新情報をご確認ください。製品ごとの詳しい比較は
+              <Link href="/ranking/" className="text-[#e8627c] underline">
+                ランキングページ
+              </Link>
+              も参考にしてください。
+            </p>
           </div>
         </div>
       </section>
 
-      {/* 他社製品との比較 */}
+      {/* 価格と返金保証 */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            他社インソールとのサイズ・仕様比較
+            価格と返金保証（サイズ選びの失敗リスクに備える）
           </h2>
           <div className="card">
             <div className="overflow-x-auto">
@@ -530,160 +506,77 @@ export default function RunwaySizeGuidePage() {
                 <thead>
                   <tr className="border-b border-gray-200">
                     <th className="py-3 text-left text-gray-500 font-medium">
-                      比較項目
+                      購入形態
                     </th>
                     <th className="py-3 text-left text-gray-500 font-medium">
-                      ランウェイキュアソール
+                      価格（税込）
                     </th>
                     <th className="py-3 text-left text-gray-500 font-medium">
-                      ピットソール
-                    </th>
-                    <th className="py-3 text-left text-gray-500 font-medium">
-                      スリムアップインソール
+                      1足あたり
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   {[
+                    { plan: "単品（1足）", price: "6,980円", per: "6,980円" },
+                    { plan: "2足セット", price: "11,980円", per: "5,990円" },
                     {
-                      item: "サイズ展開",
-                      runway: "XS/S/M/L",
-                      pitsole: "XS/S/M/L",
-                      slimup: "S/M/L",
-                    },
-                    {
-                      item: "対応cm",
-                      runway: "21〜27.5cm",
-                      pitsole: "21〜27.5cm",
-                      slimup: "22〜28cm",
-                    },
-                    {
-                      item: "厚さ",
-                      runway: "薄型設計",
-                      pitsole: "標準厚",
-                      slimup: "標準厚",
-                    },
-                    {
-                      item: "カット調整",
-                      runway: "可能",
-                      pitsole: "可能",
-                      slimup: "可能",
-                    },
-                    {
-                      item: "パンプス対応",
-                      runway: "◎",
-                      pitsole: "○",
-                      slimup: "△",
-                    },
-                    {
-                      item: "外反母趾",
-                      runway: "要注意",
-                      pitsole: "要注意",
-                      slimup: "要注意",
-                    },
-                    {
-                      item: "監修",
-                      runway: "整体師",
-                      pitsole: "特許技術",
-                      slimup: "-",
-                    },
-                    {
-                      item: "価格（1足）",
-                      runway: "4,378円〜",
-                      pitsole: "6,578円〜",
-                      slimup: "2,178円〜",
+                      plan: "3足セット",
+                      price: "17,960円",
+                      per: "約5,987円",
                     },
                   ].map((row) => (
-                    <tr key={row.item} className="border-b border-gray-100">
+                    <tr key={row.plan} className="border-b border-gray-100">
                       <td className="py-3 text-gray-900 font-medium">
-                        {row.item}
+                        {row.plan}
                       </td>
-                      <td className="py-3 text-[#e8627c] font-medium">
-                        {row.runway}
-                      </td>
-                      <td className="py-3 text-gray-600">{row.pitsole}</td>
-                      <td className="py-3 text-gray-600">{row.slimup}</td>
+                      <td className="py-3 text-gray-900">{row.price}</td>
+                      <td className="py-3 text-gray-600">{row.per}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
+            <p className="text-xs text-gray-500 mt-4">
+              ※ 公式サイトにて2026年7月確認。価格は変更される場合があります。
+            </p>
           </div>
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-6">
             <p>
-              ランウェイキュアソールの最大の特徴は薄型設計です。パンプスやタイトな靴にも装着しやすいため、女性のデイリーユースに最も適しています。一方、ピットソールは世界特許技術によるアーチサポートが強力で、スニーカーやウォーキングシューズとの併用で高い効果が期待できます。
+              公式サイトには、<strong>90日間使用して実感がない場合の全額返金保証</strong>の記載があります（2026年7月確認時点）。ソックス型でカットによる微調整ができない分、サイズ選びに不安がある方は、購入前に保証の適用条件（対象となる購入形態・申請方法など）を公式サイトで確認しておくと安心です。
             </p>
             <p>
-              サイズ選びで迷っている方は、まず自分が主にどの靴で使いたいかを明確にしてから選ぶと失敗しにくいです。パンプス中心ならランウェイキュアソール、スニーカー中心ならピットソール、コスパ重視ならスリムアップインソールがおすすめです。
+              なお、3足以上のセット購入でM/Lを混ぜられる場合がある点（公式サイト記載）も、境目サイズの方にとっては失敗リスクを下げる選択肢になります。
             </p>
           </div>
         </div>
       </section>
 
-      {/* 正しいカット方法 */}
+      {/* 外反母趾の方への注意点 */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            正しいカット方法
+            外反母趾の方への注意点
           </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {[
-              {
-                num: "01",
-                title: "元の中敷きをテンプレートにする",
-                desc: "靴から元の中敷きを取り出し、ランウェイキュアソールの上に重ねます。かかと部分を合わせて、つま先の形をペンでなぞってください。これが最も確実にフィットするカット方法です。",
-              },
-              {
-                num: "02",
-                title: "ガイドラインの外側をカット",
-                desc: "ペンでなぞったガイドラインの少し外側（2〜3mm程度）をハサミで切ります。最初は少し大きめにカットし、都度靴に入れてフィット感を確認しながら微調整するのがコツです。",
-              },
-              {
-                num: "03",
-                title: "かかと部分は絶対にカットしない",
-                desc: "ランウェイキュアソールのかかと部分にはサポート構造が組み込まれているため、かかと部分は絶対にカットしないでください。カットするのはつま先部分と、必要に応じて側面のみです。",
-              },
-              {
-                num: "04",
-                title: "靴に入れて最終確認",
-                desc: "カットしたインソールを靴に入れ、実際に足を入れてフィット感を確認します。かかとがしっかり収まり、つま先に余裕があり、土踏まずのサポートが適切な位置に当たっていればOKです。",
-              },
-            ].map((item) => (
-              <div key={item.num} className="card">
-                <div className="flex items-start gap-3">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
-                    {item.num}
-                  </span>
-                  <div>
-                    <h3 className="text-base font-bold text-gray-900 mb-2">
-                      {item.title}
-                    </h3>
-                    <p className="text-sm text-gray-600 leading-relaxed">
-                      {item.desc}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
+          <div className="card border-2 border-amber-200 bg-amber-50 mb-6">
+            <h3 className="text-base font-bold text-gray-900 mb-3">
+              クロス部分の食い込みに注意
+            </h3>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              ランウェイキュアソールには親指と人差し指の間にかかるクロス構造があり、<strong>外反母趾の出っ張り部分に当たって食い込みを感じる場合があります</strong>。使用自体は可能とされていますが、症状が重い方は短時間から試すか、医師に相談されることをおすすめします。
+            </p>
           </div>
-        </div>
-      </section>
-
-      {/* 30日間サイズ交換保証 */}
-      <section className="py-12 md:py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-6">
-            30日間サイズ交換保証の活用方法
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            公式サイトで<strong>3足セット以上を購入すると、30日間のサイズ交換保証</strong>が付きます。ランウェイキュアソールはサイズ展開がM（22.5-23.5cm）とL（24.0-25.0cm）の2種類のみのため、選択ミスのリスクが高く、この保証の活用を強くおすすめします。
-          </p>
-          <div className="bg-white rounded-lg p-4 border border-purple-200">
-            <h4 className="font-bold text-purple-700 mb-2">外反母趾の方へのアドバイス</h4>
-            <p className="text-sm text-gray-700 leading-relaxed">
-              外反母趾の方は、最初から長時間使用せず短時間から慣らしていくことが大切です。実際の利用者からは「数日で慣れた」との声も多く寄せられています。違和感が続く場合はサイズ交換保証を利用しましょう。
+          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
+            <p>
+              また、ランウェイキュアソールは外反母趾の治療を目的とした医療機器ではありません。外反母趾の症状に不安がある方や痛みが続く方は、整形外科など専門医への相談を優先してください。外反母趾との付き合い方については
+              <Link
+                href="/runway-cure-sole/"
+                className="text-[#e8627c] underline"
+              >
+                ランウェイキュアソールの詳細ページ
+              </Link>
+              でも解説しています。
             </p>
           </div>
         </div>
@@ -725,13 +618,13 @@ export default function RunwaySizeGuidePage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              ランウェイキュアソールはXS〜Lの4サイズ展開で、靴のサイズに合わせてカット調整が可能です。薄型設計のためパンプスやタイトな靴にも装着しやすく、整体師監修の骨盤補整設計が特徴です。
+              ランウェイキュアソールは足に直接装着するソックス型で、サイズはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2種類・女性向けです（公式サイトにて2026年7月確認）。中敷きタイプと違いカットによる調整はできないため、ご自身の足のサイズを基準にM/Lを選ぶことがすべてです。
             </p>
             <p>
-              外反母趾の方は使用できる場合もありますが、注意が必要です。軽度であればアーチサポートの恩恵を受けられますが、中度以上の場合は痛みが出る可能性があるため、短時間から試すか医師に相談してください。ランウェイキュアソールは外反母趾の治療器具ではなく、姿勢改善・ダイエットサポートインソールです。
+              23.5〜24.0cmの境目にあたる方は、購入前に公式サイトのサイズ案内を確認してください。公式FAQでは23.5cmの方にはMが案内されており、迷った場合は大きめを選ぶ・3足以上のセットでM/Lを混ぜて注文できる場合がある、といった案内もあります。
             </p>
             <p>
-              サイズ選びで迷ったら大きいサイズを選んでカットで調整するのが鉄則です。購入前にこの記事のフィッティングガイドを参考に、自分の靴との相性を確認してください。
+              22.5cm未満・25.0cm超の方や男性は対応外となる場合が多いため、ピットソール（XS〜XL・21〜29cm）やスリムアップインソール（S/M・最大26.5cm）など、中敷きタイプの製品を検討するのが現実的です。仕様・価格・保証条件は変更される場合があるため、購入前に必ず公式サイトの最新情報をご確認ください。
             </p>
           </div>
 

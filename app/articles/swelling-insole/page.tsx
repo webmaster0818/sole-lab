@@ -311,7 +311,7 @@ export default function SwellingInsolePage() {
                   "整体師監修の設計で身体の巡りを意識したアプローチ",
                   "パンプスで使えるため、オフィスワークの方にも実用的",
                 ],
-                price: "4,378円（税込）〜",
+                price: "6,980円（税込）〜",
                 best: "オフィスワーク・パンプス使用の方",
               },
               {
@@ -324,7 +324,7 @@ export default function SwellingInsolePage() {
                   "男女兼用で家族で共有も可能",
                   "基本的なアーチサポート機能でむくみ軽減をサポート",
                 ],
-                price: "2,178円（税込）〜",
+                price: "6,980円（税込）〜",
                 best: "コスパ重視でむくみ対策を始めたい方",
               },
             ].map((item) => (

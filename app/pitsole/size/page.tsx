@@ -1177,7 +1177,7 @@ export default function PitsoleSizePage() {
                 </span>
                 <span>
                   <strong>セット購入の部分交換は要確認。</strong>
-                  3足セットや6足セットの場合、
+                  まとめ買いセット（2足・4足・6足）の場合、
                   1足だけサイズ交換できるかはショップによって対応が異なります。
                   事前にカスタマーサポートに確認しましょう。
                 </span>
@@ -1532,7 +1532,7 @@ export default function PitsoleSizePage() {
               ピットソールの最安値をチェック
             </p>
             <p className="text-sm opacity-90 mb-4">
-              3足セットなら1足無料プレゼント。実質1足4,934円で始められます。
+              まとめ買いセットなら1足あたり4,026円〜（6足セット時・公式サイトにて2026年7月確認）で始められます。
             </p>
             <Link
               href="/pitsole/price/"

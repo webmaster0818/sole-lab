@@ -914,8 +914,8 @@ export default function DietMechanismPage() {
                       価格帯
                     </td>
                     <td className="py-2 text-gray-900">6,578円〜</td>
-                    <td className="py-2 text-gray-900">4,378円〜</td>
-                    <td className="py-2 text-gray-900">2,178円〜</td>
+                    <td className="py-2 text-gray-900">6,980円〜</td>
+                    <td className="py-2 text-gray-900">6,980円〜</td>
                   </tr>
                   <tr>
                     <td className="py-2 text-gray-700 font-medium">

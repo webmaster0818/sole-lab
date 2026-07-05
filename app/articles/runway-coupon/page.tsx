@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-28",
-  dateModified: "2026-04-28",
+  dateModified: "2026-07-05",
 };
 
 const faqs = [
@@ -587,7 +587,7 @@ export default function RunwayCouponPage() {
                       ピットソール
                     </td>
                     <td className="py-3 px-4 text-gray-900">6,578円</td>
-                    <td className="py-3 px-4 text-gray-700">4,378円/足</td>
+                    <td className="py-3 px-4 text-gray-700">4,026円/足（6足セット）</td>
                     <td className="py-3 px-4 text-gray-700">○</td>
                   </tr>
                   <tr className="border-b border-gray-100">
@@ -605,7 +605,7 @@ export default function RunwayCouponPage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              セット購入時の1足あたり最安値ではランウェイキュアソールが最も安く、コスパに優れています。ピットソールはエビデンスの強さ、スリムアップインソールは整体師監修という強みがあるため、価格だけでなく総合的に判断するのがおすすめです。
+              セット購入時の1足あたりで比較すると、ピットソール（4,026円/足・6足セット、公式サイトにて2026年7月確認）とスリムアップインソール（4,480円/足）の方が安く、ランウェイキュアソールは約5,987円/足です。ただしランウェイキュアソールには足に直接装着するソックス型で靴を選ばないという独自の強みがあり、ピットソールはエビデンスの強さ、スリムアップインソールは整体師監修という強みがあるため、価格だけでなく総合的に判断するのがおすすめです。
             </p>
           </div>
         </div>

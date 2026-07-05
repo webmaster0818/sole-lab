@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-28",
-  dateModified: "2026-04-28",
+  dateModified: "2026-07-05",
 };
 
 const faqs = [
@@ -570,15 +570,15 @@ export default function RunwayNotWorkingPage() {
                     },
                     {
                       item: "価格帯",
-                      runway: "4,378円〜",
+                      runway: "6,980円〜",
                       pitsole: "6,578円〜",
-                      slimup: "2,178円〜",
+                      slimup: "6,980円〜",
                     },
                     {
                       item: "サイズ展開",
                       runway: "M・Lの2サイズ",
-                      pitsole: "XS〜Lの4サイズ",
-                      slimup: "フリーサイズ",
+                      pitsole: "XS〜XLの5サイズ",
+                      slimup: "S・Mの2サイズ（〜26.5cm）",
                     },
                     {
                       item: "おすすめな人",

@@ -259,7 +259,7 @@ export default function GolfInsolePage() {
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>世界特許の3点サポートでスイング時の安定性が抜群</span></li>
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>適度な硬さとクッション性のバランスが良い</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>XS〜Lの4サイズ展開でカット調整可能</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>XS〜XLの5サイズ展開でカット調整可能</span></li>
             </ul>
             <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>

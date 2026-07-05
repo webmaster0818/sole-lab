@@ -384,7 +384,7 @@ export default function PostpartumInsolePage() {
                   "美姿勢サポートで産後の猫背・反り腰を改善",
                   "整体師監修の信頼性",
                 ],
-                price: "4,378円（税込）〜",
+                price: "6,980円（税込）〜",
               },
               {
                 rank: "3",
@@ -398,7 +398,7 @@ export default function PostpartumInsolePage() {
                   "男女兼用なので夫婦で使い回しも可能",
                   "基本的なアーチサポート機能は搭載",
                 ],
-                price: "2,178円（税込）〜",
+                price: "6,980円（税込）〜",
               },
             ].map((item) => (
               <div key={item.rank} className="card">

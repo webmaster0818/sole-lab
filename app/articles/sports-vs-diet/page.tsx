@@ -99,7 +99,7 @@ export default function SportsVsDietPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">比較表：目的別の性能比較</h2>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
-              <thead><tr className="bg-gray-100"><th className="border border-gray-200 px-3 py-2 text-left font-bold">項目</th><th className="border border-gray-200 px-3 py-2 text-center font-bold">スポーツ用</th><th className="border border-gray-200 px-3 py-2 text-center font-bold">ダイエ��ト用</th></tr></thead>
+              <thead><tr className="bg-gray-100"><th className="border border-gray-200 px-3 py-2 text-left font-bold">項目</th><th className="border border-gray-200 px-3 py-2 text-center font-bold">スポーツ用</th><th className="border border-gray-200 px-3 py-2 text-center font-bold">ダイエット用</th></tr></thead>
               <tbody>
                 <tr><td className="border border-gray-200 px-3 py-2">主な目的</td><td className="border border-gray-200 px-3 py-2 text-center">パフォーマンス向上・怪我予防</td><td className="border border-gray-200 px-3 py-2 text-center">姿勢改善・カロリー消費向上</td></tr>
                 <tr className="bg-gray-50"><td className="border border-gray-200 px-3 py-2">使用シーン</td><td className="border border-gray-200 px-3 py-2 text-center">スポーツ・運動時</td><td className="border border-gray-200 px-3 py-2 text-center">日常生活・通勤・散歩</td></tr>
@@ -162,7 +162,7 @@ export default function SportsVsDietPage() {
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット特化</span>
-            <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ラ��ウェイキュアソール（RUNWAY CURE SOLE）</h3>
+            <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美姿勢サポートに特化したダイエットインソールです。骨盤周りの筋肉を効率的に使えるよう設計されており、日常歩行でのカロリー消費向上と美脚効果を追求。薄型設計でパンプスやローファーにも対応し、仕事中もダイエットをサポートします。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美姿勢サポートでカロリー消費を向上</span></li>
@@ -175,11 +175,11 @@ export default function SportsVsDietPage() {
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">重心改善</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">スリムアップインソール（Slim Up Insole）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美容整体師が監修し、正しい重心移動を促す設計が特徴のダイエットインソールです。歩行時に適切な筋肉を使いやすくすることで、日常生活の中で無理なくダイエット効果が得られます。男女兼用で幅広いサイズに対応。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美容整体師が監修し、正しい重心移動を促す設計が特徴のダイエットインソールです。歩行時に適切な筋肉を使いやすくすることで、日常生活の中で無理なくダイエット効果が得られます。サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズです（公式サイトにて2026年7月確認）。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師監修で科学的根拠のある設計</span></li>
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>日常生活の歩行がそのままダイエットに</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>��女兼用の幅広いサイズ展開</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>S/Mの2サイズ展開（〜26.5cm）</span></li>
             </ul>
             <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>

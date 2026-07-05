@@ -471,7 +471,7 @@ export default function HeightUpPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
-                <span>XS〜Lの4サイズ展開で男女問わず使用可能</span>
+                <span>XS〜XLの5サイズ展開（21〜29cm）で男女問わず使用可能</span>
               </li>
             </ul>
             <Link

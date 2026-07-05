@@ -272,7 +272,7 @@ export default function PitsoleVsTentialPage() {
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-200 px-4 py-3 font-medium">サイズ展開</td>
-                  <td className="border border-gray-200 px-4 py-3">XS〜L（21〜27.5cm）</td>
+                  <td className="border border-gray-200 px-4 py-3">XS〜XL（21〜29cm・XLはブラック/ピンク限定）</td>
                   <td className="border border-gray-200 px-4 py-3">S〜XL（22〜29cm）</td>
                 </tr>
                 <tr>
@@ -451,7 +451,7 @@ export default function PitsoleVsTentialPage() {
             まとめ買いの場合
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ピットソールはまとめ買い割引が用意されており、3足セットで最大38%OFFになります。1足あたりの価格は約4,000円台まで下がるため、継続使用を前提にする場合は非常にお得です。TENTIALにはまとめ買い割引がないため、常に定価での購入となります。
+            ピットソールはまとめ買い割引が用意されており、6足セットで単品比約39%OFFになります。1足あたり約4,026円まで下がるため（公式サイトにて2026年7月確認）、継続使用を前提にする場合は非常にお得です。TENTIALにはまとめ買い割引がないため、常に定価での購入となります。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">

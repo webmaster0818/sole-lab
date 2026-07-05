@@ -27,7 +27,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-04-08",
+  dateModified: "2026-07-05",
 };
 
 const faqStructuredData = {
@@ -55,7 +55,7 @@ const faqStructuredData = {
       name: "男性が使うならどっちが良い？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "どちらも男女兼用ですが、サイズ展開で比較するとピットソールはXS〜L（21〜27.5cm）、スリムアップインソールはS〜L（22〜27.5cm）です。足が小さめの方はピットソールのXSサイズが選べます。男性の標準サイズはどちらもカバーしています。",
+        text: "サイズ展開で比較すると、ピットソールはXS〜XL（21〜29cm・XLはブラック/ピンク限定）、スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズで最大26.5cmです（公式サイトにて2026年7月確認）。足が小さめの方や26.5cmを超える方はピットソールが選べます。",
       },
     },
     {
@@ -83,10 +83,10 @@ const comparisonItems = [
     winner: "slimup" as const,
   },
   {
-    label: "3足セット価格",
-    pitsole: "16,390円（5,463円/足）",
-    slimup: "17,920円＋1足無料（4,480円/足）",
-    winner: "slimup" as const,
+    label: "まとめ買いセット",
+    pitsole: "4足18,120円（4,530円/足）／6足24,156円（4,026円/足）",
+    slimup: "3足17,920円＋1足無料（実質4,480円/足）",
+    winner: "draw" as const,
   },
   {
     label: "技術・特許",
@@ -96,8 +96,8 @@ const comparisonItems = [
   },
   {
     label: "サイズ展開",
-    pitsole: "XS〜L（21〜27.5cm）",
-    slimup: "S〜L（22〜27.5cm）",
+    pitsole: "XS〜XL（21〜29cm）",
+    slimup: "S・M（23.0〜26.5cm）",
     winner: "pitsole" as const,
   },
   {
@@ -121,8 +121,8 @@ const comparisonItems = [
   {
     label: "対象",
     pitsole: "男女兼用",
-    slimup: "男女兼用",
-    winner: "draw" as const,
+    slimup: "公式表記なし（〜26.5cm）",
+    winner: "pitsole" as const,
   },
 ];
 
@@ -140,7 +140,7 @@ const faqs = [
   {
     question: "男性が使うならどちらが良いですか？",
     answer:
-      "どちらも男女兼用ですが、ピットソールはXSサイズ（21cm〜）からの展開があり、スリムアップインソールはSサイズ（22cm〜）からです。男性の標準サイズ（25〜27.5cm）はどちらもカバーしています。",
+      "ピットソールは男女兼用でXS（21cm〜）〜L（〜27.5cm）の展開です。スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズで最大26.5cmです（公式サイトにて2026年7月確認）。足のサイズが26.5cmを超える男性はピットソールを選びましょう。",
   },
   {
     question: "どちらも返品・交換は可能ですか？",
@@ -303,13 +303,13 @@ export default function PitsoleVsSlimupPage() {
                 </tr>
                 <tr className="border-b border-gray-100">
                   <td className="py-3 px-2 text-gray-600">サイズ</td>
-                  <td className="py-3 px-2 text-center text-gray-900">XS〜L（21〜27.5cm）</td>
-                  <td className="py-3 px-2 text-center text-gray-900">S〜L（22〜27.5cm）</td>
+                  <td className="py-3 px-2 text-center text-gray-900">XS〜XL（21〜29cm・XL色限定）</td>
+                  <td className="py-3 px-2 text-center text-gray-900">S・M（23.0〜26.5cm）</td>
                 </tr>
                 <tr className="border-b border-gray-100">
                   <td className="py-3 px-2 text-gray-600">対象</td>
                   <td className="py-3 px-2 text-center text-gray-900">男女兼用</td>
-                  <td className="py-3 px-2 text-center text-gray-900">男女兼用</td>
+                  <td className="py-3 px-2 text-center text-gray-900">公式表記なし（〜26.5cm）</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-2 text-gray-600">抗菌防臭</td>
@@ -360,10 +360,10 @@ export default function PitsoleVsSlimupPage() {
                     </td>
                   </tr>
                   <tr className="border-b border-gray-100">
-                    <td className="py-3 px-2 text-gray-600">3足セット</td>
-                    <td className="py-3 px-2 text-center text-gray-900">16,390円<br /><span className="text-xs text-gray-500">（5,463円/足）</span></td>
+                    <td className="py-3 px-2 text-gray-600">まとめ買いセット</td>
+                    <td className="py-3 px-2 text-center text-gray-900">4足18,120円<span className="text-xs text-gray-500">（4,530円/足）</span><br />6足24,156円<span className="text-xs text-gray-500">（4,026円/足）</span></td>
                     <td className="py-3 px-2 text-center text-gray-900 font-medium">
-                      <span className="text-emerald-600">17,920円＋1足無料</span><br /><span className="text-xs text-gray-500">（実質4,480円/足）</span>
+                      <span className="text-emerald-600">3足17,920円＋1足無料</span><br /><span className="text-xs text-gray-500">（実質4,480円/足）</span>
                     </td>
                   </tr>
                 </tbody>
@@ -372,9 +372,9 @@ export default function PitsoleVsSlimupPage() {
             <div className="p-4 bg-amber-50 border border-amber-200 rounded-lg">
               <p className="text-sm text-gray-700 leading-relaxed">
                 <span className="font-bold text-amber-700">価格比較のポイント：</span>
-                単品購入ならピットソールが402円安くお得です。しかし2足以上のまとめ買いではスリムアップインソールに軍配が上がります。
-                特に3足セットは1足無料の特典があり、4足分を17,920円（1足あたり4,480円）で購入できるため、
-                家族で使いたい方や靴ごとに入れ替えたい方にはスリムアップインソールのコスパが光ります。
+                単品購入ならピットソールが402円安くお得です。2足セットや実質4足分のまとめ買いではスリムアップインソール（3足＋1足無料で実質4,480円/足）がやや有利ですが、
+                ピットソールの6足セット（24,156円・4,026円/足）まで含めると1足単価の最安はピットソールになります（各公式サイトにて2026年7月確認）。
+                家族で使いたい方や靴ごとに入れ替えたい方は、必要な足数に合わせて選びましょう。
               </p>
             </div>
           </div>

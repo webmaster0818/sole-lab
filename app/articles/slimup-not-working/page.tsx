@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-28",
-  dateModified: "2026-04-28",
+  dateModified: "2026-07-05",
 };
 
 const faqs = [
@@ -51,7 +51,7 @@ const faqs = [
   {
     question: "スリムアップインソールで痩せた人はどんな使い方をしていますか？",
     answer:
-      "効果を実感した方に共通するのは、毎日装着して1日5,000歩以上歩いている、3ヶ月以上継続使用している、フリーサイズを靴に合わせて正しくカットしているという点です。立ち仕事や営業職の方に効果を実感した声が多い傾向にあります。",
+      "効果を実感した方に共通するのは、毎日装着して1日5,000歩以上歩いている、3ヶ月以上継続使用している、足の実寸に合ったサイズ（S：23.0〜24.5cm／M：25.0〜26.5cm）を選んでいるという点です。立ち仕事や営業職の方に効果を実感した声が多い傾向にあります。",
   },
   {
     question: "スリムアップインソールとピットソール、どちらが効果がありますか？",
@@ -208,10 +208,10 @@ export default function SlimupNotWorkingPage() {
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <div className="text-2xl mb-3">&#129506;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
-                フリーサイズ対応
+                S/Mの2サイズ展開
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                はさみでカットしてサイズ調整が可能なフリーサイズ設計。男女兼用で幅広い靴に対応します。正しくカットすることで足裏のサポートポイントが最適な位置にフィットします。
+                S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式（公式サイトにて2026年7月確認）。足の実寸に合ったサイズを選ぶことで、足裏のサポートポイントが最適な位置にフィットします。
               </p>
             </div>
           </div>
@@ -289,15 +289,15 @@ export default function SlimupNotWorkingPage() {
                 </span>
                 <div>
                   <h3 className="text-base font-bold text-gray-900 mb-3">
-                    カットが不適切でフィットしていない
+                    サイズが合っていない
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                    スリムアップインソールはフリーサイズのため、はさみでカットしてサイズを合わせます。このカットが不適切だと、骨格筋サポートのポイントが足裏の正しい位置に当たらず、効果が大幅に低下します。
+                    スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。足の実寸に合わないサイズを選ぶと、骨格筋サポートのポイントが足裏の正しい位置に当たらず、効果が大幅に低下します。
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
                       <span className="font-bold text-[#e8627c]">実態：</span>
-                      カット前に必ず靴の中敷きに合わせてサイズを確認し、ガイドラインに沿って少しずつカットしましょう。切りすぎると元に戻せないため、慎重に調整することが大切です。
+                      購入前にかかとからつま先までの実寸を測り、対応範囲に合うサイズを選びましょう。靴の元の中敷きが取り外せる場合は、外してから入れるとフィット感が高まります。
                     </p>
                   </div>
                 </div>
@@ -422,9 +422,9 @@ export default function SlimupNotWorkingPage() {
                       bad: "週2〜3日",
                     },
                     {
-                      item: "カット調整",
-                      good: "靴に合わせて丁寧にカット",
-                      bad: "適当にカット or カットなし",
+                      item: "サイズ選び",
+                      good: "実寸に合うサイズ（S/M）を選択",
+                      bad: "実寸を測らずサイズが不適合",
                     },
                     {
                       item: "期待値",
@@ -470,8 +470,8 @@ export default function SlimupNotWorkingPage() {
             {[
               {
                 num: "01",
-                title: "正しくサイズをカットする",
-                desc: "付属のガイドラインに沿って、使用する靴の中敷きに合わせてカットします。少しずつ切って微調整するのがコツ。サポートポイントが足裏の正しい位置にくるよう、土踏まずのアーチ部分の位置を確認しましょう。",
+                title: "実寸に合ったサイズを選ぶ",
+                desc: "S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。購入前に足の実寸を測って対応範囲に合うサイズを選び、装着時はサポートポイントが土踏まずのアーチ部分の正しい位置にくるか確認しましょう。",
               },
               {
                 num: "02",
@@ -561,19 +561,19 @@ export default function SlimupNotWorkingPage() {
                     },
                     {
                       item: "サイズ",
-                      slimup: "フリーサイズ（カット式）",
-                      pitsole: "XS〜Lの4サイズ",
+                      slimup: "S・Mの2サイズ（〜26.5cm）",
+                      pitsole: "XS〜XLの5サイズ",
                       runway: "M・Lの2サイズ",
                     },
                     {
                       item: "セット最安値",
                       slimup: "4,480円/足",
-                      pitsole: "4,378円/足",
+                      pitsole: "4,026円/足（6足セット）",
                       runway: "約5,987円/足",
                     },
                     {
                       item: "男女対応",
-                      slimup: "男女兼用",
+                      slimup: "公式表記なし（最大26.5cm）",
                       pitsole: "男女兼用",
                       runway: "女性向け",
                     },
@@ -600,7 +600,7 @@ export default function SlimupNotWorkingPage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-6">
             <p>
-              スリムアップインソールの最大の強みは、美容整体師監修による骨格筋アプローチと男女兼用のフリーサイズ設計です。エビデンスではピットソールに劣りますが、フリーサイズで男性も使えるという利点は見逃せません。
+              スリムアップインソールの最大の強みは、美容整体師監修による骨格筋アプローチとセット購入時のコスパです。エビデンスではピットソールに劣りますが、S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式で最大26.5cmまで対応しています（公式サイトにて2026年7月確認）。
             </p>
             <p>
               どの製品を選んでも「毎日使って歩く」ことが最も重要です。3商品の詳細比較はランキングページをご参照ください。
@@ -624,7 +624,7 @@ export default function SlimupNotWorkingPage() {
                   "「立ち仕事でも足が疲れにくくなった」（販売職・3ヶ月使用）",
                   "「姿勢を意識できるようになった」（事務職・2ヶ月使用）",
                   "「夕方のむくみが軽減された」（看護師・4ヶ月使用）",
-                  "「主人と一緒に使えるのが良い」（フリーサイズ対応）",
+                  "「主人と一緒に使えるのが良い」（夫婦での使用）",
                   "「井上先生の動画を見て信頼できた」（監修者への信頼）",
                 ].map((item) => (
                   <li key={item} className="text-sm text-gray-600 flex items-start gap-2">
@@ -641,7 +641,7 @@ export default function SlimupNotWorkingPage() {
                 {[
                   "「2週間使ったけど体重変わらない」→ 使用期間不足",
                   "「デスクワークだから意味ないかも」→ 歩行量不足",
-                  "「カットしたら合わなくなった」→ カット失敗",
+                  "「カットしたら合わなくなった」→ カットはつま先・サイドの微調整用（公式案内）。サイズ自体はS/Mから実寸で選ぶ",
                   "「思ったより硬くて最初痛い」→ 慣らし期間の不足",
                   "「パンプスに入れたら窮屈」→ 靴との相性問題",
                 ].map((item) => (
@@ -671,7 +671,7 @@ export default function SlimupNotWorkingPage() {
             </Link>
             <Link href="/articles/slimup-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールのサイズ選び・使い方ガイド</p>
-              <p className="text-xs text-gray-500 mt-1">フリーサイズのカット方法と効果的な使い方を解説</p>
+              <p className="text-xs text-gray-500 mt-1">S/M 2サイズの選び方と効果的な使い方を解説</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
@@ -717,13 +717,13 @@ export default function SlimupNotWorkingPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              「スリムアップインソール 痩せない」という口コミの多くは、使用期間の不足、歩行量の不足、カットの不適切さに起因しています。スリムアップインソール自体は美容整体師監修の骨格筋アプローチという独自の設計思想に基づいた、理にかなったインソールです。
+              「スリムアップインソール 痩せない」という口コミの多くは、使用期間の不足、歩行量の不足、サイズ選びの不適切さに起因しています。スリムアップインソール自体は美容整体師監修の骨格筋アプローチという独自の設計思想に基づいた、理にかなったインソールです。
             </p>
             <p>
-              効果を出すためのポイントは3つ。毎日装着して1日5,000歩以上歩くこと、最低3ヶ月は継続すること、靴に合わせて正しくカットすること。この3つを実践すれば、姿勢改善から始まり、段階的に体型の変化を実感できる可能性が高いです。
+              効果を出すためのポイントは3つ。毎日装着して1日5,000歩以上歩くこと、最低3ヶ月は継続すること、足の実寸に合ったサイズ（S：23.0〜24.5cm／M：25.0〜26.5cm）を選ぶこと。この3つを実践すれば、姿勢改善から始まり、段階的に体型の変化を実感できる可能性が高いです。
             </p>
             <p>
-              コスパの良さと男女兼用のフリーサイズは、スリムアップインソールならではの強みです。正しく使って、骨格筋サポートの効果を最大限に引き出しましょう。
+              セット購入時のコスパの良さと、S/Mの2サイズから実寸で選べるシンプルなサイズ体系（公式サイトにて2026年7月確認）は、スリムアップインソールの特徴です。正しく使って、骨格筋サポートの効果を最大限に引き出しましょう。
             </p>
           </div>
 

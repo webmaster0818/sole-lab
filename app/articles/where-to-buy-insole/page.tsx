@@ -21,7 +21,7 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-07-02",
+  dateModified: "2026-07-05",
 };
 
 const faqs = [{"q": "ダイエットインソールはドラッグストアで売っていますか？", "a": "汎用的なアーチサポート・クッションのインソールは購入できます。ただし特許技術採用の本格的なダイエットインソールは公式通販やAmazon・楽天が中心です。"}, {"q": "市販品と通販品はどちらが良いですか？", "a": "疲れ軽減目的なら市販の汎用品でも十分です。本格的なダイエット目的や返金保証を求めるなら、専用設計の製品を正規通販で買うのがおすすめです。"}, {"q": "実店舗で本格的なダイエットインソールは買えますか？", "a": "取り扱いは限られます。ピットソールなどは公式通販やAmazon・楽天が中心で、正規品保証や返金保証を受けやすいのもネットのメリットです。"}];
@@ -134,7 +134,7 @@ export default function WhereToBuyPage() {
                 <tr>
                   <td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td>
                   <td className="p-3 border-b border-gray-200">6,578円</td>
-                  <td className="p-3 border-b border-gray-200"><span className="font-bold text-[#0ea5e9]">4,934円</span><span className="block text-[10px] text-gray-500">3足19,734円/6足39,468円</span></td>
+                  <td className="p-3 border-b border-gray-200"><span className="font-bold text-[#0ea5e9]">4,026円</span><span className="block text-[10px] text-gray-500">6足24,156円（2足12,364円/4足18,120円）</span></td>
                   <td className="p-3 border-b border-gray-200">公式で要確認<span className="block text-[10px] text-gray-500">未使用・未開封のサイズ交換は可（7日以内）</span></td>
                 </tr>
                 <tr>
@@ -152,7 +152,7 @@ export default function WhereToBuyPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mb-2">※価格・セット構成・返金条件は各製品の<strong>公式サイト・公式EC店舗で確認した値</strong>です（ピットソール=2026年4月／ランウェイ・スリムアップ=2026年6月12日参照）。1足あたりはセット最安プランを税込価格から算出。返金保証の有無・条件は製品ごとに異なり、記載のない項目は「公式で要確認」としています。</p>
+          <p className="text-xs text-gray-500 mb-2">※価格・セット構成・返金条件は各製品の<strong>公式サイト・公式EC店舗で確認した値</strong>です（ピットソール=2026年7月／ランウェイ・スリムアップ=2026年6月12日参照）。1足あたりはセット最安プランを税込価格から算出。返金保証の有無・条件は製品ごとに異なり、記載のない項目は「公式で要確認」としています。</p>
           <p className="text-xs text-gray-500 mb-6">※価格・キャンペーン・保証条件は変更される場合があるため、購入前に必ず各公式サイトで最新の内容をご確認ください。効果には個人差があり、履くだけで痩せることを保証するものではありません。</p>
 
           <div className="bg-[#f0f9ff] border border-[#e0f2fe] rounded-xl p-5 mb-6">

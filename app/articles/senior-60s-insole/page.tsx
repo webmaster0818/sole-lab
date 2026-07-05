@@ -93,7 +93,7 @@ export default function Senior60sPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">60代からの歩行サポートにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">60代からは、アーチサポートと衝撃吸収で毎日の歩行を支えるインソールが向いています。ピットソールはXS〜L（21〜27.5cm）から足長に合わせて選べてカット調整も可能です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">60代からは、アーチサポートと衝撃吸収で毎日の歩行を支えるインソールが向いています。ピットソールはXS〜XL（21〜29cm・XLはブラック/ピンク限定）から足長に合わせて選べてカット調整も可能です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

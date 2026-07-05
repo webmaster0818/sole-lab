@@ -54,7 +54,7 @@ const reviewStructuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-04-08",
+  dateModified: "2026-07-05",
 };
 
 const faqStructuredData = {
@@ -82,7 +82,7 @@ const faqStructuredData = {
       name: "男性でも使用できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、男女兼用です。フリーサイズで、はさみでカットしてサイズ調整が可能なため、男性の靴にも対応できます。",
+        text: "スリムアップインソールは公式サイトでS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズから選ぶ選択式です（公式サイトにて2026年7月確認）。最大26.5cmまで対応しているため、足のサイズが26.5cm以内であれば男性でも使用できます。サイズ選びは足の実寸を基準にしましょう。",
       },
     },
     {
@@ -800,15 +800,15 @@ export default function SlimUpInsolePage() {
               サイズの選び方
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed mb-3">
-              スリムアップインソールはフリーサイズで、はさみでカットしてお手持ちの靴に合わせることができます。以下の手順で正しくサイズ調整してください。
+              スリムアップインソールは公式サイトでS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズから選ぶ選択式です（公式サイトにて2026年7月確認）。以下の手順でサイズを選びましょう。
             </p>
             <ol className="space-y-3">
               {[
-                "お手持ちの靴の中敷きを取り出し、スリムアップインソールの上に重ねます",
-                "中敷きの形に合わせて、ペンでガイドラインを引きます",
-                "ガイドラインに沿って、はさみでカットします",
-                "カット後に靴に入れて、フィット感を確認します",
-                "微調整が必要な場合は、少しずつカットして仕上げます",
+                "かかとからつま先まで、足の実寸を測ります",
+                "実寸が23.0〜24.5cmならSサイズ、25.0〜26.5cmならMサイズを選びます",
+                "対応範囲の境目で迷う場合は、購入前に公式サイトのサイズ案内を確認します",
+                "靴の元の中敷きが取り外せる場合は、外してから入れます",
+                "靴に入れてフィット感を確認し、違和感がないかチェックします",
               ].map((step, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <span className="shrink-0 w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold">
@@ -977,7 +977,7 @@ export default function SlimUpInsolePage() {
             {
               question: "男性でも使用できますか？",
               answer:
-                "はい、男女兼用です。フリーサイズで、はさみでカットしてサイズ調整が可能なため、男性の靴にも対応できます。",
+                "スリムアップインソールは公式サイトでS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズから選ぶ選択式です（公式サイトにて2026年7月確認）。最大26.5cmまで対応しているため、足のサイズが26.5cm以内であれば男性でも使用できます。サイズ選びは足の実寸を基準にしましょう。",
             },
             {
               question: "パンプスやヒールの靴にも使えますか？",
@@ -1104,7 +1104,7 @@ export default function SlimUpInsolePage() {
             </Link>
             <Link href="/articles/slimup-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールのサイズ選び・使い方ガイド</p>
-              <p className="text-xs text-gray-500 mt-1">フリーサイズのカット方法と効果的な使い方を解説</p>
+              <p className="text-xs text-gray-500 mt-1">S/M 2サイズの選び方と効果的な使い方を解説</p>
             </Link>
             <Link href="/articles/slimup-long-review/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソール 長期レビュー（3ヶ月使用）</p>

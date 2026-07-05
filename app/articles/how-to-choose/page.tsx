@@ -492,7 +492,7 @@ export default function HowToChoosePage() {
               <ul className="space-y-1 mb-3">
                 {[
                   "整体師監修の骨盤補整設計",
-                  "薄型でパンプスやローファーにも対応",
+                  "足に直接装着するソックス型（M/L・22.5〜25cmの女性向けサイズ）",
                   "美姿勢サポートに特化した設計",
                   "靴を選ばない汎用性の高さ",
                 ].map((point) => (
@@ -509,7 +509,7 @@ export default function HowToChoosePage() {
               </ul>
               <div className="flex flex-wrap gap-3 text-sm mb-3">
                 <span className="text-gray-500">
-                  価格：<span className="text-gray-900 font-medium">4,378円（税込）〜</span>
+                  価格：<span className="text-gray-900 font-medium">6,980円（税込）〜</span>
                 </span>
                 <span className="text-gray-500">
                   おすすめ：<span className="text-gray-900 font-medium">おしゃれな靴でも使いたい方</span>
@@ -529,10 +529,10 @@ export default function HowToChoosePage() {
               </h3>
               <ul className="space-y-1 mb-3">
                 {[
-                  "2,178円〜の手頃な価格設定",
+                  "3足+1足セットなら1足あたり4,480円のコスパ",
                   "初めてのダイエットインソールに最適",
                   "傾斜設計で自然と筋肉を刺激",
-                  "男女兼用の豊富なサイズ展開",
+                  "S/M（23.0〜26.5cm）の2サイズ展開",
                 ].map((point) => (
                   <li
                     key={point}
@@ -547,7 +547,7 @@ export default function HowToChoosePage() {
               </ul>
               <div className="flex flex-wrap gap-3 text-sm mb-3">
                 <span className="text-gray-500">
-                  価格：<span className="text-gray-900 font-medium">2,178円（税込）〜</span>
+                  価格：<span className="text-gray-900 font-medium">6,980円（税込）〜</span>
                 </span>
                 <span className="text-gray-500">
                   おすすめ：<span className="text-gray-900 font-medium">まずは気軽に試したい方</span>

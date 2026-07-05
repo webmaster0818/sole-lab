@@ -30,7 +30,7 @@ const faqStructuredData = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "インソールをプレゼントする場合、サイズはどう選べば良いですか？", acceptedAnswer: { "@type": "Answer", text: "カットしてサイズ調整できるインソールを選ぶのがベストです。相手の靴のサイズがわかれば該当するサイズを、わからない場合は大きめのサイズを選んでおけば、相手自身でカット調整できます。ピットソールはXS〜Lの4サイズ展開で、カットラインも印刷されているためプレゼントに最適です。" } },
+    { "@type": "Question", name: "インソールをプレゼントする場合、サイズはどう選べば良いですか？", acceptedAnswer: { "@type": "Answer", text: "カットしてサイズ調整できるインソールを選ぶのがベストです。相手の靴のサイズがわかれば該当するサイズを、わからない場合は大きめのサイズを選んでおけば、相手自身でカット調整できます。ピットソールはXS〜XLの5サイズ展開（21〜29cm・XLはブラック/ピンク限定）で、カットラインも印刷されているためプレゼントに最適です。" } },
     { "@type": "Question", name: "インソールのプレゼントは失礼にあたりませんか？", acceptedAnswer: { "@type": "Answer", text: "健康や快適さへの気遣いとして贈れば、失礼にはあたりません。「足の疲れが気になると言っていたので」「健康のためにぜひ使ってみて」など、相手を思いやるメッセージを添えると好印象です。ただし、体型に関する指摘と受け取られないよう、ダイエット効果を前面に出すのは避けましょう。" } },
     { "@type": "Question", name: "予算はどのくらいが適切ですか？", acceptedAnswer: { "@type": "Answer", text: "インソールのプレゼントとしては3,000〜8,000円程度が一般的です。1足なら3,000〜5,000円、まとめ買い割引を活用した2足セットなら6,000〜8,000円程度です。日常的に使えるものなので、コストパフォーマンスが良い贈り物と言えます。" } },
     { "@type": "Question", name: "どんな方にインソールのプレゼントが喜ばれますか？", acceptedAnswer: { "@type": "Answer", text: "立ち仕事をしている方、よく歩く方、足腰の疲れを訴えている方、健康意識の高い方に特に喜ばれます。また、ゴルフや登山などのスポーツを趣味にしている方への贈り物としても最適です。40代以上の方は足のトラブルが増える年代のため、予防的なプレゼントとして好評です。" } },
@@ -144,7 +144,7 @@ export default function GiftInsolePage() {
           <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">プレゼントに最も適しているのがピットソールです。男女兼用で4サイズ展開（21〜27.5cm）のため、相手の性別を問わず贈れます。カットラインが印刷されており、もらった方が自分でサイズ調整できるのもギフトとして安心なポイント。まとめ買い割引を活用すれば、2足セットでお得に贈れます。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">プレゼントに最も適しているのがピットソールです。XS〜XLの5サイズ展開（21〜29cm、公式サイトにて2026年7月確認）のため、相手の性別を問わず贈れます。カットラインが印刷されており、もらった方が自分でサイズ調整できるのもギフトとして安心なポイント。まとめ買い割引を活用すれば、2足セットでお得に贈れます。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>男女兼用で誰にでも贈りやすい</span></li>
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>カットライン付きでサイズ調整が簡単</span></li>
@@ -168,10 +168,10 @@ export default function GiftInsolePage() {
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 3</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">スリムアップインソール（Slim Up Insole）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美容整体師監修という専門家のお墨付きが、プレゼントとしての説得力を高めます。正しい重心移動を促す設計で、「健康的に歩く」ことをサポート。男女兼用なので、ご夫婦やカップルでペア使いもおすすめです。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美容整体師監修という専門家のお墨付きが、プレゼントとしての説得力を高めます。正しい重心移動を促す設計で、「健康的に歩く」ことをサポート。サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズのため、贈る相手の足の実寸に合うかを確認して選びましょう。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師監修の信頼感がギフトに最適</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>男女兼用でペア使いもおすすめ</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>S/Mの2サイズ・抗菌防臭仕様</span></li>
               <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>健康的な歩行をサポートする設計</span></li>
             </ul>
             <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
@@ -227,7 +227,7 @@ export default function GiftInsolePage() {
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールをプレゼントする場合、サイズはどう選べば良いですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">カットしてサイズ調整できるインソールを選ぶのがベストです。相手の靴のサイズがわかれば該当するサイズを、わからない場合は大きめのサイズを選んでおけば、相手自身でカット調整できます。ピットソールはXS〜Lの4サイズ展開で、カットラインも印刷されているためプレゼントに最適です。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">カットしてサイズ調整できるインソールを選ぶのがベストです。相手の靴のサイズがわかれば該当するサイズを、わからない場合は大きめのサイズを選んでおけば、相手自身でカット調整できます。ピットソールはXS〜XLの5サイズ展開（21〜29cm・XLはブラック/ピンク限定）で、カットラインも印刷されているためプレゼントに最適です。</div>
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールのプレゼントは失礼にあたりませんか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>

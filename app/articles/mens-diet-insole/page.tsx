@@ -46,12 +46,12 @@ const faqs = [
   {
     question: "ビジネスシューズにダイエットインソールは入りますか？",
     answer:
-      "多くのダイエットインソールはビジネスシューズに対応しています。ただし、靴の中が狭いタイプのビジネスシューズでは窮屈に感じる場合があります。元の中敷きを外してからインソールを入れると、スペースを確保しやすくなります。スリムアップインソールのフリーサイズは靴に合わせてカットできるため、ビジネスシューズとの相性が良いです。",
+      "多くのダイエットインソールはビジネスシューズに対応しています。ただし、靴の中が狭いタイプのビジネスシューズでは窮屈に感じる場合があります。元の中敷きを外してからインソールを入れると、スペースを確保しやすくなります。なお、スリムアップインソールはS（23.0〜24.5cm）/M（25.0〜26.5cm）の2サイズ展開です（公式サイトにて2026年7月確認）。",
   },
   {
     question: "男性向けのダイエットインソールでサイズが合わない場合はどうすればいいですか？",
     answer:
-      "ピットソールはXS〜Lの4サイズ展開で28cmまで対応しています。スリムアップインソールはフリーサイズでカットして調整可能です。28cm以上の方はスリムアップインソールが最も対応しやすいです。なお、ランウェイキュアソールは22.5〜25.0cmの女性向けのため、男性には対応していません。",
+      "ピットソールはXS〜XLの5サイズ展開で最大29cmまで対応しています（XLはブラック・ピンク限定。公式サイトにて2026年7月確認）。スリムアップインソールはS（23.0〜24.5cm）/M（25.0〜26.5cm）の2サイズで、28cm以上には対応していません。28cm以上の方はピットソールのXL（28〜29cm）が選択肢になります。なお、ランウェイキュアソールは22.5〜25.0cmの女性向けのため、男性には対応していません。",
   },
   {
     question: "男性がダイエットインソールで痩せるにはどのくらいかかりますか？",
@@ -220,15 +220,15 @@ export default function MensDietInsolePage() {
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-medium">ピットソール</td>
                     <td className="py-3 px-4 text-emerald-600 font-bold">&#10003; 対応</td>
-                    <td className="py-3 px-4 text-gray-700">XS〜L（4サイズ）</td>
-                    <td className="py-3 px-4 text-gray-700">21.0〜28.0cm</td>
+                    <td className="py-3 px-4 text-gray-700">XS〜XL（5サイズ）</td>
+                    <td className="py-3 px-4 text-gray-700">21.0〜29.0cm ※XLはブラック・ピンク限定</td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">◎</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-medium">スリムアップインソール</td>
                     <td className="py-3 px-4 text-emerald-600 font-bold">&#10003; 対応</td>
-                    <td className="py-3 px-4 text-gray-700">フリーサイズ（カット式）</td>
-                    <td className="py-3 px-4 text-gray-700">制限なし</td>
+                    <td className="py-3 px-4 text-gray-700">S・M（2サイズ）</td>
+                    <td className="py-3 px-4 text-gray-700">23.0〜26.5cm ※28cm以上は非対応</td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">◎</td>
                   </tr>
                   <tr className="border-b border-gray-100">
@@ -273,7 +273,7 @@ export default function MensDietInsolePage() {
                 </span>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                男性向けにも最もおすすめなのがピットソールです。世界特許取得の3つのアーチサポートと筑波大学との共同研究による科学的根拠は、他の追随を許しません。XS〜Lの4サイズ展開で28cmまで対応しており、ビジネスシューズにもフィットします。
+                男性向けにも最もおすすめなのがピットソールです。世界特許取得の3つのアーチサポートと筑波大学との共同研究による科学的根拠は、他の追随を許しません。XS〜XLの5サイズ展開で最大29cmまで対応しており（XLはブラック・ピンク限定、公式サイトにて2026年7月確認）、ビジネスシューズにもフィットします。
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4">
                 <div>
@@ -282,11 +282,11 @@ export default function MensDietInsolePage() {
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">セット最安値</span>
-                  <span className="text-[#c9a76c] font-bold">4,378円/足</span>
+                  <span className="text-[#c9a76c] font-bold">4,026円/足（6足セット時）</span>
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">サイズ</span>
-                  <span className="text-gray-900 font-medium">21.0〜28.0cm</span>
+                  <span className="text-gray-900 font-medium">21.0〜29.0cm</span>
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">ビジネス靴</span>
@@ -311,7 +311,7 @@ export default function MensDietInsolePage() {
                 </span>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                フリーサイズでカットして調整するため、どんなサイズの男性にも対応。美容整体師・井上剛志氏監修の骨格筋アプローチは男女共通で効果を発揮します。3足セット+1足プレゼントのコスパの良さも魅力。
+                S（23.0〜24.5cm）/M（25.0〜26.5cm）の2サイズ展開で、26.5cmまでの男性に対応（公式サイトにて2026年7月確認）。美容整体師・井上剛志氏監修の骨格筋アプローチは男女共通で効果を発揮します。3足セット+1足プレゼントのコスパの良さも魅力。
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4">
                 <div>
@@ -324,7 +324,7 @@ export default function MensDietInsolePage() {
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">サイズ</span>
-                  <span className="text-gray-900 font-medium">フリー（カット式）</span>
+                  <span className="text-gray-900 font-medium">23.0〜26.5cm</span>
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">ビジネス靴</span>
@@ -473,7 +473,7 @@ export default function MensDietInsolePage() {
               },
               {
                 title: "サイズが大きい場合の対処法",
-                desc: "28cm以上の方はピットソールのLサイズ（26.0〜28.0cm）かスリムアップインソールのフリーサイズが選択肢になります。29cm以上の方はスリムアップインソール一択。カットの際は慎重に調整しましょう。",
+                desc: "28cm以上の方はピットソールのXLサイズ（28.0〜29.0cm・ブラック/ピンク限定）が選択肢になります（公式サイトにて2026年7月確認）。スリムアップインソールは最大26.5cmのため28cm以上には対応していません。29cmを超える方は、大きめサイズに対応した市販インソールを検討しましょう。",
               },
             ].map((item) => (
               <div key={item.title} className="bg-white border border-gray-200 rounded-xl p-5">
@@ -509,12 +509,12 @@ export default function MensDietInsolePage() {
                 <tbody>
                   {[
                     { item: "科学的根拠", p: "◎ 世界特許+臨床データ", s: "○ 整体師監修" },
-                    { item: "サイズ対応", p: "○ 28.0cmまで", s: "◎ フリーサイズ" },
+                    { item: "サイズ対応", p: "◎ 29.0cmまで（XLは色限定）", s: "○ 26.5cmまで" },
                     { item: "ビジネス靴対応", p: "◎", s: "◎" },
-                    { item: "コスパ（セット）", p: "○ 4,378円/足", s: "○ 4,480円/足" },
+                    { item: "コスパ（セット）", p: "○ 4,026円/足（6足セット）", s: "○ 4,480円/足" },
                     { item: "抗菌防臭", p: "○", s: "◎ 抗菌防臭加工" },
                     { item: "耐久性", p: "○", s: "○" },
-                    { item: "おすすめタイプ", p: "エビデンス重視", s: "コスパ・サイズ重視" },
+                    { item: "おすすめタイプ", p: "エビデンス・サイズ重視", s: "コスパ重視（26.5cmまで）" },
                   ].map((row) => (
                     <tr key={row.item} className="border-b border-gray-100">
                       <td className="py-3 px-4 text-gray-900 font-medium">{row.item}</td>
