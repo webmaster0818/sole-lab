@@ -36,6 +36,35 @@ const PRODUCTS: Record<
   },
 };
 
+// 結果別の関連記事（1診断あたりのCV接点を増やす・全slug実在確認済み）
+const RELATED: Record<Key, { href: string; label: string }[]> = {
+  pitsole: [
+    { href: "/pitsole/price/", label: "ピットソールの料金・セット構成（公式現行）" },
+    { href: "/pitsole/size/", label: "ピットソールのサイズ選び・XS〜XL全サイズ" },
+  ],
+  runway: [
+    { href: "/articles/runway-size-guide/", label: "ランウェイのサイズ選び（M/L・ソックス型）" },
+    { href: "/articles/runway-coupon/", label: "ランウェイの料金・お得な買い方" },
+  ],
+  slimup: [
+    { href: "/articles/slimup-guide/", label: "スリムアップの選び方・S/Mサイズガイド" },
+    { href: "/articles/slimup-coupon/", label: "スリムアップの料金・セットのコスパ" },
+  ],
+};
+
+// 1位×2位の組み合わせ→比較ページ（併用・比較のCV接点）
+const COMPARE: Record<string, { href: string; label: string }> = {
+  "pitsole|runway": { href: "/compare/pitsole-vs-runway/", label: "ピットソール × ランウェイを徹底比較" },
+  "pitsole|slimup": { href: "/compare/pitsole-vs-slimup/", label: "ピットソール × スリムアップを徹底比較" },
+  "runway|slimup": { href: "/compare/runway-vs-slimup/", label: "ランウェイ × スリムアップを徹底比較" },
+};
+
+const SECOND_REASON: Record<Key, string> = {
+  pitsole: "効果・実績を最優先するなら、次の比較候補としてピットソールも検討する価値があります。",
+  runway: "薄型で靴を選ばない使い心地や美姿勢サポートを求めるなら、ランウェイキュアソールも候補になります。",
+  slimup: "まず手頃に始めたい・コスパを重視するなら、スリムアップインソールも候補になります。",
+};
+
 const QUESTIONS: {
   q: string;
   options: { label: string; scores: Partial<Record<Key, number>> }[];
@@ -111,8 +140,13 @@ export default function Diagnosis() {
   };
 
   const done = step >= QUESTIONS.length;
-  const best = (Object.keys(scores) as Key[]).sort((a, b) => scores[b] - scores[a])[0];
+  const ranked = (Object.keys(scores) as Key[]).sort((a, b) => scores[b] - scores[a]);
+  const best = ranked[0];
+  const second = ranked[1];
   const result = PRODUCTS[best];
+  const secondProduct = PRODUCTS[second];
+  const compareKey = [best, second].sort().join("|");
+  const compare = COMPARE[compareKey];
 
   if (done) {
     return (
@@ -142,6 +176,41 @@ export default function Diagnosis() {
             この結果を共有する（結果ページを開く）
           </Link>
         </div>
+
+        {/* 2製品目の候補（比較でCV接点を1→2に） */}
+        <div className="mt-6 rounded-xl border border-[#f3e0e4] bg-[#fdf7f8] p-5 text-left">
+          <p className="text-xs font-semibold text-gray-500">迷ったら、次の候補と比べる</p>
+          <p className="mt-1 text-base font-bold" style={{ color: secondProduct.accent }}>
+            {secondProduct.name}
+          </p>
+          <p className="mt-1 text-sm text-gray-600">{secondProduct.tagline}</p>
+          <p className="mt-2 text-sm text-gray-700 leading-relaxed">{SECOND_REASON[second]}</p>
+          <div className="mt-3 flex flex-col sm:flex-row gap-2">
+            {compare && (
+              <Link href={compare.href} className="text-sm font-semibold underline" style={{ color: result.accent }}>
+                {compare.label}
+              </Link>
+            )}
+            <Link href={secondProduct.href} className="text-sm text-gray-500 underline hover:text-gray-700">
+              {secondProduct.name}を詳しく見る
+            </Link>
+          </div>
+        </div>
+
+        {/* 結果別の関連記事 */}
+        <div className="mt-5 text-left">
+          <p className="text-xs font-semibold text-gray-500 mb-2">あわせて読みたい</p>
+          <ul className="space-y-1.5">
+            {RELATED[best].map((r) => (
+              <li key={r.href}>
+                <Link href={r.href} className="text-sm text-gray-600 underline hover:text-gray-800">
+                  {r.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <button
           type="button"
           onClick={reset}
