@@ -20,7 +20,7 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-07",
 };
 
 const faqs = [{"q": "幅広の靴にもインソールは入りますか？", "a": "はい。元の中敷きと入れ替えるタイプなら、幅広の靴でも窮屈になりにくく使えます。前足部にゆとりのある設計を選びましょう。"}, {"q": "足の幅が広いのはなぜですか？", "a": "横アーチの低下による開張足が一因のことがあります。横アーチを支えるインソールは、広がりの進行を抑える補助になります。"}, {"q": "甲高でもインソールは使えますか？", "a": "薄型のインソールを選び、必要なら元の中敷きを外して厚みを調整すれば、甲高の方でも窮屈になりにくく使えます。"}, {"q": "幅広靴にインソールを入れると窮屈になりませんか？", "a": "元から入っている中敷きを取り出してから敷き直せば、足を入れるスペースは元に近く保てます。中敷きを重ねるとその分だけ容積が減るため、入れ替えて使うのが基本です。厚みが気になる場合は薄型を選ぶと圧迫を抑えられます。"}, {"q": "3Eや4Eの靴でもインソールは使えますか？", "a": "使えます。ウィズ（3E・4Eなどの足囲表記）は靴側の幅の規格で、インソールの可否を直接決めるものではありません。靴の中敷きと交換できるタイプであれば、ウィズの広い靴にも合わせやすくなります。"}];
@@ -111,6 +111,35 @@ export default function WideShoesPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500">※評価はユーザーの口コミ傾向をもとにした編集部独自の目安です。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">3製品のサイズ対応（幅広・甲高の方の選び方）</h2>
+          <div className="rounded-xl bg-[#fff7ed] border border-[#fed7aa] p-4 mb-6">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+              まず前提として、<strong>ダイエットインソール3製品は「足の幅」ではなく「足長（cm）」でサイズ展開しています</strong>。幅（ワイズ）別の展開はありません。そのため幅広・甲高の方は、<strong>①薄型を選んで靴内の余裕を確保する ②3E以上のワイズの靴と組み合わせる ③つま先側をカット調整する</strong>のが基本になります。各製品の足長サイズは以下のとおりです（いずれも公式サイトにて2026年7月確認）。
+            </p>
+          </div>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-200 rounded-xl">
+              <thead>
+                <tr className="bg-[#f0f9ff] text-gray-900">
+                  <th className="p-3 text-left border-b border-gray-200">商品</th>
+                  <th className="p-3 text-left border-b border-gray-200">サイズ展開（足長）</th>
+                  <th className="p-3 text-left border-b border-gray-200">厚み・幅広向きか</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-700">
+                <tr><td className="p-3 border-b border-gray-200 font-medium">ピットソール</td><td className="p-3 border-b border-gray-200">XS〜XLの5サイズ・21〜29cm（XLはブラック/ピンク限定）</td><td className="p-3 border-b border-gray-200">サイズ幅が最も広く、大きめの足にも対応。カット調整可。しっかりしたアーチ構造のため薄すぎはしない</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium">ランウェイキュアソール</td><td className="p-3 border-b border-gray-200">M（22.5〜23.5cm）/ L（24.0〜25.0cm）の2サイズ・女性向け</td><td className="p-3 border-b border-gray-200">足に直接装着するソックス型。靴の中敷きを増やさないため、幅広・甲高で靴内がきつい方にも干渉しにくい</td></tr>
+                <tr><td className="p-3 font-medium">スリムアップインソール</td><td className="p-3">S（23.0〜24.5cm）/ M（25.0〜26.5cm）の2サイズ</td><td className="p-3">EVA/PE素材でつま先側のカット調整が可能。厚みは控えめで靴内を圧迫しにくい</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-2">
+            足長が26.5cmを超える方はスリムアップ（最大26.5cm）・ランウェイ（最大25.0cm）は対応外となるため、<strong>最大29cmまで対応するピットソール</strong>が選択肢になります。自分に合う1足は<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">無料診断</Link>でも確認できます。
+          </p>
+          <p className="text-xs text-gray-500">※サイズは足長基準の公式表記です。幅（ワイズ）は靴側で調整し、インソールは薄さ・カットで合わせるのが基本です。</p>
         </section>
 
         <section className="mb-12">
