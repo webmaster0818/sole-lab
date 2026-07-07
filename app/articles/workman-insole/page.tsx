@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-07",
 };
 
-const faqs = [{"q": "ワークマンのインソールでダイエットできますか？", "a": "ワークマン品は主に疲れ軽減・衝撃吸収向けで、ダイエット専用設計ではありません。姿勢・歩き方を整えるダイエット目的には専用品が向いています。"}, {"q": "立ち仕事の疲れ対策には十分ですか？", "a": "はい。コスパよく衝撃吸収や疲労軽減に対応できるため、立ち仕事や作業の疲れ対策には十分実用的です。"}, {"q": "専用ダイエットインソールとの一番の違いは？", "a": "目的の違いです。ワークマン品は疲れ軽減重視、ダイエットインソールは姿勢・歩行を整えて使う筋肉を増やす設計です。"}, {"q": "ワークマンのインソールの価格や取り扱いを知りたいです。", "a": "商品ラインナップ・価格・在庫は時期や店舗で変わります。最新の取り扱いは、お近くの店舗または公式オンラインストアで確認するのが確実です。"}, {"q": "サイズが合わないときはどうすればいいですか？", "a": "多くの汎用インソールはカット線が入っており、靴の中敷きに合わせてハサミで微調整できます。切りすぎを防ぐため、少しずつ調整するのがおすすめです。"}];
+const faqs = [{"q": "ワークマンのインソールでダイエットできますか？", "a": "ワークマン品は主に疲れ軽減・衝撃吸収向けで、ダイエット専用設計ではありません。姿勢・歩き方を整えるダイエット目的には専用品が向いています。"}, {"q": "立ち仕事の疲れ対策には十分ですか？", "a": "はい。コスパよく衝撃吸収や疲労軽減に対応できるため、立ち仕事や作業の疲れ対策には十分実用的です。"}, {"q": "専用ダイエットインソールとの一番の違いは？", "a": "目的の違いです。ワークマン品は疲れ軽減重視、ダイエットインソールは姿勢・歩行を整えて使う筋肉を増やす設計です。"}, {"q": "ワークマンのインソールの価格や取り扱いを知りたいです。", "a": "商品ラインナップ・価格・在庫は時期や店舗で変わります。最新の取り扱いは、お近くの店舗または公式オンラインストアで確認するのが確実です。"}, {"q": "サイズが合わないときはどうすればいいですか？", "a": "多くの汎用インソールはカット線が入っており、靴の中敷きに合わせてハサミで微調整できます。切りすぎを防ぐため、少しずつ調整するのがおすすめです。"}, {"q": "ワークマンとダイエットインソール3製品では価格帯はどのくらい違いますか？", "a": "ワークマンのインソールは低価格帯で手に取りやすいのが特長です（具体的な価格は店舗・公式で確認してください）。一方でダイエット目的の3製品は、単品でピットソールが6,578円、ランウェイキュアソールとスリムアップインソールが各6,980円です（いずれも2026年7月時点の公式確認値）。目的が『疲れ軽減』か『姿勢・骨格アプローチ』かで価格帯が変わります。"}, {"q": "アーチサポートで選ぶならどちらがよいですか？", "a": "しっかりしたアーチサポートで姿勢や歩き方を整えたいなら、専用設計の3製品が向いています。ワークマンの汎用インソールはクッション・衝撃吸収が中心で、姿勢改善を主目的にした設計ではありません。ただし外反母趾や扁平足など足のトラブルがある場合は、痛みが強ければ整形外科に相談してください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -128,6 +128,46 @@ export default function WorkmanPage() {
             <li><span className="font-bold">靴の中のムレ・ニオイが気になる：</span>防臭・通気タイプを。汗の多い季節や長時間着用する靴に向きます。</li>
             <li><span className="font-bold">姿勢・歩き方を整えてダイエットにつなげたい：</span>アーチサポートなどを備えた専用設計のダイエットインソールが目的に合います。</li>
           </ul>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ワークマンとダイエットインソール3製品の違い（価格・目的・アーチサポート）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「ワークマンの安いインソールで代用できないの？」という疑問に、正直に棲み分けを整理します。結論から言うと、両者は<span className="font-bold">価格帯も設計思想も別物</span>です。ワークマンは作業・立ち仕事向けの安価なクッション系、ダイエットインソール3製品は姿勢や骨格へアプローチする専用設計で、どちらが上ということではなく<span className="font-bold">目的で選ぶもの</span>です。</p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-200 rounded-xl">
+              <thead>
+                <tr className="bg-[#f0f9ff] text-gray-900">
+                  <th className="p-3 text-left border-b border-gray-200">項目</th>
+                  <th className="p-3 text-left border-b border-gray-200">ワークマンの汎用インソール</th>
+                  <th className="p-3 text-left border-b border-gray-200">ダイエットインソール3製品</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-700">
+                <tr><td className="p-3 border-b border-gray-200 font-medium">主な目的</td><td className="p-3 border-b border-gray-200">作業・立ち仕事の疲れ軽減、衝撃吸収、防臭</td><td className="p-3 border-b border-gray-200">姿勢・歩き方を整えるボディメイクのサポート</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium">アーチサポート</td><td className="p-3 border-b border-gray-200">クッション・衝撃吸収が中心（姿勢矯正が主目的ではない）</td><td className="p-3 border-b border-gray-200">アーチ設計で足元を安定させ姿勢へアプローチ</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium">価格帯（単品）</td><td className="p-3 border-b border-gray-200">低価格帯（価格は店舗・公式で確認）</td><td className="p-3 border-b border-gray-200">6,578〜6,980円（下表参照・2026年7月公式確認）</td></tr>
+                <tr><td className="p-3 font-medium">向いている人</td><td className="p-3">とにかく安く疲れを抑えたい・作業靴に入れたい</td><td className="p-3">姿勢や歩き方を整えてダイエットにつなげたい</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ダイエットインソール3製品の単品価格とサイズ展開は次のとおりです（いずれも2026年7月時点の公式確認値。最新の価格・在庫は各公式サイトでご確認ください）。</p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-200 rounded-xl">
+              <thead>
+                <tr className="bg-[#f0f9ff] text-gray-900">
+                  <th className="p-3 text-left border-b border-gray-200">製品</th>
+                  <th className="p-3 text-left border-b border-gray-200">単品価格</th>
+                  <th className="p-3 text-left border-b border-gray-200">サイズ展開</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-700">
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">6,578円</td><td className="p-3 border-b border-gray-200">XS〜XL</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">6,980円</td><td className="p-3 border-b border-gray-200">M／L（足に直接履くソックス型）</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">6,980円</td><td className="p-3">S／M</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">ワークマンは「まず安く試したい・作業の疲れ対策」に、3製品は「姿勢・歩き方を整えてダイエットに取り組みたい」場合に向きます。自分に合う一足を診断で確かめたい方は<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソール診断</Link>、比較で選びたい方は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。安さで選ぶなら<Link href="/articles/cheap-insole/" className="text-[#e8627c] underline font-medium">コスパの良いインソール</Link>、スポーツ用品店での取り扱いは<Link href="/articles/sports-shop-insole/" className="text-[#e8627c] underline font-medium">スポーツ用品店のインソール</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">

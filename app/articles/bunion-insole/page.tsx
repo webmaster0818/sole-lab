@@ -35,7 +35,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-16",
-  dateModified: "2026-04-16",
+  dateModified: "2026-07-07",
 };
 
 const faqs = [
@@ -63,6 +63,16 @@ const faqs = [
     question: "外反母趾予防にインソールは効果がありますか？",
     answer:
       "はい、まだ外反母趾になっていない段階でも、横アーチのサポート機能があるインソールを使うことで予防効果が期待できます。特に、立ち仕事が多い方やヒール靴を頻繁に履く方は、横アーチの崩れ（開張足）から外反母趾に進行しやすいため、早めのインソール使用がおすすめです。",
+  },
+  {
+    question: "ここで紹介する3製品は外反母趾の治療用インソールですか？",
+    answer:
+      "いいえ。ピットソール・ランウェイキュアソール・スリムアップインソールは、いずれもダイエット・姿勢サポートを目的とした一般的なインソールで、外反母趾を治療・矯正する医療器具ではありません。横アーチのサポートによって歩行時の負担軽減が期待できる場面はありますが、変形を治すものではない点を理解してご使用ください。痛みが強い・変形が進んでいる場合は、まず整形外科にご相談ください。",
+  },
+  {
+    question: "外反母趾でソックス型のランウェイキュアソールは使えますか？",
+    answer:
+      "ランウェイキュアソールは靴の中敷きではなく足に直接履くソックス型のため、インソールを靴に追加して靴内が窮屈になるタイプではありません。その意味で幅方向の圧迫は起こしにくい形状です。ただし外反母趾への効果を保証するものではなく、履いた状態で母趾の付け根に食い込みや痛みを感じる場合は使用を控えてください。合う靴・合う製品には個人差があります。",
   },
 ];
 
@@ -445,6 +455,71 @@ export default function BunionInsolePage() {
             >
               ダイエットインソールランキングをもっと見る
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 3製品の対応（正直な整理） */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
+            外反母趾に対する3製品の対応（正直な整理）
+          </h2>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8">
+            <p className="text-sm font-bold text-amber-800 mb-1">
+              最初に知っておきたい前提
+            </p>
+            <p className="text-sm text-amber-800 leading-relaxed">
+              ピットソール・ランウェイキュアソール・スリムアップインソールは、いずれも<span className="font-bold">ダイエットや姿勢サポートを目的とした一般的なインソール</span>であり、外反母趾を治療・矯正するための医療器具ではありません。「外反母趾が治る」ものではなく、あくまで歩行時の足元のサポートが役割です。痛みや変形の程度によって向き不向きがあるため、以下は事実ベースの整理としてご覧ください。
+            </p>
+          </div>
+
+          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
+            <p>
+              外反母趾のある方がこうしたインソールを使う場合、共通して意識したいポイントが3つあります。第一に<span className="font-bold">横アーチのサポート</span>があるかどうか。横アーチの崩れ（開張足）は外反母趾と関わりが深いため、横アーチを支える設計は足裏の負担分散に役立ちます。第二に<span className="font-bold">幅方向の圧迫を避ける</span>こと。インソールを靴に追加すると靴内が狭くなり、母趾の付け根を圧迫してかえって痛みが出ることがあります。第三に、<span className="font-bold">痛みが強いときや変形が進んでいるときは整形外科を受診する</span>こと。市販インソールでの自己対応には限界があります。
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            <div className="card">
+              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">
+                ピットソール
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                アーチをサポートする設計で、足裏全体で荷重を受ける構造です。靴に入れて使う中敷きタイプのため、外反母趾のある方は<span className="font-medium">つま先・母趾球まわりが窮屈にならないか</span>を装着後に必ず確認してください。サイズはXS〜XLで足長に合わせて選びます。外反母趾を治すものではなく、歩行時のサポートが役割です。
+              </p>
+            </div>
+            <div className="card">
+              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">
+                ランウェイキュアソール
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                靴の中敷きではなく<span className="font-medium">足に直接履くソックス型</span>で、インソールを靴に追加して靴内を圧迫するタイプではない点が形状上の特徴です。その意味で幅方向の締め付けは起こしにくい一方、母趾の付け根に生地が食い込んで痛みを感じる場合は使用を控えてください。サイズはM／L。ヒール靴自体は外反母趾の負担になり得るため、フラットな靴での使用が無難です。
+              </p>
+            </div>
+            <div className="card">
+              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">
+                スリムアップインソール
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                足裏を刺激する傾斜設計のインソールです。サイズはS／M。外反母趾のある方は、傾斜や素材の硬さが母趾球に合うかを短時間から試し、圧迫感や痛みがないかを確かめてから使用時間を延ばすと安心です。こちらも外反母趾を矯正する製品ではなく、姿勢・歩行のサポートが目的です。
+              </p>
+            </div>
+          </div>
+
+          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-8">
+            <p>
+              いずれの製品も<span className="font-bold">医療的な治療効果を保証するものではなく</span>、合う・合わないには個人差があります。外反母趾の予防や横アーチのケアについては
+              <Link href="/articles/hallux-valgus-prevention/" className="text-[#e8627c] underline font-medium">外反母趾の予防とインソール</Link>
+              、指が地面につかない浮き指が気になる方は
+              <Link href="/articles/floating-toe-insole/" className="text-[#e8627c] underline font-medium">浮き指のインソール</Link>
+              もあわせてご覧ください。自分に合いやすい製品を知りたい方は
+              <Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソール診断</Link>
+              、比較して選びたい方は
+              <Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>
+              が参考になります。痛みが強い場合は自己判断せず整形外科にご相談ください。
+            </p>
           </div>
         </div>
       </section>
