@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-09",
 };
 
-const faqs = [{"q": "開張足はインソールで改善しますか？", "a": "低下した横アーチを支えることで、広がりの進行を抑え前足部の負担を減らす補助になります。完全に元に戻すものではないため、早めの対策と靴の見直しが大切です。"}, {"q": "開張足かどうか確認するには？", "a": "足の幅が以前より広がった、指の付け根の裏にタコができる、足が疲れやすい場合は開張足の傾向です。外反母趾を併発していることも多いです。"}, {"q": "外反母趾とも関係ありますか？", "a": "はい。横アーチの低下（開張足）は外反母趾の主要な要因の一つです。横アーチを支えるインソールは、外反母趾の予防・進行抑制の補助にもなります。"}];
+const faqs = [{"q": "開張足はインソールで改善しますか？", "a": "低下した横アーチを支えることで、広がりの進行を抑え前足部の負担を減らす補助になります。完全に元に戻すものではないため、早めの対策と靴の見直しが大切です。"}, {"q": "開張足かどうか確認するには？", "a": "足の幅が以前より広がった、指の付け根の裏にタコができる、足が疲れやすい場合は開張足の傾向です。外反母趾を併発していることも多いです。"}, {"q": "外反母趾とも関係ありますか？", "a": "はい。横アーチの低下（開張足）は外反母趾の主要な要因の一つです。横アーチを支えるインソールは、外反母趾の予防・進行抑制の補助にもなります。"}, {"q": "開張足は自然に元へ戻りますか？", "a": "一度低下した横アーチが自然に元どおりになることは一般に期待しにくいとされています。そのため、靴の見直し・足指の運動・インソールの併用など『進行を抑える』対策が中心になります。痛みや変形が強い場合は整形外科で相談してください。"}, {"q": "開張足用のインソールはどんな靴にも入れられますか？", "a": "中足骨パッドの分だけ前足部に厚みが加わるため、つま先に余裕のある靴が向いています。もともときついパンプスなどに入れると圧迫が強まることがあります。靴ごとにつま先側をカットしてサイズ調整するのが基本です。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "中足骨パッドで横アーチを支える", "b": "開張足対策の中心は、指の付け根の手前を持ち上げて横アーチを作る中足骨パッドです。位置が合うものを選びましょう。"}, {"t": "前足部のフィットと幅", "b": "足幅が広がっているため、前足部がきつくない設計が大切です。靴も幅広（3E以上）を選ぶと相乗効果があります。"}, {"t": "縦アーチも含めた全体サポート", "b": "横アーチだけでなく内側縦アーチも支えると足全体が安定します。3点支持の設計が理想です。"}];
-const related = [{"href": "/articles/hallux-valgus-prevention/", "label": "外反母趾の予防インソール"}, {"href": "/articles/morton-disease-insole/", "label": "モートン病のインソール"}, {"href": "/articles/flat-feet/", "label": "扁平足のインソール"}, {"href": "/articles/foot-arch/", "label": "足のアーチのチェック"}];
+const related = [{"href": "/articles/hallux-valgus-prevention/", "label": "外反母趾の予防インソール"}, {"href": "/articles/morton-disease-insole/", "label": "モートン病のインソール"}, {"href": "/articles/heel-pain-insole/", "label": "かかとが痛い時のインソール"}, {"href": "/articles/size-adjustment/", "label": "インソールのサイズ調整方法"}, {"href": "/articles/flat-feet/", "label": "扁平足のインソール"}, {"href": "/articles/foot-arch/", "label": "足のアーチのチェック"}];
 
 export default function SplayFootPage() {
   return (
@@ -117,6 +117,32 @@ export default function SplayFootPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴の見直しと早めの対策</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">開張足は進行すると外反母趾やモートン病につながるため、早めの対策が有効です。幅の狭い靴やハイヒールを避け、幅広で足指が動かせる靴に替えましょう。足指のグーパー運動など筋力ケアも効果的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">変形や痛みが進む場合は整形外科で相談し、必要に応じてオーダーメイドの装具を検討してください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">開張足のセルフチェック（一般的な目安）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">次のような項目に当てはまるほど、横アーチが低下している（開張足の傾向がある）可能性があります。あくまで一般的な目安であり、自己診断はできません。確定的な判断や治療は整形外科で受けてください。</p>
+          <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <li>足裏の指の付け根（とくに2〜3趾の下あたり）にタコや角質ができている</li>
+            <li>以前は履けていた靴の幅がきつく感じる、靴の前側だけが型崩れしてくる</li>
+            <li>夕方になると足の前側が張る・疲れる・じんじんする</li>
+            <li>立って足を上から見たとき、指の付け根部分が扇状に広がって見える</li>
+            <li>濡れた足で床に立ったとき、指の付け根のラインが幅広くべったり接地している</li>
+          </ul>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">開張足は<Link href="/articles/morton-disease-insole/" className="text-[#e8627c] underline">モートン病</Link>や外反母趾の背景になることが多い状態です。付け根のしびれや強い痛みがすでにある場合は、インソールでの対策より先に整形外科の受診を優先してください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">進行を抑える生活習慣とインソールの併用</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは履いている間に横アーチを支える補助であり、それだけで開張足が治るわけではありません。一般的には、次のような生活習慣とあわせて使うことで、足への負担を総合的に減らしていく考え方が基本です。</p>
+          <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <li><span className="font-bold">足指を動かす習慣：</span>足指のグーパー運動や、床のタオルを足指でたぐり寄せるタオルギャザーなど、足裏まわりの筋肉を使う運動が一般的に紹介されています</li>
+            <li><span className="font-bold">靴ひもをしっかり締める：</span>甲が固定されないと足が靴の中で前滑りし、指の付け根に荷重が集中しやすくなります</li>
+            <li><span className="font-bold">サイズの合った靴を選ぶ：</span>幅が広がっているからと大きすぎる靴を選ぶと、かえって足が滑って踏ん張りにくくなります。足長・足幅の合った靴＋ヒール控えめが基本です</li>
+            <li><span className="font-bold">長時間の立ちっぱなしを区切る：</span>立ち仕事ではこまめに足踏みや休憩を入れ、前足部への荷重を続けないようにします</li>
+          </ul>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは靴ごとにフィットさせてこそ支えが機能します。カットして合わせる手順は<Link href="/articles/size-adjustment/" className="text-[#e8627c] underline">インソールのサイズ調整方法</Link>を参考にしてください。どのタイプが合うか迷う場合は<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問でわかるタイプ診断</Link>も利用できます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">なお、これらは一般的な工夫であり、効果には個人差があります。痛み・しびれ・変形が強い、悪化していると感じる場合は整形外科で相談してください。</p>
         </section>
 
         <section className="mb-12">

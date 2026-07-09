@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-09",
 };
 
-const faqs = [{"q": "かかとの痛みにインソールは本当に効果がありますか？", "a": "インソールは痛みの根本治療ではありませんが、かかとを安定させ衝撃を分散することで日常の負担を軽減する補助になります。足底腱膜炎などが疑われる場合は、医療機関での診断と並行して使うのがおすすめです。"}, {"q": "朝の一歩目が痛いのですが、どんなインソールが良いですか？", "a": "朝の一歩目の痛みは足底腱膜炎のサインのことが多く、ヒールカップとアーチサポートがしっかりしたインソールが向いています。あわせてふくらはぎ・足裏のストレッチも効果的です。"}, {"q": "市販のインソールと整形外科の装具はどう違いますか？", "a": "整形外科で作る足底装具は個人の足型に合わせたオーダーメイドで、症状が重い場合に適しています。市販インソールは手軽に試せる反面、汎用設計です。まず市販で様子を見て、改善しなければ受診を検討しましょう。"}];
+const faqs = [{"q": "かかとの痛みにインソールは本当に効果がありますか？", "a": "インソールは痛みの根本治療ではありませんが、かかとを安定させ衝撃を分散することで日常の負担を軽減する補助になります。足底腱膜炎などが疑われる場合は、医療機関での診断と並行して使うのがおすすめです。"}, {"q": "朝の一歩目が痛いのですが、どんなインソールが良いですか？", "a": "朝の一歩目の痛みは足底腱膜炎のサインのことが多く、ヒールカップとアーチサポートがしっかりしたインソールが向いています。あわせてふくらはぎ・足裏のストレッチも効果的です。"}, {"q": "市販のインソールと整形外科の装具はどう違いますか？", "a": "整形外科で作る足底装具は個人の足型に合わせたオーダーメイドで、症状が重い場合に適しています。市販インソールは手軽に試せる反面、汎用設計です。まず市販で様子を見て、改善しなければ受診を検討しましょう。"}, {"q": "かかと部分だけのハーフタイプと足全体の全長タイプはどちらが良いですか？", "a": "着地の衝撃をやわらげる目的だけならかかと用ハーフタイプでも補助になりますが、アーチの崩れが痛みに関係している場合は、土踏まずまで支えられる全長タイプが向いています。原因がはっきりしない・痛みが続く場合は整形外科で相談してください。"}, {"q": "立ち仕事でかかとが痛いとき、インソール以外に見直せる点はありますか？", "a": "ソールが薄く硬い靴を避けてクッション性のある靴に替える、同じ靴を毎日履かずローテーションする、硬い床の職場では厚手の靴下やマットを併用する、休憩時にふくらはぎと足裏を伸ばす、といった工夫が一般的です。それでも痛みが続く場合は整形外科を受診してください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "かかとを深く包むヒールカップ", "b": "かかとが横ブレせず安定すると、着地の衝撃が一点に集中しにくくなります。かかと部分が深く立ち上がった『ヒールカップ』構造のインソールを選びましょう。"}, {"t": "土踏まずのアーチサポート", "b": "足底腱膜への張力はアーチの崩れで強まります。内側縦アーチをしっかり支える設計なら、かかと付着部への引っ張りをやわらげる助けになります。"}, {"t": "着地衝撃を吸収するクッション", "b": "かかと部に適度なクッションがあると、硬い床やアスファルトでの衝撃が和らぎます。柔らかすぎず、沈み込みすぎない弾力のある素材が理想です。"}];
-const related = [{"href": "/articles/plantar-fasciitis/", "label": "足底筋膜炎のインソール対策"}, {"href": "/articles/foot-arch/", "label": "足のアーチと崩れのチェック"}, {"href": "/articles/standing-work/", "label": "立ち仕事で疲れないインソール"}, {"href": "/articles/how-to-choose/", "label": "失敗しないインソールの選び方"}];
+const related = [{"href": "/articles/plantar-fasciitis/", "label": "足底筋膜炎のインソール対策"}, {"href": "/articles/morton-disease-insole/", "label": "モートン病のインソール"}, {"href": "/articles/splay-foot-insole/", "label": "開張足のインソール対策"}, {"href": "/articles/size-adjustment/", "label": "インソールのサイズ調整方法"}, {"href": "/articles/foot-arch/", "label": "足のアーチと崩れのチェック"}, {"href": "/articles/standing-work/", "label": "立ち仕事で疲れないインソール"}, {"href": "/articles/how-to-choose/", "label": "失敗しないインソールの選び方"}];
 
 export default function HeelPainPage() {
   return (
@@ -117,6 +117,42 @@ export default function HeelPainPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">使うときの注意点とセルフケア</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れても痛みが2週間以上続く、腫れや熱を伴う場合は足底腱膜炎やかかとの疲労骨折などの可能性があるため、整形外科を受診してください。インソールはあくまで日常の負担軽減の補助です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">あわせて、ふくらはぎと足裏のストレッチ、体重管理、クッション性のある靴選びを行うと、かかとへの負担をさらに減らせます。硬い靴で長距離を歩く習慣がある方はとくに見直しを。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">かかと痛の主な原因別の考え方（一般論）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「かかとのどこが・どんなときに痛むか」によって、負担がかかっている場所の見当と、インソールに求める機能はある程度整理できます。以下は一般的な整理であり、自己診断はできません。実際の診断は整形外科で受けてください。</p>
+          <div className="space-y-4 mb-4">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">足裏のかかと前寄りが痛む・朝の一歩目がつらい</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">足裏のアーチを支える足底腱膜が、かかとの付着部で炎症を起こす「足底腱膜炎（足底筋膜炎）」が代表的な例として知られています。アーチの崩れで腱膜が引っ張られることが背景にあるとされ、インソールではアーチサポートの働きが重視されます。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">かかとの真下を押すと痛い・立ちっぱなしの後に痛む</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">かかとの骨の下にある脂肪組織（ヒールパッド）が、加齢や硬い床での立ち仕事などで衝撃を受け止めきれなくなっているケースが考えられます。この場合はかかとのクッションと、脂肪組織を横に逃がさないヒールカップの安定性が重視されます。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">かかとの後ろ側・アキレス腱の付け根あたりが痛む</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">アキレス腱がかかとに付着する部分への負担や、靴のかかと（ヒールカウンター）との擦れが関係している場合があります。インソールだけでは対処しにくい部位のため、靴のかかと周りの見直しとあわせて、痛みが続くなら早めに受診しましょう。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">成長期の子どもがかかとを痛がる</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">成長期には、かかとの骨の成長部分にスポーツなどの負荷が集中して痛みが出ることがあるとされています。大人と同じ対処を自己判断で行わず、整形外科で相談してください。</p>
+            </div>
+          </div>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">なお、かかとの痛みは<Link href="/articles/splay-foot-insole/" className="text-[#e8627c] underline">開張足</Link>や<Link href="/articles/morton-disease-insole/" className="text-[#e8627c] underline">モートン病</Link>など、足の前側のトラブルと同じ「アーチの崩れ」を背景に持つことがあります。複数の部位が痛む場合も、まず医療機関で全体を診てもらうのが安心です。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">かかとクッションとアーチサポートの使い分け</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">かかと痛向けインソールの機能は、大きく「かかとの衝撃をやわらげるクッション」と「アーチの崩れを支えるサポート」に分けられます。どちらを重視するかの目安は次のとおりです。</p>
+          <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <li><span className="font-bold">クッション（＋ヒールカップ）重視が向くケース：</span>着地のたびにズキッと響く、硬い床での立ち仕事が長い、かかとの真下を押すと痛い——など、衝撃そのものがつらいタイプ</li>
+            <li><span className="font-bold">アーチサポート重視が向くケース：</span>朝の一歩目が痛い、土踏まずがつっぱる感じがある、扁平足ぎみと言われた——など、アーチの崩れによる引っ張りが疑われるタイプ</li>
+            <li><span className="font-bold">迷ったら両方を備えたタイプ：</span>市販インソールの多くはヒールカップ・クッション・アーチサポートを兼ね備えています。素材は一般に、ジェル系は衝撃吸収寄り、やや硬さのある樹脂系は支持力寄りの性格があります</li>
+          </ul>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">どの機能を重視すべきか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問でわかるタイプ診断</Link>も参考になります。また、インソールは靴に正しくフィットしていないとかかとが浮いて逆効果になるため、<Link href="/articles/size-adjustment/" className="text-[#e8627c] underline">サイズ調整の手順</Link>もあわせて確認してください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">いずれの場合も、インソールは負担軽減の補助であり治療ではありません。強い痛み・腫れ・熱っぽさがある、安静にしても改善しない場合は整形外科を受診してください。</p>
         </section>
 
         <section className="mb-12">

@@ -23,7 +23,7 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-07-09",
 };
 
 const faqStructuredData = {
@@ -35,6 +35,8 @@ const faqStructuredData = {
     { "@type": "Question", name: "カットラインの印刷がないインソールはどうやってカットしますか？", acceptedAnswer: { "@type": "Answer", text: "靴に最初から入っている純正中敷きをガイドとして使います。純正中敷きをインソールの上に重ね、輪郭を油性ペンでなぞってカットラインを作ります。純正中敷きとインソールのかかと部分を合わせて重ねるのがポイントです。" } },
     { "@type": "Question", name: "インソールは左右でカットサイズを変えた方が良いですか？", acceptedAnswer: { "@type": "Answer", text: "はい、左右の足のサイズが異なる方は多いため、必ず左右それぞれの靴に合わせてカットしましょう。左右のインソールを間違えないよう、裏面に「左」「右」と印をつけておくと便利です。片方ずつ靴に入れてフィッティングを確認しながらカットしてください。" } },
     { "@type": "Question", name: "カットした断面がボロボロになるのを防ぐ方法はありますか？", acceptedAnswer: { "@type": "Answer", text: "よく切れる新しいハサミを使うことが最も重要です。切れ味の悪いハサミでは断面が毛羽立ちやすくなります。カット後に断面が気になる場合は、目の細かいヤスリやサンドペーパーで軽く整えると、きれいな仕上がりになります。" } },
+    { "@type": "Question", name: "インソールを入れたら靴がきつくなりました。どうすればいいですか？", acceptedAnswer: { "@type": "Answer", text: "純正の中敷きの上に重ねて入れず、中敷きと入れ替えるのが基本です。それでもきつい場合は、薄型タイプのインソールを選ぶ、靴ひもやストラップで甲の締め付けを調整する、より内部に余裕のある靴で使う、といった方法を試してください。無理に押し込むとインソールが波打ち、本来の効果が発揮されません。" } },
+    { "@type": "Question", name: "革靴やパンプスでも自分でカット調整できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。ただし革靴やパンプスは中敷きが接着されて外せないことが多いため、純正中敷きをガイドにする代わりに、靴へ直接入れて当たりを確認しながら2〜3mmずつカットするのが安全です。靴内の空間が小さいパンプスでは、薄型タイプやかかとから土踏まずまでのハーフタイプが向く場合もあります。" } },
   ],
 };
 
@@ -82,8 +84,10 @@ export default function SizeAdjustmentPage() {
             <li><a href="#steps" className="hover:text-[#0ea5e9] transition-colors">3. カットの手順（5ステップ）</a></li>
             <li><a href="#tips" className="hover:text-[#0ea5e9] transition-colors">4. 失敗しないためのコツ</a></li>
             <li><a href="#products" className="hover:text-[#0ea5e9] transition-colors">5. 各製品のカット方法</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">6. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">7. まとめ</a></li>
+            <li><a href="#shoe-types" className="hover:text-[#0ea5e9] transition-colors">6. 靴種別のサイズ調整のコツ</a></li>
+            <li><a href="#refit" className="hover:text-[#0ea5e9] transition-colors">7. 調整してもフィットしない場合の見直し</a></li>
+            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">8. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">9. まとめ</a></li>
           </ol>
         </div>
       </section>
@@ -221,6 +225,46 @@ export default function SizeAdjustmentPage() {
           </div>
         </section>
 
+        <section id="shoe-types" className="mb-14">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴種別のサイズ調整のコツ（スニーカー/革靴/パンプス）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">同じインソールでも、入れる靴のタイプによって調整の勘所が変わります。手持ちの靴に合わせてポイントを押さえましょう。</p>
+
+          <div className="space-y-4">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">スニーカー：純正中敷きガイドの基本手順がそのまま使える</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">スニーカーは中敷きを取り外せるものが多く、この記事の基本手順（純正中敷きをガイドにカット）がそのまま使えます。内部空間にも比較的余裕があるため、初めてのカットに最も向いた靴種です。入れ替えた後は靴ひもをしっかり締めて甲を固定すると、歩行中のインソールのズレを防げます。ランニングなど運動用の場合は、履いて足踏み・軽いジャンプをしてズレやつま先の当たりがないかまで確認しましょう。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">革靴（ビジネスシューズ）：中敷きが外せない前提で「直接合わせ」</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">革靴は中敷きが接着されて外せないことが多いため、純正中敷きガイドの代わりに、インソールを靴へ直接入れて当たる部分を確認しながら2〜3mmずつカットして追い込みます。革靴の内部はスニーカーより細身で、つま先形状もラウンド・スクエア・ポインテッドと靴ごとに異なるため、つま先側は特に慎重に。厚みのあるインソールは甲を圧迫しやすいので、薄型タイプが合わせやすい靴種です。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">パンプス：空間が小さく前滑りしやすい、最も慎重に</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">パンプスは靴内の空間が小さく、カットの許容範囲が最も狭い靴種です。かかとを基準に合わせ、つま先側を少しずつカットして、指が靴の先に押し付けられないかを毎回履いて確認します。全長タイプを入れると甲が窮屈になる場合は、かかとから土踏まずまでのハーフタイプや前足部用の薄いパッドという選択肢もあります。ヒールのあるパンプスは足が前に滑りやすいため、インソール自体が前へずれていないかも定期的にチェックしましょう。</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="refit" className="mb-14">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">調整してもフィットしない場合の見直し</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">手順どおりカットしてもしっくりこない場合、原因はカットの精度ではなく「靴」や「足」の側にあることが少なくありません。次の順で見直してみてください。</p>
+          <div className="space-y-4 mb-6">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">1. 靴自体のサイズ・ワイズ（足囲）が合っているか</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">足長（cm表記）は合っていても、足囲・足幅が靴と合っていないと、インソールをどう調整しても圧迫や隙間は解消しません。かかとを合わせて立ったときに小指の付け根が強く当たる、逆に甲がスカスカする場合は、靴側のサイズ・ワイズの見直しが先です。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">2. 左右差・時間帯によるむくみ</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">左右の足のサイズ差が大きい方は、片足だけフィットしない状態になりがちです。左右それぞれの靴で個別に調整し、フィッティングの確認は足がむくみやすい夕方に行うと失敗が減ります。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">3. 足の状態そのものが変わっていないか</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">横アーチが低下して足幅が広がる<Link href="/articles/splay-foot-insole/" className="text-[#0ea5e9] underline">開張足</Link>のように、足の形の変化が「靴が合わない」の原因になっていることもあります。足指の付け根のしびれ・痛みがあれば<Link href="/articles/morton-disease-insole/" className="text-[#0ea5e9] underline">モートン病の記事</Link>、かかとの痛みがあれば<Link href="/articles/heel-pain-insole/" className="text-[#0ea5e9] underline">かかと痛の記事</Link>も参考にしてください。ただしインソールは医療機器ではないため、痛み・しびれ・変形が続く場合は整形外科での相談を優先しましょう。</p>
+            </div>
+          </div>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">どのタイプのインソールが自分に合うか迷っている段階なら、<Link href="/diagnosis/" className="text-[#0ea5e9] underline font-bold">6つの質問でわかるタイプ診断</Link>から絞り込むのも近道です。フィッティングに不安が残る場合は、シューフィッターのいる靴店で足のサイズ計測を受けるのも有効です。</p>
+        </section>
+
         <section id="faq" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
@@ -243,6 +287,14 @@ export default function SizeAdjustmentPage() {
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">カットした断面がボロボロになるのを防ぐ方法はありますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">よく切れる新しいハサミを使うことが最も重要です。切れ味の悪いハサミでは断面が毛羽立ちやすくなります。カット後に断面が気になる場合は、目の細かいヤスリやサンドペーパーで軽く整えると、きれいな仕上がりになります。</div>
+            </details>
+            <details className="group bg-white border border-gray-200 rounded-lg">
+              <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールを入れたら靴がきつくなりました。どうすればいいですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">純正の中敷きの上に重ねて入れず、中敷きと入れ替えるのが基本です。それでもきつい場合は、薄型タイプのインソールを選ぶ、靴ひもやストラップで甲の締め付けを調整する、より内部に余裕のある靴で使う、といった方法を試してください。無理に押し込むとインソールが波打ち、本来の効果が発揮されません。</div>
+            </details>
+            <details className="group bg-white border border-gray-200 rounded-lg">
+              <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">革靴やパンプスでも自分でカット調整できますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">可能です。ただし革靴やパンプスは中敷きが接着されて外せないことが多いため、純正中敷きをガイドにする代わりに、靴へ直接入れて当たりを確認しながら2〜3mmずつカットするのが安全です。靴内の空間が小さいパンプスでは、薄型タイプやかかとから土踏まずまでのハーフタイプが向く場合もあります。</div>
             </details>
           </div>
         </section>
@@ -275,6 +327,9 @@ export default function SizeAdjustmentPage() {
             <Link href="/articles/washing-guide/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">インソールの洗い方・お手入れガイド</p></Link>
             <Link href="/articles/how-to-choose/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">ダイエットインソールの選び方5つのポイント</p></Link>
             <Link href="/articles/insole-care/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">インソールの寿命と交換タイミング</p></Link>
+            <Link href="/articles/morton-disease-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">モートン病に向くインソールの選び方</p></Link>
+            <Link href="/articles/splay-foot-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">開張足に向くインソールの選び方</p></Link>
+            <Link href="/articles/heel-pain-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">かかとが痛い時のインソールの選び方</p></Link>
             <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"><p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る</p></Link>
           </div>
         </div>
