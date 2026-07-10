@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-10",
 };
 
-const faqs = [{"q": "ハイアーチに扁平足用のインソールは使えますか？", "a": "扁平足用は硬めでアーチを押し上げる設計が多く、ハイアーチには合わないことがあります。ハイアーチには高いアーチを埋めて衝撃を吸収するクッション性重視のタイプが向いています。"}, {"q": "自分がハイアーチか確認する方法は？", "a": "濡れた足で紙に足跡をつけたとき、土踏まず部分がほとんど写らず外側が細くつながる場合はハイアーチの傾向です。気になる場合は整形外科で確認しましょう。"}, {"q": "ハイアーチだと何が起こりやすいですか？", "a": "かかとと指の付け根に体重が集中し、タコ・痛み・疲れやすさ・足首のぐらつきが起こりやすくなります。衝撃を分散するインソールで負担を軽くできます。"}];
+const faqs = [{"q": "ハイアーチに扁平足用のインソールは使えますか？", "a": "扁平足用は硬めでアーチを押し上げる設計が多く、ハイアーチには合わないことがあります。ハイアーチには高いアーチを埋めて衝撃を吸収するクッション性重視のタイプが向いています。"}, {"q": "自分がハイアーチか確認する方法は？", "a": "濡れた足で紙に足跡をつけたとき、土踏まず部分がほとんど写らず外側が細くつながる場合はハイアーチの傾向です。気になる場合は整形外科で確認しましょう。"}, {"q": "ハイアーチだと何が起こりやすいですか？", "a": "かかとと指の付け根に体重が集中し、タコ・痛み・疲れやすさ・足首のぐらつきが起こりやすくなります。衝撃を分散するインソールで負担を軽くできます。"}, {"q": "ハイアーチと開張足は同時に起こりますか？", "a": "起こり得ます。縦アーチが高いハイアーチの方でも、前足部に荷重が集中し続けることで横アーチが低下し、開張足の傾向を併せ持つことがあります。指の付け根のタコはどちらにも共通するサインのため、見た目だけでは区別しにくい場合は整形外科で確認してください。"}, {"q": "ハイアーチはインソールで治りますか？", "a": "インソールは骨格の形そのものを変える治療器具ではありません。あくまで接地面を増やして衝撃や荷重の集中をやわらげる補助です。痛み・しびれ・タコの悪化が続く場合は、整形外科で原因の確認や装具の相談をすることをおすすめします。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "高いアーチを埋めるサポート", "b": "アーチの下の隙間を支えて接地面積を増やせる、アーチ部分がしっかり立ち上がった設計を選びましょう。荷重を足裏全体に分散させます。"}, {"t": "衝撃吸収クッションを重視", "b": "かかと・前足部に衝撃が集中するため、クッション性が高い素材が向いています。扁平足向けの硬めタイプより、弾力のあるものが合います。"}, {"t": "足首を安定させる設計", "b": "ハイアーチは足首がぐらつきやすい傾向があります。ヒールカップで後足部を安定させるものが安心です。"}];
-const related = [{"href": "/articles/flat-feet/", "label": "扁平足のインソール"}, {"href": "/articles/foot-arch/", "label": "足のアーチのチェック"}, {"href": "/articles/corn-callus-insole/", "label": "タコ・魚の目のインソール"}, {"href": "/articles/ankle-pain-insole/", "label": "足首の痛みのインソール"}];
+const related = [{"href": "/articles/splay-foot-insole/", "label": "開張足のインソール"}, {"href": "/articles/flat-feet/", "label": "扁平足のインソール"}, {"href": "/articles/foot-arch/", "label": "足のアーチのチェック"}, {"href": "/articles/corn-callus-insole/", "label": "タコ・魚の目のインソール"}, {"href": "/articles/heel-pain-insole/", "label": "かかとが痛い時のインソール"}, {"href": "/articles/ankle-pain-insole/", "label": "足首の痛みのインソール"}];
 
 export default function HighArchPage() {
   return (
@@ -117,6 +117,29 @@ export default function HighArchPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴選びとケアのポイント</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ハイアーチの方は、クッション性のある靴と組み合わせると効果的です。底が薄く硬い靴は衝撃が直に伝わるため避けましょう。タコや痛みがある部分は無理に削らず、圧の分散を優先します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">痛みやしびれが続く、変形が進む場合は、足の形に合った装具が必要なこともあるため整形外科を受診してください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ハイアーチ（凹足）のセルフチェック（一般的な目安）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">次のような項目に当てはまるほど、土踏まずのアーチが高い（ハイアーチの傾向がある）可能性があります。あくまで一般的な目安であり、自己診断はできません。確定的な判断や治療の要否は整形外科で確認してください。</p>
+          <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <li>濡れた足で床や紙に立ったとき、足跡の土踏まず部分がほとんど写らず、かかとと前足部が細い線でつながる、または途切れて見える</li>
+            <li>立った状態で土踏まずの下に指がすっと入るほど大きな隙間がある</li>
+            <li>甲が高く、靴ひもを緩めないと履き口がきつい・甲が当たって痛い</li>
+            <li>かかとと指の付け根にタコや角質ができやすく、土踏まず部分にはできない</li>
+            <li>靴底のかかと外側と前足部ばかりが極端にすり減る</li>
+            <li>捻挫を繰り返す・足首がぐらつきやすいと感じる</li>
+          </ul>
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
+            <p className="text-sm text-gray-700 leading-relaxed"><span className="font-bold text-amber-700">受診の目安：</span>ハイアーチには生まれつきの足の形によるもののほか、まれに神経や筋肉の病気が背景にある場合もあるとされています。足の変形が進んでいる、痛みやしびれが強い・続く、捻挫を何度も繰り返すといった場合は、インソールでの対策より先に整形外科を受診してください。</p>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">クッション重視の選び方と開張足系との違い</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ハイアーチのインソール選びで軸になるのは「矯正」ではなく「クッションと接地面の確保」です。扁平足向けのように硬い素材でアーチを押し上げる設計は、高いアーチをさらに突き上げて痛みの原因になることがあります。弾力のある素材で高いアーチの下の隙間をやさしく埋め、かかとと前足部に集中する衝撃を吸収・分散するタイプを優先しましょう。ヒールカップで後足部を包んで安定させる設計なら、足首のぐらつき対策にもなります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">混同されやすいのが<Link href="/articles/splay-foot-insole/" className="text-[#e8627c] underline">開張足</Link>です。ハイアーチは「縦アーチが高すぎる」状態、開張足は「横アーチ（指の付け根の横方向のアーチ）が低下して前足部が広がる」状態で、方向の異なる崩れ方です。開張足系には横アーチを支えるパッド設計が向くのに対し、ハイアーチにはクッション重視の設計が向くという違いがあります。一方で、指の付け根のタコ・前足部の痛みという共通のサインが出るうえ、ハイアーチの方が前足部への荷重集中から横アーチの低下を併発することもあります。どちらの傾向か判断がつかない場合は自己判断で決めつけず、整形外科で足の状態を確認してもらうのが確実です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">市販インソールをどれから試すか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問でわかるタイプ診断</Link>も参考にしてください。いずれも足への負担をやわらげる補助であり、効果の感じ方には個人差があります。</p>
         </section>
 
         <section className="mb-12">

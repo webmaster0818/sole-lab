@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-10",
 };
 
-const faqs = [{"q": "インソールでタコ・魚の目は治りますか？", "a": "すでにできたタコ自体を消すものではありませんが、原因である荷重の偏りを整えることで再発を防ぐ補助になります。今あるものは皮膚科でのケアが安全です。"}, {"q": "同じ場所に何度もできます。なぜですか？", "a": "その部分に体重や摩擦が集中しているためです。アーチの崩れや合わない靴が原因のことが多く、インソールと靴の見直しで圧の集中を減らせます。"}, {"q": "魚の目は自分で削っても良いですか？", "a": "芯のある魚の目を自分で削ると傷や感染のリスクがあります。とくに糖尿病など持病のある方は皮膚科で処置を受けてください。"}];
+const faqs = [{"q": "インソールでタコ・魚の目は治りますか？", "a": "すでにできたタコ自体を消すものではありませんが、原因である荷重の偏りを整えることで再発を防ぐ補助になります。今あるものは皮膚科でのケアが安全です。"}, {"q": "同じ場所に何度もできます。なぜですか？", "a": "その部分に体重や摩擦が集中しているためです。アーチの崩れや合わない靴が原因のことが多く、インソールと靴の見直しで圧の集中を減らせます。"}, {"q": "魚の目は自分で削っても良いですか？", "a": "芯のある魚の目を自分で削ると傷や感染のリスクがあります。とくに糖尿病など持病のある方は皮膚科で処置を受けてください。"}, {"q": "指の付け根にばかりタコができるのはなぜですか？", "a": "一般に、横アーチ（指の付け根の横方向のアーチ）が低下して前足部に荷重が集中する開張足の傾向や、ヒール・つま先の細い靴による前足部への圧が背景にあることが多いとされています。横アーチを支えるインソールと靴の見直しで圧の集中を減らすのが基本ですが、原因の確定は整形外科で確認してください。"}, {"q": "芯のある魚の目が痛くて歩きづらいときはどうすればよいですか？", "a": "カミソリや市販のカッターで自分で芯を削るのは、傷・感染・悪化のリスクがあるため避けてください。痛みが強い、芯が深い、繰り返すという場合は皮膚科での処置が安全です。インソールや靴の見直しは、処置後の再発予防として取り入れましょう。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "アーチサポートで荷重を分散", "b": "タコの根本原因は荷重の偏りです。崩れたアーチを支えて足裏全体で体重を受けられる設計を選びましょう。"}, {"t": "圧が集中する部分のクッション", "b": "タコができやすい指の付け根・かかとに、衝撃と摩擦をやわらげるクッションがあるものが向いています。"}, {"t": "靴とのフィット", "b": "インソールで足が靴の中で滑ると摩擦が増えます。フィット感が出てズレにくいものを選び、サイズの合った靴と組み合わせましょう。"}];
-const related = [{"href": "/articles/splay-foot-insole/", "label": "開張足のインソール"}, {"href": "/articles/high-arch-insole/", "label": "ハイアーチのインソール"}, {"href": "/articles/flat-feet/", "label": "扁平足のインソール"}, {"href": "/articles/how-to-choose/", "label": "インソールの選び方"}];
+const related = [{"href": "/articles/splay-foot-insole/", "label": "開張足のインソール"}, {"href": "/articles/high-arch-insole/", "label": "ハイアーチのインソール"}, {"href": "/articles/morton-disease-insole/", "label": "モートン病のインソール"}, {"href": "/articles/heel-pain-insole/", "label": "かかとが痛い時のインソール"}, {"href": "/articles/flat-feet/", "label": "扁平足のインソール"}, {"href": "/articles/how-to-choose/", "label": "インソールの選び方"}];
 
 export default function CornCallusPage() {
   return (
@@ -82,6 +82,29 @@ export default function CornCallusPage() {
           </ul>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">こうした「圧と摩擦の集中」が続く限り、表面を削るだけでは元の負担が残るため再発しやすくなります。そこでインソールの出番です。インソールはアーチを下から支えて接地のバランスを整え、一点に集まりがちな荷重を足裏全体へ分散させる役割を担います。靴の中での足のズレを抑えることで、摩擦をやわらげる助けにもなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ただし、インソールはタコ・魚の目を<span className="font-bold">「治す」治療器具ではありません</span>。あくまで原因となる圧や摩擦の偏りを軽減し、再発予防をサポートする手段として位置づけ、過度な期待をせずに取り入れることが大切です。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">できる場所別に見る原因の傾向（一般論）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">タコ・魚の目は「どこにできるか」で、背景にある荷重の偏り方の傾向がある程度推測できるとされています。以下は一般的に言われる傾向の整理であり、場所だけで原因を特定できるわけではありません。正確な原因の確認は整形外科・皮膚科で行ってください。</p>
+          <div className="space-y-4 mb-4">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">前足部（指の付け根・とくに2〜3趾の下）</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">横アーチ（指の付け根の横方向のアーチ）が低下する<Link href="/articles/splay-foot-insole/" className="text-[#e8627c] underline">開張足</Link>の傾向があると、本来分散されるはずの荷重が付け根の中央に集中しやすくなると言われています。ヒールやつま先の細い靴で前足部に体重が乗り続けることも要因になります。付け根のしびれや電気が走るような痛みを伴う場合は<Link href="/articles/morton-disease-insole/" className="text-[#e8627c] underline">モートン病</Link>などの可能性もあるため、整形外科で確認してください。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">小指側（小趾球・足の外側）</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">体重が外側に流れる歩き方のクセや、<Link href="/articles/high-arch-insole/" className="text-[#e8627c] underline">ハイアーチ（凹足）</Link>で接地が外側に偏っている場合に、小指の付け根や足の外側ラインに圧が集中しやすいとされています。幅の合わない靴で小指側が側面から圧迫され、こすれてできるケースもあります。靴の幅の見直しとあわせて、接地を安定させるインソールが選択肢になります。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">かかと</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">かかと着地の衝撃が強い歩き方や、サイズの大きい靴・かかとの浮くサンダルなどで摩擦が繰り返されると、かかとの縁の角質が厚くなりやすいと言われています。乾燥によるひび割れと重なることも多い部位です。クッション性のあるインソールやヒールカップで衝撃と摩擦をやわらげる方法があります。かかとの痛みを伴う場合は<Link href="/articles/heel-pain-insole/" className="text-[#e8627c] underline">かかとが痛い時のインソール</Link>も参考にしてください。</p>
+            </div>
+          </div>
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
+            <p className="text-sm text-gray-700 leading-relaxed"><span className="font-bold text-amber-700">受診の目安：</span>芯のある魚の目や、歩くたびに痛むほどのタコは、カミソリなどでの<span className="font-bold">セルフカットは厳禁</span>です。傷や感染、悪化の原因になります。痛みが強い・芯が深い・繰り返す場合や、糖尿病など持病のある方は、皮膚科等で処置を受けてください。インソールはあくまで処置後の再発予防を助ける位置づけです。</p>
+          </div>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">自分の足がどのタイプの崩れ方に近いか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問でわかるタイプ診断</Link>も参考になります。</p>
         </section>
 
         <section className="mb-12">

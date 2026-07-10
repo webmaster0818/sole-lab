@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-10",
 };
 
-const faqs = [{"q": "インソールの違和感はいつ消えますか？", "a": "多くは数日〜2週間で足が慣れて違和感が和らぎます。短時間から徐々に使用時間を延ばすのが慣らしのコツです。"}, {"q": "痛みが続く場合はどうすれば？", "a": "2週間ほど慣らしても痛みが減らない・悪化する場合は、サイズやアーチの高さが合っていない可能性があります。無理に使わず別の製品を検討しましょう。"}, {"q": "最初から長時間履いても大丈夫ですか？", "a": "いきなり長時間履くと痛みや疲れが出やすくなります。最初は短時間から始め、徐々に慣らすのがおすすめです。"}, {"q": "新しい靴の慣らし期間はどれくらい？", "a": "素材や個人差によりますが、一般的には数日〜2週間ほど、短時間の着用を繰り返すうちに馴染んでいくことが多いです。革靴など硬い素材ほど時間がかかる傾向があります。"}, {"q": "インソールで靴擦れは防げますか？", "a": "靴の中での足の動きを抑えてフィットを整えることで、こすれによる靴擦れを軽減できる場合があります。ただし靴自体のサイズや形が合っていないと根本解決にはなりません。"}, {"q": "靴擦れの傷がある時もインソールを使ってよいですか？", "a": "傷や水ぶくれがある部位を圧迫・刺激しないよう注意してください。痛みや傷が長引く・悪化する場合は無理に使わず、皮膚科などの医療機関に相談しましょう。"}];
+const faqs = [{"q": "インソールの違和感はいつ消えますか？", "a": "多くは数日〜2週間で足が慣れて違和感が和らぎます。短時間から徐々に使用時間を延ばすのが慣らしのコツです。"}, {"q": "痛みが続く場合はどうすれば？", "a": "2週間ほど慣らしても痛みが減らない・悪化する場合は、サイズやアーチの高さが合っていない可能性があります。無理に使わず別の製品を検討しましょう。"}, {"q": "最初から長時間履いても大丈夫ですか？", "a": "いきなり長時間履くと痛みや疲れが出やすくなります。最初は短時間から始め、徐々に慣らすのがおすすめです。"}, {"q": "新しい靴の慣らし期間はどれくらい？", "a": "素材や個人差によりますが、一般的には数日〜2週間ほど、短時間の着用を繰り返すうちに馴染んでいくことが多いです。革靴など硬い素材ほど時間がかかる傾向があります。"}, {"q": "インソールで靴擦れは防げますか？", "a": "靴の中での足の動きを抑えてフィットを整えることで、こすれによる靴擦れを軽減できる場合があります。ただし靴自体のサイズや形が合っていないと根本解決にはなりません。"}, {"q": "靴擦れの傷がある時もインソールを使ってよいですか？", "a": "傷や水ぶくれがある部位を圧迫・刺激しないよう注意してください。痛みや傷が長引く・悪化する場合は無理に使わず、皮膚科などの医療機関に相談しましょう。"}, {"q": "かかとの靴擦れにはインソールとかかとパッドのどちらが良いですか？", "a": "かかと全体が上下に動いて浮くタイプの靴擦れなら、インソールで足の位置を安定させてフィットを整えるのが一般的な対処です。履き口の縁など一点が当たって痛い場合は、その部位を保護するパッドのほうが向いています。両方を併用する場合は、靴が窮屈になりすぎないか確認しましょう。"}, {"q": "新しい靴と新しいインソールを同時に使い始めてもいいですか？", "a": "同時に始めると、違和感や痛みが出たときに靴とインソールのどちらが原因か分かりにくくなります。まず靴だけで数日〜1週間ほど短時間の着用で慣らし、そのあとにインソールを加えると、原因の切り分けがしやすく慣らしもスムーズです。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "短時間から徐々に慣らす", "b": "最初は1日1〜2時間など短時間から始め、数日〜2週間かけて使用時間を延ばすと、足が無理なく適応します。"}, {"t": "サイズ・アーチの高さを確認", "b": "痛みが強い場合はサイズが合っていないか、アーチが高すぎる可能性があります。カットして調整し、合わなければ別の高さを検討しましょう。"}, {"t": "靴とのフィットを確認", "b": "インソールで靴が窮屈になっていないか確認。窮屈なら元の中敷きを外す・薄型に変えるなどで調整します。"}];
-const related = [{"href": "/articles/correct-usage-insole/", "label": "効果的な使い方"}, {"href": "/articles/size-adjustment/", "label": "インソールのサイズ調整"}, {"href": "/articles/thickness-guide-insole/", "label": "インソールの厚みの選び方"}, {"href": "/articles/how-to-choose/", "label": "インソールの選び方"}];
+const related = [{"href": "/articles/correct-usage-insole/", "label": "効果的な使い方"}, {"href": "/articles/size-adjustment/", "label": "インソールのサイズ調整"}, {"href": "/articles/thickness-guide-insole/", "label": "インソールの厚みの選び方"}, {"href": "/articles/how-to-choose/", "label": "インソールの選び方"}, {"href": "/articles/heel-pain-insole/", "label": "かかとの痛みのインソール対策"}];
 
 export default function BreakingInPage() {
   return (
@@ -100,6 +100,35 @@ export default function BreakingInPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴擦れ予防の注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">靴擦れを防ぐには、フィット調整に加えて履き方の工夫も役立ちます。新しい靴は最初から長時間履かず短時間から慣らす、こすれやすい部位を事前に保護する、靴ひもやストラップでかかとが浮かないよう調整する、といった基本を押さえておきましょう。すでに赤みやこすれが出ている部位は、その箇所を圧迫・刺激しないよう注意してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">なお、本記事で紹介するインソールは医療目的の装具ではなく、フィット調整や履き心地のサポートを目的としたものです。痛みや傷、水ぶくれが続く・悪化する場合や、もともと足に変形やトラブルがある場合は、自己判断で使い続けず、皮膚科や整形外科などの医療機関に相談してください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴ずれ・当たりが出やすい部位別の対処</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">慣らし期間の靴ずれや「当たり」は、出る部位によって原因と対処が変わります。代表的な3つの部位別に、一般的な考え方を整理します。</p>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">かかと（上下に動いてこすれる）</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">歩くたびにかかとが浮く・前滑りするタイプは、靴の中で足の位置が定まっていないサインです。インソールやアーチサポートで足の位置を安定させる、靴ひもをかかと側までしっかり締めるといったフィット調整が基本です。こすれではなく、着地のたびにかかとの骨のあたりがズキッと痛む場合は原因が別のことがあるため、<Link href="/articles/heel-pain-insole/" className="text-[#e8627c] underline font-medium">かかとの痛みのインソール対策</Link>もあわせてご覧ください。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">くるぶし（履き口の縁が当たる）</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">履き口の縁がくるぶしの下に当たるケースでは、インソールの厚みで足全体の高さが変わると、当たる位置も上下に変わる点に注意が必要です。厚みのあるインソールを入れて当たりが強くなった場合は、薄型に替える・元の中敷きと入れ替えるなどで高さを戻すのが先決です。縁の一点が当たり続ける場合は、その部位を保護するパッド類のほうが向いています。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">甲（上から圧迫される）</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">甲の圧迫は、インソールの厚みで靴内の容積が減っていることが原因になりやすい部位です。元の中敷きの上に重ね入れしているなら入れ替えに変える、薄型タイプを選ぶ、靴ひもの下段だけ少し緩めるといった調整で圧迫を逃がします。しびれを感じるほどの圧迫は放置せず、すぐに厚みを見直してください。</p>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">慣らし期間中のインソール活用手順</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールの慣らしは「短時間から段階的に」が基本です。次のようなステップで進めると、違和感の原因を切り分けながら無理なく慣らせます。</p>
+          <ol className="list-decimal pl-6 space-y-3 mb-4 text-sm md:text-base text-gray-700 leading-relaxed">
+            <li><span className="font-bold">室内で30分〜1時間試す:</span> まず家の中で履き、土踏まずの当たり方・つま先の余裕・かかとの収まりを確認します。この段階で強い痛みがあれば、サイズやアーチの高さが合っていない可能性が高いです。</li>
+            <li><span className="font-bold">短い外出で1〜2時間使う:</span> 近所の買い物や通勤の一部など、途中でやめられる場面で使います。歩行時の違和感が「気になるが痛くはない」程度なら、そのまま様子を見ます。</li>
+            <li><span className="font-bold">半日→終日へ延ばす:</span> 数日〜2週間かけて使用時間を延ばします。使用後に足裏やふくらはぎの張りが翌日まで残る場合は、延ばすペースを緩めましょう。</li>
+            <li><span className="font-bold">悪化したら一段階戻す:</span> 痛みが増えたら使用時間を一つ前の段階に戻します。戻しても痛む・悪化する場合は、その製品が合っていない可能性を疑ってください。</li>
+          </ol>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">なお、新しい靴と新しいインソールを同時に使い始めると、違和感の原因がどちらにあるか分からなくなります。まず靴だけを数日慣らしてからインソールを加えると、切り分けがしやすくなります。どのタイプのインソールが自分に合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問で相性がわかるタイプ診断</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">

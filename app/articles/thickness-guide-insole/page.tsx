@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-10",
 };
 
-const faqs = [{"q": "インソールの厚みはどう選べば良いですか？", "a": "靴の内寸とのバランスで選びます。中が浅い革靴・安全靴は薄型、スニーカーは標準、サイズ調整やクッション重視なら厚型が目安です。"}, {"q": "厚いインソールを入れると窮屈になりますか？", "a": "靴によっては窮屈になります。元の中敷きを外して入れ替える、薄型を選ぶなどで調整しましょう。足指が動かせる余裕を残すことが大切です。"}, {"q": "薄型でもアーチサポートはありますか？", "a": "はい、薄型でもアーチサポート設計の製品があります。革靴や安全靴など中が浅い靴には、薄型でサポート力のあるものが向いています。"}];
+const faqs = [{"q": "インソールの厚みはどう選べば良いですか？", "a": "靴の内寸とのバランスで選びます。中が浅い革靴・安全靴は薄型、スニーカーは標準、サイズ調整やクッション重視なら厚型が目安です。"}, {"q": "厚いインソールを入れると窮屈になりますか？", "a": "靴によっては窮屈になります。元の中敷きを外して入れ替える、薄型を選ぶなどで調整しましょう。足指が動かせる余裕を残すことが大切です。"}, {"q": "薄型でもアーチサポートはありますか？", "a": "はい、薄型でもアーチサポート設計の製品があります。革靴や安全靴など中が浅い靴には、薄型でサポート力のあるものが向いています。"}, {"q": "ブーツにはどの厚みのインソールが良いですか？", "a": "内寸に余裕のあるブーツなら標準〜厚手も入りますが、履き口が固定されるタイトなブーツでは厚手は甲の圧迫につながりやすくなります。元の中敷きを外せるかを確認し、外せない場合は薄型が無難です。着脱して実際の窮屈さを確かめながら選びましょう。"}, {"q": "厚すぎるインソールを買ってしまったらどうすればいいですか？", "a": "まず元の中敷きを外して入れ替え、それでもきつい場合はカット対応の製品なら先端を少しずつ削って調整します。改善しなければ無理に使い続けず、そのインソールは内寸に余裕のある別の靴に回し、きつかった靴には薄型を選び直すのが安全です。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "中が浅い靴は薄型", "b": "革靴・パンプス・安全靴・スパイクなど内寸が狭い靴は、薄型でアーチサポートのあるものを選びましょう。"}, {"t": "スニーカーは標準", "b": "余裕のあるスニーカーには標準的な厚みが向き、クッションとサポートのバランスが取れます。"}, {"t": "調整・クッション重視は厚型", "b": "靴がぶかぶか・クッションを重視したい場合は厚型が有効。ただし窮屈にならないか確認を。"}];
-const related = [{"href": "/articles/size-adjustment/", "label": "インソールのサイズ調整"}, {"href": "/articles/business-shoes-insole/", "label": "革靴のインソール"}, {"href": "/articles/safety-shoes-insole/", "label": "安全靴のインソール"}, {"href": "/articles/how-to-choose/", "label": "インソールの選び方"}];
+const related = [{"href": "/articles/size-adjustment/", "label": "インソールのサイズ調整"}, {"href": "/articles/business-shoes-insole/", "label": "革靴のインソール"}, {"href": "/articles/pumps-insole/", "label": "パンプスのインソール"}, {"href": "/articles/boots-insole/", "label": "ブーツのインソール"}, {"href": "/articles/safety-shoes-insole/", "label": "安全靴のインソール"}, {"href": "/articles/how-to-choose/", "label": "インソールの選び方"}];
 
 export default function ThicknessGuidePage() {
   return (
@@ -125,6 +125,30 @@ export default function ThicknessGuidePage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">多くのインソールはサイズ展開があり、靴やつま先の形に合わせて先端をハサミでカットして調整できるタイプもあります。購入前に対応サイズを確認し、必要に応じてカット可否もチェックしておきましょう。サイズ調整の具体的な手順は<Link href="/articles/size-adjustment/" className="text-[#e8627c] underline font-medium">インソールのサイズ調整</Link>もあわせてご覧ください。</p>
         </section>
 
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴の種類別に見る厚みの目安（一般論）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">同じ「薄型・標準・厚手」でも、靴の構造によって収まり方は大きく変わります。代表的な靴のタイプ別に、一般的な厚みの考え方を整理します。いずれも目安であり、最終的には実際に履いて窮屈さを確認してください。</p>
+          <div className="space-y-4 mb-4">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">スニーカー：標準が基本、中敷きを外せば厚手も</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">内寸に余裕があり、元の中敷きを取り外せるモデルが多いため、もっとも厚みの自由度が高い靴です。標準的な厚みを基本に、クッションやサイズ調整を重視する場合は中敷きと入れ替える前提で厚手も選べます。ひもで甲の高さをある程度調整できるのも利点です。詳しくは<Link href="/articles/sneaker-insole/" className="text-[#e8627c] underline">スニーカー用インソール</Link>もご覧ください。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">革靴・ビジネスシューズ：薄型が無難</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">内寸が浅く、中敷きが接着されていて外せないものも多いため、厚手を重ねると甲やつま先がきつくなりがちです。薄型でアーチサポートのある設計を選ぶのが基本です。ひもで調整できる範囲も限られるため、購入前に中敷きが外せるかを確認しましょう。<Link href="/articles/business-shoes-insole/" className="text-[#e8627c] underline">革靴のインソール</Link>で詳しく解説しています。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">パンプス：極薄・部分タイプが中心</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">内寸の余裕がほとんどなく、フルレングスの厚いタイプはまず入りません。極薄タイプや、前足部だけ・かかとだけに敷くハーフ／部分タイプが現実的な選択肢です。前滑りを抑える目的なら前足部用パッドという方法もあります。<Link href="/articles/pumps-insole/" className="text-[#e8627c] underline">パンプスのインソール</Link>もあわせてご覧ください。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ブーツ：余裕次第で標準〜厚手、タイトなら薄型</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">筒で足首まで覆われるため着脱時の確認がしにくく、厚みの失敗に気づきにくい靴です。内寸に余裕のあるワークブーツ系なら標準〜厚手でフィットを高められますが、タイトなブーツでは薄型が無難です。冬用にはクッションと保温を兼ねる素材もあります。詳しくは<Link href="/articles/boots-insole/" className="text-[#e8627c] underline">ブーツのインソール</Link>をご覧ください。</p>
+            </div>
+          </div>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">どのタイプのインソールが自分に合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問でわかるタイプ診断</Link>も参考にしてください。</p>
+        </section>
+
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厚みの選び方におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">靴の内寸に合う厚みで、アーチサポートのあるインソールを選びましょう。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
@@ -157,6 +181,17 @@ export default function ThicknessGuidePage() {
             <li>窮屈なまま履き続け、痛みや疲れ、足のトラブルにつながる。</li>
           </ul>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">迷ったら、まず元の中敷きを外してインソールを入れ替え、実際に履いて窮屈さを確認しましょう。つま先や甲がきつい場合は薄型に変えるか、サイズをカットして調整します。厚手でサイズ調整をする場合も、足指が動かせる余裕を残すことが大切です。痛みや違和感が続くときは無理をせず、使用を見直しましょう。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厚みで失敗したときのリカバリー</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「買ってみたら窮屈だった」「薄すぎて物足りない」という場合も、すぐに買い直す前にできる調整があります。次の順で試すのが一般的です。</p>
+          <ol className="list-decimal pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <li><span className="font-bold">元の中敷きを外して入れ替える：</span>厚くて窮屈な場合の最初の対処です。取り外せる中敷きなら、その厚みの分だけ余裕が生まれます。</li>
+            <li><span className="font-bold">カットで微調整する：</span>先端が浮く・たわむ・つま先が当たる場合は、カット対応の製品なら切りすぎないよう少しずつ削って合わせます。手順は<Link href="/articles/size-adjustment/" className="text-[#e8627c] underline">インソールのサイズ調整</Link>を参考にしてください。</li>
+            <li><span className="font-bold">別の靴に回して選び直す：</span>それでも合わない場合は無理に使い続けないことが大切です。厚すぎたものは内寸に余裕のある別の靴（スニーカーやブーツなど）で活用し、その靴には薄型を選び直しましょう。薄すぎて物足りない場合は、厚みを足すよりアーチサポートやクッション素材など設計面を見直すほうが解決につながることもあります。</li>
+          </ol>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">調整しても痛みや違和感が続く場合は、そのままの使用は避けてください。厚みだけでなく足と靴の相性自体に原因があることもあるため、選び直しの際は<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">タイプ診断</Link>や<Link href="/articles/how-to-choose/" className="text-[#e8627c] underline">インソールの選び方</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">

@@ -23,7 +23,7 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-07-10",
 };
 
 const faqStructuredData = {
@@ -35,6 +35,8 @@ const faqStructuredData = {
     { "@type": "Question", name: "成長が早い子供のインソールはどのくらいで買い替えますか？", acceptedAnswer: { "@type": "Answer", text: "子供の足は半年で0.5〜1cm程度成長するため、3〜6ヶ月ごとにサイズの見直しが必要です。カットタイプのインソールであれば多少の成長には対応できますが、靴自体を買い替えるタイミングでインソールも新調するのが目安です。" } },
     { "@type": "Question", name: "運動靴にインソールを入れても子供のパフォーマンスに影響はありませんか？", acceptedAnswer: { "@type": "Answer", text: "適切なインソールは子供のパフォーマンスを向上させる可能性があります。足裏の安定性が高まることで、走る・跳ぶ・方向転換などの動作が安定し、怪我のリスクも軽減されます。ただし、厚すぎるインソールは靴内が窮屈になるため、薄型〜中厚のものを選んでください。" } },
     { "@type": "Question", name: "大人用のインソールを子供にカットして使っても大丈夫ですか？", acceptedAnswer: { "@type": "Answer", text: "XSサイズ（21cm〜）に対応している大人用インソールであれば、カットして子供に使用可能です。ただし、子供の足は大人と骨格が異なるため、アーチの位置が合わない場合があります。可能であれば子供用に設計されたインソールか、子供サイズに対応した製品を選ぶことをおすすめします。" } },
+    { "@type": "Question", name: "スポーツをしている子供のかかとや膝の痛みにインソールは効果がありますか？", acceptedAnswer: { "@type": "Answer", text: "衝撃吸収性のあるインソールは、運動時の足への負担をやわらげる補助にはなり得ます。ただし、成長期のかかとや膝の痛みには骨の成長部分への負担が関係する場合があるとされており、インソールは治療ではありません。強い痛み・続く痛み・腫れがある場合は、練習を無理に続けさせず小児整形外科を受診してください。" } },
+    { "@type": "Question", name: "子供のインソールのサイズ確認はいつ行えば良いですか？", acceptedAnswer: { "@type": "Answer", text: "学期の変わり目や靴を買い替えるタイミングなど、3ヶ月に1回程度を目安に習慣化するのがおすすめです。つま先の余裕・かかとの位置・インソール表面のへたりやすり減り・左右差をチェックし、合わなくなっていたらカット調整や買い替えを行いましょう。" } },
   ],
 };
 
@@ -90,8 +92,10 @@ export default function KidsInsolePage() {
             <li><a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">3. 子供用インソールの選び方</a></li>
             <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">4. 子供用インソールおすすめ5選</a></li>
             <li><a href="#usage" className="hover:text-[#0ea5e9] transition-colors">5. 使い方と注意点</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">6. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">7. まとめ</a></li>
+            <li><a href="#sports" className="hover:text-[#0ea5e9] transition-colors">6. スポーツをする成長期の子供の注意点</a></li>
+            <li><a href="#replacement" className="hover:text-[#0ea5e9] transition-colors">7. 買い替えサイクルとサイズ確認の習慣化</a></li>
+            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">8. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">9. まとめ</a></li>
           </ol>
         </div>
       </section>
@@ -276,6 +280,31 @@ export default function KidsInsolePage() {
           </div>
         </section>
 
+        <section id="sports" className="mb-14">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スポーツをする成長期の子供の注意点（一般論）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サッカー・野球・バスケットボール・陸上など、走る量やジャンプの多いスポーツを続けている成長期の子供は、大人よりも足への負担のかかり方に注意が必要です。成長期には骨がまだ発達の途中にあり、かかとや膝の骨の成長部分に運動による負担が集中しやすいことが一般に知られています。「かかとが痛い」「膝の下が痛い」と繰り返し訴える場合は、単なる疲れと決めつけないことが大切です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールにできるのは、着地の衝撃をやわらげ、足元を安定させて負担を減らす「補助」です。衝撃吸収性とかかとの安定性（ヒールカップ）のあるタイプを、練習用のシューズにも通学靴にも入れておくと、1日を通した足への負担軽減につながります。一方で、インソールは痛みの治療ではないため、痛みを我慢しながら練習を続けるための道具にしないでください。かかとの痛みに対する一般的な考え方は<Link href="/articles/heel-pain-insole/" className="text-[#0ea5e9] font-bold hover:underline">かかとが痛い時のインソール</Link>も参考になります。</p>
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+            <p className="text-sm text-gray-700 leading-relaxed">
+              <span className="font-bold text-amber-700">受診の目安：</span>
+              足の変形（強い偏平足・つま先や、かかとの向きの異常など）が気になる、強い痛みや腫れがある、痛みが数日以上続く・繰り返す、痛みで歩き方が変わっている——このような場合は、インソールで様子を見るのではなく、まず小児整形外科を受診してください。成長期の痛みは早めに専門医が確認することが大切です。
+            </p>
+          </div>
+        </section>
+
+        <section id="replacement" className="mb-14">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">買い替えサイクルとサイズ確認の習慣化</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">子供の足は半年で0.5〜1cm程度伸びるため、インソールも「一度買ったら終わり」ではなく、定期的な見直しが前提になります。おすすめは、<strong>学期の変わり目・靴の買い替え時・シーズンの節目</strong>など、思い出しやすいタイミングとセットにして3ヶ月に1回程度のチェックを習慣化することです。以下のポイントを親子で確認しましょう。</p>
+          <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <li><span className="font-bold">つま先の余裕：</span>インソールの上に足を乗せたとき、指先がインソールの先端からはみ出していないか</li>
+            <li><span className="font-bold">かかとの位置：</span>かかとがヒールカップの中央に収まっているか、後ろにはみ出していないか</li>
+            <li><span className="font-bold">へたり・すり減り：</span>表面の指の跡が深く残る、クッションがつぶれて薄くなった、特定の場所だけすり減っている</li>
+            <li><span className="font-bold">左右差：</span>片方だけ極端にすり減っていないか（歩き方の偏りのサインのこともあります）</li>
+          </ul>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズが合わなくなっていたら、カット式なら切り直して調整し、カットの余地がなければ買い替えます。靴を新調するタイミングでインソールも一緒に見直すと、フィットのずれを防げます。カットの手順は<Link href="/articles/size-adjustment/" className="text-[#0ea5e9] font-bold hover:underline">インソールのサイズ調整方法</Link>を参考にしてください。なお、へたったインソールを使い続けると衝撃吸収やサポートの機能が落ちるため、サイズが変わらなくても消耗したら交換が目安です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">保護者の方が自分用のインソール選びも検討している場合は、<Link href="/diagnosis/" className="text-[#0ea5e9] font-bold hover:underline">6つの質問でわかるタイプ診断</Link>もご利用ください。</p>
+        </section>
+
         <section id="faq" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
@@ -298,6 +327,14 @@ export default function KidsInsolePage() {
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">大人用のインソールを子供にカットして使っても大丈夫ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">XSサイズ（21cm〜）に対応している大人用インソールであれば、カットして子供に使用可能です。ただし、子供の足は大人と骨格が異なるため、アーチの位置が合わない場合があります。可能であれば子供用に設計されたインソールか、子供サイズに対応した製品を選ぶことをおすすめします。</div>
+            </details>
+            <details className="group bg-white border border-gray-200 rounded-lg">
+              <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">スポーツをしている子供のかかとや膝の痛みにインソールは効果がありますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">衝撃吸収性のあるインソールは、運動時の足への負担をやわらげる補助にはなり得ます。ただし、成長期のかかとや膝の痛みには骨の成長部分への負担が関係する場合があるとされており、インソールは治療ではありません。強い痛み・続く痛み・腫れがある場合は、練習を無理に続けさせず小児整形外科を受診してください。</div>
+            </details>
+            <details className="group bg-white border border-gray-200 rounded-lg">
+              <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">子供のインソールのサイズ確認はいつ行えば良いですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">学期の変わり目や靴を買い替えるタイミングなど、3ヶ月に1回程度を目安に習慣化するのがおすすめです。つま先の余裕・かかとの位置・インソール表面のへたりやすり減り・左右差をチェックし、合わなくなっていたらカット調整や買い替えを行いましょう。</div>
             </details>
           </div>
         </section>
@@ -330,6 +367,7 @@ export default function KidsInsolePage() {
             <Link href="/articles/flat-feet/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">扁平足・浮き指にインソールは効果ある？</p></Link>
             <Link href="/articles/sneaker-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">スニーカー用インソールおすすめ5選</p></Link>
             <Link href="/articles/size-adjustment/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">インソールのサイズ調整方法</p></Link>
+            <Link href="/articles/heel-pain-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">かかとが痛い時のインソール</p></Link>
             <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"><p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る</p></Link>
           </div>
         </div>

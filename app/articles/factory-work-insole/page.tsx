@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-10",
 };
 
-const faqs = [{"q": "安全靴にインソールを入れても大丈夫ですか？", "a": "多くは対応しますが、つま先の保護芯（先芯）に干渉しないよう薄型を選ぶか、元の中敷きを外して入れ替えましょう。厚すぎると窮屈になり、かえって足が圧迫されて逆効果です。心配な場合は安全靴メーカーや勤務先の規定も確認してください。"}, {"q": "コンクリート床の足の疲れに効きますか？", "a": "衝撃吸収性の高いインソールは、硬い床から足裏に伝わる衝撃を和らげ、立ち仕事の疲れを軽減する補助になります。ただし感じ方には個人差があり、効果を保証するものではありません。痛みが強い場合は無理をせず専門家に相談しましょう。"}, {"q": "どのくらいで交換すべきですか？", "a": "毎日長時間使う工場勤務では、へたりやすいため3〜6ヶ月が交換の目安です。クッションが薄くなった、左右で沈み方が違う、表面が傷んできた、といった変化はへたりのサインです。"}, {"q": "サイズが合わない場合はどうすればいいですか？", "a": "多くのインソールはつま先側をカットしてサイズ調整できます。まず靴の中敷きを型紙にして、線に沿って少しずつ切るのがコツです。一度に大きく切ると元に戻せないため、合わせながら少しずつ調整しましょう。"}];
+const faqs = [{"q": "安全靴にインソールを入れても大丈夫ですか？", "a": "多くは対応しますが、つま先の保護芯（先芯）に干渉しないよう薄型を選ぶか、元の中敷きを外して入れ替えましょう。厚すぎると窮屈になり、かえって足が圧迫されて逆効果です。心配な場合は安全靴メーカーや勤務先の規定も確認してください。"}, {"q": "コンクリート床の足の疲れに効きますか？", "a": "衝撃吸収性の高いインソールは、硬い床から足裏に伝わる衝撃を和らげ、立ち仕事の疲れを軽減する補助になります。ただし感じ方には個人差があり、効果を保証するものではありません。痛みが強い場合は無理をせず専門家に相談しましょう。"}, {"q": "どのくらいで交換すべきですか？", "a": "毎日長時間使う工場勤務では、へたりやすいため3〜6ヶ月が交換の目安です。クッションが薄くなった、左右で沈み方が違う、表面が傷んできた、といった変化はへたりのサインです。"}, {"q": "サイズが合わない場合はどうすればいいですか？", "a": "多くのインソールはつま先側をカットしてサイズ調整できます。まず靴の中敷きを型紙にして、線に沿って少しずつ切るのがコツです。一度に大きく切ると元に戻せないため、合わせながら少しずつ調整しましょう。"}, {"q": "冷凍倉庫や寒い職場の防寒長靴にも使えますか？", "a": "長靴は中が広く足が前後に動きやすいため、フィットを整える目的でインソールを使う人もいます。ただし厚手の靴下と併用すると窮屈になりやすいので、実際に履く靴下を着けた状態で余裕を確認しましょう。低温環境では素材が硬く感じられることもあるため、違和感があれば無理に使わないでください。"}, {"q": "静電気対策の安全靴にインソールを入れても大丈夫ですか？", "a": "静電気帯電防止などの機能をもつ安全靴は、中敷きを入れ替えると本来の性能に影響する可能性があります。職場の安全規定やメーカーの案内を必ず確認し、指定がある場合はそれに従ってください。判断に迷う場合は、入れ替えではなく指定品の使用が無難です。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "コンクリート床の衝撃を吸収", "b": "硬い床対策には衝撃吸収性の高いクッションが重要です。足裏全体で衝撃を受け止めます。"}, {"t": "アーチサポートで立ちを支える", "b": "長時間でアーチが潰れないよう、しっかり支える設計を選びましょう。足裏の痛み・疲れの蓄積を抑えます。"}, {"t": "安全靴に入る薄型・耐久性", "b": "安全靴は中が狭いことが多いため薄型を選び、毎日長時間でもへたりにくい耐久性のあるものを。"}];
-const related = [{"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}, {"href": "/articles/cheap-insole/", "label": "コスパの良いインソール"}, {"href": "/articles/security-guard-insole/", "label": "警備員のインソール"}, {"href": "/articles/cheap-insole/", "label": "コスパの良いインソール"}];
+const related = [{"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}, {"href": "/articles/cheap-insole/", "label": "コスパの良いインソール"}, {"href": "/articles/security-guard-insole/", "label": "警備員のインソール"}, {"href": "/articles/safety-shoes-insole/", "label": "安全靴のインソール"}, {"href": "/articles/warehouse-work-insole/", "label": "倉庫作業のインソール"}, {"href": "/articles/nurse-insole/", "label": "看護師のインソール"}];
 
 export default function FactoryWorkPage() {
   return (
@@ -120,6 +120,35 @@ export default function FactoryWorkPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">安全靴に入れる際は、つま先の保護芯（先芯）に干渉しないよう厚みを確認し、必要なら元の中敷きを外してから入れ替えましょう。元の中敷きの上に重ねると窮屈になりやすく、つま先が圧迫されて逆に疲れの原因になります。インソールがフィットしないと靴の中で足が前後に動き、せっかくのアーチサポートの位置がずれて効果を感じにくくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズが大きい場合は、つま先側を少しずつカットして調整します。元の中敷きや安全靴のサイズを目安に線を引き、合わせながら数ミリずつ切るのが失敗しないコツです。一度大きく切ると元に戻せないため、こまめに靴へ入れて確認しながら進めましょう。左右の向きや前後を間違えないように、アーチの膨らみが土踏まずの位置にくるかも確かめてください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使い始めは違和感を覚えることもあるため、最初から長時間ではなく短時間から慣らすのがおすすめです。毎日長時間の使用ではへたりやすいため、3〜6ヶ月を目安に交換すると足元のクッション性を保てます。なお、足裏の痛みやしびれが続く場合は、インソールに頼りきらず整形外科など専門家に相談しましょう。効果の感じ方には個人差があります。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">立ち仕事8時間の疲労を減らす使い方</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">8時間の勤務では、一歩ごとの小さな負担よりも「同じ場所に立ち続けることによる蓄積」が疲労の中心になります。インソールの効果を保つには、まずかかとが靴の中で浮かないフィットが前提です。休憩のタイミングで靴ひもやマジックテープを締め直し、インソールが靴の中で前後にずれていないかを確かめる習慣をつけると、アーチサポートの位置が一日を通して保たれやすくなります。休憩中に足首を回す・つま先立ちを数回するなど、同じ姿勢を断ち切る小さな動きを挟むのも、立ち仕事の一般的な疲労対策としてよく挙げられます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">安全靴との相性では、先芯に干渉しない厚みであることに加えて、「元の中敷きが外せるタイプかどうか」を先に確認しておくとスムーズです。中敷きが縫い付けられている安全靴では重ね入れになるため、より薄型を選ぶ必要があります。また、静電気帯電防止などの機能をもつ安全靴は、中敷きの入れ替えが性能に影響する可能性があるため、職場の安全規定やメーカーの案内を確認してから使いましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">交換タイミングは、毎日8時間使う環境では一般的な目安（3〜6ヶ月）の中でも早めに訪れがちです。「クッションを押しても戻りが鈍い」「土踏まずの支えられている感覚が薄れた」「かかと部分だけ極端に沈む」といった変化はへたりのサインです。安全靴を2足用意して交互に履く職場なら、インソールも靴ごとに分けて休ませると、乾燥が進んでへたりや臭いの進行を緩やかにしやすくなります。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">職場環境別の選び方（一般論）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ひと口に工場勤務といっても、床の硬さ・温度・履く靴の種類によってインソールに求める性質は変わります。ここでは環境別の一般的な考え方を整理します。</p>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">コンクリート床のライン・組立作業</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">最も硬い床環境で、衝撃吸収のクッション性とアーチサポートの両立が第一候補になります。ほぼ同じ位置に立ち続ける作業では、かかと部のクッションの戻りの良さ（へたりにくさ）を特に重視しましょう。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">冷凍・冷蔵倉庫や防寒長靴の職場</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">長靴は中が広く足が動きやすいため、フィットを整える目的でのインソール活用が一般的です。厚手の靴下と併用すると窮屈になりやすいので、実際に履く靴下を着けて余裕を確認しましょう。低温では素材が硬く感じられることもあります。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">クリーンルーム・静電気対策が必要な職場</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">静電気帯電防止靴や指定シューズがある職場では、中敷きの入れ替えが靴の性能や規定に影響する可能性があります。自己判断で入れ替えず、職場の安全規定とメーカーの案内を先に確認してください。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">油や水で床が濡れやすい職場</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">靴内が蒸れたり水分が入りやすい環境では、インソールが湿ったままだとへたりや臭いが進みやすくなります。勤務後に取り出して乾かす、傷みが見えたら早めに交換するなど、手入れと交換サイクルを短めに意識しましょう。</p>
+          </div>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">どのタイプが自分の足に合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問で相性がわかるタイプ診断</Link>も参考にしてください。立ち仕事全般の対策は<Link href="/articles/standing-work/" className="text-[#e8627c] underline font-medium">立ち仕事のインソール</Link>でも詳しく解説しています。</p>
         </section>
 
         <section className="mb-12">

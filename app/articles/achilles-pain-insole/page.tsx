@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-10",
 };
 
-const faqs = [{"q": "アキレス腱炎にインソールは効果がありますか？", "a": "かかとを上げてアキレス腱の張力を和らげ、衝撃を吸収する補助になります。ただし炎症が強い時期は安静が第一で、インソールは回復をサポートする位置づけです。"}, {"q": "ランニング用と普段用、どちらに入れるべきですか？", "a": "痛みがある間は普段履きにも入れて日常の負担を減らすのがおすすめです。運動再開時はクッション性の高いランニングシューズと組み合わせましょう。"}, {"q": "どのくらいで改善しますか？", "a": "個人差が大きく、軽度でも数週間かかることがあります。改善しない・悪化する場合は自己判断を続けず整形外科を受診してください。"}];
+const faqs = [{"q": "アキレス腱炎にインソールは効果がありますか？", "a": "かかとを上げてアキレス腱の張力を和らげ、衝撃を吸収する補助になります。ただし炎症が強い時期は安静が第一で、インソールは回復をサポートする位置づけです。"}, {"q": "ランニング用と普段用、どちらに入れるべきですか？", "a": "痛みがある間は普段履きにも入れて日常の負担を減らすのがおすすめです。運動再開時はクッション性の高いランニングシューズと組み合わせましょう。"}, {"q": "どのくらいで改善しますか？", "a": "個人差が大きく、軽度でも数週間かかることがあります。改善しない・悪化する場合は自己判断を続けず整形外科を受診してください。"}, {"q": "インソールを使えばアキレス腱炎は治りますか？", "a": "いいえ。市販のインソールは医療機器ではなく、かかとまわりの負担を減らす補助が目的で、治療の代わりにはなりません。痛みが続く・腫れや熱感がある場合は、アキレス腱炎やアキレス腱周囲炎などの可能性があるため、自己判断せず整形外科で診断を受けてください。"}, {"q": "ヒールリフトはどのくらいの高さが良いですか？", "a": "一般には数mm程度のわずかな高さから試し、必ず左右両足に入れるのが基本とされます。高くしすぎると靴の中で前滑りしたり、つま先が圧迫されたりすることがあります。違和感や痛みが増す場合は使用を中止し、医療機関に相談してください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -117,6 +117,26 @@ export default function AchillesPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">運動時の注意とセルフケア</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">痛みが強い急性期はまず安静とアイシングを優先し、無理に運動を続けないことが大切です。インソールは負担軽減の補助であり、ふくらはぎのストレッチや段階的な運動再開とあわせて使いましょう。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">症状が長引く・腫れがある場合は、アキレス腱断裂の前兆のこともあるため整形外科を受診してください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ヒールカップ・ヒールリフトの考え方（一般論）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アキレス腱への負担を減らす設計として、インソール選びでよく登場するのが「ヒールリフト」と「ヒールカップ」です。ヒールリフトは、かかとを数mmだけ高くしてつま先との高低差をつける考え方で、足首がわずかに底屈方向（つま先立ちの方向）になるぶん、ふくらはぎからアキレス腱への引っ張りが緩むとされます。ポイントは、左右両足に同じ高さで入れることと、高くしすぎないことです。片足だけ高くすると左右差が生まれ、高すぎると靴の中で前滑りしてつま先が圧迫されたり、かかとが浅くなって不安定になったりします。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ヒールカップは、かかとを立体的に包み込んで後足部のブレを抑える構造です。着地のたびにかかとが内外に傾くと、アキレス腱には捻れ方向の負担が繰り返しかかります。かかとが深く収まるカップ形状は、この横方向のブレを抑えて着地を安定させる補助になります。柔らかすぎる素材はかかとが沈み込んで安定しにくいため、クッション性と支えの硬さのバランスが取れたものが向いています。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">いずれも一般的な考え方であり、市販のインソールは医療機器ではありません。あくまで日常やスポーツでの負担を減らす補助として使い、痛みそのものへの対処は次の受診の目安を確認してください。かかとまわりの痛みは<Link href="/articles/heel-pain-insole/" className="text-[#e8627c] underline font-medium">かかとの痛み</Link>や<Link href="/articles/plantar-fasciitis/" className="text-[#e8627c] underline font-medium">足底筋膜炎</Link>と原因が異なることもあります。どのタイプが合うか迷う場合は<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問で相性がわかるタイプ診断</Link>も参考にしてください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">痛みが続く・腫れがある場合は整形外科へ</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アキレス腱まわりの痛みには、アキレス腱炎・アキレス腱周囲炎・かかとの骨への付着部の炎症（付着部症）など、対処の異なる状態が含まれます。市販のインソールは負担を減らす補助であり、治療の代わりにはなりません。次のような場合は自己判断で様子を見続けず、整形外科を受診してください。</p>
+          <ul className="list-disc pl-6 space-y-2 mb-4 text-sm md:text-base text-gray-700 leading-relaxed">
+            <li>痛みが数週間たっても引かない、またはだんだん強くなっている</li>
+            <li>アキレス腱やその周囲に腫れ・熱感・しこりのような膨らみがある</li>
+            <li>朝起きた直後や歩き始めのこわばり・痛みが毎日続く</li>
+            <li>運動していない安静時にも痛む</li>
+            <li>「ブチッ」という感覚とともに急な激痛が走った・つま先立ちができない（断裂の疑いがあるため、すぐに受診してください）</li>
+          </ul>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">早い段階で状態を確かめておくと、運動の休み方や再開の目安についても専門的な助言を受けられます。インソールは、受診と並行して日常の負担を減らす位置づけで使うのが安心です。</p>
         </section>
 
         <section className="mb-12">
