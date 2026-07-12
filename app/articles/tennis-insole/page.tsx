@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-12",
 };
 
-const faqs = [{"q": "テニスでインソールを使うメリットは？", "a": "後足部の安定と衝撃吸収で、急な切り返しでも踏ん張りやすくなり、足首・膝の負担を軽減できます。プレーの安定感の向上が見込めます。"}, {"q": "ハードコートとクレーで選び方は変わりますか？", "a": "ハードコートは衝撃が大きいためクッション性を重視、どちらの面でも後足部の安定性は重要です。基本は安定性と衝撃吸収を両立したものが向いています。"}, {"q": "足首の捻挫予防になりますか？", "a": "かかとを安定させて横ブレを抑えるインソールは捻挫予防の補助になります。足首のバランストレーニングも併用しましょう。"}, {"q": "テニスシューズにインソールは必要ですか？", "a": "必須ではありませんが、テニスは左右の切り返しと急停止が多く足の横ブレや衝撃が大きいため、後足部を安定させ衝撃を吸収するインソールを入れると踏ん張りやすくなります。元の中敷きで横ブレや疲れが気になる方は試す価値があります。"}, {"q": "ダイエット用のインソールでテニスに代用できますか？", "a": "用途が異なるため基本的には不向きです。ダイエット用は土踏まずを刺激する形状などが中心で、テニスに必要な後足部の安定や衝撃吸収を重視した設計とは限りません。激しい横の動きには、安定性とクッション性を備えたスポーツ向けのものを選びましょう。"}];
+const faqs = [{"q": "テニスでインソールを使うメリットは？", "a": "後足部の安定と衝撃吸収で、急な切り返しでも踏ん張りやすくなり、足首・膝の負担を軽減できます。プレーの安定感の向上が見込めます。"}, {"q": "ハードコートとクレーで選び方は変わりますか？", "a": "ハードコートは衝撃が大きいためクッション性を重視、どちらの面でも後足部の安定性は重要です。基本は安定性と衝撃吸収を両立したものが向いています。"}, {"q": "足首の捻挫予防になりますか？", "a": "かかとを安定させて横ブレを抑えるインソールは捻挫予防の補助になります。足首のバランストレーニングも併用しましょう。"}, {"q": "テニスシューズにインソールは必要ですか？", "a": "必須ではありませんが、テニスは左右の切り返しと急停止が多く足の横ブレや衝撃が大きいため、後足部を安定させ衝撃を吸収するインソールを入れると踏ん張りやすくなります。元の中敷きで横ブレや疲れが気になる方は試す価値があります。"}, {"q": "ダイエット用のインソールでテニスに代用できますか？", "a": "用途が異なるため基本的には不向きです。ダイエット用は土踏まずを刺激する形状などが中心で、テニスに必要な後足部の安定や衝撃吸収を重視した設計とは限りません。激しい横の動きには、安定性とクッション性を備えたスポーツ向けのものを選びましょう。"}, {"q": "オムニコート（砂入り人工芝）ではどんなインソールが向いていますか？", "a": "オムニコートは表面の砂で滑りやすく、細かいステップで体勢を立て直す場面が増えるとされます。足が靴の中でズレると踏ん張りが効きにくいため、ヒールカップで後足部を安定させ、表面素材が滑りにくいものが向いています。衝撃は一般にハードコートより小さめとされますが、横ブレへの備えはどの面でも共通して重要です。"}, {"q": "週1回程度のプレーでもインソールを使う意味はありますか？", "a": "プレー頻度が低い方ほど、急な切り返しの負荷に足が慣れておらず、翌日に疲れや張りが出やすい傾向があるとされます。週末プレーヤーでも後足部の安定と衝撃吸収の恩恵は受けられます。効果の感じ方には個人差があり、プレー後の痛みが続く場合は整形外科など医療機関への受診をご検討ください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "後足部を固定するヒールカップ", "b": "左右の動きで足がブレないよう、深いヒールカップで後足部を安定させます。"}, {"t": "急停止・着地の衝撃吸収", "b": "ストップやジャンプの衝撃を和らげるクッション性が、足裏と関節の負担を軽減します。"}, {"t": "アーチサポートで踏ん張る", "b": "素早いステップで力が逃げないよう、アーチを支える設計を選びましょう。"}, {"t": "横方向の動きを支える設計", "b": "サイドステップでは足が内外に倒れやすくなります。土踏まずから足の側面までしっかり支える形状だと、横の踏ん張りが安定し力が伝わりやすくなります。"}, {"t": "ズレを防ぐフィット感", "b": "切り返しの多いテニスでは、靴の中でインソールがズレると安定感が損なわれます。足のサイズに合い、滑りにくい表面素材でシューズ内に収まるものを選びましょう。"}];
-const related = [{"href": "/articles/basketball-insole/", "label": "バスケのインソール"}, {"href": "/articles/ankle-pain-insole/", "label": "足首の痛みのインソール"}, {"href": "/articles/badminton-insole/", "label": "バドミントンのインソール"}, {"href": "/articles/knee-pain/", "label": "膝の痛みのインソール"}];
+const related = [{"href": "/articles/basketball-insole/", "label": "バスケのインソール"}, {"href": "/articles/ankle-pain-insole/", "label": "足首の痛みのインソール"}, {"href": "/articles/badminton-insole/", "label": "バドミントンのインソール"}, {"href": "/articles/knee-pain/", "label": "膝の痛みのインソール"}, {"href": "/articles/futsal-insole/", "label": "フットサルのインソール"}, {"href": "/articles/volleyball-insole/", "label": "バレーボールのインソール"}];
 
 export default function TennisPage() {
   return (
@@ -117,6 +117,31 @@ export default function TennisPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">テニスシューズでの使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">テニスシューズに入れる際は、元の中敷きと入れ替えてフィットを保ちましょう。横ブレが気になる場合は、足首まわりのトレーニングも併用すると安定します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ハードコートなど硬い面でのプレーが多い方は、クッション性を重視すると関節への負担を抑えられます。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">コート面別（ハード・クレー・オムニ）の負担の違いと選び方</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">同じテニスでも、プレーするコート面によって足への負担のかかり方は変わるとされます。よく使う面に合わせて、インソールで重視するポイントを調整すると選びやすくなります。</p>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">ハードコート：衝撃吸収を最優先</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">ハードコートは一般に最も衝撃の大きい面とされ、急停止のたびにかかとや膝への突き上げが蓄積しやすくなります。クッション性の高いインソールで着地・ストップの衝撃をやわらげつつ、ヒールカップで後足部を安定させる組み合わせが基本です。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">クレーコート：足の流れを抑えるフィット感</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">クレーは滑りながら止まるスライドの動きが特徴で、足が靴の中で前後左右に流れやすくなるとされます。アーチサポートと滑りにくい表面素材で、靴内のズレを抑えられるものが向いています。衝撃自体は一般にハードコートより穏やかとされます。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">オムニコート（砂入り人工芝）：後足部の安定を重視</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">国内の一般コートで広く使われるオムニコートは、表面の砂で滑りやすく、細かいステップで体勢を立て直す場面が増えるとされます。踏ん張りの起点になる後足部をヒールカップで安定させることを重視しましょう。</p>
+          </div>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">複数の面でプレーする方は、どの面でも共通して重要な「後足部の安定」を軸に、衝撃吸収とのバランスが取れた一枚を選ぶのが無難です。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">テニスシューズとの相性・組み合わせのコツ</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは単体ではなく、シューズとの組み合わせで働きます。ソールのクッションが厚めのシューズなら薄型のインソールでフィットを優先し、ソールが硬め・薄めのモデルなら衝撃吸収を補う、というように「靴とインソールを合わせた全体の厚み・硬さ」で考えるとバランスを取りやすくなります。オールコート用と面専用（オムニ・クレー用など）でソールの性格が異なる点も踏まえておきましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">入れ替えた直後は感覚が変わるため、いきなり試合や大会で使わず、練習で数回慣らしてから本番に使うのがおすすめです。急停止と切り返しが中心という負荷の性質は<Link href="/articles/basketball-insole/" className="text-[#e8627c] underline font-medium">バスケットボール</Link>とも共通しており、同じく後足部の安定が選び方の軸になります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">自分にどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソールタイプ診断</Link>も参考にしてください。なお、プレー後にかかとや足裏、膝の痛みが続く場合は、インソールで我慢せず整形外科など医療機関への受診をご検討ください。</p>
         </section>
 
         <section className="mb-12">

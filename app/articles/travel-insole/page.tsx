@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
-  dateModified: "2026-06-13",
+  dateModified: "2026-07-12",
 };
 
-const faqs = [{"q": "旅行のためだけにインソールを買う価値はありますか？", "a": "旅行専用と考えるより、普段のウォーキングや通勤でも使える物を旅行前に導入する、と考えるのがおすすめです。旅行で効果を実感できれば、そのまま日常の歩行習慣のサポートとして使い続けられます。"}, {"q": "旅行先で靴が複数になる場合はどうすれば良いですか？", "a": "メインの歩き用スニーカーに中敷き型を入れておくのが基本です。ソックス型（ランウェイキュアソールなど）なら足に直接装着するため、サンダルやホテルのスリッパに履き替えても使えます。"}, {"q": "テーマパークの行列で立ちっぱなしがつらいです。", "a": "立ちっぱなしは歩行以上にアーチへの負担が一点に集中しやすい状態です。アーチサポートと衝撃吸収のあるインソールは立位の負担軽減にも役立ちます。並んでいる間にかかと上げなど軽く足を動かすのも有効です。"}, {"q": "夕方に足がむくんでパンパンになります。", "a": "一日中足を下げて歩き続けると、どうしてもむくみは出やすくなります。インソールでの歩行サポートに加え、ホテルで足を高くして休む・湯船につかるなどのケアを組み合わせましょう。むくみが片足だけ・痛みを伴う場合は医療機関に相談してください。"}, {"q": "飛行機や新幹線の移動中もインソールは必要ですか？", "a": "座っている移動中は外しても問題ありません。ソックス型なら履いたままでも違和感が少なく、空港や駅構内の長い移動でもそのまま使えます。"}];
+const faqs = [{"q": "旅行のためだけにインソールを買う価値はありますか？", "a": "旅行専用と考えるより、普段のウォーキングや通勤でも使える物を旅行前に導入する、と考えるのがおすすめです。旅行で効果を実感できれば、そのまま日常の歩行習慣のサポートとして使い続けられます。"}, {"q": "旅行先で靴が複数になる場合はどうすれば良いですか？", "a": "メインの歩き用スニーカーに中敷き型を入れておくのが基本です。ソックス型（ランウェイキュアソールなど）なら足に直接装着するため、サンダルやホテルのスリッパに履き替えても使えます。"}, {"q": "テーマパークの行列で立ちっぱなしがつらいです。", "a": "立ちっぱなしは歩行以上にアーチへの負担が一点に集中しやすい状態です。アーチサポートと衝撃吸収のあるインソールは立位の負担軽減にも役立ちます。並んでいる間にかかと上げなど軽く足を動かすのも有効です。"}, {"q": "夕方に足がむくんでパンパンになります。", "a": "一日中足を下げて歩き続けると、どうしてもむくみは出やすくなります。インソールでの歩行サポートに加え、ホテルで足を高くして休む・湯船につかるなどのケアを組み合わせましょう。むくみが片足だけ・痛みを伴う場合は医療機関に相談してください。"}, {"q": "飛行機や新幹線の移動中もインソールは必要ですか？", "a": "座っている移動中は外しても問題ありません。ソックス型なら履いたままでも違和感が少なく、空港や駅構内の長い移動でもそのまま使えます。"}, {"q": "石畳の多い街を観光します。足への負担は大きいですか？", "a": "石畳は硬いうえに表面が不均一なため、一般に平らな舗装路より足裏やかかとへの負担が大きくなりやすいとされます。クッション性とかかとの安定を備えたインソールを歩き慣れたスニーカーと組み合わせ、ヒールの高い靴やソールの薄い靴は避けるのが無難です。"}, {"q": "旅行から帰った後も足の疲れや痛みが残っています。", "a": "帰宅後の数日は歩く量を控えめにし、足を高くして休む・湯船で温める・ふくらはぎを軽くストレッチするなどのケアを試してみてください。それでもかかとや足裏の痛みが続く場合は、歩きすぎによるトラブルの可能性もあるため、整形外科など医療機関の受診をご検討ください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "歩き慣れた靴と組み合わせる前提で選ぶ", "b": "旅行の鉄則は「新品の靴で行かない」こと。インソールも同じで、履き慣れたスニーカーやウォーキングシューズに入れて、出発前に慣らしておけるものを選びましょう。"}, {"t": "一日中歩いてもアーチを支え続けるサポート", "b": "観光は朝から夜まで断続的に歩き続けます。柔らかいだけのクッションでは後半に支えが効かなくなるため、土踏まずをしっかり支えるアーチサポートのある設計が向いています。"}, {"t": "荷物にならず複数の靴で使い回せること", "b": "旅行は荷物を増やしたくないもの。カットして靴に合わせられる中敷き型のほか、ホテルでの室内履きやサンダルでも使えるソックス型を選ぶと、旅先で靴が変わっても対応できます。"}];
-const related = [{"href": "/articles/hiking-insole/", "label": "ハイキング・登山のインソール"}, {"href": "/articles/sneaker-insole/", "label": "スニーカー用インソール"}, {"href": "/articles/swelling-insole/", "label": "むくみ対策インソール"}, {"href": "/articles/commute-insole/", "label": "通勤ウォーキングのインソール"}];
+const related = [{"href": "/articles/hiking-insole/", "label": "ハイキング・登山のインソール"}, {"href": "/articles/sneaker-insole/", "label": "スニーカー用インソール"}, {"href": "/articles/swelling-insole/", "label": "むくみ対策インソール"}, {"href": "/articles/commute-insole/", "label": "通勤ウォーキングのインソール"}, {"href": "/articles/security-guard-insole/", "label": "警備員のインソール（長時間の立哨・巡回）"}, {"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}];
 
 export default function TravelPage() {
   return (
@@ -117,6 +117,30 @@ export default function TravelPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">旅行前の準備と旅先での注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは旅行当日デビューにせず、出発の1〜2週間前から普段の靴に入れて慣らしておきましょう。慣らし期間に違和感や当たりがないか確認しておけば、本番で靴ずれや足裏の痛みに悩まされるリスクを減らせます。あわせて、観光の合間に座って足を休める・夜にふくらはぎを軽くストレッチするだけでも、翌日の疲れの残り方が変わります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">旅行中にかかとや足裏に鋭い痛みが出た場合は、無理に予定を詰め込まず歩く量を減らしてください。帰宅後も痛みが続く場合は、足底腱膜炎など歩きすぎによるトラブルの可能性があるため、整形外科で確認しておくと安心です。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">旅程タイプ別の考え方（街歩き・山歩き・テーマパーク）</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">同じ旅行でも、旅程のタイプによって足への負担のかかり方は変わります。メインの過ごし方に合わせて、重視するポイントを整理しておきましょう。</p>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">街歩き・観光地めぐり：クッションとアーチサポートの両立</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">石畳や坂道、駅や神社仏閣の長い階段など、硬くて不均一な路面を歩き続けるのが街歩きの特徴です。美術館や博物館では「ゆっくり歩いては立ち止まる」を繰り返すため、歩行の衝撃をやわらげるクッションと、立ち時間のアーチへの負担を支えるサポートの両方があると疲れをためにくくなります。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">山歩き・ハイキングを含む旅：かかとの安定を重視</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">未舗装の遊歩道や自然公園では路面が不整地になり、足首が左右に揺さぶられやすくなるとされます。かかとを安定させるヒールカップのあるものを、履き慣れたウォーキングシューズと組み合わせましょう。本格的な登山を含む場合は<Link href="/articles/hiking-insole/" className="text-[#e8627c] underline font-medium">ハイキング・登山のインソール</Link>も参考にしてください。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
+            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">テーマパーク：立ちっぱなしと歩行の交互に備える</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">テーマパークは行列での立ちっぱなしとエリア間の長い移動が交互に続く、旅程の中でも負担の大きいパターンです。立位ではアーチの一点に負担が集中しやすいとされるため、アーチサポートを重視しつつ、並んでいる間にかかと上げなど軽く足を動かすと疲れをためにくくなります。</p>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">携行と履き替えのコツ</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">中敷き型はメインの歩き用スニーカーに入れたままにしておけば、荷物は増えません。旅先で別の靴にも使いたい場合は、当日の朝に慌てて入れ替えるのではなく、前夜のうちに移してフィット感を確かめておくと安心です。ソックス型は足に直接装着するため、靴を履き替えても付け替えの手間がなく、履き物が複数になる旅程と相性が良い形式です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一日歩いた後のインソールは汗を含んでいます。ホテルに戻ったら靴から取り出して乾かしておくと、翌日も快適に使えて衛生面でも安心です。雨で濡れた場合も同様に、靴とは別にして乾かしましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">「一日中立つ・歩き続ける」という負担は、<Link href="/articles/security-guard-insole/" className="text-[#e8627c] underline font-medium">警備員など立ち仕事</Link>の足の疲れとも共通しています。自分の足や使い方にどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソールタイプ診断</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">

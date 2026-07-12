@@ -20,10 +20,10 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-06-05",
+  dateModified: "2026-07-12",
 };
 
-const faqs = [{"q": "ダイエットインソールは履くだけで痩せますか？", "a": "履くだけで痩せる魔法ではありません。正しい歩き方と毎日の継続、食事・運動との組み合わせで効果が高まります。"}, {"q": "元の中敷きは外すべきですか？", "a": "はい。フィットと効果を保つため、元の中敷きを外してインソールと入れ替えるのがおすすめです。サイズはカットして調整します。"}, {"q": "1日何時間履けば良いですか？", "a": "決まりはありませんが、できるだけ日常的に履くのが理想です。最初は短時間から慣らし、徐々に時間を延ばしましょう。"}, {"q": "元の中敷きの上に重ねて入れてもいいですか？", "a": "基本的には元の中敷きを外して入れ替えるのがおすすめです。重ねると靴の中が窮屈になり、つま先や甲が圧迫されてサイズ感が変わったり、ズレやすくなったりします。元の中敷きが取り外せない靴では、ハーフ（前足部）タイプを選ぶなどの工夫をしましょう。"}, {"q": "毎日洗ったほうがいいですか？お手入れの頻度は？", "a": "毎日洗う必要はありませんが、汗や皮脂で汚れやニオイがたまりやすいため、定期的なお手入れがおすすめです。使用後は靴から取り出して陰干しし、湿気を逃がすと清潔に保てます。洗える素材かどうかや洗い方は製品ごとに異なるため、各製品の表示に従ってください。"}, {"q": "履いていて違和感や痛みが出たら？", "a": "アーチサポートのある製品では、慣れるまで足裏に押し上げられる感覚や違和感が出ることがあります。まずは短時間の使用から慣らしてください。我慢できない痛みやしびれ、皮膚のトラブルが続く場合は使用を中止し、必要に応じて医療機関に相談しましょう。"}];
+const faqs = [{"q": "ダイエットインソールは履くだけで痩せますか？", "a": "履くだけで痩せる魔法ではありません。正しい歩き方と毎日の継続、食事・運動との組み合わせで効果が高まります。"}, {"q": "元の中敷きは外すべきですか？", "a": "はい。フィットと効果を保つため、元の中敷きを外してインソールと入れ替えるのがおすすめです。サイズはカットして調整します。"}, {"q": "1日何時間履けば良いですか？", "a": "決まりはありませんが、できるだけ日常的に履くのが理想です。最初は短時間から慣らし、徐々に時間を延ばしましょう。"}, {"q": "元の中敷きの上に重ねて入れてもいいですか？", "a": "基本的には元の中敷きを外して入れ替えるのがおすすめです。重ねると靴の中が窮屈になり、つま先や甲が圧迫されてサイズ感が変わったり、ズレやすくなったりします。元の中敷きが取り外せない靴では、ハーフ（前足部）タイプを選ぶなどの工夫をしましょう。"}, {"q": "毎日洗ったほうがいいですか？お手入れの頻度は？", "a": "毎日洗う必要はありませんが、汗や皮脂で汚れやニオイがたまりやすいため、定期的なお手入れがおすすめです。使用後は靴から取り出して陰干しし、湿気を逃がすと清潔に保てます。洗える素材かどうかや洗い方は製品ごとに異なるため、各製品の表示に従ってください。"}, {"q": "履いていて違和感や痛みが出たら？", "a": "アーチサポートのある製品では、慣れるまで足裏に押し上げられる感覚や違和感が出ることがあります。まずは短時間の使用から慣らしてください。我慢できない痛みやしびれ、皮膚のトラブルが続く場合は使用を中止し、必要に応じて医療機関に相談しましょう。"}, {"q": "インソールが靴の中で浮いたりズレたりするときは？", "a": "元の中敷きを外し忘れていないか、カットが大きすぎ・小さすぎないかをまず確認しましょう。かかとを靴の奥まで押し込んで装着し直すと改善することも多いです。それでもズレる場合は、元の中敷きを型紙にして輪郭を少しずつ再調整するか、固定方法について製品の表示・公式の案内を確認してください。"}, {"q": "慣らし期間はどのくらいを目安にすればいいですか？", "a": "一般に、数日〜2週間程度かけて短時間の使用から少しずつ時間を延ばす方法がよく紹介されます。ただし慣れるまでの期間には個人差があるため、足の状態を見ながら無理なく進めてください。強い痛みやしびれが続く場合は使用を中止し、整形外科などの受診を検討しましょう。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "靴に正しくフィットさせる", "b": "元の中敷きを外し、サイズに合わせてカットして入れます。ズレると効果が落ちるため、しっかりフィットさせましょう。"}, {"t": "かかと着地→蹴り出しの歩き方", "b": "かかとから着地し、足裏全体を通してつま先で地面を蹴る歩き方を意識すると、下半身を使えて効果的です。"}, {"t": "毎日続ける", "b": "効果は継続が前提。普段の靴に入れて毎日履き、まずは習慣化することが大切です。"}];
-const related = [{"href": "/articles/breaking-in-insole/", "label": "インソールに慣れるまで"}, {"href": "/articles/diet-period-insole/", "label": "効果が出る期間の目安"}, {"href": "/articles/diet-mechanism/", "label": "ダイエットインソールの仕組み"}, {"href": "/articles/walking-diet/", "label": "ウォーキングダイエット"}];
+const related = [{"href": "/articles/breaking-in-insole/", "label": "インソールに慣れるまで"}, {"href": "/articles/diet-period-insole/", "label": "効果が出る期間の目安"}, {"href": "/articles/diet-mechanism/", "label": "ダイエットインソールの仕組み"}, {"href": "/articles/walking-diet/", "label": "ウォーキングダイエット"}, {"href": "/articles/washing-guide/", "label": "インソールの洗い方・お手入れガイド"}];
 
 export default function CorrectUsagePage() {
   return (
@@ -129,6 +129,42 @@ export default function CorrectUsagePage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">やりがちなNGと対処</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズが合わずズレる、慣らさずいきなり長時間履いて痛くなる、数日で諦める——これらはよくある失敗です。サイズを合わせ、最初は短時間から慣らし、最低でも1〜3ヶ月は継続しましょう。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">痛みや違和感が強い場合は無理せず使用時間を調整し、合わないと感じたら別の製品も検討してください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">入れ方の失敗例と直し方</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは入れ方ひとつでフィット感が大きく変わります。「なんだか合わない」と感じるときは、まず次の4つの失敗パターンに当てはまっていないか確認してみましょう。</p>
+          <div className="space-y-4">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">失敗例1：前後を逆に入れている</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">かかと側とつま先側を逆に入れると、アーチの盛り上がりが土踏まずに合わず、歩くたびに違和感が出ます。多くのインソールはかかと側が深いカップ状、つま先側が薄い形状です。土踏まずの膨らみが足の内側・かかと寄りにくるよう、向きを確認して入れ直しましょう。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">失敗例2：左右を逆に入れている</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">左右が分かれているタイプを逆に入れると、アーチの支えが足の外側に当たり、かえって歩きにくくなります。L／Rの刻印や、親指側が高くなる形状を目印に、左右を確かめてからセットしてください。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">失敗例3：元の中敷きの上に重ねている</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">元の中敷きの上に重ねて入れると、靴の中が窮屈になって甲やつま先が圧迫されたり、中敷きの上で滑って安定しなかったりします。基本は元の中敷きを外して入れ替えましょう。中敷きが外せない靴では、前足部だけのハーフタイプを検討するのも一つの方法です。</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">失敗例4：かかとが浮く・歩くとズレる</h3>
+              <p className="text-sm text-gray-700 leading-relaxed">カットした輪郭が靴に合っていないと、浮きやズレの原因になります。元の中敷きを型紙にして輪郭を再確認し、大きすぎる場合は少しずつ切って調整しましょう。かかとを靴の奥までしっかり押し込んで装着し直すだけで改善することもあります。固定方法については、お使いの製品の表示に従ってください。</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">慣らし期間の目安と違和感があるときの見直し手順</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチサポートのあるインソールは、履き始めに足裏が押し上げられるような感覚が出ることがあります。一般に、数日〜2週間程度かけて短時間の使用から少しずつ時間を延ばしていく慣らし方がよく紹介されますが、慣れるまでの期間には個人差があります。焦らず、足の状態を見ながら進めましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">慣らし期間を過ぎても違和感が続くときは、次の順番で見直してみてください。</p>
+          <ol className="list-decimal list-inside space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            <li>使用時間を一度短くする（1〜2時間程度から再スタート）</li>
+            <li>前後・左右の向きと、カットのフィット具合を再確認する</li>
+            <li>ひもで甲の締め具合を調整できるスニーカーなど、別の靴で試す</li>
+            <li>それでも合わなければ、いったん使用を中断して様子を見る</li>
+          </ol>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">強い痛みやしびれ、皮膚のトラブルが続く場合は、自己判断で我慢せず整形外科などの医療機関に相談してください。また、そもそも自分の足や目的に合うタイプか見直したい場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソール診断</Link>で相性をチェックしてみるのもおすすめです。</p>
         </section>
 
         <section className="mb-12">
