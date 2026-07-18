@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-07-05",
+  dateModified: "2026-07-19",
 };
 
 const faqStructuredData = {
@@ -116,51 +116,53 @@ const faqStructuredData = {
   ],
 };
 
-const badReviews = [
+// 口コミは出典を確認できた実在レビューサイト・公式EC店舗の「傾向」のみを掲載しています（個別レビューの転載・創作はしません）。
+const REVIEW_SOURCES = {
+  dietcafe: {
+    name: "ダイエットカフェ「ピットソール（Pitsole）の効果と52件の口コミ」",
+    url: "https://www.diet-cafe.jp/2022/06/pitsole.html",
+    refDate: "2026年7月19日参照",
+  },
+  rakuten2set: {
+    name: "BACCHUS ONLINE SHOP（楽天市場）2足SET 商品レビュー",
+    url: "https://review.rakuten.co.jp/item/1/409507_10000004/1.1/",
+    refDate: "2026年7月19日参照",
+  },
+  rakuten3set: {
+    name: "BACCHUS ONLINE SHOP（楽天市場）3足+1足セット 商品レビュー",
+    url: "https://review.rakuten.co.jp/item/1/409507_10000010/1.1/",
+    refDate: "2026年7月19日参照",
+  },
+};
+
+const badReviewTrends = [
   {
-    title: "体重は変わらなかった",
-    text: "3ヶ月毎日使いましたが、体重の変化はほぼありませんでした。姿勢が良くなった気はしますが、ダイエット目的だと期待しすぎないほうがいいです。",
-    source: "ダイエットカフェ",
-    age: "30代女性",
+    title: "「痩せなかった」という報告が最多",
+    text: "ダイエットカフェ（52件・2026年7月19日参照）では、体重の増減に言及した口コミのうち「痩せた」12件に対し「痩せなかった」が26件と、痩せなかった報告が上回っています。「履くだけで痩せる」という期待で購入すると不満につながりやすい商品です。",
+    source: REVIEW_SOURCES.dietcafe,
   },
   {
-    title: "足が痛くなった",
-    text: "最初の1週間は土踏まずが痛くて辛かったです。慣れるまで短時間から始めればよかったと後悔しています。",
-    source: "楽天レビュー",
-    age: "40代女性",
+    title: "価格に対して効果が見合わないという不満",
+    text: "同サイトの低評価口コミでは「高い割に効果がなかった」という趣旨の意見が目立ちます。単品6,578円という価格に対する期待値の高さが、評価を下げる一因になっています。",
+    source: REVIEW_SOURCES.dietcafe,
   },
   {
-    title: "値段が高い",
-    text: "単品で6,000円以上するのは中敷きとしてはかなり高額。効果が保証されているわけではないので、コスパが気になります。",
-    source: "Amazon",
-    age: "20代女性",
+    title: "返品・勧誘に関するトラブル報告も存在",
+    text: "同サイトには、返品対応や電話勧誘に関する「トラブル」タグの付いた口コミも確認できます。購入前に公式サイトの返品・交換条件を確認しておくことをおすすめします。",
+    source: REVIEW_SOURCES.dietcafe,
   },
 ];
 
-const goodReviews = [
+const goodReviewTrends = [
   {
-    title: "姿勢が良くなって疲れにくい",
-    text: "立ち仕事ですが、ピットソールを入れてから夕方の腰の痛みが軽減しました。体重は大きく変わっていませんが、姿勢が改善された実感があります。",
-    source: "楽天レビュー",
-    age: "30代女性",
+    title: "姿勢・歩きやすさの変化を挙げる声",
+    text: "ダイエットカフェの口コミでも「姿勢が良くなった」「歩きやすくなった」というポジティブな意見が見られます。体重よりも姿勢・歩行の変化を評価する声が中心です。",
+    source: REVIEW_SOURCES.dietcafe,
   },
   {
-    title: "歩き方が変わった",
-    text: "足裏全体を使って歩けるようになり、ふくらはぎの筋肉痛が出ました。普段使えていない筋肉が動いている感覚があります。",
-    source: "公式サイト",
-    age: "40代女性",
-  },
-  {
-    title: "腰痛が改善された",
-    text: "ダイエット目的で購入しましたが、予想外に腰痛が楽になりました。骨盤のサポートが効いているのかもしれません。半年継続中です。",
-    source: "ダイエットカフェ",
-    age: "50代男性",
-  },
-  {
-    title: "スニーカーにぴったり",
-    text: "普段のスニーカーに入れるだけなので続けやすい。ジムに行く時間がない私にはちょうどいいです。ウォーキングの質が上がった気がします。",
-    source: "楽天レビュー",
-    age: "30代女性",
+    title: "楽天公式店のレビューは比較的高評価",
+    text: "楽天市場の公式店（BACCHUS ONLINE SHOP）では、2足SETが総合3.98（444件）、3足+1足セットが総合4.11（674件）と、ダイエットカフェより高めの評価です（いずれも2026年7月19日参照）。姿勢面の変化や立ち仕事での使用感に触れるレビューが見られます。",
+    source: REVIEW_SOURCES.rakuten3set,
   },
 ];
 
@@ -248,12 +250,6 @@ export default function PitsolePage() {
             "name": "ピットソール (Pitsole)",
             "description": "世界特許取得技術採用のダイエットサポートインソール。足裏アーチサポートで姿勢改善・歩行効率向上。",
             "brand": { "@type": "Brand", "name": "BACCHUS" },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "3.8",
-              "reviewCount": "1250",
-              "bestRating": "5"
-            },
             "offers": {
               "@type": "Offer",
               "price": "6578",
@@ -410,10 +406,10 @@ export default function PitsolePage() {
             ピットソールの悪い口コミ・評判
           </h2>
           <p className="text-sm text-gray-500 mb-6">
-            まずはネガティブな声から確認しましょう
+            まずはネガティブな傾向から確認しましょう（出典を確認できた実在レビューサイトの傾向のみを掲載し、個別レビューの転載・創作はしていません）
           </p>
           <div className="space-y-4">
-            {badReviews.map((review) => (
+            {badReviewTrends.map((review) => (
               <div
                 key={review.title}
                 className="bg-white border border-gray-200 rounded-lg p-5"
@@ -430,7 +426,7 @@ export default function PitsolePage() {
                       {review.text}
                     </p>
                     <p className="text-xs text-gray-400">
-                      {review.age} / 出典: {review.source}
+                      出典: <a href={review.source.url} target="_blank" rel="nofollow noopener" className="underline">{review.source.name}</a>（{review.source.refDate}）
                     </p>
                   </div>
                 </div>
@@ -466,10 +462,10 @@ export default function PitsolePage() {
             ピットソールの良い口コミ・評判
           </h2>
           <p className="text-sm text-gray-500 mb-6">
-            ポジティブな声も多数あります
+            ポジティブな傾向も確認できます（出典を確認できた実在レビューサイト・公式EC店舗の傾向のみを掲載しています）
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {goodReviews.map((review) => (
+            {goodReviewTrends.map((review) => (
               <div
                 key={review.title}
                 className="bg-white border border-gray-200 rounded-lg p-5"
@@ -486,7 +482,7 @@ export default function PitsolePage() {
                       {review.text}
                     </p>
                     <p className="text-xs text-gray-400">
-                      {review.age} / 出典: {review.source}
+                      出典: <a href={review.source.url} target="_blank" rel="nofollow noopener" className="underline">{review.source.name}</a>（{review.source.refDate}）
                     </p>
                   </div>
                 </div>
@@ -502,19 +498,19 @@ export default function PitsolePage() {
                 <span className="text-[#0ea5e9] mt-0.5 shrink-0">
                   &#9679;
                 </span>
-                姿勢改善・腰痛軽減を実感する声が多い
+                「姿勢が良くなった」「歩きやすくなった」という姿勢・歩行面の声が中心（ダイエットカフェ）
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#0ea5e9] mt-0.5 shrink-0">
                   &#9679;
                 </span>
-                普段使えていない筋肉の活性化を感じる人が多数
+                楽天公式店のレビュー評価は総合3.98〜4.11と比較的高め（2026年7月19日参照）
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#0ea5e9] mt-0.5 shrink-0">
                   &#9679;
                 </span>
-                靴に入れるだけの手軽さが継続のしやすさにつながっている
+                体重の減少そのものよりも、日常の使いやすさ・姿勢サポートとして評価されている
               </li>
             </ul>
           </div>

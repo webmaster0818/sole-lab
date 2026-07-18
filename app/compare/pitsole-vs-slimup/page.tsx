@@ -27,7 +27,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-07-05",
+  dateModified: "2026-07-19",
 };
 
 const faqStructuredData = {
@@ -768,7 +768,11 @@ export default function PitsoleVsSlimupPage() {
               <span className="font-bold text-gray-900">口コミ比較のまとめ：</span>
               どちらの商品も「すぐには痩せない」という声が共通しています。これはダイエットインソール全般に言えることで、
               正しい姿勢・歩行を促すことで長期的に体型変化を目指す商品です。
-              ピットソールは姿勢改善・腰痛軽減の実感、スリムアップインソールは歩き方の変化・コスパの良さが高評価のポイントです。
+              なお口コミの蓄積量には大きな差があり、ピットソールはダイエットカフェ（52件・平均2.7）や楽天公式店（総合3.98〜4.11・計1,000件超）にレビューが蓄積されている一方、
+              スリムアップインソールの第三者レビューはまだ少なく（楽天イッティ公式店の該当セットで4件・総合3.75）、傾向を断定できる段階ではありません。
+            </p>
+            <p className="text-xs text-gray-500 mt-2">
+              出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ（ピットソール）</a>／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天）商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/304721_10001280/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 商品レビュー</a>（いずれも2026年7月19日参照）
             </p>
           </div>
         </div>

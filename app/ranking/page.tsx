@@ -28,7 +28,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-07-03",
+  dateModified: "2026-07-19",
 };
 
 const faqStructuredData = {
@@ -983,16 +983,21 @@ export default function RankingPage() {
                 ピットソールの口コミ傾向
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                ダイエットカフェでの平均評価は2.7点。口コミ数が多いため信頼性のある数値です。
-                「姿勢が良くなった気がする」「足の疲れが軽減された」という声がある一方、
+                ダイエットカフェでの平均評価は2.7点（52件）。口コミ数が多いため傾向をつかみやすいデータです。
+                「姿勢が良くなった」「歩きやすくなった」という声がある一方、
                 「ダイエット効果は実感できなかった」という厳しい評価も一定数あります。
-                体重減少よりも姿勢・歩行の変化を実感している方が多い印象です。
+                体重減少よりも姿勢・歩行の変化を実感している方が多い傾向です。
+                なお楽天公式店（BACCHUS ONLINE SHOP）の商品レビューは総合3.98〜4.11と比較的高評価です（2026年7月19日参照）。
               </p>
             </div>
-            <p className="text-sm text-gray-600 leading-relaxed">
-              ランウェイキュアソール・スリムアップインソールについても、姿勢改善の実感に関するポジティブな声は見られますが、
+            <p className="text-sm text-gray-600 leading-relaxed mb-3">
+              ランウェイキュアソールは楽天公式店の商品レビューが総合3.98（807件・2026年7月19日参照）で、姿勢面の変化を挙げる声が見られます。
+              スリムアップインソールは第三者レビューがまだ少なく（楽天イッティ公式店の該当セットで4件・総合3.75）、傾向を断定できる段階ではありません。
               いずれの商品も「履くだけで痩せた」という口コミは少数派です。
               インソールはあくまで日常の歩行を改善するサポートツールとして、現実的な期待値を持って使用することが大切です。
+            </p>
+            <p className="text-xs text-gray-500 leading-relaxed">
+              出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ（ピットソール）</a>／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天）商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">キレイplus公式ショップ楽天市場店 商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/304721_10001280/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 商品レビュー</a>（いずれも2026年7月19日参照）
             </p>
           </div>
 

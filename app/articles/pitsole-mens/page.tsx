@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-16",
-  dateModified: "2026-07-05",
+  dateModified: "2026-07-19",
 };
 
 const faqs = [
@@ -356,73 +356,54 @@ export default function PitsoleMensPage() {
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            男性ユーザーの口コミ・使用レビュー
+            男性ユーザーの口コミはある？確認できる範囲の実情
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              ピットソールを実際に使用している男性の口コミを、職業・使用シーン別にまとめました。女性と比較して口コミ数は少ないですが、効果を実感している男性の声も確実に存在します。
+              結論から言うと、<strong>男性と明示された口コミはまだ少ない</strong>のが実情です。当サイトは出典を確認できない口コミを掲載しない方針のため、ここでは実在のレビューサイト・公式EC店舗で確認できた範囲の傾向を正直にまとめます（個別レビューの転載・創作はしません）。
             </p>
           </div>
 
           <div className="space-y-4">
-            {[
-              {
-                type: "立ち仕事・工場勤務",
-                age: "30代男性",
-                period: "使用3ヶ月",
-                review:
-                  "工場で1日8時間の立ち仕事をしています。安全靴にピットソールを入れて使い始めました。最初は足裏が少し痛かったですが、1週間で慣れました。以前は帰宅時にふくらはぎがパンパンでしたが、今はかなり楽になりました。体重は2ヶ月で1.5kg減りましたが、それ以上に姿勢が良くなったと妻に言われたのが嬉しいです。",
-                good: "足の疲れ軽減、姿勢改善",
-              },
-              {
-                type: "営業職・外回り",
-                age: "40代男性",
-                period: "使用4ヶ月",
-                review:
-                  "営業で1日1万歩以上歩くので、効果を実感しやすかったのかもしれません。ビジネスシューズに入れていますが、元の中敷きを外せば問題なくフィットしました。3ヶ月目あたりからズボンのウエストが少しゆるくなり、4ヶ月で3kg減りました。歩く仕事の人にはおすすめです。",
-                good: "体重減少、ウエスト変化",
-              },
-              {
-                type: "通勤・デスクワーク",
-                age: "30代男性",
-                period: "使用2ヶ月",
-                review:
-                  "往復40分の徒歩通勤で使っています。正直、2ヶ月では体重の変化はまだ感じていません。ただ、歩き方が変わった実感はあります。以前は内股気味でしたが、ピットソールを使い始めてからまっすぐ歩けるようになりました。もう少し続けてみようと思います。",
-                good: "歩行フォーム改善",
-              },
-              {
-                type: "ウォーキング・運動習慣",
-                age: "50代男性",
-                period: "使用6ヶ月",
-                review:
-                  "健康のために毎朝30分ウォーキングをしています。ピットソールを入れてからは同じ距離でもふくらはぎの筋肉を使っている感覚が強くなりました。半年で4kg減り、健康診断でも中性脂肪の値が改善しました。50代でも効果はあると思います。",
-                good: "体重減少、健康数値改善",
-              },
-            ].map((item) => (
-              <div key={item.type} className="card">
-                <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-medium">
-                    {item.type}
+            <div className="card">
+              <h3 className="text-sm font-bold text-gray-900 mb-2">
+                確認できるレビューデータ（2026年7月19日参照）
+              </h3>
+              <ul className="space-y-2 text-sm text-gray-600 leading-relaxed">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-600 mt-0.5 shrink-0">&#10003;</span>
+                  <span>
+                    楽天公式店（BACCHUS ONLINE SHOP）の商品レビューは、2足SETが総合3.98（444件）、3足+1足セットが総合4.11（674件）。男女は区別されていませんが、姿勢面の変化や立ち仕事での使用感に触れる声が見られます。
                   </span>
-                  <span className="text-xs text-gray-500">
-                    {item.age} / {item.period}
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-600 mt-0.5 shrink-0">&#10003;</span>
+                  <span>
+                    ダイエットカフェ（52件）では「姿勢が良くなった」「歩きやすくなった」という声がある一方、体重に言及した口コミでは「痩せなかった」26件が「痩せた」12件を上回ります。男性の投稿はごく一部です。
                   </span>
-                </div>
-                <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                  {item.review}
-                </p>
-                <p className="text-xs text-gray-500">
-                  効果の実感：
-                  <span className="text-blue-600 font-medium">
-                    {item.good}
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-600 mt-0.5 shrink-0">&#10003;</span>
+                  <span>
+                    男性向けの参考になる確認済みの事実として、L（26.5〜27.5cm）・XL（28〜29cm）の男性対応サイズが公式に用意されており、ビジネスシューズでの使用も公式に案内されています（公式サイト・2026年7月確認）。
                   </span>
-                </p>
-              </div>
-            ))}
+                </li>
+              </ul>
+              <p className="text-xs text-gray-500 mt-3">
+                出典: <a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天市場）商品レビュー</a>／<a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ「ピットソール（Pitsole）の効果と52件の口コミ」</a>（いずれも2026年7月19日参照）
+              </p>
+            </div>
+
+            <div className="card border-l-4 border-l-blue-500">
+              <p className="text-sm text-gray-700 leading-relaxed">
+                <span className="font-bold text-gray-900">編集部の整理：</span>
+                男性に限定した口コミが少ない現状では、「歩行量が多い使い方ほど設計の狙いに合う」という製品特性（歩行時の筋肉活動をサポートする設計）と、サイズ・靴との適合性を判断材料にするのが現実的です。営業・立ち仕事など歩行量の多い方は効果を検証しやすく、デスクワーク中心の方は歩行機会を意識的に増やす前提で検討しましょう。
+              </p>
+            </div>
           </div>
 
           <p className="text-xs text-gray-500 mt-4">
-            ※ 口コミは個人の感想であり、効果を保証するものではありません。使用感には個人差があります。
+            ※ 口コミ・レビューは個人の感想であり、効果を保証するものではありません。使用感には個人差があります。
           </p>
         </div>
       </section>

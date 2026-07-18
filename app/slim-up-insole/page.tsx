@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "スリムアップインソールの口コミ・効果を検証【整体師監修】｜ソールラボ",
   description:
-    "美容整体師・井上剛志監修のスリムアップインソールを徹底検証。実際の口コミ・評判から効果の仕組み、最安値情報、サイズ選びまで詳しく解説。悪い口コミも正直にお伝えします。",
+    "美容整体師・井上剛志監修のスリムアップインソールを徹底検証。口コミ・評判は確認できた実レビューのみを出典つきで整理し、効果の仕組み、最安値情報、サイズ選びまで正直に解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/slim-up-insole/",
   },
@@ -31,13 +31,6 @@ const structuredData = {
     highPrice: "6980",
     offerCount: "3",
   },
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "3.8",
-    bestRating: "5",
-    worstRating: "1",
-    reviewCount: "150",
-  },
 };
 
 const reviewStructuredData = {
@@ -54,7 +47,7 @@ const reviewStructuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-07-05",
+  dateModified: "2026-07-19",
 };
 
 const faqStructuredData = {
@@ -169,12 +162,6 @@ export default function SlimUpInsolePage() {
             "name": "スリムアップインソール",
             "description": "美容整体師・井上剛志監修のダイエットインソール。骨格筋サポートで姿勢改善。",
             "brand": { "@type": "Brand", "name": "スリムアップインソール" },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "3.5",
-              "reviewCount": "210",
-              "bestRating": "5"
-            },
             "offers": {
               "@type": "Offer",
               "price": "6980",
@@ -327,7 +314,7 @@ export default function SlimUpInsolePage() {
                 <span className="text-gray-300">&#9733;</span>
               </div>
               <p className="text-xs text-gray-500 mt-0.5">
-                総合評価（5点満点）
+                総合評価（編集部評価・5点満点）
               </p>
             </div>
           </div>
@@ -355,7 +342,7 @@ export default function SlimUpInsolePage() {
             スリムアップインソールは、YouTube登録者約136万人を誇る美容整体師・井上剛志氏（アピアランスTV）が監修したダイエットインソールです。販売元はイッティ公式で、骨格筋サポートに特化した立体構造が特徴です。
           </p>
           <p>
-            単品6,980円（税込）という価格帯は、ダイエットインソールの中ではやや高めの印象ですが、整体師監修という専門性の高さと、立体サポート構造・抗菌防臭機能といった付加価値を考えると、納得できる設計です。口コミでは「立ち仕事で足がラクになった」「姿勢を意識するようになった」という好評がある一方、「価格が高い」「靴によっては合わない」という声もあります。
+            単品6,980円（税込）という価格帯は、ダイエットインソールの中ではやや高めの印象ですが、整体師監修という専門性の高さと、立体サポート構造・抗菌防臭機能といった付加価値を考えると、納得できる設計です。なお、第三者の口コミはまだ少なく（楽天のイッティ公式店の該当商品レビューは4件・総合3.75、2026年7月19日参照）、口コミの傾向を断定できる段階ではありません。
           </p>
           <p>
             結論として、整体師監修の信頼性を重視する方や、骨格筋アプローチに興味がある方にはおすすめできる商品です。ただし、価格を抑えたい方や、幅広い靴に使いたい方は他の選択肢も検討した方がよいでしょう。
@@ -371,51 +358,47 @@ export default function SlimUpInsolePage() {
           </h2>
 
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            まずは、スリムアップインソールの気になる口コミから見ていきましょう。購入前に知っておきたいリアルな声を集めました。
+            当サイトは出典を確認できない口コミを掲載しない方針です。スリムアップインソールは第三者レビューがまだ少ないため、ここでは公式サイトで確認できる仕様・案内から導ける「購入前に知っておきたい注意点」を編集部が整理します。
           </p>
 
           <div className="space-y-4">
             {[
               {
-                title: "価格が高いと感じる",
-                text: "単品で約7,000円はインソールとしては高め。100円ショップのインソールと比べると…と思ってしまいます。ただ、整体師監修という点を考えると妥当なのかもしれません。",
-                age: "30代女性",
+                title: "価格はインソールとしては高め",
+                text: "単品6,980円（税込）は、市販の汎用インソールと比べると高価格帯です。整体師監修・立体サポート構造という付加価値をどう評価するかで納得感が変わります。セット購入で1足あたりの単価を下げる方法があります。",
               },
               {
-                title: "靴によっては合わない",
-                text: "スニーカーには問題なく入りましたが、パンプスには厚みがあって入りませんでした。靴を選ぶのがデメリットだと思います。",
-                age: "40代女性",
+                title: "靴の形状によっては合わない",
+                text: "公式FAQでも、スニーカーやウォーキングシューズなど深さのある靴での使用が推奨されています。パンプスやヒールでは窮屈になる場合があるため、使いたい靴が決まっている方は事前に確認しましょう。",
               },
               {
-                title: "最初は足が痛くなった",
-                text: "使い始めて数日は足裏が痛くなりました。1週間ほどで慣れましたが、最初から長時間使うのは避けた方がいいかもしれません。",
-                age: "20代女性",
+                title: "使い始めは違和感が出る場合がある",
+                text: "アーチをサポートするタイプのインソール全般に言えることですが、使い始めは足裏に違和感や疲労感が出ることがあります。公式の使い方案内でも、最初は短時間から徐々に慣らすことが推奨されています。",
               },
-            ].map((review) => (
+            ].map((point) => (
               <div
-                key={review.title}
+                key={point.title}
                 className="bg-white border border-gray-200 rounded-lg p-5"
               >
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-red-400 text-sm">&#9650;</span>
                   <span className="text-sm font-bold text-gray-900">
-                    {review.title}
+                    {point.title}
                   </span>
                 </div>
-                <p className="text-sm text-gray-600 leading-relaxed mb-2">
-                  {review.text}
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  {point.text}
                 </p>
-                <p className="text-xs text-gray-400">{review.age}</p>
               </div>
             ))}
           </div>
 
           <div className="mt-6 bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm font-bold text-amber-800 mb-1">
-              悪い口コミの傾向まとめ
+              注意点のまとめ
             </p>
             <p className="text-sm text-amber-700 leading-relaxed">
-              悪い口コミの多くは「価格の高さ」「靴との相性」「使い始めの違和感」に集中しています。価格についてはセット購入で1足あたりのコストを下げる方法があり、靴との相性は深さのあるスニーカーやウォーキングシューズで使用すれば解消できるケースがほとんどです。
+              注意点は「価格の高さ」「靴との相性」「使い始めの違和感」の3つに整理できます。価格はセット購入で1足あたりのコストを下げる方法があり、靴との相性は深さのあるスニーカーやウォーキングシューズを選ぶことで対処しやすくなります。いずれも公式サイトの仕様・案内（2026年7月確認）に基づく整理で、効果を保証するものではありません。
             </p>
           </div>
         </div>
@@ -428,61 +411,38 @@ export default function SlimUpInsolePage() {
         </h2>
 
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
-          続いて、スリムアップインソールの良い口コミを紹介します。多くのユーザーから寄せられた好評の声です。
+          スリムアップインソールは比較的新しい商品で、第三者が投稿した口コミ・レビューはまだ少ないのが実情です。確認できた範囲のデータを正直にお伝えします。
         </p>
 
-        <div className="space-y-4">
-          {[
-            {
-              title: "立ち仕事でも足がラク",
-              text: "看護師で一日中立ちっぱなしですが、このインソールを入れてから夕方の足の疲れが全然違います。帰宅後に足がパンパンになることが減りました。",
-              age: "30代女性",
-            },
-            {
-              title: "姿勢を意識するようになった",
-              text: "インソールを入れると自然と背筋が伸びる感覚があります。猫背が気になっていたので、日常的に姿勢を意識できるようになったのが嬉しいです。",
-              age: "40代女性",
-            },
-            {
-              title: "夕方でも足がラクに過ごせる",
-              text: "以前は夕方になるとむくみがひどかったのですが、使い始めてから足の軽さが違います。2足セットで買って、通勤用とウォーキング用に使い分けています。",
-              age: "30代女性",
-            },
-            {
-              title: "整体師監修で安心感がある",
-              text: "YouTubeで井上先生の動画を見ていたので信頼できました。実際に使ってみて、足裏全体がしっかり支えられている感覚があり、さすがプロ監修だと思いました。",
-              age: "20代女性",
-            },
-            {
-              title: "抗菌防臭が地味にありがたい",
-              text: "毎日使うものなので、臭いが気になっていましたが、抗菌防臭機能のおかげか全く気になりません。衛生面でも安心して使えます。",
-              age: "40代女性",
-            },
-          ].map((review) => (
-            <div
-              key={review.title}
-              className="bg-white border border-gray-200 rounded-lg p-5"
-            >
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-emerald-500 text-sm">&#9650;</span>
-                <span className="text-sm font-bold text-gray-900">
-                  {review.title}
-                </span>
-              </div>
-              <p className="text-sm text-gray-600 leading-relaxed mb-2">
-                {review.text}
-              </p>
-              <p className="text-xs text-gray-400">{review.age}</p>
-            </div>
-          ))}
+        <div className="bg-white border border-emerald-200 rounded-lg p-4 md:p-5 mb-4">
+          <p className="text-sm font-bold text-gray-900 mb-2">
+            確認できたレビューデータ（2026年7月19日時点）
+          </p>
+          <ul className="space-y-2 text-sm text-gray-600">
+            <li className="flex items-start gap-2">
+              <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
+              <span>
+                楽天市場（イッティ公式 楽天市場店）の3足+1足セットの商品レビュー: 総合3.75 / 5.0（4件。内訳 ★5：2件／★4：1件／★1：1件）
+              </span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
+              <span>
+                好意的なレビューでは「良い姿勢で歩くことができている」といった姿勢面の声が見られますが、件数が少ないため傾向を断定できる段階ではありません
+              </span>
+            </li>
+          </ul>
+          <p className="text-xs text-gray-500 mt-3">
+            出典: <a href="https://review.rakuten.co.jp/item/1/304721_10001280/1.1/" target="_blank" rel="nofollow noopener" className="text-emerald-600 underline">イッティ公式 楽天市場店 スリムアップインソール 3足+1足セット みんなのレビュー</a>（2026年7月19日参照）。個別レビューの転載はせず、件数・傾向のみ紹介しています。
+          </p>
         </div>
 
         <div className="mt-6 bg-emerald-50 border border-emerald-200 rounded-lg p-4">
           <p className="text-sm font-bold text-emerald-800 mb-1">
-            良い口コミの傾向まとめ
+            口コミが少ない段階での判断材料
           </p>
           <p className="text-sm text-emerald-700 leading-relaxed">
-            良い口コミでは「足の疲れ軽減」「姿勢の改善」「夕方のむくみ軽減」が特に多く見られます。整体師監修という専門性への信頼感も高評価のポイントです。日常的に歩く時間が長い方ほど効果を実感しやすい傾向があります。
+            第三者の口コミが少ない現時点では、監修者（美容整体師・井上剛志氏）の情報がYouTubeで公開されていること、公式の返品ポリシー・サイズ案内が明示されていることなど、確認できる事実を判断材料にするのが現実的です。口コミの蓄積状況は今後も定期的に確認し、本ページを更新します。
           </p>
         </div>
       </section>
@@ -1047,7 +1007,7 @@ export default function SlimUpInsolePage() {
             立体サポート構造による足裏アーチのサポート、骨格筋アプローチによる姿勢改善、抗菌防臭機能による衛生面への配慮と、3つの柱で日常の歩行をサポートしてくれます。
           </p>
           <p>
-            口コミでは「立ち仕事でも足がラク」「姿勢を意識できるようになった」「夕方のむくみが軽減した」と好評な一方、「価格が高い」「靴によっては合わない」「最初は足が痛い」という声もあります。
+            第三者の口コミはまだ少なく（楽天イッティ公式店の該当商品レビューは4件・総合3.75、2026年7月19日参照）、傾向を断定できる段階ではありません。購入判断は、価格・サイズ・靴との相性など確認できる事実をもとに行うのが現実的です。
           </p>
           <p>
             単品6,980円（税込）とやや高めですが、3足セット（17,920円+1足プレゼント）なら1足あたり4,480円まで下がります。複数の靴に入れたい方やコストを抑えたい方はセット購入がおすすめです。

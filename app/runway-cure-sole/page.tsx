@@ -35,7 +35,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-07-18",
+  dateModified: "2026-07-19",
 };
 
 const faqStructuredData = {
@@ -117,51 +117,15 @@ const faqStructuredData = {
   ],
 };
 
-const badReviews = [
-  {
-    age: "30代女性",
-    rating: 2,
-    text: "外反母趾気味の私には、親指と人差し指の間のクロス部分が少し食い込んで痛みを感じました。長時間の使用は厳しかったです。",
-  },
-  {
-    age: "40代女性",
-    rating: 3,
-    text: "夏場に使うと足が蒸れやすく、締め付け感が気になりました。涼しい季節は問題ないのですが、真夏は素足だとやや不快です。",
-  },
-  {
-    age: "20代女性",
-    rating: 3,
-    text: "サイズがMとLの2つしかないので、足が小さめの私（22cm）にはMでも少し大きかったです。もう少し細かいサイズ展開があれば嬉しいです。",
-  },
-];
-
-const goodReviews = [
-  {
-    age: "30代女性",
-    rating: 5,
-    text: "使い始めて2週間ほどで、姿勢が良くなったと周りに言われるようになりました。意識しなくても自然と背筋が伸びる感覚があります。",
-  },
-  {
-    age: "40代女性",
-    rating: 5,
-    text: "立ち仕事で毎日足がパンパンだったのが、このインソールを入れてから足の疲れが軽くなりました。夕方になっても足が軽いのが嬉しいです。",
-  },
-  {
-    age: "50代女性",
-    rating: 4,
-    text: "有名雑誌で紹介されていたのがきっかけで購入。履くだけで骨盤周りが安定する感じがあり、歩き方が変わったと実感しています。",
-  },
-  {
-    age: "20代女性",
-    rating: 5,
-    text: "通勤用のスニーカーに入れています。薄型なので靴がきつくならず、見た目も変わらないのが良いです。3ヶ月使って下半身がすっきりしてきました。",
-  },
-  {
-    age: "30代女性",
-    rating: 4,
-    text: "産後の体型戻しに購入。骨盤が安定する感じがあり、腰痛も少し楽になりました。毎日の家事や買い物で無理なく使えるのが続けやすいポイントです。",
-  },
-];
+// 口コミは出典を確認できたもののみ「傾向」として掲載しています（個別レビューの転載はしません）。
+const REVIEW_SOURCE = {
+  name: "キレイplus公式ショップ楽天市場店（ランウェイキュアソール商品レビュー）",
+  url: "https://review.rakuten.co.jp/item/1/405162_10000129/1.1/",
+  refDate: "2026年7月19日参照",
+  rating: "3.98",
+  count: 807,
+  breakdown: "★5：217件／★4：405件／★3：151件／★2：19件／★1：15件",
+};
 
 function StarRating({ rating }: { rating: number }) {
   return (
@@ -176,22 +140,6 @@ function StarRating({ rating }: { rating: number }) {
           <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
       ))}
-    </div>
-  );
-}
-
-function ReviewCard({
-  review,
-}: {
-  review: { age: string; rating: number; text: string };
-}) {
-  return (
-    <div className="bg-white border border-gray-200 rounded-lg p-4 md:p-5">
-      <div className="flex items-center gap-3 mb-2">
-        <StarRating rating={review.rating} />
-        <span className="text-xs text-gray-500">{review.age}</span>
-      </div>
-      <p className="text-sm text-gray-600 leading-relaxed">{review.text}</p>
     </div>
   );
 }
@@ -231,12 +179,6 @@ export default function RunwayCureSolePage() {
             "name": "ランウェイキュアソール (Runway Cure Sole)",
             "description": "3点アーチサポートによる美姿勢インソール。歩行姿勢の改善で疲れにくい足元をサポート。",
             "brand": { "@type": "Brand", "name": "Runway Cure Sole" },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "3.6",
-              "reviewCount": "380",
-              "bestRating": "5"
-            },
             "offers": {
               "@type": "Offer",
               "price": "6980",
@@ -274,7 +216,7 @@ export default function RunwayCureSolePage() {
         <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p className="mb-2"><strong>どこで売ってる？：</strong>購入は公式サイト（FLOReショップ）が中心で、ドン・キホーテ・薬局・靴店など実店舗での取り扱いは確認されていません。Amazon・楽天の出品は時期により変動し、セット割引・最安値は公式サイト限定です（<a href="#where-to-buy" className="text-[#0ea5e9] underline">販売店の詳細はこちら</a>）。</p>
-          <p>ランウェイキュアソールは3点アーチサポートで美姿勢を促すインソールです。即効的なダイエット効果は期待できませんが、姿勢改善・歩行バランスの向上による体の使い方の改善が多くの口コミで報告されています。</p>
+          <p>ランウェイキュアソールは3点アーチサポートで美姿勢を促すインソールです。即効的なダイエット効果は期待できませんが、楽天公式店の実レビュー（総合3.98・807件、2026年7月19日参照）では姿勢面の変化を挙げる声が見られます。</p>
         </div>
         <div className="text-center my-8">
           <OfficialCTA product="runway" />
@@ -359,7 +301,7 @@ export default function RunwayCureSolePage() {
         <div className="bg-purple-50 border border-purple-200 rounded-xl p-5 md:p-6 mb-6">
           <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8">
             <div className="text-center md:text-left">
-              <p className="text-sm text-gray-500 mb-1">総合評価</p>
+              <p className="text-sm text-gray-500 mb-1">総合評価（編集部評価）</p>
               <div className="flex items-center gap-2 justify-center md:justify-start">
                 <span className="text-3xl font-bold text-[#8b5cf6]">4.1</span>
                 <span className="text-sm text-gray-500">/ 5.0</span>
@@ -393,7 +335,7 @@ export default function RunwayCureSolePage() {
             足裏の3つのアーチ（内側縦アーチ・外側縦アーチ・横アーチ）を同時にサポートする独自設計が特徴で、履くだけで自然と正しい姿勢へ導いてくれます。
           </p>
           <p>
-            有名雑誌でも特集が組まれるなど注目度が高く、特に「姿勢改善」「足の疲れ軽減」に関する口コミで高い評価を得ています。
+            楽天公式店の商品レビューは総合3.98（807件・2026年7月19日参照）で、姿勢面の変化を挙げる声が見られます。
             一方で、サイズ展開がM・Lの2サイズのみ（女性向け）という点や、外反母趾の方には注意が必要な点もあります。
           </p>
           <p>
@@ -409,29 +351,53 @@ export default function RunwayCureSolePage() {
             悪い口コミ・気になる点
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            まずはネガティブな口コミから確認しましょう。購入前にデメリットを把握しておくことが大切です。
+            当サイトは出典を確認できない口コミを掲載しない方針です（<Link href="/content-policy/" className="text-[#8b5cf6] underline">コンテンツポリシー</Link>）。
+            ここでは、公式EC店舗（キレイplus公式ショップ楽天市場店）に投稿された実レビューのうち、低評価レビューで確認できた指摘の傾向を、個別レビューを転載しない形で整理します。
           </p>
-          <div className="space-y-4">
-            {badReviews.map((review, i) => (
-              <ReviewCard key={i} review={review} />
-            ))}
-          </div>
-          <div className="mt-6 bg-white border border-gray-200 rounded-lg p-4 md:p-5">
+          <div className="bg-white border border-gray-200 rounded-lg p-4 md:p-5 mb-4">
             <p className="text-sm font-bold text-gray-900 mb-2">
-              悪い口コミの傾向まとめ
+              楽天公式店レビューで確認できた低評価の傾向
+            </p>
+            <p className="text-xs text-gray-500 mb-3">
+              全{REVIEW_SOURCE.count}件中、★2以下の低評価は34件（{REVIEW_SOURCE.refDate}時点）。低評価・中評価レビューでは主に次の点が指摘されています。
             </p>
             <ul className="space-y-1.5 text-sm text-gray-600">
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-0.5 shrink-0">&#9650;</span>
-                外反母趾の方はクロス部分の食い込みに注意
+                装着時のキツさ・圧迫感（長時間の立ち仕事では厳しいという指摘）
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-0.5 shrink-0">&#9650;</span>
-                夏場は蒸れ・締め付けが気になる場合がある
+                外反母趾気味の方で、親指の付け根やクロス部分に当たり・痛みを感じたという報告
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-0.5 shrink-0">&#9650;</span>
-                M・Lの2サイズのみで足が小さい方・大きい方には合わないことも
+                M・Lの2サイズ展開への不満（より大きいサイズへの対応を求める声）
+              </li>
+            </ul>
+            <p className="text-xs text-gray-500 mt-3">
+              出典: <a href={REVIEW_SOURCE.url} target="_blank" rel="nofollow noopener" className="text-[#8b5cf6] underline">{REVIEW_SOURCE.name}</a>（{REVIEW_SOURCE.refDate}）
+            </p>
+          </div>
+          <div className="mt-6 bg-white border border-gray-200 rounded-lg p-4 md:p-5">
+            <p className="text-sm font-bold text-gray-900 mb-2">
+              購入前に知っておきたい注意点（編集部の整理）
+            </p>
+            <p className="text-xs text-gray-500 mb-3">
+              公式サイトで確認できる製品仕様（ソックス型・M/L 2サイズ）から導ける注意点です。
+            </p>
+            <ul className="space-y-1.5 text-sm text-gray-600">
+              <li className="flex items-start gap-2">
+                <span className="text-red-400 mt-0.5 shrink-0">&#9650;</span>
+                外反母趾の方はクロス部分の食い込みに注意（症状が重い方は医師に相談を）
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-red-400 mt-0.5 shrink-0">&#9650;</span>
+                足に直接装着するソックス型のため、夏場は蒸れ・締め付けが気になる場合がある
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-red-400 mt-0.5 shrink-0">&#9650;</span>
+                M（22.5〜23.5cm）・L（24.0〜25.0cm）の2サイズのみで、範囲外の方には合わない
               </li>
             </ul>
           </div>
@@ -444,33 +410,45 @@ export default function RunwayCureSolePage() {
           良い口コミ・評判
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
-          次に好意的な口コミを見ていきましょう。特に「姿勢改善」と「足の軽さ」に関する声が多く見られます。
+          次に、実際に確認できるレビューデータを見ていきましょう。公式EC店舗（キレイplus公式ショップ楽天市場店）の商品レビューが最も件数が多く、傾向の参考になります。
         </p>
-        <div className="space-y-4">
-          {goodReviews.map((review, i) => (
-            <ReviewCard key={i} review={review} />
-          ))}
+        <div className="bg-white border border-purple-200 rounded-lg p-4 md:p-5 mb-4">
+          <p className="text-sm font-bold text-gray-900 mb-2">
+            楽天公式店の商品レビュー（{REVIEW_SOURCE.refDate}時点）
+          </p>
+          <div className="flex items-center gap-3 mb-2">
+            <span className="text-2xl font-bold text-[#8b5cf6]">{REVIEW_SOURCE.rating}</span>
+            <span className="text-sm text-gray-500">/ 5.0（全{REVIEW_SOURCE.count}件）</span>
+          </div>
+          <p className="text-xs text-gray-500 mb-3">内訳: {REVIEW_SOURCE.breakdown}</p>
+          <p className="text-sm text-gray-600 leading-relaxed">
+            製品の使用感に触れたレビューでは、「背筋が伸びる感じがする」「姿勢が良くなった感じがする」といった姿勢面の変化を挙げる声や、立ち仕事での使用に期待する声が見られます。
+            なお、レビューには発送・梱包など店舗対応への評価も多く含まれるため、総合点はそれらを含んだ数値である点に留意してください。
+          </p>
+          <p className="text-xs text-gray-500 mt-3">
+            出典: <a href={REVIEW_SOURCE.url} target="_blank" rel="nofollow noopener" className="text-[#8b5cf6] underline">{REVIEW_SOURCE.name}</a>（{REVIEW_SOURCE.refDate}）。個別レビューの転載はせず、件数・傾向のみ紹介しています。
+          </p>
         </div>
         <div className="mt-6 bg-white border border-gray-200 rounded-lg p-4 md:p-5">
           <p className="text-sm font-bold text-gray-900 mb-2">
-            良い口コミの傾向まとめ
+            レビューから読み取れる傾向まとめ
           </p>
           <ul className="space-y-1.5 text-sm text-gray-600">
             <li className="flex items-start gap-2">
               <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
-              2週間程度で姿勢の変化を実感する人が多い
+              姿勢面の変化（背筋が伸びる感覚）を挙げる声がある
             </li>
             <li className="flex items-start gap-2">
               <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
-              足の疲れが軽減され、夕方でも足が軽い
+              立ち仕事・歩行量の多い使い方での購入が目立つ
             </li>
             <li className="flex items-start gap-2">
               <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
-              薄型設計で靴を選ばず使いやすい
+              一方でフィット感（キツさ）への言及もあり、サイズ選びが満足度を左右する
             </li>
             <li className="flex items-start gap-2">
               <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
-              骨盤の安定感を実感する声も
+              「痩せた」という直接的な報告は確認できる範囲では多くない（姿勢・歩行サポートとして評価されている）
             </li>
           </ul>
         </div>
@@ -1028,9 +1006,9 @@ export default function RunwayCureSolePage() {
           </h2>
           <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
             <p>
-              ランウェイキュアソールは、足裏3点アーチサポートにより美姿勢をサポートするインソールとして、
-              多くの女性から支持を集めています。「姿勢が良くなった」「足が軽くなった」という口コミが多く、
-              有名雑誌でも特集されるなど信頼性の高い商品です。
+              ランウェイキュアソールは、足裏3点アーチサポートにより美姿勢をサポートするインソールです。
+              楽天公式店の実レビュー（総合3.98・807件、2026年7月19日参照）では、
+              「背筋が伸びる感じがする」といった姿勢面の変化を挙げる声が見られます。
             </p>
             <p>
               一方で、サイズ展開がM・Lの2サイズのみである点、外反母趾の方には注意が必要な点など、

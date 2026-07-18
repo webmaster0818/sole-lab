@@ -26,7 +26,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-04-08",
+  dateModified: "2026-07-19",
 };
 
 const faqs = [
@@ -396,7 +396,7 @@ export default function InsoleTruthPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              ダイエットインソールの口コミを分析すると、評価は大きく二極化する傾向があります。ここでは良い声・悪い声の両方を紹介し、なぜ評価が分かれるのかを考察します。
+              ダイエットインソールの口コミを分析すると、評価は大きく二極化する傾向があります。当サイトは出典を確認できない口コミを掲載しない方針のため、ここでは実在のレビューサイト・公式EC店舗で確認できたデータの傾向のみを紹介します（個別レビューの転載はしません）。
             </p>
           </div>
 
@@ -404,70 +404,44 @@ export default function InsoleTruthPage() {
             <div className="card">
               <div className="flex items-center gap-2 mb-3">
                 <span className="text-xs bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded font-medium">
-                  肯定的な声
+                  肯定的な傾向
                 </span>
               </div>
-              <div className="space-y-3">
-                {[
-                  {
-                    text: "3ヶ月毎日通勤で使い続けたら、体重は-2kgほど。劇的ではないけど、姿勢が良くなって周りから「痩せた？」と言われるようになった。",
-                    attr: "30代女性・会社員",
-                  },
-                  {
-                    text: "立ち仕事で使用。足の疲れが明らかに減って、仕事後もウォーキングする余裕ができた。結果的に運動量が増えて体重も減った。",
-                    attr: "40代女性・販売員",
-                  },
-                  {
-                    text: "インソールだけで痩せたとは思わないが、歩くのが楽になったのは事実。ダイエットのモチベーション維持には役立っている。",
-                    attr: "20代女性・学生",
-                  },
-                ].map((voice) => (
-                  <div key={voice.attr} className="pl-4 border-l-2 border-emerald-200">
-                    <p className="text-sm text-gray-700 italic leading-relaxed">
-                      「{voice.text}」
-                    </p>
-                    <p className="text-xs text-gray-500 mt-1">
-                      -- {voice.attr}
-                    </p>
-                  </div>
-                ))}
-              </div>
+              <ul className="space-y-2 text-sm text-gray-700 leading-relaxed">
+                <li className="pl-4 border-l-2 border-emerald-200">
+                  ダイエットカフェのピットソール口コミ（52件）では、「姿勢が良くなった」「歩きやすくなった」という姿勢・歩行面のポジティブな意見が見られます。
+                </li>
+                <li className="pl-4 border-l-2 border-emerald-200">
+                  楽天市場の公式店レビューは、ピットソール（2足SET）総合3.98（444件）、ランウェイキュアソール総合3.98（807件）と比較的高評価です（2026年7月19日参照）。姿勢面の変化に触れる声が見られます。
+                </li>
+              </ul>
             </div>
 
             <div className="card">
               <div className="flex items-center gap-2 mb-3">
                 <span className="text-xs bg-red-100 text-red-600 px-2 py-0.5 rounded font-medium">
-                  否定的な声
+                  否定的な傾向
                 </span>
               </div>
-              <div className="space-y-3">
-                {[
-                  {
-                    text: "2週間使ったけど全く変化なし。やっぱり嘘だった。",
-                    attr: "20代女性・事務職",
-                  },
-                  {
-                    text: "広告では「履くだけで-5kg」と書いてあったのに、1ヶ月経っても体重は変わらず。期待しすぎた自分も悪いけど…。",
-                    attr: "30代女性・主婦",
-                  },
-                ].map((voice) => (
-                  <div key={voice.attr} className="pl-4 border-l-2 border-red-200">
-                    <p className="text-sm text-gray-700 italic leading-relaxed">
-                      「{voice.text}」
-                    </p>
-                    <p className="text-xs text-gray-500 mt-1">
-                      -- {voice.attr}
-                    </p>
-                  </div>
-                ))}
-              </div>
+              <ul className="space-y-2 text-sm text-gray-700 leading-relaxed">
+                <li className="pl-4 border-l-2 border-red-200">
+                  ダイエットカフェのピットソール口コミでは、体重の増減に言及したもののうち「痩せた」12件に対し「痩せなかった」が26件と、痩せなかった報告が上回り、平均評価も5点満点で2点台にとどまります。
+                </li>
+                <li className="pl-4 border-l-2 border-red-200">
+                  「高い割に効果がなかった」という価格と期待値のギャップに関する不満が目立ちます。
+                </li>
+              </ul>
             </div>
           </div>
+
+          <p className="text-xs text-gray-500 mt-4">
+            出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ「ピットソール（Pitsole）の効果と52件の口コミ」</a>／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天市場）商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">キレイplus公式ショップ楽天市場店 商品レビュー</a>（いずれも2026年7月19日参照）
+          </p>
 
           <div className="card mt-6 border-l-4 border-l-emerald-500">
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               <span className="font-bold text-gray-900">口コミの傾向分析：</span>
-              肯定的な評価をしているユーザーは「3ヶ月以上継続」「ウォーキングと併用」「姿勢や歩きやすさの変化を評価」という共通点があります。一方、否定的な評価は「使用期間が短い」「歩行量を増やしていない」「体重だけで判断」というケースが多く見られます。正しい期待値と使い方が満足度を大きく左右することがわかります。
+              肯定的な評価は「姿勢・歩きやすさの変化」を挙げるものが中心で、否定的な評価は「体重が減らなかった」「価格に見合わない」というものが中心です。つまり、体重の減少そのものを期待すると不満につながりやすく、姿勢・歩行のサポートとして現実的な期待値で使えるかどうかが、満足度を大きく左右すると考えられます。
             </p>
           </div>
         </div>

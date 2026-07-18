@@ -3,16 +3,16 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "スリムアップインソール 長期レビュー｜3ヶ月使用の効果を検証",
+  title: "スリムアップインソール 長期レビュー検証｜3ヶ月使うとどうなる？",
   description:
-    "スリムアップインソールを3ヶ月間使用した長期レビュー。1週目から3ヶ月目までの変化を時系列で記録。ダイエット効果・姿勢改善・耐久性を徹底検証した実体験レポートです。",
+    "スリムアップインソールを3ヶ月使うとどうなる？公式情報と確認できる実レビューをもとに、1週目〜3ヶ月目に起こりやすい変化・耐久性・交換目安を編集部が検証。架空の体験談は掲載せず、期待できること・できないことを正直に解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/slimup-long-review/",
   },
   openGraph: {
-    title: "スリムアップインソール 長期レビュー｜3ヶ月使用の効果を検証",
+    title: "スリムアップインソール 長期レビュー検証｜3ヶ月使うとどうなる？",
     description:
-      "スリムアップインソールを3ヶ月間使用した長期レビュー。効果・耐久性を実体験で徹底検証。",
+      "スリムアップインソールの3ヶ月使用で期待できる変化・耐久性を公式情報と実レビューから検証。",
     url: "https://sole-laboratory.com/articles/slimup-long-review/",
     type: "article",
   },
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "スリムアップインソール 長期レビュー｜3ヶ月使用の効果を検証",
+  headline: "スリムアップインソール 長期レビュー検証｜3ヶ月使うとどうなる？",
   description:
-    "スリムアップインソールを3ヶ月間使用した長期レビュー。1週目から3ヶ月目までの変化を時系列で検証します。",
+    "スリムアップインソールを3ヶ月使うとどうなるかを、公式情報と確認できる実レビューをもとに期間別に検証します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -31,7 +31,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-07-19",
 };
 
 const faqStructuredData = {
@@ -43,7 +43,7 @@ const faqStructuredData = {
       name: "スリムアップインソールの効果が出るまでどのくらいかかりますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "個人差はありますが、姿勢の変化は1〜2週間で実感する方が多いです。体重や体型の変化は1〜2ヶ月程度から現れ始め、3ヶ月間継続使用することで明確な効果を実感できるケースが多いです。毎日の歩行量が多いほど効果も出やすくなります。",
+        text: "効果の感じ方には個人差があり、期間を断定することはできません。アーチサポート型インソール全般の傾向として、装着感や歩行時の意識の変化は早い段階で気づきやすい一方、体型の変化は（起こる場合でも）食事管理や運動との併用を前提に、月単位の継続で緩やかに進むと考えるのが現実的です。",
       },
     },
     {
@@ -51,7 +51,7 @@ const faqStructuredData = {
       name: "3ヶ月使用するとインソールはどのくらい劣化しますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "3ヶ月毎日使用した場合、表面素材に若干の摩耗が見られますが、アーチサポートの構造やクッション性は概ね維持されています。ただし使用状況（体重、歩行距離、路面状況）により異なります。3〜4ヶ月を目安に状態をチェックし、サポート力の低下を感じたら交換を推奨します。",
+        text: "劣化の程度は体重・歩行距離・使用環境によって大きく異なります。素材はEVA・ポリエチレン（公式表記）で、インソール全般の交換目安は一般的に3〜6ヶ月程度とされています。アーチ部分のヘタリやクッション性の低下を感じたら交換を検討してください。",
       },
     },
     {
@@ -59,15 +59,15 @@ const faqStructuredData = {
       name: "途中で効果を感じなくなることはありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "使い始めの1〜2週間は変化を感じやすいですが、体が慣れてくると効果を意識しにくくなることがあります。これは効果がなくなったのではなく、正しい姿勢や歩き方が習慣化した証拠です。インソールを外して歩いてみると、その違いを再確認できます。",
+        text: "使い始めに感じた装着感の変化は、体が慣れると意識しにくくなることがあります。これはインソール全般に共通する現象です。感覚を確かめたい場合は、一時的にインソールを外して歩き比べると違いを確認しやすくなります。",
       },
     },
     {
       "@type": "Question",
-      name: "3ヶ月で何キロ痩せましたか？",
+      name: "3ヶ月でどのくらい痩せますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "インソール使用に加えて1日8,000歩以上を意識した場合、3ヶ月で2〜4kgの体重減少が報告されています。ただしインソール単体の効果ではなく、歩行習慣の改善との相乗効果です。食事管理を併用するとさらに効果が高まります。",
+        text: "「何kg痩せる」と断定できるデータは確認できません。スリムアップインソールは歩行時の姿勢・筋肉の使い方をサポートする商品であり、履くだけで痩せる効果を保証するものではありません。体重を減らしたい場合は、食事管理や運動との併用が前提です。",
       },
     },
     {
@@ -75,7 +75,7 @@ const faqStructuredData = {
       name: "3ヶ月後も同じインソールを使い続けて大丈夫ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "3ヶ月時点でインソールの状態が良好であれば継続使用可能です。ただし、かかと部分のヘタリやアーチの潰れが見られる場合は交換を推奨します。一般的には3〜6ヶ月が交換目安です。効果を維持するためにも、定期的な状態チェックを心がけてください。",
+        text: "状態が良好であれば継続使用できます。かかと部分のヘタリやアーチの潰れが見られる場合は交換を推奨します。一般的には3〜6ヶ月が交換目安とされるため、定期的に状態をチェックしてください。",
       },
     },
   ],
@@ -100,7 +100,7 @@ const breadcrumbStructuredData = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "スリムアップインソール長期レビュー",
+      name: "スリムアップインソール長期レビュー検証",
       item: "https://sole-laboratory.com/articles/slimup-long-review/",
     },
   ],
@@ -127,23 +127,34 @@ export default function SlimupLongReviewPage() {
       />
 
       {/* Breadcrumb */}
-      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "スリムアップインソール長期レビュー" }]} />
+      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "スリムアップインソール長期レビュー検証" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
-            2026年最新版 長期使用レビュー
+            2026年7月更新 長期使用の検証記事
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            スリムアップインソール
+            スリムアップインソールを
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">3ヶ月</span>長期レビュー
+            <span className="text-[#0ea5e9]">3ヶ月</span>使うとどうなる？
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            美容整体師監修のスリムアップインソールを3ヶ月間使い続けた結果を報告。
+            美容整体師監修のスリムアップインソールを長期間使うと何が起こるのか。
             <br className="hidden md:block" />
-            1週目から3ヶ月目までの効果・変化・耐久性を時系列で徹底検証します。
+            公式情報と確認できる実レビューをもとに、期間別の変化の目安と確認ポイントを編集部が検証します。
+          </p>
+        </div>
+      </section>
+
+      {/* 検証方針（正直な前提） */}
+      <section className="max-w-4xl mx-auto px-4 mt-2 mb-10">
+        <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg text-sm text-gray-700">
+          <p className="font-bold text-amber-700 mb-1">この記事の検証方針</p>
+          <p className="leading-relaxed">
+            当サイトは、架空の人物による体験談や出典のない実測値（体重◯kg減など）を掲載しない方針です（<Link href="/content-policy/" className="text-[#0ea5e9] underline">コンテンツポリシー</Link>）。
+            本記事は特定個人の使用日記ではなく、<strong>公式サイトで確認できる仕様・使い方の案内、確認できる実レビュー、アーチサポート型インソール一般の知見</strong>をもとに、「3ヶ月使うと何が起こりやすいか」「何を確認すべきか」を期間別に整理した検証記事です。効果には個人差があり、痩せると断定できるものではありません。
           </p>
         </div>
       </section>
@@ -156,38 +167,38 @@ export default function SlimupLongReviewPage() {
           </p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#conditions" className="hover:text-[#0ea5e9] transition-colors">
-                1. レビュー条件の説明
+              <a href="#premise" className="hover:text-[#0ea5e9] transition-colors">
+                1. 検証の前提（製品仕様と期待値の整理）
               </a>
             </li>
             <li>
               <a href="#week1" className="hover:text-[#0ea5e9] transition-colors">
-                2. 使用1週目の記録
+                2. 使用1週目に起こりやすいこと
               </a>
             </li>
             <li>
               <a href="#month1" className="hover:text-[#0ea5e9] transition-colors">
-                3. 使用1ヶ月目の変化
-              </a>
-            </li>
-            <li>
-              <a href="#month2" className="hover:text-[#0ea5e9] transition-colors">
-                4. 使用2ヶ月目の変化
+                3. 1ヶ月目の確認ポイント
               </a>
             </li>
             <li>
               <a href="#month3" className="hover:text-[#0ea5e9] transition-colors">
-                5. 使用3ヶ月目の結果
+                4. 2〜3ヶ月目に期待できること・できないこと
               </a>
             </li>
             <li>
               <a href="#durability" className="hover:text-[#0ea5e9] transition-colors">
-                6. 3ヶ月後の耐久性チェック
+                5. 耐久性と交換目安
+              </a>
+            </li>
+            <li>
+              <a href="#reviews" className="hover:text-[#0ea5e9] transition-colors">
+                6. 確認できる口コミ・レビューの現状
               </a>
             </li>
             <li>
               <a href="#tips" className="hover:text-[#0ea5e9] transition-colors">
-                7. 長期使用で得たコツと注意点
+                7. 長期使用を続けるコツと注意点
               </a>
             </li>
             <li>
@@ -207,38 +218,31 @@ export default function SlimupLongReviewPage() {
       {/* Main Content */}
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
-        <section id="conditions" className="mb-14">
+        <section id="premise" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            レビュー条件の説明
+            検証の前提（製品仕様と期待値の整理）
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            スリムアップインソールの長期レビューを行うにあたり、条件を明確にしておきます。できるだけ公平な評価とするため、使用環境や測定方法を統一しました。
+            スリムアップインソールは、美容整体師・井上剛志氏が監修した機能性インソールです。足裏のアーチをサポートし、歩行時の姿勢・筋肉の使い方を整えることを狙った設計で、S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開です（公式サイトにて2026年7月確認）。詳しい製品情報は<Link href="/slim-up-insole/" className="text-[#0ea5e9] hover:underline">スリムアップインソール詳細ページ</Link>を参照してください。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
             <h3 className="text-sm md:text-base font-bold text-gray-900 mb-3">
-              レビュー条件
+              長期使用を検証するうえでの前提
             </h3>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><span className="font-bold">使用期間：</span>3ヶ月間（90日間）毎日使用</li>
-              <li><span className="font-bold">1日の平均歩行数：</span>約8,000〜10,000歩</li>
-              <li><span className="font-bold">使用シーン：</span>通勤（往復40分歩行）＋日常生活</li>
-              <li><span className="font-bold">使用靴：</span>スニーカー（メイン）、ウォーキングシューズ</li>
-              <li><span className="font-bold">食事制限：</span>特に行わない（通常の食生活を維持）</li>
-              <li><span className="font-bold">追加の運動：</span>週2回の30分ウォーキングを追加</li>
-              <li><span className="font-bold">測定項目：</span>体重、ウエスト周り、姿勢の写真記録</li>
+              <li><span className="font-bold">・インソールは歩いてこそ意味がある：</span>歩行時の姿勢・筋肉の使い方をサポートする設計のため、歩行量が少ないと変化を検証しにくい</li>
+              <li><span className="font-bold">・痩身効果は保証されない：</span>履くだけで痩せる効果を保証するデータは確認できない。体重を減らすには食事・運動の併用が前提</li>
+              <li><span className="font-bold">・変化の実感は個人差が大きい：</span>足の形状・歩行量・体格によって感じ方が異なる</li>
+              <li><span className="font-bold">・消耗品である：</span>素材はEVA・ポリエチレン（公式表記）で、いずれヘタリが生じるため交換目安の把握が必要</li>
             </ul>
           </div>
-
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            スリムアップインソールは美容整体師が監修した機能性インソールで、正しい重心移動を促すことで筋肉の使い方を最適化する設計です。詳しい製品情報は<Link href="/slim-up-insole/" className="text-[#0ea5e9] hover:underline">スリムアップインソール詳細ページ</Link>を参照してください。
-          </p>
 
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-amber-700">注意：</span>
-              本レビューは個人の体験に基づくものであり、効果には個人差があります。食事制限は行っていませんが、暴飲暴食も避け、一般的な食生活を維持しています。
+              以下の期間別整理は「起こりやすいこと・確認すべきこと」の目安であり、変化を約束するものではありません。痩せると断定できるものでもありません。
             </p>
           </div>
         </section>
@@ -246,54 +250,45 @@ export default function SlimupLongReviewPage() {
         {/* Section 2 */}
         <section id="week1" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            使用1週目の記録
+            使用1週目に起こりやすいこと
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            スリムアップインソールを初めて使い始めた1週間の記録です。最初に感じた印象や体の変化を時系列でまとめます。
+            アーチサポート型のインソールに切り替えた直後は、足裏の接地感が大きく変わります。1週目は「慣らし期間」と位置づけるのが現実的です。
           </p>
 
           <div className="space-y-4 mb-6">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                1日目：初装着の印象
+                装着直後：接地感の変化
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                スニーカーに装着して歩き始めると、土踏まず部分のサポートを明確に感じます。これまでフラットな純正インソールしか使ったことがなかったため、「足裏が持ち上げられている」という新鮮な感覚です。歩き方が自然と変わり、かかとからつま先への重心移動がスムーズに感じます。
+                フラットな純正インソールから切り替えると、土踏まず部分が支えられる感覚をはっきり感じやすくなります。この段階の変化は「サポートを感じるか」「痛みや強い違和感がないか」の確認が目的です。サイズが合っていないと効果以前の問題になるため、まずフィット感をチェックしましょう。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                2〜3日目：違和感と慣れ
+                数日間：違和感・疲労感が出ることがある
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                2日目以降、土踏まず部分に軽い筋肉痛のような感覚がありました。これまで使われていなかった筋肉が刺激されている証拠だと考えられます。歩行距離が多い日は若干の疲労感がありましたが、痛みというほどではありません。3日目には違和感がかなり薄れてきました。
+                使い始めの数日間は、足裏に違和感や疲労感が出ることがあります。これはアーチサポート型インソール全般で起こりうる反応です。最初から長時間使わず、1日2〜3時間程度から徐々に慣らすのが安全です。痛みが強い場合や長引く場合は使用を中止し、必要に応じて専門家に相談してください。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                4〜5日目：歩行の変化を実感
+                1週間経過：体重の変化を求める段階ではない
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                4日目あたりから、インソールなしの靴を履いた時に「何か物足りない」と感じるようになりました。足が新しい接地感に慣れてきた証拠です。歩幅が自然と広がり、歩行ペースがやや速くなった実感があります。姿勢も少し良くなっている気がします。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                6〜7日目：1週目の総括
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                1週間経過時点で、体重の変化はほぼありません（誤差の範囲内）。ただし、姿勢の改善は自覚できます。鏡の前に立つと、以前より骨盤が正しい位置にある感覚があります。足の疲れも以前より軽減されており、夕方のだるさが減りました。インソール自体の状態は新品同様で劣化は見られません。
+                1週間で体重や体型の変化を求めるのは現実的ではありません。この時点でのチェックポイントは「違和感なく1日使えるようになったか」「歩行時にサポートを感じるか」の2点です。
               </p>
             </div>
           </div>
 
           <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              1週目のポイント：体重の変化はまだ見られませんが、歩行や姿勢の変化は早い段階で実感できます。最初の2〜3日の違和感は正常な反応なので、無理せず短い距離から慣らしましょう。
+              1週目のポイント：焦らず慣らすことが最優先。違和感は徐々に薄れるのが通常ですが、痛みが続く場合はサイズ・靴との相性を見直しましょう。
             </p>
           </div>
         </section>
@@ -301,240 +296,186 @@ export default function SlimupLongReviewPage() {
         {/* Section 3 */}
         <section id="month1" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            使用1ヶ月目の変化
+            1ヶ月目の確認ポイント
           </h2>
 
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            1ヶ月間の継続使用で感じた変化を報告します。この時期から少しずつ数値的な変化も現れ始めます。
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            1ヶ月続けられた場合に確認したいのは、数値よりも「習慣と感覚の変化」です。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            体重・体型の変化
+            歩行・姿勢への意識
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            1ヶ月経過時点で、体重は開始時から-0.8kgの変化がありました。劇的な減少ではありませんが、食事制限を行わずインソールの使用と日常歩行のみでの結果としては一定の成果です。ウエスト周りは-1cm程度の微減。見た目の変化はまだそれほど大きくありませんが、パンツのウエストが少し楽になった実感があります。
+            インソールを入れて歩くことが習慣になると、足裏の接地や姿勢への意識が高まりやすくなります。これはインソールの物理的なサポートに加えて、「毎日足元を意識する」という行動変化の効果でもあります。姿勢の変化を客観的に確かめたい場合は、開始時に立ち姿の写真を撮っておき、同条件で比較するのがおすすめです。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            歩行・姿勢の変化
+            歩行量の変化
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            1ヶ月目は歩行姿勢の改善がはっきりと定着してきます。意識しなくても背筋が伸び、骨盤が正しい角度を保つようになります。周囲から「姿勢がよくなった」と言われることも増えました。歩行のペースが上がり、通勤時間が2〜3分短くなったのも実感として大きいです。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            体の不調の変化
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            以前は夕方になると感じていた腰の張りが明らかに軽減しました。デスクワーク後の立ち上がりが楽になり、腰をかばう動作が減りました。これは重心バランスが改善されたことによる効果だと考えられます。足裏の疲労感もほとんど感じなくなりました。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            モチベーションの変化
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            歩くことが苦にならなくなったのが大きな変化です。以前は「面倒だな」と感じていた徒歩通勤も、今は気持ちよく歩けます。週末に追加したウォーキングも習慣として定着し、歩くこと自体が楽しくなってきました。この心理的な変化は、長期的なダイエット継続において非常に重要です。
+            長期使用の成果を左右する最大の要因は歩行量です。スマホや歩数計で1日の歩数を記録し、開始前より歩く機会が増えているかを確認しましょう。歩行量が変わっていなければ、体型面の変化を期待する根拠は乏しくなります。歩き方の質については<Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">効果的な歩き方の記事</Link>も参考になります。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5">
-            <h3 className="text-sm font-bold text-gray-900 mb-2">1ヶ月目の数値記録</h3>
+            <h3 className="text-sm font-bold text-gray-900 mb-2">1ヶ月目のチェックリスト</h3>
             <ul className="text-sm text-gray-700 space-y-1">
-              <li>体重変化：-0.8kg</li>
-              <li>ウエスト変化：-1cm</li>
-              <li>1日平均歩数：約9,200歩（開始時：約7,500歩）</li>
-              <li>インソールの状態：良好（目立った劣化なし）</li>
+              <li>・違和感なく毎日使えているか</li>
+              <li>・1日の歩数は開始前から増えているか</li>
+              <li>・姿勢や歩き方への意識に変化があるか</li>
+              <li>・インソールに目立った劣化がないか</li>
             </ul>
           </div>
         </section>
 
         {/* Section 4 */}
-        <section id="month2" className="mb-14">
+        <section id="month3" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            使用2ヶ月目の変化
+            2〜3ヶ月目に期待できること・できないこと
           </h2>
 
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            2ヶ月目に入ると、体の変化がより明確になってきます。習慣が定着し、効果が加速するフェーズです。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            体重・体型の変化
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            2ヶ月経過時点で、開始時から-2.1kgの体重減少を記録しました。1ヶ月目より減少ペースが上がっています。これは歩行習慣の定着により1日の歩数が安定して増えたことと、正しい歩行フォームが身について筋肉の使い方が効率化された結果だと考えられます。ウエスト周りは-2.5cmの減少で、明らかにパンツが緩くなりました。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            筋肉の変化
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            2ヶ月目に入ると、ふくらはぎやお尻の筋肉に変化を感じ始めます。以前よりも引き締まった感触があり、特に階段の昇り降りが楽になりました。これはインソールによる正しい重心移動が、歩行時に適切な筋肉群を使わせる効果です。体重計の体脂肪率も1%程度低下しています。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            生活全般への影響
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            体が軽くなったことで日常生活のアクティビティが増えました。エレベーターではなく階段を選ぶ頻度が増え、買い物も徒歩で行くことが多くなりました。こうした小さな行動変容の積み重ねが、さらなるカロリー消費につながる好循環が生まれています。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            インソールの状態
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            2ヶ月使用時点でのインソール状態を確認しました。表面素材にわずかな使用感（色のくすみ）は見られますが、クッション性やアーチサポートの機能は維持されています。つま先部分に若干の摩耗がありますが、機能には影響ありません。
-          </p>
-
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-5">
-            <h3 className="text-sm font-bold text-gray-900 mb-2">2ヶ月目の数値記録</h3>
-            <ul className="text-sm text-gray-700 space-y-1">
-              <li>体重変化：-2.1kg（累計）</li>
-              <li>ウエスト変化：-2.5cm（累計）</li>
-              <li>1日平均歩数：約10,100歩</li>
-              <li>インソールの状態：良好（軽微な表面摩耗あり）</li>
-            </ul>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            <div className="bg-white border border-emerald-200 rounded-lg p-5">
+              <h3 className="text-sm md:text-base font-bold text-emerald-700 mb-3">
+                期待できること（目安）
+              </h3>
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-start gap-2">
+                  <span className="text-emerald-500 shrink-0 mt-0.5">&#10003;</span>
+                  正しい歩行フォームを意識する習慣の定着
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-emerald-500 shrink-0 mt-0.5">&#10003;</span>
+                  歩行が習慣化した場合の活動量（消費カロリー）の増加
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-emerald-500 shrink-0 mt-0.5">&#10003;</span>
+                  足裏のサポートによる歩行時の安定感
+                </li>
+              </ul>
+            </div>
+            <div className="bg-white border border-red-200 rounded-lg p-5">
+              <h3 className="text-sm md:text-base font-bold text-red-700 mb-3">
+                期待できないこと
+              </h3>
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-start gap-2">
+                  <span className="text-red-400 shrink-0 mt-0.5">&#9651;</span>
+                  履くだけで体重が減ること（保証するデータは確認できません）
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-red-400 shrink-0 mt-0.5">&#9651;</span>
+                  食事・運動を変えずに体型が大きく変わること
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-red-400 shrink-0 mt-0.5">&#9651;</span>
+                  短期間での劇的な変化
+                </li>
+              </ul>
+            </div>
           </div>
+
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            体型・体重の変化を目指す場合は、インソールを「歩行の質と量を高める補助ツール」と位置づけ、食事管理・運動と組み合わせるのが現実的です。2〜3ヶ月続けても目的に合った手応えがない場合は、使い方（歩行量・サイズ・靴との相性）を見直すか、<Link href="/articles/slimup-not-working/" className="text-[#0ea5e9] hover:underline">効果を感じにくい場合の対処法</Link>を確認してください。
+          </p>
         </section>
 
         {/* Section 5 */}
-        <section id="month3" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            使用3ヶ月目の結果
-          </h2>
-
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            3ヶ月間のレビュー期間の最終結果を報告します。長期継続使用の効果が最も明確に現れるフェーズです。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            最終的な体重・体型の変化
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            3ヶ月経過時点で、開始時から-3.2kgの体重減少を達成しました。食事制限なしで、インソール使用と歩行習慣の改善のみでのこの結果は十分に意味のある数値です。ウエスト周りは-3.5cmの減少で、ベルトの穴が1つ変わるほどの変化です。
-          </p>
-
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            体脂肪率は開始時から約1.5%低下しました。体重の減少に対して体脂肪率の低下がやや上回っていることから、脂肪が減少しつつ筋肉量は維持されている（もしくは微増している）と推測できます。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            姿勢・歩行の最終評価
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            3ヶ月間の使用で、正しい姿勢と歩行フォームが完全に習慣化しました。もはや意識しなくても背筋が伸び、骨盤が適切な角度を保ちます。歩行スピードは開始時と比べて約10%向上し、以前より楽に速く歩けるようになりました。
-          </p>
-
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            3ヶ月使って感じた総合的な効果
-          </h3>
-          <div className="space-y-2 mb-6">
-            <div className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
-              <p className="text-sm md:text-base text-gray-700">体重-3.2kg、ウエスト-3.5cmの減少を食事制限なしで達成</p>
-            </div>
-            <div className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
-              <p className="text-sm md:text-base text-gray-700">姿勢が明確に改善し、周囲からも変化を指摘された</p>
-            </div>
-            <div className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
-              <p className="text-sm md:text-base text-gray-700">腰の張りや足裏の疲労感が大幅に軽減</p>
-            </div>
-            <div className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
-              <p className="text-sm md:text-base text-gray-700">歩行量が自然に増加（7,500歩から10,000歩超へ）</p>
-            </div>
-            <div className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
-              <p className="text-sm md:text-base text-gray-700">歩くことへのモチベーションが向上し、運動習慣が定着</p>
-            </div>
-          </div>
-
-          <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
-            <h3 className="text-sm font-bold text-gray-900 mb-2">3ヶ月間の最終数値</h3>
-            <ul className="text-sm text-gray-700 space-y-1">
-              <li>体重変化：-3.2kg（累計）</li>
-              <li>ウエスト変化：-3.5cm（累計）</li>
-              <li>体脂肪率変化：-1.5%（累計）</li>
-              <li>1日平均歩数：約10,500歩</li>
-              <li>インソールの状態：使用感あるが機能維持</li>
-            </ul>
-          </div>
-
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-            <p className="text-sm text-gray-700 leading-relaxed">
-              <span className="font-bold text-amber-700">結論：</span>
-              スリムアップインソールの3ヶ月使用は、食事制限なしでも一定のダイエット効果を得ることができました。ただしインソール単体の効果というよりは、インソールによる歩行改善が運動習慣の定着につながった相乗効果が大きいと考えています。
-            </p>
-          </div>
-        </section>
-
-        {/* Section 6 */}
         <section id="durability" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            3ヶ月後の耐久性チェック
+            耐久性と交換目安
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            3ヶ月間毎日使用した後のインソールの状態を詳細にチェックしました。
+            3ヶ月間毎日使った場合のインソールの状態は、体重・歩行距離・使用環境によって大きく異なります。以下は一般的なチェックポイントです。
           </p>
 
           <div className="space-y-4 mb-6">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                表面素材の状態
+                チェックポイント1：表面素材の状態
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                表面には使用による色のくすみと軽微な毛羽立ちが見られます。特にかかと部分と母趾球付近に摩耗が確認できます。ただし穴あきや深い傷みはなく、衛生面でも問題ない状態です。定期的に取り出して乾燥させていたことも良かったと思います。
+                かかとや母趾球（親指の付け根）付近は摩耗しやすい部位です。色のくすみや毛羽立ち程度なら機能への影響は小さいですが、穴あきや破れがあれば交換時期です。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                アーチサポートの状態
+                チェックポイント2：アーチサポートのヘタリ
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                最も重要なアーチサポート部分は、3ヶ月経過後も形状をしっかり維持しています。新品時と比較すると若干のヘタリは感じますが、サポート機能としては十分に機能しています。このあたりの耐久性はさすが専門設計のインソールだと感じました。
+                最も重要なのはアーチ部分の形状維持です。土踏まずの支えが明らかに弱くなった、アーチが潰れて平らに近づいたと感じたら、本来の機能を発揮できないため交換を検討しましょう。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                クッション性の維持
+                チェックポイント3：クッション性の低下
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                かかと部分のクッション性は新品時と比較して約20%程度低下した印象です。まだ十分に機能していますが、新品時のふかふかした感覚はやや薄れています。4〜5ヶ月使用を超えるとクッション性の低下が顕著になる可能性があります。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                交換判断
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                3ヶ月時点ではまだ使用可能ですが、あと1ヶ月ほどで交換時期になると判断します。アーチサポートの機能が低下し始めると、インソールの効果も薄れてしまうため、4ヶ月を目安に新品に交換するのがベストです。インソールの交換目安については<Link href="/articles/lifespan/" className="text-[#0ea5e9] hover:underline">インソール寿命の記事</Link>も参考にしてください。
+                EVA素材は使用とともに徐々に潰れてクッション性が低下します。インソール全般の交換目安は一般的に3〜6ヶ月程度とされています。詳しくは<Link href="/articles/lifespan/" className="text-[#0ea5e9] hover:underline">インソールの寿命・交換目安の記事</Link>を参考にしてください。
               </p>
             </div>
           </div>
+
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+            長持ちさせるコツは、使用後に靴から取り出して陰干しし、汗を溜めないことです。お手入れ方法の詳細は<Link href="/articles/insole-care/" className="text-[#0ea5e9] hover:underline">インソールのお手入れガイド</Link>をご覧ください。
+          </p>
+        </section>
+
+        {/* Section 6 */}
+        <section id="reviews" className="mb-14">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+            確認できる口コミ・レビューの現状
+          </h2>
+
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+            長期使用の参考として第三者の口コミも調査しましたが、スリムアップインソールは比較的新しい商品のため、<strong>確認できる第三者レビューはまだ少ない</strong>のが実情です。
+          </p>
+
+          <div className="bg-white border border-gray-200 rounded-lg p-5 mb-4">
+            <ul className="space-y-2 text-sm text-gray-700 leading-relaxed">
+              <li className="flex items-start gap-2">
+                <span className="text-[#0ea5e9] shrink-0 mt-0.5">&#10003;</span>
+                <span>
+                  楽天市場（イッティ公式 楽天市場店）の3足+1足セットの商品レビューは総合3.75 / 5.0（4件・2026年7月19日参照）。好意的なレビューでは姿勢面の声が見られますが、件数が少なく傾向を断定できる段階ではありません。
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#0ea5e9] shrink-0 mt-0.5">&#10003;</span>
+                <span>
+                  3ヶ月以上の長期使用について具体的に書かれた、出典を確認できる口コミは現時点で見つけられていません。
+                </span>
+              </li>
+            </ul>
+            <p className="text-xs text-gray-500 mt-3">
+              出典: <a href="https://review.rakuten.co.jp/item/1/304721_10001280/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 スリムアップインソール 3足+1足セット みんなのレビュー</a>（2026年7月19日参照）。個別レビューの転載はせず、件数・傾向のみ紹介しています。
+            </p>
+          </div>
+
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+            口コミの蓄積状況は今後も定期的に確認し、本記事を更新します。より口コミ件数の多い製品と比較したい方は<Link href="/ranking/" className="text-[#0ea5e9] hover:underline">3製品比較ランキング</Link>をご覧ください。
+          </p>
         </section>
 
         {/* Section 7 */}
         <section id="tips" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
-            長期使用で得たコツと注意点
+            長期使用を続けるコツと注意点
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            3ヶ月間使用する中で得た、効果を最大化するためのコツと注意点をまとめます。
+            長期使用の成果は「続けられるかどうか」でほぼ決まります。無理なく続けるためのコツをまとめます。
           </p>
 
           <div className="space-y-4 mb-6">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
               <h3 className="text-base font-bold text-gray-900 mb-2">
-                毎日使うことが最重要
+                毎日履く靴に入れる
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                週に数日だけの使用では効果が薄くなります。毎日使い続けることで、正しい歩行フォームが体に記憶され、筋肉の使い方が最適化されていきます。複数の靴に使い回す場合は、メインの靴に常時入れておき、外す日を作らないことが大切です。
+                週に数日だけの使用では、歩行習慣への組み込みが不安定になります。通勤靴やよく履くスニーカーなど、毎日使う靴に入れておくのが続けるコツです。複数の靴で使いたい場合は入れ替えの手間が挫折要因になるため、セット購入で靴ごとに常備する方法もあります。
               </p>
             </div>
 
@@ -543,25 +484,25 @@ export default function SlimupLongReviewPage() {
                 歩行量を意識的に増やす
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                インソールはあくまで歩行の質を高めるツールです。歩かなければ効果は出ません。1日8,000歩以上を目標に、通勤での歩行距離を伸ばす、昼休みにウォーキングするなど、歩く機会を積極的に作りましょう。歩行量についての詳しい解説は<Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">効果的な歩き方の記事</Link>も参考になります。
+                インソールは歩行の質を高めるツールであり、歩かなければ検証のしようがありません。歩数の目標を決めて記録し、通勤で一駅歩く、昼休みに歩くなど、歩く機会を意識的に作りましょう。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
               <h3 className="text-base font-bold text-gray-900 mb-2">
-                定期的にインソールを乾燥させる
+                定期的に乾燥・お手入れする
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                1日使用したら夜に靴から取り出し、風通しの良い場所で乾燥させましょう。汗を含んだまま放置すると素材の劣化が早まり、衛生面でも問題が出ます。週に1回は中性洗剤で軽く手洗いするとさらに良い状態を維持できます。お手入れの詳細は<Link href="/articles/insole-care/" className="text-[#0ea5e9] hover:underline">インソールのお手入れガイド</Link>をご覧ください。
+                使用後は靴から取り出して風通しの良い場所で乾燥させると、素材の劣化と臭いを抑えられます。公式の案内では中性洗剤での手洗いが可能です（頻繁な水洗いは非推奨・ドライヤー使用不可）。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
               <h3 className="text-base font-bold text-gray-900 mb-2">
-                効果を感じにくくなっても継続する
+                慣れて「効果を感じない」と思ったら歩き比べる
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                1ヶ月を過ぎると体が慣れて、インソールの効果を意識しにくくなることがあります。しかしこれは効果がなくなったのではなく、正しい歩き方が習慣化した証拠です。途中でやめてしまうと元の悪い姿勢・歩行に戻ってしまうため、継続が重要です。効果を再確認したい場合は、一時的にインソールを外して歩いてみると違いが明確にわかります。
+                体が慣れると装着感の変化を意識しにくくなります。一時的にインソールを外して歩き比べると、サポートの有無の違いを再確認できます。
               </p>
             </div>
 
@@ -570,7 +511,7 @@ export default function SlimupLongReviewPage() {
                 交換時期を見逃さない
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                劣化したインソールを使い続けると、本来の効果が得られないだけでなく、逆に足に負担をかける可能性があります。3〜4ヶ月を目安にインソールの状態をチェックし、アーチのヘタリやクッション性の低下が見られたら新品に交換しましょう。スリムアップインソールの料金情報は<Link href="/slim-up-insole/price/" className="text-[#0ea5e9] hover:underline">料金ページ</Link>で確認できます。
+                ヘタったインソールを使い続けると本来のサポートが得られません。3〜6ヶ月を目安に状態をチェックし、アーチのヘタリやクッション性の低下が見られたら交換しましょう。価格・購入方法は<Link href="/slim-up-insole/price/" className="text-[#0ea5e9] hover:underline">料金ページ</Link>で確認できます。
               </p>
             </div>
           </div>
@@ -583,50 +524,16 @@ export default function SlimupLongReviewPage() {
           </h2>
 
           <div className="space-y-4">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                Q. スリムアップインソールの効果が出るまでどのくらいかかりますか？
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                A. 個人差はありますが、姿勢の変化は1〜2週間で実感する方が多いです。体重や体型の変化は1〜2ヶ月程度から現れ始め、3ヶ月間継続使用することで明確な効果を実感できるケースが多いです。毎日の歩行量が多いほど効果も出やすくなります。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                Q. 3ヶ月使用するとインソールはどのくらい劣化しますか？
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                A. 3ヶ月毎日使用した場合、表面素材に若干の摩耗が見られますが、アーチサポートの構造やクッション性は概ね維持されています。ただし使用状況により異なります。3〜4ヶ月を目安に状態をチェックし、サポート力の低下を感じたら交換を推奨します。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                Q. 途中で効果を感じなくなることはありますか？
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                A. 使い始めの1〜2週間は変化を感じやすいですが、体が慣れてくると効果を意識しにくくなることがあります。これは効果がなくなったのではなく、正しい姿勢や歩き方が習慣化した証拠です。インソールを外して歩いてみると、その違いを再確認できます。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                Q. 3ヶ月で何キロ痩せましたか？
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                A. インソール使用に加えて1日8,000歩以上を意識した場合、3ヶ月で-3.2kgの体重減少を記録しました。ただしインソール単体の効果ではなく、歩行習慣の改善との相乗効果です。食事管理を併用するとさらに効果が高まります。
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
-                Q. 3ヶ月後も同じインソールを使い続けて大丈夫ですか？
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                A. 3ヶ月時点でインソールの状態が良好であれば継続使用可能です。ただし、かかと部分のヘタリやアーチの潰れが見られる場合は交換を推奨します。一般的には3〜6ヶ月が交換目安です。効果を維持するためにも、定期的な状態チェックを心がけてください。
-              </p>
-            </div>
+            {faqStructuredData.mainEntity.map((faq) => (
+              <div key={faq.name} className="bg-white border border-gray-200 rounded-lg p-4">
+                <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">
+                  Q. {faq.name}
+                </h3>
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  A. {faq.acceptedAnswer.text}
+                </p>
+              </div>
+            ))}
           </div>
         </section>
 
@@ -637,33 +544,33 @@ export default function SlimupLongReviewPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            スリムアップインソールの3ヶ月長期レビューの結果をまとめます。美容整体師監修の設計により、歩行の質が確実に向上し、継続使用によるダイエット効果も実証できました。
+            スリムアップインソールの長期使用について、確認できる情報をもとに整理しました。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
             <h3 className="text-sm md:text-base font-bold text-gray-900 mb-3">
-              3ヶ月レビュー総括
+              長期使用検証の総括
             </h3>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><span className="font-bold">効果の実感速度：</span>姿勢は1週間、体重は1ヶ月後から変化を実感</li>
-              <li><span className="font-bold">3ヶ月の総合成果：</span>体重-3.2kg、ウエスト-3.5cm（食事制限なし）</li>
-              <li><span className="font-bold">耐久性：</span>3ヶ月後も機能維持。4ヶ月目での交換が理想</li>
-              <li><span className="font-bold">継続のしやすさ：</span>日常歩行に組み込むだけなので習慣化しやすい</li>
-              <li><span className="font-bold">総合評価：</span>長期使用に適した製品。コツコツ継続できる人に最適</li>
+              <li><span className="font-bold">1週目：</span>慣らし期間。フィット感と違和感の有無を確認</li>
+              <li><span className="font-bold">1ヶ月目：</span>歩行量・姿勢への意識など「習慣の変化」を確認</li>
+              <li><span className="font-bold">2〜3ヶ月：</span>体型変化は食事・運動との併用が前提。履くだけで痩せると断定できるデータは確認できない</li>
+              <li><span className="font-bold">耐久性：</span>交換目安は一般的に3〜6ヶ月。アーチのヘタリがサイン</li>
+              <li><span className="font-bold">口コミ：</span>第三者レビューはまだ少なく、傾向を断定できる段階ではない</li>
             </ul>
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            スリムアップインソールは「劇的な短期間ダイエット」ではなく「日常生活の質を高めながら自然に痩せる」アプローチに最適な製品です。3ヶ月以上の継続使用が前提ですが、食事制限なしでもしっかりと結果が出ることを確認できました。
+            スリムアップインソールは「短期間で痩せるアイテム」ではなく、「歩行の質を高めながら、歩く習慣づくりをサポートするツール」と位置づけるのが現実的です。長期で使うほど、歩行量と併用習慣が成果を左右します。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            より高いダイエット効果を求める方は、臨床データのある<Link href="/pitsole/" className="text-[#0ea5e9] hover:underline">ピットソール</Link>も検討してみてください。姿勢改善を重視するなら<Link href="/runway-cure-sole/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソール</Link>もおすすめです。
+            他製品も含めて検討したい方は、口コミデータの多い<Link href="/pitsole/" className="text-[#0ea5e9] hover:underline">ピットソール</Link>や、姿勢サポート特化の<Link href="/runway-cure-sole/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソール</Link>も選択肢になります。
           </p>
 
           <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              3商品の料金・機能・口コミを一覧で比較したい方は
+              3商品の料金・機能・口コミの傾向を一覧で比較したい方は
               <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。スリムアップインソールの効果が感じにくい場合の対処法は<Link href="/articles/slimup-not-working/" className="text-[#0ea5e9] hover:underline">効果なし？の記事</Link>を参考にしてください。
             </p>
           </div>

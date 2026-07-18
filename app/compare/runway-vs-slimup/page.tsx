@@ -35,7 +35,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-07-05",
+  dateModified: "2026-07-19",
 };
 
 const faqStructuredData = {
@@ -466,89 +466,72 @@ export default function RunwayVsSlimupPage() {
         </h2>
 
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
-          実際のユーザーの口コミ傾向を比較します。どちらも「即効性はない」という点は共通していますが、
-          評価されるポイントに違いがあります。
+          出典を確認できた実在レビューデータから、両商品の口コミ傾向を比較します（個別レビューの転載・創作はしません）。
+          どちらも「即効性はない」という点は共通していますが、口コミの蓄積量に大きな差があります。
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div className="bg-white border border-purple-200 rounded-xl p-5">
             <p className="text-sm font-bold text-[#8b5cf6] mb-4">ランウェイキュアソールの口コミ傾向</p>
+            <p className="text-xs text-gray-500 mb-3">
+              楽天公式店（キレイplus公式ショップ楽天市場店）の商品レビュー: 総合3.98 / 5.0（807件・2026年7月19日参照）
+            </p>
             <div className="space-y-3">
               <div>
-                <p className="text-xs font-semibold text-gray-900 mb-1">良い口コミ</p>
+                <p className="text-xs font-semibold text-gray-900 mb-1">良い口コミの傾向</p>
                 <ul className="space-y-1 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
                     <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
-                    姿勢が良くなったと周囲に言われた
+                    背筋が伸びる感覚など姿勢面の変化を挙げる声
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
-                    足の疲れが軽減された
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
-                    薄型で靴がきつくならない
+                    立ち仕事・歩行の多い使い方での購入が目立つ
                   </li>
                 </ul>
               </div>
               <div>
-                <p className="text-xs font-semibold text-gray-900 mb-1">気になる口コミ</p>
+                <p className="text-xs font-semibold text-gray-900 mb-1">気になる口コミの傾向</p>
                 <ul className="space-y-1 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
                     <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
-                    外反母趾だと痛みを感じる場合あり
+                    装着時のキツさ・外反母趾部分への当たりの指摘
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
-                    夏場の蒸れ・締め付けが気になる
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
-                    サイズが合わないケースがある
+                    M/Lの2サイズのみで合わないケースがある
                   </li>
                 </ul>
               </div>
             </div>
+            <p className="text-xs text-gray-500 mt-3">
+              出典: <a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">キレイplus公式ショップ楽天市場店 商品レビュー</a>
+            </p>
           </div>
 
           <div className="bg-white border border-emerald-200 rounded-xl p-5">
             <p className="text-sm font-bold text-emerald-600 mb-4">スリムアップインソールの口コミ傾向</p>
+            <p className="text-xs text-gray-500 mb-3">
+              楽天公式店（イッティ公式 楽天市場店）の3足+1足セットの商品レビュー: 総合3.75 / 5.0（4件・2026年7月19日参照）
+            </p>
             <div className="space-y-3">
               <div>
-                <p className="text-xs font-semibold text-gray-900 mb-1">良い口コミ</p>
+                <p className="text-xs font-semibold text-gray-900 mb-1">確認できる範囲の傾向</p>
                 <ul className="space-y-1 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-600 mt-0.5 shrink-0">&#9675;</span>
-                    歩き方が変わった実感がある
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-emerald-600 mt-0.5 shrink-0">&#9675;</span>
-                    整体師監修で安心感がある
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-emerald-600 mt-0.5 shrink-0">&#9675;</span>
-                    抗菌防臭で衛生的に使える
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <p className="text-xs font-semibold text-gray-900 mb-1">気になる口コミ</p>
-                <ul className="space-y-1 text-sm text-gray-600">
-                  <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
-                    価格がやや高めに感じる
+                    好意的なレビューでは姿勢面の声が見られる
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
-                    効果の実感に時間がかかる
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
-                    靴によっては厚みが気になる
+                    第三者レビューはまだ少なく、傾向を断定できる段階ではない
                   </li>
                 </ul>
               </div>
             </div>
+            <p className="text-xs text-gray-500 mt-3">
+              出典: <a href="https://review.rakuten.co.jp/item/1/304721_10001280/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 商品レビュー</a>
+            </p>
           </div>
         </div>
 
@@ -556,13 +539,11 @@ export default function RunwayVsSlimupPage() {
           <p className="text-sm font-bold text-gray-900 mb-2">口コミ比較まとめ</p>
           <div className="space-y-2 text-sm text-gray-600 leading-relaxed">
             <p>
-              両商品とも「2〜3ヶ月の継続使用で変化を実感する」という傾向は共通しています。
-              ランウェイキュアソールは「姿勢の変化」「足の疲れ軽減」に関する好意的な口コミが多く、
-              薄型設計の使いやすさが評価されています。
+              口コミの蓄積量ではランウェイキュアソール（楽天公式店807件）が大きく上回り、姿勢面の変化を挙げる声と、フィット感・サイズに関する指摘の両方が確認できます。
             </p>
             <p>
-              スリムアップインソールは「整体師監修の安心感」「抗菌防臭の衛生面」が評価ポイントです。
-              一方で単品6,980円という価格に対して「やや高い」と感じる声もあります。
+              スリムアップインソールは第三者レビューがまだ少ないため、整体師監修・抗菌防臭・サイズ（S/M）といった公式に確認できる事実を判断材料にするのが現実的です。
+              どちらも「履くだけで痩せる」ことを保証する商品ではなく、食事管理・運動との併用が前提です。
             </p>
           </div>
         </div>
