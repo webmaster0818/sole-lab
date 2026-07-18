@@ -35,7 +35,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-06-27",
+  dateModified: "2026-07-18",
 };
 
 const faqStructuredData = {
@@ -748,6 +748,26 @@ export default function RunwayCureSolePage() {
             また、非正規ルートで購入した場合は正規品の保証が受けられず、類似品のリスクもあります。
             確実に正規品を購入したい方は公式サイトの利用がおすすめです。
           </p>
+        </div>
+
+        <div id="donki" className="bg-purple-50 border border-purple-200 rounded-xl p-5 mb-6">
+          <h3 className="text-base font-bold text-gray-900 mb-3">ドン・キホーテで買える？【2026年7月18日確認】</h3>
+          <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
+            <p>
+              結論: <strong>2026年7月18日時点で、ドン・キホーテでのランウェイキュアソールの取り扱いは確認できていません</strong>。
+              公式サイト（FLOReショップ）も実店舗での販売は案内しておらず、購入は公式サイトが中心です。
+            </p>
+            <p>
+              ドンキのインソール売場には「履くだけ」「姿勢サポート」をうたうダイエット系インソールが複数並んでいるため、
+              店頭で似た商品を見て「ドンキで売ってる？」と検索される方が多いようです。
+              ただしそれらは別商品で、ランウェイキュアソールの3点アーチサポート設計・ソックス型の仕様とは異なります。
+            </p>
+            <p>
+              セット割引が適用されるのは公式サイト限定です。ドンキで買えるインソール全般について知りたい方は
+              「<a href="/articles/donki-insole/" className="text-[#8b5cf6] underline font-medium">ドンキのインソールはダイエットに使える？</a>」で、
+              市販品と専用品の違いを解説しています。
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">

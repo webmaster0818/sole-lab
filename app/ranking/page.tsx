@@ -6,7 +6,7 @@ import KeihyoNote from "../components/KeihyoNote";
 
 export const metadata: Metadata = {
   title:
-    "ダイエットインソールおすすめランキング3選【2026年最新】効果・口コミ・市販情報まで徹底比較",
+    "ダイエットインソールおすすめランキング3選【2026年7月更新】効果・口コミ・市販情報まで徹底比較",
   description:
     "2026年最新のダイエットインソールおすすめランキング。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で徹底比較。市販（ドンキ・ニトリ・100均・薬局）で買えるかも解説し、あなたに合った痩せるインソールが見つかります。",
   alternates: {
@@ -18,7 +18,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ダイエットインソールおすすめランキング3選【2026年最新】効果・口コミ・市販情報まで徹底比較",
+    "ダイエットインソールおすすめランキング3選【2026年7月更新】効果・口コミ・市販情報まで徹底比較",
   description:
     "ピットソール・ランウェイキュアソール・スリムアップインソールをランキング形式で徹底比較。料金・特許技術・口コミ・市販の取扱状況まで詳しく解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
