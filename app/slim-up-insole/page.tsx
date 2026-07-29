@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
 import OfficialCTA from "../components/OfficialCTA";
 import KeihyoNote from "../components/KeihyoNote";
+import VerificationNote from "../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
@@ -193,6 +194,10 @@ export default function SlimUpInsolePage() {
           </p>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
+      </div>
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">

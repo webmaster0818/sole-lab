@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
 import OfficialCTA from "../components/OfficialCTA";
 import KeihyoNote from "../components/KeihyoNote";
+import VerificationNote from "../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
@@ -155,6 +156,10 @@ export default function RankingPage() {
           </p>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
+      </div>
 
       {/* このランキングの評価基準・作成方針（根拠の透明化） */}
       <section className="max-w-4xl mx-auto px-4 mb-12">

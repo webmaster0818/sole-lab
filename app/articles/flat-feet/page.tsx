@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import MedicalDisclaimer from "../../components/MedicalDisclaimer";
+import FootArchDiagram from "../../components/FootArchDiagram";
+import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
   title:
@@ -114,6 +116,11 @@ export default function FlatFeetPage() {
           </p>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <FootArchDiagram />
+        <InsoleTypeGuide />
+      </div>
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">

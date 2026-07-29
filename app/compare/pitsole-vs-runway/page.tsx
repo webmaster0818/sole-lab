@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import OfficialCTA from "../../components/OfficialCTA";
+import VerificationNote from "../../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
@@ -147,6 +148,10 @@ export default function PitsoleVsRunwayPage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
+      </div>
 
       {/* 比較結果サマリー */}
       <section className="py-12 md:py-16">

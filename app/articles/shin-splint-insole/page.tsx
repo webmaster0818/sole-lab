@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import FootArchDiagram from "../../components/FootArchDiagram";
+import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
   title: "シンスプリントに向くインソールの選び方【2026年】過回内を抑える設計とは",
@@ -77,6 +79,11 @@ export default function ShinSplintPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">シンスプリント（脛骨過労性骨膜炎）は、すねの内側の骨膜や筋肉の付着部に繰り返し負担がかかって炎症が起こる状態です。急な運動量の増加、硬い路面、扁平足や過回内（足が内側に倒れ込む動き）が関係するとされます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足が過度に内側へ倒れ込むと、すねの内側の筋肉が引っ張られ続けます。インソールでアーチを支えて過回内を抑えると、この繰り返しの牽引ストレスを減らす補助になります。</p>
         </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <FootArchDiagram />
+        <InsoleTypeGuide />
+      </div>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シンスプリントの選び方3つのポイント</h2>

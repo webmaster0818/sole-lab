@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import FootArchDiagram from "../../components/FootArchDiagram";
+import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
   title: "土踏まずが痛い時のインソールの選び方【2026年】張り・疲労の原因別対策",
@@ -77,6 +79,11 @@ export default function ArchPainPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">土踏まず（内側縦アーチ）は、足底腱膜や後脛骨筋などの筋肉・腱に支えられています。長時間の立ち仕事や歩行、急に運動量を増やしたとき、底の薄い靴で硬い路面を歩いたときなどに、これらの組織が働きすぎて土踏まずの痛みや張り・つり感が出やすくなります。扁平足でアーチが沈み込みやすい方、逆にハイアーチで一部に負担が集中する方も起こりやすい傾向があります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールでアーチを下から支えると、支える筋肉・腱の仕事を肩代わりして土踏まずの負担を直接減らすことができます。なお、土踏まずの中でもかかと寄りが痛む・朝起きて最初の一歩が痛むという場合は足底筋膜炎（足底腱膜炎）の典型的なパターンに近いため、当サイトの足底筋膜炎の記事もご覧のうえ、痛みが続く場合は整形外科で診断を受けてください。インソールは治療ではなく負担軽減の補助です。</p>
         </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <FootArchDiagram />
+        <InsoleTypeGuide />
+      </div>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">土踏まずの痛みの選び方3つのポイント</h2>

@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "平らな靴底を補うアーチサポート", "b": "長靴は底が平らでアーチの支えがありません。土踏まずを支える設計で足裏の疲れを軽減します。"}, {"t": "足の滑りを防ぐフィット感", "b": "中で足が滑ると疲れや靴擦れの原因に。フィットしてズレにくいものを選びましょう。"}, {"t": "蒸れを抑える消臭・通気", "b": "防水靴は蒸れやすいので、消臭・抗菌や通気性のある素材が快適です。"}, {"t": "水濡れに強い・洗える素材", "b": "長靴の中は湿気がこもりやすく、布製は乾きにくい場合があります。ウレタンやEVAなど水を吸いにくく、水洗いして乾かせる素材なら衛生的に使い続けやすいです。"}, {"t": "大きめの長靴はサイズ調整で対応", "b": "長靴は厚手の靴下を想定して大きめの作りが多く、足が前後に動きがちです。厚みのあるインソールやサイズを靴に合わせてカットできるタイプなら、ぶかぶかを抑えてフィットを整えられます。"}];
-const related = [{"href": "/articles/boots-insole/", "label": "ブーツのインソール"}, {"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}, {"href": "/articles/safety-shoes-insole/", "label": "安全靴のインソール"}, {"href": "/articles/hiking-insole/", "label": "登山用インソール"}];
+const related = [{"href": "/articles/boots-insole/", "label": "ブーツのインソール"}, {"href": "/articles/cold-feet/", "label": "足の冷え対策インソール"}, {"href": "/articles/swelling-insole/", "label": "むくみ対策インソール"}, {"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}, {"href": "/articles/safety-shoes-insole/", "label": "安全靴のインソール"}, {"href": "/articles/hiking-insole/", "label": "登山用インソール"}];
 
 export default function RainBootsPage() {
   return (

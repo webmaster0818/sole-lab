@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
 };
 
 const points = [{"t": "アーチサポートで疲れを軽減", "b": "ヒールのあるブーツほど前足部やアーチに負担がかかります。土踏まずを支える設計で疲れを抑えましょう。"}, {"t": "保温性で底冷え対策", "b": "冬のブーツには、地面の冷気を遮る保温性のある素材のインソールが快適です。"}, {"t": "ぶかぶかを調整できる厚み", "b": "ブーツが少し大きい場合は、やや厚めのインソールで容積を埋めてフィット感を高められます。"}];
-const related = [{"href": "/articles/cold-feet/", "label": "足の冷え対策インソール"}, {"href": "/articles/pumps-insole/", "label": "パンプス用インソール"}, {"href": "/articles/size-adjustment/", "label": "インソールのサイズ調整"}, {"href": "/articles/walking-insole/", "label": "ウォーキング用インソール"}];
+const related = [{"href": "/articles/cold-feet/", "label": "足の冷え対策インソール"}, {"href": "/articles/rain-boots-insole/", "label": "レインブーツ・長靴のインソール"}, {"href": "/articles/swelling-insole/", "label": "むくみ対策インソール"}, {"href": "/articles/factory-work-insole/", "label": "立ち仕事のインソール（安全靴対応）"}, {"href": "/articles/size-adjustment/", "label": "インソールのサイズ調整"}, {"href": "/articles/pumps-insole/", "label": "パンプス用インソール"}];
 
 export default function BootsPage() {
   return (

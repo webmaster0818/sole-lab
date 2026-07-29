@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import FootArchDiagram from "../../components/FootArchDiagram";
+import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
   title: "アキレス腱炎に向くインソールの選び方【2026年】ヒールアップの効果も解説",
@@ -77,6 +79,11 @@ export default function AchillesPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アキレス腱炎は、ふくらはぎの筋肉とかかとをつなぐアキレス腱に繰り返し負担がかかって炎症が起きる状態です。ランニングの急な距離・強度アップ、硬い路面、ふくらはぎの柔軟性不足などが引き金になります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールでかかとをわずかに高くすると、足首が底屈方向になりアキレス腱の引っ張りが軽減されます。さらにかかとのクッションで着地衝撃を吸収すれば、腱への繰り返し負荷を減らす補助になります。</p>
         </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <FootArchDiagram />
+        <InsoleTypeGuide />
+      </div>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">アキレス腱の痛みの選び方3つのポイント</h2>

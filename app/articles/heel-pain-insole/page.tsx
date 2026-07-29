@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import FootArchDiagram from "../../components/FootArchDiagram";
+import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
   title: "かかとが痛い時のインソールの選び方【2026年】原因別の対策も解説",
@@ -77,6 +79,11 @@ export default function HeelPainPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">かかとの痛みで多いのは、足裏のアーチを支える「足底腱膜」がかかとの付着部で炎症を起こすケースや、長年の衝撃でかかとの骨に負担が蓄積するケースです。とくに朝の一歩目が痛むのは足底腱膜炎の典型的なサインといわれます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは、かかとを安定させて着地の衝撃を和らげ、崩れたアーチを支えることで足裏全体に荷重を分散させる補助をします。痛みの根本治療ではありませんが、日常生活でのかかとへの負担を減らす目的で使われます。強い痛みや腫れがある場合は自己判断せず医療機関を受診しましょう。</p>
         </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <FootArchDiagram />
+        <InsoleTypeGuide />
+      </div>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">かかとの痛みの選び方3つのポイント</h2>

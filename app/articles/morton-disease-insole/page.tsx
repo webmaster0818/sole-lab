@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import FootArchDiagram from "../../components/FootArchDiagram";
+import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
   title: "モートン病に向くインソールの選び方【2026年】中足骨パッドの位置も解説",
@@ -77,6 +79,11 @@ export default function MortonPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">モートン病は、足指の付け根を通る神経が圧迫されて起こる神経症状で、3趾と4趾の間に多く見られます。横アーチ（足の指の付け根を結ぶ弓状の構造）が低下して中足骨の間が狭まると、神経が挟み込まれやすくなると考えられています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ハイヒールや先の細い靴、長時間の立ち仕事は横アーチに負担をかけます。インソールで横アーチを下から支え、神経が圧迫される部分の手前で荷重を受け止めることで、しびれや痛みをやわらげる補助になります。</p>
         </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <FootArchDiagram />
+        <InsoleTypeGuide />
+      </div>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">モートン病の選び方3つのポイント</h2>

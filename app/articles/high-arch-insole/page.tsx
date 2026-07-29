@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import FootArchDiagram from "../../components/FootArchDiagram";
+import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
   title: "ハイアーチ（凹足）に向くインソールの選び方【2026年】衝撃集中を防ぐコツ",
@@ -77,6 +79,11 @@ export default function HighArchPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ハイアーチは土踏まずが通常より高く持ち上がった足の形で、足裏が地面に接する面積が少なくなります。その結果、かかとと指の付け根（母趾球・小趾球）の2点に体重が集中し、衝撃を吸収しにくい状態になります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">接地が少ないため、タコや痛み、疲れやすさ、足首の不安定さが起こりやすいのが特徴です。インソールで高いアーチの隙間を支えて接地面を増やし、集中する衝撃を分散・吸収すると負担をやわらげる補助になります。</p>
         </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <FootArchDiagram />
+        <InsoleTypeGuide />
+      </div>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ハイアーチ（凹足）の選び方3つのポイント</h2>

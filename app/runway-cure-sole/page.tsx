@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
 import OfficialCTA from "../components/OfficialCTA";
 import KeihyoNote from "../components/KeihyoNote";
+import VerificationNote from "../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
@@ -221,6 +222,10 @@ export default function RunwayCureSolePage() {
         <div className="text-center my-8">
           <OfficialCTA product="runway" />
         </div>
+      </div>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
       </div>
 
       {/* Table of Contents */}

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import MedicalDisclaimer from "../../components/MedicalDisclaimer";
+import FootArchDiagram from "../../components/FootArchDiagram";
+import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
   title:
@@ -156,6 +158,11 @@ export default function SwellingInsolePage() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <FootArchDiagram />
+        <InsoleTypeGuide />
+      </div>
 
       <div className="max-w-4xl mx-auto px-4">
         <MedicalDisclaimer />
