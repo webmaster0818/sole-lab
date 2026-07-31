@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
@@ -41,6 +42,10 @@ export default function ColdFeetPage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">足の冷えは血行不良のサイン。保温だけでなく根本的な血行改善が重要です。<br className="hidden md:block" />インソールで足元の冷えを解消し、全身の巡りを良くする方法を解説します。</p>
         </div>
       </section>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
+      </div>
 
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">

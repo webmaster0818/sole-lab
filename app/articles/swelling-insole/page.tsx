@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import MedicalDisclaimer from "../../components/MedicalDisclaimer";
@@ -169,6 +170,10 @@ export default function SwellingInsolePage() {
       </div>
 
       {/* むくみの原因 */}
+      <div className="max-w-3xl mx-auto px-4 mt-8">
+        <VerificationNote />
+      </div>
+
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">

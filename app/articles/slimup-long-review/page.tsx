@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
@@ -160,6 +161,10 @@ export default function SlimupLongReviewPage() {
       </section>
 
       {/* Table of Contents */}
+      <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
+      </div>
+
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">

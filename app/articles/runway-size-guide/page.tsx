@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
@@ -362,6 +363,10 @@ export default function RunwaySizeGuidePage() {
       </section>
 
       {/* 対応外サイズの方への代替案 */}
+      <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
+      </div>
+
       <section id="out-of-range" className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">

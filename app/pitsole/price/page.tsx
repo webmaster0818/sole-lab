@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
@@ -219,7 +220,11 @@ export default function PitsolePricePage() {
         </nav>
 
         {/* H2: 結論 */}
-        <section id="conclusion">
+        <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
+      </div>
+
+      <section id="conclusion">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-amber-400">
             【結論】最安値で買えるのはここ！
           </h2>

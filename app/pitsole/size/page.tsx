@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
@@ -264,7 +265,11 @@ export default function PitsoleSizePage() {
         {/* ==================== */}
         {/* H2: サイズ展開 */}
         {/* ==================== */}
-        <section id="size-lineup">
+        <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
+      </div>
+
+      <section id="size-lineup">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#e8627c]">
             ピットソールのサイズ展開
           </h2>

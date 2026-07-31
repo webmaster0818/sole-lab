@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VerificationNote from "../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
 
@@ -997,6 +998,10 @@ export default function ArticlesPage() {
       </section>
 
       {/* Category nav */}
+      <div className="max-w-3xl mx-auto px-4 mt-8">
+        <VerificationNote />
+      </div>
+
       <section className="py-8 border-b border-[#f3e0e4]">
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-2 md:gap-3">

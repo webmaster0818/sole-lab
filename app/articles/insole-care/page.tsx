@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
@@ -146,6 +147,10 @@ export default function InsoleCare() {
       </section>
 
       {/* 目次 */}
+      <div className="max-w-3xl mx-auto px-4 mt-8">
+        <VerificationNote />
+      </div>
+
       <section className="py-8 md:py-10">
         <div className="max-w-3xl mx-auto px-4">
           <div className="bg-[#fdf2f4] rounded-xl p-6">

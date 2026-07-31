@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import MedicalDisclaimer from "../../components/MedicalDisclaimer";
@@ -45,6 +46,10 @@ export default function HalluxValgusPreventionPage() {
 
       <div className="max-w-4xl mx-auto px-4">
         <MedicalDisclaimer />
+      </div>
+
+      <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
       </div>
 
       <section className="max-w-4xl mx-auto px-4 mb-12">

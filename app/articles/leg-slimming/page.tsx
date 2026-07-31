@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
@@ -306,6 +307,10 @@ export default function LegSlimmingArticlePage() {
       </section>
 
       {/* 脚が太くなる原因とインソールの関係 */}
+      <div className="max-w-3xl mx-auto px-4">
+        <VerificationNote />
+      </div>
+
       <section id="cause" className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
