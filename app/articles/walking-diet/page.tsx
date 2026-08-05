@@ -118,6 +118,17 @@ export default function WalkingDietPage() {
         <VerificationNote />
       </div>
 
+      <div className="max-w-3xl mx-auto px-4 mt-6">
+        <div className="bg-sky-50 border border-sky-100 rounded-xl p-5">
+          <p className="text-sm font-bold text-gray-900 mb-3">インソールでの対策に進む</p>
+          <div className="space-y-2">
+          <a href="/articles/diet-mechanism/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">インソールでダイエットを補助する仕組み</a>
+          <a href="/diagnosis/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">30秒診断で自分に合うインソールを探す</a>
+          <a href="/ranking/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">ダイエットインソール比較ランキング</a>
+          </div>
+        </div>
+      </div>
+
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">

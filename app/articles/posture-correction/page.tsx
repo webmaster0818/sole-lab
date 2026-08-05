@@ -123,6 +123,17 @@ export default function PostureCorrectionPage() {
         <VerificationNote />
       </div>
 
+      <div className="max-w-3xl mx-auto px-4 mt-6">
+        <div className="bg-sky-50 border border-sky-100 rounded-xl p-5">
+          <p className="text-sm font-bold text-gray-900 mb-3">インソールでの対策に進む</p>
+          <div className="space-y-2">
+          <a href="/articles/flat-feet/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">扁平足とインソール対策</a>
+          <a href="/articles/how-to-choose/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">失敗しないインソールの選び方</a>
+          <a href="/diagnosis/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">30秒診断で自分に合うインソールを探す</a>
+          </div>
+        </div>
+      </div>
+
       <section className="max-w-4xl mx-auto px-4 mb-12">
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
