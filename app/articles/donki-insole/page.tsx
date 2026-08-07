@@ -105,7 +105,7 @@ export default function DonkiPage() {
               </thead>
               <tbody className="text-gray-700">
                 <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
                 <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
@@ -116,7 +116,7 @@ export default function DonkiPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ランウェイキュアソールやピットソールはドンキで売ってる？</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「ランウェイキュアソール ドンキ」「ピットソール ドンキ」と探す方は多いですが、<strong>どちらもドン・キホーテでの取り扱いは確認されていません</strong>。ランウェイキュアソールは公式サイト（FLOReショップ）が中心、ピットソールは公式サイトと正規のAmazon・楽天店舗が主な購入ルートです。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドンキの店頭にもアーチサポートをうたうインソールは並んでいますが、これらは別商品です。セット割引や正規品保証は公式ルート限定のため、確実に正規品が欲しい場合は公式サイトを利用しましょう。各製品の詳細は<Link href="/runway-cure-sole/" className="text-[#e8627c] underline font-medium">ランウェイキュアソールの口コミ・販売店情報</Link>と<Link href="/pitsole/" className="text-[#e8627c] underline font-medium">ピットソールの口コミ・効果検証</Link>で解説しています。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドンキの店頭にもアーチサポートをうたうインソールは並んでいますが、これらは別商品です。セット割引や正規品保証は公式ルート限定のため、確実に正規品が欲しい場合は公式サイトを利用しましょう。各製品の詳細は<Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline font-medium">ランウェイキュアソールの口コミ・販売店情報</Link>と<Link href="/pitsole/" className="text-[#e8627c] underline font-medium">ピットソールの口コミ・効果検証</Link>で解説しています。</p>
         </section>
 
         <section className="mb-12">

@@ -75,7 +75,7 @@ export default function WhereToBuyPage() {
 
         <section id="hikaku" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">主要3製品の最安値・販売店 横断比較</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">当サイトで検証している本格派ダイエットインソール3製品（<Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link>／<Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link>／<Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link>）について、「どこで買えるか（販売チャネル）」と「いくらで買えるか（単品・セット最安値・返金保証）」を各製品ページの公式確認値をもとに一覧にまとめました。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">当サイトで検証している本格派ダイエットインソール3製品（<Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link>／<Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline">ランウェイキュアソール</Link>／<Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link>）について、「どこで買えるか（販売チャネル）」と「いくらで買えるか（単品・セット最安値・返金保証）」を各製品ページの公式確認値をもとに一覧にまとめました。</p>
 
           {/* 表A：販売チャネル別の取扱可否 */}
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">表A：3製品 × 販売チャネルの取扱可否</h3>
@@ -99,7 +99,7 @@ export default function WhereToBuyPage() {
                   <td className="p-3 border-b border-gray-200 text-center text-gray-400">×</td>
                 </tr>
                 <tr>
-                  <td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td>
+                  <td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td>
                   <td className="p-3 border-b border-gray-200 text-center text-[#0ea5e9] font-bold">◎</td>
                   <td className="p-3 border-b border-gray-200 text-center text-amber-500 font-bold">△<span className="block text-[10px] text-gray-500 font-normal">時期により変動</span></td>
                   <td className="p-3 border-b border-gray-200 text-center text-gray-400">×</td>
@@ -116,7 +116,7 @@ export default function WhereToBuyPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mb-2">◎=取扱あり／△=時期により変動／×=取扱は確認されていません。いずれの製品も<strong>ドンキ・ドラッグストア・薬局などの実店舗での取扱は確認されておらず、購入は公式サイトが中心</strong>です。Amazon・楽天は非正規出品のリスクがあるため、販売元（公式店舗）の表記をご確認ください。</p>
-          <p className="text-xs text-gray-500 mb-8">出典: 各製品ページの公式確認情報（<Link href="/pitsole/" className="underline">ピットソール</Link>=2026年4月／<Link href="/runway-cure-sole/" className="underline">ランウェイ</Link>・<Link href="/slim-up-insole/" className="underline">スリムアップ</Link>=2026年6月12日参照）。</p>
+          <p className="text-xs text-gray-500 mb-8">出典: 各製品ページの公式確認情報（<Link href="/pitsole/" className="underline">ピットソール</Link>=2026年4月／<Link href="/runway-cure-sole/#donki" className="underline">ランウェイ</Link>・<Link href="/slim-up-insole/" className="underline">スリムアップ</Link>=2026年6月12日参照）。</p>
 
           {/* 表B：価格・セット最安値・返金保証 */}
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">表B：3製品 × 単品価格・セット最安値（1足あたり）・返金保証</h3>
@@ -138,7 +138,7 @@ export default function WhereToBuyPage() {
                   <td className="p-3 border-b border-gray-200">公式で要確認<span className="block text-[10px] text-gray-500">未使用・未開封のサイズ交換は可（7日以内）</span></td>
                 </tr>
                 <tr>
-                  <td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td>
+                  <td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td>
                   <td className="p-3 border-b border-gray-200">6,980円</td>
                   <td className="p-3 border-b border-gray-200"><span className="font-bold text-[#0ea5e9]">約5,987円</span><span className="block text-[10px] text-gray-500">2足11,980円/3足17,960円</span></td>
                   <td className="p-3 border-b border-gray-200">90日間の全額返金保証<span className="block text-[10px] text-gray-500">実感がない場合（公式サイト）</span></td>
@@ -160,7 +160,7 @@ export default function WhereToBuyPage() {
             <p className="text-sm text-gray-700 leading-relaxed">このページは3製品の販売店・価格をまとめて見比べるための<strong>横断比較ハブ</strong>です。価格の内訳やセットの条件、口コミ・サイズ選び・返金の詳しい手順など、各製品の詳細は個別ページでご確認ください。</p>
             <div className="grid sm:grid-cols-3 gap-2 mt-4">
               <Link href="/pitsole/" className="block text-center text-sm font-medium text-[#e8627c] border border-[#f3e0e4] rounded-lg px-3 py-2 hover:bg-[#fdf2f4] transition-colors">ピットソールの詳細 →</Link>
-              <Link href="/runway-cure-sole/" className="block text-center text-sm font-medium text-[#e8627c] border border-[#f3e0e4] rounded-lg px-3 py-2 hover:bg-[#fdf2f4] transition-colors">ランウェイの詳細 →</Link>
+              <Link href="/runway-cure-sole/#donki" className="block text-center text-sm font-medium text-[#e8627c] border border-[#f3e0e4] rounded-lg px-3 py-2 hover:bg-[#fdf2f4] transition-colors">ランウェイの詳細 →</Link>
               <Link href="/slim-up-insole/" className="block text-center text-sm font-medium text-[#e8627c] border border-[#f3e0e4] rounded-lg px-3 py-2 hover:bg-[#fdf2f4] transition-colors">スリムアップの詳細 →</Link>
             </div>
           </div>
@@ -204,7 +204,7 @@ export default function WhereToBuyPage() {
               </thead>
               <tbody className="text-gray-700">
                 <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
                 <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>

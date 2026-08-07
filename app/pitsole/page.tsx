@@ -7,11 +7,11 @@ import VerificationNote from "../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
-    "ピットソールの口コミ・効果を徹底検証【累計200万足の実力】",
+    "ピットソールの口コミ・評判を徹底検証｜悪い口コミと効果の実態【2026年】",
   description:
-    "ピットソール(Pitsole)の口コミ・評判を徹底調査。知恵袋などQ&Aサイトで多い「痩せない？怪しい？」という疑問の真相、効果の仕組み、最安値情報、偽物の見分け方まで。ダイエットカフェ評価2.7/5の実態を正直にレビュー。",
+    "ピットソール(Pitsole)の口コミ・評判を徹底調査。知恵袋などQ&Aサイトで多い「痩せない？怪しい？」という疑問の真相、効果の仕組み、最安値情報、偽物の見分け方まで。楽天公式店3.98（444件）・4.11（674件）、ダイエットカフェ2.7/5の実売データで正直にレビュー。",
   openGraph: {
-    title: "ピットソールの口コミ・効果を徹底検証【累計200万足の実力】｜ソールラボ",
+    title: "ピットソールの口コミ・評判を徹底検証｜悪い口コミと効果の実態【2026年】｜ソールラボ",
     description: "ピットソール(Pitsole)の口コミ・評判を徹底調査。悪い口コミ「痩せない」の真相から最安値情報まで。",
     url: "https://sole-laboratory.com/pitsole/",
     type: "article",
@@ -25,7 +25,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ピットソールの口コミ・効果を徹底検証【累計200万足の実力】",
+    "ピットソールの口コミ・評判を徹底検証｜悪い口コミと効果の実態【2026年】",
   description:
     "ピットソール(Pitsole)の口コミ・評判を徹底調査。悪い口コミ・良い口コミの両面から効果を検証し、最安値情報や偽物の見分け方まで解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
@@ -286,6 +286,9 @@ export default function PitsolePage() {
             </span>
             <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
               楽天ランキング1位
+            </span>
+            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+              楽天レビュー3.98（444件）・4.11（674件）
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
               ダイエットカフェ 2.7/5
