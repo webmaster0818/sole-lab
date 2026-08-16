@@ -811,6 +811,11 @@ export default function RunwayVsSlimupPage() {
               ダイエットインソールおすすめランキングを見る
             </Link>
           </div>
+          <div className="mt-3">
+            <Link href="/ranking/#ruiji" className="text-sm text-[#0ea5e9] underline">
+              ランウェイキュアソールの類似品・代わりを探している方はこちら
+            </Link>
+          </div>
         </div>
       </section>
 

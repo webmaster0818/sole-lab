@@ -7,9 +7,9 @@ import VerificationNote from "../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
-    "ダイエットインソールおすすめランキング3選【2026年7月更新】効果・口コミ・市販情報まで徹底比較",
+    "ダイエットインソールおすすめランキング3選【2026年8月更新】効果・口コミ・類似品比較まで徹底解説",
   description:
-    "2026年最新のダイエットインソールおすすめランキング。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で徹底比較。市販（ドンキ・ニトリ・100均・薬局）で買えるかも解説し、あなたに合った痩せるインソールが見つかります。",
+    "2026年最新のダイエットインソールおすすめランキング。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で徹底比較。ランウェイキュアソールの類似品・代わりを探している方向けの比較、市販（ドンキ・ニトリ・100均・薬局）の取扱状況も解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/ranking/",
   },
@@ -19,7 +19,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ダイエットインソールおすすめランキング3選【2026年7月更新】効果・口コミ・市販情報まで徹底比較",
+    "ダイエットインソールおすすめランキング3選【2026年8月更新】効果・口コミ・類似品比較まで徹底解説",
   description:
     "ピットソール・ランウェイキュアソール・スリムアップインソールをランキング形式で徹底比較。料金・特許技術・口コミ・市販の取扱状況まで詳しく解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
@@ -276,13 +276,18 @@ export default function RankingPage() {
               </a>
             </li>
             <li>
+              <a href="#ruiji" className="hover:text-[#0ea5e9] transition-colors">
+                9. ランウェイキュアソールの類似品・代わりを探している方へ
+              </a>
+            </li>
+            <li>
               <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
-                9. よくある質問（FAQ）10選
+                10. よくある質問（FAQ）10選
               </a>
             </li>
             <li>
               <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
-                10. まとめ
+                11. まとめ
               </a>
             </li>
           </ol>
@@ -1461,6 +1466,40 @@ export default function RankingPage() {
             <p className="text-sm font-semibold text-gray-900">100均インソールの実力</p>
             <p className="text-xs text-gray-500 mt-1">専用品との違いを比較</p>
           </Link>
+        </div>
+      </section>
+
+      <section id="ruiji" className="section-light py-12 md:py-16 mb-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+            ランウェイキュアソールの類似品・代わりを探している方へ
+          </h2>
+          <p className="text-sm text-gray-600 leading-relaxed mb-4">
+            「ランウェイキュアソール 類似品」という検索が増えています。背景には、ドン・キホーテや薬局などの実店舗での取り扱いが確認されておらず、
+            店頭で手に取って比べられないという事情があります。
+          </p>
+          <p className="text-sm text-gray-600 leading-relaxed mb-4">
+            いわゆる「類似品」として比較されるのは、同じ姿勢・歩行サポート設計のダイエットインソールです。
+            本記事で比較している3商品では、<strong>ピットソール</strong>と<strong>スリムアップインソール</strong>がその代表で、
+            サイズ展開・男女兼用かどうか・価格帯・サポート設計がそれぞれ異なります。
+            どれが合うかは重視するポイント次第なので、まずは<a href="#comparison" className="text-[#0ea5e9] underline">6基準の比較表</a>で違いを確認するのが近道です。
+          </p>
+          <div className="bg-white border border-gray-200 rounded-xl p-4 mb-4">
+            <p className="text-sm text-gray-700 leading-relaxed">
+              <strong>注意:</strong> フリマアプリや非公式ルートで販売される極端に安い「類似品」は、
+              サイズ展開や素材・サポート設計が正規品と異なる場合があります。購入前に正規の販売ルートかどうかの確認をおすすめします。
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-3">
+            <Link href="/compare/runway-vs-slimup/" className="block p-3 border border-gray-200 rounded-xl bg-white hover:bg-gray-50 transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ランウェイキュアソール vs スリムアップインソール</p>
+              <p className="text-xs text-gray-500 mt-1">2商品の違いを詳しく比較</p>
+            </Link>
+            <Link href="/runway-cure-sole/" className="block p-3 border border-gray-200 rounded-xl bg-white hover:bg-gray-50 transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールの販売店・口コミ検証</p>
+              <p className="text-xs text-gray-500 mt-1">どこで売ってる？最安値の考え方</p>
+            </Link>
+          </div>
         </div>
       </section>
 
