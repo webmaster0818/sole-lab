@@ -188,3 +188,7 @@
 - 景表法配慮: 効果系2本は「痩せると断定できません」「変化を約束するものではありません」を本文明記・NG表現grepゼロ。FAQ各2(schema連動)・診断導線8/8・相互リンク4組・3製品数値不変更・架空ゼロ
 - ホスト: dateModified 8件→2026-07-12・sitemap lastmod8件・deploy=sole-lab-deploy両push・本番検証(診断8/8・非断定表現・sitemap)cache回避until・GSC再送信・報告(id 1525692086232547442)
 - ★症状クラスタ投資=計20本(第1弾4+第2弾8+第3弾8)。順位定着2-4週観測→第1・2弾効果と合わせ報告。クエリレベルはimp小で匿名化されるためページレベル実測で選定した
+
+## 2026-08-26 P1P2: 類似品固め+最安値刈り取り✅（「最新GSC見てネクスト実行」承認）
+- P1=ranking類似品FAQ2問(faqs配列+schema mainEntity両方・FAQ10→12選)+compare/runway-vs-slimup title「〜徹底比較！類似品ならどっち？」 P2=pitsole/price title「最安値は？どこで買える？販売店・価格比較【2026年8月】」(二重「｜ソールラボ」削除=layoutテンプレが付与)+ranking#ruiji節にpriceカード
+- sitemap lastmod3(ranking/pitsole/price/compare)・両repo push・本番検証・GSC再送信。観測9/5頃
