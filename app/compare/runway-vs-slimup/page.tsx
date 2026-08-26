@@ -6,7 +6,7 @@ import VerificationNote from "../../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
-    "ランウェイキュアソール vs スリムアップインソール徹底比較！",
+    "ランウェイキュアソールとスリムアップインソールを徹底比較！類似品ならどっち？",
   description:
     "ランウェイキュアソールとスリムアップインソールを徹底比較。価格・サイズ・機能・監修・口コミ評価まで全項目を比較表付きで解説。あなたに合うダイエットインソールが分かります。",
   alternates: {
@@ -26,7 +26,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ランウェイキュアソール vs スリムアップインソール徹底比較！",
+    "ランウェイキュアソールとスリムアップインソールを徹底比較！類似品ならどっち？",
   description:
     "ランウェイキュアソールとスリムアップインソールを価格・サイズ・機能・口コミなど全項目で徹底比較。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },

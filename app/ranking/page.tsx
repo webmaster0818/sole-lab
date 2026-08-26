@@ -116,6 +116,16 @@ const faqStructuredData = {
         text: "継続使用を前提にするなら、セット購入が圧倒的にお得です。ピットソールは4足セット18,120円（4,530円/足）・6足セット24,156円（4,026円/足）と単価が下がり（公式サイトにて2026年7月確認）、スリムアップインソールは3足セットで+1足無料と、実質1足あたりの価格が大幅に下がります。ただし、初めて試す方はまず単品で自分の足に合うか確認するのも手です。",
       },
     },
+    {
+      "@type": "Question",
+      name: "ランウェイキュアソールの類似品はどれですか？",
+      acceptedAnswer: { "@type": "Answer", text: "同じ姿勢・歩行サポート設計のダイエットインソールとしては、本記事で比較しているピットソールとスリムアップインソールが代表的です。サイズ展開・男女兼用かどうか・価格帯・サポート設計がそれぞれ異なるため、本ページの6基準の比較表で違いを確認するのがおすすめです。" },
+    },
+    {
+      "@type": "Question",
+      name: "類似品と正規品はどう見分ければよいですか？",
+      acceptedAnswer: { "@type": "Answer", text: "確実なのは各商品の公式サイト・公式ショップから購入することです。フリマアプリや非公式ルートで極端に安く販売されているものは、サイズ展開や素材・サポート設計が正規品と異なる場合があります。購入前に販売元が正規ルートかどうかを確認しましょう。" },
+    },
   ],
 };
 
@@ -282,7 +292,7 @@ export default function RankingPage() {
             </li>
             <li>
               <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
-                10. よくある質問（FAQ）10選
+                10. よくある質問（FAQ）12選
               </a>
             </li>
             <li>
@@ -1499,13 +1509,17 @@ export default function RankingPage() {
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールの販売店・口コミ検証</p>
               <p className="text-xs text-gray-500 mt-1">どこで売ってる？最安値の考え方</p>
             </Link>
+            <Link href="/pitsole/price/" className="block p-3 border border-gray-200 rounded-xl bg-white hover:bg-gray-50 transition-colors">
+              <p className="text-sm font-semibold text-gray-900">ピットソールの最安値・販売店比較</p>
+              <p className="text-xs text-gray-500 mt-1">公式・楽天・Amazonの価格差とセット割引</p>
+            </Link>
           </div>
         </div>
       </section>
 
       <section id="faq" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
-          よくある質問（FAQ）10選
+          よくある質問（FAQ）12選
         </h2>
 
         <div className="space-y-3">
@@ -1549,6 +1563,14 @@ export default function RankingPage() {
             {
               q: "Q10. セット購入と単品購入、どちらがおすすめですか？",
               a: "継続使用を前提にするなら、セット購入が圧倒的にお得です。ピットソールは4足セット18,120円（4,530円/足）・6足セット24,156円（4,026円/足）と単価が下がり（公式サイトにて2026年7月確認）、スリムアップインソールは3足セットで+1足無料と、実質1足あたりの価格が大幅に下がります。ただし、初めて試す方はまず単品で自分の足に合うか確認するのも手です。",
+            },
+            {
+              q: "Q11. ランウェイキュアソールの類似品はどれですか？",
+              a: "同じ姿勢・歩行サポート設計のダイエットインソールとしては、本記事で比較しているピットソールとスリムアップインソールが代表的です。サイズ展開・男女兼用かどうか・価格帯・サポート設計がそれぞれ異なるため、本ページの6基準の比較表で違いを確認するのがおすすめです。",
+            },
+            {
+              q: "Q12. 類似品と正規品はどう見分ければよいですか？",
+              a: "確実なのは各商品の公式サイト・公式ショップから購入することです。フリマアプリや非公式ルートで極端に安く販売されているものは、サイズ展開や素材・サポート設計が正規品と異なる場合があります。購入前に販売元が正規ルートかどうかを確認しましょう。",
             },
           ].map((item) => (
             <details

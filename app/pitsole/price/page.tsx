@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "ピットソールの最安値は？どこで買える？販売店比較【2026年】｜ソールラボ",
+    "ピットソールの最安値は？どこで買える？販売店・価格比較【2026年8月】",
   description:
     "ピットソール(Pitsole)の最安値・販売店を徹底比較。公式サイト・楽天・Amazonの価格差、セット割引の詳細、偽物リスクまで解説。最安は6足セットで1足あたり4,026円。",
   alternates: {
