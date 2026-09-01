@@ -28,7 +28,7 @@ const structuredData = {
   headline:
     "O脚改善にインソールは効果ある？おすすめと選び方ガイド",
   description:
-    "O脚の原因・タイプを解説し、インソールでO脚が改善するメカニズム・おすすめ商品・選び方をまとめたガイド。",
+    "O脚の原因・タイプを解説し、インソールでO脚が改善するメカニズム・おすすめの選び方をまとめたガイド。「逆効果になるのでは？」という不安への回答、避けるべき使い方も紹介します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -64,6 +64,11 @@ const faqs = [
     question: "子どものO脚にもインソールは使えますか？",
     answer:
       "2歳頃までの乳幼児O脚は生理的なもので自然に改善されることがほとんどです。3歳以降もO脚が続く場合は小児整形外科での診察が推奨されます。学童期以降のO脚にはインソールが有効な場合がありますが、成長期の足は変化が大きいため、3〜6ヶ月ごとにサイズを見直す必要があります。",
+  },
+  {
+    question: "O脚矯正インソールは逆効果になることがありますか？",
+    answer:
+      "インソール自体が有害というわけではありませんが、サイズが合っていない・痛みを我慢して使い続ける・骨格変形を伴うO脚に矯正を期待する、といった場合は不調や期待外れにつながることがあります。装着初期の違和感を超える鋭い痛みやしびれが続く場合は使用を中止し、整形外科にご相談ください。",
   },
 ];
 
@@ -706,6 +711,33 @@ export default function OLegInsolePage() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* 逆効果になるケース */}
+      <section className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+          O脚矯正インソールが「逆効果」になるケースと避け方
+        </h2>
+        <p className="text-sm text-gray-600 leading-relaxed mb-4">
+          「O脚 矯正インソール 逆効果」と検索される方が増えています。インソール自体が有害というわけではなく、<strong>使い方・選び方が合っていない場合に不調につながる</strong>ことがあります。代表的なケースと避け方を整理します。
+        </p>
+        <div className="space-y-3 mb-6">
+          <div className="bg-white border border-gray-200 rounded-xl p-4">
+            <p className="text-sm font-bold text-gray-900 mb-1">1. サイズ・形状が足に合っていない</p>
+            <p className="text-sm text-gray-600">足長・足幅に合わないインソールは、圧迫や擦れで痛みの原因になります。サイズ表の確認と、靴側の余裕（紐やベルクロで調整できる靴）が前提です。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-4">
+            <p className="text-sm font-bold text-gray-900 mb-1">2. 痛みを我慢して使い続ける</p>
+            <p className="text-sm text-gray-600">装着初期の違和感は慣らし期間で軽減することが多いですが、鋭い痛み・しびれが続く場合は使用を中止してください。膝や股関節に痛みがある場合は、まず整形外科での診察が優先です。</p>
+          </div>
+          <div className="bg-white border border-gray-200 rounded-xl p-4">
+            <p className="text-sm font-bold text-gray-900 mb-1">3. 構造的O脚（骨格の変形）に「矯正」を期待する</p>
+            <p className="text-sm text-gray-600">骨格の変形を伴うO脚はインソールでの矯正は期待できません。インソールは歩行や姿勢のサポートが役割で、治療器具ではありません。変形が疑われる場合は整形外科へ。</p>
+          </div>
+        </div>
+        <p className="text-xs text-gray-500">
+          関連: <a href="/articles/correct-usage/" className="text-[#0ea5e9] underline">インソールの正しい使い方・慣らし方</a> / <a href="/articles/size-adjustment-insole/" className="text-[#0ea5e9] underline">サイズが合わないときの調整方法</a>
+        </p>
       </section>
 
       {/* まとめ */}
