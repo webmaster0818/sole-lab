@@ -7,7 +7,7 @@ import VerificationNote from "../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
-    "ダイエットインソールおすすめランキング3選【2026年8月更新】効果・口コミ・類似品比較まで徹底解説",
+    "ダイエットインソールおすすめランキング3選【2026年9月更新】効果・口コミ・類似品比較まで徹底解説",
   description:
     "2026年最新のダイエットインソールおすすめランキング。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で徹底比較。ランウェイキュアソールの類似品・代わりを探している方向けの比較、市販（ドンキ・ニトリ・100均・薬局）の取扱状況も解説します。",
   alternates: {
@@ -19,7 +19,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ダイエットインソールおすすめランキング3選【2026年8月更新】効果・口コミ・類似品比較まで徹底解説",
+    "ダイエットインソールおすすめランキング3選【2026年9月更新】効果・口コミ・類似品比較まで徹底解説",
   description:
     "ピットソール・ランウェイキュアソール・スリムアップインソールをランキング形式で徹底比較。料金・特許技術・口コミ・市販の取扱状況まで詳しく解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
@@ -29,7 +29,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-07-19",
+  dateModified: "2026-09-11",
 };
 
 const faqStructuredData = {

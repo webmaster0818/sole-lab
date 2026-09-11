@@ -4,13 +4,13 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "インソールの洗い方・お手入れ完全ガイド｜寿命を延ばす方法",
+  title: "インソール(中敷き)の洗い方・洗濯方法ガイド｜洗う頻度・乾かし方・寿命を延ばすコツ",
   description:
-    "インソールの正しい洗い方・お手入れ方法を徹底解説。素材別の洗浄方法・乾かし方・日常のケアまで。ピットソール・ランウェイキュアソール・スリムアップインソールのメンテナンス方法も紹介。",
+    "インソール(中敷き)の正しい洗い方・洗濯方法を徹底解説。洗う頻度の目安、洗濯機NGの理由、素材別の洗浄方法・乾かし方まで。ピットソール・ランウェイキュアソール・スリムアップインソールのお手入れも紹介。",
   alternates: { canonical: "https://sole-laboratory.com/articles/washing-guide/" },
   openGraph: {
-    title: "インソールの洗い方・お手入れ完全ガイド｜寿命を延ばす方法",
-    description: "インソールの正しい洗い方・お手入れ方法を徹底解説。寿命を延ばす方法を紹介。",
+    title: "インソール(中敷き)の洗い方・洗濯方法ガイド｜洗う頻度・乾かし方・寿命を延ばすコツ",
+    description: "インソール(中敷き)の正しい洗い方・洗濯方法を徹底解説。洗う頻度・乾かし方・寿命を延ばすコツを紹介。",
     url: "https://sole-laboratory.com/articles/washing-guide/",
     type: "article",
   },
@@ -19,12 +19,12 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "インソールの洗い方・お手入れ完全ガイド｜寿命を延ばす方法",
-  description: "インソールの正しい洗い方・お手入れ方法を徹底解説。寿命を延ばす方法を紹介。",
+  headline: "インソール(中敷き)の洗い方・洗濯方法ガイド｜洗う頻度・乾かし方・寿命を延ばすコツ",
+  description: "インソール(中敷き)の正しい洗い方・洗濯方法を徹底解説。洗う頻度・乾かし方・寿命を延ばすコツを紹介。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
-  dateModified: "2026-07-12",
+  dateModified: "2026-09-11",
 };
 
 const faqStructuredData = {
@@ -64,9 +64,9 @@ export default function WashingGuidePage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">お手入れガイド</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            インソールの洗い方・
+            インソール(中敷き)の洗い方・
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">お手入れ完全ガイド</span>
+            <span className="text-[#0ea5e9]">洗濯方法ガイド</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             正しい洗い方と日々のケアでインソールの寿命を延ばし、清潔に長く使い続ける方法を
