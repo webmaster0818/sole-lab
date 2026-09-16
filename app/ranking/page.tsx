@@ -29,13 +29,29 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-09-11",
+  dateModified: "2026-09-16",
 };
 
 const faqStructuredData = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
+    {
+      "@type": "Question",
+      name: "ダイエットインソールの口コミは信用できますか？どう読めばいいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "出典と件数を確認するのが基本です。公式EC店舗のレビューは件数が多い一方で購入者に偏り、第三者サイトは辛口になりやすいため、両方を見て中間を取ります。本記事では楽天公式店の集計（参照日つき）と第三者サイトの評価を並べ、個別レビューの転載はしていません。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "悪い口コミが多い商品は避けたほうがいいですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "低評価の理由を見てから判断してください。3商品の低評価は「体重が変わらなかった」「サイズが合わなかった」が中心で、製品不良よりも期待値とサイズ選びのミスマッチに由来します。姿勢サポートを目的にし、サイズ表と靴との相性を先に確認すれば、低評価の多くは避けられます。",
+      },
+    },
     {
       "@type": "Question",
       name: "ダイエットインソールは本当に痩せますか？",
@@ -256,48 +272,53 @@ export default function RankingPage() {
               </a>
             </li>
             <li>
+              <a href="#reviews" className="hover:text-[#0ea5e9] transition-colors">
+                3. 3商品の口コミ・評判を実数で比較
+              </a>
+            </li>
+            <li>
               <a href="#comparison" className="hover:text-[#0ea5e9] transition-colors">
-                3. 3商品を6つの基準で徹底比較
+                4. 3商品を6つの基準で徹底比較
               </a>
             </li>
             <li>
               <a href="#specs" className="hover:text-[#0ea5e9] transition-colors">
-                4. 3製品の公式スペック比較（出典つき）
+                5. 3製品の公式スペック比較（出典つき）
               </a>
             </li>
             <li>
               <a href="#type" className="hover:text-[#0ea5e9] transition-colors">
-                5. タイプ別おすすめはコレ！
+                6. タイプ別おすすめはコレ！
               </a>
             </li>
             <li>
               <a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">
-                6. ダイエットインソールの正しい選び方5つのポイント
+                7. ダイエットインソールの正しい選び方5つのポイント
               </a>
             </li>
             <li>
               <a href="#maximize" className="hover:text-[#0ea5e9] transition-colors">
-                7. 効果を最大化する使い方
+                8. 効果を最大化する使い方
               </a>
             </li>
             <li>
               <a href="#shihan" className="hover:text-[#0ea5e9] transition-colors">
-                8. 痩せるインソールは市販で買える？販売チャネル比較
+                9. 痩せるインソールは市販で買える？販売チャネル比較
               </a>
             </li>
             <li>
               <a href="#ruiji" className="hover:text-[#0ea5e9] transition-colors">
-                9. ランウェイキュアソールの類似品・代わりを探している方へ
+                10. ランウェイキュアソールの類似品・代わりを探している方へ
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
-                10. よくある質問（FAQ）12選
+                11. よくある質問（FAQ）14選
               </a>
             </li>
             <li>
               <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
-                11. まとめ
+                12. まとめ
               </a>
             </li>
           </ol>
@@ -813,6 +834,60 @@ export default function RankingPage() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Section 2b: Reviews by numbers (added 2026-09-16) */}
+      <section id="reviews" className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+          3商品の口コミ・評判を実数で比較
+        </h2>
+        <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
+          当サイトは出典を確認できない口コミを掲載しません（<Link href="/content-policy/" className="text-[#0ea5e9] underline">コンテンツポリシー</Link>）。ここでは、各商品の公式EC店舗（楽天市場）の商品レビュー集計と第三者口コミサイトの評価を、参照日つきでそのまま並べます。個別レビューの転載はせず、件数・評価・低評価の傾向のみを示します。
+        </p>
+        <div className="overflow-x-auto mb-4">
+          <table className="w-full min-w-[720px] text-sm border-collapse bg-white">
+            <thead>
+              <tr className="bg-gray-50 text-left">
+                <th className="p-3 border border-gray-200 font-bold text-gray-700">商品</th>
+                <th className="p-3 border border-gray-200 font-bold text-gray-700">楽天公式店レビュー（参照日）</th>
+                <th className="p-3 border border-gray-200 font-bold text-gray-700">第三者サイト</th>
+                <th className="p-3 border border-gray-200 font-bold text-gray-700">低評価で多い指摘の傾向</th>
+                <th className="p-3 border border-gray-200 font-bold text-gray-700">詳細</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="p-3 border border-gray-200 font-bold text-gray-900">ピットソール</td>
+                <td className="p-3 border border-gray-200">2足SET 総合3.98（444件）／3足+1足 総合4.11（674件）<span className="block text-xs text-gray-500">BACCHUS ONLINE SHOP・2026年7月19日参照</span></td>
+                <td className="p-3 border border-gray-200">ダイエットカフェ 2.7／5</td>
+                <td className="p-3 border border-gray-200 text-gray-700">「体重の変化は感じられなかった」「価格に見合うか微妙」。姿勢・歩行面の評価は高め</td>
+                <td className="p-3 border border-gray-200"><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">悪い口コミの検証</Link></td>
+              </tr>
+              <tr>
+                <td className="p-3 border border-gray-200 font-bold text-gray-900">ランウェイキュアソール</td>
+                <td className="p-3 border border-gray-200">総合3.98（807件・★2以下34件）<span className="block text-xs text-gray-500">キレイplus公式ショップ楽天市場店・2026年7月19日参照</span></td>
+                <td className="p-3 border border-gray-200 text-gray-500">確認できる第三者集計なし</td>
+                <td className="p-3 border border-gray-200 text-gray-700">サイズ展開（M/Lのみ）・外反母趾での違和感。姿勢面の変化を挙げる声が中心</td>
+                <td className="p-3 border border-gray-200"><Link href="/runway-cure-sole/#bad-reviews" className="text-[#0ea5e9] font-bold hover:underline">悪い口コミの検証</Link></td>
+              </tr>
+              <tr>
+                <td className="p-3 border border-gray-200 font-bold text-gray-900">スリムアップインソール</td>
+                <td className="p-3 border border-gray-200">3足+1足セット 総合3.75（4件）<span className="block text-xs text-gray-500">イッティ公式 楽天市場店・2026年7月19日参照</span></td>
+                <td className="p-3 border border-gray-200 text-gray-500">確認できる第三者集計なし</td>
+                <td className="p-3 border border-gray-200 text-gray-700">件数が少なく傾向を断定できる段階ではない</td>
+                <td className="p-3 border border-gray-200"><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">口コミの現状</Link></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="bg-sky-50 border border-sky-200 rounded-xl p-5 text-sm text-gray-700 leading-relaxed">
+          <p className="font-bold text-gray-900 mb-2">口コミを読むときの3つの視点</p>
+          <ul className="space-y-1.5">
+            <li>・<span className="font-bold">出典と件数</span>：公式EC店舗のレビューは件数が多い一方、購入者側に偏ります。第三者サイト（ダイエットカフェ等）は辛口になりやすく、両方を見て中間を取るのが現実的です。</li>
+            <li>・<span className="font-bold">何を評価しているか</span>：3商品とも「体重が落ちた」より「姿勢・歩きやすさ」を評価する声が中心です。体重減少を期待した人の低評価が多いのは共通の構造です。</li>
+            <li>・<span className="font-bold">サイズ・靴との相性</span>：低評価の一定数はサイズ選びと靴との相性に由来します。各商品のサイズ表と<Link href="/articles/breaking-in-insole/" className="text-[#0ea5e9] underline">慣れるまでの期間</Link>を先に確認してください。</li>
+          </ul>
         </div>
       </section>
 
@@ -1519,7 +1594,7 @@ export default function RankingPage() {
 
       <section id="faq" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
-          よくある質問（FAQ）12選
+          よくある質問（FAQ）14選
         </h2>
 
         <div className="space-y-3">
@@ -1571,6 +1646,14 @@ export default function RankingPage() {
             {
               q: "Q12. 類似品と正規品はどう見分ければよいですか？",
               a: "確実なのは各商品の公式サイト・公式ショップから購入することです。フリマアプリや非公式ルートで極端に安く販売されているものは、サイズ展開や素材・サポート設計が正規品と異なる場合があります。購入前に販売元が正規ルートかどうかを確認しましょう。",
+            },
+            {
+              q: "Q13. ダイエットインソールの口コミは信用できますか？どう読めばいいですか？",
+              a: "出典と件数を確認するのが基本です。公式EC店舗のレビューは件数が多い一方で購入者に偏り、第三者サイトは辛口になりやすいため、両方を見て中間を取ります。本記事では楽天公式店の集計（参照日つき）と第三者サイトの評価を並べ、個別レビューの転載はしていません。「体重が落ちた」より「姿勢・歩きやすさ」を評価する声が中心である点は3商品に共通しています。",
+            },
+            {
+              q: "Q14. 悪い口コミが多い商品は避けたほうがいいですか？",
+              a: "低評価の理由を見てから判断してください。3商品の低評価は「体重が変わらなかった」「サイズが合わなかった」が中心で、製品不良よりも期待値とサイズ選びのミスマッチに由来します。姿勢サポートを目的にし、サイズ表と靴との相性を先に確認すれば、低評価の多くは避けられます。",
             },
           ].map((item) => (
             <details

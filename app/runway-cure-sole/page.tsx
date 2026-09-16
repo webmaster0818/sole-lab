@@ -36,13 +36,29 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-07-19",
+  dateModified: "2026-09-16",
 };
 
 const faqStructuredData = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
+    {
+      "@type": "Question",
+      name: "ドン・キホーテで売っていますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "2026年7月18日時点で、ドン・キホーテでのランウェイキュアソールの取り扱いは確認できていません。ドラッグストア・靴店など実店舗での販売も公式サイト（FLOReショップ）は案内しておらず、購入は公式サイトが中心です。ドンキの売場にある姿勢サポート系インソールは別商品です。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "どこで買うのが最安値ですか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "セット割引（2足11,980円・3足17,960円＝1足あたり約5,987円、2026年6月12日参照）は公式サイト（FLOReショップ）限定です。Amazon・楽天の出品は時期により変動し、非正規ルートでは正規品保証を受けられないため、最安値と正規品の両方を確保するなら公式サイトのセット購入が基準になります。",
+      },
+    },
     {
       "@type": "Question",
       name: "ランウェイキュアソールは本当に効果がありますか？",
@@ -247,33 +263,33 @@ export default function RunwayCureSolePage() {
               </a>
             </li>
             <li>
+              <a href="#where-to-buy" className="hover:text-[#8b5cf6] transition-colors">
+                2. どこで売ってる？市販・ドンキ・通販の取扱状況
+              </a>
+            </li>
+            <li>
               <a href="#bad-reviews" className="hover:text-[#8b5cf6] transition-colors">
-                2. 悪い口コミ・気になる点
+                3. 悪い口コミ・気になる点
               </a>
             </li>
             <li>
               <a href="#good-reviews" className="hover:text-[#8b5cf6] transition-colors">
-                3. 良い口コミ・評判
+                4. 良い口コミ・評判
               </a>
             </li>
             <li>
               <a href="#features" className="hover:text-[#8b5cf6] transition-colors">
-                4. 特徴と効果の仕組み（3点アーチ解説）
+                5. 特徴と効果の仕組み（3点アーチ解説）
               </a>
             </li>
             <li>
               <a href="#pros-cons" className="hover:text-[#8b5cf6] transition-colors">
-                5. メリット・デメリット
+                6. メリット・デメリット
               </a>
             </li>
             <li>
               <a href="#pricing" className="hover:text-[#8b5cf6] transition-colors">
-                6. 料金・最安値・販売店情報
-              </a>
-            </li>
-            <li>
-              <a href="#where-to-buy" className="hover:text-[#8b5cf6] transition-colors">
-                7. どこで売ってる？市販・ドンキ・通販の取扱状況
+                7. 料金・最安値・販売店情報
               </a>
             </li>
             <li>
@@ -354,6 +370,100 @@ export default function RunwayCureSolePage() {
           <p>
             総合的に見ると、美姿勢を意識したい女性にとってバランスの良い選択肢といえます。以下、口コミや効果の仕組みを詳しく見ていきましょう。
           </p>
+        </div>
+      </section>
+
+      {/* Section 2: Where to Buy (moved up 2026-09-16: 販売店クエリが最大流入のため) */}
+      <section id="where-to-buy" className="max-w-4xl mx-auto px-4 mb-16">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+          どこで売ってる？市販・ドンキ・通販の取扱状況
+        </h2>
+
+        <p className="text-sm text-gray-600 leading-relaxed mb-6">
+          「ランウェイキュアソールはどこで売ってる？」という疑問にお答えします。
+          結論から言うと、<strong>購入は公式サイト（FLOReショップ）が中心</strong>で、実店舗での取り扱いは確認されていません。
+        </p>
+
+        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-gray-50 border-b border-gray-200">
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">販売チャネル</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">取扱状況</th>
+                <th className="text-left px-4 py-3 font-semibold text-gray-900">備考</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100">
+              <tr className="bg-purple-50">
+                <td className="px-4 py-3 font-medium text-gray-900">公式サイト（FLOReショップ）</td>
+                <td className="px-4 py-3 text-[#8b5cf6] font-bold">◎ 取扱あり</td>
+                <td className="px-4 py-3 text-gray-600">セット割引・正規品保証あり</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">Amazon・楽天</td>
+                <td className="px-4 py-3 text-gray-600">△ 時期により変動</td>
+                <td className="px-4 py-3 text-gray-600">セット割引は公式サイト限定</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">ドン・キホーテ</td>
+                <td className="px-4 py-3 text-gray-600">× 確認されていません</td>
+                <td className="px-4 py-3 text-gray-600">汎用インソールの取扱が中心</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">ドラッグストア・薬局</td>
+                <td className="px-4 py-3 text-gray-600">× 確認されていません</td>
+                <td className="px-4 py-3 text-gray-600">市販品とは販売ルートが異なる</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-medium text-gray-900">靴店・バラエティショップ</td>
+                <td className="px-4 py-3 text-gray-600">× 確認されていません</td>
+                <td className="px-4 py-3 text-gray-600">-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="space-y-3 text-sm text-gray-600 leading-relaxed mb-6">
+          <p>
+            ドン・キホーテやドラッグストアにも各種インソールは並んでいますが、それらは衝撃吸収・消臭などの汎用品が中心で、
+            ランウェイキュアソールのような3点アーチサポート設計の製品とは目的が異なります。
+            店頭で似たパッケージの商品を見かけても、別商品の場合があるためご注意ください。
+          </p>
+          <p>
+            また、非正規ルートで購入した場合は正規品の保証が受けられず、類似品のリスクもあります。
+            確実に正規品を購入したい方は公式サイトの利用がおすすめです。
+          </p>
+        </div>
+
+        <div id="donki" className="bg-purple-50 border border-purple-200 rounded-xl p-5 mb-6">
+          <h3 className="text-base font-bold text-gray-900 mb-3">ドン・キホーテで買える？【2026年7月18日確認】</h3>
+          <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
+            <p>
+              結論: <strong>2026年7月18日時点で、ドン・キホーテでのランウェイキュアソールの取り扱いは確認できていません</strong>。
+              公式サイト（FLOReショップ）も実店舗での販売は案内しておらず、購入は公式サイトが中心です。
+            </p>
+            <p>
+              ドンキのインソール売場には「履くだけ」「姿勢サポート」をうたうダイエット系インソールが複数並んでいるため、
+              店頭で似た商品を見て「ドンキで売ってる？」と検索される方が多いようです。
+              ただしそれらは別商品で、ランウェイキュアソールの3点アーチサポート設計・ソックス型の仕様とは異なります。
+            </p>
+            <p>
+              セット割引が適用されるのは公式サイト限定です。ドンキで買えるインソール全般について知りたい方は
+              「<a href="/articles/donki-insole/" className="text-[#8b5cf6] underline font-medium">ドンキのインソールはダイエットに使える？</a>」で、
+              市販品と専用品の違いを解説しています。
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <Link href="/articles/donki-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <p className="text-sm font-semibold text-gray-900">ドンキのインソールはダイエットに使える？</p>
+            <p className="text-xs text-gray-500 mt-1">ドンキの取扱品と専用品の違いを解説</p>
+          </Link>
+          <Link href="/articles/where-to-buy-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <p className="text-sm font-semibold text-gray-900">ダイエットインソールはどこで売ってる？</p>
+            <p className="text-xs text-gray-500 mt-1">市販・通販の販売チャネルを総まとめ</p>
+          </Link>
         </div>
       </section>
 
@@ -676,100 +786,6 @@ export default function RunwayCureSolePage() {
               </li>
             </ul>
           </div>
-        </div>
-      </section>
-
-      {/* Section 7: Where to Buy */}
-      <section id="where-to-buy" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
-          どこで売ってる？市販・ドンキ・通販の取扱状況
-        </h2>
-
-        <p className="text-sm text-gray-600 leading-relaxed mb-6">
-          「ランウェイキュアソールはどこで売ってる？」という疑問にお答えします。
-          結論から言うと、<strong>購入は公式サイト（FLOReショップ）が中心</strong>で、実店舗での取り扱いは確認されていません。
-        </p>
-
-        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="bg-gray-50 border-b border-gray-200">
-                <th className="text-left px-4 py-3 font-semibold text-gray-900">販売チャネル</th>
-                <th className="text-left px-4 py-3 font-semibold text-gray-900">取扱状況</th>
-                <th className="text-left px-4 py-3 font-semibold text-gray-900">備考</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-gray-100">
-              <tr className="bg-purple-50">
-                <td className="px-4 py-3 font-medium text-gray-900">公式サイト（FLOReショップ）</td>
-                <td className="px-4 py-3 text-[#8b5cf6] font-bold">◎ 取扱あり</td>
-                <td className="px-4 py-3 text-gray-600">セット割引・正規品保証あり</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-gray-900">Amazon・楽天</td>
-                <td className="px-4 py-3 text-gray-600">△ 時期により変動</td>
-                <td className="px-4 py-3 text-gray-600">セット割引は公式サイト限定</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-gray-900">ドン・キホーテ</td>
-                <td className="px-4 py-3 text-gray-600">× 確認されていません</td>
-                <td className="px-4 py-3 text-gray-600">汎用インソールの取扱が中心</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-gray-900">ドラッグストア・薬局</td>
-                <td className="px-4 py-3 text-gray-600">× 確認されていません</td>
-                <td className="px-4 py-3 text-gray-600">市販品とは販売ルートが異なる</td>
-              </tr>
-              <tr>
-                <td className="px-4 py-3 font-medium text-gray-900">靴店・バラエティショップ</td>
-                <td className="px-4 py-3 text-gray-600">× 確認されていません</td>
-                <td className="px-4 py-3 text-gray-600">-</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div className="space-y-3 text-sm text-gray-600 leading-relaxed mb-6">
-          <p>
-            ドン・キホーテやドラッグストアにも各種インソールは並んでいますが、それらは衝撃吸収・消臭などの汎用品が中心で、
-            ランウェイキュアソールのような3点アーチサポート設計の製品とは目的が異なります。
-            店頭で似たパッケージの商品を見かけても、別商品の場合があるためご注意ください。
-          </p>
-          <p>
-            また、非正規ルートで購入した場合は正規品の保証が受けられず、類似品のリスクもあります。
-            確実に正規品を購入したい方は公式サイトの利用がおすすめです。
-          </p>
-        </div>
-
-        <div id="donki" className="bg-purple-50 border border-purple-200 rounded-xl p-5 mb-6">
-          <h3 className="text-base font-bold text-gray-900 mb-3">ドン・キホーテで買える？【2026年7月18日確認】</h3>
-          <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
-            <p>
-              結論: <strong>2026年7月18日時点で、ドン・キホーテでのランウェイキュアソールの取り扱いは確認できていません</strong>。
-              公式サイト（FLOReショップ）も実店舗での販売は案内しておらず、購入は公式サイトが中心です。
-            </p>
-            <p>
-              ドンキのインソール売場には「履くだけ」「姿勢サポート」をうたうダイエット系インソールが複数並んでいるため、
-              店頭で似た商品を見て「ドンキで売ってる？」と検索される方が多いようです。
-              ただしそれらは別商品で、ランウェイキュアソールの3点アーチサポート設計・ソックス型の仕様とは異なります。
-            </p>
-            <p>
-              セット割引が適用されるのは公式サイト限定です。ドンキで買えるインソール全般について知りたい方は
-              「<a href="/articles/donki-insole/" className="text-[#8b5cf6] underline font-medium">ドンキのインソールはダイエットに使える？</a>」で、
-              市販品と専用品の違いを解説しています。
-            </p>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <Link href="/articles/donki-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-            <p className="text-sm font-semibold text-gray-900">ドンキのインソールはダイエットに使える？</p>
-            <p className="text-xs text-gray-500 mt-1">ドンキの取扱品と専用品の違いを解説</p>
-          </Link>
-          <Link href="/articles/where-to-buy-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-            <p className="text-sm font-semibold text-gray-900">ダイエットインソールはどこで売ってる？</p>
-            <p className="text-xs text-gray-500 mt-1">市販・通販の販売チャネルを総まとめ</p>
-          </Link>
         </div>
       </section>
 
