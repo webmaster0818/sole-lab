@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "インソールの寿命と交換時期｜何ヶ月で替えるべき？劣化サインも解説",
   description:
-    "インソールの寿命と交換時期を徹底解説。素材別の耐用期間、劣化のサイン、交換を怠るリスクまで詳しく紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの耐久性も比較。",
+    "インソールの交換目安は約3〜6か月（毎日使用で3〜4か月、週3〜4回で5〜6か月）。素材別の寿命、へたり・におい・すり減りなど劣化サイン5つ、交換を怠るリスクと長持ちさせるコツまで解説。ピットソールなど3商品の耐久性も比較します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/lifespan/",
   },
@@ -31,7 +31,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-09-17",
 };
 
 const faqStructuredData = {

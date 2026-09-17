@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "インソールでダイエットできる仕組みを専門家視点で解説",
+    "インソールで痩せるのは本当？ダイエットインソールの効果と仕組みを正直に検証",
   description:
-    "インソールダイエットの仕組み・原理・メカニズムを科学的根拠とともに解説。なぜ痩せると言われるのか、専門家視点で期待できる効果とその限界を正直に検証。おすすめ商品の比較も。",
+    "結論、インソールだけで痩せるわけではありません。期待できるのは足裏アーチと姿勢・歩行のサポートで、体型の変化には食事管理や運動との併用と継続が前提です。「履くだけで痩せる」と言われる仕組みと限界、3商品のアプローチ比較まで正直に検証します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/diet-mechanism/",
   },
@@ -16,9 +16,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "インソールでダイエットできる仕組みを専門家視点で解説",
+    "インソールで痩せるのは本当？ダイエットインソールの効果と仕組みを正直に検証",
   description:
-    "インソールダイエットの仕組み・原理・メカニズムを科学的根拠とともに解説。なぜ痩せると言われるのか、専門家視点で期待できる効果とその限界を正直に検証。",
+    "結論、インソールだけで痩せるわけではありません。「履くだけで痩せる」と言われる仕組みと限界、期待できる効果を正直に検証します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -26,7 +26,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-14",
-  dateModified: "2026-04-14",
+  dateModified: "2026-09-17",
 };
 
 const faqs = [
@@ -122,10 +122,9 @@ export default function DietMechanismPage() {
             ダイエットコラム
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            インソールでダイエットできる
+            インソールで痩せるのは本当？
             <br />
-            <span className="text-emerald-600">仕組み</span>
-            を専門家視点で解説
+            <span className="text-emerald-600">効果と仕組み</span>を正直に検証
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             「インソールを入れるだけで痩せるって本当？」その疑問に、科学的根拠と専門家の見解をもとに正直にお答えします。期待できる効果とその限界、効果を最大化する方法まで徹底解説。
