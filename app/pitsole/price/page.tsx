@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import OfficialCTA from "../../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -265,6 +266,11 @@ export default function PitsolePricePage() {
             洗い替え用やサイズ違いも揃えられるうえ、単品比で約31%お得。
             家族でシェアしたい方は6足セット（1足あたり4,026円）が最安単価です。
           </p>
+          {/* 購買意図ページの成果導線(9/28追加・既存コード) */}
+          <div className="text-center mt-6">
+            <OfficialCTA product="pitsole" />
+          </div>
+
         </section>
 
         {/* H2: 価格比較表 */}

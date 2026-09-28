@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import OfficialCTA from "../../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -1073,6 +1074,11 @@ export default function PitsoleSizePage() {
             対処法をまとめました。購入先によって対応が異なるため、
             事前に確認しておきましょう。
           </p>
+          {/* サイズ確認後の購買導線(9/28追加・既存コード) */}
+          <div className="text-center mt-6">
+            <OfficialCTA product="pitsole" label="ピットソールのサイズを公式サイトで確認・購入する" />
+          </div>
+
 
           {/* 公式サイト */}
           <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#c9a76c]">

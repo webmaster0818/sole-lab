@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import OfficialCTA from "../../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -260,6 +261,11 @@ export default function SlimUpInsolePricePage() {
             継続使用を見据えるならセット購入が圧倒的にお得です。以下で詳しく比較していきます。
           </p>
         </div>
+          {/* 購買意図ページの成果導線(9/28追加・既存コード) */}
+          <div className="text-center mt-6">
+            <OfficialCTA product="slimup" />
+          </div>
+
       </section>
 
       {/* Section 2: Price Comparison Table */}

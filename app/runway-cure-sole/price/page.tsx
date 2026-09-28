@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import OfficialCTA from "../../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
@@ -252,6 +253,11 @@ export default function RunwayCureSolePricePage() {
               継続使用を前提に考えると、最初からセット購入しておくのが賢い選択です。
             </p>
           </div>
+          {/* 購買意図ページの成果導線(9/28追加・既存コード) */}
+          <div className="text-center mt-6">
+            <OfficialCTA product="runway" />
+          </div>
+
         </section>
 
         {/* Section 2: 販売チャネル別の価格比較 */}
