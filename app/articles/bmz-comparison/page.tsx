@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "BMZのインソールはどんな人向け？【2026年】ピットソールとの関係と使い分けも解説",
   description:
@@ -149,6 +150,7 @@ export default function BmzComparisonPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/bmz-comparison/" />
     </>
   );
 }

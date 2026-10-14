@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/100kin-comparison/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ダイエットインソール vs 100均インソール｜違いと効果を徹底比較｜ソールラボ",
     description:

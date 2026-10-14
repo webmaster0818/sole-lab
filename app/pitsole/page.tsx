@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "ピットソールの口コミ・評判を徹底検証｜悪い口コミと効果の実態【2026年】",
   description:
     "ピットソール(Pitsole)の口コミ・評判を徹底調査。知恵袋などQ&Aサイトで多い「痩せない？怪しい？」という疑問の真相、効果の仕組み、最安値情報、偽物の見分け方まで。楽天公式店3.98（444件）・4.11（674件）、ダイエットカフェ2.7/5の実売データで正直にレビュー。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ピットソールの口コミ・評判を徹底検証｜悪い口コミと効果の実態【2026年】｜ソールラボ",
     description: "ピットソール(Pitsole)の口コミ・評判を徹底調査。悪い口コミ「痩せない」の真相から最安値情報まで。",
     url: "https://sole-laboratory.com/pitsole/",
@@ -973,7 +973,7 @@ export default function PitsolePage() {
               <p className="text-sm font-semibold text-gray-900">ワークマンのインソールとの違い</p>
               <p className="text-xs text-gray-500 mt-1">店頭で買える類似品の実力</p>
             </Link>
-            <Link href="/compare/pitsole-vs-tential/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#0ea5e9] transition-colors">
+            <Link href="/articles/pitsole-vs-tential/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#0ea5e9] transition-colors">
               <p className="text-sm font-semibold text-gray-900">TENTIALインソールとの比較</p>
               <p className="text-xs text-gray-500 mt-1">よく比較される2製品を1対1で検証</p>
             </Link>

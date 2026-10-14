@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pitsole-vs-tential/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ピットソール vs TENTIAL｜機能性インソール2強を徹底比較",
     description:
       "ピットソールとTENTIALインソールを徹底比較。価格・機能・フィット感・口コミ評価などあらゆる角度から分析。",

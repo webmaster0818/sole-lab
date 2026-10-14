@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/compare/runway-vs-slimup/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ランウェイキュアソール vs スリムアップインソール徹底比較！｜ソールラボ",
     description:

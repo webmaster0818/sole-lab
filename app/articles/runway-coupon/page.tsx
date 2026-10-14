@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "ランウェイキュアソールのクーポン・キャンペーン情報【2026年最新】",
   description:
     "ランウェイキュアソールを最安値で購入する方法を徹底解説。2026年最新のクーポン・キャンペーン情報、公式サイトのセット割引、楽天・Amazonのポイント活用法、お得な購入方法を紹介。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ランウェイキュアソールのクーポン・キャンペーン情報【2026年最新】｜ソールラボ",
     description:

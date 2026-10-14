@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "かかとの角質・ガサガサにインソールは関係ある？【2026年】摩擦と荷重から考える",
   description:
@@ -148,6 +149,7 @@ export default function HeelSkinCarePage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/heel-skin-care-insole/" />
     </>
   );
 }

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "ピットソールは痩せない？やめた理由の真相と正しい使い方",
   description:
     "ピットソールは本当に痩せないのか？「やめた理由」の口コミを徹底分析し、効果が出ない原因と正しい使い方を解説。痩せない人の共通点と効果を最大化する方法を紹介。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ピットソールは痩せない？やめた理由の真相と正しい使い方｜ソールラボ",
     description:

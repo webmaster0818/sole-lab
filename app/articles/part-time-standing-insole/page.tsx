@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "立ち仕事のバイト・パートの足の疲れに！インソールの選び方【2026年】",
   description:
@@ -148,6 +149,7 @@ export default function PartTimeStandingPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/part-time-standing-insole/" />
     </>
   );
 }

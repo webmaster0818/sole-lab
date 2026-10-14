@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "100均インソール vs 高機能インソール｜徹底比較テスト",
   description:
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/100kin-vs-pro/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "100均インソール vs 高機能インソール｜徹底比較テスト",
     description:
       "100均インソールと高機能インソールを徹底比較。クッション性・耐久性・ダイエット効果を実際に検証。",
@@ -738,6 +739,7 @@ export default function HyakkinVsProPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/100kin-vs-pro/" />
     </>
   );
 }

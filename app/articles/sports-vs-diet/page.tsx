@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方",
   description: "スポーツインソールとダイエットインソールの違いを徹底比較。設計思想、素材、機能、効果の違いから目的に合った選び方を解説。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/sports-vs-diet/" },
-  openGraph: { title: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方", description: "スポーツインソールとダイエットインソールの違いを徹底比較。目的に合った選び方を解説。", url: "https://sole-laboratory.com/articles/sports-vs-diet/", type: "article" },
+  openGraph: { images: ["/og-default.png"], title: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方", description: "スポーツインソールとダイエットインソールの違いを徹底比較。目的に合った選び方を解説。", url: "https://sole-laboratory.com/articles/sports-vs-diet/", type: "article" },
 };
 
 const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方", description: "スポーツインソールとダイエットインソールの違いを徹底比較。目的に合った選び方を解説。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };

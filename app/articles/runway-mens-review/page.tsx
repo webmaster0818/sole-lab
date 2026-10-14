@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/runway-mens-review/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ランウェイキュアソールは男性でも使える？サイズ対応の真実と代替案",
     description:
       "ランウェイキュアソールの公式サイズはM/L（22.5〜25.0cm）の女性向け展開のみ。25cm超の男性は対応外。足サイズ別の代替案を公式確認情報で解説。",

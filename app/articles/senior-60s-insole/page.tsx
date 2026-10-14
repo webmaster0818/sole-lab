@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "60代からのインソールの選び方【2026年】歩行の安定と健康維持の補助に",
   description:
@@ -148,6 +149,7 @@ export default function Senior60sPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/senior-60s-insole/" />
     </>
   );
 }

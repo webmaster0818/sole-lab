@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/slimup-long-review/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "スリムアップインソール 長期レビュー検証｜3ヶ月使うとどうなる？",
     description:
       "スリムアップインソールの3ヶ月使用で期待できる変化・耐久性を公式情報と実レビューから検証。",

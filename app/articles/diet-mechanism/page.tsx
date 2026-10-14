@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title:
     "インソールで痩せるのは本当？ダイエットインソールの効果と仕組みを正直に検証",
@@ -1034,6 +1035,7 @@ export default function DietMechanismPage() {
           </div>
         </div>
       </section>
+      <ThemeArticles current="/articles/diet-mechanism/" />
     </>
   );
 }

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/runway-cure-sole/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ランウェイキュアソールはどこで売ってる？販売店・ドンキ・最安値と口コミを検証【2026年】｜ソールラボ",
     description:
       "結論、実店舗での取り扱いは確認されていません。公式サイト中心の販売状況と最安値の考え方、口コミ・評判、外反母趾の注意点まで検証。",

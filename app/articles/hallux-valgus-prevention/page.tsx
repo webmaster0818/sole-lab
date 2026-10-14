@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "外反母趾の原因と予防法｜インソール以外の対策も紹介",
   description: "外反母趾の原因と予防法を徹底解説。靴選びのポイント、インソールによるケア、足指トレーニング、日常生活での注意点を紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/hallux-valgus-prevention/" },
-  openGraph: { title: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を徹底解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", url: "https://sole-laboratory.com/articles/hallux-valgus-prevention/", type: "article" },
+  openGraph: { images: ["/og-default.png"], title: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を徹底解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", url: "https://sole-laboratory.com/articles/hallux-valgus-prevention/", type: "article" },
 };
 
 const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を徹底解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ゴルフ用インソールおすすめ5選｜スイング安定の足元改善",
   description:
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/golf-insole/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ゴルフ用インソールおすすめ5選｜スイング安定の足元改善",
     description:
       "ゴルフ用インソールのおすすめ5選を紹介。スイング時の安定性向上・足の疲れ軽減に最適なインソールの選び方を解説。",
@@ -523,6 +524,7 @@ export default function GolfInsolePage() {
           </div>
         </div>
       </section>
+      <ThemeArticles current="/articles/golf-insole/" />
     </>
   );
 }

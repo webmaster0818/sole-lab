@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "ピットソールの効果はいつから？期間別ビフォーアフター検証",
   description:
     "ピットソールの効果はいつから実感できる？1週間・1ヶ月・3ヶ月・半年の期間別変化タイムラインを徹底検証。臨床試験データと口コミから、効果が出るまでの期間と効果を早める方法を解説。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ピットソールの効果はいつから？期間別ビフォーアフター検証｜ソールラボ",
     description:

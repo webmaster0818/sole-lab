@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "足のアーチの役割、崩れる原因、対策を徹底解説。扁平足・ハイアーチの違い、インソールによる矯正効果、セルフチェック方法も紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/foot-arch/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "足のアーチとは？崩れる原因と対策｜インソールで矯正できる？",
     description: "足のアーチの役割、崩れる原因、対策を徹底解説。インソールによる矯正効果も紹介。",
     url: "https://sole-laboratory.com/articles/foot-arch/",

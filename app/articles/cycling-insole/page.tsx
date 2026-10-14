@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ロードバイク・自転車のインソールの選び方【2026年】ペダリング効率アップ",
   description:
@@ -170,6 +171,7 @@ export default function CyclingPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/cycling-insole/" />
     </>
   );
 }

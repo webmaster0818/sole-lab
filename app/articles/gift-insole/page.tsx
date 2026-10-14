@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "インソールのプレゼントにおすすめの商品を紹介。父の日・母の日・敬老の日に贈る健康ギフトとしてのインソールの選び方。ピットソール・ランウェイキュアソール・スリムアップインソールの贈答向け情報も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/gift-insole/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "インソールのプレゼントおすすめ｜父の日・母の日に贈る健康ギフト",
     description: "インソールのプレゼントにおすすめの商品を紹介。父の日・母の日に贈る健康ギフトの選び方。",
     url: "https://sole-laboratory.com/articles/gift-insole/",

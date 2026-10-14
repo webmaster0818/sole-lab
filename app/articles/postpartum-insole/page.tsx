@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/postpartum-insole/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "産後ダイエットにインソールは効果ある？骨盤ケア×歩行で痩せる方法｜ソールラボ",
     description:

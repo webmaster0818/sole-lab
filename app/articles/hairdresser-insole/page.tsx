@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "美容師の足の疲れに！インソールの選び方【2026年】一日立ちっぱなし対策",
   description:
@@ -158,6 +159,7 @@ export default function HairdresserPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/hairdresser-insole/" />
     </>
   );
 }

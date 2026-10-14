@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "子供用インソールのおすすめ5選を紹介。成長期の足のアーチ形成・偏平足対策・運動時の衝撃吸収に最適なインソールの選び方を解説。ピットソール・ランウェイキュアソール・スリムアップインソールの子供への活用法も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/kids-insole/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "子供用インソールおすすめ5選｜成長期の足をサポートする選び方",
     description: "子供用インソールのおすすめ5選を紹介。成長期の足のアーチ形成をサポートする選び方を解説。",
     url: "https://sole-laboratory.com/articles/kids-insole/",

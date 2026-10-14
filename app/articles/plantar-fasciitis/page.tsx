@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド",
   description: "足底筋膜炎とインソールの関係を徹底解説。足底筋膜炎の原因、インソールによる痛み軽減の仕組み、選び方のポイント、セルフケア方法まで紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/plantar-fasciitis/" },
-  openGraph: { title: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド", description: "足底筋膜炎とインソールの関係を徹底解説。痛みを軽減するインソールの選び方ガイド。", url: "https://sole-laboratory.com/articles/plantar-fasciitis/", type: "article" },
+  openGraph: { images: ["/og-default.png"], title: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド", description: "足底筋膜炎とインソールの関係を徹底解説。痛みを軽減するインソールの選び方ガイド。", url: "https://sole-laboratory.com/articles/plantar-fasciitis/", type: "article" },
 };
 
 const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド", description: "足底筋膜炎とインソールの関係を徹底解説。痛みを軽減するインソールの選び方ガイド。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };

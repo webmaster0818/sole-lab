@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ピットソール サイズ別実寸レビュー｜フィット感を徹底検証",
     description:
       "ピットソールのXS〜L 4サイズの実寸を計測し、フィット感を徹底レビュー。サイズ選びのコツを解説。",

@@ -1262,7 +1262,7 @@ export default function InsoleCare() {
               ダイエットインソールランキングを見る
             </Link>
             <Link
-              href="/compare/"
+              href="/ranking/#comparison"
               className="inline-block bg-white hover:bg-[#fdf2f4] text-gray-700 font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base border border-[#f3e0e4] text-center"
             >
               3製品を徹底比較する

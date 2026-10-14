@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "冷え性対策インソール｜足元から温める方法とおすすめ商品",
   description: "冷え性対策としてのインソール活用法を徹底解説。足が冷える原因、インソールによる改善メカニズム、選び方のポイント、日常の冷え性対策まで紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/cold-feet/" },
-  openGraph: { title: "冷え性対策インソール｜足元から温める方法とおすすめ商品", description: "冷え性対策としてのインソール活用法を徹底解説。足が冷える原因と改善方法を紹介。", url: "https://sole-laboratory.com/articles/cold-feet/", type: "article" },
+  openGraph: { images: ["/og-default.png"], title: "冷え性対策インソール｜足元から温める方法とおすすめ商品", description: "冷え性対策としてのインソール活用法を徹底解説。足が冷える原因と改善方法を紹介。", url: "https://sole-laboratory.com/articles/cold-feet/", type: "article" },
 };
 
 const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "冷え性対策インソール｜足元から温める方法とおすすめ商品", description: "冷え性対策としてのインソール活用法を徹底解説。足が冷える原因と改善方法を紹介。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };

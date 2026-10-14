@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/effective-walking/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ダイエットインソールの効果的な歩き方｜消費カロリーを最大化する方法",
     description: "ダイエットインソールの効果を最大化する歩き方を解説。消費カロリーを向上させる方法を紹介。",
     url: "https://sole-laboratory.com/articles/effective-walking/",

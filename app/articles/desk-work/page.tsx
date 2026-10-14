@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "デスクワークの足の疲れにインソールは効果ある？おすすめと対策",
   description:
     "デスクワーク中心の方の足の疲れ・むくみ対策にインソールは効果があるのか？座りっぱなしの影響と、通勤・休憩時のインソール活用法、おすすめ製品を紹介。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "デスクワークの足の疲れにインソールは効果ある？おすすめと対策｜ソールラボ",
     description:

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "バドミントンのインソールの選び方【2026年】反復ジャンプ・フットワークに",
   description:
@@ -170,6 +171,7 @@ export default function BadmintonPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/badminton-insole/" />
     </>
   );
 }

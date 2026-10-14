@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "インソール素材のEVA・TPU・コルク・ジェルを徹底比較。各素材の特徴、メリット・デメリット、用途別の選び方を解説。ピットソール・ランウェイキュアソール・スリムアップインソールの素材設計も紹介。",
   alternates: { canonical: "https://sole-laboratory.com/articles/material-comparison/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "インソールの素材比較｜EVA・TPU・コルク・ジェルの違いと選び方",
     description: "インソール素材のEVA・TPU・コルク・ジェルを徹底比較。各素材の特徴と用途別の選び方を解説。",
     url: "https://sole-laboratory.com/articles/material-comparison/",

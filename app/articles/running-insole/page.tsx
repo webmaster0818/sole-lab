@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/running-insole/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ランニング用インソールおすすめ5選｜走る人向けの選び方ガイド",
     description:
       "ランニング用インソールのおすすめ5選を紹介。走行時の衝撃吸収・膝や足裏の負担軽減に最適なインソールの選び方を解説。",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "スリッポンに合うインソールの選び方【2026年】かかと脱げ・前滑り対策",
   description:
@@ -148,6 +149,7 @@ export default function SlipOnPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/slip-on-insole/" />
     </>
   );
 }

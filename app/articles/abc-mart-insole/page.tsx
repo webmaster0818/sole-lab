@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ABCマートなど靴量販店のインソールはダイエットに使える？【2026年】専用品との違い",
   description:
@@ -148,6 +149,7 @@ export default function AbcMartPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/abc-mart-insole/" />
     </>
   );
 }

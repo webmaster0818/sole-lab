@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/height-up/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "インソールで身長アップ？シークレットインソールの効果と注意点",
     description:
       "シークレットインソールの効果と注意点を徹底解説。身長アップの仕組み、バレないための選び方、姿勢改善との関係まで。",

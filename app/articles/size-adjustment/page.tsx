@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "インソールのサイズ調整方法を解説。自分でカットするコツ・失敗しない手順・カットラインの見方まで。ピットソール・ランウェイキュアソール・スリムアップインソールのカット方法も紹介。",
   alternates: { canonical: "https://sole-laboratory.com/articles/size-adjustment/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "インソールのサイズ調整方法｜自分でカットするコツと失敗しない手順",
     description: "インソールのサイズ調整方法を解説。自分でカットするコツ・失敗しない手順を紹介。",
     url: "https://sole-laboratory.com/articles/size-adjustment/",

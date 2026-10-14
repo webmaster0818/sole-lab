@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "ランウェイキュアソールは痩せない？効果の真相と正しい期待値",
   description:
     "ランウェイキュアソールは本当に痩せないのか？口コミを徹底分析し、効果が出ない原因と正しい期待値を解説。痩せない人の共通点と効果を最大化する使い方を紹介。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ランウェイキュアソールは痩せない？効果の真相と正しい期待値｜ソールラボ",
     description:

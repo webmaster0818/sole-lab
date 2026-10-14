@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "フットサルに向くインソールの選び方【2026年】切り返しと足裏の負担対策",
   description:
@@ -148,6 +149,7 @@ export default function FutsalPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/futsal-insole/" />
     </>
   );
 }

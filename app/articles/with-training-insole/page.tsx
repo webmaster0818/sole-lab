@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "筋トレとインソールの併用は効果ある？【2026年】姿勢を整えて運動の質を高める",
   description:
@@ -148,6 +149,7 @@ export default function WithTrainingPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/with-training-insole/" />
     </>
   );
 }

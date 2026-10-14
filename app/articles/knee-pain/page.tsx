@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/knee-pain/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "インソールと膝痛の関係｜歩行姿勢の改善で膝への負担を軽減",
     description:
       "インソールで膝痛を軽減する方法を徹底解説。歩行姿勢の改善で膝への負担を軽減するメカニズムを紹介。",

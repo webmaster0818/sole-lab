@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "スリムアップインソールは痩せない？口コミから効果を検証",
   description:
     "スリムアップインソールは本当に痩せないのか？口コミを徹底分析し、効果が出ない原因と正しい使い方を解説。痩せた人と痩せなかった人の共通点、他製品との比較も紹介。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "スリムアップインソールは痩せない？口コミから効果を検証｜ソールラボ",
     description:

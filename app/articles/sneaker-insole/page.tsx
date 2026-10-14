@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/sneaker-insole/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "スニーカー用インソールおすすめ5選｜普段使いの快適インソール",
     description:
       "スニーカー用インソールのおすすめ5選を紹介。通勤・通学・普段使いに最適なインソールの選び方を解説。",

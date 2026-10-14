@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "ピットソールのクーポン・キャンペーン情報【2026年最新】",
   description:
     "ピットソールを最安値で購入する方法を徹底解説。2026年最新のクーポン・キャンペーン情報、公式サイトのセット割引、楽天・Amazonのポイント活用法、お得な購入方法ランキングを紹介。偽物の見分け方も。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ピットソールのクーポン・キャンペーン情報【2026年最新】｜ソールラボ",
     description:

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ソルボのインソールはどんな人向け？【2026年】ダイエット目的との使い分けを解説",
   description:
@@ -149,6 +150,7 @@ export default function SorboComparisonPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/sorbo-comparison/" />
     </>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "食事管理とインソールの併用｜【2026年】痩せる主役は食事、足元は活動を支える脇役",
   description:
@@ -148,6 +149,7 @@ export default function WithDietControlPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/with-diet-control-insole/" />
     </>
   );
 }

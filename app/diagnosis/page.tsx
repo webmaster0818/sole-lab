@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "6つの質問に答えるだけで、人気のダイエットインソール3製品（ピットソール・ランウェイキュアソール・スリムアップインソール）からあなたに合う1足を無料診断。重視ポイント・予算・使う靴から相性の良いインソールが分かります。",
   alternates: { canonical: "https://sole-laboratory.com/diagnosis/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ダイエットインソール診断｜あなたに合う1足を無料診断",
     description:
       "6つの質問で、3製品からあなたに合うダイエットインソールを無料診断。",

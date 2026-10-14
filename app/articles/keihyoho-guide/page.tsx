@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "「履くだけで痩せる」はなぜNG？ダイエット・健康インソールを紹介する際に避けるべき表現と、景品表示法・薬機法に配慮した言い換えを7つの対訳で公開。当編集部が実際に運用しているレビュー基準です。メディア運営者・アフィリエイターの方の引用を歓迎します。",
   alternates: { canonical: "https://sole-laboratory.com/articles/keihyoho-guide/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "ダイエットインソールの広告表現NG⇔OK対訳ガイド【景表法・薬機法配慮】",
     description:
       "避けるべき表現と配慮した言い換えの7対訳を公開。当編集部が実際に運用しているレビュー基準です。",

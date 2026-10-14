@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "介護士の足腰の負担に！インソールの選び方【2026年】中腰・移乗対策",
   description:
@@ -148,6 +149,7 @@ export default function CareWorkerPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/care-worker-insole/" />
     </>
   );
 }

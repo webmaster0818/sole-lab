@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/hiking-insole/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "登山用インソールおすすめ5選｜トレッキングの疲労軽減",
     description: "登山用インソールのおすすめ5選を紹介。トレッキングや山歩きでの足の疲れ・膝の負担を軽減するインソールの選び方を解説。",
     url: "https://sole-laboratory.com/articles/hiking-insole/",

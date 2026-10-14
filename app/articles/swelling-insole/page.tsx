@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/swelling-insole/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "足のむくみ改善にインソールが効果的な理由｜おすすめと対策｜ソールラボ",
     description:

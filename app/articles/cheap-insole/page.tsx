@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "ダイエットインソールの安いおすすめ比較｜コスパ重視で選ぶ",
   description:
     "ダイエットインソールを安く買いたい方向けに、コスパ最強の製品を徹底比較。セット割引・1足あたりの価格比較、安いインソールのメリット・デメリット、100均インソールとの違いを解説。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ダイエットインソールの安いおすすめ比較｜コスパ重視で選ぶ｜ソールラボ",
     description:

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/insole-expectations/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "インソールダイエットは効果ない？正しい期待値と成功の条件｜ソールラボ",
     description:

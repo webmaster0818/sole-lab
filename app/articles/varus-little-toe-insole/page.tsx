@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "内反小趾に向くインソールの選び方【2026年】小指側の付け根の痛み対策",
   description:
@@ -148,6 +149,7 @@ export default function VarusLittleToePage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/varus-little-toe-insole/" />
     </>
   );
 }

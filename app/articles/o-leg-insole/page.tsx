@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/o-leg-insole/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "O脚改善にインソールは効果ある？おすすめと選び方ガイド｜ソールラボ",
     description:
@@ -736,7 +736,7 @@ export default function OLegInsolePage() {
           </div>
         </div>
         <p className="text-xs text-gray-500">
-          関連: <a href="/articles/correct-usage/" className="text-[#0ea5e9] underline">インソールの正しい使い方・慣らし方</a> / <a href="/articles/size-adjustment-insole/" className="text-[#0ea5e9] underline">サイズが合わないときの調整方法</a>
+          関連: <a href="/articles/correct-usage-insole/" className="text-[#0ea5e9] underline">インソールの正しい使い方・慣らし方</a> / <a href="/articles/size-adjustment/" className="text-[#0ea5e9] underline">サイズが合わないときの調整方法</a>
         </p>
       </section>
 

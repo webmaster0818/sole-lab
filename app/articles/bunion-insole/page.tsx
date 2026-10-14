@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/bunion-insole/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "外反母趾にインソールは効果ある？痛みを軽減するおすすめと注意点｜ソールラボ",
     description:

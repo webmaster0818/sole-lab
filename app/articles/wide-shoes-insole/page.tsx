@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "幅広・3Eの靴のインソールの選び方【2026年】開張足・甲高幅広対応",
   description:
@@ -177,6 +178,7 @@ export default function WideShoesPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/wide-shoes-insole/" />
     </>
   );
 }

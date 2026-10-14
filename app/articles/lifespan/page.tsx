@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/lifespan/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "インソールの寿命と交換時期｜何ヶ月で替えるべき？劣化サインも解説",
     description:
       "インソールの寿命と交換時期を徹底解説。素材別の耐用期間、劣化のサイン、交換を怠るリスクまで詳しく紹介。",

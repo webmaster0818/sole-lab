@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ドラッグストア・薬局のインソールはダイエットに使える？【2026年】",
   description:
@@ -150,6 +151,7 @@ export default function DrugstorePage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/drugstore-insole/" />
     </>
   );
 }

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "ランウェイキュアソールのサイズ選び｜M・Lどっち？対応表つき解説",
   description:
     "ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開・女性向けのソックス型。M/Lの選び方、境目サイズの考え方、対応外サイズの方向けの代替製品対応表、よくある質問まで公式情報ベースで解説します。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ランウェイキュアソールのサイズ選び｜M・Lどっち？対応表つき解説｜ソールラボ",
     description:

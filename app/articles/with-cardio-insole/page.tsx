@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "有酸素運動とインソールの併用｜【2026年】ウォーキングやジョグの足の負担を軽く",
   description:
@@ -148,6 +149,7 @@ export default function WithCardioPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/with-cardio-insole/" />
     </>
   );
 }

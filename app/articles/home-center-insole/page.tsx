@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ホームセンターのインソールはダイエットに使える？【2026年】作業用との違い",
   description:
@@ -148,6 +149,7 @@ export default function HomeCenterPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/home-center-insole/" />
     </>
   );
 }

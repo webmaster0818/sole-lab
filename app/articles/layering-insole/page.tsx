@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "インソールの重ね使いはアリ？【2026年】2枚重ねのリスクと正しい代替案",
   description:
@@ -148,6 +149,7 @@ export default function LayeringPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/layering-insole/" />
     </>
   );
 }

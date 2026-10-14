@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "家事・買い物の足の疲れに！インソールの選び方【2026年】毎日使いのコツ",
   description:
@@ -148,6 +149,7 @@ export default function HousewifeDailyPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/housewife-daily-insole/" />
     </>
   );
 }

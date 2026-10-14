@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title:
     "ダイエットインソール男性向けおすすめ3選｜メンズの選び方ガイド",
   description:
     "男性向けダイエットインソールのおすすめ3選を紹介。メンズのサイズ対応状況、男性の体型・歩行に合った選び方、ビジネスシューズとの相性まで徹底解説。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ダイエットインソール男性向けおすすめ3選｜メンズの選び方ガイド｜ソールラボ",
     description:
@@ -610,6 +611,7 @@ export default function MensDietInsolePage() {
           </div>
         </div>
       </section>
+      <ThemeArticles current="/articles/mens-diet-insole/" />
     </>
   );
 }

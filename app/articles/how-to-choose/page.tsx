@@ -716,7 +716,7 @@ export default function HowToChoosePage() {
               ダイエットインソールランキングを見る
             </Link>
             <Link
-              href="/compare/"
+              href="/ranking/#comparison"
               className="inline-block bg-white hover:bg-gray-100 text-gray-700 font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base border border-gray-300 text-center"
             >
               3製品を徹底比較する

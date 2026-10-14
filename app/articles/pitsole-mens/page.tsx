@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "ピットソールは男性にも効果ある？メンズ向け完全ガイド",
   description:
     "ピットソールは男性でも使える？メンズ向けのサイズ選び・ビジネスシューズへの装着方法・男性の口コミ・効果実感までの期間を徹底解説。立ち仕事・営業職・通勤で使いたい男性必見のガイド。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ピットソールは男性にも効果ある？メンズ向け完全ガイド｜ソールラボ",
     description:

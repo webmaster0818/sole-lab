@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "インソールでヒップアップは可能？【2026年】姿勢・歩き方から見た見た目の変化",
   description:
@@ -148,6 +149,7 @@ export default function HipUpPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/hip-up-insole/" />
     </>
   );
 }

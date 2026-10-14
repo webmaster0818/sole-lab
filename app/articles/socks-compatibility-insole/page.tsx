@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "インソールと靴下の相性ガイド【2026年】5本指ソックス・厚手・ストッキング別",
   description:
@@ -148,6 +149,7 @@ export default function SocksCompatPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/socks-compatibility-insole/" />
     </>
   );
 }

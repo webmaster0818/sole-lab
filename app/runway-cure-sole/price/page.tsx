@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/runway-cure-sole/price/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ランウェイキュアソールの最安値・販売店情報【2026年】｜ソールラボ",
     description:

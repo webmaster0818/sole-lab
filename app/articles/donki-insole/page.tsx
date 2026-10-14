@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "ドンキのインソールはダイエットに使える？【2026年】取り扱いと選び方",
   description:
@@ -154,6 +155,7 @@ export default function DonkiPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/donki-insole/" />
     </>
   );
 }

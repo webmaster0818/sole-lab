@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "スリムアップインソールのサイズ選び・痩せる使い方ガイド",
   description:
     "スリムアップインソールのサイズ展開・サイズ選びのコツ・効果的な使い方を徹底解説。正しい歩き方と使用時間の目安、ピットソール・ランウェイキュアソールとの違いも比較。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "スリムアップインソールのサイズ選び・痩せる使い方ガイド｜ソールラボ",
     description:

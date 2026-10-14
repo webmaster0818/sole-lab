@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "インソールで足首すっきり？【2026年】むくみケアと歩き方から見た見た目のサポート",
   description:
@@ -148,6 +149,7 @@ export default function AnkleSlimPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/ankle-slim-insole/" />
     </>
   );
 }

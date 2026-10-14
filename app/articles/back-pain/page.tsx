@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/back-pain/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "インソールと腰痛の関係｜足元から腰痛を改善する方法",
     description:
       "インソールで腰痛を改善する方法を徹底解説。足元の歪みが腰痛を引き起こすメカニズムと改善効果を紹介。",

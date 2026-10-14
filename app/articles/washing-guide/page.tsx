@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "インソール(中敷き)の正しい洗い方・洗濯方法を徹底解説。洗う頻度の目安、洗濯機NGの理由、素材別の洗浄方法・乾かし方まで。ピットソール・ランウェイキュアソール・スリムアップインソールのお手入れも紹介。",
   alternates: { canonical: "https://sole-laboratory.com/articles/washing-guide/" },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "インソール(中敷き)の洗い方・洗濯方法ガイド｜洗う頻度・乾かし方・寿命を延ばすコツ",
     description: "インソール(中敷き)の正しい洗い方・洗濯方法を徹底解説。洗う頻度・乾かし方・寿命を延ばすコツを紹介。",
     url: "https://sole-laboratory.com/articles/washing-guide/",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "インソールをやめたらどうなる？【2026年】依存の不安と正しいやめ方を解説",
   description:
@@ -148,6 +149,7 @@ export default function StopUsingPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/stop-using-insole/" />
     </>
   );
 }

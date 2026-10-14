@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "配達員・ドライバーの足の疲れに！インソールの選び方【2026年】乗降と階段対策",
   description:
@@ -148,6 +149,7 @@ export default function DeliveryDriverPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/delivery-driver-insole/" />
     </>
   );
 }

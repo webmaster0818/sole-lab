@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pumps-insole/",
   },
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title: "パンプス用インソールおすすめ5選｜ヒール靴の疲れ対策",
     description:
       "パンプス用インソールのおすすめ5選を紹介。ヒール靴での足の疲れ・前滑り・つま先の痛みを解消するインソールの選び方を解説。",

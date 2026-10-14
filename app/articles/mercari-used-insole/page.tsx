@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "フリマ・中古のインソールは大丈夫？【2026年】衛生面・保証・偽造品リスクの注意点",
   description:
@@ -148,6 +149,7 @@ export default function MercariUsedPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/mercari-used-insole/" />
     </>
   );
 }

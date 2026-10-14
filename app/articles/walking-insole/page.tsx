@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "ウォーキング用インソールおすすめ3選｜歩きやすさと痩せ効果",
   description:
     "ウォーキング用ダイエットインソールのおすすめ3選を紹介。歩きやすさと痩せ効果を両立するインソールの選び方、正しい歩き方、効果を最大化する使い方を徹底解説。",
-  openGraph: {
+  openGraph: { images: ["/og-default.png"],
     title:
       "ウォーキング用インソールおすすめ3選｜歩きやすさと痩せ効果｜ソールラボ",
     description:

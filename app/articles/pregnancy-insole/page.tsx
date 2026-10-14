@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
+import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "妊娠中にインソールは使える？【2026年】使用前に知っておきたい注意点",
   description:
@@ -148,6 +149,7 @@ export default function PregnancyPage() {
           </div>
         </section>
       </article>
+      <ThemeArticles current="/articles/pregnancy-insole/" />
     </>
   );
 }
