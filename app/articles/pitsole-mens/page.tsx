@@ -372,13 +372,13 @@ export default function PitsoleMensPage() {
           <div className="space-y-4">
             <div className="card">
               <h3 className="text-sm font-bold text-gray-900 mb-2">
-                確認できるレビューデータ（2026年7月19日参照）
+                確認できるレビューデータ（2026年10月14日参照）
               </h3>
               <ul className="space-y-2 text-sm text-gray-600 leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-blue-600 mt-0.5 shrink-0">&#10003;</span>
                   <span>
-                    楽天公式店（BACCHUS ONLINE SHOP）の商品レビューは、2足SETが総合3.98（444件）、3足+1足セットが総合4.11（674件）。男女は区別されていませんが、姿勢面の変化や立ち仕事での使用感に触れる声が見られます。
+                    楽天公式店（BACCHUS ONLINE SHOP）の商品レビューは、2足SETが総合3.98（451件）、3足+1足セットが総合4.11（679件）。男女は区別されていませんが、姿勢面の変化や立ち仕事での使用感に触れる声が見られます。
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -395,7 +395,7 @@ export default function PitsoleMensPage() {
                 </li>
               </ul>
               <p className="text-xs text-gray-500 mt-3">
-                出典: <a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天市場）商品レビュー</a>／<a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ「ピットソール（Pitsole）の効果と52件の口コミ」</a>（いずれも2026年7月19日参照）
+                出典: <a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天市場）商品レビュー</a>／<a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ「ピットソール（Pitsole）の効果と52件の口コミ」</a>（いずれも2026年10月14日参照）
               </p>
             </div>
 

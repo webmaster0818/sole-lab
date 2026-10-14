@@ -479,7 +479,7 @@ export default function RunwayVsSlimupPage() {
           <div className="bg-white border border-purple-200 rounded-xl p-5">
             <p className="text-sm font-bold text-[#8b5cf6] mb-4">ランウェイキュアソールの口コミ傾向</p>
             <p className="text-xs text-gray-500 mb-3">
-              楽天公式店（キレイplus公式ショップ楽天市場店）の商品レビュー: 総合3.98 / 5.0（807件・2026年7月19日参照）
+              楽天公式店（FLORe公式ショップ 楽天市場店）の商品レビュー: 総合3.98 / 5.0（865件・2026年10月14日参照）
             </p>
             <div className="space-y-3">
               <div>
@@ -510,14 +510,14 @@ export default function RunwayVsSlimupPage() {
               </div>
             </div>
             <p className="text-xs text-gray-500 mt-3">
-              出典: <a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">キレイplus公式ショップ楽天市場店 商品レビュー</a>
+              出典: <a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">FLORe公式ショップ 楽天市場店 商品レビュー</a>
             </p>
           </div>
 
           <div className="bg-white border border-emerald-200 rounded-xl p-5">
             <p className="text-sm font-bold text-emerald-600 mb-4">スリムアップインソールの口コミ傾向</p>
             <p className="text-xs text-gray-500 mb-3">
-              楽天公式店（イッティ公式 楽天市場店）の3足+1足セットの商品レビュー: 総合3.75 / 5.0（4件・2026年7月19日参照）
+              楽天公式店（イッティ公式 楽天市場店）の単品の商品レビュー: 総合3.6 / 5.0（5件・2026年10月14日参照）
             </p>
             <div className="space-y-3">
               <div>
@@ -535,7 +535,7 @@ export default function RunwayVsSlimupPage() {
               </div>
             </div>
             <p className="text-xs text-gray-500 mt-3">
-              出典: <a href="https://review.rakuten.co.jp/item/1/304721_10001280/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 商品レビュー</a>
+              出典: <a href="https://review.rakuten.co.jp/item/1/304721_10001278/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 商品レビュー</a>
             </p>
           </div>
         </div>
@@ -544,7 +544,7 @@ export default function RunwayVsSlimupPage() {
           <p className="text-sm font-bold text-gray-900 mb-2">口コミ比較まとめ</p>
           <div className="space-y-2 text-sm text-gray-600 leading-relaxed">
             <p>
-              口コミの蓄積量ではランウェイキュアソール（楽天公式店807件）が大きく上回り、姿勢面の変化を挙げる声と、フィット感・サイズに関する指摘の両方が確認できます。
+              口コミの蓄積量ではランウェイキュアソール（楽天公式店865件）が大きく上回り、姿勢面の変化を挙げる声と、フィット感・サイズに関する指摘の両方が確認できます。
             </p>
             <p>
               スリムアップインソールは第三者レビューがまだ少ないため、整体師監修・抗菌防臭・サイズ（S/M）といった公式に確認できる事実を判断材料にするのが現実的です。

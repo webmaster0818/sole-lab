@@ -7,14 +7,14 @@ import VerificationNote from "../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
-    "ランウェイキュアソールはどこで売ってる？販売店・ドンキ・最安値と口コミを検証【2026年】",
+    "ランウェイキュアソールの口コミ・評判を検証｜どこで売ってる？ドンキ・販売店・最安値【2026年10月】",
   description:
-    "結論、ドン・キホーテや薬局など実店舗での取り扱いは確認されていません。購入は公式サイト（FLOReショップ）が中心で、セット割引は公式限定。販売店の調査結果、最安値の考え方、口コミ・評判、外反母趾の注意点まで検証して解説します。",
+    "ランウェイキュアソールの口コミ・評判を楽天公式店の実レビュー（総合3.98・865件）で検証。結論、ドン・キホーテや薬局など実店舗での取り扱いは確認されていません。購入は公式サイト中心でセット割引は公式限定。悪い口コミの傾向・最安値・外反母趾の注意点まで解説。",
   alternates: {
     canonical: "https://sole-laboratory.com/runway-cure-sole/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "ランウェイキュアソールはどこで売ってる？販売店・ドンキ・最安値と口コミを検証【2026年】｜ソールラボ",
+    title: "ランウェイキュアソールの口コミ・評判を検証｜どこで売ってる？ドンキ・販売店・最安値【2026年10月】｜ソールラボ",
     description:
       "結論、実店舗での取り扱いは確認されていません。公式サイト中心の販売状況と最安値の考え方、口コミ・評判、外反母趾の注意点まで検証。",
     url: "https://sole-laboratory.com/runway-cure-sole/",
@@ -36,7 +36,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-09-16",
+  dateModified: "2026-10-14",
 };
 
 const faqStructuredData = {
@@ -144,12 +144,12 @@ const faqStructuredData = {
 
 // 口コミは出典を確認できたもののみ「傾向」として掲載しています（個別レビューの転載はしません）。
 const REVIEW_SOURCE = {
-  name: "キレイplus公式ショップ楽天市場店（ランウェイキュアソール商品レビュー）",
+  name: "FLORe公式ショップ 楽天市場店（ランウェイキュアソール商品レビュー）",
   url: "https://review.rakuten.co.jp/item/1/405162_10000129/1.1/",
-  refDate: "2026年7月19日参照",
+  refDate: "2026年10月14日参照",
   rating: "3.98",
-  count: 807,
-  breakdown: "★5：217件／★4：405件／★3：151件／★2：19件／★1：15件",
+  count: 865,
+  breakdown: "★5：233件／★4：435件／★3：160件／★2：19件／★1：18件",
 };
 
 function StarRating({ rating }: { rating: number }) {
@@ -241,7 +241,7 @@ export default function RunwayCureSolePage() {
         <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p className="mb-2"><strong>どこで売ってる？：</strong>購入は公式サイト（FLOReショップ）が中心で、ドン・キホーテ・薬局・靴店など実店舗での取り扱いは確認されていません。Amazon・楽天の出品は時期により変動し、セット割引・最安値は公式サイト限定です（<a href="#where-to-buy" className="text-[#0ea5e9] underline">販売店の詳細はこちら</a>）。</p>
-          <p>ランウェイキュアソールは3点アーチサポートで美姿勢を促すインソールです。即効的なダイエット効果は期待できませんが、楽天公式店の実レビュー（総合3.98・807件、2026年7月19日参照）では姿勢面の変化を挙げる声が見られます。</p>
+          <p>ランウェイキュアソールは3点アーチサポートで美姿勢を促すインソールです。即効的なダイエット効果は期待できませんが、楽天公式店の実レビュー（総合3.98・865件、2026年10月14日参照）では姿勢面の変化を挙げる声が見られます。</p>
         </div>
         <div className="text-center my-8">
           <OfficialCTA product="runway" />
@@ -364,7 +364,7 @@ export default function RunwayCureSolePage() {
             足裏の3つのアーチ（内側縦アーチ・外側縦アーチ・横アーチ）を同時にサポートする独自設計が特徴で、履くだけで自然と正しい姿勢へ導いてくれます。
           </p>
           <p>
-            楽天公式店の商品レビューは総合3.98（807件・2026年7月19日参照）で、姿勢面の変化を挙げる声が見られます。
+            楽天公式店の商品レビューは総合3.98（865件・2026年10月14日参照）で、姿勢面の変化を挙げる声が見られます。
             一方で、サイズ展開がM・Lの2サイズのみ（女性向け）という点や、外反母趾の方には注意が必要な点もあります。
           </p>
           <p>
@@ -475,14 +475,14 @@ export default function RunwayCureSolePage() {
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
             当サイトは出典を確認できない口コミを掲載しない方針です（<Link href="/content-policy/" className="text-[#8b5cf6] underline">コンテンツポリシー</Link>）。
-            ここでは、公式EC店舗（キレイplus公式ショップ楽天市場店）に投稿された実レビューのうち、低評価レビューで確認できた指摘の傾向を、個別レビューを転載しない形で整理します。
+            ここでは、公式EC店舗（FLORe公式ショップ 楽天市場店）に投稿された実レビューのうち、低評価レビューで確認できた指摘の傾向を、個別レビューを転載しない形で整理します。
           </p>
           <div className="bg-white border border-gray-200 rounded-lg p-4 md:p-5 mb-4">
             <p className="text-sm font-bold text-gray-900 mb-2">
               楽天公式店レビューで確認できた低評価の傾向
             </p>
             <p className="text-xs text-gray-500 mb-3">
-              全{REVIEW_SOURCE.count}件中、★2以下の低評価は34件（{REVIEW_SOURCE.refDate}時点）。低評価・中評価レビューでは主に次の点が指摘されています。
+              全{REVIEW_SOURCE.count}件中、★2以下の低評価は37件（{REVIEW_SOURCE.refDate}時点）。低評価・中評価レビューでは主に次の点が指摘されています（指摘内容の整理は2026年7月19日時点の閲覧に基づきます）。
             </p>
             <ul className="space-y-1.5 text-sm text-gray-600">
               <li className="flex items-start gap-2">
@@ -533,7 +533,7 @@ export default function RunwayCureSolePage() {
           良い口コミ・評判
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
-          次に、実際に確認できるレビューデータを見ていきましょう。公式EC店舗（キレイplus公式ショップ楽天市場店）の商品レビューが最も件数が多く、傾向の参考になります。
+          次に、実際に確認できるレビューデータを見ていきましょう。公式EC店舗（FLORe公式ショップ 楽天市場店）の商品レビューが最も件数が多く、傾向の参考になります。
         </p>
         <div className="bg-white border border-purple-200 rounded-lg p-4 md:p-5 mb-4">
           <p className="text-sm font-bold text-gray-900 mb-2">
@@ -846,7 +846,7 @@ export default function RunwayCureSolePage() {
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-4">
           <table className="w-full text-sm">
             <tbody className="divide-y divide-gray-100 text-gray-600">
-              <tr><td className="px-4 py-3 font-medium text-gray-900 w-40">販売元</td><td className="px-4 py-3">株式会社FLORe（FLOReショップ／キレイplus公式ショップ楽天市場店）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900 w-40">販売元</td><td className="px-4 py-3">株式会社FLORe（FLOReショップ／FLORe公式ショップ 楽天市場店）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">タイプ</td><td className="px-4 py-3">ソックス型（足に直接装着するタイプ。靴の中敷きとして挿入する形状ではありません）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td><td className="px-4 py-3">M（22.5〜23.5cm）/ L（24.0〜25.0cm）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">素材</td><td className="px-4 py-3">公式表記なし</td></tr>
@@ -1036,7 +1036,7 @@ export default function RunwayCureSolePage() {
           <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
             <p>
               ランウェイキュアソールは、足裏3点アーチサポートにより美姿勢をサポートするインソールです。
-              楽天公式店の実レビュー（総合3.98・807件、2026年7月19日参照）では、
+              楽天公式店の実レビュー（総合3.98・865件、2026年10月14日参照）では、
               「背筋が伸びる感じがする」といった姿勢面の変化を挙げる声が見られます。
             </p>
             <p>

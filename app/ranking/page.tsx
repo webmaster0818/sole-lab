@@ -598,7 +598,7 @@ export default function RankingPage() {
                   口コミの傾向
                 </p>
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  ダイエットカフェでの口コミ平均は2.7点。「姿勢が良くなった」「歩きやすくなった」というポジティブな声がある一方、
+                  ダイエットカフェでの口コミ平均は2.6点。「姿勢が良くなった」「歩きやすくなった」というポジティブな声がある一方、
                   「体重の変化は感じられなかった」「価格に見合うか微妙」といった厳しい意見も。
                   短期間での体重減少よりも、姿勢改善や歩行の快適さを重視する方に向いています。
                 </p>
@@ -859,21 +859,21 @@ export default function RankingPage() {
             <tbody>
               <tr>
                 <td className="p-3 border border-gray-200 font-bold text-gray-900">ピットソール</td>
-                <td className="p-3 border border-gray-200">2足SET 総合3.98（444件）／3足+1足 総合4.11（674件）<span className="block text-xs text-gray-500">BACCHUS ONLINE SHOP・2026年7月19日参照</span></td>
+                <td className="p-3 border border-gray-200">2足SET 総合3.98（451件）／3足+1足 総合4.11（679件）<span className="block text-xs text-gray-500">BACCHUS ONLINE SHOP・2026年10月14日参照</span></td>
                 <td className="p-3 border border-gray-200">ダイエットカフェ 2.7／5</td>
                 <td className="p-3 border border-gray-200 text-gray-700">「体重の変化は感じられなかった」「価格に見合うか微妙」。姿勢・歩行面の評価は高め</td>
                 <td className="p-3 border border-gray-200"><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">悪い口コミの検証</Link></td>
               </tr>
               <tr>
                 <td className="p-3 border border-gray-200 font-bold text-gray-900">ランウェイキュアソール</td>
-                <td className="p-3 border border-gray-200">総合3.98（807件・★2以下34件）<span className="block text-xs text-gray-500">キレイplus公式ショップ楽天市場店・2026年7月19日参照</span></td>
+                <td className="p-3 border border-gray-200">総合3.98（865件・★2以下37件）<span className="block text-xs text-gray-500">FLORe公式ショップ 楽天市場店・2026年10月14日参照</span></td>
                 <td className="p-3 border border-gray-200 text-gray-500">確認できる第三者集計なし</td>
                 <td className="p-3 border border-gray-200 text-gray-700">サイズ展開（M/Lのみ）・外反母趾での違和感。姿勢面の変化を挙げる声が中心</td>
                 <td className="p-3 border border-gray-200"><Link href="/runway-cure-sole/#bad-reviews" className="text-[#0ea5e9] font-bold hover:underline">悪い口コミの検証</Link></td>
               </tr>
               <tr>
                 <td className="p-3 border border-gray-200 font-bold text-gray-900">スリムアップインソール</td>
-                <td className="p-3 border border-gray-200">3足+1足セット 総合3.75（4件）<span className="block text-xs text-gray-500">イッティ公式 楽天市場店・2026年7月19日参照</span></td>
+                <td className="p-3 border border-gray-200">単品 総合3.6（5件）<span className="block text-xs text-gray-500">イッティ公式 楽天市場店・2026年10月14日参照</span></td>
                 <td className="p-3 border border-gray-200 text-gray-500">確認できる第三者集計なし</td>
                 <td className="p-3 border border-gray-200 text-gray-700">件数が少なく傾向を断定できる段階ではない</td>
                 <td className="p-3 border border-gray-200"><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">口コミの現状</Link></td>
@@ -1078,21 +1078,21 @@ export default function RankingPage() {
                 ピットソールの口コミ傾向
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                ダイエットカフェでの平均評価は2.7点（52件）。口コミ数が多いため傾向をつかみやすいデータです。
+                ダイエットカフェでの平均評価は2.6点（52件）。口コミ数が多いため傾向をつかみやすいデータです。
                 「姿勢が良くなった」「歩きやすくなった」という声がある一方、
                 「ダイエット効果は実感できなかった」という厳しい評価も一定数あります。
                 体重減少よりも姿勢・歩行の変化を実感している方が多い傾向です。
-                なお楽天公式店（BACCHUS ONLINE SHOP）の商品レビューは総合3.98〜4.11と比較的高評価です（2026年7月19日参照）。
+                なお楽天公式店（BACCHUS ONLINE SHOP）の商品レビューは総合3.98〜4.11と比較的高評価です（2026年10月14日参照）。
               </p>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed mb-3">
-              ランウェイキュアソールは楽天公式店の商品レビューが総合3.98（807件・2026年7月19日参照）で、姿勢面の変化を挙げる声が見られます。
-              スリムアップインソールは第三者レビューがまだ少なく（楽天イッティ公式店の該当セットで4件・総合3.75）、傾向を断定できる段階ではありません。
+              ランウェイキュアソールは楽天公式店の商品レビューが総合3.98（865件・2026年10月14日参照）で、姿勢面の変化を挙げる声が見られます。
+              スリムアップインソールは第三者レビューがまだ少なく（楽天イッティ公式店の単品で5件・総合3.6）、傾向を断定できる段階ではありません。
               いずれの商品も「履くだけで痩せた」という口コミは少数派です。
               インソールはあくまで日常の歩行を改善するサポートツールとして、現実的な期待値を持って使用することが大切です。
             </p>
             <p className="text-xs text-gray-500 leading-relaxed">
-              出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ（ピットソール）</a>／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天）商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">キレイplus公式ショップ楽天市場店 商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/304721_10001280/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 商品レビュー</a>（いずれも2026年7月19日参照）
+              出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ（ピットソール）</a>／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天）商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">FLORe公式ショップ 楽天市場店 商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/304721_10001278/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 商品レビュー</a>（いずれも2026年10月14日参照）
             </p>
           </div>
 
@@ -1255,7 +1255,7 @@ export default function RankingPage() {
           </table>
         </div>
         <p className="text-xs text-gray-500 leading-relaxed">
-          出典: 各製品の公式販売ページおよび公式EC店舗（バッカス公式オンラインショップ／FLOReショップ・キレイplus公式ショップ楽天市場店／一番星公式ショップ）の表記を2026年6月12日に確認。
+          出典: 各製品の公式販売ページおよび公式EC店舗（バッカス公式オンラインショップ／FLOReショップ・FLORe公式ショップ 楽天市場店／一番星公式ショップ）の表記を2026年6月12日に確認。
           ピットソールの特許番号は販売元親会社・株式会社セレスの公式ニュースリリースで確認。仕様・価格は変更される場合があるため、購入前に必ず公式サイトの最新情報をご確認ください。
         </p>
       </section>

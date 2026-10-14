@@ -774,10 +774,10 @@ export default function PitsoleVsSlimupPage() {
               どちらの商品も「すぐには痩せない」という声が共通しています。これはダイエットインソール全般に言えることで、
               正しい姿勢・歩行を促すことで長期的に体型変化を目指す商品です。
               なお口コミの蓄積量には大きな差があり、ピットソールはダイエットカフェ（52件・平均2.7）や楽天公式店（総合3.98〜4.11・計1,000件超）にレビューが蓄積されている一方、
-              スリムアップインソールの第三者レビューはまだ少なく（楽天イッティ公式店の該当セットで4件・総合3.75）、傾向を断定できる段階ではありません。
+              スリムアップインソールの第三者レビューはまだ少なく（楽天イッティ公式店の単品で5件・総合3.6）、傾向を断定できる段階ではありません。
             </p>
             <p className="text-xs text-gray-500 mt-2">
-              出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ（ピットソール）</a>／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天）商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/304721_10001280/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 商品レビュー</a>（いずれも2026年7月19日参照）
+              出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ（ピットソール）</a>／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天）商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/304721_10001278/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 商品レビュー</a>（いずれも2026年10月14日参照）
             </p>
           </div>
         </div>

@@ -412,7 +412,7 @@ export default function InsoleTruthPage() {
                   ダイエットカフェのピットソール口コミ（52件）では、「姿勢が良くなった」「歩きやすくなった」という姿勢・歩行面のポジティブな意見が見られます。
                 </li>
                 <li className="pl-4 border-l-2 border-emerald-200">
-                  楽天市場の公式店レビューは、ピットソール（2足SET）総合3.98（444件）、ランウェイキュアソール総合3.98（807件）と比較的高評価です（2026年7月19日参照）。姿勢面の変化に触れる声が見られます。
+                  楽天市場の公式店レビューは、ピットソール（2足SET）総合3.98（451件）、ランウェイキュアソール総合3.98（865件）と比較的高評価です（2026年10月14日参照）。姿勢面の変化に触れる声が見られます。
                 </li>
               </ul>
             </div>
@@ -435,7 +435,7 @@ export default function InsoleTruthPage() {
           </div>
 
           <p className="text-xs text-gray-500 mt-4">
-            出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ「ピットソール（Pitsole）の効果と52件の口コミ」</a>／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天市場）商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">キレイplus公式ショップ楽天市場店 商品レビュー</a>（いずれも2026年7月19日参照）
+            出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ「ピットソール（Pitsole）の効果と52件の口コミ」</a>／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天市場）商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">FLORe公式ショップ 楽天市場店 商品レビュー</a>（いずれも2026年10月14日参照）
           </p>
 
           <div className="card mt-6 border-l-4 border-l-emerald-500">

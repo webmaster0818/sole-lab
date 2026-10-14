@@ -602,7 +602,7 @@ export default function PitsoleTimelinePage() {
             実際の口コミから見る3ヶ月時点の傾向
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            実在のレビューサイト「ダイエットカフェ」のピットソール口コミ（52件・2026年7月19日参照）では、体重の増減に言及した口コミのうち「痩せた」12件に対し「痩せなかった」が26件で、<strong>体重変化を実感できなかった報告のほうが多い</strong>のが実情です。一方で「姿勢が良くなった」「歩きやすくなった」という姿勢面の変化は比較的早期に挙げられており、体重変化は（起こる場合でも）緩やかに進む傾向が読み取れます（出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ</a>）。
+            実在のレビューサイト「ダイエットカフェ」のピットソール口コミ（52件・2026年10月14日参照）では、体重の増減に言及した口コミのうち「痩せた」12件に対し「痩せなかった」が26件で、<strong>体重変化を実感できなかった報告のほうが多い</strong>のが実情です。一方で「姿勢が良くなった」「歩きやすくなった」という姿勢面の変化は比較的早期に挙げられており、体重変化は（起こる場合でも）緩やかに進む傾向が読み取れます（出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ</a>）。
           </p>
           <div className="bg-white rounded-lg p-4 border border-amber-200">
             <h4 className="font-bold text-amber-700 mb-2">効果が出にくい人の特徴</h4>

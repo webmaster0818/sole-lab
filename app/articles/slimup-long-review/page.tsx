@@ -444,7 +444,7 @@ export default function SlimupLongReviewPage() {
               <li className="flex items-start gap-2">
                 <span className="text-[#0ea5e9] shrink-0 mt-0.5">&#10003;</span>
                 <span>
-                  楽天市場（イッティ公式 楽天市場店）の3足+1足セットの商品レビューは総合3.75 / 5.0（4件・2026年7月19日参照）。好意的なレビューでは姿勢面の声が見られますが、件数が少なく傾向を断定できる段階ではありません。
+                  楽天市場（イッティ公式 楽天市場店）の単品の商品レビューは総合3.6 / 5.0（5件・2026年10月14日参照）。★4〜5では足裏への刺激が心地よいといった声が見られますが、件数が少なく傾向を断定できる段階ではありません。
                 </span>
               </li>
               <li className="flex items-start gap-2">
@@ -455,7 +455,7 @@ export default function SlimupLongReviewPage() {
               </li>
             </ul>
             <p className="text-xs text-gray-500 mt-3">
-              出典: <a href="https://review.rakuten.co.jp/item/1/304721_10001280/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 スリムアップインソール 3足+1足セット みんなのレビュー</a>（2026年7月19日参照）。個別レビューの転載はせず、件数・傾向のみ紹介しています。
+              出典: <a href="https://review.rakuten.co.jp/item/1/304721_10001278/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 スリムアップインソール 単品 みんなのレビュー</a>（2026年10月14日参照）。個別レビューの転載はせず、件数・傾向のみ紹介しています。
             </p>
           </div>
 

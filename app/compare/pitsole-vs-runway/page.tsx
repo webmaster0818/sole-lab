@@ -210,8 +210,8 @@ export default function PitsoleVsRunwayPage() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border border-gray-200 font-medium text-gray-700">口コミ評価</td>
-                  <td className="px-4 py-3 border border-gray-200 text-gray-600">ダイエットカフェ 2.7/5・楽天公式店 3.98〜4.11</td>
-                  <td className="px-4 py-3 border border-gray-200 text-gray-600">楽天公式店 3.98/5（807件）</td>
+                  <td className="px-4 py-3 border border-gray-200 text-gray-600">ダイエットカフェ 2.6/5・楽天公式店 3.98〜4.11</td>
+                  <td className="px-4 py-3 border border-gray-200 text-gray-600">楽天公式店 3.98/5（865件）</td>
                 </tr>
               </tbody>
             </table>
@@ -482,7 +482,7 @@ export default function PitsoleVsRunwayPage() {
               </div>
               <div className="mt-4 pt-3 border-t border-gray-100">
                 <p className="text-xs text-gray-500">
-                  出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ</a> 評価<span className="font-semibold text-gray-700">2.7/5</span>（52件・ダイエット効果に対する厳しめの評価基準）／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">楽天公式店レビュー</a> 3.98〜4.11（2026年7月19日参照）
+                  出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ</a> 評価<span className="font-semibold text-gray-700">2.6/5</span>（52件・ダイエット効果に対する厳しめの評価基準）／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">楽天公式店レビュー</a> 3.98〜4.11（2026年10月14日参照）
                 </p>
               </div>
             </div>
@@ -502,7 +502,7 @@ export default function PitsoleVsRunwayPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-green-500 mt-0.5 shrink-0">+</span>
-                    <span>楽天公式店レビューは総合3.98（807件）と比較的高評価</span>
+                    <span>楽天公式店レビューは総合3.98（865件）と比較的高評価</span>
                   </li>
                 </ul>
               </div>
@@ -525,7 +525,7 @@ export default function PitsoleVsRunwayPage() {
               </div>
               <div className="mt-4 pt-3 border-t border-gray-100">
                 <p className="text-xs text-gray-500">
-                  出典: <a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">キレイplus公式ショップ楽天市場店 商品レビュー</a> 総合3.98/5（807件・2026年7月19日参照）
+                  出典: <a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" target="_blank" rel="nofollow noopener" className="underline">FLORe公式ショップ 楽天市場店 商品レビュー</a> 総合3.98/5（865件・2026年10月14日参照）
                 </p>
               </div>
             </div>
@@ -535,11 +535,11 @@ export default function PitsoleVsRunwayPage() {
             <h3 className="text-base font-bold text-gray-900 mb-3">口コミの判定</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               口コミの量と信頼性ではピットソールが上回ります。累計200万足の販売実績があるため、楽天・Amazon・ダイエットカフェなど複数のプラットフォームに豊富な口コミが蓄積されています。
-              ダイエットカフェの評価が2.7/5と低めに見えますが、これはダイエット効果に特化した厳しい評価基準のため。
+              ダイエットカフェの評価が2.6/5と低めに見えますが、これはダイエット効果に特化した厳しい評価基準のため。
               姿勢改善や腰痛軽減については高評価の口コミが多い点に注目すべきです。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mt-3">
-              ランウェイキュアソールも楽天公式店に807件のレビューがあり（総合3.98・2026年7月19日参照）、姿勢面の変化を挙げる声が見られます。
+              ランウェイキュアソールも楽天公式店に865件のレビューがあり（総合3.98・2026年10月14日参照）、姿勢面の変化を挙げる声が見られます。
               ただし、ダイエットカフェのような効果特化の第三者評価サイトでの蓄積はピットソールほど多くありません。
             </p>
           </div>
