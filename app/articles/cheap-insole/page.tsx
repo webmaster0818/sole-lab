@@ -287,7 +287,7 @@ export default function CheapInsolePage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              「100円のインソールじゃダメなの？」という疑問を持つ方も多いと思います。結論から言うと、100均インソールにはダイエット効果は期待できません。その理由を解説します。
+              「100円のインソールじゃダメなの？」という疑問を持つ方も多いと思います。100均インソールにはダイエット効果は期待できません。その理由を解説します。
             </p>
           </div>
 
@@ -351,7 +351,7 @@ export default function CheapInsolePage() {
               },
               {
                 title: "「安い=コスパが良い」ではない",
-                desc: "1,000円のインソールを10個買うより、4,000円の効果のあるインソールを1つ買う方がコスパは良いです。効果のないインソールを安く買っても、お金と時間の無駄になります。",
+                desc: "1,000円のインソールを10個買うより、4,000円の効果のあるインソールを1つ買う方がコスパは適しています。効果のないインソールを安く買っても、お金と時間の無駄になります。",
               },
             ].map((item) => (
               <div key={item.title} className="bg-white border border-gray-200 rounded-xl p-5">
@@ -517,11 +517,11 @@ export default function CheapInsolePage() {
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            初めてダイエットインソールを購入する方への正直なアドバイス
+            初めてダイエットインソールを購入する方への選び方の助言
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              「ダイエットインソールは本当に効果があるのか」「安いものから試すべきか」と悩んでいる方に、正直なアドバイスをお伝えします。
+              「ダイエットインソールは本当に効果があるのか」「安いものから試すべきか」と悩んでいる方に、選び方の助言をお伝えします。
             </p>
             <p>
               まず、ダイエットインソールは<strong>魔法のアイテムではない</strong>ということを理解してください。履くだけで劇的に痩せることはありません。足裏のアーチをサポートし、正しい歩行を促すことで、日常の歩行効率を高めるサポートツールです。
@@ -543,7 +543,7 @@ export default function CheapInsolePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <Link href="/articles/pitsole-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールのクーポン・キャンペーン情報</p>
-              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を徹底解説</p>
+              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を解説</p>
             </Link>
             <Link href="/articles/runway-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのクーポン・キャンペーン情報</p>

@@ -7,14 +7,14 @@ import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 export const metadata: Metadata = {
   title: "インソールと膝痛の関係｜歩行姿勢の改善で膝への負担を軽減",
   description:
-    "インソールで膝痛を軽減する方法を徹底解説。膝への負担が生じるメカニズム、歩行姿勢の改善効果、インソール選びのポイントを紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
+    "インソールで膝痛を軽減する方法を解説。膝への負担が生じるメカニズム、歩行姿勢の改善効果、インソール選びのポイントを紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/knee-pain/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "インソールと膝痛の関係｜歩行姿勢の改善で膝への負担を軽減",
     description:
-      "インソールで膝痛を軽減する方法を徹底解説。歩行姿勢の改善で膝への負担を軽減するメカニズムを紹介。",
+      "インソールで膝痛を軽減する方法を解説。歩行姿勢の改善で膝への負担を軽減するメカニズムを紹介。",
     url: "https://sole-laboratory.com/articles/knee-pain/",
     type: "article",
   },
@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールと膝痛の関係｜歩行姿勢の改善で膝への負担を軽減",
   description:
-    "インソールで膝痛を軽減する方法を徹底解説。歩行姿勢の改善で膝への負担を軽減するメカニズムを紹介。",
+    "インソールで膝痛を軽減する方法を解説。歩行姿勢の改善で膝への負担を軽減するメカニズムを紹介。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
@@ -49,7 +49,7 @@ const faqStructuredData = {
     {
       "@type": "Question",
       name: "膝痛がある場合、インソールはどのくらいの期間使えば効果を感じますか？",
-      acceptedAnswer: { "@type": "Answer", text: "個人差がありますが、2〜6週間程度で変化を実感される方が多いです。最初の1週間は新しい荷重パターンに身体が適応する期間で、一時的に膝周りに軽い張りを感じることもあります。3ヶ月以上使用しても改善が見られない場合は、整形外科の受診をおすすめします。" },
+      acceptedAnswer: { "@type": "Answer", text: "個人差がありますが、2〜6週間程度で変化を実感される方が多く見られます。最初の1週間は新しい荷重パターンに身体が適応する期間で、一時的に膝周りに軽い張りを感じることもあります。3ヶ月以上使用しても改善が見られない場合は、整形外科の受診をおすすめします。" },
     },
     {
       "@type": "Question",
@@ -154,7 +154,7 @@ export default function KneePainPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-amber-700">ポイント：</span>
-              膝は足と腰の間に位置する「中継地点」であり、上下両方の影響を受けます。足元の問題を改善することが、膝痛の根本的な解決につながるケースが多いです。
+              膝は足と腰の間に位置する「中継地点」であり、上下両方の影響を受けます。足元の問題を改善することが、膝痛の根本的な解決につながるケースが多く見られます。
             </p>
           </div>
         </section>
@@ -351,7 +351,7 @@ export default function KneePainPage() {
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">膝痛がある場合、インソールはどのくらいの期間使えば効果を感じますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">2〜6週間程度で変化を実感される方が多いです。最初の1週間は適応期間として軽い張りを感じることもあります。3ヶ月以上使用しても改善が見られない場合は整形外科の受診をおすすめします。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">2〜6週間程度で変化を実感される方が多く見られます。最初の1週間は適応期間として軽い張りを感じることもあります。3ヶ月以上使用しても改善が見られない場合は整形外科の受診をおすすめします。</div>
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">ランニング中の膝痛にインソールは有効ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>

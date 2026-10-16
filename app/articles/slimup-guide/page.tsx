@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title:
     "スリムアップインソールのサイズ選び・痩せる使い方ガイド",
   description:
-    "スリムアップインソールのサイズ展開・サイズ選びのコツ・効果的な使い方を徹底解説。正しい歩き方と使用時間の目安、ピットソール・ランウェイキュアソールとの違いも比較。",
+    "スリムアップインソールのサイズ展開・サイズ選びのコツ・効果的な使い方を解説。正しい歩き方と使用時間の目安、ピットソール・ランウェイキュアソールとの違いも比較。",
   openGraph: { images: ["/og-default.png"],
     title:
       "スリムアップインソールのサイズ選び・痩せる使い方ガイド｜ソールラボ",
     description:
-      "スリムアップインソールのサイズ展開・使い方・他社比較を徹底解説。コスパ最強インソールの活用法。",
+      "スリムアップインソールのサイズ展開・使い方・他社比較を解説。コスパ最強インソールの活用法。",
     url: "https://sole-laboratory.com/articles/slimup-guide/",
     type: "article",
   },
@@ -762,7 +762,7 @@ export default function SlimupGuidePage() {
               className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
-                ダイエットインソールの選び方完全ガイド
+                ダイエットインソールの選び方ガイド
               </p>
             </Link>
           </div>

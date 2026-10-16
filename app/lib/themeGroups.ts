@@ -166,7 +166,7 @@ export const themeGroups: { name: string; items: ThemeItem[] }[] = [
       },
       {
         "href": "/articles/diet-mechanism/",
-        "title": "インソールで痩せるのは本当？効果と仕組みを正直に検証"
+        "title": "インソールで痩せるのは本当？効果と仕組みを客観的に検証"
       }
     ]
   },

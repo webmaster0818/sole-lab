@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "ダイエットインソールのデメリット・注意点【2026年】向かない人も解説",
   description:
-    "ダイエットインソールのデメリットや注意点を正直に解説。効果が出にくい人の特徴、合わない場合のリスク、後悔しないための選び方をまとめました。",
+    "ダイエットインソールのデメリットや注意点を客観的に解説。効果が出にくい人の特徴、合わない場合のリスク、後悔しないための選び方をまとめました。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/insole-demerit-risk/",
   },
@@ -16,7 +16,7 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "ダイエットインソールのデメリット・注意点｜向かない人と後悔しない選び方",
   description:
-    "ダイエットインソールのデメリットや注意点を正直に解説。効果が出にくい人の特徴、合わない場合のリスク、後悔しないための選び方をまとめました。",
+    "ダイエットインソールのデメリットや注意点を客観的に解説。効果が出にくい人の特徴、合わない場合のリスク、後悔しないための選び方をまとめました。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
@@ -64,7 +64,7 @@ export default function DemeritRiskPage() {
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ダイエットインソールのデメリット・注意点｜向かない人と後悔しない選び方</h1>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">メリットばかりが目立つダイエットインソールですが、デメリットや注意点も知っておくことが、後悔しない選び方につながります。効果が出にくい人の特徴や、合わない場合のリスクを正直に解説します。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">メリットばかりが目立つダイエットインソールですが、デメリットや注意点も知っておくことが、後悔しない選び方につながります。効果が出にくい人の特徴や、合わない場合のリスクを客観的に解説します。</p>
         </header>
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
@@ -74,7 +74,7 @@ export default function DemeritRiskPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">知っておきたいデメリット・注意点</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">最大の注意点は、ダイエットインソールが『履くだけで痩せる魔法』ではないことです。あくまで足元を安定させ姿勢・歩き方を整えて消費を高める補助であり、食事や運動を見直さなければ大きな変化は期待しにくいです。即効性を求めると『効果がない』と感じやすくなります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">最大の注意点は、ダイエットインソールが『履くだけで痩せる魔法』ではないことです。あくまで足元を安定させ姿勢・歩き方を整えて消費を高める補助であり、食事や運動を見直さなければ大きな変化は期待しにくい傾向があります。即効性を求めると『効果がない』と感じやすくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">また、足に合わないアーチの高さやサイズの製品は、痛みや違和感の原因になります。もともと足や膝・腰に痛みや変形がある方は、自己判断で使うと悪化することもあるため注意が必要です。</p>
         </section>
 

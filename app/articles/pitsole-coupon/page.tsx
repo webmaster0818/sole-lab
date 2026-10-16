@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "ピットソールのクーポン・キャンペーン情報【2026年最新】",
   description:
-    "ピットソールを最安値で購入する方法を徹底解説。2026年最新のクーポン・キャンペーン情報、公式サイトのセット割引、楽天・Amazonのポイント活用法、お得な購入方法ランキングを紹介。偽物の見分け方も。",
+    "ピットソールを最安値で購入する方法を解説。2026年最新のクーポン・キャンペーン情報、公式サイトのセット割引、楽天・Amazonのポイント活用法、お得な購入方法ランキングを紹介。偽物の見分け方も。",
   openGraph: { images: ["/og-default.png"],
     title:
       "ピットソールのクーポン・キャンペーン情報【2026年最新】｜ソールラボ",
@@ -145,7 +145,7 @@ export default function PitsoleCouponPage() {
             </span>
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            ピットソールを少しでもお得に購入したい方へ。2026年最新のクーポン・キャンペーン情報から、セット割引の比較、楽天・Amazonのポイント活用法まで、最安値で買う方法を徹底解説します。
+            ピットソールを少しでもお得に購入したい方へ。2026年最新のクーポン・キャンペーン情報から、セット割引の比較、楽天・Amazonのポイント活用法まで、最安値で買う方法を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-amber-100 text-[#c9a76c] px-3 py-1 rounded-full font-medium">

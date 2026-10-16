@@ -377,7 +377,7 @@ export default function SlimupNotWorkingPage() {
 
           <div className="mt-6 bg-white border border-gray-200 rounded-xl p-5">
             <h3 className="text-base font-bold text-gray-900 mb-3">
-              正直な結論
+              結論
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               スリムアップインソールは「魔法のダイエットアイテム」ではなく「骨格筋にアプローチして歩行効率を高めるサポートツール」です。美容整体師監修の骨格筋アプローチは理にかなった設計ですが、効果を発揮するには毎日の歩行と2〜3ヶ月の継続が不可欠です。
@@ -672,7 +672,7 @@ export default function SlimupNotWorkingPage() {
             </Link>
             <Link href="/articles/slimup-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールの最安値・キャンペーン情報</p>
-              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を徹底解説</p>
+              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を解説</p>
             </Link>
             <Link href="/articles/slimup-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールのサイズ選び・使い方ガイド</p>
@@ -725,7 +725,7 @@ export default function SlimupNotWorkingPage() {
               「スリムアップインソール 痩せない」という口コミの多くは、使用期間の不足、歩行量の不足、サイズ選びの不適切さに起因しています。スリムアップインソール自体は美容整体師監修の骨格筋アプローチという独自の設計思想に基づいた、理にかなったインソールです。
             </p>
             <p>
-              効果を出すためのポイントは3つ。毎日装着して1日5,000歩以上歩くこと、最低3ヶ月は継続すること、足の実寸に合ったサイズ（S：23.0〜24.5cm／M：25.0〜26.5cm）を選ぶこと。この3つを実践すれば、姿勢改善から始まり、段階的に体型の変化を実感できる可能性が高いです。
+              効果を出すためのポイントは3つ。毎日装着して1日5,000歩以上歩くこと、最低3ヶ月は継続すること、足の実寸に合ったサイズ（S：23.0〜24.5cm／M：25.0〜26.5cm）を選ぶこと。この3つを実践すれば、姿勢改善から始まり、段階的に体型の変化を実感できる可能性があります。
             </p>
             <p>
               セット購入時のコスパの良さと、S/Mの2サイズから実寸で選べるシンプルなサイズ体系（公式サイトにて2026年7月確認）は、スリムアップインソールの特徴です。正しく使って、骨格筋サポートの効果を最大限に引き出しましょう。

@@ -7,7 +7,7 @@ import VerificationNote from "../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
-    "ダイエットインソールおすすめランキング3選【2026年10月更新】効果・口コミ・類似品比較まで徹底解説",
+    "ダイエットインソールおすすめランキング3選【2026年10月更新】効果・口コミ・類似品比較まで解説",
   description:
     "2026年最新のダイエットインソールおすすめランキング。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で徹底比較。ランウェイキュアソールの類似品・代わりを探している方向けの比較、市販（ドンキ・ニトリ・100均・薬局）の取扱状況も解説します。",
   alternates: {
@@ -19,7 +19,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ダイエットインソールおすすめランキング3選【2026年10月更新】効果・口コミ・類似品比較まで徹底解説",
+    "ダイエットインソールおすすめランキング3選【2026年10月更新】効果・口コミ・類似品比較まで解説",
   description:
     "ピットソール・ランウェイキュアソール・スリムアップインソールをランキング形式で徹底比較。料金・特許技術・口コミ・市販の取扱状況まで詳しく解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
@@ -283,7 +283,7 @@ export default function RankingPage() {
             </li>
             <li>
               <a href="#specs" className="hover:text-[#0ea5e9] transition-colors">
-                5. 3製品の公式スペック比較（出典つき）
+                5. 3製品の公式スペック比較（出典を併記）
               </a>
             </li>
             <li>
@@ -388,7 +388,7 @@ export default function RankingPage() {
             </h3>
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-3">
               <p className="text-sm text-gray-700 font-semibold mb-1">
-                正直にお伝えします
+                事実にもとづいてお伝えします
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
                 「履くだけで何キロも痩せる」という過度な期待は禁物です。ダイエットインソールはあくまで「姿勢改善」「正しい筋肉の使い方をサポート」するためのツールです。
@@ -1180,7 +1180,7 @@ export default function RankingPage() {
       {/* Section 4: Recommendations by Type */}
       <section id="specs" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
-          3製品の公式スペック比較（出典つき）
+          3製品の公式スペック比較（出典を併記）
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
           各製品の公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年6月12日確認）。
@@ -1359,7 +1359,7 @@ export default function RankingPage() {
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
                 スニーカー、パンプス、ビジネスシューズなど、主にどの靴で使うかを想定しましょう。
-                厚みのあるインソールはスニーカー向き、薄型はパンプスにも対応しやすいです。
+                厚みのあるインソールはスニーカー向き、薄型はパンプスにも対応しやすい傾向があります。
               </p>
             </div>
           </div>

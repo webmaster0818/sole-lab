@@ -6,11 +6,11 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "インソール(中敷き)の洗い方・洗濯方法ガイド｜洗う頻度・乾かし方・寿命を延ばすコツ",
   description:
-    "インソール(中敷き)の正しい洗い方・洗濯方法を徹底解説。洗う頻度の目安、洗濯機NGの理由、素材別の洗浄方法・乾かし方まで。ピットソール・ランウェイキュアソール・スリムアップインソールのお手入れも紹介。",
+    "インソール(中敷き)の正しい洗い方・洗濯方法を解説。洗う頻度の目安、洗濯機NGの理由、素材別の洗浄方法・乾かし方まで。ピットソール・ランウェイキュアソール・スリムアップインソールのお手入れも紹介。",
   alternates: { canonical: "https://sole-laboratory.com/articles/washing-guide/" },
   openGraph: { images: ["/og-default.png"],
     title: "インソール(中敷き)の洗い方・洗濯方法ガイド｜洗う頻度・乾かし方・寿命を延ばすコツ",
-    description: "インソール(中敷き)の正しい洗い方・洗濯方法を徹底解説。洗う頻度・乾かし方・寿命を延ばすコツを紹介。",
+    description: "インソール(中敷き)の正しい洗い方・洗濯方法を解説。洗う頻度・乾かし方・寿命を延ばすコツを紹介。",
     url: "https://sole-laboratory.com/articles/washing-guide/",
     type: "article",
   },
@@ -20,7 +20,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソール(中敷き)の洗い方・洗濯方法ガイド｜洗う頻度・乾かし方・寿命を延ばすコツ",
-  description: "インソール(中敷き)の正しい洗い方・洗濯方法を徹底解説。洗う頻度・乾かし方・寿命を延ばすコツを紹介。",
+  description: "インソール(中敷き)の正しい洗い方・洗濯方法を解説。洗う頻度・乾かし方・寿命を延ばすコツを紹介。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
@@ -71,7 +71,7 @@ export default function WashingGuidePage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             正しい洗い方と日々のケアでインソールの寿命を延ばし、清潔に長く使い続ける方法を
             <br className="hidden md:block" />
-            素材別に徹底解説します。
+            素材別に解説します。
           </p>
         </div>
       </section>
@@ -186,7 +186,7 @@ export default function WashingGuidePage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ジェル素材</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">ジェル素材のインソールは水洗いOKです。ただし、歯ブラシなどでこすると表面に傷がつく場合があるため、やわらかい布で優しく拭き洗いするのがベストです。乾燥も早いため、洗浄後30分〜1時間程度で使用可能になることが多いです。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">ジェル素材のインソールは水洗いOKです。ただし、歯ブラシなどでこすると表面に傷がつく場合があるため、やわらかい布で優しく拭き洗いするのがベストです。乾燥も早いため、洗浄後30分〜1時間程度で使用可能になることが多く見られます。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">革（レザー）素材</h3>

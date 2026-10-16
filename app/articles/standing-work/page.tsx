@@ -6,7 +6,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "立ち仕事で足が疲れない最強インソール3選【2026年】",
   description:
-    "立ち仕事で足が疲れない最強インソールを厳選紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの特徴・選び方・疲れ軽減の仕組みを徹底解説。足が疲れにくいインソールをお探しの方必見。",
+    "立ち仕事で足が疲れない最強インソールを厳選紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの特徴・選び方・疲れ軽減の仕組みを解説。足が疲れにくいインソールをお探しの方必見。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/standing-work/",
   },
@@ -17,7 +17,7 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "立ち仕事で足が疲れない最強インソール3選【2026年】",
   description:
-    "立ち仕事で足が疲れないインソールを厳選紹介。選び方・疲れ軽減の仕組み・おすすめ3選を徹底解説。",
+    "立ち仕事で足が疲れないインソールを厳選紹介。選び方・疲れ軽減の仕組み・おすすめ3選を解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -106,7 +106,7 @@ export default function StandingWorkPage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             看護師・販売員・工場勤務など、立ち仕事で足の疲れに悩む方へ。
             <br className="hidden md:block" />
-            足が疲れにくいインソールの選び方とおすすめ3選を徹底解説します。
+            足が疲れにくいインソールの選び方とおすすめ3選を解説します。
           </p>
         </div>
       </section>
@@ -333,7 +333,7 @@ export default function StandingWorkPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            上記の選び方を踏まえ、立ち仕事で足が疲れにくいと評判のインソールを3つ厳選しました。それぞれの特徴を詳しく見ていきましょう。
+            上記の選び方を踏まえ、立ち仕事で足が疲れにくいと評判のインソールを3つ厳選しました。それぞれの特徴を詳しくご説明します。
           </p>
 
           {/* Pitsole */}

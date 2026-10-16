@@ -117,7 +117,7 @@ export default function KidsInsolePage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">子供は走り回ることが多く、足への衝撃が大きいにも関わらず、子供用の靴は軽量化のためクッション性が低いものが多くあります。衝撃吸収機能のあるインソールを入れることで、成長中の骨や関節を過度な衝撃から保護できます。特にスポーツをしているお子さんには重要です。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">正しい歩き方と姿勢の基礎づくり</h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">子供の歩き方のクセは、大人になっても残ります。内股歩き、外股歩き、すり足などの歩行パターンは、足元の不安定さが原因であることが多いです。インソールで足元を安定させることで、正しい歩き方の基礎が身につき、良い姿勢が自然と習慣化されます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">子供の歩き方のクセは、大人になっても残ります。内股歩き、外股歩き、すり足などの歩行パターンは、足元の不安定さが原因であることが多く見られます。インソールで足元を安定させることで、正しい歩き方の基礎が身につき、良い姿勢が自然と習慣化されます。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">靴のフィット感向上</h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">子供の靴は「すぐに大きくなるから」と大きめのサイズを購入するケースが多いですが、大きすぎる靴は足の不安定さやつまずきの原因になります。インソールでフィット感を調整することで、成長に合わせたサイズでも安定した歩行が可能になります。</p>

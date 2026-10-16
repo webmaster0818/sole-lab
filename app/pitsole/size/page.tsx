@@ -6,9 +6,9 @@ import OfficialCTA from "../../components/OfficialCTA";
 
 export const metadata: Metadata = {
   title:
-    "ピットソールのサイズ選び完全ガイド【失敗しない切り方も解説】｜ソールラボ",
+    "ピットソールのサイズ選びガイド【失敗しない切り方も解説】｜ソールラボ",
   description:
-    "ピットソール(Pitsole)のサイズ選び・切り方を徹底解説。XS〜XLの全サイズ一覧、靴別のフィッティング、正しいカット手順、サイズが合わない場合の交換方法まで。迷ったら大きめを選べば失敗しません。",
+    "ピットソール(Pitsole)のサイズ選び・切り方を解説。XS〜XLの全サイズ一覧、靴別のフィッティング、正しいカット手順、サイズが合わない場合の交換方法まで。迷ったら大きめを選べば失敗しません。",
   alternates: {
     canonical: "https://sole-laboratory.com/pitsole/size/",
   },
@@ -18,9 +18,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ピットソールのサイズ選び完全ガイド【失敗しない切り方も解説】",
+    "ピットソールのサイズ選びガイド【失敗しない切り方も解説】",
   description:
-    "ピットソール(Pitsole)のサイズ選び・切り方を徹底解説。XS〜XLの全サイズ一覧、靴別のフィッティング、正しいカット手順、サイズが合わない場合の交換方法まで。",
+    "ピットソール(Pitsole)のサイズ選び・切り方を解説。XS〜XLの全サイズ一覧、靴別のフィッティング、正しいカット手順、サイズが合わない場合の交換方法まで。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -192,10 +192,10 @@ export default function PitsoleSizePage() {
       <section className="bg-gradient-to-b from-pink-50 to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm text-[#e8627c] font-medium mb-2">
-            サイズ選び完全ガイド
+            サイズ選びガイド
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            ピットソールのサイズ選び完全ガイド
+            ピットソールのサイズ選びガイド
             <br />
             <span className="text-[#e8627c]">
               【失敗しない切り方も解説】
@@ -577,7 +577,7 @@ export default function PitsoleSizePage() {
               </p>
               <p className="text-gray-600 text-xs leading-relaxed">
                 甲が高い方はインソールを入れることで靴の中がさらに
-                窮屈になりやすいです。靴ひもの調整や、ゆとりのある靴での使用が
+                窮屈になりやすい傾向があります。靴ひもの調整や、ゆとりのある靴での使用が
                 おすすめです。サイズ自体は通常通りで問題ありません。
               </p>
             </div>
@@ -860,7 +860,7 @@ export default function PitsoleSizePage() {
             フィットが不十分な場合は、問題のある部分をさらに少しだけカットして
             再度確認します。一度に大きく切らず、
             <strong>「少しカット → 確認」を繰り返す</strong>
-            のが失敗しないコツです。
+            のが選び方のポイントです。
           </p>
 
           {/* 切りすぎた場合 */}
@@ -1258,7 +1258,7 @@ export default function PitsoleSizePage() {
             </ul>
             <p className="text-xs text-gray-500 mt-3">
               ※大きすぎる場合はカットで調整可能なため、
-              致命的な問題にはなりにくいです。
+              致命的な問題にはなりにくい傾向があります。
             </p>
           </div>
 
@@ -1400,7 +1400,7 @@ export default function PitsoleSizePage() {
                   元のインソールを取り出してピットソールに重ね、かかとを揃えて
                   はみ出す部分にボールペンでマーキングします。
                   マーキングに沿ってハサミでカットし、靴に入れてフィットを確認。
-                  少しずつカットして調整するのが失敗しないコツです。
+                  少しずつカットして調整するのが選び方のポイントです。
                 </p>
               </div>
             </details>

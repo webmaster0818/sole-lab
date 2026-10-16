@@ -65,17 +65,17 @@ export default function AnkleSlimPage() {
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">インソールで足首すっきり？むくみケアと歩き方からのサポート</h1>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">『足首をすっきりさせたい』という願いにインソールは役立つのか——インソールが足首の脂肪を落とすことはありませんが、歩き方が安定してふくらはぎが働きやすくなることで、むくみのケアを助ける場合があります。現実的な範囲を正直にお伝えします。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">『足首をすっきりさせたい』という願いにインソールは役立つのか——インソールが足首の脂肪を落とすことはありませんが、歩き方が安定してふくらはぎが働きやすくなることで、むくみのケアを助ける場合があります。現実的な範囲を事実にもとづいてお伝えします。</p>
         </header>
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">インソールに足首を細くする・部分痩せさせる効果はありません。期待できるのは、歩行が安定してふくらはぎの筋ポンプが働きやすくなり、夕方のむくみがたまりにくくなるサポートです。むくみが引くと足首まわりがすっきり見えることはありますが、脂肪が減るわけではない点を正直にお伝えします。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">インソールに足首を細くする・部分痩せさせる効果はありません。期待できるのは、歩行が安定してふくらはぎの筋ポンプが働きやすくなり、夕方のむくみがたまりにくくなるサポートです。むくみが引くと足首まわりがすっきり見えることはありますが、脂肪が減るわけではない点を事実にもとづいてお伝えします。</p>
         </div>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足首の太さの原因と、インソールにできること</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足首まわりが太く見える原因はさまざまで、脂肪のつき方、骨格、そして『むくみ』が関係します。このうち脂肪や骨格はインソールで変えられるものではなく、足首を細くする部分痩せ効果もありません。まずこの点を正直に押さえておくことが、誇大な期待を避けるうえで大切です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足首まわりが太く見える原因はさまざまで、脂肪のつき方、骨格、そして『むくみ』が関係します。このうち脂肪や骨格はインソールで変えられるものではなく、足首を細くする部分痩せ効果もありません。まずこの点を正しく理解しておくことが、誇大な期待を避けるうえで重要です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方、立ち仕事や運動不足で歩行が不安定になると、ふくらはぎの筋ポンプ（血液やリンパを押し上げる働き）が十分に使われず、夕方に足首まわりがむくみやすくなります。アーチを支えるインソールで歩行が安定すると、歩くときにふくらはぎが働きやすくなり、むくみのケアを助ける場合があります。むくみが引けば足首がすっきり見えることはあります。</p>
         </section>
 

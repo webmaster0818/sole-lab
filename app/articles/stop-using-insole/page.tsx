@@ -65,7 +65,7 @@ export default function StopUsingPage() {
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">インソールをやめたらどうなる？依存の不安と正しいやめ方</h1>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">「インソールに頼り続けると、自分の足の力が弱くなるのでは」「やめたらまた元に戻る？」——機能性インソールを使っていると、ふとそんな不安がよぎるものです。結論から言えば、過度に恐れる必要はありませんが、インソールの役割を正しく理解しておくことが大切です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">「インソールに頼り続けると、自分の足の力が弱くなるのでは」「やめたらまた元に戻る？」——機能性インソールを使っていると、ふとそんな不安がよぎるものです。過度に恐れる必要はありませんが、インソールの役割を正しく理解しておくことが大切です。</p>
         </header>
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
@@ -116,7 +116,7 @@ export default function StopUsingPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">やめたらどうなる？ケース別の見通しと注意点</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">快適性・疲れ対策で使っていた場合、やめると単純に元の負担感に戻ることが多いです。「やめたら悪化した」と感じるのは、インソールありの快適さに慣れて元の状態を忘れていたケースがほとんど。一方、扁平足傾向や足底の痛みなど明確な不調があって使い始めた場合、元の原因が解消していなければ症状が戻る可能性は高いといえます。痛みを伴う場合は、やめる・続けるの判断を自己流にせず、整形外科で足の状態を確認してもらうのが安全です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">快適性・疲れ対策で使っていた場合、やめると単純に元の負担感に戻ることが多く見られます。「やめたら悪化した」と感じるのは、インソールありの快適さに慣れて元の状態を忘れていたケースがほとんど。一方、扁平足傾向や足底の痛みなど明確な不調があって使い始めた場合、元の原因が解消していなければ症状が戻る可能性は高いといえます。痛みを伴う場合は、やめる・続けるの判断を自己流にせず、整形外科で足の状態を確認してもらうのが安全です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ダイエット目的で使っていた場合も整理は同じです。体重や体型の変化を作るのは歩行量・運動・食事であり、インソールはその歩行を快適にする補助です。やめても、積み上げた運動習慣と筋力は急には失われません。逆にインソールだけに頼って運動していなければ、やめた後に残るものも少なくなります。「インソールをやめられる足を、インソールを使いながら作る」という発想で運動を組み合わせていきましょう。</p>
         </section>
 

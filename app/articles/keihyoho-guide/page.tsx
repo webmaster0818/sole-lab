@@ -161,7 +161,7 @@ https://sole-laboratory.com/articles/keihyoho-guide/`}</pre>
             </Link>
             <Link href="/articles/insole-truth/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#e8627c] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールは嘘？科学的根拠を検証</p>
-              <p className="text-xs text-gray-500 mt-1">「痩せない」と感じる理由も正直に解説</p>
+              <p className="text-xs text-gray-500 mt-1">「痩せない」と感じる理由も客観的に解説</p>
             </Link>
             <Link href="/about/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#e8627c] transition-colors">
               <p className="text-sm font-semibold text-gray-900">運営者情報・編集体制</p>

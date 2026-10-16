@@ -7,14 +7,14 @@ import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 export const metadata: Metadata = {
   title: "インソールと腰痛の関係｜足元から腰痛を改善する方法",
   description:
-    "インソールで腰痛を改善する方法を徹底解説。足元の歪みが腰痛を引き起こすメカニズム、インソールによる改善効果、選び方のポイントを紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
+    "インソールで腰痛を改善する方法を解説。足元の歪みが腰痛を引き起こすメカニズム、インソールによる改善効果、選び方のポイントを紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/back-pain/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "インソールと腰痛の関係｜足元から腰痛を改善する方法",
     description:
-      "インソールで腰痛を改善する方法を徹底解説。足元の歪みが腰痛を引き起こすメカニズムと改善効果を紹介。",
+      "インソールで腰痛を改善する方法を解説。足元の歪みが腰痛を引き起こすメカニズムと改善効果を紹介。",
     url: "https://sole-laboratory.com/articles/back-pain/",
     type: "article",
   },
@@ -25,7 +25,7 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールと腰痛の関係｜足元から腰痛を改善する方法",
   description:
-    "インソールで腰痛を改善する方法を徹底解説。足元の歪みが腰痛を引き起こすメカニズムと改善効果を紹介。",
+    "インソールで腰痛を改善する方法を解説。足元の歪みが腰痛を引き起こすメカニズムと改善効果を紹介。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -61,7 +61,7 @@ const faqStructuredData = {
       name: "インソールで腰痛が改善するまでどのくらいかかりますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "個人差がありますが、一般的に2〜4週間程度で変化を感じ始める方が多いです。ただし足が新しいインソールに慣れるまでの最初の数日は、逆に違和感や軽い筋肉痛を感じることもあります。焦らず、短時間の使用から始めて徐々に使用時間を延ばしていくことが重要です。",
+        text: "個人差がありますが、一般的に2〜4週間程度で変化を感じ始める方が多く見られます。ただし足が新しいインソールに慣れるまでの最初の数日は、逆に違和感や軽い筋肉痛を感じることもあります。焦らず、短時間の使用から始めて徐々に使用時間を延ばしていくことが重要です。",
       },
     },
     {
@@ -485,7 +485,7 @@ export default function BackPainPage() {
 
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールで腰痛が改善するまでどのくらいかかりますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">個人差がありますが、一般的に2〜4週間程度で変化を感じ始める方が多いです。最初の数日は違和感を感じることもあります。短時間の使用から始めて徐々に使用時間を延ばしていくことが重要です。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">個人差がありますが、一般的に2〜4週間程度で変化を感じ始める方が多く見られます。最初の数日は違和感を感じることもあります。短時間の使用から始めて徐々に使用時間を延ばしていくことが重要です。</div>
             </details>
 
             <details className="group bg-white border border-gray-200 rounded-lg">

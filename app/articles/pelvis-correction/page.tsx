@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "骨盤矯正インソールの効果を科学的に解説｜ソールラボ",
   description:
-    "骨盤の歪みは腰痛・冷え・下半身太りの原因に。骨盤矯正インソールの効果・仕組み・選び方を科学的根拠とともに徹底解説。おすすめ3選や日常でできる骨盤ケア習慣まで網羅した完全ガイド。",
+    "骨盤の歪みは腰痛・冷え・下半身太りの原因に。骨盤矯正インソールの効果・仕組み・選び方を科学的根拠とともに解説。おすすめ3選や日常でできる骨盤ケア習慣まで網羅したガイド。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pelvis-correction/",
   },
@@ -40,7 +40,7 @@ const faqStructuredData = {
       name: "骨盤矯正インソールはどのくらいで効果を感じますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "個人差がありますが、歩行時の安定感は1〜2週間で実感する方が多いです。骨盤まわりの変化を感じるには2〜3ヶ月の継続使用が目安です。毎日の使用とストレッチの併用が効果を早めます。",
+        text: "個人差がありますが、歩行時の安定感は1〜2週間で実感する方が多く見られます。骨盤まわりの変化を感じるには2〜3ヶ月の継続使用が目安です。毎日の使用とストレッチの併用が効果を早めます。",
       },
     },
     {
@@ -111,7 +111,7 @@ export default function PelvisCorrectionPage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             腰痛・冷え・下半身太り……その不調、骨盤の歪みが原因かもしれません。
             <br className="hidden md:block" />
-            骨盤矯正インソールの仕組みから選び方、効果を高める習慣まで徹底解説します。
+            骨盤矯正インソールの仕組みから選び方、効果を高める習慣まで解説します。
           </p>
         </div>
       </section>
@@ -614,7 +614,7 @@ export default function PelvisCorrectionPage() {
               Q. 骨盤矯正インソールはどのくらいで効果を感じますか？
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              A. 個人差がありますが、歩行時の安定感や腰の軽さは1〜2週間で実感する方が多いです。骨盤まわりのシルエット変化を感じるには2〜3ヶ月の継続使用が目安です。最初の1週間は1日2〜3時間から始め、徐々に使用時間を延ばしていくのがおすすめです。ストレッチや筋トレとの併用で効果が早まります。
+              A. 個人差がありますが、歩行時の安定感や腰の軽さは1〜2週間で実感する方が多く見られます。骨盤まわりのシルエット変化を感じるには2〜3ヶ月の継続使用が目安です。最初の1週間は1日2〜3時間から始め、徐々に使用時間を延ばしていくのがおすすめです。ストレッチや筋トレとの併用で効果が早まります。
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
@@ -719,7 +719,7 @@ export default function PelvisCorrectionPage() {
               <p className="text-sm font-semibold text-gray-900">猫背を改善するインソールの選び方【姿勢矯正ガイド】</p>
             </Link>
             <Link href="/articles/leg-slimming/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">脚痩せしたい人のインソール選び完全ガイド</p>
+              <p className="text-sm font-semibold text-gray-900">脚痩せしたい人のインソール選びガイド</p>
             </Link>
             <Link href="/articles/flat-feet/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">扁平足・浮き指にインソールは効果ある？おすすめ3選</p>

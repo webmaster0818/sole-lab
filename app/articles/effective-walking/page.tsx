@@ -54,7 +54,7 @@ const faqStructuredData = {
       name: "どのくらいの期間で効果を実感できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "姿勢の改善は使い始めてすぐに実感できる方が多いです。ダイエット効果（体重減少）については、正しい歩き方を継続して2〜4週間で変化を感じ始め、3ヶ月程度で明確な効果を実感できるケースが多いです。食事管理と組み合わせるとさらに早く効果が出ます。",
+        text: "姿勢の改善は使い始めてすぐに実感できる方が多く見られます。ダイエット効果（体重減少）については、正しい歩き方を継続して2〜4週間で変化を感じ始め、3ヶ月程度で明確な効果を実感できるケースが多く見られます。食事管理と組み合わせるとさらに早く効果が出ます。",
       },
     },
     {
@@ -303,7 +303,7 @@ export default function EffectiveWalkingPage() {
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">どのくらいの期間で効果を実感できますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">姿勢の改善は使い始めてすぐに実感できる方が多いです。ダイエット効果（体重減少）については、正しい歩き方を継続して2〜4週間で変化を感じ始め、3ヶ月程度で明確な効果を実感できるケースが多いです。食事管理と組み合わせるとさらに早く効果が出ます。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">姿勢の改善は使い始めてすぐに実感できる方が多く見られます。ダイエット効果（体重減少）については、正しい歩き方を継続して2〜4週間で変化を感じ始め、3ヶ月程度で明確な効果を実感できるケースが多く見られます。食事管理と組み合わせるとさらに早く効果が出ます。</div>
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">ダイエットインソールでの歩き方は速歩きの方が良いですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>

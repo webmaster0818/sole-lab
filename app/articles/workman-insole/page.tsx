@@ -132,7 +132,7 @@ export default function WorkmanPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ワークマンとダイエットインソール3製品の違い（価格・目的・アーチサポート）</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「ワークマンの安いインソールで代用できないの？」という疑問に、正直に棲み分けを整理します。結論から言うと、両者は<span className="font-bold">価格帯も設計思想も別物</span>です。ワークマンは作業・立ち仕事向けの安価なクッション系、ダイエットインソール3製品は姿勢や骨格へアプローチする専用設計で、どちらが上ということではなく<span className="font-bold">目的で選ぶもの</span>です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「ワークマンの安いインソールで代用できないの？」という疑問に、違いを整理します。両者は<span className="font-bold">価格帯も設計思想も別物</span>です。ワークマンは作業・立ち仕事向けの安価なクッション系、ダイエットインソール3製品は姿勢や骨格へアプローチする専用設計で、どちらが上ということではなく<span className="font-bold">目的で選ぶもの</span>です。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

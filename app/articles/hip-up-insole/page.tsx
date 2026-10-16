@@ -6,7 +6,7 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "インソールでヒップアップは可能？【2026年】姿勢・歩き方から見た見た目の変化",
   description:
-    "インソールでヒップアップできる？お尻の筋肉を直接鍛えるものではないが、姿勢や歩き方が整うと見た目の印象が変わることはある。部分痩せは断定せず、現実的な範囲と選び方を正直に解説。",
+    "インソールでヒップアップできる？お尻の筋肉を直接鍛えるものではないが、姿勢や歩き方が整うと見た目の印象が変わることはある。部分痩せは断定せず、現実的な範囲と選び方を客観的に解説。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/hip-up-insole/",
   },
@@ -17,7 +17,7 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールでヒップアップは可能？姿勢・歩き方から見た見た目の変化",
   description:
-    "インソールでヒップアップできる？お尻の筋肉を直接鍛えるものではないが、姿勢や歩き方が整うと見た目の印象が変わることはある。部分痩せは断定せず、現実的な範囲と選び方を正直に解説。",
+    "インソールでヒップアップできる？お尻の筋肉を直接鍛えるものではないが、姿勢や歩き方が整うと見た目の印象が変わることはある。部分痩せは断定せず、現実的な範囲と選び方を客観的に解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
@@ -65,7 +65,7 @@ export default function HipUpPage() {
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">インソールでヒップアップは可能？姿勢・歩き方から見た見た目の変化</h1>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">『インソールでヒップアップ』と聞くと期待が膨らみますが、インソールはお尻の筋肉を直接鍛えたり脂肪を落としたりするものではありません。ただし、姿勢や歩き方が整うことで後ろ姿の印象が変わることはあります。現実的な範囲を正直にお伝えします。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">『インソールでヒップアップ』と聞くと期待が膨らみますが、インソールはお尻の筋肉を直接鍛えたり脂肪を落としたりするものではありません。ただし、姿勢や歩き方が整うことで後ろ姿の印象が変わることはあります。現実的な範囲を事実にもとづいてお伝えします。</p>
         </header>
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
@@ -74,7 +74,7 @@ export default function HipUpPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールとお尻の見た目の関係を正直に</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールとお尻の見た目の関係</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">お尻の形は主に筋肉量と脂肪のつき方で決まり、これを変えるにはヒップ周りの筋トレや全身の体組成の変化が必要です。インソールが特定の部位の脂肪を落とす『部分痩せ』を起こすことはなく、お尻の筋肉を直接鍛えるものでもありません。この点は誤解されやすいので、はっきりお伝えしておきます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方で、足元が不安定だと骨盤が前後に傾いたり、猫背気味になって後ろ姿の印象が損なわれることがあります。アーチを支えるインソールで足元が安定すると、骨盤や姿勢を保ちやすくなり、立ち姿や歩き方が整って後ろ姿の印象が変わることがあります。これは『お尻が小さくなる』のではなく、姿勢を通じた見た目の変化です。</p>
         </section>

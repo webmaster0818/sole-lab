@@ -136,7 +136,7 @@ export default function PumpsInsolePage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             ヒール靴の前滑り・つま先の痛み・足裏の疲れを解消するインソールを厳選。
             <br className="hidden md:block" />
-            パンプスでも疲れないインソールの選び方を徹底解説します。
+            パンプスでも疲れないインソールの選び方を解説します。
           </p>
         </div>
       </section>
@@ -517,7 +517,7 @@ export default function PumpsInsolePage() {
               <p className="text-sm font-semibold text-gray-900">立ち仕事で足が疲れないインソール3選</p>
             </Link>
             <Link href="/articles/leg-slimming/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">脚痩せしたい人のインソール選び完全ガイド</p>
+              <p className="text-sm font-semibold text-gray-900">脚痩せしたい人のインソール選びガイド</p>
             </Link>
             <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50">
               <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る</p>

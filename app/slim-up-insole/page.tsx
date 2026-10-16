@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "スリムアップインソールの口コミ・評判と効果を検証【整体師監修・2026年10月】",
   description:
-    "美容整体師・井上剛志監修のスリムアップインソールを徹底検証。口コミ・評判は確認できた実レビューのみを出典つきで整理し、効果の仕組み、最安値情報、サイズ選びまで正直に解説します。",
+    "美容整体師・井上剛志監修のスリムアップインソールを徹底検証。口コミ・評判は確認できた実レビューのみを出典を併記で整理し、効果の仕組み、最安値情報、サイズ選びまで客観的に解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/slim-up-insole/",
   },
@@ -60,7 +60,7 @@ const faqStructuredData = {
       name: "スリムアップインソールは本当に効果がありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "個人差はありますが、骨格筋サポート構造により正しい姿勢と歩行を促すことで、日常生活での筋肉の使い方が改善されます。即効性よりも2〜3ヶ月の継続使用で変化を実感する方が多いです。",
+        text: "個人差はありますが、骨格筋サポート構造により正しい姿勢と歩行を促すことで、日常生活での筋肉の使い方が改善されます。即効性よりも2〜3ヶ月の継続使用で変化を実感する方が多く見られます。",
       },
     },
     {
@@ -190,7 +190,7 @@ export default function SlimUpInsolePage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             美容整体師・井上剛志氏（YouTube登録者約136万人）監修のダイエットインソール。
             <br className="hidden md:block" />
-            実際の口コミから効果の仕組み、最安値まで正直にレビューします。
+            実際の口コミから効果の仕組み、最安値まで実データにもとづいてレビューします。
           </p>
         </div>
       </section>
@@ -416,7 +416,7 @@ export default function SlimUpInsolePage() {
         </h2>
 
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
-          スリムアップインソールは比較的新しい商品で、第三者が投稿した口コミ・レビューはまだ少ないのが実情です。確認できた範囲のデータを正直にお伝えします。
+          スリムアップインソールは比較的新しい商品で、第三者が投稿した口コミ・レビューはまだ少ないのが実情です。確認できた範囲のデータを事実にもとづいてお伝えします。
         </p>
 
         <div className="bg-white border border-emerald-200 rounded-lg p-4 md:p-5 mb-4">
@@ -799,7 +799,7 @@ export default function SlimUpInsolePage() {
                 {
                   title: "歩行量の多い靴に使う",
                   description:
-                    "通勤靴やウォーキングシューズなど、歩く時間が長い靴に入れるのが最も効果的です。室内用スリッパでは効果を感じにくいです。",
+                    "通勤靴やウォーキングシューズなど、歩く時間が長い靴に入れるのが最も効果的です。室内用スリッパでは効果を感じにくい傾向があります。",
                 },
                 {
                   title: "正しい歩き方を意識する",
@@ -896,7 +896,7 @@ export default function SlimUpInsolePage() {
       {/* 公式スペック */}
       <section id="specs" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-emerald-500">
-          スリムアップインソールの公式スペック（出典つき）
+          スリムアップインソールの公式スペック（出典を併記）
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
           公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年6月12日確認）。公式に記載のない項目は「公式表記なし」としています。
@@ -932,7 +932,7 @@ export default function SlimUpInsolePage() {
             {
               question: "スリムアップインソールは本当に効果がありますか？",
               answer:
-                "個人差はありますが、骨格筋サポート構造により正しい姿勢と歩行を促すことで、日常生活での筋肉の使い方が改善されます。即効性よりも2〜3ヶ月の継続使用で変化を実感する方が多いです。",
+                "個人差はありますが、骨格筋サポート構造により正しい姿勢と歩行を促すことで、日常生活での筋肉の使い方が改善されます。即効性よりも2〜3ヶ月の継続使用で変化を実感する方が多く見られます。",
             },
             {
               question: "ドラッグストアや薬局で購入できますか？",
@@ -1065,7 +1065,7 @@ export default function SlimUpInsolePage() {
             </Link>
             <Link href="/articles/slimup-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールの最安値・キャンペーン情報</p>
-              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を徹底解説</p>
+              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を解説</p>
             </Link>
             <Link href="/articles/slimup-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールのサイズ選び・使い方ガイド</p>

@@ -190,7 +190,7 @@ export default function SizeAdjustmentPage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">大きめにカットしてから微調整する</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">カットしすぎは取り返しがつきませんが、大きい分には追加で切れます。最初は2〜3mm大きめにカットし、靴に入れて確認してから微調整するのが失敗しないコツです。「足りないよりは余る方がマシ」と覚えておきましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">カットしすぎは取り返しがつきませんが、大きい分には追加で切れます。最初は2〜3mm大きめにカットし、靴に入れて確認してから微調整するのが選び方のポイントです。「足りないよりは余る方がマシ」と覚えておきましょう。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">つま先側だけカットする</h3>

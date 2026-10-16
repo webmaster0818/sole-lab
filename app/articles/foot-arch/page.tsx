@@ -7,11 +7,11 @@ import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 export const metadata: Metadata = {
   title: "足のアーチとは？崩れる原因と対策｜インソールで矯正できる？",
   description:
-    "足のアーチの役割、崩れる原因、対策を徹底解説。扁平足・ハイアーチの違い、インソールによる矯正効果、セルフチェック方法も紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
+    "足のアーチの役割、崩れる原因、対策を解説。扁平足・ハイアーチの違い、インソールによる矯正効果、セルフチェック方法も紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/foot-arch/" },
   openGraph: { images: ["/og-default.png"],
     title: "足のアーチとは？崩れる原因と対策｜インソールで矯正できる？",
-    description: "足のアーチの役割、崩れる原因、対策を徹底解説。インソールによる矯正効果も紹介。",
+    description: "足のアーチの役割、崩れる原因、対策を解説。インソールによる矯正効果も紹介。",
     url: "https://sole-laboratory.com/articles/foot-arch/",
     type: "article",
   },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "足のアーチとは？崩れる原因と対策｜インソールで矯正できる？",
-  description: "足のアーチの役割、崩れる原因、対策を徹底解説。インソールによる矯正効果も紹介。",
+  description: "足のアーチの役割、崩れる原因、対策を解説。インソールによる矯正効果も紹介。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17", dateModified: "2026-05-17",
@@ -30,7 +30,7 @@ const faqStructuredData = {
   "@context": "https://schema.org", "@type": "FAQPage",
   mainEntity: [
     { "@type": "Question", name: "足のアーチにはどんな種類がありますか？", acceptedAnswer: { "@type": "Answer", text: "足のアーチは3種類あります。土踏まずを形成する「内側縦アーチ」、足の外側に沿った「外側縦アーチ」、つま先の付け根に横方向に走る「横アーチ」です。この3つが連携して衝撃吸収、推進力の生成、バランスの維持を行っています。" } },
-    { "@type": "Question", name: "足のアーチが崩れる主な原因は何ですか？", acceptedAnswer: { "@type": "Answer", text: "主な原因は、加齢による筋力低下、体重増加による過度な荷重、運動不足による足裏の筋力低下、合わない靴の長期使用、長時間の立ち仕事などです。遺伝的な要因も関係しますが、後天的な生活習慣が大きな要因となることが多いです。" } },
+    { "@type": "Question", name: "足のアーチが崩れる主な原因は何ですか？", acceptedAnswer: { "@type": "Answer", text: "主な原因は、加齢による筋力低下、体重増加による過度な荷重、運動不足による足裏の筋力低下、合わない靴の長期使用、長時間の立ち仕事などです。遺伝的な要因も関係しますが、後天的な生活習慣が大きな要因となることが多く見られます。" } },
     { "@type": "Question", name: "インソールで足のアーチは矯正できますか？", acceptedAnswer: { "@type": "Answer", text: "インソールで完全にアーチを「元通り」にすることは困難ですが、適切なアーチサポートにより崩れたアーチを支え、正しい位置での荷重を促すことは可能です。特に初期段階のアーチ低下であれば、インソールと足裏のトレーニングの併用で改善が期待できます。" } },
     { "@type": "Question", name: "自分のアーチの状態をチェックする方法はありますか？", acceptedAnswer: { "@type": "Answer", text: "自宅で簡単にできるのが「ウェットテスト」です。足裏を水で濡らし、色の濃い紙や段ボールの上に足を乗せて足形を確認します。土踏まず部分がほぼ全面ついていたら扁平足気味、中央部分がほとんどついていなければハイアーチ気味です。" } },
     { "@type": "Question", name: "アーチの崩れを放置するとどうなりますか？", acceptedAnswer: { "@type": "Answer", text: "アーチの崩れを放置すると、足底筋膜炎、外反母趾、膝痛、腰痛など連鎖的にさまざまな問題が生じます。足は身体の土台であり、土台の崩れは全身のアライメントに影響します。早めの対策が重要です。" } },
@@ -264,7 +264,7 @@ export default function FootArchPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">足のアーチにはどんな種類がありますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">足のアーチは3種類あります。土踏まずを形成する「内側縦アーチ」、足の外側に沿った「外側縦アーチ」、つま先の付け根に横方向に走る「横アーチ」です。この3つが連携して衝撃吸収、推進力の生成、バランスの維持を行っています。</div></details>
-            <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">足のアーチが崩れる主な原因は何ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">主な原因は加齢による筋力低下、体重増加、運動不足、合わない靴の使用、長時間の立ち仕事などです。後天的な生活習慣が大きな要因となることが多いです。</div></details>
+            <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">足のアーチが崩れる主な原因は何ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">主な原因は加齢による筋力低下、体重増加、運動不足、合わない靴の使用、長時間の立ち仕事などです。後天的な生活習慣が大きな要因となることが多く見られます。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールで足のアーチは矯正できますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">完全に元通りにすることは困難ですが、適切なサポートにより崩れを支え、正しい荷重を促すことは可能です。初期段階であればインソールとトレーニングの併用で改善が期待できます。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">自分のアーチの状態をチェックする方法はありますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">「ウェットテスト」が簡単です。足裏を水で濡らし色の濃い紙の上に立ち、足形を確認します。土踏まず部分がほぼ全面ついていたら扁平足、ほとんどついていなければハイアーチの傾向です。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">アーチの崩れを放置するとどうなりますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">足底筋膜炎、外反母趾、膝痛、腰痛など連鎖的にさまざまな問題が生じます。足は身体の土台であり、早めの対策が重要です。</div></details>

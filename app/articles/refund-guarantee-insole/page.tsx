@@ -125,7 +125,7 @@ export default function RefundGuaranteePage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">返金保証・定期購入の仕組みと落とし穴</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">返金保証は『一定期間内に効果に満足できなければ返金』といった制度ですが、保証期間・対象商品・申請手続き・返送の要否など条件が細かく決まっていることが多いです。条件を満たさないと返金されません。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">返金保証は『一定期間内に効果に満足できなければ返金』といった制度ですが、保証期間・対象商品・申請手続き・返送の要否など条件が細かく決まっていることが多く見られます。条件を満たさないと返金されません。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">定期購入(定期コース)は単品より割安な反面、『最低◯回の継続が条件』『次回発送の◯日前までに解約連絡』などのルールがあります。これを知らずに解約しようとすると、想定外の回数分を購入することになる場合があります。</p>
         </section>
 

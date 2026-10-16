@@ -5,9 +5,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title:
-    "インソールで痩せるのは本当？ダイエットインソールの効果と仕組みを正直に検証",
+    "インソールで痩せるのは本当？ダイエットインソールの効果と仕組みを客観的に検証",
   description:
-    "結論、インソールだけで痩せるわけではありません。期待できるのは足裏アーチと姿勢・歩行のサポートで、体型の変化には食事管理や運動との併用と継続が前提です。「履くだけで痩せる」と言われる仕組みと限界、3商品のアプローチ比較まで正直に検証します。",
+    "結論、インソールだけで痩せるわけではありません。期待できるのは足裏アーチと姿勢・歩行のサポートで、体型の変化には食事管理や運動との併用と継続が前提です。「履くだけで痩せる」と言われる仕組みと限界、3商品のアプローチ比較まで客観的に検証します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/diet-mechanism/",
   },
@@ -17,9 +17,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "インソールで痩せるのは本当？ダイエットインソールの効果と仕組みを正直に検証",
+    "インソールで痩せるのは本当？ダイエットインソールの効果と仕組みを客観的に検証",
   description:
-    "結論、インソールだけで痩せるわけではありません。「履くだけで痩せる」と言われる仕組みと限界、期待できる効果を正直に検証します。",
+    "結論、インソールだけで痩せるわけではありません。「履くだけで痩せる」と言われる仕組みと限界、期待できる効果を客観的に検証します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -39,7 +39,7 @@ const faqs = [
   {
     question: "ダイエットインソールの効果を実感するまでどれくらいかかりますか？",
     answer:
-      "姿勢や歩行バランスの変化は数日〜2週間で実感する方が多いです。体重やボディラインの変化を感じるには、毎日の歩行と併用して2〜3ヶ月の継続が目安です。食事管理も合わせるとより早く変化を感じやすくなります。",
+      "姿勢や歩行バランスの変化は数日〜2週間で実感する方が多く見られます。体重やボディラインの変化を感じるには、毎日の歩行と併用して2〜3ヶ月の継続が目安です。食事管理も合わせるとより早く変化を感じやすくなります。",
   },
   {
     question:
@@ -125,10 +125,10 @@ export default function DietMechanismPage() {
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             インソールで痩せるのは本当？
             <br />
-            <span className="text-emerald-600">効果と仕組み</span>を正直に検証
+            <span className="text-emerald-600">効果と仕組み</span>を客観的に検証
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            「インソールを入れるだけで痩せるって本当？」その疑問に、科学的根拠と専門家の見解をもとに正直にお答えします。期待できる効果とその限界、効果を最大化する方法まで徹底解説。
+            「インソールを入れるだけで痩せるって本当？」その疑問に、科学的根拠と専門家の見解をもとに事実にもとづいてお答えします。期待できる効果とその限界、効果を最大化する方法まで解説。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full font-medium">
@@ -148,7 +148,7 @@ export default function DietMechanismPage() {
       <div className="max-w-4xl mx-auto px-4 mt-6">
         <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">結論：インソールだけで痩せるわけではありません</p>
-          <p>インソールは医薬品・医療機器ではなく、履くだけで体重が落ちるものではありません。期待できるのは、足裏のアーチや姿勢・歩行のバランスをサポートし、<strong>日常での体の使い方を整える「補助」</strong>です。体型の変化には食事管理や適度な運動との併用、毎日の継続が前提で、感じ方には個人差があります。本記事ではその仕組みと限界を正直に解説します。</p>
+          <p>インソールは医薬品・医療機器ではなく、履くだけで体重が落ちるものではありません。期待できるのは、足裏のアーチや姿勢・歩行のバランスをサポートし、<strong>日常での体の使い方を整える「補助」</strong>です。体型の変化には食事管理や適度な運動との併用、毎日の継続が前提で、感じ方には個人差があります。本記事ではその仕組みと限界を客観的に解説します。</p>
         </div>
       </div>
 
@@ -165,7 +165,7 @@ export default function DietMechanismPage() {
             </h3>
             <div className="space-y-3 text-gray-700 text-sm md:text-base leading-relaxed">
               <p>
-                最初に正直にお伝えします。インソールを靴に入れるだけで、何キロも体重が落ちるということは科学的に考えにくいです。ダイエットの基本原則は「消費カロリー＞摂取カロリー」であり、インソールだけでこの差を大きく生み出すことはできません。
+                はじめにお伝えします。インソールを靴に入れるだけで、何キロも体重が落ちるということは科学的に考えにくいと言えます。ダイエットの基本原則は「消費カロリー＞摂取カロリー」であり、インソールだけでこの差を大きく生み出すことはできません。
               </p>
               <p>
                 「履くだけで-10kg」のような極端な広告表現は、消費者庁からも景品表示法違反として指摘されるケースがあります。このような誇大な期待を持つのは避けるべきです。
@@ -378,7 +378,7 @@ export default function DietMechanismPage() {
                       より多くの筋肉が適切に動員されることで、同じ距離・同じ時間の歩行でも消費カロリーが増加する可能性があります。また、筋肉の活動量増加は中長期的に筋肉量の維持・向上につながり、基礎代謝（安静時のカロリー消費）の底上げにも寄与します。
                     </p>
                     <p>
-                      ただし、正直に言えば、インソールによる1日あたりの追加カロリー消費は劇的な量ではありません。おおよそ数十kcal程度の差と考えるのが現実的です。しかし、この差は1ヶ月・半年・1年と積み重ねると無視できない数値になります。
+                      ただし実際には、インソールによる1日あたりの追加カロリー消費は劇的な量ではありません。おおよそ数十kcal程度の差と考えるのが現実的です。しかし、この差は1ヶ月・半年・1年と積み重ねると無視できない数値になります。
                     </p>
                     <div className="bg-white border border-[#f3e0e4] rounded-lg p-4 mt-2">
                       <p className="text-sm font-bold text-gray-900 mb-2">
@@ -450,7 +450,7 @@ export default function DietMechanismPage() {
                   </h3>
                   <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
                     <p>
-                      ダイエットインソールの効果として、実は「体重の減少」よりも先に「見た目の変化」を実感する方が多いです。これには2つの理由があります。
+                      ダイエットインソールの効果として、実は「体重の減少」よりも先に「見た目の変化」を実感する方が多く見られます。これには2つの理由があります。
                     </p>
                     <p>
                       1つ目は姿勢改善による即時的な見た目の変化です。骨盤が正しい位置に戻ると、反り腰によるぽっこりお腹、猫背による巻き肩、内股によるO脚などが改善され、同じ体重でもスッキリとした印象になります。

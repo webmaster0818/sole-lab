@@ -4,9 +4,9 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "脚痩せしたい人のインソール選び完全ガイド",
+  title: "脚痩せしたい人のインソール選びガイド",
   description:
-    "脚痩せ・下半身痩せにインソールが効果的な理由を徹底解説。脚が太くなる原因からインソールの選び方、おすすめ商品3選、脚痩せ習慣まで。正しい歩行姿勢で美脚を目指す方法をまとめました。",
+    "脚痩せ・下半身痩せにインソールが効果的な理由を解説。脚が太くなる原因からインソールの選び方、おすすめ商品3選、脚痩せ習慣まで。正しい歩行姿勢で美脚を目指す方法をまとめました。",
   keywords: [
     "脚痩せ インソール",
     "下半身痩せ インソール おすすめ",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "脚痩せしたい人のインソール選び完全ガイド",
+  headline: "脚痩せしたい人のインソール選びガイド",
   description:
-    "脚痩せ・下半身痩せにインソールが効果的な理由を徹底解説。脚が太くなる原因からインソールの選び方、おすすめ商品3選、脚痩せ習慣まで。",
+    "脚痩せ・下半身痩せにインソールが効果的な理由を解説。脚が太くなる原因からインソールの選び方、おすすめ商品3選、脚痩せ習慣まで。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -52,7 +52,7 @@ const faqStructuredData = {
       name: "脚痩せインソールの効果はいつ頃から実感できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "個人差がありますが、歩行時の姿勢変化は数日で感じられることが多いです。脚のラインやむくみの変化は2〜3ヶ月の継続使用で実感する方が多い傾向です。毎日の通勤や日常歩行で使い続けることが大切です。",
+        text: "個人差がありますが、歩行時の姿勢変化は数日で感じられることが多く見られます。脚のラインやむくみの変化は2〜3ヶ月の継続使用で実感する方が多い傾向です。毎日の通勤や日常歩行で使い続けることが大切です。",
       },
     },
     {
@@ -136,7 +136,7 @@ const faqs = [
   {
     question: "脚痩せインソールの効果はいつ頃から実感できますか？",
     answer:
-      "個人差がありますが、歩行時の姿勢変化は数日で感じられることが多いです。脚のラインやむくみの変化は2〜3ヶ月の継続使用で実感する方が多い傾向にあります。毎日の通勤や日常歩行で使い続けることが大切です。",
+      "個人差がありますが、歩行時の姿勢変化は数日で感じられることが多く見られます。脚のラインやむくみの変化は2〜3ヶ月の継続使用で実感する方が多い傾向にあります。毎日の通勤や日常歩行で使い続けることが大切です。",
   },
   {
     question: "パンプスやヒールにも使えますか？",
@@ -206,12 +206,12 @@ export default function LegSlimmingArticlePage() {
             脚痩せしたい人の
             <br className="md:hidden" />
             <span className="text-[#0ea5e9]">インソール選び</span>
-            完全ガイド
+            ガイド
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             「脚が太い」「下半身だけ痩せない」と悩んでいませんか？
             実はその原因、歩き方や姿勢の崩れにあるかもしれません。
-            この記事では、インソールで脚痩せを目指す方法を徹底解説します。
+            この記事では、インソールで脚痩せを目指す方法を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">

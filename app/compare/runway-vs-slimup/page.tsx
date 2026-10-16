@@ -606,7 +606,7 @@ export default function RunwayVsSlimupPage() {
                 </li>
               </ul>
               <p className="mt-4 text-xs text-gray-500 leading-relaxed">
-                YouTube登録者約136万人を誇る美容整体師が監修しており、専門家のお墨付きという点で信頼性が高いです。
+                YouTube登録者約136万人を誇る美容整体師が監修しており、専門家のお墨付きという点で信頼性が高い傾向があります。
                 骨格筋へのアプローチは整体の知見が活かされた設計といえます。
               </p>
             </div>

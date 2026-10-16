@@ -253,7 +253,7 @@ export default function RunwayNotWorkingPage() {
                     即効性を期待している
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                    「2週間使ったけど全然変わらない」という口コミが非常に多いです。しかし、ランウェイキュアソールはサプリメントや薬ではありません。足裏アーチを整え、正しい歩行を促すことで徐々に筋肉の使い方が変わっていくアイテムです。
+                    「2週間使ったけど全然変わらない」という口コミが非常に多く見られます。しかし、ランウェイキュアソールはサプリメントや薬ではありません。足裏アーチを整え、正しい歩行を促すことで徐々に筋肉の使い方が変わっていくアイテムです。
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
@@ -382,7 +382,7 @@ export default function RunwayNotWorkingPage() {
 
           <div className="mt-6 bg-white border border-gray-200 rounded-xl p-5">
             <h3 className="text-base font-bold text-gray-900 mb-3">
-              正直な結論
+              結論
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               ランウェイキュアソールは「魔法のダイエットアイテム」ではなく「歩行効率を高める姿勢サポートツール」です。毎日ある程度歩く方が、正しいサイズで3ヶ月以上使い続けることで、姿勢改善と体型変化の効果が期待できます。逆に歩かない方が使っても効果は限定的です。
@@ -750,7 +750,7 @@ export default function RunwayNotWorkingPage() {
             </Link>
             <Link href="/articles/runway-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのクーポン・キャンペーン情報</p>
-              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を徹底解説</p>
+              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を解説</p>
             </Link>
             <Link href="/articles/runway-size-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのサイズ選びガイド</p>
@@ -803,7 +803,7 @@ export default function RunwayNotWorkingPage() {
               「ランウェイキュアソール 痩せない」という口コミの多くは、即効性への過度な期待、使用期間の不足、歩行量の不足に起因しています。ランウェイキュアソール自体は3点アーチサポートによる姿勢改善と歩行効率化を実現する、しっかりとした設計のインソールです。
             </p>
             <p>
-              効果を最大化するためのポイントは3つ。毎日装着して1日5,000歩以上歩くこと、最低3ヶ月は継続すること、正しいサイズを選ぶこと。この3つを守れば、まず姿勢の改善を実感し、次第に体型の変化へとつながっていく可能性が高いです。
+              効果を最大化するためのポイントは3つ。毎日装着して1日5,000歩以上歩くこと、最低3ヶ月は継続すること、正しいサイズを選ぶこと。この3つを守れば、まず姿勢の改善を実感し、次第に体型の変化へとつながっていく可能性があります。
             </p>
             <p>
               「痩せない」と感じている方は、まず自分の使い方を見直してみてください。正しく使えば、ランウェイキュアソールはあなたの美姿勢づくりの頼れるパートナーになってくれるはずです。

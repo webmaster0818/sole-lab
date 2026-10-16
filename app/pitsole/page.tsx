@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "ピットソールの口コミ・評判を徹底検証｜悪い口コミと効果の実態【2026年10月】",
   description:
-    "ピットソール(Pitsole)の口コミ・評判を徹底調査。知恵袋などQ&Aサイトで多い「痩せない？怪しい？」という疑問の真相、効果の仕組み、最安値情報、偽物の見分け方まで。楽天公式店3.98（451件）・4.11（679件）、ダイエットカフェ2.6/5の実売データで正直にレビュー。",
+    "ピットソール(Pitsole)の口コミ・評判を徹底調査。知恵袋などQ&Aサイトで多い「痩せない？怪しい？」という疑問の真相、効果の仕組み、最安値情報、偽物の見分け方まで。楽天公式店3.98（451件）・4.11（679件）、ダイエットカフェ2.6/5の実売データで実データにもとづいてレビュー。",
   openGraph: { images: ["/og-default.png"],
     title: "ピットソールの口コミ・評判を徹底検証｜悪い口コミと効果の実態【2026年10月】｜ソールラボ",
     description: "ピットソール(Pitsole)の口コミ・評判を徹底調査。悪い口コミ「痩せない」の真相から最安値情報まで。",
@@ -47,7 +47,7 @@ const faqStructuredData = {
       name: "ピットソールは本当に痩せますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ピットソール単体で劇的に体重が落ちることは期待できません。足裏アーチを補整し正しい姿勢での歩行を促すことで、普段使われにくい筋肉を活性化させる設計です。食事管理や適度な運動と併用し、2〜3ヶ月以上継続することで変化を実感する方が多いです。",
+        text: "ピットソール単体で劇的に体重が落ちることは期待できません。足裏アーチを補整し正しい姿勢での歩行を促すことで、普段使われにくい筋肉を活性化させる設計です。食事管理や適度な運動と併用し、2〜3ヶ月以上継続することで変化を実感する方が多く見られます。",
       },
     },
     {
@@ -179,7 +179,7 @@ const faqs = [
   {
     question: "ピットソールは本当に痩せますか？",
     answer:
-      "ピットソール単体で劇的に体重が落ちることは期待できません。足裏アーチを補整し正しい姿勢での歩行を促すことで、普段使われにくい筋肉を活性化させる設計です。食事管理や適度な運動と併用し、2〜3ヶ月以上継続することで変化を実感する方が多いです。",
+      "ピットソール単体で劇的に体重が落ちることは期待できません。足裏アーチを補整し正しい姿勢での歩行を促すことで、普段使われにくい筋肉を活性化させる設計です。食事管理や適度な運動と併用し、2〜3ヶ月以上継続することで変化を実感する方が多く見られます。",
   },
   {
     question: "ピットソールの偽物を見分ける方法は？",
@@ -275,7 +275,7 @@ export default function PitsolePage() {
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             世界特許取得のインソール「Pitsole（ピットソール）」の口コミ・評判を徹底調査。
-            「痩せない」という悪い口コミの真相から、効果の仕組み、最安値情報、偽物の見分け方まで正直にレビューします。
+            「痩せない」という悪い口コミの真相から、効果の仕組み、最安値情報、偽物の見分け方まで実データにもとづいてレビューします。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
@@ -395,7 +395,7 @@ export default function PitsolePage() {
             <div className="mt-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
               <p className="text-sm text-gray-700 leading-relaxed">
                 <span className="font-bold text-amber-700">
-                  正直な総評：
+                  総評：
                 </span>
                 特許技術による足裏アーチサポートの品質は高く、姿勢改善や歩行サポートの効果は期待できます。
                 ただし「履くだけで痩せる」という過度な期待は禁物。
@@ -783,7 +783,7 @@ export default function PitsolePage() {
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            ピットソールのサイズ選び完全ガイド
+            ピットソールのサイズ選びガイド
           </h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm bg-white border border-gray-200 rounded-lg overflow-hidden">
@@ -1073,7 +1073,7 @@ export default function PitsolePage() {
       {/* 公式スペック */}
       <section id="specs" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-          ピットソールの公式スペック（出典つき）
+          ピットソールの公式スペック（出典を併記）
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
           公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年7月4日確認）。公式に記載のない項目は「公式表記なし」としています。
@@ -1152,7 +1152,7 @@ export default function PitsolePage() {
               一方で、ダイエットカフェの評価が2.6/5と低めなのも事実です。
               これは「履くだけで痩せる」という過度な期待と現実のギャップが主な原因と考えられます。
               口コミを分析すると、姿勢改善や腰痛軽減といった効果は多くの方が実感している一方で、
-              体重減少については限定的な結果にとどまるケースが多いです。
+              体重減少については限定的な結果にとどまるケースが多く見られます。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mb-6">
               ピットソールを最大限に活かすなら、適度な運動や食事管理と組み合わせて、

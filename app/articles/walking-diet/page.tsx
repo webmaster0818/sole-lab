@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "歩くだけダイエットはどれくらいで効果が出ますか？",
     answer:
-      "個人差がありますが、正しいフォームで1日30分以上のウォーキングを継続した場合、2〜3ヶ月目あたりから体重や体脂肪率の変化を実感する方が多いです。食事管理を併用するとさらに早く結果が出やすくなります。",
+      "個人差がありますが、正しいフォームで1日30分以上のウォーキングを継続した場合、2〜3ヶ月目あたりから体重や体脂肪率の変化を実感する方が多く見られます。食事管理を併用するとさらに早く結果が出やすくなります。",
   },
   {
     question: "歩くだけで本当にお腹の脂肪は落ちますか？",
@@ -97,7 +97,7 @@ export default function WalkingDietPage() {
             で効率UP
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            「歩くだけで痩せるなんて本当？」そんな疑問に科学的根拠をもとにお答えします。正しいウォーキング方法から、インソールを活用して消費カロリーを最大化するテクニックまで徹底解説。
+            「歩くだけで痩せるなんて本当？」そんな疑問に科学的根拠をもとにお答えします。正しいウォーキング方法から、インソールを活用して消費カロリーを最大化するテクニックまで解説。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full font-medium">
@@ -156,7 +156,7 @@ export default function WalkingDietPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              結論から言えば、ウォーキングにはダイエット効果があります。ウォーキングは代表的な有酸素運動であり、脂肪をエネルギー源として消費する運動です。
+              ウォーキングにはダイエット効果があります。ウォーキングは代表的な有酸素運動であり、脂肪をエネルギー源として消費する運動です。
             </p>
             <p>
               厚生労働省の「健康づくりのための身体活動基準2023」では、成人に対して1日60分以上（約8,000歩相当）の歩行を含む身体活動を推奨しています。適度なウォーキングの継続が、肥満予防や生活習慣病リスクの低減に寄与することは多くの研究で示されています。
@@ -540,7 +540,7 @@ export default function WalkingDietPage() {
               <p className="text-sm font-semibold text-gray-900">猫背を改善するインソールの選び方【姿勢矯正ガイド】</p>
             </Link>
             <Link href="/articles/leg-slimming/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">脚痩せしたい人のインソール選び完全ガイド</p>
+              <p className="text-sm font-semibold text-gray-900">脚痩せしたい人のインソール選びガイド</p>
             </Link>
             <Link href="/articles/insole-truth/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールは嘘？効果の科学的根拠を検証</p>

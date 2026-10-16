@@ -5,14 +5,14 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "インソールで身長アップ？シークレットインソールの効果と注意点",
   description:
-    "シークレットインソールの効果と注意点を徹底解説。身長アップの仕組み、バレないための選び方、姿勢改善との関係まで。ピットソール・ランウェイキュアソール・スリムアップインソールとの比較も紹介。",
+    "シークレットインソールの効果と注意点を解説。身長アップの仕組み、バレないための選び方、姿勢改善との関係まで。ピットソール・ランウェイキュアソール・スリムアップインソールとの比較も紹介。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/height-up/",
   },
   openGraph: { images: ["/og-default.png"],
     title: "インソールで身長アップ？シークレットインソールの効果と注意点",
     description:
-      "シークレットインソールの効果と注意点を徹底解説。身長アップの仕組み、バレないための選び方、姿勢改善との関係まで。",
+      "シークレットインソールの効果と注意点を解説。身長アップの仕組み、バレないための選び方、姿勢改善との関係まで。",
     url: "https://sole-laboratory.com/articles/height-up/",
     type: "article",
   },
@@ -23,7 +23,7 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールで身長アップ？シークレットインソールの効果と注意点",
   description:
-    "シークレットインソールの効果と注意点を徹底解説。身長アップの仕組み、バレないための選び方、姿勢改善との関係まで。",
+    "シークレットインソールの効果と注意点を解説。身長アップの仕組み、バレないための選び方、姿勢改善との関係まで。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -141,7 +141,7 @@ export default function HeightUpPage() {
             シークレットインソールの効果と注意点
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            シークレットインソールの仕組みから選び方、注意点まで徹底解説。
+            シークレットインソールの仕組みから選び方、注意点まで解説。
             <br className="hidden md:block" />
             身長を盛りつつ足の健康も守る、賢い選択法をお伝えします。
           </p>
@@ -261,7 +261,7 @@ export default function HeightUpPage() {
             自信・メンタル面への好影響
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            身長にコンプレックスを感じている方にとって、シークレットインソールは心理的な支えになります。「背が高く見える」という安心感が自信につながり、姿勢も自然と良くなる傾向があります。ビジネスシーンやデートなど、自信を持ちたい場面で活用する方が多いです。
+            身長にコンプレックスを感じている方にとって、シークレットインソールは心理的な支えになります。「背が高く見える」という安心感が自信につながり、姿勢も自然と良くなる傾向があります。ビジネスシーンやデートなど、自信を持ちたい場面で活用する方が多く見られます。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
@@ -328,7 +328,7 @@ export default function HeightUpPage() {
                 </h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                ハーフインソール型（かかとだけ）は手軽ですが、靴を脱いだときに見えやすく、バレるリスクが高まります。フルインソール型であれば靴の中敷きと見分けがつかず、万が一靴を脱ぐ場面でもバレにくいです。安定性の面でもフルインソール型が優れています。
+                ハーフインソール型（かかとだけ）は手軽ですが、靴を脱いだときに見えやすく、バレるリスクが高まります。フルインソール型であれば靴の中敷きと見分けがつかず、万が一靴を脱ぐ場面でもバレにくい傾向があります。安定性の面でもフルインソール型が優れています。
               </p>
             </div>
 

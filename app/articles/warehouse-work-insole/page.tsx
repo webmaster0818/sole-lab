@@ -115,7 +115,7 @@ export default function WarehouseWorkPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">安全靴での使い方と疲れをためないコツ</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">安全靴に入れる場合は、つま先の保護芯まわりが窮屈にならないか必ず確認し、カットできるタイプでサイズを合わせると失敗しにくいです。フィットしないと靴の中で足が滑り、長距離歩行ではかえって疲れや靴ずれの原因になります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">安全靴に入れる場合は、つま先の保護芯まわりが窮屈にならないか必ず確認し、カットできるタイプでサイズを合わせると失敗しにくい傾向があります。フィットしないと靴の中で足が滑り、長距離歩行ではかえって疲れや靴ずれの原因になります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">休憩時にふくらはぎと足裏を伸ばすと、歩き回りの疲れがリセットしやすくなります。毎日長距離を歩く使い方ではインソールがへたりやすいため、3〜6ヶ月を目安に交換を。足裏やかかとの痛みが続く場合は我慢せず整形外科を受診してください。</p>
         </section>
 

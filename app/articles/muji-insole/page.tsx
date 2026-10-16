@@ -118,7 +118,7 @@ export default function MujiPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">日常の靴を少し快適にしたいなら無印のシンプルなインソールで十分です。姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選びましょう。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">市販のインソールは、おおまかに用途で分かれます。選ぶときは次の3つの軸を意識すると迷いにくくなります。</p>
           <ul className="text-sm md:text-base text-gray-700 leading-relaxed mb-4 list-disc pl-5 space-y-2">
-            <li><span className="font-bold">クッション・衝撃吸収タイプ</span>：立ち仕事や長時間歩行の疲れをやわらげたい人向け。普段履きの快適さを底上げしたいなら無印のようなシンプル系で十分なことが多いです。</li>
+            <li><span className="font-bold">クッション・衝撃吸収タイプ</span>：立ち仕事や長時間歩行の疲れをやわらげたい人向け。普段履きの快適さを底上げしたいなら無印のようなシンプル系で十分なことが多く見られます。</li>
             <li><span className="font-bold">消臭・サラサラ系タイプ</span>：ムレやニオイが気になる人向け。素材で機能が変わるため、用途に合うものを選びます。</li>
             <li><span className="font-bold">アーチサポート・姿勢タイプ</span>：足裏のアーチを支えて姿勢や歩き方を整えたい人向け。ダイエットインソールはここに位置づけられ、設計の意図が日常向けとは異なります。</li>
           </ul>

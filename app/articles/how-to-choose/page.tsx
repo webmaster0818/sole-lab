@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "ダイエットインソールの選び方5つのポイント【失敗しない】",
   description:
-    "ダイエットインソールの選び方を5つのポイントで徹底解説。サイズ・アーチサポート・靴との相性・価格・口コミの観点から、失敗しないインソール選びをサポートします。タイプ別おすすめや購入前チェックリストも掲載。",
+    "ダイエットインソールの選び方を5つのポイントで解説。サイズ・アーチサポート・靴との相性・価格・口コミの観点から、失敗しないインソール選びをサポートします。タイプ別おすすめや購入前チェックリストも掲載。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/how-to-choose/",
   },
@@ -19,7 +19,7 @@ const structuredData = {
   headline:
     "ダイエットインソールの選び方5つのポイント【失敗しない】",
   description:
-    "ダイエットインソールの選び方を5つのポイントで徹底解説。サイズ・アーチサポート・靴との相性・価格・口コミの観点から失敗しない選び方を紹介。",
+    "ダイエットインソールの選び方を5つのポイントで解説。サイズ・アーチサポート・靴との相性・価格・口コミの観点から失敗しない選び方を紹介。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -97,7 +97,7 @@ export default function HowToChoosePage() {
             【失敗しない】
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            「種類が多すぎてどれを選べばいいかわからない」「買ったけど合わなかった」そんな失敗を防ぐために、ダイエットインソール選びで押さえるべき5つのポイントを徹底解説します。自分にぴったりの1足を見つけましょう。
+            「種類が多すぎてどれを選べばいいかわからない」「買ったけど合わなかった」そんな失敗を防ぐために、ダイエットインソール選びで押さえるべき5つのポイントを解説します。自分にぴったりの1足を見つけましょう。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-sky-100 text-sky-700 px-3 py-1 rounded-full font-medium">

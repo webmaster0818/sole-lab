@@ -75,7 +75,7 @@ export default function SportsVsDietPage() {
 
         <section id="sports" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スポーツインソールの特徴と効果</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">スポーツインソールの主な特徴と効果を詳しく見ていきましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">スポーツインソールの主な特徴と効果を詳しくご説明します。</p>
           <div className="space-y-4 mb-6">
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">高い衝撃吸収性能</h3><p className="text-sm text-gray-700 leading-relaxed">ランニング時には体重の2〜3倍、ジャンプ着地時には4〜5倍の力が足にかかります。スポーツインソールは厚手のクッション素材でこの衝撃を30〜40%軽減し、膝や足裏への負担を大幅に抑えます。<Link href="/articles/running-insole/" className="text-[#0ea5e9] hover:underline">ランニング用インソール</Link>は特にこの機能に優れます。</p></div>
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">横方向の安定性</h3><p className="text-sm text-gray-700 leading-relaxed">球技やフィットネスでは横方向への素早い動きが求められます。スポーツインソールは深いヒールカップと幅広の設計で、横方向の動きに対する安定性を確保し、足首の捻挫を予防します。</p></div>

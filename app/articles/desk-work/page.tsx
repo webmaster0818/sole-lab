@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "デスクワーク中にインソールを使う意味はありますか？",
     answer:
-      "デスクワーク中にインソールが効果を発揮するのは限定的です。ダイエットインソールの多くは歩行時の姿勢・筋肉活動を改善する設計のため、座っている間の効果は小さいです。ただし、通勤時やオフィス内での移動、昼休みの散歩など、歩く機会に装着することで効果を得られます。",
+      "デスクワーク中にインソールが効果を発揮するのは限定的です。ダイエットインソールの多くは歩行時の姿勢・筋肉活動を改善する設計のため、座っている間の効果は小さくなります。ただし、通勤時やオフィス内での移動、昼休みの散歩など、歩く機会に装着することで効果を得られます。",
   },
   {
     question: "デスクワークで1日何歩くらい歩けばインソールの効果がありますか？",
@@ -143,7 +143,7 @@ export default function DeskWorkPage() {
             おすすめと対策
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            「座りっぱなしなのに足が疲れる」「夕方になると足がパンパン」そんなデスクワーカーの悩みに、インソールはどこまで効果があるのか。正直な答えと、歩行量が少ない方でも効果を引き出す活用法を解説します。
+            「座りっぱなしなのに足が疲れる」「夕方になると足がパンパン」そんなデスクワーカーの悩みに、インソールはどこまで効果があるのか。答えと、歩行量が少ない方でも効果を引き出す活用法を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-medium">
@@ -159,7 +159,7 @@ export default function DeskWorkPage() {
         </div>
       </section>
 
-      {/* 正直な結論 */}
+      {/* 結論 */}
       <div className="max-w-3xl mx-auto px-4 mt-8">
         <VerificationNote />
       </div>
@@ -171,7 +171,7 @@ export default function DeskWorkPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              最初に正直にお伝えすると、ダイエットインソールは<strong>歩くことで効果を発揮する</strong>設計です。デスクワーク中（座っている間）のダイエット効果はほとんど期待できません。
+              はじめにお伝えすると、ダイエットインソールは<strong>歩くことで効果を発揮する</strong>設計です。デスクワーク中（座っている間）のダイエット効果はほとんど期待できません。
             </p>
             <p>
               しかし、デスクワーカーでもインソールが全く意味がないわけではありません。<strong>通勤時の歩行</strong>、<strong>昼休みの散歩</strong>、<strong>オフィス内の移動</strong>など、歩く場面でインソールの効果は発揮されます。重要なのは「いかに歩く機会を作るか」です。

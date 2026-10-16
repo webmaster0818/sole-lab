@@ -57,7 +57,7 @@ const faqs = [
   {
     question: "男性でもランウェイキュアソールを使えますか？",
     answer:
-      "M（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向けサイズ展開のため、男性にはサイズが合わない場合が多いです。男性には、XS〜XLの5サイズで21〜29cmに対応するピットソール（XLはブラック/ピンク限定）が選択肢になります。",
+      "M（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向けサイズ展開のため、男性にはサイズが合わない場合が多く見られます。男性には、XS〜XLの5サイズで21〜29cmに対応するピットソール（XLはブラック/ピンク限定）が選択肢になります。",
   },
   {
     question: "ランウェイキュアソールは外反母趾でも使えますか？",
@@ -670,7 +670,7 @@ export default function RunwaySizeGuidePage() {
               className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
-                扁平足の方のインソール選び完全ガイド
+                扁平足の方のインソール選びガイド
               </p>
             </Link>
             <Link

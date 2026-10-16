@@ -8,12 +8,12 @@ import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
   title: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド",
-  description: "足底筋膜炎とインソールの関係を徹底解説。足底筋膜炎の原因、インソールによる痛み軽減の仕組み、選び方のポイント、セルフケア方法まで紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
+  description: "足底筋膜炎とインソールの関係を解説。足底筋膜炎の原因、インソールによる痛み軽減の仕組み、選び方のポイント、セルフケア方法まで紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/plantar-fasciitis/" },
-  openGraph: { images: ["/og-default.png"], title: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド", description: "足底筋膜炎とインソールの関係を徹底解説。痛みを軽減するインソールの選び方ガイド。", url: "https://sole-laboratory.com/articles/plantar-fasciitis/", type: "article" },
+  openGraph: { images: ["/og-default.png"], title: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド", description: "足底筋膜炎とインソールの関係を解説。痛みを軽減するインソールの選び方ガイド。", url: "https://sole-laboratory.com/articles/plantar-fasciitis/", type: "article" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド", description: "足底筋膜炎とインソールの関係を徹底解説。痛みを軽減するインソールの選び方ガイド。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "足底筋膜炎とインソール｜痛みを軽減する選び方ガイド", description: "足底筋膜炎とインソールの関係を解説。痛みを軽減するインソールの選び方ガイド。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
 
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "足底筋膜炎にインソールは効果がありますか？", acceptedAnswer: { "@type": "Answer", text: "はい、適切なインソールは足底筋膜炎の痛み軽減に効果的です。アーチサポートにより足底筋膜への過度な牽引力を軽減し、クッション性のある素材がかかとへの衝撃を吸収します。ただし重症の場合はインソールだけでなく医療機関での治療が必要です。" } },
@@ -103,7 +103,7 @@ export default function PlantarFasciitisPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足底筋膜炎の原因は複合的です。足のアーチ（特に内側縦アーチ）の崩れにより足底筋膜に過度な牽引力がかかること、体重増加による足底への荷重増加、硬い路面での長時間の立ち仕事や歩行、急激な運動量の増加（特にランニング）、ふくらはぎやアキレス腱の硬さ、加齢による足底脂肪パッドの薄化などが主な原因です。<Link href="/articles/foot-arch/" className="text-[#0ea5e9] hover:underline">足のアーチの崩れ</Link>は特に大きな要因です。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">なりやすい人の特徴</h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">以下のような方は足底筋膜炎のリスクが高いです。扁平足またはハイアーチの方、BMI30以上の方、長時間の立ち仕事（接客業、工場勤務、教職など）の方、ランニングやジョギングを始めたばかりの方、ふくらはぎが硬い方、クッション性のない靴を常用している方。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">以下のような方は足底筋膜炎のリスクが高い傾向があります。扁平足またはハイアーチの方、BMI30以上の方、長時間の立ち仕事（接客業、工場勤務、教職など）の方、ランニングやジョギングを始めたばかりの方、ふくらはぎが硬い方、クッション性のない靴を常用している方。</p>
 
           <div className="bg-red-50 border border-red-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed"><span className="font-bold text-red-700">注意：</span>痛みが2週間以上続く場合や、歩行が困難なほどの痛みがある場合は、整形外科を受診してください。足底筋膜炎以外の疾患（踵骨骨折、絞扼性神経障害など）の可能性もあります。</p>

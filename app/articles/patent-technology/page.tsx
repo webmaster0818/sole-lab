@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "ダイエットインソールの特許技術を徹底解説【BMZ・各社の独自技術】",
+    "ダイエットインソールの特許技術を解説【BMZ・各社の独自技術】",
   description:
     "ダイエットインソールの特許技術を比較解説。BMZのキュボイドバランス理論・CCLP理論（世界特許）、ランウェイキュアソールの3点アーチサポート、スリムアップインソールの整体師監修設計を徹底比較。",
   alternates: {
@@ -17,7 +17,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ダイエットインソールの特許技術を徹底解説【BMZ・各社の独自技術】",
+    "ダイエットインソールの特許技術を解説【BMZ・各社の独自技術】",
   description:
     "ダイエットインソールの特許技術を比較解説。BMZのキュボイドバランス理論・CCLP理論（世界特許）、3点アーチサポート、整体師監修設計を徹底比較。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
@@ -90,7 +90,7 @@ const breadcrumbStructuredData = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "ダイエットインソールの特許技術を徹底解説",
+      name: "ダイエットインソールの特許技術を解説",
       item: "https://sole-laboratory.com/articles/patent-technology/",
     },
   ],
@@ -122,7 +122,7 @@ export default function PatentTechnologyPage() {
             ダイエットコラム
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            ダイエットインソールの特許技術を徹底解説
+            ダイエットインソールの特許技術を解説
             <br />
             <span className="text-emerald-600">
               BMZ・各社の独自技術
@@ -978,7 +978,7 @@ export default function PatentTechnologyPage() {
               {
                 num: "01",
                 title: "技術の具体性を確認する",
-                desc: "「特許技術搭載」という文言だけでなく、具体的にどの部位をどのようにサポートする技術なのかを確認しましょう。キュボイドバランスのように具体的な理論名や特許番号が公開されている製品は信頼性が高いです。",
+                desc: "「特許技術搭載」という文言だけでなく、具体的にどの部位をどのようにサポートする技術なのかを確認しましょう。キュボイドバランスのように具体的な理論名や特許番号が公開されている製品は信頼性が高い傾向があります。",
               },
               {
                 num: "02",

@@ -5,12 +5,12 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "冷え性対策インソール｜足元から温める方法とおすすめ商品",
-  description: "冷え性対策としてのインソール活用法を徹底解説。足が冷える原因、インソールによる改善メカニズム、選び方のポイント、日常の冷え性対策まで紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
+  description: "冷え性対策としてのインソール活用法を解説。足が冷える原因、インソールによる改善メカニズム、選び方のポイント、日常の冷え性対策まで紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/cold-feet/" },
-  openGraph: { images: ["/og-default.png"], title: "冷え性対策インソール｜足元から温める方法とおすすめ商品", description: "冷え性対策としてのインソール活用法を徹底解説。足が冷える原因と改善方法を紹介。", url: "https://sole-laboratory.com/articles/cold-feet/", type: "article" },
+  openGraph: { images: ["/og-default.png"], title: "冷え性対策インソール｜足元から温める方法とおすすめ商品", description: "冷え性対策としてのインソール活用法を解説。足が冷える原因と改善方法を紹介。", url: "https://sole-laboratory.com/articles/cold-feet/", type: "article" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "冷え性対策インソール｜足元から温める方法とおすすめ商品", description: "冷え性対策としてのインソール活用法を徹底解説。足が冷える原因と改善方法を紹介。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "冷え性対策インソール｜足元から温める方法とおすすめ商品", description: "冷え性対策としてのインソール活用法を解説。足が冷える原因と改善方法を紹介。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
 
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "インソールで足の冷えは本当に改善しますか？", acceptedAnswer: { "@type": "Answer", text: "はい、適切なインソールは足の冷え改善に効果があります。保温素材で地面からの冷気を遮断するタイプと、歩行姿勢を改善して血行を促進するタイプの2種類があります。後者は根本的な冷え性改善が期待でき、正しい筋肉の使い方により足先への血流が改善されます。" } },
@@ -199,7 +199,7 @@ export default function ColdFeetPage() {
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">冷え性対策インソールの選び方のポイントは？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">即効性を求めるなら保温素材のもの、根本改善を目指すならアーチサポート付きの血行促進タイプがおすすめです。通気性も重要で、蒸れて汗が冷えると逆効果になります。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">足が冷える根本的な原因は何ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">根本原因は血行不良です。筋力不足、自律神経の乱れ、歩行姿勢の悪さ、きつい靴による血管圧迫などが具体的な要因として挙げられます。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">保温インソールと姿勢改善インソール、どちらが良いですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">保温タイプは即効性があり冬場に有効、姿勢改善タイプは長期的な冷え性改善が期待できます。冬は保温タイプ、他の季節は姿勢改善タイプと使い分けるのが理想的です。</div></details>
-            <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">冷え性の改善にはどのくらいの期間が必要ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">保温タイプは即効性があります。血行改善タイプの場合は2〜4週間程度で効果を実感される方が多いです。ストレッチや運動の併用で改善が早まります。</div></details>
+            <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">冷え性の改善にはどのくらいの期間が必要ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">保温タイプは即効性があります。血行改善タイプの場合は2〜4週間程度で効果を実感される方が多く見られます。ストレッチや運動の併用で改善が早まります。</div></details>
           </div>
         </section>
 

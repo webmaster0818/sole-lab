@@ -64,7 +64,7 @@ export default function DietPeriodPage() {
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ダイエットインソールは何日で効果が出る？期間の目安と続け方</h1>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">ダイエットインソールを買ったけれど、いつ効果が出るの？——結論から言うと、姿勢や歩き方の変化は数日〜数週間、体型の変化はそれ以上の継続が必要です。焦らず続けることが成功の鍵です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">ダイエットインソールを買ったけれど、いつ効果が出るの？——姿勢や歩き方の変化は数日〜数週間、体型の変化はそれ以上の継続が必要です。焦らず続けることが成功の鍵です。</p>
         </header>
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">

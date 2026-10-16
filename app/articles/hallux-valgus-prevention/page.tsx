@@ -6,12 +6,12 @@ import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title: "外反母趾の原因と予防法｜インソール以外の対策も紹介",
-  description: "外反母趾の原因と予防法を徹底解説。靴選びのポイント、インソールによるケア、足指トレーニング、日常生活での注意点を紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
+  description: "外反母趾の原因と予防法を解説。靴選びのポイント、インソールによるケア、足指トレーニング、日常生活での注意点を紹介。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/hallux-valgus-prevention/" },
-  openGraph: { images: ["/og-default.png"], title: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を徹底解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", url: "https://sole-laboratory.com/articles/hallux-valgus-prevention/", type: "article" },
+  openGraph: { images: ["/og-default.png"], title: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", url: "https://sole-laboratory.com/articles/hallux-valgus-prevention/", type: "article" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を徹底解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
 
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "外反母趾はなぜ女性に多いのですか？", acceptedAnswer: { "@type": "Answer", text: "女性に多い主な理由は、ヒールやパンプスなど先の細い靴の着用頻度が高いこと、女性ホルモンの影響で靭帯が柔らかく伸びやすいこと、男性に比べて筋力が弱く足のアーチを維持しにくいことの3点です。ただし近年は男性の外反母趾も増加傾向にあります。" } },
@@ -83,7 +83,7 @@ export default function HalluxValgusPreventionPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">外反母趾には遺伝的な要因も関係しています。足の形（エジプト型で母趾が長い方）、関節の柔軟性、靭帯の強度などは遺伝の影響を受けます。親や祖父母に外反母趾がある方は、予防的なケアを早めに始めることをおすすめします。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">筋力低下と加齢</h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">足裏の筋力、特に母趾外転筋の筋力が低下すると、母趾を正しい位置に保持する力が弱くなります。40代以降は筋力低下と靭帯の弛緩が加速するため、外反母趾が進行しやすくなります。足指を積極的に使う習慣がない現代人は、若い世代でも足裏の筋力不足に陥りやすいです。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">足裏の筋力、特に母趾外転筋の筋力が低下すると、母趾を正しい位置に保持する力が弱くなります。40代以降は筋力低下と靭帯の弛緩が加速するため、外反母趾が進行しやすくなります。足指を積極的に使う習慣がない現代人は、若い世代でも足裏の筋力不足に陥りやすい傾向があります。</p>
 
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed"><span className="font-bold text-amber-700">ポイント：</span>外反母趾は「靴が原因」と思われがちですが、実際は横アーチの崩れ（開張足）が根本原因です。靴はあくまで進行を加速させる要因であり、予防には足の構造自体をケアすることが重要です。</p>

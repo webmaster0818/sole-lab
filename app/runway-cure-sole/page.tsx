@@ -96,7 +96,7 @@ const faqStructuredData = {
       name: "男性でも使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向けサイズ展開のため、男性にはサイズが合わない場合が多いです。男性にはピットソール（最大29cm対応）がおすすめです。",
+        text: "ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向けサイズ展開のため、男性にはサイズが合わない場合が多く見られます。男性にはピットソール（最大29cm対応）がおすすめです。",
       },
     },
     {
@@ -368,7 +368,7 @@ export default function RunwayCureSolePage() {
             一方で、サイズ展開がM・Lの2サイズのみ（女性向け）という点や、外反母趾の方には注意が必要な点もあります。
           </p>
           <p>
-            総合的に見ると、美姿勢を意識したい女性にとってバランスの良い選択肢といえます。以下、口コミや効果の仕組みを詳しく見ていきましょう。
+            総合的に見ると、美姿勢を意識したい女性にとってバランスの良い選択肢といえます。以下、口コミや効果の仕組みを詳しくご説明します。
           </p>
         </div>
       </section>
@@ -381,7 +381,7 @@ export default function RunwayCureSolePage() {
 
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
           「ランウェイキュアソールはどこで売ってる？」という疑問にお答えします。
-          結論から言うと、<strong>購入は公式サイト（FLOReショップ）が中心</strong>で、実店舗での取り扱いは確認されていません。
+          <strong>購入は公式サイト（FLOReショップ）が中心</strong>で、実店舗での取り扱いは確認されていません。
         </p>
 
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
@@ -533,7 +533,7 @@ export default function RunwayCureSolePage() {
           良い口コミ・評判
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
-          次に、実際に確認できるレビューデータを見ていきましょう。公式EC店舗（FLORe公式ショップ 楽天市場店）の商品レビューが最も件数が多く、傾向の参考になります。
+          次に、実際に確認できるレビューデータをご説明します。公式EC店舗（FLORe公式ショップ 楽天市場店）の商品レビューが最も件数が多く、傾向の参考になります。
         </p>
         <div className="bg-white border border-purple-200 rounded-lg p-4 md:p-5 mb-4">
           <p className="text-sm font-bold text-gray-900 mb-2">
@@ -838,7 +838,7 @@ export default function RunwayCureSolePage() {
       {/* 公式スペック */}
       <section id="specs" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
-          ランウェイキュアソールの公式スペック（出典つき）
+          ランウェイキュアソールの公式スペック（出典を併記）
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
           公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年6月12日確認）。公式に記載のない項目は「公式表記なし」としています。
@@ -1089,7 +1089,7 @@ export default function RunwayCureSolePage() {
             </Link>
             <Link href="/articles/runway-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのクーポン・キャンペーン情報</p>
-              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を徹底解説</p>
+              <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を解説</p>
             </Link>
             <Link href="/articles/runway-size-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのサイズ選びガイド</p>

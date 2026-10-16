@@ -6,7 +6,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "スリムアップインソール 長期レビュー検証｜3ヶ月使うとどうなる？",
   description:
-    "スリムアップインソールを3ヶ月使うとどうなる？公式情報と確認できる実レビューをもとに、1週目〜3ヶ月目に起こりやすい変化・耐久性・交換目安を編集部が検証。架空の体験談は掲載せず、期待できること・できないことを正直に解説します。",
+    "スリムアップインソールを3ヶ月使うとどうなる？公式情報と確認できる実レビューをもとに、1週目〜3ヶ月目に起こりやすい変化・耐久性・交換目安を編集部が検証。架空の体験談は掲載せず、期待できること・できないことを客観的に解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/slimup-long-review/",
   },
@@ -149,7 +149,7 @@ export default function SlimupLongReviewPage() {
         </div>
       </section>
 
-      {/* 検証方針（正直な前提） */}
+      {/* 検証方針（検証の前提） */}
       <section className="max-w-4xl mx-auto px-4 mt-2 mb-10">
         <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-amber-700 mb-1">この記事の検証方針</p>
