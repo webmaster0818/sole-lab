@@ -133,7 +133,7 @@ export default function RunwayNotWorkingPage() {
       <section className="bg-gradient-to-b from-red-50 to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm text-[#e8627c] font-medium mb-2">
-            ランウェイキュアソール徹底検証
+            ランウェイキュアソール検証
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ランウェイキュアソールは
@@ -187,7 +187,7 @@ export default function RunwayNotWorkingPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              痩せない原因を分析する前に、ランウェイキュアソールがどのような仕組みで効果を発揮するのかを整理しておきましょう。仕組みを理解していないと、過度な期待や間違った使い方に繋がります。
+              痩せない原因を分析する前に、ランウェイキュアソールがどのような仕組みで効果を発揮するのかを整理しておいてください。仕組みを理解していないと、過度な期待や間違った使い方に繋がります。
             </p>
           </div>
 
@@ -320,7 +320,7 @@ export default function RunwayNotWorkingPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              「痩せない」という不満の多くは、過度な期待に起因しています。ランウェイキュアソールに期待できる効果と、期待すべきでない効果を明確に整理しましょう。
+              「痩せない」という不満の多くは、過度な期待に起因しています。ランウェイキュアソールに期待できる効果と、期待すべきでない効果を明確に整理してください。
             </p>
           </div>
 
@@ -479,7 +479,7 @@ export default function RunwayNotWorkingPage() {
               {
                 num: "01",
                 title: "最初の1週間は慣らし期間",
-                desc: "初めて使う場合、いきなり1日中履くのではなく、最初は2〜3時間から始めましょう。足裏が慣れてから徐々に使用時間を延ばします。足裏の筋肉痛は正しくアーチが刺激されている証拠です。1週間ほどで違和感がなくなります。",
+                desc: "初めて使う場合、いきなり1日中履くのではなく、最初は2〜3時間から始めてください。足裏が慣れてから徐々に使用時間を延ばします。足裏の筋肉痛は正しくアーチが刺激されている証拠です。1週間ほどで違和感がなくなります。",
               },
               {
                 num: "02",
@@ -489,17 +489,17 @@ export default function RunwayNotWorkingPage() {
               {
                 num: "03",
                 title: "正しい歩き方を意識する",
-                desc: "かかとから着地し、足裏全体で体重を受け止め、つま先で蹴り出す「ローリング歩行」を意識しましょう。ランウェイキュアソールのアーチサポートが正しい歩行を補助してくれますが、意識するとさらに効果が高まります。",
+                desc: "かかとから着地し、足裏全体で体重を受け止め、つま先で蹴り出す「ローリング歩行」を意識してください。ランウェイキュアソールのアーチサポートが正しい歩行を補助してくれますが、意識するとさらに効果が高まります。",
               },
               {
                 num: "04",
                 title: "写真で変化を記録する",
-                desc: "体重計だけでは変化を捉えきれません。同じ角度・同じ服装で週1回写真を撮りましょう。姿勢の変化やボディラインの変化は体重より先に表れることが多く、モチベーション維持に繋がります。",
+                desc: "体重計だけでは変化を捉えきれません。同じ角度・同じ服装で週1回写真を撮ってください。姿勢の変化やボディラインの変化は体重より先に表れることが多く、モチベーション維持に繋がります。",
               },
               {
                 num: "05",
                 title: "3ヶ月は判断を保留する",
-                desc: "「効果なし」と断定するのは最低3ヶ月使ってからにしましょう。1ヶ月目は姿勢の変化、2ヶ月目は歩行の楽さ、3ヶ月目にボディラインの変化が出るのが一般的な流れです。",
+                desc: "「効果なし」と断定するのは最低3ヶ月使ってからにしてください。1ヶ月目は姿勢の変化、2ヶ月目は歩行の楽さ、3ヶ月目にボディラインの変化が出るのが一般的な流れです。",
               },
             ].map((item) => (
               <div key={item.num} className="bg-white border border-gray-200 rounded-xl p-5">
@@ -611,7 +611,7 @@ export default function RunwayNotWorkingPage() {
               ランウェイキュアソールの強みは、薄型で履き心地が良いため「続けやすい」点にあります。エビデンスではピットソールに劣りますが、毎日快適に使い続けられるという点では大きなアドバンテージです。ダイエットインソールは「続けられるかどうか」が最も重要な成功要因です。
             </p>
             <p>
-              まだ迷っている方は、3商品を徹底比較したランキングページもご参照ください。
+              まだ迷っている方は、3商品を比較したランキングページもご参照ください。
             </p>
           </div>
         </div>
@@ -745,7 +745,7 @@ export default function RunwayNotWorkingPage() {
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <Link href="/runway-cure-sole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールの口コミ・効果を徹底検証</p>
+              <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールの口コミ・効果を検証</p>
               <p className="text-xs text-gray-500 mt-1">3点アーチサポートの仕組みから最安値情報まで詳しく解説</p>
             </Link>
             <Link href="/articles/runway-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
@@ -757,7 +757,7 @@ export default function RunwayNotWorkingPage() {
               <p className="text-xs text-gray-500 mt-1">外反母趾でも使える？サイズ別フィッティング解説</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
           </div>

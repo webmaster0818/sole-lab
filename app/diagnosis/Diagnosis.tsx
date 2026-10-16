@@ -54,9 +54,9 @@ const RELATED: Record<Key, { href: string; label: string }[]> = {
 
 // 1位×2位の組み合わせ→比較ページ（併用・比較のCV接点）
 const COMPARE: Record<string, { href: string; label: string }> = {
-  "pitsole|runway": { href: "/compare/pitsole-vs-runway/", label: "ピットソール × ランウェイを徹底比較" },
-  "pitsole|slimup": { href: "/compare/pitsole-vs-slimup/", label: "ピットソール × スリムアップを徹底比較" },
-  "runway|slimup": { href: "/compare/runway-vs-slimup/", label: "ランウェイ × スリムアップを徹底比較" },
+  "pitsole|runway": { href: "/compare/pitsole-vs-runway/", label: "ピットソール × ランウェイを比較" },
+  "pitsole|slimup": { href: "/compare/pitsole-vs-slimup/", label: "ピットソール × スリムアップを比較" },
+  "runway|slimup": { href: "/compare/runway-vs-slimup/", label: "ランウェイ × スリムアップを比較" },
 };
 
 const SECOND_REASON: Record<Key, string> = {

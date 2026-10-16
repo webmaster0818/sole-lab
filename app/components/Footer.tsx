@@ -9,8 +9,8 @@ export default function Footer() {
           <div>
             <p className="text-lg font-bold mb-2">ソールラボ</p>
             <p className="text-sm text-pink-200 leading-relaxed">
-              ダイエットインソールを実際に比較し、
-              検証結果にもとづく情報を掲載するレビューサイトです。
+              ダイエットインソールを、公式情報と
+              実在の口コミをもとに比較する情報サイトです。
             </p>
           </div>
 

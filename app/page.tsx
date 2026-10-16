@@ -4,8 +4,8 @@ import Image from "next/image";
 import OfficialCTA from "./components/OfficialCTA";
 
 export const metadata: Metadata = {
-  title: "ダイエットインソール比較｜人気3商品の口コミ・効果・最安値を徹底比較【2026年】",
-  description: "ダイエットインソール3商品（ピットソール・ランウェイキュアソール・スリムアップインソール）の口コミ・効果・料金を徹底比較。あなたにぴったりのダイエットインソールが見つかるレビューサイトです。",
+  title: "ダイエットインソール比較｜人気3商品の口コミ・効果・最安値を比較【2026年】",
+  description: "ダイエットインソール3商品（ピットソール・ランウェイキュアソール・スリムアップインソール）の口コミ・効果・料金を比較。あなたにぴったりのダイエットインソールが見つかるレビューサイトです。",
   alternates: {
     canonical: "https://sole-laboratory.com/",
   },
@@ -46,9 +46,9 @@ const products = [
 
 const reasons = [
   {
-    title: "実際に比較",
+    title: "公開情報で比較",
     description:
-      "3つのダイエットインソールを項目ごとに徹底比較。構造・効果・価格をわかりやすく整理しています。",
+      "3つのダイエットインソールを項目ごとに比較。構造・効果・価格をわかりやすく整理しています。",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
@@ -140,7 +140,7 @@ export default function Home() {
             <p className="text-gray-600 text-sm md:text-base max-w-lg mx-auto md:mx-0 mb-8 leading-relaxed">
               忙しい毎日でも、いつもの靴に入れるだけ。
               <br className="hidden md:block" />
-              人気のダイエットインソール3商品を徹底比較して、
+              人気のダイエットインソール3商品を比較して、
               <br className="hidden md:block" />
               あなたにぴったりの一足を見つけてください。
             </p>

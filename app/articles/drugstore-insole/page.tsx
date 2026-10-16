@@ -78,7 +78,7 @@ export default function DrugstorePage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドラッグストアや薬局では、足の痛み・疲れ・外反母趾・かかとケア向けなど、症状対応の汎用インソールが手に入ります。すぐ買えて実物を確認できるのがメリットです。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方、ダイエットインソールは足元を安定させ姿勢・歩き方を整える専用設計です。市販品は痛み・疲れ対策には向きますが、ボディメイクを狙うなら専用品のほうが目的に合います。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">店頭で見かけるインソールは、大きく分けて次のようなタイプがあります。靴のサイズ・フィット感を微調整する簡易タイプ、長時間の立ち仕事や歩行の衝撃をやわらげるクッション・低反発タイプ、土踏まずを支えるアーチサポートタイプ、消臭・抗菌や保温など機能特化タイプなどです。価格はタイプや素材によって幅があり、シンプルなものほど手頃、機能が増えるほど高くなる傾向があります。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">選ぶ際は、まず使う靴のサイズに合っているか、カット調整が必要か、目的（痛み対策か・疲れ対策か・サイズ調整か）に合っているかを確認しましょう。具体的な商品名や価格は時期や店舗で変わるため、店頭の表示や各メーカーの公式サイトでの確認をおすすめします。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">選ぶ際は、まず使う靴のサイズに合っているか、カット調整が必要か、目的（痛み対策か・疲れ対策か・サイズ調整か）に合っているかをご確認ください。具体的な商品名や価格は時期や店舗で変わるため、店頭の表示や各メーカーの公式サイトでの確認をおすすめします。</p>
         </section>
 
         <section className="mb-12">
@@ -118,7 +118,7 @@ export default function DrugstorePage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">目的別の選び方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足の痛みや疲れをすぐ何とかしたいならドラッグストアの汎用品が手軽です。姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選びましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足の痛みや疲れをすぐ何とかしたいならドラッグストアの汎用品が手軽です。姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選ぶことをおすすめします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">症状が強い・長引く場合は、市販品で様子を見るより整形外科の受診を優先してください。</p>
         </section>
 
@@ -136,7 +136,7 @@ export default function DrugstorePage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

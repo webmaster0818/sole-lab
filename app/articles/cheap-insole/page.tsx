@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "ダイエットインソールの安いおすすめ比較｜コスパ重視で選ぶ",
   description:
-    "ダイエットインソールを安く買いたい方向けに、コスパ最強の製品を徹底比較。セット割引・1足あたりの価格比較、安いインソールのメリット・デメリット、100均インソールとの違いを解説。",
+    "ダイエットインソールを安く買いたい方向けに、コスパ最強の製品を比較。セット割引・1足あたりの価格比較、安いインソールのメリット・デメリット、100均インソールとの違いを解説。",
   openGraph: { images: ["/og-default.png"],
     title:
       "ダイエットインソールの安いおすすめ比較｜コスパ重視で選ぶ｜ソールラボ",
@@ -27,7 +27,7 @@ const structuredData = {
   headline:
     "ダイエットインソールの安いおすすめ比較｜コスパ重視で選ぶ",
   description:
-    "ダイエットインソールを安く買いたい方向けに、コスパ最強の製品を徹底比較。",
+    "ダイエットインソールを安く買いたい方向けに、コスパ最強の製品を比較。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -143,7 +143,7 @@ export default function CheapInsolePage() {
             ｜コスパ重視で選ぶ
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            ダイエットインソールをできるだけ安く購入したい方向けに、主要3製品の価格を徹底比較。セット割引での1足あたり価格ランキング、100均インソールとの違い、コスパ最強の購入方法を解説します。
+            ダイエットインソールをできるだけ安く購入したい方向けに、主要3製品の価格を比較。セット割引での1足あたり価格ランキング、100均インソールとの違い、コスパ最強の購入方法を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-amber-100 text-[#c9a76c] px-3 py-1 rounded-full font-medium">
@@ -326,7 +326,7 @@ export default function CheapInsolePage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-[#c9a76c]">結論：</span>
-              100均インソールは「靴のサイズ調整」や「簡易的なクッション」としては使えますが、ダイエット効果や姿勢矯正効果は一切ありません。目的が異なる全く別のカテゴリの商品です。ダイエット目的なら、アーチサポート設計の専用インソールを選びましょう。
+              100均インソールは「靴のサイズ調整」や「簡易的なクッション」としては使えますが、ダイエット効果や姿勢矯正効果は一切ありません。目的が異なる全く別のカテゴリの商品です。ダイエット目的なら、アーチサポート設計の専用インソールを選ぶことをおすすめします。
             </p>
           </div>
         </div>
@@ -347,7 +347,7 @@ export default function CheapInsolePage() {
               },
               {
                 title: "偽物・コピー品のリスク",
-                desc: "人気製品の偽物やコピー品がフリマサイトやECモールで出回っています。正規品より安い価格で出品されていますが、アーチサポートが正確に再現されておらず、効果は期待できません。必ず公式サイトや正規販売店から購入しましょう。",
+                desc: "人気製品の偽物やコピー品がフリマサイトやECモールで出回っています。正規品より安い価格で出品されていますが、アーチサポートが正確に再現されておらず、効果は期待できません。必ず公式サイトや正規販売店から購入してください。",
               },
               {
                 title: "「安い=コスパが良い」ではない",
@@ -554,7 +554,7 @@ export default function CheapInsolePage() {
               <p className="text-xs text-gray-500 mt-1">3足+1足プレゼントの詳細と購入方法</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
           </div>

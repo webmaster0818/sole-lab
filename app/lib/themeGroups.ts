@@ -133,7 +133,7 @@ export const themeGroups: { name: string; items: ThemeItem[] }[] = [
       },
       {
         "href": "/articles/100kin-vs-pro/",
-        "title": "100均インソール vs 高機能インソール徹底比較テスト"
+        "title": "100均インソール vs 高機能インソール比較テスト"
       }
     ]
   },

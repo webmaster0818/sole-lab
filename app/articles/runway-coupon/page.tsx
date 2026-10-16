@@ -46,12 +46,12 @@ const faqs = [
   {
     question: "ランウェイキュアソールを最安値で買うにはどうすればいいですか？",
     answer:
-      "最安値で購入するなら公式サイトのセット割引がおすすめです。3足セット（17,960円）なら1足あたり約5,987円です。楽天やAmazonはポイント還元がありますが、本体価格は公式サイトより高い場合が多いため、ポイント還元を含めた実質価格で比較しましょう。",
+      "最安値で購入するなら公式サイトのセット割引がおすすめです。3足セット（17,960円）なら1足あたり約5,987円です。楽天やAmazonはポイント還元がありますが、本体価格は公式サイトより高い場合が多いため、ポイント還元を含めた実質価格で比較することをおすすめします。",
   },
   {
     question: "楽天やAmazonで買ったランウェイキュアソールは正規品ですか？",
     answer:
-      "楽天やAmazonにも正規の販売チャネルがある場合があります。ただし、非正規の出品者が類似品を販売しているケースも報告されています。販売元が正規取扱店かどうかを必ず確認し、極端に安い出品者は避けましょう。確実に正規品を購入するには公式サイトが最も安全です。",
+      "楽天やAmazonにも正規の販売チャネルがある場合があります。ただし、非正規の出品者が類似品を販売しているケースも報告されています。販売元が正規取扱店かどうかを必ず確認し、極端に安い出品者は避けてください。確実に正規品を購入するには公式サイトが最も安全です。",
   },
   {
     question: "ランウェイキュアソールのセット割引は何足セットがお得ですか？",
@@ -193,7 +193,7 @@ export default function RunwayCouponPage() {
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            公式サイトのセット割引を徹底比較
+            公式サイトのセット割引を比較
           </h2>
 
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
@@ -437,7 +437,7 @@ export default function RunwayCouponPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              ランウェイキュアソールの人気が高まるにつれ、フリマサイトやECモールでの偽物・コピー品の出品が増えています。以下のポイントで正規品かどうかを見分けましょう。
+              ランウェイキュアソールの人気が高まるにつれ、フリマサイトやECモールでの偽物・コピー品の出品が増えています。以下のポイントで正規品かどうかを見分けてください。
             </p>
           </div>
 
@@ -617,7 +617,7 @@ export default function RunwayCouponPage() {
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <Link href="/runway-cure-sole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールの口コミ・効果を徹底検証</p>
+              <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールの口コミ・効果を検証</p>
               <p className="text-xs text-gray-500 mt-1">3点アーチサポートの仕組みから最安値情報まで詳しく解説</p>
             </Link>
             <Link href="/articles/runway-not-working/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
@@ -629,7 +629,7 @@ export default function RunwayCouponPage() {
               <p className="text-xs text-gray-500 mt-1">外反母趾でも使える？サイズ別フィッティング解説</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
           </div>

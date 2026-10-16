@@ -7,12 +7,12 @@ import VerificationNote from "../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
-    "ピットソールの口コミ・評判を徹底検証｜悪い口コミと効果の実態【2026年10月】",
+    "ピットソールの口コミ・評判を検証｜悪い口コミと効果の実態【2026年10月】",
   description:
-    "ピットソール(Pitsole)の口コミ・評判を徹底調査。知恵袋などQ&Aサイトで多い「痩せない？怪しい？」という疑問の真相、効果の仕組み、最安値情報、偽物の見分け方まで。楽天公式店3.98（451件）・4.11（679件）、ダイエットカフェ2.6/5の公開データをもとにレビュー。",
+    "ピットソール(Pitsole)の口コミ・評判を調査。知恵袋などQ&Aサイトで多い「痩せない？怪しい？」という疑問の真相、効果の仕組み、最安値情報、偽物の見分け方まで。楽天公式店3.98（451件）・4.11（679件）、ダイエットカフェ2.6/5の公開データをもとにレビュー。",
   openGraph: { images: ["/og-default.png"],
-    title: "ピットソールの口コミ・評判を徹底検証｜悪い口コミと効果の実態【2026年10月】｜ソールラボ",
-    description: "ピットソール(Pitsole)の口コミ・評判を徹底調査。悪い口コミ「痩せない」の真相から最安値情報まで。",
+    title: "ピットソールの口コミ・評判を検証｜悪い口コミと効果の実態【2026年10月】｜ソールラボ",
+    description: "ピットソール(Pitsole)の口コミ・評判を調査。悪い口コミ「痩せない」の真相から最安値情報まで。",
     url: "https://sole-laboratory.com/pitsole/",
     type: "article",
   },
@@ -25,9 +25,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ピットソールの口コミ・評判を徹底検証｜悪い口コミと効果の実態【2026年10月】",
+    "ピットソールの口コミ・評判を検証｜悪い口コミと効果の実態【2026年10月】",
   description:
-    "ピットソール(Pitsole)の口コミ・評判を徹底調査。悪い口コミ・良い口コミの両面から効果を検証し、最安値情報や偽物の見分け方まで解説。",
+    "ピットソール(Pitsole)の口コミ・評判を調査。悪い口コミ・良い口コミの両面から効果を検証し、最安値情報や偽物の見分け方まで解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -63,7 +63,7 @@ const faqStructuredData = {
       name: "ピットソールの類似品と偽物はどう違いますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "偽物は正規品を装った偽造・転売品で、類似品は別ブランドの形状が似たインソール（100均・ワークマン・TENTIALなど）です。類似品は違法ではありませんが、ピットソールの臨床データに基づく設計や正規ルートのサポートは適用されません。比較検討する場合は、各製品が何を根拠にしているかを確認してから選びましょう。",
+        text: "偽物は正規品を装った偽造・転売品で、類似品は別ブランドの形状が似たインソール（100均・ワークマン・TENTIALなど）です。類似品は違法ではありませんが、ピットソールの臨床データに基づく設計や正規ルートのサポートは適用されません。比較検討する場合は、各製品が何を根拠にしているかを確認してから選ぶことをおすすめします。",
       },
     },
     {
@@ -189,7 +189,7 @@ const faqs = [
   {
     question: "ピットソールの類似品と偽物はどう違いますか？",
     answer:
-      "偽物は正規品を装った偽造・転売品で、類似品は別ブランドの形状が似たインソール（100均・ワークマン・TENTIALなど）です。類似品は違法ではありませんが、ピットソールの臨床データに基づく設計や正規ルートのサポートは適用されません。比較検討する場合は、各製品が何を根拠にしているかを確認してから選びましょう。",
+      "偽物は正規品を装った偽造・転売品で、類似品は別ブランドの形状が似たインソール（100均・ワークマン・TENTIALなど）です。類似品は違法ではありませんが、ピットソールの臨床データに基づく設計や正規ルートのサポートは適用されません。比較検討する場合は、各製品が何を根拠にしているかを確認してから選ぶことをおすすめします。",
   },
   {
     question: "サイズが合わない場合は交換できますか？",
@@ -237,7 +237,7 @@ export default function PitsolePage() {
             "@type": "BreadcrumbList",
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "トップ", "item": "https://sole-laboratory.com/" },
-              { "@type": "ListItem", "position": 2, "name": "ピットソールの口コミ・効果を徹底検証", "item": "https://sole-laboratory.com/pitsole/" }
+              { "@type": "ListItem", "position": 2, "name": "ピットソールの口コミ・効果を検証", "item": "https://sole-laboratory.com/pitsole/" }
             ]
           }),
         }}
@@ -269,12 +269,12 @@ export default function PitsolePage() {
             レビュー記事
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            ピットソールの口コミ・効果を徹底検証
+            ピットソールの口コミ・効果を検証
             <br />
             <span className="text-[#0ea5e9]">累計200万足</span>の実力とは？
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            世界特許取得のインソール「Pitsole（ピットソール）」の口コミ・評判を徹底調査。
+            世界特許取得のインソール「Pitsole（ピットソール）」の口コミ・評判を調査。
             「痩せない」という悪い口コミの真相から、効果の仕組み、最安値情報、偽物の見分け方まで、公式情報と実在の口コミ集計をもとにレビューします。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
@@ -414,7 +414,7 @@ export default function PitsolePage() {
             ピットソールの悪い口コミ・評判
           </h2>
           <p className="text-sm text-gray-500 mb-6">
-            まずはネガティブな傾向から確認しましょう（出典を確認できた実在レビューサイトの傾向のみを掲載し、個別レビューの転載・創作はしていません）
+            まずはネガティブな傾向からご確認ください（出典を確認できた実在レビューサイトの傾向のみを掲載し、個別レビューの転載・創作はしていません）
           </p>
           <div className="space-y-4">
             {badReviewTrends.map((review) => (
@@ -828,7 +828,7 @@ export default function PitsolePage() {
                     <span className="font-medium text-gray-900">
                       普段の靴のサイズを基準に選ぶ。
                     </span>
-                    足の実寸ではなく、いつも履いている靴のサイズで選びましょう。
+                    足の実寸ではなく、いつも履いている靴のサイズで選ぶことをおすすめします。
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -1184,7 +1184,7 @@ export default function PitsolePage() {
             </Link>
             <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソール vs スリムアップ比較</p>
-              <p className="text-xs text-gray-500 mt-1">効果・価格・口コミで徹底比較</p>
+              <p className="text-xs text-gray-500 mt-1">効果・価格・口コミで比較</p>
             </Link>
             <Link href="/articles/pitsole-not-working/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールが効かない？原因と対策を解説</p>
@@ -1192,7 +1192,7 @@ export default function PitsolePage() {
             </Link>
             <Link href="/pitsole/price/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールの最安値・販売店まとめ</p>
-              <p className="text-xs text-gray-500 mt-1">公式・楽天・Amazonを徹底比較</p>
+              <p className="text-xs text-gray-500 mt-1">公式・楽天・Amazonを比較</p>
             </Link>
             <Link href="/articles/pitsole-coupon/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールのクーポン・キャンペーン情報</p>

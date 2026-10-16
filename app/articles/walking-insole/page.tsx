@@ -339,7 +339,7 @@ export default function WalkingInsolePage() {
               {
                 num: "01",
                 title: "サイズのフィット感を最優先",
-                desc: "ウォーキングでは長距離を歩くため、サイズが合っていないと靴ずれや足の痛みが発生します。試し履きの感覚で最初は短時間から使い、足裏にフィットしているか確認しましょう。",
+                desc: "ウォーキングでは長距離を歩くため、サイズが合っていないと靴ずれや足の痛みが発生します。試し履きの感覚で最初は短時間から使い、足裏にフィットしているかご確認ください。",
               },
               {
                 num: "02",
@@ -354,7 +354,7 @@ export default function WalkingInsolePage() {
               {
                 num: "04",
                 title: "耐久性と交換コスト",
-                desc: "ウォーキングで毎日使うと消耗が早いため、セット割引で複数足購入できる製品がおすすめ。3〜6ヶ月ごとの交換を考慮し、1足あたりのコストを計算しましょう。",
+                desc: "ウォーキングで毎日使うと消耗が早いため、セット割引で複数足購入できる製品がおすすめ。3〜6ヶ月ごとの交換を考慮し、1足あたりのコストを計算してください。",
               },
             ].map((item) => (
               <div key={item.num} className="bg-white border border-gray-200 rounded-xl p-5">
@@ -385,7 +385,7 @@ export default function WalkingInsolePage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              インソールを入れるだけでなく、正しい歩き方を意識することで効果が大幅にアップします。以下の5つのポイントを意識してウォーキングしましょう。
+              インソールを入れるだけでなく、正しい歩き方を意識することで効果が大幅にアップします。以下の5つのポイントを意識してウォーキングしてください。
             </p>
           </div>
 
@@ -409,7 +409,7 @@ export default function WalkingInsolePage() {
               },
               {
                 title: "背筋を伸ばして視線は前方へ",
-                desc: "猫背で下を向いて歩くと、インソールの姿勢改善効果が半減します。背筋を伸ばし、10〜15m先を見るイメージで歩きましょう。腕は自然に振ります。",
+                desc: "猫背で下を向いて歩くと、インソールの姿勢改善効果が半減します。背筋を伸ばし、10〜15m先を見るイメージで歩いてください。腕は自然に振ります。",
               },
             ].map((item) => (
               <div key={item.title} className="bg-white border border-gray-200 rounded-xl p-5">
@@ -443,7 +443,7 @@ export default function WalkingInsolePage() {
               {
                 week: "2〜3週目",
                 title: "歩行量を増やす",
-                desc: "1日30分、約3,000〜4,000歩に増加。正しい歩き方を意識しながらペースをつかみましょう。姿勢の変化を感じ始める方も。",
+                desc: "1日30分、約3,000〜4,000歩に増加。正しい歩き方を意識しながらペースをつかんでください。姿勢の変化を感じ始める方も。",
                 color: "border-l-emerald-300",
               },
               {
@@ -531,7 +531,7 @@ export default function WalkingInsolePage() {
               <p className="text-xs text-gray-500 mt-1">失敗しないインソールの選び方ガイド</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
           </div>

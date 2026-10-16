@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "おしゃれな靴に響かない薄型", "b": "デザイン性の高い靴やパンプスにも入る薄型が必須。元の中敷きと入れ替えるタイプが便利です。"}, {"t": "アーチサポートで立ち・歩きを支える", "b": "立ちっぱなしと歩き回りの両方に効くよう、土踏まずをしっかり支える設計を選びましょう。"}, {"t": "前すべりを防ぐフィット感", "b": "ヒールやパンプスでは前すべりで指が痛くなりがち。フィットしてズレにくいものを選ぶと快適です。"}];
+const points = [{"t": "おしゃれな靴に響かない薄型", "b": "デザイン性の高い靴やパンプスにも入る薄型が必須。元の中敷きと入れ替えるタイプが便利です。"}, {"t": "アーチサポートで立ち・歩きを支える", "b": "立ちっぱなしと歩き回りの両方に効くよう、土踏まずをしっかり支える設計を選ぶことをおすすめします。"}, {"t": "前すべりを防ぐフィット感", "b": "ヒールやパンプスでは前すべりで指が痛くなりがち。フィットしてズレにくいものを選ぶと快適です。"}];
 const related = [{"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}, {"href": "/articles/pumps-insole/", "label": "パンプス用インソール"}, {"href": "/articles/hairdresser-insole/", "label": "美容師のインソール"}, {"href": "/articles/swelling-insole/", "label": "むくみ対策インソール"}];
 
 export default function SalesStaffPage() {
@@ -64,7 +64,7 @@ export default function SalesStaffPage() {
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">販売員・アパレル店員の足の疲れにおすすめのインソール</h1>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">接客で立ちっぱなし、店内を歩き回り、時にはヒールやおしゃれな靴で勤務——販売員・アパレル店員さんの足は想像以上に疲れています。見た目に響かない薄型インソールで、立ち仕事の疲れをやわらげましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">接客で立ちっぱなし、店内を歩き回り、時にはヒールやおしゃれな靴で勤務——販売員・アパレル店員さんの足は想像以上に疲れています。見た目に響かない薄型インソールで、立ち仕事の疲れをやわらげてください。</p>
         </header>
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
@@ -123,7 +123,7 @@ export default function SalesStaffPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">おしゃれな靴・パンプスでのインソール選び</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">接客の現場では見た目も大切なので、靴のシルエットを崩さない工夫が選び方のポイントになります。まず重視したいのは厚みです。土踏まずまわりだけ支えて全体は薄く仕上げたタイプなら、パンプスやローファーでも甲がきつくなりにくく、足の入りも自然です。フルサイズで全体に敷くものは衝撃吸収に優れる一方で、フィットの浅い靴ではかかとが浮きやすくなるため、靴の余裕に合わせて選びましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">接客の現場では見た目も大切なので、靴のシルエットを崩さない工夫が選び方のポイントになります。まず重視したいのは厚みです。土踏まずまわりだけ支えて全体は薄く仕上げたタイプなら、パンプスやローファーでも甲がきつくなりにくく、足の入りも自然です。フルサイズで全体に敷くものは衝撃吸収に優れる一方で、フィットの浅い靴ではかかとが浮きやすくなるため、靴の余裕に合わせて選ぶことをおすすめします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">長時間の接客では汗による蒸れやにおいも気になりやすいので、消臭・抗菌の加工や通気性のある素材だと一日を快適に過ごしやすくなります。色は黒やベージュなど靴の内側になじむものを選ぶと、脱いだときにも目立ちにくく安心です。表面が起毛や合皮のものは足が前にすべりにくく、ヒールでの指の痛み対策にもつながります。</p>
         </section>
 
@@ -147,7 +147,7 @@ export default function SalesStaffPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">おしゃれな靴のままで足の疲れを軽減。薄型インソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">おしゃれな靴のままで足の疲れを軽減。薄型インソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

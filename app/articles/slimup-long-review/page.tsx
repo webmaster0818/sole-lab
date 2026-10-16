@@ -268,7 +268,7 @@ export default function SlimupLongReviewPage() {
                 装着直後：接地感の変化
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                フラットな純正インソールから切り替えると、土踏まず部分が支えられる感覚をはっきり感じやすくなります。この段階の変化は「サポートを感じるか」「痛みや強い違和感がないか」の確認が目的です。サイズが合っていないと効果以前の問題になるため、まずフィット感をチェックしましょう。
+                フラットな純正インソールから切り替えると、土踏まず部分が支えられる感覚をはっきり感じやすくなります。この段階の変化は「サポートを感じるか」「痛みや強い違和感がないか」の確認が目的です。サイズが合っていないと効果以前の問題になるため、まずフィット感をチェックしてください。
               </p>
             </div>
 
@@ -293,7 +293,7 @@ export default function SlimupLongReviewPage() {
 
           <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              1週目のポイント：焦らず慣らすことが最優先。違和感は徐々に薄れるのが通常ですが、痛みが続く場合はサイズ・靴との相性を見直しましょう。
+              1週目のポイント：焦らず慣らすことが最優先。違和感は徐々に薄れるのが通常ですが、痛みが続く場合はサイズ・靴との相性を見直してください。
             </p>
           </div>
         </section>
@@ -319,7 +319,7 @@ export default function SlimupLongReviewPage() {
             歩行量の変化
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            長期使用の成果を左右する最大の要因は歩行量です。スマホや歩数計で1日の歩数を記録し、開始前より歩く機会が増えているかを確認しましょう。歩行量が変わっていなければ、体型面の変化を期待する根拠は乏しくなります。歩き方の質については<Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">効果的な歩き方の記事</Link>も参考になります。
+            長期使用の成果を左右する最大の要因は歩行量です。スマホや歩数計で1日の歩数を記録し、開始前より歩く機会が増えているかをご確認ください。歩行量が変わっていなければ、体型面の変化を期待する根拠は乏しくなります。歩き方の質については<Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">効果的な歩き方の記事</Link>も参考になります。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5">
@@ -410,7 +410,7 @@ export default function SlimupLongReviewPage() {
                 チェックポイント2：アーチサポートのヘタリ
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                最も重要なのはアーチ部分の形状維持です。土踏まずの支えが明らかに弱くなった、アーチが潰れて平らに近づいたと感じたら、本来の機能を発揮できないため交換を検討しましょう。
+                最も重要なのはアーチ部分の形状維持です。土踏まずの支えが明らかに弱くなった、アーチが潰れて平らに近づいたと感じたら、本来の機能を発揮できないため交換をご検討ください。
               </p>
             </div>
 
@@ -489,7 +489,7 @@ export default function SlimupLongReviewPage() {
                 歩行量を意識的に増やす
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                インソールは歩行の質を高めるツールであり、歩かなければ検証のしようがありません。歩数の目標を決めて記録し、通勤で一駅歩く、昼休みに歩くなど、歩く機会を意識的に作りましょう。
+                インソールは歩行の質を高めるツールであり、歩かなければ検証のしようがありません。歩数の目標を決めて記録し、通勤で一駅歩く、昼休みに歩くなど、歩く機会を意識的に作ってください。
               </p>
             </div>
 
@@ -516,7 +516,7 @@ export default function SlimupLongReviewPage() {
                 交換時期を見逃さない
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                ヘタったインソールを使い続けると本来のサポートが得られません。3〜6ヶ月を目安に状態をチェックし、アーチのヘタリやクッション性の低下が見られたら交換しましょう。価格・購入方法は<Link href="/slim-up-insole/price/" className="text-[#0ea5e9] hover:underline">料金ページ</Link>で確認できます。
+                ヘタったインソールを使い続けると本来のサポートが得られません。3〜6ヶ月を目安に状態をチェックし、アーチのヘタリやクッション性の低下が見られたら交換してください。価格・購入方法は<Link href="/slim-up-insole/price/" className="text-[#0ea5e9] hover:underline">料金ページ</Link>で確認できます。
               </p>
             </div>
           </div>

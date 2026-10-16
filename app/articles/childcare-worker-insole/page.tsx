@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-13",
 };
 
-const faqs = [{"q": "園内の上履きにも入れられますか？", "a": "薄型のインソールなら多くの上履きに入ります。中が浅い場合は元の中敷きを外す、カットできるタイプでサイズを合わせるなどの工夫をすると窮屈になりにくい傾向があります。"}, {"q": "抱っこで腰がつらいのですが、インソールで楽になりますか？", "a": "インソールは足元を安定させて姿勢のブレを減らすことで、腰への負担を間接的に減らす補助になります。膝を使った抱き上げ方との併用が大切で、痛みが強い場合は受診を優先してください。"}, {"q": "外遊びで走ることが多くてもズレませんか？", "a": "フィット感のあるインソールを正しいサイズで入れればズレにくい傾向があります。靴の中で動く場合はカットで調整するか、足に直接装着するソックス型を検討しましょう。"}];
+const faqs = [{"q": "園内の上履きにも入れられますか？", "a": "薄型のインソールなら多くの上履きに入ります。中が浅い場合は元の中敷きを外す、カットできるタイプでサイズを合わせるなどの工夫をすると窮屈になりにくい傾向があります。"}, {"q": "抱っこで腰がつらいのですが、インソールで楽になりますか？", "a": "インソールは足元を安定させて姿勢のブレを減らすことで、腰への負担を間接的に減らす補助になります。膝を使った抱き上げ方との併用が大切で、痛みが強い場合は受診を優先してください。"}, {"q": "外遊びで走ることが多くてもズレませんか？", "a": "フィット感のあるインソールを正しいサイズで入れればズレにくい傾向があります。靴の中で動く場合はカットで調整するか、足に直接装着するソックス型をご検討ください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "抱っこの荷重を分散するアーチサポート", "b": "子どもの体重が加わったぶん、足裏への荷重は普段より増えます。土踏まずをしっかり支えて荷重を足裏全体に分散できる設計を選びましょう。"}, {"t": "しゃがむ・立つ・走るを支える安定性", "b": "立ち上がりや急な動き出しでは足元の踏ん張りが要になります。かかとが安定し、力を入れたときにブレにくいものが向いています。"}, {"t": "上履き・外履きそれぞれで使えること", "b": "園内は上履き、園庭ではスニーカーと、保育士は履き替えが多い仕事です。薄型なら上履きにも入り、カットできるタイプならどちらの靴にも合わせやすくなります。"}];
+const points = [{"t": "抱っこの荷重を分散するアーチサポート", "b": "子どもの体重が加わったぶん、足裏への荷重は普段より増えます。土踏まずをしっかり支えて荷重を足裏全体に分散できる設計を選ぶことをおすすめします。"}, {"t": "しゃがむ・立つ・走るを支える安定性", "b": "立ち上がりや急な動き出しでは足元の踏ん張りが要になります。かかとが安定し、力を入れたときにブレにくいものが向いています。"}, {"t": "上履き・外履きそれぞれで使えること", "b": "園内は上履き、園庭ではスニーカーと、保育士は履き替えが多い仕事です。薄型なら上履きにも入り、カットできるタイプならどちらの靴にも合わせやすくなります。"}];
 const related = [{"href": "/articles/care-worker-insole/", "label": "介護士のインソール"}, {"href": "/articles/nurse-insole/", "label": "看護師のインソール"}, {"href": "/articles/teacher-insole/", "label": "教員・先生のインソール"}, {"href": "/articles/back-pain/", "label": "腰痛のインソール対策"}];
 
 export default function ChildcareWorkerPage() {
@@ -64,7 +64,7 @@ export default function ChildcareWorkerPage() {
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">保育士におすすめのインソール｜抱っこと中腰の足腰負担対策</h1>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">子どもを抱っこしたまま動き、目線を合わせるためにしゃがんでは立ち上がり、園庭では全力で追いかける——保育士の一日は、立ち仕事という言葉だけでは語れない動きの連続です。抱っこのぶん増える荷重と、しゃがむ・立つの繰り返しに、足元から備えましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">子どもを抱っこしたまま動き、目線を合わせるためにしゃがんでは立ち上がり、園庭では全力で追いかける——保育士の一日は、立ち仕事という言葉だけでは語れない動きの連続です。抱っこのぶん増える荷重と、しゃがむ・立つの繰り返しに、足元から備えてください。</p>
         </header>
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
@@ -115,7 +115,7 @@ export default function ChildcareWorkerPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">抱っこと中腰から腰を守る使い方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは足元の土台を安定させる補助です。抱っこや抱き上げのときは、腰だけで持ち上げず膝を曲げて重心を低くする動作と組み合わせると、腰への負担をより減らせます。中腰姿勢が続いたあとは、軽く伸びをして姿勢をリセットしましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは足元の土台を安定させる補助です。抱っこや抱き上げのときは、腰だけで持ち上げず膝を曲げて重心を低くする動作と組み合わせると、腰への負担をより減らせます。中腰姿勢が続いたあとは、軽く伸びをして姿勢をリセットしてください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">外遊び用のスニーカーは、クッション性のあるものを選ぶとインソールとの相乗効果が出ます。足裏・膝・腰の痛みが続く場合は、無理を重ねる前に整形外科で相談してください。</p>
         </section>
 
@@ -133,7 +133,7 @@ export default function ChildcareWorkerPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">抱っこ・中腰・追いかけっこの毎日に。足元から支えるインソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">抱っこ・中腰・追いかけっこの毎日に。足元から支えるインソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

@@ -66,7 +66,7 @@ const articleStructuredData = {
   headline:
     "スリムアップインソールの最安値・販売店情報【2026年】",
   description:
-    "スリムアップインソールの最安値・販売店情報を徹底調査。公式サイト・楽天・Amazon・Yahooの価格比較やお得なセット購入を解説。",
+    "スリムアップインソールの最安値・販売店情報を調査。公式サイト・楽天・Amazon・Yahooの価格比較やお得なセット購入を解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -151,7 +151,7 @@ export default function SlimUpInsolePricePage() {
       <section className="bg-gradient-to-b from-emerald-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-emerald-600 font-semibold mb-3">
-            2026年4月最新版 ・ 価格徹底調査
+            2026年4月最新版 ・ 価格調査
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             スリムアップインソールの
@@ -161,7 +161,7 @@ export default function SlimUpInsolePricePage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             美容整体師・井上剛志監修のスリムアップインソールをどこで買うのが一番お得か、
             <br className="hidden md:block" />
-            公式サイト・楽天・Amazon・Yahoo!の価格を徹底比較しました。
+            公式サイト・楽天・Amazon・Yahoo!の価格を比較しました。
           </p>
         </div>
       </section>
@@ -418,7 +418,7 @@ export default function SlimUpInsolePricePage() {
 
         <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
           公式サイト以外の大手ECモールでも購入できます。
-          それぞれの特徴を比較してみましょう。
+          それぞれの特徴を比較してんでください。
         </p>
 
         <div className="space-y-4 mb-6">
@@ -525,7 +525,7 @@ export default function SlimUpInsolePricePage() {
 
         <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
           スリムアップインソールは毎日使用するもの。インソールの寿命（3〜6ヶ月）を考えると、
-          交換用を含めてまとめ買いするのが賢い選択です。セットごとの価格を詳しく見てみましょう。
+          交換用を含めてまとめ買いするのが賢い選択です。セットごとの価格を詳しく見てんでください。
         </p>
 
         <div className="space-y-4 mb-8">
@@ -772,7 +772,7 @@ export default function SlimUpInsolePricePage() {
               href="/slim-up-insole/"
               className="text-emerald-600 hover:text-emerald-700 underline transition-colors font-semibold"
             >
-              スリムアップインソールの口コミ・効果を徹底検証
+              スリムアップインソールの口コミ・効果を検証
             </Link>
             のページで詳しく解説しています。
           </p>

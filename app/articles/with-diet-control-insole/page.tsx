@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "毎日の歩行を楽にするアーチサポート", "b": "食事管理と並行して活動量を保つには、日常の歩行が苦にならないことが大切。土踏まずを支えて疲れにくくする設計を選びましょう。"}, {"t": "通勤・買い物で使える汎用性", "b": "特別な運動でなく、通勤や買い物といった日常動作で履けるタイプだと活動量を無理なく増やせます。普段の靴に合うものを。"}, {"t": "一日を通して疲れにくいクッション", "b": "活動量を保つには、夕方に足が疲れすぎないことが重要です。衝撃を吸収するクッション性のあるものが向いています。"}];
+const points = [{"t": "毎日の歩行を楽にするアーチサポート", "b": "食事管理と並行して活動量を保つには、日常の歩行が苦にならないことが大切。土踏まずを支えて疲れにくくする設計を選ぶことをおすすめします。"}, {"t": "通勤・買い物で使える汎用性", "b": "特別な運動でなく、通勤や買い物といった日常動作で履けるタイプだと活動量を無理なく増やせます。普段の靴に合うものを。"}, {"t": "一日を通して疲れにくいクッション", "b": "活動量を保つには、夕方に足が疲れすぎないことが重要です。衝撃を吸収するクッション性のあるものが向いています。"}];
 const related = [{"href": "/articles/diet-period-insole/", "label": "ダイエットで効果が出る期間"}, {"href": "/articles/walking-diet/", "label": "ウォーキングダイエットとインソール"}, {"href": "/articles/metabolism-insole/", "label": "代謝とインソールの関係"}, {"href": "/articles/diet-mechanism/", "label": "ダイエットインソールの仕組み"}];
 
 export default function WithDietControlPage() {
@@ -70,7 +70,7 @@ export default function WithDietControlPage() {
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">体重を動かす主役は食事管理（摂取エネルギーの調整）です。インソールは痩せる器具ではありませんが、足元を整えて『歩くのが億劫になりにくい』状態をつくり、日常の活動量を保つ後押しになります。食事を整えたうえで活動を支える補助、と位置づけましょう。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">体重を動かす主役は食事管理（摂取エネルギーの調整）です。インソールは痩せる器具ではありませんが、足元を整えて『歩くのが億劫になりにくい』状態をつくり、日常の活動量を保つ後押しになります。食事を整えたうえで活動を支える補助、と位置づけてください。</p>
         </div>
 
         <section className="mb-12">
@@ -134,7 +134,7 @@ export default function WithDietControlPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">食事管理を主役に、日常の活動を支える足元づくり。アーチを支えるインソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">食事管理を主役に、日常の活動を支える足元づくり。アーチを支えるインソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

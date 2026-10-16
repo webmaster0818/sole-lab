@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "立位種目で足元が安定する設計", "b": "スクワットやランジなど立って行う種目では、足裏が安定していると重心を意識しやすくなります。土踏まずをしっかり支えるアーチサポート付きを選びましょう。"}, {"t": "普段履きに入る汎用性", "b": "効果を生むのは継続です。トレーニング前後の移動や日常の歩行でも履ける、スニーカーに合う汎用タイプだと使う機会が増えます。"}, {"t": "長時間でも疲れにくいクッション", "b": "ジムへの行き帰りや立ち仕事と兼用するなら、衝撃を吸収するクッション性があると一日を通して足が疲れにくくなります。"}];
+const points = [{"t": "立位種目で足元が安定する設計", "b": "スクワットやランジなど立って行う種目では、足裏が安定していると重心を意識しやすくなります。土踏まずをしっかり支えるアーチサポート付きを選ぶことをおすすめします。"}, {"t": "普段履きに入る汎用性", "b": "効果を生むのは継続です。トレーニング前後の移動や日常の歩行でも履ける、スニーカーに合う汎用タイプだと使う機会が増えます。"}, {"t": "長時間でも疲れにくいクッション", "b": "ジムへの行き帰りや立ち仕事と兼用するなら、衝撃を吸収するクッション性があると一日を通して足が疲れにくくなります。"}];
 const related = [{"href": "/articles/gym-training-insole/", "label": "ジム・筋トレ用インソール"}, {"href": "/articles/sports-vs-diet/", "label": "スポーツとダイエットのインソール"}, {"href": "/articles/metabolism-insole/", "label": "代謝とインソールの関係"}, {"href": "/articles/diet-mechanism/", "label": "ダイエットインソールの仕組み"}];
 
 export default function WithTrainingPage() {
@@ -134,7 +134,7 @@ export default function WithTrainingPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">足元を安定させて運動と日常の質を高める。アーチを支えるインソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">足元を安定させて運動と日常の質を高める。アーチを支えるインソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

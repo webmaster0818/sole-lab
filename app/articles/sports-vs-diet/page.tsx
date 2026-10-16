@@ -4,19 +4,19 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方",
-  description: "スポーツインソールとダイエットインソールの違いを徹底比較。設計思想、素材、機能、効果の違いから目的に合った選び方を解説。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
+  description: "スポーツインソールとダイエットインソールの違いを比較。設計思想、素材、機能、効果の違いから目的に合った選び方を解説。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
   alternates: { canonical: "https://sole-laboratory.com/articles/sports-vs-diet/" },
-  openGraph: { images: ["/og-default.png"], title: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方", description: "スポーツインソールとダイエットインソールの違いを徹底比較。目的に合った選び方を解説。", url: "https://sole-laboratory.com/articles/sports-vs-diet/", type: "article" },
+  openGraph: { images: ["/og-default.png"], title: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方", description: "スポーツインソールとダイエットインソールの違いを比較。目的に合った選び方を解説。", url: "https://sole-laboratory.com/articles/sports-vs-diet/", type: "article" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方", description: "スポーツインソールとダイエットインソールの違いを徹底比較。目的に合った選び方を解説。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "スポーツインソール vs ダイエットインソール｜目的別の違いと選び方", description: "スポーツインソールとダイエットインソールの違いを比較。目的に合った選び方を解説。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
 
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "スポーツインソールとダイエットインソールの一番の違いは何ですか？", acceptedAnswer: { "@type": "Answer", text: "最大の違いは設計目的です。スポーツインソールは運動時のパフォーマンス向上と怪我予防を目的とし、衝撃吸収と安定性に特化しています。ダイエットインソールは日常歩行での正しい姿勢と筋肉活性化を目的とし、カロリー消費の向上や体型改善に焦点を当てています。" } },
   { "@type": "Question", name: "ダイエットインソールで運動しても大丈夫ですか？", acceptedAnswer: { "@type": "Answer", text: "ウォーキングや軽いジョギング程度であれば問題ありません。ただしハードなランニングや球技などの激しいスポーツには、衝撃吸収性能が不十分な場合があります。激しい運動をする場合はスポーツ専用インソールの使用を推奨します。" } },
   { "@type": "Question", name: "スポーツインソールにダイエット効果はありますか？", acceptedAnswer: { "@type": "Answer", text: "スポーツインソール自体に直接的なダイエット効果はありませんが、快適に運動を継続できる環境を整えることで、間接的にダイエットをサポートします。怪我を予防し運動の継続性を高めることが、長期的なダイエット成功の鍵になります。" } },
   { "@type": "Question", name: "兼用できるインソールはありますか？", acceptedAnswer: { "@type": "Answer", text: "日常歩行からウォーキング、軽いジョギングまで兼用できるインソールはあります。ピットソールのようにアーチサポートと衝撃吸収の両方を備え、姿勢改善効果も持つ製品であれば、日常使いとライトスポーツの両方に対応可能です。" } },
-  { "@type": "Question", name: "初めてインソールを買う場合、スポーツ用とダイエット用どちらから始めるべきですか？", acceptedAnswer: { "@type": "Answer", text: "まずは生活スタイルを考えましょう。日常的に激しいスポーツをする方はスポーツ用から、ダイエットや姿勢改善が主目的で日常歩行がメインの方はダイエット用から始めるのがおすすめです。週3回以上の運動習慣がある方はスポーツ用、それ以外の方はダイエット用が適しています。" } },
+  { "@type": "Question", name: "初めてインソールを買う場合、スポーツ用とダイエット用どちらから始めるべきですか？", acceptedAnswer: { "@type": "Answer", text: "まずは生活スタイルを考えてください。日常的に激しいスポーツをする方はスポーツ用から、ダイエットや姿勢改善が主目的で日常歩行がメインの方はダイエット用から始めるのがおすすめです。週3回以上の運動習慣がある方はスポーツ用、それ以外の方はダイエット用が適しています。" } },
 ] };
 
 const breadcrumbStructuredData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
@@ -116,7 +116,7 @@ export default function SportsVsDietPage() {
 
         <section id="how-to-choose" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">あなたに合ったインソールの選び方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">以下の基準であなたに最適なインソールタイプを判断しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">以下の基準であなたに最適なインソールタイプを判断してください。</p>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">スポーツインソールが向いている人</h3>

@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "フットケア雑貨ならバラエティショップが楽しい", "b": "消臭・クッション・冷え対策などの快適グッズは、実物を見比べながら選べるバラエティショップが向いています。"}, {"t": "ダイエット目的は設計の中身で選ぶ", "b": "パッケージの印象ではなく、アーチサポートの構造や姿勢・歩行サポートの設計があるかで判断しましょう。雑貨系とは目的が異なります。"}, {"t": "品揃えは店舗・時期で変わる前提で", "b": "バラエティショップの売り場は入れ替わりが早く、店舗ごとの差も大きめです。確実に欲しい商品が決まっているなら通販ルートも検討しましょう。"}];
+const points = [{"t": "フットケア雑貨ならバラエティショップが楽しい", "b": "消臭・クッション・冷え対策などの快適グッズは、実物を見比べながら選べるバラエティショップが向いています。"}, {"t": "ダイエット目的は設計の中身で選ぶ", "b": "パッケージの印象ではなく、アーチサポートの構造や姿勢・歩行サポートの設計があるかで判断してください。雑貨系とは目的が異なります。"}, {"t": "品揃えは店舗・時期で変わる前提で", "b": "バラエティショップの売り場は入れ替わりが早く、店舗ごとの差も大きめです。確実に欲しい商品が決まっているなら通販ルートもご検討ください。"}];
 const related = [{"href": "/articles/muji-insole/", "label": "無印良品のインソール"}, {"href": "/articles/donki-insole/", "label": "ドンキのインソール"}, {"href": "/articles/gift-insole/", "label": "ギフトに向くインソール"}, {"href": "/articles/where-to-buy-insole/", "label": "市販はどこで売ってる"}];
 
 export default function LoftHandsPage() {
@@ -134,7 +134,7 @@ export default function LoftHandsPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "すぐ欲しいなら実店舗", "b": "ドラッグストア・ドンキ・ニトリ・ハンズなどで汎用インソールが手に入ります。実物を確認して選べます。"}, {"t": "本格派は公式・正規通販", "b": "特許技術採用のダイエットインソールは公式通販やAmazon・楽天が中心。返金保証や正規品保証を確認しましょう。"}, {"t": "目的で選ぶ", "b": "疲れ軽減なら市販の汎用品でも十分。本格的なダイエット目的なら専用設計の製品が向いています。"}];
+const points = [{"t": "すぐ欲しいなら実店舗", "b": "ドラッグストア・ドンキ・ニトリ・ハンズなどで汎用インソールが手に入ります。実物を確認して選べます。"}, {"t": "本格派は公式・正規通販", "b": "特許技術採用のダイエットインソールは公式通販やAmazon・楽天が中心。返金保証や正規品保証をご確認ください。"}, {"t": "目的で選ぶ", "b": "疲れ軽減なら市販の汎用品でも十分。本格的なダイエット目的なら専用設計の製品が向いています。"}];
 const related = [{"href": "/articles/workman-insole/", "label": "ワークマンのインソール"}, {"href": "/articles/drugstore-insole/", "label": "ドラッグストアのインソール"}, {"href": "/articles/ec-buy-insole/", "label": "Amazon・楽天での購入"}, {"href": "/articles/cheap-insole/", "label": "コスパの良いインソール"}];
 
 export default function WhereToBuyPage() {
@@ -70,7 +70,7 @@ export default function WhereToBuyPage() {
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">一般的なインソールはドラッグストア・ドンキ・ニトリ・東急ハンズなどで購入できますが、特許技術を採用した本格的なダイエットインソール（ピットソール等）は公式通販やAmazon・楽天での取り扱いが中心です。目的に合わせて選びましょう。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">一般的なインソールはドラッグストア・ドンキ・ニトリ・東急ハンズなどで購入できますが、特許技術を採用した本格的なダイエットインソール（ピットソール等）は公式通販やAmazon・楽天での取り扱いが中心です。目的に合わせて選ぶことをおすすめします。</p>
         </div>
 
         <section id="hikaku" className="mb-12">
@@ -214,7 +214,7 @@ export default function WhereToBuyPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">購入時に確認したいこと</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">市販品はサイズや厚みを実物で確認できる反面、種類が限られます。ネット通販は種類が豊富で口コミも参考にできますが、正規品か・返金保証があるかを必ず確認しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">市販品はサイズや厚みを実物で確認できる反面、種類が限られます。ネット通販は種類が豊富で口コミも参考にできますが、正規品か・返金保証があるかを必ずご確認ください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">フリマアプリや非正規の格安品は、偽物や保証対象外のリスクがあります。本格的な製品は公式・正規販売店での購入をおすすめします。</p>
         </section>
 
@@ -232,7 +232,7 @@ export default function WhereToBuyPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">目的に合うダイエットインソールを、正規の販売店で比較して選びましょう。</p>
+          <p className="text-white/90 text-sm mb-5">目的に合うダイエットインソールを、正規の販売店で比較して選ぶことをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

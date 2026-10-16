@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "足のサイズに本当に合うかを最優先", "b": "市販インソールには対応サイズの下限があります。ピットソールの最小サイズはXS（21〜22.5cm）で、カット調整も可能ですが、21cm未満の足には対応していません。大きいサイズを無理にカットして使うとアーチの位置がずれるため、足長に合う製品がない場合は使用を見送りましょう。"}, {"t": "上履きに入る薄型・カット調整できるもの", "b": "上履きは中のスペースが浅いため、厚いインソールは窮屈になります。薄型で、上履きの形に合わせてハサミでカットできるタイプを選びましょう。元の中敷きが外せる場合は外して入れ替えます。"}, {"t": "通学用とは別に、買い替え時期を意識する", "b": "成長期は足のサイズが数ヶ月単位で変わります。靴のサイズが変わったらインソールのサイズも見直しが必要です。靴だけ買い替えてインソールが小さいままだと、アーチサポートの位置が合わなくなります。"}];
+const points = [{"t": "足のサイズに本当に合うかを最優先", "b": "市販インソールには対応サイズの下限があります。ピットソールの最小サイズはXS（21〜22.5cm）で、カット調整も可能ですが、21cm未満の足には対応していません。大きいサイズを無理にカットして使うとアーチの位置がずれるため、足長に合う製品がない場合は使用を見送ってください。"}, {"t": "上履きに入る薄型・カット調整できるもの", "b": "上履きは中のスペースが浅いため、厚いインソールは窮屈になります。薄型で、上履きの形に合わせてハサミでカットできるタイプを選ぶことをおすすめします。元の中敷きが外せる場合は外して入れ替えます。"}, {"t": "通学用とは別に、買い替え時期を意識する", "b": "成長期は足のサイズが数ヶ月単位で変わります。靴のサイズが変わったらインソールのサイズも見直しが必要です。靴だけ買い替えてインソールが小さいままだと、アーチサポートの位置が合わなくなります。"}];
 const related = [{"href": "/articles/kids-insole/", "label": "子供用インソールの選び方"}, {"href": "/articles/student-bukatsu-insole/", "label": "中高生の部活のインソール"}, {"href": "/articles/seever-growth-pain-insole/", "label": "成長期のかかと痛（セーバー病）"}, {"href": "/articles/loafers-insole/", "label": "ローファーのインソール"}];
 
 export default function SchoolShoesPage() {
@@ -75,7 +75,7 @@ export default function SchoolShoesPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">通学と上履きで足に負担がかかる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一般的な上履きは、薄く平らな底にゴムバンドというシンプルな構造で、土踏まずを支える機能やクッション性はほとんどありません。硬い校舎の床の上でそれを一日中履き続けると、足裏への負担が積み重なります。さらに通学では、荷物の重いリュックやカバンを背負って毎日まとまった距離を歩きます。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">成長期の足は骨や軟骨がまだ柔らかく、過度な負担が痛みにつながることがあります。インソールで土踏まずを支え、着地の衝撃をやわらげることは、毎日の負担を減らす補助になります。ただし、成長期の足の痛みは大人と原因が異なる場合があるため、痛みがあるときは自己判断でインソールに頼らず、医療機関での確認を優先しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">成長期の足は骨や軟骨がまだ柔らかく、過度な負担が痛みにつながることがあります。インソールで土踏まずを支え、着地の衝撃をやわらげることは、毎日の負担を減らす補助になります。ただし、成長期の足の痛みは大人と原因が異なる場合があるため、痛みがあるときは自己判断でインソールに頼らず、医療機関での確認を優先してください。</p>
         </section>
 
         <section className="mb-12">
@@ -93,7 +93,7 @@ export default function SchoolShoesPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">通学靴・上履きにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">通学靴・上履きには、薄型でサイズ調整しやすいインソールが向いています。いずれもダイエット目的ではなく、毎日の歩行と立ち時間の負担をやわらげる補助として選びましょう。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">通学靴・上履きには、薄型でサイズ調整しやすいインソールが向いています。いずれもダイエット目的ではなく、毎日の歩行と立ち時間の負担をやわらげる補助として選ぶことをおすすめします。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -115,7 +115,7 @@ export default function SchoolShoesPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">成長期の足の痛みは受診を優先</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">運動のあとや歩き始めにかかとを痛がる場合、成長期特有のかかとの痛み（セーバー病）の可能性があります。これは成長軟骨への負担が原因で、まず運動量の調整と医療機関での確認が必要です。インソールは医師に相談のうえ、負担軽減の補助として使いましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">運動のあとや歩き始めにかかとを痛がる場合、成長期特有のかかとの痛み（セーバー病）の可能性があります。これは成長軟骨への負担が原因で、まず運動量の調整と医療機関での確認が必要です。インソールは医師に相談のうえ、負担軽減の補助として使ってください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">また、足の形や歩き方が気になる（極端な扁平足・よく転ぶなど）場合も、市販品で対処する前に整形外科や学校の健診で相談するのが安心です。成長期の足は変化が大きいため、定期的にサイズと状態を確認してあげてください。</p>
         </section>
 
@@ -133,7 +133,7 @@ export default function SchoolShoesPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">底の薄い上履きと毎日の通学路。成長期の足の負担をやわらげるインソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">底の薄い上履きと毎日の通学路。成長期の足の負担をやわらげるインソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

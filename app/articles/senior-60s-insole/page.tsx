@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "アーチサポートで歩行を安定させる", "b": "低下しやすい土踏まずのアーチを支えると、着地のブレが減り歩行の安定の補助になります。ウォーキング習慣のある方は特に、疲れにくさの違いを感じやすいポイントです。"}, {"t": "つまずきにくさに配慮した厚みを選ぶ", "b": "厚すぎるインソールは靴の中で足の位置を変え、履き慣れた靴の感覚を狂わせることがあります。薄型から試し、入れた後に必ず室内で歩いて違和感がないか確認しましょう。"}, {"t": "クッションで膝・腰への衝撃をやわらげる", "b": "加齢とともに足裏の脂肪も薄くなり、衝撃が関節に伝わりやすくなります。適度なクッション性のあるインソールは、毎日の歩行で膝や腰にかかる負担をやわらげる補助になります。"}];
+const points = [{"t": "アーチサポートで歩行を安定させる", "b": "低下しやすい土踏まずのアーチを支えると、着地のブレが減り歩行の安定の補助になります。ウォーキング習慣のある方は特に、疲れにくさの違いを感じやすいポイントです。"}, {"t": "つまずきにくさに配慮した厚みを選ぶ", "b": "厚すぎるインソールは靴の中で足の位置を変え、履き慣れた靴の感覚を狂わせることがあります。薄型から試し、入れた後に必ず室内で歩いて違和感がないかご確認ください。"}, {"t": "クッションで膝・腰への衝撃をやわらげる", "b": "加齢とともに足裏の脂肪も薄くなり、衝撃が関節に伝わりやすくなります。適度なクッション性のあるインソールは、毎日の歩行で膝や腰にかかる負担をやわらげる補助になります。"}];
 const related = [{"href": "/articles/insole-50s-diet/", "label": "50代のダイエットとインソール"}, {"href": "/articles/walking-insole/", "label": "ウォーキング用インソール"}, {"href": "/articles/knee-pain/", "label": "膝の痛みのインソール対策"}, {"href": "/articles/foot-fatigue-insole/", "label": "足のだるさ・疲れのインソール"}];
 
 export default function Senior60sPage() {
@@ -76,7 +76,7 @@ export default function Senior60sPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">60代からの足の変化とインソールの役割</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">年齢を重ねると、足裏のアーチを支える筋力や腱の弾力が少しずつ低下し、土踏まずが扁平になりやすくなります。アーチが下がると着地の衝撃を吸収しにくくなり、同じ距離を歩いても疲れやすく、膝や腰への負担も増えがちです。足幅が広がる、外反母趾が進むといった変化が出る方もいます。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールで土踏まずを支えると、足裏全体で体重を受け止めやすくなり、歩行時の安定感を補助します。これは転ばないことを保証するものではなく、あくまでバランスと歩きやすさを支える補助です。筋力を保つウォーキングや体操、住まいの段差対策と組み合わせて、総合的に足元の安心を整えましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールで土踏まずを支えると、足裏全体で体重を受け止めやすくなり、歩行時の安定感を補助します。これは転ばないことを保証するものではなく、あくまでバランスと歩きやすさを支える補助です。筋力を保つウォーキングや体操、住まいの段差対策と組み合わせて、総合的に足元の安心を整えてください。</p>
         </section>
 
         <section className="mb-12">
@@ -116,8 +116,8 @@ export default function Senior60sPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">健康維持のための使い方と受診の目安</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールはあくまで歩行を支える補助です。足の筋力を保つには歩く習慣そのものが大切なので、無理のない距離のウォーキングと組み合わせましょう。初めて使う日は室内で慣らし、違和感がないことを確認してから外出に使うと安心です。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">膝・腰の痛みが続く、足がしびれる、歩ける距離が急に短くなったなどの変化がある場合は、加齢のせいと自己判断せず整形外科を受診してください。糖尿病などで足のケアに注意が必要な方は、インソールの使用前にかかりつけ医に相談しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールはあくまで歩行を支える補助です。足の筋力を保つには歩く習慣そのものが大切なので、無理のない距離のウォーキングと組み合わせてください。初めて使う日は室内で慣らし、違和感がないことを確認してから外出に使うと安心です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">膝・腰の痛みが続く、足がしびれる、歩ける距離が急に短くなったなどの変化がある場合は、加齢のせいと自己判断せず整形外科を受診してください。糖尿病などで足のケアに注意が必要な方は、インソールの使用前にかかりつけ医にご相談ください。</p>
         </section>
 
         <section className="mb-12">
@@ -134,7 +134,7 @@ export default function Senior60sPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">いつまでも自分の足で歩くために。毎日の歩行を支えるインソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">いつまでも自分の足で歩くために。毎日の歩行を支えるインソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

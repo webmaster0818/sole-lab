@@ -52,7 +52,7 @@ const faqStructuredData = {
       name: "ゴルフシューズのインソールは市販のもので大丈夫ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、ゴルフシューズの純正中敷きを取り外して市販のインソールに交換可能です。ただし、スパイクシューズの場合は底面の構造上、厚すぎるインソールを入れると靴内が窮屈になるため、薄型〜中厚のインソールを選びましょう。",
+        text: "はい、ゴルフシューズの純正中敷きを取り外して市販のインソールに交換可能です。ただし、スパイクシューズの場合は底面の構造上、厚すぎるインソールを入れると靴内が窮屈になるため、薄型〜中厚のインソールを選ぶことをおすすめします。",
       },
     },
     {
@@ -184,7 +184,7 @@ export default function GolfInsolePage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-amber-700">ポイント：</span>
-              ゴルフ用インソールは「スイング安定」「疲労軽減」「傾斜地バランス」「姿勢改善」の4つの面でゴルフパフォーマンスを向上させます。クラブやボールにこだわるように、足元のケアにもこだわりましょう。
+              ゴルフ用インソールは「スイング安定」「疲労軽減」「傾斜地バランス」「姿勢改善」の4つの面でゴルフパフォーマンスを向上させます。クラブやボールにこだわるように、足元のケアにもこだわってください。
             </p>
           </div>
         </section>
@@ -205,7 +205,7 @@ export default function GolfInsolePage() {
               <h3 className="text-base md:text-lg font-bold text-gray-900">安定性を重視した設計</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-              ゴルフでは柔らかすぎるインソールは逆効果です。スイング中に足が沈み込むと重心がブレてしまいます。適度な硬さでアーチをサポートしつつ、足裏全体でしっかりと踏ん張れる安定性の高いインソールを選びましょう。特許技術に基づく3点サポート構造は、ゴルフに求められる安定性と衝撃吸収のバランスに優れています。
+              ゴルフでは柔らかすぎるインソールは逆効果です。スイング中に足が沈み込むと重心がブレてしまいます。適度な硬さでアーチをサポートしつつ、足裏全体でしっかりと踏ん張れる安定性の高いインソールを選ぶことをおすすめします。特許技術に基づく3点サポート構造は、ゴルフに求められる安定性と衝撃吸収のバランスに優れています。
             </p>
           </div>
 
@@ -235,7 +235,7 @@ export default function GolfInsolePage() {
               <h3 className="text-base md:text-lg font-bold text-gray-900">通気性と耐久性</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-              ゴルフは屋外で長時間行うスポーツのため、夏場は特に蒸れやすくなります。通気性の良い素材を使用したインソールを選びましょう。また、週1〜2回の使用でも数ヶ月で劣化するため、耐久性も重要です。高品質な素材を使用し、長期間性能を維持できるインソールを選ぶことで、コストパフォーマンスが向上します。
+              ゴルフは屋外で長時間行うスポーツのため、夏場は特に蒸れやすくなります。通気性の良い素材を使用したインソールを選ぶことをおすすめします。また、週1〜2回の使用でも数ヶ月で劣化するため、耐久性も重要です。高品質な素材を使用し、長期間性能を維持できるインソールを選ぶことで、コストパフォーマンスが向上します。
             </p>
           </div>
         </section>
@@ -387,28 +387,28 @@ export default function GolfInsolePage() {
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ゴルフシューズのフィッティングを見直す</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                インソールの効果を最大限に発揮するには、ゴルフシューズ自体のフィット感が重要です。つま先に1cm程度の余裕があり、かかとがしっかりホールドされるサイズを選びましょう。足幅が合っていないシューズは、いくら良いインソールを入れても効果が半減します。
+                インソールの効果を最大限に発揮するには、ゴルフシューズ自体のフィット感が重要です。つま先に1cm程度の余裕があり、かかとがしっかりホールドされるサイズを選ぶことをおすすめします。足幅が合っていないシューズは、いくら良いインソールを入れても効果が半減します。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ラウンド前のウォーミングアップ</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                ラウンド前に足首回しやふくらはぎのストレッチを行いましょう。血行が促進され、筋肉が温まった状態でプレーを始めることで、足の疲労蓄積を遅らせることができます。練習場でのウォーミングアップ時から意識的に行いましょう。
+                ラウンド前に足首回しやふくらはぎのストレッチを行ってください。血行が促進され、筋肉が温まった状態でプレーを始めることで、足の疲労蓄積を遅らせることができます。練習場でのウォーミングアップ時から意識的に行ってください。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ハーフターンでの足のケア</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                9ホールを終えたハーフターンの休憩時間に、靴を脱いで足を休ませましょう。足指を動かしたり、足裏を軽くマッサージすることで血行が促進され、後半のパフォーマンス低下を防げます。可能であれば靴下を替えると蒸れ対策にもなります。
+                9ホールを終えたハーフターンの休憩時間に、靴を脱いで足を休ませてください。足指を動かしたり、足裏を軽くマッサージすることで血行が促進され、後半のパフォーマンス低下を防げます。可能であれば靴下を替えると蒸れ対策にもなります。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ラウンド後のフットケア</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                ラウンド後は入浴時に足をしっかり温め、血行を促進しましょう。テニスボールやゴルフボールで足裏をマッサージするのも効果的です。翌日に疲れを残さないことで、次のラウンドでも良いパフォーマンスが期待できます。
+                ラウンド後は入浴時に足をしっかり温め、血行を促進してください。テニスボールやゴルフボールで足裏をマッサージするのも効果的です。翌日に疲れを残さないことで、次のラウンドでも良いパフォーマンスが期待できます。
               </p>
             </div>
           </div>
@@ -437,7 +437,7 @@ export default function GolfInsolePage() {
                 <span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span>
               </summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">
-                はい、ゴルフシューズの純正中敷きを取り外して市販のインソールに交換可能です。ただし、スパイクシューズの場合は底面の構造上、厚すぎるインソールを入れると靴内が窮屈になるため、薄型〜中厚のインソールを選びましょう。
+                はい、ゴルフシューズの純正中敷きを取り外して市販のインソールに交換可能です。ただし、スパイクシューズの場合は底面の構造上、厚すぎるインソールを入れると靴内が窮屈になるため、薄型〜中厚のインソールを選ぶことをおすすめします。
               </div>
             </details>
 
@@ -480,7 +480,7 @@ export default function GolfInsolePage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ゴルフ用インソールは「スイング安定」「疲労軽減」「傾斜地バランス」「姿勢改善」の4つの面でパフォーマンスを向上させます。選ぶ際は安定性・衝撃吸収・グリップ力・通気性の4つをチェックしましょう。
+            ゴルフ用インソールは「スイング安定」「疲労軽減」「傾斜地バランス」「姿勢改善」の4つの面でパフォーマンスを向上させます。選ぶ際は安定性・衝撃吸収・グリップ力・通気性の4つをチェックしてください。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">

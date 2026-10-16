@@ -43,7 +43,7 @@ const faqStructuredData = {
       name: "パンプス用インソールはヒールの高さに関係なく使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ヒールの高さによって適するインソールは異なります。3cm以下のローヒールであればフルサイズのインソールが使えますが、5cm以上のヒールでは前足部のみのハーフインソールが適しています。製品の対応ヒール高さを確認して選びましょう。",
+        text: "ヒールの高さによって適するインソールは異なります。3cm以下のローヒールであればフルサイズのインソールが使えますが、5cm以上のヒールでは前足部のみのハーフインソールが適しています。製品の対応ヒール高さを確認して選ぶことをおすすめします。",
       },
     },
     {
@@ -75,7 +75,7 @@ const faqStructuredData = {
       name: "パンプス用インソールの交換頻度はどのくらいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "パンプス用インソールは3〜4ヶ月が交換の目安です。パンプスは足との摩擦が大きいため、スニーカー用よりも劣化が早い傾向があります。表面の滑り止め効果が薄れた、クッション性が低下した、と感じたら交換しましょう。",
+        text: "パンプス用インソールは3〜4ヶ月が交換の目安です。パンプスは足との摩擦が大きいため、スニーカー用よりも劣化が早い傾向があります。表面の滑り止め効果が薄れた、クッション性が低下した、と感じたら交換してください。",
       },
     },
   ],
@@ -166,7 +166,7 @@ export default function PumpsInsolePage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            パンプスは女性のビジネスシーンやフォーマルな場で欠かせない靴ですが、長時間履くと足に大きな負担がかかります。パンプスで足が疲れる主な原因を理解しておきましょう。
+            パンプスは女性のビジネスシーンやフォーマルな場で欠かせない靴ですが、長時間履くと足に大きな負担がかかります。パンプスで足が疲れる主な原因を理解しておいてください。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">ヒールの傾斜による前方荷重</h3>
@@ -213,7 +213,7 @@ export default function PumpsInsolePage() {
               <h3 className="text-base md:text-lg font-bold text-gray-900">薄型・極薄設計</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-              パンプスは靴内の空間が非常に限られているため、薄型設計のインソールが必須です。1〜3mm程度の極薄タイプや、前足部のみをカバーするハーフインソールであれば、パンプスのフィット感を損なわずに使用できます。厚いインソールを無理に入れるとかかとが浮き、脱げやすくなるため注意しましょう。
+              パンプスは靴内の空間が非常に限られているため、薄型設計のインソールが必須です。1〜3mm程度の極薄タイプや、前足部のみをカバーするハーフインソールであれば、パンプスのフィット感を損なわずに使用できます。厚いインソールを無理に入れるとかかとが浮き、脱げやすくなるためご注意ください。
             </p>
           </div>
 
@@ -223,7 +223,7 @@ export default function PumpsInsolePage() {
               <h3 className="text-base md:text-lg font-bold text-gray-900">滑り止め機能</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-              パンプスの前滑りを防ぐために、表面に滑り止め加工が施されたインソールを選びましょう。シリコン素材やスウェード調の表面は足との密着性が高く、ヒールの傾斜でも足がずれにくくなります。前滑りが解消されるだけで、足の疲れは大幅に軽減されます。
+              パンプスの前滑りを防ぐために、表面に滑り止め加工が施されたインソールを選ぶことをおすすめします。シリコン素材やスウェード調の表面は足との密着性が高く、ヒールの傾斜でも足がずれにくくなります。前滑りが解消されるだけで、足の疲れは大幅に軽減されます。
             </p>
           </div>
 
@@ -243,7 +243,7 @@ export default function PumpsInsolePage() {
               <h3 className="text-base md:text-lg font-bold text-gray-900">対応ヒール高さ</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-              インソールによって対応するヒールの高さが異なります。ローヒール（3cm以下）用、ミドルヒール（3〜5cm）用、ハイヒール（5cm以上）用と、自分が普段履くパンプスのヒール高さに合ったインソールを選びましょう。
+              インソールによって対応するヒールの高さが異なります。ローヒール（3cm以下）用、ミドルヒール（3〜5cm）用、ハイヒール（5cm以上）用と、自分が普段履くパンプスのヒール高さに合ったインソールを選ぶことをおすすめします。
             </p>
           </div>
         </section>
@@ -354,21 +354,21 @@ export default function PumpsInsolePage() {
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">正しい位置に貼る</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                ハーフインソールの場合は、土踏まずから前足部にかけての位置に配置します。粘着タイプは一度貼ると位置の修正が難しいため、まず靴に入れて位置を確認してから粘着テープを剥がして貼り付けましょう。かかとからつま先まで覆うフルインソールの場合は、かかと部分が靴の後端にぴったり合うよう配置します。
+                ハーフインソールの場合は、土踏まずから前足部にかけての位置に配置します。粘着タイプは一度貼ると位置の修正が難しいため、まず靴に入れて位置を確認してから粘着テープを剥がして貼り付けてください。かかとからつま先まで覆うフルインソールの場合は、かかと部分が靴の後端にぴったり合うよう配置します。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ヒールの高さに合わせて選ぶ</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                3cm以下のローヒールにはフルインソールが適しています。3〜5cmのミドルヒールには薄型フルインソールかハーフインソール、5cm以上のハイヒールにはハーフインソール（前足部のみ）が最適です。ヒールの高さに合わないインソールを使うと、かえって歩きにくくなるため注意しましょう。
+                3cm以下のローヒールにはフルインソールが適しています。3〜5cmのミドルヒールには薄型フルインソールかハーフインソール、5cm以上のハイヒールにはハーフインソール（前足部のみ）が最適です。ヒールの高さに合わないインソールを使うと、かえって歩きにくくなるためご注意ください。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">フィット感の確認</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                インソールを入れた後、必ず歩いてフィット感を確認しましょう。かかとが浮く、つま先が窮屈になる、足の甲が圧迫されるなどの症状があれば、インソールが厚すぎるか、サイズが合っていない可能性があります。パンプスは特にフィット感がシビアなため、複数の製品を試してベストなものを見つけることをおすすめします。
+                インソールを入れた後、必ず歩いてフィット感をご確認ください。かかとが浮く、つま先が窮屈になる、足の甲が圧迫されるなどの症状があれば、インソールが厚すぎるか、サイズが合っていない可能性があります。パンプスは特にフィット感がシビアなため、複数の製品を試してベストなものを見つけることをおすすめします。
               </p>
             </div>
           </div>
@@ -388,28 +388,28 @@ export default function PumpsInsolePage() {
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">正しいサイズのパンプスを選ぶ</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                パンプスは「少しきつめ」を選びがちですが、足指が窮屈だと外反母趾のリスクが高まります。かかとが脱げないことを確認しつつ、足指に余裕があるサイズを選びましょう。夕方は足がむくむため、購入時は夕方に試着するのがおすすめです。
+                パンプスは「少しきつめ」を選びがちですが、足指が窮屈だと外反母趾のリスクが高まります。かかとが脱げないことを確認しつつ、足指に余裕があるサイズを選ぶことをおすすめします。夕方は足がむくむため、購入時は夕方に試着するのがおすすめです。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ヒールの高さを使い分ける</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                毎日同じ高さのヒールを履き続けると、特定の筋肉や関節への負担が蓄積します。日によってヒールの高さを変える、通勤はスニーカーで職場でパンプスに履き替えるなど、足への負担を分散させる工夫をしましょう。
+                毎日同じ高さのヒールを履き続けると、特定の筋肉や関節への負担が蓄積します。日によってヒールの高さを変える、通勤はスニーカーで職場でパンプスに履き替えるなど、足への負担を分散させる工夫をしてください。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">デスクワーク中は靴を脱ぐ</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                可能であれば、デスクワーク中はパンプスを脱いで足を休ませましょう。足指を動かしたり、足首を回したりすることで血行が促進され、むくみの予防になります。デスク下にスリッパを用意しておくと便利です。
+                可能であれば、デスクワーク中はパンプスを脱いで足を休ませてください。足指を動かしたり、足首を回したりすることで血行が促進され、むくみの予防になります。デスク下にスリッパを用意しておくと便利です。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">帰宅後のフットケア</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                パンプスを脱いだら、足指のストレッチとマッサージを行いましょう。特に足指を広げる「グーパー運動」は、パンプスで圧迫された足指をリラックスさせるのに効果的です。入浴時に足をぬるめのお湯で温めるのもおすすめです。
+                パンプスを脱いだら、足指のストレッチとマッサージを行ってください。特に足指を広げる「グーパー運動」は、パンプスで圧迫された足指をリラックスさせるのに効果的です。入浴時に足をぬるめのお湯で温めるのもおすすめです。
               </p>
             </div>
           </div>
@@ -428,7 +428,7 @@ export default function PumpsInsolePage() {
                 <span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span>
               </summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">
-                ヒールの高さによって適するインソールは異なります。3cm以下のローヒールであればフルサイズのインソールが使えますが、5cm以上のヒールでは前足部のみのハーフインソールが適しています。製品の対応ヒール高さを確認して選びましょう。
+                ヒールの高さによって適するインソールは異なります。3cm以下のローヒールであればフルサイズのインソールが使えますが、5cm以上のヒールでは前足部のみのハーフインソールが適しています。製品の対応ヒール高さを確認して選ぶことをおすすめします。
               </div>
             </details>
 
@@ -468,7 +468,7 @@ export default function PumpsInsolePage() {
                 <span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span>
               </summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">
-                パンプス用インソールは3〜4ヶ月が交換の目安です。パンプスは足との摩擦が大きいため、スニーカー用よりも劣化が早い傾向があります。表面の滑り止め効果が薄れた、クッション性が低下した、と感じたら交換しましょう。
+                パンプス用インソールは3〜4ヶ月が交換の目安です。パンプスは足との摩擦が大きいため、スニーカー用よりも劣化が早い傾向があります。表面の滑り止め効果が薄れた、クッション性が低下した、と感じたら交換してください。
               </div>
             </details>
           </div>
@@ -481,7 +481,7 @@ export default function PumpsInsolePage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            パンプスでの足の疲れは「前方荷重」「前滑り」「アーチサポート不足」「姿勢の崩れ」が原因です。インソールはこれらすべてにアプローチできる有効な対策であり、薄型設計・滑り止め機能・アーチサポートの3つをチェックして選びましょう。
+            パンプスでの足の疲れは「前方荷重」「前滑り」「アーチサポート不足」「姿勢の崩れ」が原因です。インソールはこれらすべてにアプローチできる有効な対策であり、薄型設計・滑り止め機能・アーチサポートの3つをチェックして選ぶことをおすすめします。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
@@ -494,7 +494,7 @@ export default function PumpsInsolePage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            パンプスを履く機会が多い方こそ、インソールの導入で日々の足の負担を軽減しましょう。見た目を損なわない薄型設計のインソールなら、今のパンプスをそのまま使いながら快適性をアップできます。
+            パンプスを履く機会が多い方こそ、インソールの導入で日々の足の負担を軽減してください。見た目を損なわない薄型設計のインソールなら、今のパンプスをそのまま使いながら快適性をアップできます。
           </p>
 
           <div className="text-center">

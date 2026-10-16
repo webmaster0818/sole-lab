@@ -14,7 +14,7 @@ const structuredData = { "@context": "https://schema.org", "@type": "Article", i
 
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "インソールで足の冷えは本当に改善しますか？", acceptedAnswer: { "@type": "Answer", text: "はい、適切なインソールは足の冷え改善に効果があります。保温素材で地面からの冷気を遮断するタイプと、歩行姿勢を改善して血行を促進するタイプの2種類があります。後者は根本的な冷え性改善が期待でき、正しい筋肉の使い方により足先への血流が改善されます。" } },
-  { "@type": "Question", name: "冷え性対策インソールの選び方のポイントは？", acceptedAnswer: { "@type": "Answer", text: "冷え性対策インソールは目的に応じて選びましょう。即効性を求めるなら保温素材（ウール、アルミ蒸着フィルム）使用のもの、根本改善を目指すなら血行促進効果のあるアーチサポート付きのものがおすすめです。通気性も重要で、蒸れて汗が冷えると逆効果になります。" } },
+  { "@type": "Question", name: "冷え性対策インソールの選び方のポイントは？", acceptedAnswer: { "@type": "Answer", text: "冷え性対策インソールは目的に応じて選ぶことをおすすめします。即効性を求めるなら保温素材（ウール、アルミ蒸着フィルム）使用のもの、根本改善を目指すなら血行促進効果のあるアーチサポート付きのものがおすすめです。通気性も重要で、蒸れて汗が冷えると逆効果になります。" } },
   { "@type": "Question", name: "足が冷える根本的な原因は何ですか？", acceptedAnswer: { "@type": "Answer", text: "足の冷えの根本的な原因は血行不良です。具体的には、筋力不足によるポンプ機能の低下、自律神経の乱れによる血管収縮、足のアーチ崩れや歩行姿勢の悪さによる筋肉の使い方の偏り、きつい靴による血管圧迫などが挙げられます。" } },
   { "@type": "Question", name: "保温インソールと姿勢改善インソール、どちらが良いですか？", acceptedAnswer: { "@type": "Answer", text: "両方にメリットがあります。保温インソールは即効性があり寒い季節にすぐ効果を感じられます。姿勢改善インソールは血行そのものを改善するため、長期的な冷え性改善が期待できます。理想は冬場は保温タイプ、それ以外の季節は姿勢改善タイプと使い分けることです。" } },
   { "@type": "Question", name: "冷え性の改善にはどのくらいの期間が必要ですか？", acceptedAnswer: { "@type": "Answer", text: "保温タイプのインソールは使用直後から効果を感じられます。血行改善タイプの場合は、歩行姿勢の改善と筋肉の活性化に2〜4週間程度かかることが一般的です。インソールに加えて、ふくらはぎのストレッチや適度な運動を併用すると改善が早まります。" } },
@@ -114,15 +114,15 @@ export default function ColdFeetPage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span><h3 className="text-base md:text-lg font-bold text-gray-900">通気性を確保する</h3></div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">保温を重視するあまり通気性を犠牲にすると、汗が蒸発せずに足を冷やす原因になります。「汗冷え」は冷え性を悪化させる大きな要因です。吸湿速乾性のある素材が使われているインソールを選びましょう。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">保温を重視するあまり通気性を犠牲にすると、汗が蒸発せずに足を冷やす原因になります。「汗冷え」は冷え性を悪化させる大きな要因です。吸湿速乾性のある素材が使われているインソールを選ぶことをおすすめします。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span><h3 className="text-base md:text-lg font-bold text-gray-900">圧迫しないサイズを選ぶ</h3></div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">インソールを入れることで靴内部が窮屈になると、血管が圧迫されて逆に血行が悪化します。インソールを入れた状態で足指が自由に動き、窮屈さを感じないことが重要です。必要に応じて靴のサイズを見直しましょう。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">インソールを入れることで靴内部が窮屈になると、血管が圧迫されて逆に血行が悪化します。インソールを入れた状態で足指が自由に動き、窮屈さを感じないことが重要です。必要に応じて靴のサイズを見直してください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span><h3 className="text-base md:text-lg font-bold text-gray-900">季節に応じて使い分ける</h3></div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">冬場は保温性と血行改善の両方を兼ね備えたインソール、春夏は通気性の良い血行改善タイプのインソールと使い分けるのが理想的です。1年中同じインソールを使うのではなく、季節に応じた最適な選択をしましょう。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">冬場は保温性と血行改善の両方を兼ね備えたインソール、春夏は通気性の良い血行改善タイプのインソールと使い分けるのが理想的です。1年中同じインソールを使うのではなく、季節に応じた最適な選択をしてください。</p>
             </div>
           </div>
         </section>
@@ -141,10 +141,10 @@ export default function ColdFeetPage() {
         <section id="daily-care" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールと併用したい冷え性対策</h2>
           <div className="space-y-4">
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ふくらはぎのストレッチとマッサージ</h3><p className="text-sm text-gray-700 leading-relaxed">ふくらはぎの柔軟性を維持することで、筋ポンプ機能が向上します。壁に手をついてふくらはぎを伸ばすストレッチを朝晩30秒ずつ行い、入浴後にはふくらはぎを下から上に向かってマッサージしましょう。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">足指グーパー運動</h3><p className="text-sm text-gray-700 leading-relaxed">足指を大きく開いて（パー）閉じる（グー）運動を繰り返すことで、足先の血流が促進されます。デスクワーク中でも靴を脱いで行えるため、1〜2時間ごとに20回程度行う習慣をつけましょう。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ウォーキングの習慣化</h3><p className="text-sm text-gray-700 leading-relaxed">インソールを入れた靴で毎日20〜30分のウォーキングを行うことで、ふくらはぎの筋力強化と血行促進が同時に得られます。<Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">効果的なウォーキング方法</Link>を参考に、正しい歩き方を意識して行いましょう。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">入浴で深部体温を上げる</h3><p className="text-sm text-gray-700 leading-relaxed">38〜40度のぬるめのお湯に15〜20分浸かることで、末梢血管が拡張し血行が改善します。入浴後のストレッチと組み合わせると効果的です。シャワーだけで済ませず、湯船に浸かる習慣をつけましょう。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ふくらはぎのストレッチとマッサージ</h3><p className="text-sm text-gray-700 leading-relaxed">ふくらはぎの柔軟性を維持することで、筋ポンプ機能が向上します。壁に手をついてふくらはぎを伸ばすストレッチを朝晩30秒ずつ行い、入浴後にはふくらはぎを下から上に向かってマッサージしてください。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">足指グーパー運動</h3><p className="text-sm text-gray-700 leading-relaxed">足指を大きく開いて（パー）閉じる（グー）運動を繰り返すことで、足先の血流が促進されます。デスクワーク中でも靴を脱いで行えるため、1〜2時間ごとに20回程度行う習慣をつけてください。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ウォーキングの習慣化</h3><p className="text-sm text-gray-700 leading-relaxed">インソールを入れた靴で毎日20〜30分のウォーキングを行うことで、ふくらはぎの筋力強化と血行促進が同時に得られます。<Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">効果的なウォーキング方法</Link>を参考に、正しい歩き方を意識して行ってください。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">入浴で深部体温を上げる</h3><p className="text-sm text-gray-700 leading-relaxed">38〜40度のぬるめのお湯に15〜20分浸かることで、末梢血管が拡張し血行が改善します。入浴後のストレッチと組み合わせると効果的です。シャワーだけで済ませず、湯船に浸かる習慣をつけてください。</p></div>
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">靴下の選び方</h3><p className="text-sm text-gray-700 leading-relaxed">きつい靴下は血管を圧迫して血行を悪化させます。適度な着圧ソックス（段階圧力設計）はふくらはぎのポンプ機能をサポートし、冷え性改善に効果的です。五本指ソックスは足指の動きを促し、足先の血流改善にも役立ちます。</p></div>
           </div>
         </section>

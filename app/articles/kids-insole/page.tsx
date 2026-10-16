@@ -37,7 +37,7 @@ const faqStructuredData = {
     { "@type": "Question", name: "運動靴にインソールを入れても子供のパフォーマンスに影響はありませんか？", acceptedAnswer: { "@type": "Answer", text: "適切なインソールは子供のパフォーマンスを向上させる可能性があります。足裏の安定性が高まることで、走る・跳ぶ・方向転換などの動作が安定し、怪我のリスクも軽減されます。ただし、厚すぎるインソールは靴内が窮屈になるため、薄型〜中厚のものを選んでください。" } },
     { "@type": "Question", name: "大人用のインソールを子供にカットして使っても大丈夫ですか？", acceptedAnswer: { "@type": "Answer", text: "XSサイズ（21cm〜）に対応している大人用インソールであれば、カットして子供に使用可能です。ただし、子供の足は大人と骨格が異なるため、アーチの位置が合わない場合があります。可能であれば子供用に設計されたインソールか、子供サイズに対応した製品を選ぶことをおすすめします。" } },
     { "@type": "Question", name: "スポーツをしている子供のかかとや膝の痛みにインソールは効果がありますか？", acceptedAnswer: { "@type": "Answer", text: "衝撃吸収性のあるインソールは、運動時の足への負担をやわらげる補助にはなり得ます。ただし、成長期のかかとや膝の痛みには骨の成長部分への負担が関係する場合があるとされており、インソールは治療ではありません。強い痛み・続く痛み・腫れがある場合は、練習を無理に続けさせず小児整形外科を受診してください。" } },
-    { "@type": "Question", name: "子供のインソールのサイズ確認はいつ行えば良いですか？", acceptedAnswer: { "@type": "Answer", text: "学期の変わり目や靴を買い替えるタイミングなど、3ヶ月に1回程度を目安に習慣化するのがおすすめです。つま先の余裕・かかとの位置・インソール表面のへたりやすり減り・左右差をチェックし、合わなくなっていたらカット調整や買い替えを行いましょう。" } },
+    { "@type": "Question", name: "子供のインソールのサイズ確認はいつ行えば良いですか？", acceptedAnswer: { "@type": "Answer", text: "学期の変わり目や靴を買い替えるタイミングなど、3ヶ月に1回程度を目安に習慣化するのがおすすめです。つま先の余裕・かかとの位置・インソール表面のへたりやすり減り・左右差をチェックし、合わなくなっていたらカット調整や買い替えを行ってください。" } },
   ],
 };
 
@@ -137,11 +137,11 @@ export default function KidsInsolePage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">3〜5歳：アーチ未発達期</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">この年齢では足裏の脂肪が厚く、アーチが見えない「生理的扁平足」の状態が正常です。基本的にインソールは不要ですが、歩き方に著しい異常がある場合は小児整形外科に相談しましょう。この時期は裸足で遊ぶことが足の発達に最も良い刺激になります。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">この年齢では足裏の脂肪が厚く、アーチが見えない「生理的扁平足」の状態が正常です。基本的にインソールは不要ですが、歩き方に著しい異常がある場合は小児整形外科にご相談ください。この時期は裸足で遊ぶことが足の発達に最も良い刺激になります。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">6〜9歳：アーチ形成期</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">この時期にアーチが徐々に形成されます。偏平足が残っている場合や、足の疲れを訴える場合は、緩やかなアーチサポートのインソールの導入を検討しましょう。ただし、過度なサポートは足の筋肉の発達を妨げる可能性があるため、柔らかめのアーチサポートが適切です。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">この時期にアーチが徐々に形成されます。偏平足が残っている場合や、足の疲れを訴える場合は、緩やかなアーチサポートのインソールの導入をご検討ください。ただし、過度なサポートは足の筋肉の発達を妨げる可能性があるため、柔らかめのアーチサポートが適切です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">10〜12歳：アーチ完成期</h3>
@@ -163,7 +163,7 @@ export default function KidsInsolePage() {
               <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">適度なアーチサポート</h3>
             </div>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed">子供用インソールのアーチサポートは「硬すぎず、柔らかすぎず」が重要です。硬すぎるサポートは足の筋肉の発達を妨げ、柔らかすぎると効果がありません。成長段階に合った適度なサポート力のインソールを選びましょう。迷った場合は小児整形外科で相談するのがベストです。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">子供用インソールのアーチサポートは「硬すぎず、柔らかすぎず」が重要です。硬すぎるサポートは足の筋肉の発達を妨げ、柔らかすぎると効果がありません。成長段階に合った適度なサポート力のインソールを選ぶことをおすすめします。迷った場合は小児整形外科で相談するのがベストです。</p>
           </div>
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
@@ -171,7 +171,7 @@ export default function KidsInsolePage() {
               <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">衝撃吸収性能</h3>
             </div>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed">子供は活動量が多く、走る・跳ぶ・着地する動作が頻繁です。成長中の骨や関節を守るために、衝撃吸収性能は重要な選定基準です。特にスポーツをしているお子さんには、かかとと前足部にクッション素材が配置されたインソールを選びましょう。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">子供は活動量が多く、走る・跳ぶ・着地する動作が頻繁です。成長中の骨や関節を守るために、衝撃吸収性能は重要な選定基準です。特にスポーツをしているお子さんには、かかとと前足部にクッション素材が配置されたインソールを選ぶことをおすすめします。</p>
           </div>
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
@@ -179,7 +179,7 @@ export default function KidsInsolePage() {
               <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">通気性と抗菌機能</h3>
             </div>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed">子供は代謝が活発で汗をかきやすいため、通気性と抗菌機能は必須です。蒸れた状態が続くと水虫やニオイの原因になります。メッシュ素材や抗菌加工が施されたインソールを選び、使用後は靴から取り出して乾かす習慣をつけましょう。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">子供は代謝が活発で汗をかきやすいため、通気性と抗菌機能は必須です。蒸れた状態が続くと水虫やニオイの原因になります。メッシュ素材や抗菌加工が施されたインソールを選び、使用後は靴から取り出して乾かす習慣をつけてください。</p>
           </div>
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
@@ -268,19 +268,19 @@ export default function KidsInsolePage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">短時間から始めて徐々に慣らす</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">子供にインソールを初めて使わせる場合、最初は1〜2時間から始め、徐々に使用時間を延ばしましょう。いきなり1日中使わせると足に違和感を感じたり、痛みを訴える場合があります。1〜2週間かけて慣らしていくのが理想的です。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">子供にインソールを初めて使わせる場合、最初は1〜2時間から始め、徐々に使用時間を延ばしてください。いきなり1日中使わせると足に違和感を感じたり、痛みを訴える場合があります。1〜2週間かけて慣らしていくのが理想的です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">定期的にサイズを確認する</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">子供の足は成長が早いため、3ヶ月に1回はインソールのサイズが合っているか確認しましょう。つま先部分にインソールが届いていない、かかとがはみ出しているなどの場合はサイズが合っていません。靴を買い替えるタイミングでインソールもサイズの見直しを行ってください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">子供の足は成長が早いため、3ヶ月に1回はインソールのサイズが合っているかご確認ください。つま先部分にインソールが届いていない、かかとがはみ出しているなどの場合はサイズが合っていません。靴を買い替えるタイミングでインソールもサイズの見直しを行ってください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">裸足で遊ぶ時間も確保する</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">インソールに頼りすぎず、裸足で遊ぶ時間も大切にしましょう。裸足で芝生や砂場を歩くことは、足裏の感覚を鍛え、筋肉の発達を促す最良のトレーニングです。インソールは外出時のサポートとして位置づけ、家の中では裸足で過ごす習慣を維持してください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">インソールに頼りすぎず、裸足で遊ぶ時間も大切にしてください。裸足で芝生や砂場を歩くことは、足裏の感覚を鍛え、筋肉の発達を促す最良のトレーニングです。インソールは外出時のサポートとして位置づけ、家の中では裸足で過ごす習慣を維持してください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">痛みが続く場合は専門医に相談</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">インソールを使い始めて1〜2週間経っても足の痛みや違和感が続く場合は、使用を中止して小児整形外科に相談しましょう。足の構造に問題がある場合は、市販のインソールではなくオーダーメイドのインソール（医療用装具）が必要な場合もあります。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">インソールを使い始めて1〜2週間経っても足の痛みや違和感が続く場合は、使用を中止して小児整形外科にご相談ください。足の構造に問題がある場合は、市販のインソールではなくオーダーメイドのインソール（医療用装具）が必要な場合もあります。</p>
             </div>
           </div>
         </section>
@@ -299,7 +299,7 @@ export default function KidsInsolePage() {
 
         <section id="replacement" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">買い替えサイクルとサイズ確認の習慣化</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">子供の足は半年で0.5〜1cm程度伸びるため、インソールも「一度買ったら終わり」ではなく、定期的な見直しが前提になります。おすすめは、<strong>学期の変わり目・靴の買い替え時・シーズンの節目</strong>など、思い出しやすいタイミングとセットにして3ヶ月に1回程度のチェックを習慣化することです。以下のポイントを親子で確認しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">子供の足は半年で0.5〜1cm程度伸びるため、インソールも「一度買ったら終わり」ではなく、定期的な見直しが前提になります。おすすめは、<strong>学期の変わり目・靴の買い替え時・シーズンの節目</strong>など、思い出しやすいタイミングとセットにして3ヶ月に1回程度のチェックを習慣化することです。以下のポイントを親子でご確認ください。</p>
           <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             <li><span className="font-bold">つま先の余裕：</span>インソールの上に足を乗せたとき、指先がインソールの先端からはみ出していないか</li>
             <li><span className="font-bold">かかとの位置：</span>かかとがヒールカップの中央に収まっているか、後ろにはみ出していないか</li>
@@ -339,14 +339,14 @@ export default function KidsInsolePage() {
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">子供のインソールのサイズ確認はいつ行えば良いですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">学期の変わり目や靴を買い替えるタイミングなど、3ヶ月に1回程度を目安に習慣化するのがおすすめです。つま先の余裕・かかとの位置・インソール表面のへたりやすり減り・左右差をチェックし、合わなくなっていたらカット調整や買い替えを行いましょう。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">学期の変わり目や靴を買い替えるタイミングなど、3ヶ月に1回程度を目安に習慣化するのがおすすめです。つま先の余裕・かかとの位置・インソール表面のへたりやすり減り・左右差をチェックし、合わなくなっていたらカット調整や買い替えを行ってください。</div>
             </details>
           </div>
         </section>
 
         <section id="summary" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">子供用インソールは、成長期の足のアーチ形成サポート・衝撃吸収・正しい歩き方の基礎づくりに有効なツールです。6歳以降を目安に、お子さんの足の状態に合わせて導入を検討しましょう。選ぶ際は適度なアーチサポート・衝撃吸収・通気性・サイズ調整のしやすさをチェックしてください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">子供用インソールは、成長期の足のアーチ形成サポート・衝撃吸収・正しい歩き方の基礎づくりに有効なツールです。6歳以降を目安に、お子さんの足の状態に合わせて導入をご検討ください。選ぶ際は適度なアーチサポート・衝撃吸収・通気性・サイズ調整のしやすさをチェックしてください。</p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">今回紹介した主要3商品</p>

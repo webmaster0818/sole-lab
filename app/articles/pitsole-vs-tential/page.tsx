@@ -4,16 +4,16 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "ピットソール vs TENTIAL｜機能性インソール2強を徹底比較",
+  title: "ピットソール vs TENTIAL｜機能性インソール2強を比較",
   description:
-    "ピットソールとTENTIALインソールを徹底比較。価格・機能・フィット感・口コミ評価などあらゆる角度から2つの高機能インソールを分析し、あなたに合った1足を提案します。",
+    "ピットソールとTENTIALインソールを比較。価格・機能・フィット感・口コミ評価などあらゆる角度から2つの高機能インソールを分析し、あなたに合った1足を提案します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pitsole-vs-tential/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "ピットソール vs TENTIAL｜機能性インソール2強を徹底比較",
+    title: "ピットソール vs TENTIAL｜機能性インソール2強を比較",
     description:
-      "ピットソールとTENTIALインソールを徹底比較。価格・機能・フィット感・口コミ評価などあらゆる角度から分析。",
+      "ピットソールとTENTIALインソールを比較。価格・機能・フィット感・口コミ評価などあらゆる角度から分析。",
     url: "https://sole-laboratory.com/articles/pitsole-vs-tential/",
     type: "article",
   },
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "ピットソール vs TENTIAL｜機能性インソール2強を徹底比較",
+  headline: "ピットソール vs TENTIAL｜機能性インソール2強を比較",
   description:
-    "ピットソールとTENTIALインソールを徹底比較。価格・機能・フィット感・口コミ評価などあらゆる角度から2つの高機能インソールを分析します。",
+    "ピットソールとTENTIALインソールを比較。価格・機能・フィット感・口コミ評価などあらゆる角度から2つの高機能インソールを分析します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -139,7 +139,7 @@ export default function PitsoleVsTentialPage() {
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソール vs TENTIAL
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">機能性インソール2強</span>を徹底比較
+            <span className="text-[#0ea5e9]">機能性インソール2強</span>を比較
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             高機能インソールとして人気のピットソールとTENTIAL。
@@ -218,7 +218,7 @@ export default function PitsoleVsTentialPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            機能性インソール市場で高い人気を誇る「ピットソール」と「TENTIAL INSOLE」。どちらも足の健康をサポートする高機能製品ですが、設計思想や得意分野が異なります。まずはそれぞれのブランドの特徴を整理しましょう。
+            機能性インソール市場で高い人気を誇る「ピットソール」と「TENTIAL INSOLE」。どちらも足の健康をサポートする高機能製品ですが、設計思想や得意分野が異なります。まずはそれぞれのブランドの特徴を整理してください。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
@@ -257,7 +257,7 @@ export default function PitsoleVsTentialPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            両製品の基本スペックを一覧で比較します。サイズ展開・素材・機能面での違いを確認しましょう。
+            両製品の基本スペックを一覧で比較します。サイズ展開・素材・機能面での違いをご確認ください。
           </p>
 
           <div className="overflow-x-auto mb-6">

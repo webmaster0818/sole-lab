@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "ピットソールの最安値は？どこで買える？販売店・価格比較【2026年8月】",
   description:
-    "ピットソール(Pitsole)の最安値・販売店を徹底比較。公式サイト・楽天・Amazonの価格差、セット割引の詳細、偽物リスクまで解説。最安は6足セットで1足あたり4,026円。",
+    "ピットソール(Pitsole)の最安値・販売店を比較。公式サイト・楽天・Amazonの価格差、セット割引の詳細、偽物リスクまで解説。最安は6足セットで1足あたり4,026円。",
   alternates: {
     canonical: "https://sole-laboratory.com/pitsole/price/",
   },
@@ -20,7 +20,7 @@ const structuredData = {
   headline:
     "ピットソールの最安値は？どこで買える？販売店比較【2026年】",
   description:
-    "ピットソール(Pitsole)の最安値・販売店を徹底比較。公式サイト・楽天・Amazonの価格差、セット割引の詳細、偽物リスクまで解説。",
+    "ピットソール(Pitsole)の最安値・販売店を比較。公式サイト・楽天・Amazonの価格差、セット割引の詳細、偽物リスクまで解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -147,11 +147,11 @@ export default function PitsolePricePage() {
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソールの最安値は？
             <br />
-            <span className="text-amber-600">販売店を徹底比較</span>
+            <span className="text-amber-600">販売店を比較</span>
             【2026年最新】
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            ピットソール（Pitsole）はどこで買えるのか、最安値はいくらなのかを徹底調査。
+            ピットソール（Pitsole）はどこで買えるのか、最安値はいくらなのかを調査。
             公式サイト・楽天・Amazonの価格差、セット割引の仕組み、偽物・転売品のリスクまで詳しく解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs text-gray-500">
@@ -564,7 +564,7 @@ export default function PitsolePricePage() {
           </div>
           <p className="text-gray-700 text-sm leading-relaxed">
             数百円〜千円程度の差額で偽物リスクを負うのは割に合いません。
-            <strong>必ず公式サイト・楽天公式ショップ・Amazon公式ストア</strong>から購入しましょう。
+            <strong>必ず公式サイト・楽天公式ショップ・Amazon公式ストア</strong>から購入してください。
             正規品にはBACCHUSのロゴと製品番号が記載されています。
           </p>
         </section>
@@ -575,7 +575,7 @@ export default function PitsolePricePage() {
             セット購入がお得！価格シミュレーション
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
-            「何足買えばどれくらいお得なのか？」を具体的な数字でシミュレーションしてみましょう。
+            「何足買えばどれくらいお得なのか？」を具体的な数字でシミュレーションしてんでください。
           </p>
           <div className="space-y-4 mb-6">
             {/* 単品 */}
@@ -761,7 +761,7 @@ export default function PitsolePricePage() {
                 href="/pitsole"
                 className="text-[#0ea5e9] hover:underline"
               >
-                ピットソールの口コミ・効果を徹底検証【累計200万足の実力】
+                ピットソールの口コミ・効果を検証【累計200万足の実力】
               </Link>
             </li>
           </ul>

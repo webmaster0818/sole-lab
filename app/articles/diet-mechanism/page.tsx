@@ -565,7 +565,7 @@ export default function DietMechanismPage() {
               </h3>
               <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
                 <p>
-                  インソールで足裏のアーチが補整されても、歩き方自体が間違っていると効果は半減します。以下の3点を意識して歩きましょう。
+                  インソールで足裏のアーチが補整されても、歩き方自体が間違っていると効果は半減します。以下の3点を意識して歩いてください。
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-3">
                   <div className="bg-gray-50 rounded-lg p-4">
@@ -680,7 +680,7 @@ export default function DietMechanismPage() {
               </h3>
               <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
                 <p>
-                  インソールダイエットの効果が現れるまでの期間をフェーズごとにまとめました。焦らず段階的に変化を楽しみましょう。
+                  インソールダイエットの効果が現れるまでの期間をフェーズごとにまとめました。焦らず段階的に変化を楽しんでください。
                 </p>
                 <div className="space-y-3 mt-3">
                   {[
@@ -739,7 +739,7 @@ export default function DietMechanismPage() {
             3商品のダイエットアプローチ比較
           </h2>
           <p className="text-gray-700 text-sm md:text-base leading-relaxed mb-8">
-            人気のダイエットインソール3商品は、それぞれ異なるアプローチでダイエット効果を狙っています。自分の目的に合った商品を選ぶために、各アプローチの違いを理解しましょう。
+            人気のダイエットインソール3商品は、それぞれ異なるアプローチでダイエット効果を狙っています。自分の目的に合った商品を選ぶために、各アプローチの違いを理解してください。
           </p>
 
           <div className="space-y-6">

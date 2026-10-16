@@ -28,7 +28,7 @@ const structuredData = {
   headline:
     "ランウェイキュアソールの口コミ・評判を検証｜どこで売ってる？外反母趾でも使える？",
   description:
-    "ランウェイキュアソールの口コミ・評判・効果を徹底検証。販売店情報（市販・ドンキ・通販）、外反母趾への対応、メリット・デメリット、最安値情報まで。",
+    "ランウェイキュアソールの口コミ・評判・効果を検証。販売店情報（市販・ドンキ・通販）、外反母趾への対応、メリット・デメリット、最安値情報まで。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -226,7 +226,7 @@ export default function RunwayCureSolePage() {
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ランウェイキュアソールの
             <br className="md:hidden" />
-            口コミ・効果を<span className="text-[#8b5cf6]">徹底検証</span>
+            口コミ・効果を<span className="text-[#8b5cf6]">検証</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Runway Cure Sole（ランウェイキュアソール）の口コミ・評判から効果の仕組みまで、
@@ -1100,7 +1100,7 @@ export default function RunwayCureSolePage() {
               <p className="text-xs text-gray-500 mt-1">男性の使用感を検証</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
           </div>

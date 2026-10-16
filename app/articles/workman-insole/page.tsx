@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "疲れ軽減・作業ならコスパ良好", "b": "立ち仕事や作業の疲れ対策には、ワークマンの低価格インソールが手軽でおすすめです。"}, {"t": "ダイエット目的なら専用設計", "b": "姿勢・歩き方を整えてボディメイクを狙うなら、特許技術などの専用ダイエットインソールが向いています。"}, {"t": "目的で使い分ける", "b": "『疲れ軽減』か『ダイエット』かで選ぶ製品が変わります。目的を明確にしましょう。"}];
+const points = [{"t": "疲れ軽減・作業ならコスパ良好", "b": "立ち仕事や作業の疲れ対策には、ワークマンの低価格インソールが手軽でおすすめです。"}, {"t": "ダイエット目的なら専用設計", "b": "姿勢・歩き方を整えてボディメイクを狙うなら、特許技術などの専用ダイエットインソールが向いています。"}, {"t": "目的で使い分ける", "b": "『疲れ軽減』か『ダイエット』かで選ぶ製品が変わります。目的を明確にしてください。"}];
 const related = [{"href": "/articles/cheap-insole/", "label": "コスパの良いインソール"}, {"href": "/articles/100kin-comparison/", "label": "100均インソールの比較"}, {"href": "/articles/where-to-buy-insole/", "label": "市販はどこで売ってる"}, {"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}];
 
 export default function WorkmanPage() {
@@ -121,7 +121,7 @@ export default function WorkmanPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">目的別の選び方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">とにかく安く疲れを軽減したい・作業靴に入れたいならワークマンの汎用インソールが手軽です。一方、姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選びましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">とにかく安く疲れを軽減したい・作業靴に入れたいならワークマンの汎用インソールが手軽です。一方、姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選ぶことをおすすめします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">両者は価格帯も目的も異なります。どちらが優れているかではなく、自分の目的に合うかで選ぶのがポイントです。</p>
           <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed">
             <li><span className="font-bold">立ち仕事・作業で足が疲れる：</span>衝撃吸収タイプの汎用インソールが手軽。安全靴やワークシューズに入れて負担を軽くしたい人に。</li>
@@ -173,7 +173,7 @@ export default function WorkmanPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">サイズ調整・使い方の注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">汎用インソールはサイズ展開がS・M・Lなど幅を持たせてあることが多く、靴にぴったり合わせるにはカット調整が必要になる場合があります。多くの製品にはカット用のガイド線が入っているので、いま使っている靴の中敷きを型紙にして、つま先側から少しずつ切ると失敗しにくくなります。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使うときは、靴に元から入っている中敷きを抜いてから入れ替えるか、薄手のものを上に重ねるのが基本です。厚みが増すと靴がきつくなったり、かかとが浮いたりすることがあるため、装着後は実際に歩いてフィット感を確かめましょう。違和感や痛みが続く場合は無理に使い続けないでください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使うときは、靴に元から入っている中敷きを抜いてから入れ替えるか、薄手のものを上に重ねるのが基本です。厚みが増すと靴がきつくなったり、かかとが浮いたりすることがあるため、装着後は実際に歩いてフィット感を確かめてください。違和感や痛みが続く場合は無理に使い続けないでください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">衛生面では、抗菌防臭加工があっても定期的に乾燥させ、汚れたら早めに交換するのが快適に使うコツです。お手入れ方法や交換目安は製品ごとに異なるため、パッケージや公式の表示に従ってください。</p>
         </section>
 
@@ -191,7 +191,7 @@ export default function WorkmanPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

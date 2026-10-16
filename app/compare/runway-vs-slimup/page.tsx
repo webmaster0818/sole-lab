@@ -6,15 +6,15 @@ import VerificationNote from "../../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
-    "ランウェイキュアソールとスリムアップインソールを徹底比較！類似品ならどっち？",
+    "ランウェイキュアソールとスリムアップインソールを比較！類似品ならどっち？",
   description:
-    "ランウェイキュアソールとスリムアップインソールを徹底比較。価格・サイズ・機能・監修・口コミ評価まで全項目を比較表付きで解説。あなたに合うダイエットインソールが分かります。",
+    "ランウェイキュアソールとスリムアップインソールを比較。価格・サイズ・機能・監修・口コミ評価まで全項目を比較表付きで解説。あなたに合うダイエットインソールが分かります。",
   alternates: {
     canonical: "https://sole-laboratory.com/compare/runway-vs-slimup/",
   },
   openGraph: { images: ["/og-default.png"],
     title:
-      "ランウェイキュアソール vs スリムアップインソール徹底比較！｜ソールラボ",
+      "ランウェイキュアソール vs スリムアップインソール比較！｜ソールラボ",
     description:
       "ランウェイキュアソールとスリムアップインソールを全項目で比較。価格・機能・口コミの違いが一目で分かる。",
     url: "https://sole-laboratory.com/compare/runway-vs-slimup/",
@@ -26,9 +26,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ランウェイキュアソールとスリムアップインソールを徹底比較！類似品ならどっち？",
+    "ランウェイキュアソールとスリムアップインソールを比較！類似品ならどっち？",
   description:
-    "ランウェイキュアソールとスリムアップインソールを価格・サイズ・機能・口コミなど全項目で徹底比較。",
+    "ランウェイキュアソールとスリムアップインソールを価格・サイズ・機能・口コミなど全項目で比較。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -106,12 +106,12 @@ export default function RunwayVsSlimupPage() {
             <br className="md:hidden" />
             スリムアップインソール
             <br />
-            <span className="text-indigo-600">徹底比較！</span>
+            <span className="text-indigo-600">比較！</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             女性向け美姿勢インソール「ランウェイキュアソール」と整体師監修の「スリムアップインソール」。
             <br className="hidden md:block" />
-            価格・機能・サイズ・口コミを項目別に比較し、あなたに合う1足を見つけましょう。
+            価格・機能・サイズ・口コミを項目別に比較し、あなたに合う1足を見つけてください。
           </p>
         </div>
       </section>
@@ -247,7 +247,7 @@ export default function RunwayVsSlimupPage() {
           </p>
           <p>
             一方でスリムアップインソールは抗菌防臭機能やS/Mの2サイズ展開（最大26.5cm・公式サイトにて2026年7月確認）など、日常的な使いやすさに強みがあります。
-            以下でそれぞれの項目を詳しく掘り下げていきましょう。
+            以下でそれぞれの項目を詳しく掘り下げていいてください。
           </p>
         </div>
       </section>
@@ -261,7 +261,7 @@ export default function RunwayVsSlimupPage() {
 
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
             ダイエットインソールは継続使用が前提のため、長期的なコストパフォーマンスが重要です。
-            両商品の価格体系を詳しく比較してみましょう。
+            両商品の価格体系を詳しく比較してんでください。
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -454,7 +454,7 @@ export default function RunwayVsSlimupPage() {
             <p>
               <strong>スリムアップインソール</strong>はS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開で、最大26.5cmまで対応します（公式サイトにて2026年7月確認）。
               ランウェイキュアソールより対応範囲が広く、足のサイズが範囲内であれば男性も使用できます。
-              カットはつま先・サイドの微調整用のため、足の実寸に合うサイズを選びましょう。
+              カットはつま先・サイドの微調整用のため、足の実寸に合うサイズを選ぶことをおすすめします。
             </p>
             <p>
               女性で足のサイズが22.5〜25.0cmに収まる方は、女性専用設計のランウェイキュアソールが手軽です。
@@ -712,7 +712,7 @@ export default function RunwayVsSlimupPage() {
           </p>
           <p>
             なお、どちらも公式サイトでの購入が最もお得です。
-            特にセット割引は公式サイト限定の場合が多いため、まずは公式サイトで最新の価格とキャンペーン情報を確認しましょう。
+            特にセット割引は公式サイト限定の場合が多いため、まずは公式サイトで最新の価格とキャンペーン情報をご確認ください。
           </p>
         </div>
       </section>
@@ -874,7 +874,7 @@ export default function RunwayVsSlimupPage() {
             className="block border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors"
           >
             <p className="text-sm font-bold text-gray-900 mb-1">
-              ピットソールの口コミ・効果を徹底検証
+              ピットソールの口コミ・効果を検証
             </p>
             <p className="text-xs text-gray-500">
               世界特許取得の骨格矯正インソールの実力を検証

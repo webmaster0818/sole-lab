@@ -279,7 +279,7 @@ export default function PitsoleSizePage() {
             ピットソールは<strong>XS・S・M・L・XLの全5サイズ</strong>
             で展開されています。
             自分の足のサイズに合ったものを選び、必要に応じてカットして微調整する仕組みです。
-            まずは全サイズの対応表を確認しましょう。
+            まずは全サイズの対応表をご確認ください。
           </p>
 
           {/* H3: サイズ一覧 */}
@@ -485,7 +485,7 @@ export default function PitsoleSizePage() {
             足の実寸は靴のサイズと一致しないことが多く、
             実寸を基準にすると小さすぎるインソールを選んでしまう可能性があります。
             いつも履いているスニーカーやパンプスのサイズ表記を確認し、
-            そのサイズに合ったピットソールを選びましょう。
+            そのサイズに合ったピットソールを選ぶことをおすすめします。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-8">
@@ -671,7 +671,7 @@ export default function PitsoleSizePage() {
               <strong className="text-[#34d399]">TIPS：</strong>
               インソールが接着されていて取り外せない靴もあります。
               その場合は、靴の中にピットソールを直接入れてみて、
-              はみ出す部分を確認してからカットしましょう。
+              はみ出す部分を確認してからカットしてください。
               別の同サイズの靴のインソールを型紙に使う方法もあります。
             </p>
           </div>
@@ -764,7 +764,7 @@ export default function PitsoleSizePage() {
 
           <p className="text-gray-700 text-sm leading-relaxed mb-4">
             マーキングしたラインに沿ってハサミでカットします。
-            以下の注意点を守りましょう。
+            以下の注意点を守ってください。
           </p>
 
           <ul className="space-y-2 mb-8">
@@ -774,7 +774,7 @@ export default function PitsoleSizePage() {
               </span>
               <span>
                 <strong>一度に大きくカットしない。</strong>
-                少しずつ、こまめに確認しながら切り進めましょう。
+                少しずつ、こまめに確認しながら切り進めてください。
                 切りすぎると元に戻せません。
               </span>
             </li>
@@ -795,7 +795,7 @@ export default function PitsoleSizePage() {
               <span>
                 <strong>左右をセットでカット。</strong>
                 片方だけカットしてしまうと左右差が出やすくなります。
-                交互に少しずつカットして、バランスを保ちましょう。
+                交互に少しずつカットして、バランスを保ってください。
               </span>
             </li>
             <li className="flex items-start gap-3 text-sm text-gray-700">
@@ -806,7 +806,7 @@ export default function PitsoleSizePage() {
                 <strong>かかと側はカットしない。</strong>
                 ピットソールの特許構造はかかと付近に集中しています。
                 かかと部分をカットすると効果が損なわれる可能性があります。
-                調整はつま先側のみで行いましょう。
+                調整はつま先側のみで行ってください。
               </span>
             </li>
           </ul>
@@ -1072,7 +1072,7 @@ export default function PitsoleSizePage() {
           <p className="text-gray-700 text-sm leading-relaxed mb-8">
             「買ったけどサイズが合わなかった」という場合の
             対処法をまとめました。購入先によって対応が異なるため、
-            事前に確認しておきましょう。
+            事前に確認しておいてください。
           </p>
           {/* サイズ確認後の購買導線(9/28追加・既存コード) */}
           <div className="text-center mt-6">
@@ -1169,7 +1169,7 @@ export default function PitsoleSizePage() {
                   一度でもカットしたり使用した場合は、
                   どの販売チャネルでも交換の対象外となります。
                   サイズに不安がある場合は、
-                  試着してからカットするようにしましょう。
+                  試着してからカットするようにしてください。
                 </span>
               </li>
               <li className="flex items-start gap-2">
@@ -1190,7 +1190,7 @@ export default function PitsoleSizePage() {
                   <strong>セット購入の部分交換は要確認。</strong>
                   まとめ買いセット（2足・4足・6足）の場合、
                   1足だけサイズ交換できるかはショップによって対応が異なります。
-                  事前にカスタマーサポートに確認しましょう。
+                  事前にカスタマーサポートにご確認ください。
                 </span>
               </li>
               <li className="flex items-start gap-2">
@@ -1439,7 +1439,7 @@ export default function PitsoleSizePage() {
                   カスタマーサポートへ連絡すれば交換可能です。
                   楽天やAmazon経由の場合は各プラットフォームの返品ポリシーに従います。
                   カット済み・使用済みの場合はどの販売チャネルでも交換対象外となるため、
-                  カットする前にサイズを確認しましょう。
+                  カットする前にサイズをご確認ください。
                 </p>
               </div>
             </details>
@@ -1571,7 +1571,7 @@ export default function PitsoleSizePage() {
                 レビュー
               </p>
               <p className="font-bold text-gray-900 text-sm group-hover:text-[#e8627c] transition-colors">
-                ピットソールの口コミ・評判を徹底検証
+                ピットソールの口コミ・評判を検証
               </p>
               <p className="text-xs text-gray-500 mt-1">
                 実際の使用者の声から効果の真相に迫ります
@@ -1589,7 +1589,7 @@ export default function PitsoleSizePage() {
                 ピットソールの最安値・販売店比較
               </p>
               <p className="text-xs text-gray-500 mt-1">
-                公式・楽天・Amazonの価格差を徹底比較
+                公式・楽天・Amazonの価格差を比較
               </p>
             </Link>
 

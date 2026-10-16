@@ -314,7 +314,7 @@ export default function HeightUpPage() {
                 </h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                シークレットインソールを入れると靴内部の空間が狭くなるため、通常より0.5〜1cm大きめの靴を選ぶと快適です。特に甲高の方は余裕を持ったサイズ選びが重要です。ただし大きすぎると歩行時に靴が脱げそうになるため、実際に試着して確認しましょう。
+                シークレットインソールを入れると靴内部の空間が狭くなるため、通常より0.5〜1cm大きめの靴を選ぶと快適です。特に甲高の方は余裕を持ったサイズ選びが重要です。ただし大きすぎると歩行時に靴が脱げそうになるため、実際に試着してご確認ください。
               </p>
             </div>
 
@@ -342,7 +342,7 @@ export default function HeightUpPage() {
                 </h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                高さのあるインソールを入れると、かかとからつま先への重心移動が変わります。最初は短い距離から慣らし、自然な歩き方ができるまで練習しましょう。つま先立ちになったり、足を引きずったりする歩き方は不自然に見えてバレの原因になります。
+                高さのあるインソールを入れると、かかとからつま先への重心移動が変わります。最初は短い距離から慣らし、自然な歩き方ができるまで練習してください。つま先立ちになったり、足を引きずったりする歩き方は不自然に見えてバレの原因になります。
               </p>
             </div>
           </div>
@@ -355,7 +355,7 @@ export default function HeightUpPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            シークレットインソールは便利なアイテムですが、不適切な使用は足の健康を損なうリスクがあります。以下の注意点を必ず把握しておきましょう。
+            シークレットインソールは便利なアイテムですが、不適切な使用は足の健康を損なうリスクがあります。以下の注意点を必ず把握しておいてください。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
@@ -387,13 +387,13 @@ export default function HeightUpPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
             かかとが高くなることで骨盤が前傾し、腰椎のカーブが強くなります。これが
             <Link href="/articles/back-pain/" className="text-[#0ea5e9] hover:underline">腰痛</Link>
-            の原因になることがあります。特に元々反り腰の方は、高いシークレットインソールの使用に注意が必要です。腰に負担を感じたら高さを下げるか、使用時間を短くしましょう。
+            の原因になることがあります。特に元々反り腰の方は、高いシークレットインソールの使用に注意が必要です。腰に負担を感じたら高さを下げるか、使用時間を短くしてください。
           </p>
 
           <div className="bg-red-50 border border-red-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-red-700">注意：</span>
-              シークレットインソールの高さは「自然に歩ける範囲」に留めることが鉄則です。見た目の身長より足の健康を優先し、無理のない高さを選びましょう。初めての方は2〜3cmから始めることを推奨します。
+              シークレットインソールの高さは「自然に歩ける範囲」に留めることが鉄則です。見た目の身長より足の健康を優先し、無理のない高さを選ぶことをおすすめします。初めての方は2〜3cmから始めることを推奨します。
             </p>
           </div>
         </section>

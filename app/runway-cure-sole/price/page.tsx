@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "ランウェイキュアソールの最安値・販売店情報【2026年】｜ソールラボ",
   description:
-    "ランウェイキュアソール（Runway Cure Sole）の最安値・販売店情報を徹底調査。FLOReショップ公式サイトの価格、セット割引、楽天・Amazonの取り扱い状況、購入前の注意点まで詳しく解説します。",
+    "ランウェイキュアソール（Runway Cure Sole）の最安値・販売店情報を調査。FLOReショップ公式サイトの価格、セット割引、楽天・Amazonの取り扱い状況、購入前の注意点まで詳しく解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/runway-cure-sole/price/",
   },
@@ -28,7 +28,7 @@ const structuredData = {
   headline:
     "ランウェイキュアソールの最安値・販売店情報【2026年】",
   description:
-    "ランウェイキュアソールの最安値・販売店情報を徹底調査。公式サイトのセット割引から楽天・Amazonの取り扱い状況まで。",
+    "ランウェイキュアソールの最安値・販売店情報を調査。公式サイトのセット割引から楽天・Amazonの取り扱い状況まで。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -146,7 +146,7 @@ export default function RunwayCureSolePricePage() {
             <span className="text-[#8b5cf6]">最安値・販売店</span>情報
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            ランウェイキュアソールはどこで買えるのか、最もお得に購入できる方法を徹底調査しました。
+            ランウェイキュアソールはどこで買えるのか、最もお得に購入できる方法を調査しました。
             <br className="hidden md:block" />
             公式サイトの割引情報や各販売チャネルの比較をまとめています。
           </p>
@@ -467,7 +467,7 @@ export default function RunwayCureSolePricePage() {
             「店頭で実物を見てから買いたい」という方には残念ですが、
             ランウェイキュアソールはオンライン購入のみとなっています。
             公式サイトにはサイズガイドや商品の詳細情報が掲載されているので、
-            購入前にしっかり確認しておきましょう。
+            購入前にしっかり確認しておいてください。
           </p>
         </section>
 
@@ -483,7 +483,7 @@ export default function RunwayCureSolePricePage() {
             {[
               {
                 title: "サイズの確認",
-                text: "M（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開です。普段履いている靴のサイズを基準に選びましょう。迷ったら大きめのサイズが安心です。",
+                text: "M（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開です。普段履いている靴のサイズを基準に選ぶことをおすすめします。迷ったら大きめのサイズが安心です。",
               },
               {
                 title: "使用する靴との相性",
@@ -491,7 +491,7 @@ export default function RunwayCureSolePricePage() {
               },
               {
                 title: "購入先の確認",
-                text: "FLOReショップ公式サイトが正規の販売元です。セット割引は公式サイト限定なので、まとめ買いを検討している方は必ず公式サイトから購入しましょう。",
+                text: "FLOReショップ公式サイトが正規の販売元です。セット割引は公式サイト限定なので、まとめ買いを検討している方は必ず公式サイトから購入してください。",
               },
               {
                 title: "女性向け商品であること",
@@ -534,11 +534,11 @@ export default function RunwayCureSolePricePage() {
               },
               {
                 q: "サイズはどう選べばいい？",
-                a: "M（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズです。普段の靴のサイズに合わせて選びましょう。サイズに迷った場合は大きめのLサイズをおすすめします。",
+                a: "M（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズです。普段の靴のサイズに合わせて選ぶことをおすすめします。サイズに迷った場合は大きめのLサイズをおすすめします。",
               },
               {
                 q: "セット割引はどこで使える？",
-                a: "セット割引はFLOReショップ公式サイト限定の特典です。楽天やAmazonなど他の販売チャネルでは適用されません。まとめ買いを考えている方は必ず公式サイトから購入しましょう。",
+                a: "セット割引はFLOReショップ公式サイト限定の特典です。楽天やAmazonなど他の販売チャネルでは適用されません。まとめ買いを考えている方は必ず公式サイトから購入してください。",
               },
             ].map((faq) => (
               <details
@@ -628,7 +628,7 @@ export default function RunwayCureSolePricePage() {
           </div>
           <p className="text-sm text-gray-700 leading-relaxed mt-4">
             ランウェイキュアソールは毎日の歩行に取り入れることで効果を実感しやすい商品です。
-            お得に購入して、正しい姿勢と美しい歩き方を手に入れましょう。
+            お得に購入して、正しい姿勢と美しい歩き方を手に入れてください。
           </p>
         </section>
 

@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-25",
 };
 
-const faqs = [{"q": "インソールでふくらはぎは細くなりますか？", "a": "直接細くするものではありませんが、歩き方を整えて筋ポンプを促し、むくみの軽減を助けます。生活習慣の見直しと組み合わせましょう。"}, {"q": "ふくらはぎのむくみに効果はありますか？", "a": "アーチを支えて歩行時の筋ポンプを働きやすくすることで、むくみの軽減を助けます。着圧ソックスやストレッチの併用も効果的です。"}, {"q": "立ち仕事でふくらはぎが張ります。", "a": "立ち仕事はふくらはぎに負担がかかります。アーチサポートのインソールに加え、合間の足踏みやかかと上げで筋ポンプを促しましょう。"}];
+const faqs = [{"q": "インソールでふくらはぎは細くなりますか？", "a": "直接細くするものではありませんが、歩き方を整えて筋ポンプを促し、むくみの軽減を助けます。生活習慣の見直しと組み合わせてください。"}, {"q": "ふくらはぎのむくみに効果はありますか？", "a": "アーチを支えて歩行時の筋ポンプを働きやすくすることで、むくみの軽減を助けます。着圧ソックスやストレッチの併用も効果的です。"}, {"q": "立ち仕事でふくらはぎが張ります。", "a": "立ち仕事はふくらはぎに負担がかかります。アーチサポートのインソールに加え、合間の足踏みやかかと上げで筋ポンプを促してください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "アーチサポートで歩行を整える", "b": "正しい体重移動を促し、ふくらはぎに余計な力が入りにくくなります。"}, {"t": "筋ポンプを助ける安定性", "b": "足元が安定すると歩行のリズムが整い、ふくらはぎのポンプ作用が働きやすくなります。"}, {"t": "毎日履ける快適さ", "b": "むくみケアは継続が前提。普段の靴に入り、長時間快適なものを選びましょう。"}];
+const points = [{"t": "アーチサポートで歩行を整える", "b": "正しい体重移動を促し、ふくらはぎに余計な力が入りにくくなります。"}, {"t": "筋ポンプを助ける安定性", "b": "足元が安定すると歩行のリズムが整い、ふくらはぎのポンプ作用が働きやすくなります。"}, {"t": "毎日履ける快適さ", "b": "むくみケアは継続が前提。普段の靴に入り、長時間快適なものを選ぶことをおすすめします。"}];
 const related = [{"href": "/articles/swelling-insole/", "label": "むくみ対策インソール"}, {"href": "/articles/leg-slimming/", "label": "脚痩せインソールの仕組み"}, {"href": "/articles/thigh-slimming-insole/", "label": "太もも痩せのインソール"}, {"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}];
 
 export default function CalfSlimmingPage() {
@@ -93,8 +93,8 @@ export default function CalfSlimmingPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">使う前に知っておきたい注意点</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールはふくらはぎを細くする医療機器や痩身グッズではありません。「履くだけで細くなる」「短期間で脚痩せできる」といった表現を見かけても、鵜呑みにせず冷静に判断しましょう。実感には個人差が大きく、合う・合わないも人それぞれです。むくみが長く続く、左右差が強い、痛みやしびれを伴うといった場合は、別の原因が隠れていることもあるため、自己判断せず医療機関に相談してください。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズが合わないインソールは、かえって歩きにくさや痛みの原因になります。最初は短時間から試し、違和感が強いときは無理に使い続けないことが大切です。特定の店舗や通販で見かける商品の価格やセット内容は変わることがあるため、購入前に必ず店頭や公式サイトで最新の情報を確認しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールはふくらはぎを細くする医療機器や痩身グッズではありません。「履くだけで細くなる」「短期間で脚痩せできる」といった表現を見かけても、鵜呑みにせず冷静に判断してください。実感には個人差が大きく、合う・合わないも人それぞれです。むくみが長く続く、左右差が強い、痛みやしびれを伴うといった場合は、別の原因が隠れていることもあるため、自己判断せず医療機関に相談してください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズが合わないインソールは、かえって歩きにくさや痛みの原因になります。最初は短時間から試し、違和感が強いときは無理に使い続けないことが大切です。特定の店舗や通販で見かける商品の価格やセット内容は変わることがあるため、購入前に必ず店頭や公式サイトで最新の情報をご確認ください。</p>
         </section>
 
         <section className="mb-12">
@@ -135,7 +135,7 @@ export default function CalfSlimmingPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ふくらはぎケアの使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、かかと着地→足裏全体→つま先で蹴り出す歩き方を意識すると、ふくらはぎのポンプが働きやすくなります。こまめに歩く習慣も効果的です。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">むくみが強い方は、着圧ソックスやふくらはぎのストレッチ、長時間同じ姿勢を避けることもあわせて行いましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">むくみが強い方は、着圧ソックスやふくらはぎのストレッチ、長時間同じ姿勢を避けることもあわせて行ってください。</p>
         </section>
 
         <section className="mb-12">
@@ -152,7 +152,7 @@ export default function CalfSlimmingPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">歩行とむくみを整えるインソールで、ふくらはぎケアをサポートしましょう。</p>
+          <p className="text-white/90 text-sm mb-5">歩行とむくみを整えるインソールで、ふくらはぎケアをサポートしてください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

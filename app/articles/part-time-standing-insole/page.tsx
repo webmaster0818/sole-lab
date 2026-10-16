@@ -24,7 +24,7 @@ const structuredData = {
   dateModified: "2026-06-13",
 };
 
-const faqs = [{"q": "バイト先の指定靴にも入れられますか？", "a": "薄型のインソールなら多くの指定靴に入ります。中が浅い場合は元の中敷きを外す、カットできるタイプでサイズを合わせるなどで調整しましょう。判断に迷う場合は職場の靴ルールも確認してください。"}, {"q": "週2〜3回のシフトでも効果はありますか？", "a": "はい。立ち仕事に慣れていない方ほど一回のシフトでの疲れが大きいため、アーチサポートの恩恵を感じやすいといえます。毎回同じ勤務用の靴に入れておくと手間もかかりません。"}, {"q": "学生でも買いやすい価格のものはありますか？", "a": "比較的手頃な価格帯の製品からカットして試せるものがあります。まずは無理のない価格で始めて、長く続ける仕事ならサポート力の高いものへのステップアップを検討しましょう。"}];
+const faqs = [{"q": "バイト先の指定靴にも入れられますか？", "a": "薄型のインソールなら多くの指定靴に入ります。中が浅い場合は元の中敷きを外す、カットできるタイプでサイズを合わせるなどで調整してください。判断に迷う場合は職場の靴ルールも確認してください。"}, {"q": "週2〜3回のシフトでも効果はありますか？", "a": "はい。立ち仕事に慣れていない方ほど一回のシフトでの疲れが大きいため、アーチサポートの恩恵を感じやすいといえます。毎回同じ勤務用の靴に入れておくと手間もかかりません。"}, {"q": "学生でも買いやすい価格のものはありますか？", "a": "比較的手頃な価格帯の製品からカットして試せるものがあります。まずは無理のない価格で始めて、長く続ける仕事ならサポート力の高いものへのステップアップをご検討ください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -117,7 +117,7 @@ export default function PartTimeStandingPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シフトの疲れをためない工夫</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">立ち仕事に慣れるまでは、休憩中に靴を脱いで足を休める、帰宅後にふくらはぎを伸ばすといった小さなケアの積み重ねが効きます。インソールと組み合わせると、翌日に疲れを持ち越しにくくなります。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">週に数回のシフトでも、足裏やかかとの痛みが何週間も続くようなら、単なる疲れではない可能性があります。我慢して続けず、整形外科で一度相談してください。靴自体が合っていない場合は、サイズの合う靴への見直しも並行して行いましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">週に数回のシフトでも、足裏やかかとの痛みが何週間も続くようなら、単なる疲れではない可能性があります。我慢して続けず、整形外科で一度相談してください。靴自体が合っていない場合は、サイズの合う靴への見直しも並行して行ってください。</p>
         </section>
 
         <section className="mb-12">
@@ -134,7 +134,7 @@ export default function PartTimeStandingPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">レジ・ホール・品出しの立ちっぱなしに。手軽に始められるインソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">レジ・ホール・品出しの立ちっぱなしに。手軽に始められるインソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

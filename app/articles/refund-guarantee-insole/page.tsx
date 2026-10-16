@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-07-02",
 };
 
-const faqs = [{"q": "返金保証は必ず使えますか？", "a": "保証期間・対象・申請方法などの条件を満たす必要があります。購入前に条件を確認し、満たせない場合は返金されない点に注意しましょう。"}, {"q": "定期購入の解約はいつまでにすれば良い？", "a": "多くは『次回発送の◯日前まで』に解約連絡が必要です。発送日から逆算して早めに連絡するのが安全です。"}, {"q": "単品購入と定期購入どちらが良い？", "a": "まず試したいなら単品、継続前提で割安に使いたいなら定期が向きます。定期は最低回数と解約条件を必ず確認しましょう。"}, {"q": "開封後でも返金してもらえますか？", "a": "返金保証が「開封・使用後でも対象」か「未開封のみ対象」かは、販売店ごとに条件が異なります。一般に、返送が必要だったり、商品やパッケージの状態が条件になる場合があります。具体的な可否は購入前に各公式サイトの保証規約で必ず確認しましょう。"}, {"q": "定期コースの解約方法はどうすれば良い？", "a": "解約方法は電話のみ・マイページ・問い合わせフォームなど販売店によって異なります。受付時間や次回発送の何日前までかといった期限も様々です。注文前に解約方法と連絡先を確認しておくと安心です。詳しい条件は各公式サイトでご確認ください。"}];
+const faqs = [{"q": "返金保証は必ず使えますか？", "a": "保証期間・対象・申請方法などの条件を満たす必要があります。購入前に条件を確認し、満たせない場合は返金されない点にご注意ください。"}, {"q": "定期購入の解約はいつまでにすれば良い？", "a": "多くは『次回発送の◯日前まで』に解約連絡が必要です。発送日から逆算して早めに連絡するのが安全です。"}, {"q": "単品購入と定期購入どちらが良い？", "a": "まず試したいなら単品、継続前提で割安に使いたいなら定期が向きます。定期は最低回数と解約条件を必ずご確認ください。"}, {"q": "開封後でも返金してもらえますか？", "a": "返金保証が「開封・使用後でも対象」か「未開封のみ対象」かは、販売店ごとに条件が異なります。一般に、返送が必要だったり、商品やパッケージの状態が条件になる場合があります。具体的な可否は購入前に各公式サイトの保証規約で必ずご確認ください。"}, {"q": "定期コースの解約方法はどうすれば良い？", "a": "解約方法は電話のみ・マイページ・問い合わせフォームなど販売店によって異なります。受付時間や次回発送の何日前までかといった期限も様々です。注文前に解約方法と連絡先を確認しておくと安心です。詳しい条件は各公式サイトでご確認ください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "返金保証の条件を確認", "b": "保証期間・対象・申請方法・返送の要否を購入前にチェック。条件を満たさないと返金されません。"}, {"t": "定期の最低回数・解約期限", "b": "『最低継続回数』『解約は次回発送の何日前まで』を必ず確認。スケジュールを把握しておきましょう。"}, {"t": "解約方法を事前に把握", "b": "電話のみ・マイページからなど解約方法は様々。受付時間や手順を事前に確認しておくとスムーズです。"}];
+const points = [{"t": "返金保証の条件を確認", "b": "保証期間・対象・申請方法・返送の要否を購入前にチェック。条件を満たさないと返金されません。"}, {"t": "定期の最低回数・解約期限", "b": "『最低継続回数』『解約は次回発送の何日前まで』を必ず確認。スケジュールを把握しておいてください。"}, {"t": "解約方法を事前に把握", "b": "電話のみ・マイページからなど解約方法は様々。受付時間や手順を事前に確認しておくとスムーズです。"}];
 const related = [{"href": "/articles/ec-buy-insole/", "label": "Amazon・楽天での購入"}, {"href": "/articles/fake-genuine-insole/", "label": "偽物・正規品の見分け方"}, {"href": "/articles/pitsole-coupon/", "label": "ピットソールのクーポン"}, {"href": "/articles/where-to-buy-insole/", "label": "市販はどこで売ってる"}];
 
 export default function RefundGuaranteePage() {
@@ -69,7 +69,7 @@ export default function RefundGuaranteePage() {
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">返金保証は『条件（期間・対象・申請方法）』を、定期購入は『最低継続回数・解約期限・解約方法』を、購入前に必ず確認しましょう。条件を把握しておけば、保証を活かしつつ無駄な出費を防げます。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">返金保証は『条件（期間・対象・申請方法）』を、定期購入は『最低継続回数・解約期限・解約方法』を、購入前に必ずご確認ください。条件を把握しておけば、保証を活かしつつ無駄な出費を防げます。</p>
         </div>
 
         <section id="compare" className="mb-12">
@@ -134,7 +134,7 @@ export default function RefundGuaranteePage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">返金保証や解約の条件は販売店ごとに異なり、同じ商品でも購入する店舗（公式サイト・モール・実店舗など）によって扱いが変わることがあります。下記は一般的に確認しておきたい観点です。具体的な保証額や条件は、必ず購入先の公式サイトや利用規約で最新の内容を確認してください。</p>
           <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             <li><span className="font-bold text-gray-900">保証の条件・期間：</span>何日以内に申請が必要か、対象商品・対象セットはどれか、申請に必要な書類（注文番号・明細など）や返送の要否を確認します。</li>
-            <li><span className="font-bold text-gray-900">開封後の可否：</span>「未開封のみ」か「使用後でも対象」かは販売店により異なります。返金保証と未開封の返品制度は別物なので、それぞれの扱いを確認しましょう。</li>
+            <li><span className="font-bold text-gray-900">開封後の可否：</span>「未開封のみ」か「使用後でも対象」かは販売店により異なります。返金保証と未開封の返品制度は別物なので、それぞれの扱いをご確認ください。</li>
             <li><span className="font-bold text-gray-900">定期縛りの有無：</span>「最低◯回の継続が条件」といった回数縛りがあるか、初回特価の場合の総額はいくらになるかを把握しておきます。なお、当サイトで扱う3製品はいずれも単品・セット販売（都度購入）で定期購入ではありません（<a href="#compare" className="text-[#0ea5e9] underline">3製品の比較はこちら</a>）。定期購入の商品を検討する際の一般的なチェック項目としてご活用ください。</li>
             <li><span className="font-bold text-gray-900">解約方法・連絡先：</span>電話・マイページ・フォームのどれで受け付けるか、受付時間、次回発送の何日前までに連絡が必要かを事前に控えておきます。</li>
           </ul>
@@ -181,7 +181,7 @@ export default function RefundGuaranteePage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">損しないためのチェックリスト</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">購入前に、①返金保証の有無と条件、②定期購入か単品か、③定期なら最低回数と解約期限・方法、④販売元と問い合わせ先、を確認しましょう。これらが明確な販売店を選ぶのが安全です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">購入前に、①返金保証の有無と条件、②定期購入か単品か、③定期なら最低回数と解約期限・方法、④販売元と問い合わせ先、をご確認ください。これらが明確な販売店を選ぶのが安全です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">解約したい場合は、次回発送日から逆算して早めに連絡するのが鉄則です。期限ぎりぎりや過ぎた連絡は、次回分が発送されてしまうことがあります。</p>
         </section>
 
@@ -199,7 +199,7 @@ export default function RefundGuaranteePage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">保証・解約条件が明確なインソールを、安心して選びましょう。</p>
+          <p className="text-white/90 text-sm mb-5">保証・解約条件が明確なインソールを、安心して選ぶことをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

@@ -5,17 +5,17 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "ダイエットインソール vs 100均インソール｜違いと効果を徹底比較",
+    "ダイエットインソール vs 100均インソール｜違いと効果を比較",
   description:
-    "100均インソールとダイエットインソールの違いを素材・構造・アーチサポート・耐久性・特許技術の5項目で徹底比較。比較表付きで分かりやすく解説し、それぞれが向いている人を提案します。",
+    "100均インソールとダイエットインソールの違いを素材・構造・アーチサポート・耐久性・特許技術の5項目で比較。比較表付きで分かりやすく解説し、それぞれが向いている人を提案します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/100kin-comparison/",
   },
   openGraph: { images: ["/og-default.png"],
     title:
-      "ダイエットインソール vs 100均インソール｜違いと効果を徹底比較｜ソールラボ",
+      "ダイエットインソール vs 100均インソール｜違いと効果を比較｜ソールラボ",
     description:
-      "100均インソールとダイエットインソールの違いを5項目で徹底比較。比較表付きで分かりやすく解説。",
+      "100均インソールとダイエットインソールの違いを5項目で比較。比較表付きで分かりやすく解説。",
     url: "https://sole-laboratory.com/articles/100kin-comparison/",
     type: "article",
   },
@@ -25,9 +25,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ダイエットインソール vs 100均インソール｜違いと効果を徹底比較",
+    "ダイエットインソール vs 100均インソール｜違いと効果を比較",
   description:
-    "100均インソールとダイエットインソールの違いを素材・構造・アーチサポート・耐久性・特許技術の5項目で徹底比較。比較表付きで解説。",
+    "100均インソールとダイエットインソールの違いを素材・構造・アーチサポート・耐久性・特許技術の5項目で比較。比較表付きで解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -134,13 +134,13 @@ export default function HyakkinComparisonPage() {
       <section className="bg-gradient-to-b from-[#fdf2f4] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm text-[#e8627c] font-medium mb-2">
-            徹底比較ガイド
+            比較ガイド
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ダイエットインソール vs 100均インソール
             <br />
             <span className="text-[#e8627c]">違いと効果</span>
-            を徹底比較
+            を比較
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             「インソールなんてどれも同じでしょ？」「100均で十分じゃない？」そんな疑問に、素材・構造・アーチサポート・耐久性・特許技術の5項目から具体的に回答します。競合サイトでは「100均では効果なし」で終わってしまいがちですが、本記事では両者の設計思想の違いを比較表付きで徹底的に掘り下げます。
@@ -608,7 +608,7 @@ export default function HyakkinComparisonPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              ダイエット目的でインソールを検討しているなら、以下の3商品がおすすめです。それぞれ特徴が異なるので、自分の目的や予算に合わせて選びましょう。
+              ダイエット目的でインソールを検討しているなら、以下の3商品がおすすめです。それぞれ特徴が異なるので、自分の目的や予算に合わせて選ぶことをおすすめします。
             </p>
           </div>
 
@@ -767,7 +767,7 @@ export default function HyakkinComparisonPage() {
             100均インソールがダイエットに向かない3つの科学的理由
           </h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            100均インソールは手軽に試せる反面、ダイエット目的での使用には科学的な限界があります。以下の3つの理由を理解した上で、目的に合った選択をしましょう。
+            100均インソールは手軽に試せる反面、ダイエット目的での使用には科学的な限界があります。以下の3つの理由を理解した上で、目的に合った選択をしてください。
           </p>
           <ul className="space-y-3 text-gray-700 mb-4">
             <li className="flex items-start">

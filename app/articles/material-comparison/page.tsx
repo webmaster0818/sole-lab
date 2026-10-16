@@ -5,11 +5,11 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "インソールの素材比較｜EVA・TPU・コルク・ジェルの違いと選び方",
   description:
-    "インソール素材のEVA・TPU・コルク・ジェルを徹底比較。各素材の特徴、メリット・デメリット、用途別の選び方を解説。ピットソール・ランウェイキュアソール・スリムアップインソールの素材設計も紹介。",
+    "インソール素材のEVA・TPU・コルク・ジェルを比較。各素材の特徴、メリット・デメリット、用途別の選び方を解説。ピットソール・ランウェイキュアソール・スリムアップインソールの素材設計も紹介。",
   alternates: { canonical: "https://sole-laboratory.com/articles/material-comparison/" },
   openGraph: { images: ["/og-default.png"],
     title: "インソールの素材比較｜EVA・TPU・コルク・ジェルの違いと選び方",
-    description: "インソール素材のEVA・TPU・コルク・ジェルを徹底比較。各素材の特徴と用途別の選び方を解説。",
+    description: "インソール素材のEVA・TPU・コルク・ジェルを比較。各素材の特徴と用途別の選び方を解説。",
     url: "https://sole-laboratory.com/articles/material-comparison/",
     type: "article",
   },
@@ -19,7 +19,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールの素材比較｜EVA・TPU・コルク・ジェルの違いと選び方",
-  description: "インソール素材のEVA・TPU・コルク・ジェルを徹底比較。各素材の特徴と用途別の選び方を解説。",
+  description: "インソール素材のEVA・TPU・コルク・ジェルを比較。各素材の特徴と用途別の選び方を解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",

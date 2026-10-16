@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "足元を安定させるアーチサポート", "b": "土踏まずを支えて姿勢の土台を安定させ、体幹を使いやすくします。"}, {"t": "姿勢を意識しやすい設計", "b": "足元が整うと骨盤・背骨が立ちやすく、正しい姿勢を保つ意識がしやすくなります。"}, {"t": "日常で続けられる", "b": "体幹の意識づけは毎日の積み重ね。普段の靴に入り、長時間快適なものを選びましょう。"}];
+const points = [{"t": "足元を安定させるアーチサポート", "b": "土踏まずを支えて姿勢の土台を安定させ、体幹を使いやすくします。"}, {"t": "姿勢を意識しやすい設計", "b": "足元が整うと骨盤・背骨が立ちやすく、正しい姿勢を保つ意識がしやすくなります。"}, {"t": "日常で続けられる", "b": "体幹の意識づけは毎日の積み重ね。普段の靴に入り、長時間快適なものを選ぶことをおすすめします。"}];
 const related = [{"href": "/articles/posture-correction/", "label": "姿勢改善インソール"}, {"href": "/articles/metabolism-insole/", "label": "基礎代謝とインソール"}, {"href": "/articles/pelvis-correction/", "label": "骨盤のインソール"}, {"href": "/articles/diet-mechanism/", "label": "ダイエットインソールの仕組み"}];
 
 export default function CoreTrainingPage() {
@@ -117,8 +117,8 @@ export default function CoreTrainingPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">体幹を意識する使い方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、頭・骨盤・かかとが一直線になる姿勢を意識して立つ・歩くようにしましょう。お腹を軽く引き締める意識を持つと体幹が働きやすくなります。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">本格的に体幹を鍛えるにはプランクなどの体幹トレーニングが効果的です。インソールは日常での意識づけの補助として活用しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、頭・骨盤・かかとが一直線になる姿勢を意識して立つ・歩くようにしてください。お腹を軽く引き締める意識を持つと体幹が働きやすくなります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">本格的に体幹を鍛えるにはプランクなどの体幹トレーニングが効果的です。インソールは日常での意識づけの補助としてご活用ください。</p>
         </section>
 
         <section className="mb-12">
@@ -135,7 +135,7 @@ export default function CoreTrainingPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">足元と姿勢を整えるインソールで、日常から体幹を意識しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">足元と姿勢を整えるインソールで、日常から体幹を意識してください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

@@ -24,7 +24,7 @@ const structuredData = {
   dateModified: "2026-06-13",
 };
 
-const faqs = [{"q": "フットサルシューズにインソールは入りますか？", "a": "薄型を選び、元の中敷きと入れ替えれば多くのフットサルシューズで使えます。カットできるタイプなら、元の中敷きを型紙にしてサイズを合わせられます。"}, {"q": "サッカー用と同じインソールで良いですか？", "a": "基本的な機能は共通で兼用も可能です。フットサルは切り返しの頻度が高く床も硬いため、薄さ・ズレにくさ・前足部の荷重分散をより重視しましょう。"}, {"q": "足の親指の付け根が痛くなります。インソールで防げますか？", "a": "母趾球への荷重集中は、アーチサポートで分散する補助ができます。ただし痛みが続く場合は種子骨炎などの可能性もあるため、整形外科で確認してください。"}, {"q": "ソックス型のインソールはフットサルに使えますか？", "a": "ソックス型（ランウェイキュアソールなど）は足に直接装着する日常向けのタイプです。急なストップやターンが多いフットサルでは、シューズに収まる中敷き型のほうがズレずに扱いやすいでしょう。"}, {"q": "インソールを入れると床やボールの感覚は変わりますか？", "a": "薄型であれば影響は小さめですが、入れた直後は感覚が変わります。軽い練習から慣らして、違和感がないことを確認してからゲームで使いましょう。"}];
+const faqs = [{"q": "フットサルシューズにインソールは入りますか？", "a": "薄型を選び、元の中敷きと入れ替えれば多くのフットサルシューズで使えます。カットできるタイプなら、元の中敷きを型紙にしてサイズを合わせられます。"}, {"q": "サッカー用と同じインソールで良いですか？", "a": "基本的な機能は共通で兼用も可能です。フットサルは切り返しの頻度が高く床も硬いため、薄さ・ズレにくさ・前足部の荷重分散をより重視してください。"}, {"q": "足の親指の付け根が痛くなります。インソールで防げますか？", "a": "母趾球への荷重集中は、アーチサポートで分散する補助ができます。ただし痛みが続く場合は種子骨炎などの可能性もあるため、整形外科で確認してください。"}, {"q": "ソックス型のインソールはフットサルに使えますか？", "a": "ソックス型（ランウェイキュアソールなど）は足に直接装着する日常向けのタイプです。急なストップやターンが多いフットサルでは、シューズに収まる中敷き型のほうがズレずに扱いやすいでしょう。"}, {"q": "インソールを入れると床やボールの感覚は変わりますか？", "a": "薄型であれば影響は小さめですが、入れた直後は感覚が変わります。軽い練習から慣らして、違和感がないことを確認してからゲームで使ってください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "シューズを圧迫しない薄型", "b": "フットサルシューズは内寸が狭くタイトです。薄型でアーチサポートのあるタイプを選び、元の中敷きと入れ替えて使いましょう。"}, {"t": "切り返しでズレないフィット感", "b": "ターンのたびに足が靴の中で滑ると、踏ん張りが効かずマメや爪のトラブルの原因にもなります。足裏に沿ってズレにくいものを選びましょう。"}, {"t": "母趾球まわりの荷重分散", "b": "縦・横のアーチを支えて、踏ん張りで母趾球に集中する荷重を足裏全体に分散できる設計が向いています。"}];
+const points = [{"t": "シューズを圧迫しない薄型", "b": "フットサルシューズは内寸が狭くタイトです。薄型でアーチサポートのあるタイプを選び、元の中敷きと入れ替えて使ってください。"}, {"t": "切り返しでズレないフィット感", "b": "ターンのたびに足が靴の中で滑ると、踏ん張りが効かずマメや爪のトラブルの原因にもなります。足裏に沿ってズレにくいものを選ぶことをおすすめします。"}, {"t": "母趾球まわりの荷重分散", "b": "縦・横のアーチを支えて、踏ん張りで母趾球に集中する荷重を足裏全体に分散できる設計が向いています。"}];
 const related = [{"href": "/articles/soccer-insole/", "label": "サッカーのインソール"}, {"href": "/articles/volleyball-insole/", "label": "バレーボールのインソール"}, {"href": "/articles/basketball-insole/", "label": "バスケのインソール"}, {"href": "/articles/sports-vs-diet/", "label": "スポーツ用とダイエット用の違い"}];
 
 export default function FutsalPage() {
@@ -70,7 +70,7 @@ export default function FutsalPage() {
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">フットサルには、シューズの内寸を圧迫しない薄型で、切り返しで足がズレないフィット感と、母趾球（親指の付け根）まわりの荷重を分散するアーチサポートを備えたインソールが向いています。足裏に強い痛みが続く場合は整形外科で確認しましょう。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">フットサルには、シューズの内寸を圧迫しない薄型で、切り返しで足がズレないフィット感と、母趾球（親指の付け根）まわりの荷重を分散するアーチサポートを備えたインソールが向いています。足裏に強い痛みが続く場合は整形外科でご確認ください。</p>
         </div>
 
         <section className="mb-12">
@@ -94,7 +94,7 @@ export default function FutsalPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">フットサルにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、日常の歩行・姿勢サポートを目的としたインソールです。競技専用モデルではないため、プレー用シューズに加えて、練習の行き帰りや普段履きで足をケアする使い方も含めて検討しましょう。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、日常の歩行・姿勢サポートを目的としたインソールです。競技専用モデルではないため、プレー用シューズに加えて、練習の行き帰りや普段履きで足をケアする使い方も含めてご検討ください。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -116,7 +116,7 @@ export default function FutsalPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">フットサルシューズでの使い方と注意点</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">元の中敷きを外して入れ替え、つま先が当たらないかを確認します。カットできるタイプは元の中敷きを型紙にして少しずつ調整しましょう。入れた直後は感覚が変わるため、軽い練習で足を慣らしてからゲームに使うのが安全です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">元の中敷きを外して入れ替え、つま先が当たらないかを確認します。カットできるタイプは元の中敷きを型紙にして少しずつ調整してください。入れた直後は感覚が変わるため、軽い練習で足を慣らしてからゲームに使うのが安全です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">指の付け根の痛みやしびれが続く場合は、種子骨炎やモートン病など別の原因が隠れていることもあります。強い痛みがあるときは無理にプレーを続けず、整形外科を受診してください。</p>
         </section>
 
@@ -134,7 +134,7 @@ export default function FutsalPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">切り返しの多いフットサルの足裏に。薄型でアーチを支えるインソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">切り返しの多いフットサルの足裏に。薄型でアーチを支えるインソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

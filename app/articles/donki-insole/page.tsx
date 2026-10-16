@@ -117,13 +117,13 @@ export default function DonkiPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ランウェイキュアソールやピットソールはドンキで売ってる？</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「ランウェイキュアソール ドンキ」「ピットソール ドンキ」と探す方は多いですが、<strong>どちらもドン・キホーテでの取り扱いは確認されていません</strong>。ランウェイキュアソールは公式サイト（FLOReショップ）が中心、ピットソールは公式サイトと正規のAmazon・楽天店舗が主な購入ルートです。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドンキの店頭にもアーチサポートをうたうインソールは並んでいますが、これらは別商品です。セット割引や正規品保証は公式ルート限定のため、確実に正規品が欲しい場合は公式サイトを利用しましょう。各製品の詳細は<Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline font-medium">ランウェイキュアソールの口コミ・販売店情報</Link>と<Link href="/pitsole/" className="text-[#e8627c] underline font-medium">ピットソールの口コミ・効果検証</Link>で解説しています。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドンキの店頭にもアーチサポートをうたうインソールは並んでいますが、これらは別商品です。セット割引や正規品保証は公式ルート限定のため、確実に正規品が欲しい場合は公式サイトをご利用ください。各製品の詳細は<Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline font-medium">ランウェイキュアソールの口コミ・販売店情報</Link>と<Link href="/pitsole/" className="text-[#e8627c] underline font-medium">ピットソールの口コミ・効果検証</Link>で解説しています。</p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">目的別の選び方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">すぐに手軽なインソールが欲しいならドンキで十分選べます。姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選びましょう。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">目的に合うかどうかで選ぶのがポイントです。ダイエット目的なら返金保証のある専用品も検討しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">すぐに手軽なインソールが欲しいならドンキで十分選べます。姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選ぶことをおすすめします。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">目的に合うかどうかで選ぶのがポイントです。ダイエット目的なら返金保証のある専用品もご検討ください。</p>
         </section>
 
         <section className="mb-12">
@@ -140,7 +140,7 @@ export default function DonkiPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

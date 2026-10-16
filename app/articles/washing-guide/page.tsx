@@ -36,8 +36,8 @@ const faqStructuredData = {
     { "@type": "Question", name: "インソールを乾かすのにドライヤーを使っても大丈夫ですか？", acceptedAnswer: { "@type": "Answer", text: "ドライヤーの熱風はインソールの素材を傷める原因になるため、使用しないでください。特にEVA素材やジェル素材は熱に弱く、変形する恐れがあります。風通しの良い日陰で自然乾燥させるのが最も安全な方法です。扇風機の風を当てると乾燥時間を短縮できます。" } },
     { "@type": "Question", name: "インソールのニオイが取れない場合はどうすればいいですか？", acceptedAnswer: { "@type": "Answer", text: "通常の洗浄でニオイが取れない場合は、重曹水（水500mlに重曹大さじ1）に30分程度つけ置きしてから洗い流すと効果的です。それでも取れない場合は、インソールの寿命と考えて新しいものに交換することをおすすめします。" } },
     { "@type": "Question", name: "革製のインソールも水洗いして大丈夫ですか？", acceptedAnswer: { "@type": "Answer", text: "革製のインソールは水洗いを避けてください。水に浸すと革が硬くなったり、ひび割れの原因になります。革製インソールのお手入れは、固く絞った布で表面を拭き、専用のレザークリーナーを使うのが正しい方法です。乾燥後にレザーコンディショナーを塗ると、しなやかさが保たれます。" } },
-    { "@type": "Question", name: "布張り（ファブリック）のインソールはどう洗えばいいですか？", acceptedAnswer: { "@type": "Answer", text: "布張りタイプは水を含みやすく乾きにくいため、つけ置きは避けて短時間で手洗いし、タオルで水分をしっかり取ってから風通しの良い日陰で乾かしましょう。強くこすると毛羽立ちや接着剥がれの原因になります。洗えるかどうかは、必ず製品の表示を確認してください。" } },
-    { "@type": "Question", name: "靴用乾燥機や布団乾燥機でインソールを乾かしてもいいですか？", acceptedAnswer: { "@type": "Answer", text: "高温になる乾燥機は、インソールの変形や接着剥がれの原因になるためおすすめしません。急いで乾かしたい場合は、タオルで水分をよく取ってから扇風機やサーキュレーターの風を当てるのが安全です。送風（低温）モードがある機器でも素材への影響は製品により異なるため、表示を確認してから使いましょう。" } },
+    { "@type": "Question", name: "布張り（ファブリック）のインソールはどう洗えばいいですか？", acceptedAnswer: { "@type": "Answer", text: "布張りタイプは水を含みやすく乾きにくいため、つけ置きは避けて短時間で手洗いし、タオルで水分をしっかり取ってから風通しの良い日陰で乾かしてください。強くこすると毛羽立ちや接着剥がれの原因になります。洗えるかどうかは、必ず製品の表示を確認してください。" } },
+    { "@type": "Question", name: "靴用乾燥機や布団乾燥機でインソールを乾かしてもいいですか？", acceptedAnswer: { "@type": "Answer", text: "高温になる乾燥機は、インソールの変形や接着剥がれの原因になるためおすすめしません。急いで乾かしたい場合は、タオルで水分をよく取ってから扇風機やサーキュレーターの風を当てるのが安全です。送風（低温）モードがある機器でも素材への影響は製品により異なるため、表示を確認してから使ってください。" } },
   ],
 };
 
@@ -115,7 +115,7 @@ export default function WashingGuidePage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">靴の中は温度30度以上・湿度90%以上になることもあり、雑菌にとって最適な繁殖環境です。汗と皮脂を栄養源に雑菌が繁殖すると、不快なニオイが発生します。週に1回の洗浄で雑菌の繁殖を抑え、清潔な状態を維持できます。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">素材の劣化を防ぐ</h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">汗に含まれる塩分や皮脂がインソールの素材に蓄積すると、クッション性やアーチサポートの機能が低下します。特にEVA素材は汗の成分により硬化しやすく、洗浄せずに使い続けると本来の衝撃吸収性能が早期に失われます。定期的な洗浄で素材のコンディションを保ちましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">汗に含まれる塩分や皮脂がインソールの素材に蓄積すると、クッション性やアーチサポートの機能が低下します。特にEVA素材は汗の成分により硬化しやすく、洗浄せずに使い続けると本来の衝撃吸収性能が早期に失われます。定期的な洗浄で素材のコンディションを保ってください。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">肌トラブルの予防</h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">不衛生なインソールは水虫やかぶれなどの肌トラブルの原因になることがあります。特に夏場や運動後は足が蒸れやすく、雑菌が増えやすい状態です。清潔なインソールを使うことで、足の肌トラブルを予防できます。</p>
@@ -123,7 +123,7 @@ export default function WashingGuidePage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-amber-700">ポイント：</span>
-              インソールの洗浄は「衛生面」「素材の寿命」「肌トラブル予防」の3つの観点から必要です。週1回の洗浄習慣をつけましょう。
+              インソールの洗浄は「衛生面」「素材の寿命」「肌トラブル予防」の3つの観点から必要です。週1回の洗浄習慣をつけてください。
             </p>
           </div>
         </section>
@@ -138,51 +138,51 @@ export default function WashingGuidePage() {
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">ぬるま湯を準備する</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">洗面器やバケツに30〜35度のぬるま湯を張ります。熱すぎるお湯はインソールの素材を傷めるため、必ずぬるま湯を使いましょう。中性洗剤（食器用洗剤）を数滴垂らし、軽く泡立てます。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">洗面器やバケツに30〜35度のぬるま湯を張ります。熱すぎるお湯はインソールの素材を傷めるため、必ずぬるま湯を使ってください。中性洗剤（食器用洗剤）を数滴垂らし、軽く泡立てます。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">インソールを浸して洗う</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">インソールをぬるま湯に浸し、やわらかい歯ブラシや布で表面を優しくこすります。力を入れすぎると表面素材が傷むため、軽い力で汚れを落としましょう。特にかかとやつま先部分は汚れが溜まりやすいので、念入りに洗います。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">インソールをぬるま湯に浸し、やわらかい歯ブラシや布で表面を優しくこすります。力を入れすぎると表面素材が傷むため、軽い力で汚れを落としてください。特にかかとやつま先部分は汚れが溜まりやすいので、念入りに洗います。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">しっかりすすぐ</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">流水でインソールをしっかりすすぎ、洗剤を完全に洗い流します。洗剤が残ると肌荒れの原因になったり、素材の劣化を早めたりするため、泡が出なくなるまで丁寧にすすぎましょう。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">流水でインソールをしっかりすすぎ、洗剤を完全に洗い流します。洗剤が残ると肌荒れの原因になったり、素材の劣化を早めたりするため、泡が出なくなるまで丁寧にすすいでください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">水分を取り除く</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">タオルでインソールを挟み、軽く押して水分を吸い取ります。絞ったり、叩いたりすると形状が変わる恐れがあるため、あくまで「挟んで押す」程度にとどめましょう。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">タオルでインソールを挟み、軽く押して水分を吸い取ります。絞ったり、叩いたりすると形状が変わる恐れがあるため、あくまで「挟んで押す」程度にとどめてください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">5</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">完全に乾燥させる</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">風通しの良い日陰で完全に乾燥させます。直射日光は素材を劣化させるため避けてください。乾燥時間は通常12〜24時間程度です。扇風機の風を当てると乾燥時間を短縮できます。完全に乾いてから靴に戻しましょう。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">風通しの良い日陰で完全に乾燥させます。直射日光は素材を劣化させるため避けてください。乾燥時間は通常12〜24時間程度です。扇風機の風を当てると乾燥時間を短縮できます。完全に乾いてから靴に戻してください。</p>
             </div>
           </div>
         </section>
 
         <section id="material" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">素材別のお手入れ方法</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールの素材によってお手入れ方法が異なります。自分のインソールの素材を確認して、適切な方法でケアしましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールの素材によってお手入れ方法が異なります。自分のインソールの素材を確認して、適切な方法でケアしてください。</p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">EVA（エチレン酢酸ビニル）素材</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">ピットソールやスリムアップインソールに使われることが多いEVA素材は、水洗いが可能です。ぬるま湯と中性洗剤で優しく手洗いし、自然乾燥させてください。ただし長時間水に浸けすぎると膨張する恐れがあるため、浸け置きは10分以内に留めましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">ピットソールやスリムアップインソールに使われることが多いEVA素材は、水洗いが可能です。ぬるま湯と中性洗剤で優しく手洗いし、自然乾燥させてください。ただし長時間水に浸けすぎると膨張する恐れがあるため、浸け置きは10分以内に留めてください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ポリウレタン素材</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">クッション性の高いポリウレタン素材も水洗い可能ですが、EVAより乾燥に時間がかかります。洗浄後は形状を整えてから乾かし、完全に乾くまで24時間以上見ておきましょう。湿ったまま使用すると、カビの原因になります。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">クッション性の高いポリウレタン素材も水洗い可能ですが、EVAより乾燥に時間がかかります。洗浄後は形状を整えてから乾かし、完全に乾くまで24時間以上見ておいてください。湿ったまま使用すると、カビの原因になります。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ジェル素材</h3>
@@ -190,7 +190,7 @@ export default function WashingGuidePage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">革（レザー）素材</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">革製のインソールは水洗いNGです。固く絞った布で表面を拭き取り、レザークリーナーで汚れを落とします。乾燥後にレザーコンディショナーを薄く塗ると、しなやかさが保たれます。革は湿気に弱いため、使用後は必ず靴から取り出して乾かしましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">革製のインソールは水洗いNGです。固く絞った布で表面を拭き取り、レザークリーナーで汚れを落とします。乾燥後にレザーコンディショナーを薄く塗ると、しなやかさが保たれます。革は湿気に弱いため、使用後は必ず靴から取り出して乾かしてください。</p>
             </div>
           </div>
         </section>
@@ -202,11 +202,11 @@ export default function WashingGuidePage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">毎日：靴から取り出して乾かす</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">帰宅したらインソールを靴から取り出し、風通しの良い場所で乾かしましょう。たったこれだけの習慣で、雑菌の繁殖を大幅に抑え、ニオイの発生を防げます。靴の中も同時に乾燥させることで、靴自体の寿命も延ばせます。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">帰宅したらインソールを靴から取り出し、風通しの良い場所で乾かしてください。たったこれだけの習慣で、雑菌の繁殖を大幅に抑え、ニオイの発生を防げます。靴の中も同時に乾燥させることで、靴自体の寿命も延ばせます。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">週1回：軽い洗浄</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">週に1回は基本の手洗い手順でインソールを洗浄しましょう。こまめに洗うことで汚れが蓄積せず、軽い洗浄だけで清潔な状態を維持できます。汚れが溜まってからのゴシゴシ洗いは素材を傷めるため、こまめなケアが大切です。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">週に1回は基本の手洗い手順でインソールを洗浄してください。こまめに洗うことで汚れが蓄積せず、軽い洗浄だけで清潔な状態を維持できます。汚れが溜まってからのゴシゴシ洗いは素材を傷めるため、こまめなケアが大切です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ローテーションで使用する</h3>
@@ -214,7 +214,7 @@ export default function WashingGuidePage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">消臭スプレーの活用</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">使用後にインソール用の消臭スプレーを軽く吹きかけると、ニオイの発生を抑えられます。ただし、スプレーは洗浄の代わりにはなりません。あくまで補助的なケアとして活用し、定期的な洗浄は必ず行いましょう。アルコール系のスプレーは素材を傷める場合があるため、インソール対応のものを選んでください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">使用後にインソール用の消臭スプレーを軽く吹きかけると、ニオイの発生を抑えられます。ただし、スプレーは洗浄の代わりにはなりません。あくまで補助的なケアとして活用し、定期的な洗浄は必ず行ってください。アルコール系のスプレーは素材を傷める場合があるため、インソール対応のものを選んでください。</p>
             </div>
           </div>
         </section>
@@ -230,7 +230,7 @@ export default function WashingGuidePage() {
             </div>
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-red-700 mb-2">NG：ドライヤーや直射日光で乾かす</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">高温はインソールの素材を変質させます。ドライヤーの熱風、直射日光、ヒーターの前での乾燥はNGです。必ず風通しの良い日陰で自然乾燥させましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">高温はインソールの素材を変質させます。ドライヤーの熱風、直射日光、ヒーターの前での乾燥はNGです。必ず風通しの良い日陰で自然乾燥させてください。</p>
             </div>
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-red-700 mb-2">NG：漂白剤を使う</h3>
@@ -238,7 +238,7 @@ export default function WashingGuidePage() {
             </div>
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-red-700 mb-2">NG：濡れたまま靴に戻す</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">洗浄後に完全に乾かさずに靴に戻すと、靴の中がカビの温床になります。必ず完全に乾いてから靴に戻しましょう。急いでいる場合は、予備のインソールを使うことで対応できます。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">洗浄後に完全に乾かさずに靴に戻すと、靴の中がカビの温床になります。必ず完全に乾いてから靴に戻してください。急いでいる場合は、予備のインソールを使うことで対応できます。</p>
             </div>
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-red-700 mb-2">NG：硬いブラシでゴシゴシこする</h3>
@@ -254,19 +254,19 @@ export default function WashingGuidePage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">EVA素材：熱と長時間の浸水に注意</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">軽くて弾力のあるEVAは、一般に熱に弱く、高温にさらされると反りや変形が起こりやすい素材です。また長時間水に浸けると膨張するおそれがあるため、つけ置きは短時間にとどめ、お湯の温度は上げすぎないようにしましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">軽くて弾力のあるEVAは、一般に熱に弱く、高温にさらされると反りや変形が起こりやすい素材です。また長時間水に浸けると膨張するおそれがあるため、つけ置きは短時間にとどめ、お湯の温度は上げすぎないようにしてください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ウレタン素材：「乾かし切る」ことが最重要</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">ウレタン系のクッション材は内部に水分が残りやすく、生乾きのまま使うとカビや劣化の一因になります。一般に、ウレタンは湿気の影響で徐々に劣化が進むとされる素材のため、洗ったあとは時間に余裕を持って、完全に乾かし切ってから使いましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">ウレタン系のクッション材は内部に水分が残りやすく、生乾きのまま使うとカビや劣化の一因になります。一般に、ウレタンは湿気の影響で徐々に劣化が進むとされる素材のため、洗ったあとは時間に余裕を持って、完全に乾かし切ってから使ってください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ジェル素材：こすり傷と引っ張りすぎに注意</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">ジェルは表面に傷がつきやすく、強く引っ張ると裂けることがあります。ブラシでこすらず、やわらかい布での拭き洗いを基本にし、靴から取り外すときもゆっくり剥がすように扱いましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">ジェルは表面に傷がつきやすく、強く引っ張ると裂けることがあります。ブラシでこすらず、やわらかい布での拭き洗いを基本にし、靴から取り外すときもゆっくり剥がすように扱ってください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">布張り（ファブリック）素材：毛羽立ちと乾きにくさに注意</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">表面に布が張られたタイプは、こすりすぎると毛羽立ったり、布と本体の接着が剥がれたりすることがあります。水を含みやすく乾きにくいのも特徴です。つけ置きは避けて短時間で洗い、タオルで水分をしっかり取ってから陰干ししましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">表面に布が張られたタイプは、こすりすぎると毛羽立ったり、布と本体の接着が剥がれたりすることがあります。水を含みやすく乾きにくいのも特徴です。つけ置きは避けて短時間で洗い、タオルで水分をしっかり取ってから陰干ししてください。</p>
             </div>
           </div>
         </section>
@@ -278,15 +278,15 @@ export default function WashingGuidePage() {
           <div className="space-y-4 mb-6">
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-red-700 mb-2">NG：直射日光に当てて干す</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">直射日光の紫外線と熱は、変色・反り・素材の硬化の原因になります。天日で早く乾かしたくなりますが、必ず風通しの良い日陰で干しましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">直射日光の紫外線と熱は、変色・反り・素材の硬化の原因になります。天日で早く乾かしたくなりますが、必ず風通しの良い日陰で干してください。</p>
             </div>
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-red-700 mb-2">NG：衣類乾燥機・高温の靴用乾燥機にかける</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">乾燥機の高温と回転は、変形や接着剥がれの原因になります。布団乾燥機の高温送風を直接当てるのも同様に避けましょう。送風（低温）モードがある機器でも、素材への影響は製品によって異なるため表示の確認が必要です。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">乾燥機の高温と回転は、変形や接着剥がれの原因になります。布団乾燥機の高温送風を直接当てるのも同様に避けてください。送風（低温）モードがある機器でも、素材への影響は製品によって異なるため表示の確認が必要です。</p>
             </div>
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-red-700 mb-2">NG：ドライヤーの温風を近距離で当てる</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">ドライヤーの温風を至近距離で当てると、局所的に高温になり表面が波打ったり変形したりすることがあります。どうしても風を当てたい場合は、温風ではなく送風を離れた位置から使いましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">ドライヤーの温風を至近距離で当てると、局所的に高温になり表面が波打ったり変形したりすることがあります。どうしても風を当てたい場合は、温風ではなく送風を離れた位置から使ってください。</p>
             </div>
           </div>
 
@@ -300,7 +300,7 @@ export default function WashingGuidePage() {
 
         <section id="odor" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">洗っても取れない臭いの段階的対処</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">きちんと洗っているのに臭いが残る場合は、いきなり買い替える前に、次の段階を順番に試してみましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">きちんと洗っているのに臭いが残る場合は、いきなり買い替える前に、次の段階を順番に試してんでください。</p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
@@ -308,14 +308,14 @@ export default function WashingGuidePage() {
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">洗い方と乾かし方を見直す</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">生乾きは「臭い戻り」の大きな原因です。完全に乾き切ってから使えているか、毎日靴から取り出して乾かせているかをまず見直しましょう。2セットのローテーション使用も有効です。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">生乾きは「臭い戻り」の大きな原因です。完全に乾き切ってから使えているか、毎日靴から取り出して乾かせているかをまず見直してください。2セットのローテーション使用も有効です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">重曹のつけ置きを試す</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">通常の洗浄で取れない臭いには、重曹水でのつけ置きが一般的な方法として知られています。ただし素材によっては向かない場合があるため、目立たない部分で試すか、製品の表示を確認してから行いましょう。つけ置き後はしっかりすすぎ、完全に乾かします。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">通常の洗浄で取れない臭いには、重曹水でのつけ置きが一般的な方法として知られています。ただし素材によっては向かない場合があるため、目立たない部分で試すか、製品の表示を確認してから行ってください。つけ置き後はしっかりすすぎ、完全に乾かします。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
@@ -329,7 +329,7 @@ export default function WashingGuidePage() {
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">それでも取れなければ交換を検討する</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">内部まで染み込んだ臭いは、洗浄では取り切れないことがあります。ここまで試しても改善しない場合は寿命のサインと考え、交換を検討しましょう。買い替えの際に自分の足や目的に合うタイプを知りたい方は、<Link href="/diagnosis/" className="text-[#0ea5e9] font-bold hover:underline">インソール診断</Link>も参考にしてください。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">内部まで染み込んだ臭いは、洗浄では取り切れないことがあります。ここまで試しても改善しない場合は寿命のサインと考え、交換をご検討ください。買い替えの際に自分の足や目的に合うタイプを知りたい方は、<Link href="/diagnosis/" className="text-[#0ea5e9] font-bold hover:underline">インソール診断</Link>も参考にしてください。</p>
             </div>
           </div>
         </section>
@@ -359,11 +359,11 @@ export default function WashingGuidePage() {
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">布張り（ファブリック）のインソールはどう洗えばいいですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">布張りタイプは水を含みやすく乾きにくいため、つけ置きは避けて短時間で手洗いし、タオルで水分をしっかり取ってから風通しの良い日陰で乾かしましょう。強くこすると毛羽立ちや接着剥がれの原因になります。洗えるかどうかは、必ず製品の表示を確認してください。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">布張りタイプは水を含みやすく乾きにくいため、つけ置きは避けて短時間で手洗いし、タオルで水分をしっかり取ってから風通しの良い日陰で乾かしてください。強くこすると毛羽立ちや接着剥がれの原因になります。洗えるかどうかは、必ず製品の表示を確認してください。</div>
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">靴用乾燥機や布団乾燥機でインソールを乾かしてもいいですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">高温になる乾燥機は、インソールの変形や接着剥がれの原因になるためおすすめしません。急いで乾かしたい場合は、タオルで水分をよく取ってから扇風機やサーキュレーターの風を当てるのが安全です。送風（低温）モードがある機器でも素材への影響は製品により異なるため、表示を確認してから使いましょう。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">高温になる乾燥機は、インソールの変形や接着剥がれの原因になるためおすすめしません。急いで乾かしたい場合は、タオルで水分をよく取ってから扇風機やサーキュレーターの風を当てるのが安全です。送風（低温）モードがある機器でも素材への影響は製品により異なるため、表示を確認してから使ってください。</div>
             </details>
           </div>
         </section>
@@ -381,7 +381,7 @@ export default function WashingGuidePage() {
             </ul>
           </div>
 
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">正しいケアを続ければ、インソールの効果を長期間維持でき、交換頻度を減らすことで結果的にコスト削減にもつながります。毎日のちょっとした習慣で、清潔で快適なインソールライフを送りましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">正しいケアを続ければ、インソールの効果を長期間維持でき、交換頻度を減らすことで結果的にコスト削減にもつながります。毎日のちょっとした習慣で、清潔で快適なインソールライフを送ってください。</p>
 
           <div className="text-center">
             <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>

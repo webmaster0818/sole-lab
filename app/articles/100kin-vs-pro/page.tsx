@@ -4,16 +4,16 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
-  title: "100均インソール vs 高機能インソール｜徹底比較テスト",
+  title: "100均インソール vs 高機能インソール｜比較テスト",
   description:
-    "100均インソールと高機能インソール（ピットソール・ランウェイキュアソール・スリムアップインソール）を徹底比較。クッション性・耐久性・ダイエット効果・コスパを実際に検証しました。",
+    "100均インソールと高機能インソール（ピットソール・ランウェイキュアソール・スリムアップインソール）を比較。クッション性・耐久性・ダイエット効果・コスパを公開されている仕様と価格をもとに比較しました。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/100kin-vs-pro/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "100均インソール vs 高機能インソール｜徹底比較テスト",
+    title: "100均インソール vs 高機能インソール｜比較テスト",
     description:
-      "100均インソールと高機能インソールを徹底比較。クッション性・耐久性・ダイエット効果を実際に検証。",
+      "100均インソールと高機能インソールを比較。クッション性・耐久性・ダイエット効果を公開情報で比較。",
     url: "https://sole-laboratory.com/articles/100kin-vs-pro/",
     type: "article",
   },
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "100均インソール vs 高機能インソール｜徹底比較テスト",
+  headline: "100均インソール vs 高機能インソール｜比較テスト",
   description:
-    "100均インソールと高機能インソールを徹底比較。クッション性・耐久性・ダイエット効果・コスパを検証します。",
+    "100均インソールと高機能インソールを比較。クッション性・耐久性・ダイエット効果・コスパを検証します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -139,7 +139,7 @@ export default function HyakkinVsProPage() {
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             100均インソール vs 高機能インソール
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">徹底比較</span>テスト
+            <span className="text-[#0ea5e9]">比較</span>テスト
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             ダイソーやセリアの100均インソールと、ピットソールなどの高機能インソール。
@@ -510,7 +510,7 @@ export default function HyakkinVsProPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-amber-700">重要：</span>
-              ダイエット目的でインソールを購入するなら、100均では意味がありません。必ず骨格サポートや筋肉活性化の機能を持つ高機能インソールを選びましょう。
+              ダイエット目的でインソールを購入するなら、100均では意味がありません。必ず骨格サポートや筋肉活性化の機能を持つ高機能インソールを選ぶことをおすすめします。
             </p>
           </div>
         </section>

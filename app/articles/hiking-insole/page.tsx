@@ -167,7 +167,7 @@ export default function HikingInsolePage() {
               <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">衝撃吸収性能</h3>
             </div>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed">下山時の膝への負担を軽減するために、衝撃吸収性能は重要です。かかと部分に高密度のクッション素材が配置されたインソールを選びましょう。EVAやポリウレタンなどの衝撃吸収素材が、着地時の衝撃を吸収・分散し、膝や腰への負担を軽減します。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">下山時の膝への負担を軽減するために、衝撃吸収性能は重要です。かかと部分に高密度のクッション素材が配置されたインソールを選ぶことをおすすめします。EVAやポリウレタンなどの衝撃吸収素材が、着地時の衝撃を吸収・分散し、膝や腰への負担を軽減します。</p>
           </div>
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
@@ -175,7 +175,7 @@ export default function HikingInsolePage() {
               <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">吸湿速乾・防臭機能</h3>
             </div>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed">登山中は大量の汗をかくため、吸湿速乾機能は快適さの鍵です。蒸れた状態が続くとマメができやすくなるため、通気性と速乾性に優れた素材のインソールを選びましょう。抗菌・防臭機能があれば、テント泊縦走でも衛生的に使用できます。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">登山中は大量の汗をかくため、吸湿速乾機能は快適さの鍵です。蒸れた状態が続くとマメができやすくなるため、通気性と速乾性に優れた素材のインソールを選ぶことをおすすめします。抗菌・防臭機能があれば、テント泊縦走でも衛生的に使用できます。</p>
           </div>
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
@@ -264,11 +264,11 @@ export default function HikingInsolePage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">登山前にインソールに慣らす</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">いきなり登山で使うのではなく、まず日常の歩行で1〜2週間慣らしましょう。足がインソールの形状に馴染んだ状態で登山に臨むことで、山中での靴擦れや違和感を防げます。慣らし期間中は短い散歩から始め、徐々に歩行時間を延ばしていくのがおすすめです。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">いきなり登山で使うのではなく、まず日常の歩行で1〜2週間慣らしてください。足がインソールの形状に馴染んだ状態で登山に臨むことで、山中での靴擦れや違和感を防げます。慣らし期間中は短い散歩から始め、徐々に歩行時間を延ばしていくのがおすすめです。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">登山後のメンテナンス</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">下山後はインソールを靴から取り出し、風通しの良い場所で完全に乾かしましょう。汚れている場合はぬるま湯で軽く洗い、形を整えて陰干しします。濡れたまま靴に入れっぱなしにすると、カビや雑菌の繁殖の原因になります。詳しいお手入れ方法は<Link href="/articles/washing-guide/" className="text-[#0ea5e9] hover:underline">インソールの洗い方ガイド</Link>をご覧ください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">下山後はインソールを靴から取り出し、風通しの良い場所で完全に乾かしてください。汚れている場合はぬるま湯で軽く洗い、形を整えて陰干しします。濡れたまま靴に入れっぱなしにすると、カビや雑菌の繁殖の原因になります。詳しいお手入れ方法は<Link href="/articles/washing-guide/" className="text-[#0ea5e9] hover:underline">インソールの洗い方ガイド</Link>をご覧ください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">予備インソールの持参</h3>
@@ -276,7 +276,7 @@ export default function HikingInsolePage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">サイズ調整のポイント</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">登山靴は厚手の靴下を履くため、インソールのサイズ調整は登山用靴下を履いた状態で行いましょう。つま先には指1本分の余裕を確保し、かかとがしっかりフィットすることを確認します。カット時は少しずつ切り詰め、何度もフィッティングを確認するのがコツです。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">登山靴は厚手の靴下を履くため、インソールのサイズ調整は登山用靴下を履いた状態で行ってください。つま先には指1本分の余裕を確保し、かかとがしっかりフィットすることを確認します。カット時は少しずつ切り詰め、何度もフィッティングを確認するのがコツです。</p>
             </div>
           </div>
         </section>
@@ -288,7 +288,7 @@ export default function HikingInsolePage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">正しい歩き方を意識する</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">登りでは歩幅を小さくし、足裏全体で着地するフラットフッティングを意識しましょう。下りではかかとから着地し、膝を軽く曲げて衝撃を吸収します。正しい歩き方とインソールの組み合わせで、足への負担は格段に減ります。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">登りでは歩幅を小さくし、足裏全体で着地するフラットフッティングを意識してください。下りではかかとから着地し、膝を軽く曲げて衝撃を吸収します。正しい歩き方とインソールの組み合わせで、足への負担は格段に減ります。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">トレッキングポールの活用</h3>
@@ -296,11 +296,11 @@ export default function HikingInsolePage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">こまめな休憩と靴の換気</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">1〜2時間ごとに休憩を取り、靴を脱いで足を休ませましょう。インソールを取り出して乾かし、靴下の蒸れを取ることで、マメの予防と足の疲労軽減に効果があります。足指を動かしてストレッチすることも忘れずに行いましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">1〜2時間ごとに休憩を取り、靴を脱いで足を休ませてください。インソールを取り出して乾かし、靴下の蒸れを取ることで、マメの予防と足の疲労軽減に効果があります。足指を動かしてストレッチすることも忘れずに行ってください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">靴下の選び方</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">インソールの効果を最大限に引き出すには、靴下選びも重要です。吸湿速乾性に優れたメリノウール素材の登山用靴下を選びましょう。適度な厚さでクッション性があり、マメや靴擦れを防ぐ効果もあります。薄すぎる靴下はインソールとの摩擦が増えるため避けてください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">インソールの効果を最大限に引き出すには、靴下選びも重要です。吸湿速乾性に優れたメリノウール素材の登山用靴下を選ぶことをおすすめします。適度な厚さでクッション性があり、マメや靴擦れを防ぐ効果もあります。薄すぎる靴下はインソールとの摩擦が増えるため避けてください。</p>
             </div>
           </div>
         </section>
@@ -333,7 +333,7 @@ export default function HikingInsolePage() {
 
         <section id="summary" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">登山用インソールは「荷重分散」「衝撃吸収」「バランス維持」「アーチ保護」の4つの機能で、過酷な登山環境から足を守ります。選ぶ際は剛性のあるアーチサポート・衝撃吸収性能・吸湿速乾機能・耐久性の4つをチェックしましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">登山用インソールは「荷重分散」「衝撃吸収」「バランス維持」「アーチ保護」の4つの機能で、過酷な登山環境から足を守ります。選ぶ際は剛性のあるアーチサポート・衝撃吸収性能・吸湿速乾機能・耐久性の4つをチェックしてください。</p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">今回紹介した主要3商品</p>

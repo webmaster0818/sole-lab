@@ -238,7 +238,7 @@ export default function PelvisCorrectionPage() {
         </h2>
 
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-          骨盤の歪みは一つの原因で起こるわけではなく、日常生活のさまざまな習慣が積み重なって生じます。まずは自分に当てはまる原因を把握し、根本的な改善につなげましょう。
+          骨盤の歪みは一つの原因で起こるわけではなく、日常生活のさまざまな習慣が積み重なって生じます。まずは自分に当てはまる原因を把握し、根本的な改善につなげてください。
         </p>
 
         <div className="space-y-4 mb-6">
@@ -352,7 +352,7 @@ export default function PelvisCorrectionPage() {
         </h2>
 
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-          「骨盤矯正」を謳うインソールは多数ありますが、効果に差があるのも事実です。以下の5つのポイントを基準に、本当に骨盤矯正効果が期待できる製品を選びましょう。
+          「骨盤矯正」を謳うインソールは多数ありますが、効果に差があるのも事実です。以下の5つのポイントを基準に、本当に骨盤矯正効果が期待できる製品を選ぶことをおすすめします。
         </p>
 
         <div className="space-y-4 mb-6">
@@ -385,7 +385,7 @@ export default function PelvisCorrectionPage() {
               <span className="text-[#0ea5e9] mr-2">4</span>素材の硬さと耐久性
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              骨盤矯正インソールは、ある程度の硬さが必要です。柔らかすぎるクッション素材ではアーチを支える力が不足します。高反発素材や特殊樹脂を使用し、長期間使ってもアーチサポート力が持続する製品を選びましょう。
+              骨盤矯正インソールは、ある程度の硬さが必要です。柔らかすぎるクッション素材ではアーチを支える力が不足します。高反発素材や特殊樹脂を使用し、長期間使ってもアーチサポート力が持続する製品を選ぶことをおすすめします。
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
@@ -564,7 +564,7 @@ export default function PelvisCorrectionPage() {
               骨盤まわりのストレッチ
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              骨盤周囲の筋肉（腸腰筋・梨状筋・大殿筋）の柔軟性を高めるストレッチを毎日行いましょう。寝る前に仰向けで片膝を胸に引き寄せるストレッチを左右30秒ずつ行うだけでも、骨盤まわりの筋肉がほぐれます。インソールで整えた骨盤の位置を筋肉の柔軟性でキープするイメージです。
+              骨盤周囲の筋肉（腸腰筋・梨状筋・大殿筋）の柔軟性を高めるストレッチを毎日行ってください。寝る前に仰向けで片膝を胸に引き寄せるストレッチを左右30秒ずつ行うだけでも、骨盤まわりの筋肉がほぐれます。インソールで整えた骨盤の位置を筋肉の柔軟性でキープするイメージです。
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5">
@@ -572,7 +572,7 @@ export default function PelvisCorrectionPage() {
               体幹・骨盤底筋トレーニング
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              骨盤を正しい位置にキープするための筋力を養いましょう。ヒップリフト（仰向けでお尻を持ち上げる）を15回3セット、プランク30〜60秒を毎日続けるだけで骨盤の安定性が大きく改善します。特に骨盤底筋群のトレーニングは、骨盤を下から支える力を強化するため非常に効果的です。
+              骨盤を正しい位置にキープするための筋力を養ってください。ヒップリフト（仰向けでお尻を持ち上げる）を15回3セット、プランク30〜60秒を毎日続けるだけで骨盤の安定性が大きく改善します。特に骨盤底筋群のトレーニングは、骨盤を下から支える力を強化するため非常に効果的です。
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5">
@@ -580,7 +580,7 @@ export default function PelvisCorrectionPage() {
               座り方の改善
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              椅子に座るときは、坐骨（お尻の骨）を左右均等に座面に当て、骨盤を立てることを意識しましょう。脚を組むクセがある方は意識的にやめることが大切です。30分に1回は立ち上がって骨盤をリセットすると、歪みの蓄積を防げます。
+              椅子に座るときは、坐骨（お尻の骨）を左右均等に座面に当て、骨盤を立てることを意識してください。脚を組むクセがある方は意識的にやめることが大切です。30分に1回は立ち上がって骨盤をリセットすると、歪みの蓄積を防げます。
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5">
@@ -588,7 +588,7 @@ export default function PelvisCorrectionPage() {
               正しい歩き方の実践
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              骨盤矯正インソールを入れた靴で歩く際は、かかとから着地して足指で蹴り出す意識を持ちましょう。歩幅をやや広めにし、骨盤から足を前に出すイメージで歩くと、骨盤周りの筋肉が効率よく使われます。1日20〜30分のウォーキングで十分です。
+              骨盤矯正インソールを入れた靴で歩く際は、かかとから着地して足指で蹴り出す意識を持ってください。歩幅をやや広めにし、骨盤から足を前に出すイメージで歩くと、骨盤周りの筋肉が効率よく使われます。1日20〜30分のウォーキングで十分です。
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5">

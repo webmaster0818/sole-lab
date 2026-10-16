@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-07-12",
 };
 
-const faqs = [{"q": "ダイエットインソールは履くだけで痩せますか？", "a": "履くだけで痩せる魔法ではありません。正しい歩き方と毎日の継続、食事・運動との組み合わせで効果が高まります。"}, {"q": "元の中敷きは外すべきですか？", "a": "はい。フィットと効果を保つため、元の中敷きを外してインソールと入れ替えるのがおすすめです。サイズはカットして調整します。"}, {"q": "1日何時間履けば良いですか？", "a": "決まりはありませんが、できるだけ日常的に履くのが理想です。最初は短時間から慣らし、徐々に時間を延ばしましょう。"}, {"q": "元の中敷きの上に重ねて入れてもいいですか？", "a": "基本的には元の中敷きを外して入れ替えるのがおすすめです。重ねると靴の中が窮屈になり、つま先や甲が圧迫されてサイズ感が変わったり、ズレやすくなったりします。元の中敷きが取り外せない靴では、ハーフ（前足部）タイプを選ぶなどの工夫をしましょう。"}, {"q": "毎日洗ったほうがいいですか？お手入れの頻度は？", "a": "毎日洗う必要はありませんが、汗や皮脂で汚れやニオイがたまりやすいため、定期的なお手入れがおすすめです。使用後は靴から取り出して陰干しし、湿気を逃がすと清潔に保てます。洗える素材かどうかや洗い方は製品ごとに異なるため、各製品の表示に従ってください。"}, {"q": "履いていて違和感や痛みが出たら？", "a": "アーチサポートのある製品では、慣れるまで足裏に押し上げられる感覚や違和感が出ることがあります。まずは短時間の使用から慣らしてください。我慢できない痛みやしびれ、皮膚のトラブルが続く場合は使用を中止し、必要に応じて医療機関に相談しましょう。"}, {"q": "インソールが靴の中で浮いたりズレたりするときは？", "a": "元の中敷きを外し忘れていないか、カットが大きすぎ・小さすぎないかをまず確認しましょう。かかとを靴の奥まで押し込んで装着し直すと改善することも多く見られます。それでもズレる場合は、元の中敷きを型紙にして輪郭を少しずつ再調整するか、固定方法について製品の表示・公式の案内を確認してください。"}, {"q": "慣らし期間はどのくらいを目安にすればいいですか？", "a": "一般に、数日〜2週間程度かけて短時間の使用から少しずつ時間を延ばす方法がよく紹介されます。ただし慣れるまでの期間には個人差があるため、足の状態を見ながら無理なく進めてください。強い痛みやしびれが続く場合は使用を中止し、整形外科などの受診を検討しましょう。"}];
+const faqs = [{"q": "ダイエットインソールは履くだけで痩せますか？", "a": "履くだけで痩せる魔法ではありません。正しい歩き方と毎日の継続、食事・運動との組み合わせで効果が高まります。"}, {"q": "元の中敷きは外すべきですか？", "a": "はい。フィットと効果を保つため、元の中敷きを外してインソールと入れ替えるのがおすすめです。サイズはカットして調整します。"}, {"q": "1日何時間履けば良いですか？", "a": "決まりはありませんが、できるだけ日常的に履くのが理想です。最初は短時間から慣らし、徐々に時間を延ばしてください。"}, {"q": "元の中敷きの上に重ねて入れてもいいですか？", "a": "基本的には元の中敷きを外して入れ替えるのがおすすめです。重ねると靴の中が窮屈になり、つま先や甲が圧迫されてサイズ感が変わったり、ズレやすくなったりします。元の中敷きが取り外せない靴では、ハーフ（前足部）タイプを選ぶなどの工夫をしてください。"}, {"q": "毎日洗ったほうがいいですか？お手入れの頻度は？", "a": "毎日洗う必要はありませんが、汗や皮脂で汚れやニオイがたまりやすいため、定期的なお手入れがおすすめです。使用後は靴から取り出して陰干しし、湿気を逃がすと清潔に保てます。洗える素材かどうかや洗い方は製品ごとに異なるため、各製品の表示に従ってください。"}, {"q": "履いていて違和感や痛みが出たら？", "a": "アーチサポートのある製品では、慣れるまで足裏に押し上げられる感覚や違和感が出ることがあります。まずは短時間の使用から慣らしてください。我慢できない痛みやしびれ、皮膚のトラブルが続く場合は使用を中止し、必要に応じて医療機関にご相談ください。"}, {"q": "インソールが靴の中で浮いたりズレたりするときは？", "a": "元の中敷きを外し忘れていないか、カットが大きすぎ・小さすぎないかをまずご確認ください。かかとを靴の奥まで押し込んで装着し直すと改善することも多く見られます。それでもズレる場合は、元の中敷きを型紙にして輪郭を少しずつ再調整するか、固定方法について製品の表示・公式の案内を確認してください。"}, {"q": "慣らし期間はどのくらいを目安にすればいいですか？", "a": "一般に、数日〜2週間程度かけて短時間の使用から少しずつ時間を延ばす方法がよく紹介されます。ただし慣れるまでの期間には個人差があるため、足の状態を見ながら無理なく進めてください。強い痛みやしびれが続く場合は使用を中止し、整形外科などの受診をご検討ください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "靴に正しくフィットさせる", "b": "元の中敷きを外し、サイズに合わせてカットして入れます。ズレると効果が落ちるため、しっかりフィットさせましょう。"}, {"t": "かかと着地→蹴り出しの歩き方", "b": "かかとから着地し、足裏全体を通してつま先で地面を蹴る歩き方を意識すると、下半身を使えて効果的です。"}, {"t": "毎日続ける", "b": "効果は継続が前提。普段の靴に入れて毎日履き、まずは習慣化することが大切です。"}];
+const points = [{"t": "靴に正しくフィットさせる", "b": "元の中敷きを外し、サイズに合わせてカットして入れます。ズレると効果が落ちるため、しっかりフィットさせてください。"}, {"t": "かかと着地→蹴り出しの歩き方", "b": "かかとから着地し、足裏全体を通してつま先で地面を蹴る歩き方を意識すると、下半身を使えて効果的です。"}, {"t": "毎日続ける", "b": "効果は継続が前提。普段の靴に入れて毎日履き、まずは習慣化することが大切です。"}];
 const related = [{"href": "/articles/breaking-in-insole/", "label": "インソールに慣れるまで"}, {"href": "/articles/diet-period-insole/", "label": "効果が出る期間の目安"}, {"href": "/articles/diet-mechanism/", "label": "ダイエットインソールの仕組み"}, {"href": "/articles/walking-diet/", "label": "ウォーキングダイエット"}, {"href": "/articles/washing-guide/", "label": "インソールの洗い方・お手入れガイド"}];
 
 export default function CorrectUsagePage() {
@@ -64,7 +64,7 @@ export default function CorrectUsagePage() {
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ダイエットインソールの効果的な使い方｜正しい歩き方と続け方</h1>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">せっかくのダイエットインソール、ただ入れているだけでは効果が半減します。正しい入れ方・歩き方・続け方を押さえることで、姿勢改善やボディメイクのサポート効果を引き出しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">せっかくのダイエットインソール、ただ入れているだけでは効果が半減します。正しい入れ方・歩き方・続け方を押さえることで、姿勢改善やボディメイクのサポート効果を引き出してください。</p>
         </header>
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
@@ -81,13 +81,13 @@ export default function CorrectUsagePage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">入れ方とサイズ調整の基本</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">まず靴から元の中敷きを取り出し、それを型紙代わりにインソールの上へ重ねて、はみ出した分の輪郭をペンでなぞります。ライン通りにカットすれば、靴のサイズにぴったり合わせられます。少しずつ切って試し履きを繰り返すと、切りすぎを防げます。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">入れるときは前後・左右の向きに注意しましょう。多くのインソールはかかと側が深く、つま先側が薄い形状で、左右が分かれているものはL／Rや足の形で区別できます。アーチ（土踏まず）の盛り上がりが内側の正しい位置にくるよう、かかとを靴の奥までしっかり押し込んでセットします。向きを間違えるとフィットも効果も損なわれるため、装着後はかかとが浮かないか歩いて確認してください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">入れるときは前後・左右の向きにご注意ください。多くのインソールはかかと側が深く、つま先側が薄い形状で、左右が分かれているものはL／Rや足の形で区別できます。アーチ（土踏まず）の盛り上がりが内側の正しい位置にくるよう、かかとを靴の奥までしっかり押し込んでセットします。向きを間違えるとフィットも効果も損なわれるため、装着後はかかとが浮かないか歩いて確認してください。</p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">慣らし期間とお手入れ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチサポートのあるインソールは、最初から長時間履くと足裏が疲れたり違和感が出たりしやすいものです。はじめの数日は短時間の使用から始め、足の状態を見ながら少しずつ時間を延ばして慣らしていくと、無理なく日常使いに移行できます。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">清潔に保つことも長く使うコツです。汗や皮脂がたまりやすいため、使用後は靴から取り出して陰干しし、湿気を逃がしましょう。洗えるかどうかや洗い方、乾かし方は素材によって異なるので、各製品の表示に従ってお手入れしてください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">清潔に保つことも長く使うコツです。汗や皮脂がたまりやすいため、使用後は靴から取り出して陰干しし、湿気を逃がしてください。洗えるかどうかや洗い方、乾かし方は素材によって異なるので、各製品の表示に従ってお手入れしてください。</p>
         </section>
 
         <section className="mb-12">
@@ -127,17 +127,17 @@ export default function CorrectUsagePage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">やりがちなNGと対処</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズが合わずズレる、慣らさずいきなり長時間履いて痛くなる、数日で諦める——これらはよくある失敗です。サイズを合わせ、最初は短時間から慣らし、最低でも1〜3ヶ月は継続しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズが合わずズレる、慣らさずいきなり長時間履いて痛くなる、数日で諦める——これらはよくある失敗です。サイズを合わせ、最初は短時間から慣らし、最低でも1〜3ヶ月は継続してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">痛みや違和感が強い場合は無理せず使用時間を調整し、合わないと感じたら別の製品も検討してください。</p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">入れ方の失敗例と直し方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは入れ方ひとつでフィット感が大きく変わります。「なんだか合わない」と感じるときは、まず次の4つの失敗パターンに当てはまっていないか確認してみましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは入れ方ひとつでフィット感が大きく変わります。「なんだか合わない」と感じるときは、まず次の4つの失敗パターンに当てはまっていないか確認してんでください。</p>
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">失敗例1：前後を逆に入れている</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">かかと側とつま先側を逆に入れると、アーチの盛り上がりが土踏まずに合わず、歩くたびに違和感が出ます。多くのインソールはかかと側が深いカップ状、つま先側が薄い形状です。土踏まずの膨らみが足の内側・かかと寄りにくるよう、向きを確認して入れ直しましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">かかと側とつま先側を逆に入れると、アーチの盛り上がりが土踏まずに合わず、歩くたびに違和感が出ます。多くのインソールはかかと側が深いカップ状、つま先側が薄い形状です。土踏まずの膨らみが足の内側・かかと寄りにくるよう、向きを確認して入れ直してください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">失敗例2：左右を逆に入れている</h3>
@@ -145,18 +145,18 @@ export default function CorrectUsagePage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">失敗例3：元の中敷きの上に重ねている</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">元の中敷きの上に重ねて入れると、靴の中が窮屈になって甲やつま先が圧迫されたり、中敷きの上で滑って安定しなかったりします。基本は元の中敷きを外して入れ替えましょう。中敷きが外せない靴では、前足部だけのハーフタイプを検討するのも一つの方法です。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">元の中敷きの上に重ねて入れると、靴の中が窮屈になって甲やつま先が圧迫されたり、中敷きの上で滑って安定しなかったりします。基本は元の中敷きを外して入れ替えてください。中敷きが外せない靴では、前足部だけのハーフタイプを検討するのも一つの方法です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">失敗例4：かかとが浮く・歩くとズレる</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">カットした輪郭が靴に合っていないと、浮きやズレの原因になります。元の中敷きを型紙にして輪郭を再確認し、大きすぎる場合は少しずつ切って調整しましょう。かかとを靴の奥までしっかり押し込んで装着し直すだけで改善することもあります。固定方法については、お使いの製品の表示に従ってください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">カットした輪郭が靴に合っていないと、浮きやズレの原因になります。元の中敷きを型紙にして輪郭を再確認し、大きすぎる場合は少しずつ切って調整してください。かかとを靴の奥までしっかり押し込んで装着し直すだけで改善することもあります。固定方法については、お使いの製品の表示に従ってください。</p>
             </div>
           </div>
         </section>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">慣らし期間の目安と違和感があるときの見直し手順</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチサポートのあるインソールは、履き始めに足裏が押し上げられるような感覚が出ることがあります。一般に、数日〜2週間程度かけて短時間の使用から少しずつ時間を延ばしていく慣らし方がよく紹介されますが、慣れるまでの期間には個人差があります。焦らず、足の状態を見ながら進めましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチサポートのあるインソールは、履き始めに足裏が押し上げられるような感覚が出ることがあります。一般に、数日〜2週間程度かけて短時間の使用から少しずつ時間を延ばしていく慣らし方がよく紹介されますが、慣れるまでの期間には個人差があります。焦らず、足の状態を見ながら進めてください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">慣らし期間を過ぎても違和感が続くときは、次の順番で見直してみてください。</p>
           <ol className="list-decimal list-inside space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             <li>使用時間を一度短くする（1〜2時間程度から再スタート）</li>
@@ -181,7 +181,7 @@ export default function CorrectUsagePage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">正しい使い方で効果を引き出せるインソールを選びましょう。</p>
+          <p className="text-white/90 text-sm mb-5">正しい使い方で効果を引き出せるインソールを選ぶことをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

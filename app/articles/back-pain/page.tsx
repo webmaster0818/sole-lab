@@ -321,7 +321,7 @@ export default function BackPainPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            腰痛改善を目的にインソールを選ぶ際は、以下のポイントに注目しましょう。
+            腰痛改善を目的にインソールを選ぶ際は、以下のポイントに注目してください。
           </p>
 
           <div className="space-y-4">
@@ -361,7 +361,7 @@ export default function BackPainPage() {
                 <h3 className="text-base md:text-lg font-bold text-gray-900">使用シーンに合った設計</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                通勤用、立ち仕事用、スポーツ用など、主に使用するシーンに合ったインソールを選びましょう。薄型のビジネスシューズ向け、厚手のスニーカー向けなど、靴のタイプに合った設計のものを選ぶことが快適な使用の鍵です。
+                通勤用、立ち仕事用、スポーツ用など、主に使用するシーンに合ったインソールを選ぶことをおすすめします。薄型のビジネスシューズ向け、厚手のスニーカー向けなど、靴のタイプに合った設計のものを選ぶことが快適な使用の鍵です。
               </p>
             </div>
           </div>
@@ -380,7 +380,7 @@ export default function BackPainPage() {
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">骨盤周りのストレッチ</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                腸腰筋、大殿筋、梨状筋のストレッチを毎日行いましょう。骨盤周りの筋肉の柔軟性を維持することで、インソールによるアライメント改善効果がより発揮されやすくなります。起床時と就寝前の2回、各筋肉30秒ずつ伸ばすことを習慣にしてください。
+                腸腰筋、大殿筋、梨状筋のストレッチを毎日行ってください。骨盤周りの筋肉の柔軟性を維持することで、インソールによるアライメント改善効果がより発揮されやすくなります。起床時と就寝前の2回、各筋肉30秒ずつ伸ばすことを習慣にしてください。
               </p>
             </div>
 
@@ -394,14 +394,14 @@ export default function BackPainPage() {
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">正しい歩き方の意識</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                インソールを入れたら、歩き方も意識しましょう。かかとから着地し、足裏全体でローリングするように重心を移動させ、母趾球で蹴り出す。この基本的な歩行パターンをインソールがサポートしてくれますが、自身でも意識することでより効果的です。
+                インソールを入れたら、歩き方も意識してください。かかとから着地し、足裏全体でローリングするように重心を移動させ、母趾球で蹴り出す。この基本的な歩行パターンをインソールがサポートしてくれますが、自身でも意識することでより効果的です。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ウォーキングの習慣化</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                適度な歩行は腰痛改善に効果的です。インソールで足元を安定させた状態でのウォーキングは、腰周りの血流を改善し、筋肉の柔軟性を維持します。1日20〜30分程度、自分のペースで歩くことから始めましょう。
+                適度な歩行は腰痛改善に効果的です。インソールで足元を安定させた状態でのウォーキングは、腰周りの血流を改善し、筋肉の柔軟性を維持します。1日20〜30分程度、自分のペースで歩くことから始めてください。
                 <Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">効果的なウォーキング方法</Link>
                 も参考にしてください。
               </p>

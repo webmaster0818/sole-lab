@@ -70,7 +70,7 @@ export default function PharmacistPage() {
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">薬剤師には、動きの少ない立位でアーチが沈み込むのを防ぐサポート力と、立ち姿勢を楽に保てる安定性を備えたインソールが向いています。歩き回る仕事と違い『同じ場所に立ち続ける』負担が中心のため、クッションの柔らかさだけでなく支えの確かさを重視しましょう。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">薬剤師には、動きの少ない立位でアーチが沈み込むのを防ぐサポート力と、立ち姿勢を楽に保てる安定性を備えたインソールが向いています。歩き回る仕事と違い『同じ場所に立ち続ける』負担が中心のため、クッションの柔らかさだけでなく支えの確かさを重視してください。</p>
         </div>
 
         <section className="mb-12">
@@ -134,7 +134,7 @@ export default function PharmacistPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">調剤室の立ちっぱなしのむくみ・疲れに。アーチを支えるインソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">調剤室の立ちっぱなしのむくみ・疲れに。アーチを支えるインソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

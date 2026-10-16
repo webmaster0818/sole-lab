@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "ダイエットインソールおすすめランキング3選【2026年10月更新】効果・口コミ・類似品比較まで解説",
   description:
-    "2026年最新のダイエットインソールおすすめランキング。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で徹底比較。ランウェイキュアソールの類似品・代わりを探している方向けの比較、市販（ドンキ・ニトリ・100均・薬局）の取扱状況も解説します。",
+    "2026年最新のダイエットインソールおすすめランキング。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で比較。ランウェイキュアソールの類似品・代わりを探している方向けの比較、市販（ドンキ・ニトリ・100均・薬局）の取扱状況も解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/ranking/",
   },
@@ -21,7 +21,7 @@ const structuredData = {
   headline:
     "ダイエットインソールおすすめランキング3選【2026年10月更新】効果・口コミ・類似品比較まで解説",
   description:
-    "ピットソール・ランウェイキュアソール・スリムアップインソールをランキング形式で徹底比較。料金・特許技術・口コミ・市販の取扱状況まで詳しく解説。",
+    "ピットソール・ランウェイキュアソール・スリムアップインソールをランキング形式で比較。料金・特許技術・口コミ・市販の取扱状況まで詳しく解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -140,7 +140,7 @@ const faqStructuredData = {
     {
       "@type": "Question",
       name: "類似品と正規品はどう見分ければよいですか？",
-      acceptedAnswer: { "@type": "Answer", text: "確実なのは各商品の公式サイト・公式ショップから購入することです。フリマアプリや非公式ルートで極端に安く販売されているものは、サイズ展開や素材・サポート設計が正規品と異なる場合があります。購入前に販売元が正規ルートかどうかを確認しましょう。" },
+      acceptedAnswer: { "@type": "Answer", text: "確実なのは各商品の公式サイト・公式ショップから購入することです。フリマアプリや非公式ルートで極端に安く販売されているものは、サイズ展開や素材・サポート設計が正規品と異なる場合があります。購入前に販売元が正規ルートかどうかをご確認ください。" },
     },
   ],
 };
@@ -173,12 +173,12 @@ export default function RankingPage() {
             <br className="md:hidden" />
             おすすめ<span className="text-[#0ea5e9]">ランキング3選</span>
             <br className="md:hidden" />
-            を徹底比較！
+            を比較！
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             累計200万足のピットソール、美姿勢サポートのランウェイキュアソール、美容整体師監修のスリムアップインソール。
             <br className="hidden md:block" />
-            効果・口コミ・料金まで、6つの基準で徹底比較しました。
+            効果・口コミ・料金まで、6つの基準で比較しました。
           </p>
         </div>
       </section>
@@ -278,7 +278,7 @@ export default function RankingPage() {
             </li>
             <li>
               <a href="#comparison" className="hover:text-[#0ea5e9] transition-colors">
-                4. 3商品を6つの基準で徹底比較
+                4. 3商品を6つの基準で比較
               </a>
             </li>
             <li>
@@ -894,7 +894,7 @@ export default function RankingPage() {
       {/* Section 3: Detailed Comparison */}
       <section id="comparison" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-8 pb-3 border-b-2 border-[#0ea5e9]">
-          3商品を6つの基準で徹底比較
+          3商品を6つの基準で比較
         </h2>
 
         <div className="space-y-10">
@@ -1163,7 +1163,7 @@ export default function RankingPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソール vs ランウェイ</p>
-              <p className="text-xs text-gray-500 mt-1">人気2製品の違いを徹底比較</p>
+              <p className="text-xs text-gray-500 mt-1">人気2製品の違いを比較</p>
             </Link>
             <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソール vs スリムアップ</p>
@@ -1343,7 +1343,7 @@ export default function RankingPage() {
                 サイズが自分の足に合うか確認する
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                インソールの効果はフィット感に大きく左右されます。自分の足のサイズに対応した商品を選びましょう。
+                インソールの効果はフィット感に大きく左右されます。自分の足のサイズに対応した商品を選ぶことをおすすめします。
                 足幅が広い方や甲が高い方は、靴との相性も考慮してください。
               </p>
             </div>
@@ -1358,7 +1358,7 @@ export default function RankingPage() {
                 使用する靴のタイプを考える
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                スニーカー、パンプス、ビジネスシューズなど、主にどの靴で使うかを想定しましょう。
+                スニーカー、パンプス、ビジネスシューズなど、主にどの靴で使うかを想定してください。
                 厚みのあるインソールはスニーカー向き、薄型はパンプスにも対応しやすい傾向があります。
               </p>
             </div>
@@ -1404,7 +1404,7 @@ export default function RankingPage() {
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
                 「何キロ痩せた」という口コミよりも、「姿勢が良くなった」「歩きやすくなった」「足の疲れが減った」
-                という声に注目しましょう。これらの変化がダイエットインソール本来の効果であり、
+                という声に注目してください。これらの変化がダイエットインソール本来の効果であり、
                 体型の変化はその延長線上にあるものです。
               </p>
             </div>
@@ -1447,7 +1447,7 @@ export default function RankingPage() {
                 正しい歩き方を意識する
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                インソールを入れるだけでなく、「かかとから着地し、つま先で蹴り出す」正しい歩行を意識しましょう。
+                インソールを入れるだけでなく、「かかとから着地し、つま先で蹴り出す」正しい歩行を意識してください。
                 背筋を伸ばし、やや大股で歩くことで、インソールの効果をさらに引き出せます。
               </p>
             </div>
@@ -1470,7 +1470,7 @@ export default function RankingPage() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 1〜2週間で効果が感じられなくても、すぐに諦めないでください。
                 姿勢の変化は徐々に起こるものです。多くの口コミでも、効果を実感するまでに2〜3ヶ月かかったという声が多数あります。
-                まずは3ヶ月間、毎日使い続けることを目標にしましょう。
+                まずは3ヶ月間、毎日使い続けることを目標にしてください。
               </p>
             </div>
           </div>
@@ -1645,7 +1645,7 @@ export default function RankingPage() {
             },
             {
               q: "Q12. 類似品と正規品はどう見分ければよいですか？",
-              a: "確実なのは各商品の公式サイト・公式ショップから購入することです。フリマアプリや非公式ルートで極端に安く販売されているものは、サイズ展開や素材・サポート設計が正規品と異なる場合があります。購入前に販売元が正規ルートかどうかを確認しましょう。",
+              a: "確実なのは各商品の公式サイト・公式ショップから購入することです。フリマアプリや非公式ルートで極端に安く販売されているものは、サイズ展開や素材・サポート設計が正規品と異なる場合があります。購入前に販売元が正規ルートかどうかをご確認ください。",
             },
             {
               q: "Q13. ダイエットインソールの口コミは信用できますか？どう読めばいいですか？",
@@ -1757,7 +1757,7 @@ export default function RankingPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link href="/pitsole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ピットソールの口コミ・効果を徹底検証</p>
+              <p className="text-sm font-semibold text-gray-900">ピットソールの口コミ・効果を検証</p>
             </Link>
             <Link href="/runway-cure-sole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールの口コミ・効果を検証</p>

@@ -3,14 +3,14 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "ピットソール サイズ別実寸レビュー｜フィット感を徹底検証",
+  title: "ピットソール サイズ別実寸レビュー｜フィット感を検証",
   description:
     "ピットソールのXS・S・M・L 4サイズの実寸を計測し、フィット感を徹底レビュー。足のサイズ別おすすめや、靴との相性、カット方法まで詳しく解説。サイズ選びで失敗したくない方必見です。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "ピットソール サイズ別実寸レビュー｜フィット感を徹底検証",
+    title: "ピットソール サイズ別実寸レビュー｜フィット感を検証",
     description:
       "ピットソールのXS〜L 4サイズの実寸を計測し、フィット感を徹底レビュー。サイズ選びのコツを解説。",
     url: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "ピットソール サイズ別実寸レビュー｜フィット感を徹底検証",
+  headline: "ピットソール サイズ別実寸レビュー｜フィット感を検証",
   description:
     "ピットソールのXS〜L 4サイズの実寸を計測し、フィット感を徹底レビューします。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
@@ -51,7 +51,7 @@ const faqStructuredData = {
       name: "ピットソールは自分でカットできますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、ピットソールにはつま先部分にカットラインが印刷されており、ハサミで簡単にカットできます。靴の中敷きを取り出してサイズを合わせ、カットラインに沿って少しずつ切り詰めていくのがコツです。一度に切りすぎないよう、少しずつ調整しましょう。",
+        text: "はい、ピットソールにはつま先部分にカットラインが印刷されており、ハサミで簡単にカットできます。靴の中敷きを取り出してサイズを合わせ、カットラインに沿って少しずつ切り詰めていくのがコツです。一度に切りすぎないよう、少しずつ調整してください。",
       },
     },
     {
@@ -141,7 +141,7 @@ export default function PitsoleAllSizesPage() {
             <span className="text-[#0ea5e9]">サイズ別実寸</span>レビュー
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            XS・S・M・Lの4サイズの実寸を計測し、フィット感を徹底検証。
+            XS・S・M・Lの4サイズの実寸を計測し、フィット感を検証。
             <br className="hidden md:block" />
             あなたの足に最適なサイズの選び方を分かりやすく解説します。
           </p>
@@ -218,7 +218,7 @@ export default function PitsoleAllSizesPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            ピットソールはXS〜XLの5サイズ展開で、21cm〜29cmまでの幅広い足サイズに対応しています（XLはブラック・ピンク限定、公式サイトにて2026年7月確認）。本記事ではXS〜Lの4サイズを実寸計測しています。各サイズの公式対応範囲と実寸の概要を一覧で確認しましょう。
+            ピットソールはXS〜XLの5サイズ展開で、21cm〜29cmまでの幅広い足サイズに対応しています（XLはブラック・ピンク限定、公式サイトにて2026年7月確認）。本記事ではXS〜Lの4サイズを実寸計測しています。各サイズの公式対応範囲と実寸の概要を一覧でご確認ください。
           </p>
 
           <div className="overflow-x-auto mb-6">
@@ -311,7 +311,7 @@ export default function PitsoleAllSizesPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            XSサイズは全体的にコンパクトな設計のため、薄底のパンプスやバレエシューズにも収まりやすいのが特徴です。ヒール付きの靴に使用する場合は、かかと部分が靴から浮かないか確認しましょう。
+            XSサイズは全体的にコンパクトな設計のため、薄底のパンプスやバレエシューズにも収まりやすいのが特徴です。ヒール付きの靴に使用する場合は、かかと部分が靴から浮かないかご確認ください。
           </p>
         </section>
 
@@ -437,7 +437,7 @@ export default function PitsoleAllSizesPage() {
                 <h3 className="text-base font-bold text-gray-900">正確な足長を計測する</h3>
               </div>
               <p className="text-sm text-gray-700 leading-relaxed">
-                まず自分の足の正確な長さを計測しましょう。壁にかかとを付けて立ち、一番長い指の先端までの長さを測ります。両足で長さが異なる場合は、大きい方の足に合わせます。夕方に計測すると、むくみで足が大きくなっているためより正確です。
+                まず自分の足の正確な長さを計測してください。壁にかかとを付けて立ち、一番長い指の先端までの長さを測ります。両足で長さが異なる場合は、大きい方の足に合わせます。夕方に計測すると、むくみで足が大きくなっているためより正確です。
               </p>
             </div>
 
@@ -447,7 +447,7 @@ export default function PitsoleAllSizesPage() {
                 <h3 className="text-base font-bold text-gray-900">サイズ範囲の境界にいる場合は大きめを</h3>
               </div>
               <p className="text-sm text-gray-700 leading-relaxed">
-                例えば足長が24.5cmの場合、Sサイズ（23〜24.5cm）とMサイズ（25〜26cm）のどちらにするか迷います。この場合はSサイズを選びましょう。24.5cmはSサイズの上限ですが、カットラインで微調整が可能です。ただし靴が大きめの場合はMサイズも選択肢に入ります。
+                例えば足長が24.5cmの場合、Sサイズ（23〜24.5cm）とMサイズ（25〜26cm）のどちらにするか迷います。この場合はSサイズを選ぶことをおすすめします。24.5cmはSサイズの上限ですが、カットラインで微調整が可能です。ただし靴が大きめの場合はMサイズも選択肢に入ります。
               </p>
             </div>
 
@@ -521,7 +521,7 @@ export default function PitsoleAllSizesPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-amber-700">注意：</span>
-              一度カットしたものは元に戻せません。必ず少しずつカットし、靴に入れて確認しながら調整しましょう。カットしすぎるとアーチサポートの位置がずれてしまう可能性があります。詳しいサイズ調整方法は<Link href="/articles/size-adjustment/" className="text-[#0ea5e9] hover:underline">サイズ調整ガイド</Link>も参考にしてください。
+              一度カットしたものは元に戻せません。必ず少しずつカットし、靴に入れて確認しながら調整してください。カットしすぎるとアーチサポートの位置がずれてしまう可能性があります。詳しいサイズ調整方法は<Link href="/articles/size-adjustment/" className="text-[#0ea5e9] hover:underline">サイズ調整ガイド</Link>も参考にしてください。
             </p>
           </div>
         </section>
@@ -605,7 +605,7 @@ export default function PitsoleAllSizesPage() {
                 Q. ピットソールは自分でカットできますか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. はい、ピットソールにはつま先部分にカットラインが印刷されており、ハサミで簡単にカットできます。靴の中敷きを取り出してサイズを合わせ、カットラインに沿って少しずつ切り詰めていくのがコツです。一度に切りすぎないよう、少しずつ調整しましょう。
+                A. はい、ピットソールにはつま先部分にカットラインが印刷されており、ハサミで簡単にカットできます。靴の中敷きを取り出してサイズを合わせ、カットラインに沿って少しずつ切り詰めていくのがコツです。一度に切りすぎないよう、少しずつ調整してください。
               </p>
             </div>
 

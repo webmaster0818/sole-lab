@@ -152,9 +152,9 @@ export default function PlantarFasciitisPage() {
         <section id="usage" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールの正しい使い方と注意点</h2>
           <div className="space-y-4">
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">最初は短時間から始める</h3><p className="text-sm text-gray-700 leading-relaxed">足底筋膜炎の痛みがある状態で急にインソールを終日使用すると、かえって症状が悪化することがあります。最初は1〜2時間から始め、3〜5日かけて徐々に使用時間を延ばしていきましょう。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">室内履きにもインソールを入れる</h3><p className="text-sm text-gray-700 leading-relaxed">自宅でのフローリング上の素足歩行は足底筋膜炎を悪化させます。室内用スリッパやサンダルにもインソールを入れるか、アーチサポート付きの室内履きを使用しましょう。特に朝起きてすぐの歩行時にサポートがあると、ファーストステップペインの軽減に効果的です。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">靴の選び方も見直す</h3><p className="text-sm text-gray-700 leading-relaxed">いくら良いインソールを入れても、靴自体に問題があると効果が半減します。靴底が薄くクッション性のない靴、履き古してソールがすり減った靴は避けましょう。インソールの効果を最大限に発揮するには、ある程度クッション性のあるスニーカータイプの靴がおすすめです。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">最初は短時間から始める</h3><p className="text-sm text-gray-700 leading-relaxed">足底筋膜炎の痛みがある状態で急にインソールを終日使用すると、かえって症状が悪化することがあります。最初は1〜2時間から始め、3〜5日かけて徐々に使用時間を延ばしていいてください。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">室内履きにもインソールを入れる</h3><p className="text-sm text-gray-700 leading-relaxed">自宅でのフローリング上の素足歩行は足底筋膜炎を悪化させます。室内用スリッパやサンダルにもインソールを入れるか、アーチサポート付きの室内履きを使用してください。特に朝起きてすぐの歩行時にサポートがあると、ファーストステップペインの軽減に効果的です。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">靴の選び方も見直す</h3><p className="text-sm text-gray-700 leading-relaxed">いくら良いインソールを入れても、靴自体に問題があると効果が半減します。靴底が薄くクッション性のない靴、履き古してソールがすり減った靴は避けてください。インソールの効果を最大限に発揮するには、ある程度クッション性のあるスニーカータイプの靴がおすすめです。</p></div>
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">痛みが増す場合は使用を中止する</h3><p className="text-sm text-gray-700 leading-relaxed">インソール使用後に痛みが以前より強くなった場合は、アーチサポートの高さや硬さが合っていない可能性があります。一旦使用を中止し、別のインソールを試すか、医療機関でオーダーメイドインソールの作製を相談してください。</p></div>
           </div>
         </section>
@@ -164,8 +164,8 @@ export default function PlantarFasciitisPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールだけでなく、以下のセルフケアを組み合わせることで回復を早められます。</p>
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">足底筋膜ストレッチ</h3><p className="text-sm text-gray-700 leading-relaxed">椅子に座った状態で痛い方の足を反対側の膝の上に乗せ、手で足指を反らせて土踏まずが伸びるのを感じましょう。30秒キープを5回、朝・昼・夜の3回行います。特に朝起きる前にベッドの中で行うと、ファーストステップペインの予防に効果的です。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ふくらはぎのストレッチ</h3><p className="text-sm text-gray-700 leading-relaxed">ふくらはぎ（腓腹筋とヒラメ筋）の硬さは足底筋膜炎の大きな要因です。壁に手をつき、伸ばしたい方の足を後ろに引いてふくらはぎを伸ばします。膝を伸ばした状態で30秒、膝を軽く曲げた状態で30秒、それぞれ3セット行いましょう。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ゴルフボールマッサージ</h3><p className="text-sm text-gray-700 leading-relaxed">ゴルフボールを足裏の下に置き、前後に転がしてセルフマッサージを行います。足底筋膜の血流を改善し、硬くなった組織をほぐす効果があります。痛みを感じない程度の圧で、片足2〜3分ずつ行いましょう。冷凍したペットボトルを使うとアイシング効果も得られます。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ふくらはぎのストレッチ</h3><p className="text-sm text-gray-700 leading-relaxed">ふくらはぎ（腓腹筋とヒラメ筋）の硬さは足底筋膜炎の大きな要因です。壁に手をつき、伸ばしたい方の足を後ろに引いてふくらはぎを伸ばします。膝を伸ばした状態で30秒、膝を軽く曲げた状態で30秒、それぞれ3セット行ってください。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ゴルフボールマッサージ</h3><p className="text-sm text-gray-700 leading-relaxed">ゴルフボールを足裏の下に置き、前後に転がしてセルフマッサージを行います。足底筋膜の血流を改善し、硬くなった組織をほぐす効果があります。痛みを感じない程度の圧で、片足2〜3分ずつ行ってください。冷凍したペットボトルを使うとアイシング効果も得られます。</p></div>
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">体重管理</h3><p className="text-sm text-gray-700 leading-relaxed">体重が増加すると足底筋膜への負荷が直接的に増加します。1kg体重が減ると足底にかかる荷重は歩行時に1.5kg、ランニング時に3kg軽減されます。適正体重の維持は足底筋膜炎の予防と治療の両面で重要です。</p></div>
           </div>
         </section>
@@ -227,7 +227,7 @@ export default function PlantarFasciitisPage() {
         <section id="summary" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足底筋膜炎は適切なケアで改善できる症状です。インソールによるアーチサポートと衝撃吸収は、痛みの軽減と再発予防の両方に効果的です。ストレッチや体重管理と組み合わせることで、回復をさらに早めることができます。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">痛みを我慢して放置すると慢性化し、治療期間が長引きます。早めのインソール導入とセルフケアの開始で、快適な歩行を取り戻しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">痛みを我慢して放置すると慢性化し、治療期間が長引きます。早めのインソール導入とセルフケアの開始で、快適な歩行を取り戻してください。</p>
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">足底筋膜炎ケアにおすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">

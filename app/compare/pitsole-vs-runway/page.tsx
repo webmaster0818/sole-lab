@@ -6,9 +6,9 @@ import VerificationNote from "../../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
-    "ピットソール vs ランウェイキュアソール徹底比較！どっちがおすすめ？",
+    "ピットソール vs ランウェイキュアソール比較！どっちがおすすめ？",
   description:
-    "ピットソールとランウェイキュアソールを料金・サイズ・特許技術・口コミで徹底比較。世界特許のBMZ社ピットソールと3点アーチのランウェイキュアソール、あなたに合うのはどっち？",
+    "ピットソールとランウェイキュアソールを料金・サイズ・特許技術・口コミで比較。世界特許のBMZ社ピットソールと3点アーチのランウェイキュアソール、あなたに合うのはどっち？",
   alternates: {
     canonical: "https://sole-laboratory.com/compare/pitsole-vs-runway/",
   },
@@ -18,9 +18,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ピットソール vs ランウェイキュアソール徹底比較！どっちがおすすめ？",
+    "ピットソール vs ランウェイキュアソール比較！どっちがおすすめ？",
   description:
-    "ピットソールとランウェイキュアソールを料金・サイズ・技術・口コミの4軸で徹底比較。それぞれの強みと弱みを客観的に解説します。",
+    "ピットソールとランウェイキュアソールを料金・サイズ・技術・口コミの4軸で比較。それぞれの強みと弱みを客観的に解説します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -128,16 +128,16 @@ export default function PitsoleVsRunwayPage() {
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソール vs ランウェイキュアソール
             <br />
-            <span className="text-[#0ea5e9]">徹底比較</span>！どっちがおすすめ？
+            <span className="text-[#0ea5e9]">比較</span>！どっちがおすすめ？
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             世界特許を持つBMZ社の「ピットソール」と、3点アーチサポートの「ランウェイキュアソール」。
             どちらもダイエットインソールとして人気ですが、料金・サイズ・技術・口コミの観点から比較すると明確な違いがあります。
-            この記事では両商品を徹底比較し、あなたにぴったりなのはどちらかを解説します。
+            この記事では両商品を比較し、あなたにぴったりなのはどちらかを解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
-              2商品を徹底比較
+              2商品を比較
             </span>
             <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
               料金・技術・口コミ
@@ -160,7 +160,7 @@ export default function PitsoleVsRunwayPage() {
             比較結果サマリー（比較表）
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            まずは両商品の主要スペックを一覧で確認しましょう。それぞれの強みが一目でわかります。
+            まずは両商品の主要スペックを一覧でご確認ください。それぞれの強みが一目でわかります。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
@@ -232,7 +232,7 @@ export default function PitsoleVsRunwayPage() {
             料金・コスパ比較
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            ダイエットインソールは数ヶ月単位で継続するものだからこそ、料金とコスパは重要なポイントです。両商品の料金体系を詳しく見てみましょう。
+            ダイエットインソールは数ヶ月単位で継続するものだからこそ、料金とコスパは重要なポイントです。両商品の料金体系を詳しく見てんでください。
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -299,7 +299,7 @@ export default function PitsoleVsRunwayPage() {
             サイズ・対応力比較
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            インソールはサイズが合わなければ意味がありません。自分の足に合うかどうかは購入前に必ず確認しておきましょう。
+            インソールはサイズが合わなければ意味がありません。自分の足に合うかどうかは購入前に必ず確認しておいてください。
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -365,7 +365,7 @@ export default function PitsoleVsRunwayPage() {
             技術・特許比較
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            ダイエットインソールの効果を左右するのは、足裏をどのようにサポートするかという技術です。両商品のアプローチの違いを見てみましょう。
+            ダイエットインソールの効果を左右するのは、足裏をどのようにサポートするかという技術です。両商品のアプローチの違いを見てんでください。
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -749,7 +749,7 @@ export default function PitsoleVsRunwayPage() {
             他の商品も比較してみませんか？
           </h2>
           <p className="text-sm text-gray-600 mb-8 leading-relaxed">
-            ソールラボでは、ピットソール・ランウェイキュアソール・スリムアップインソールの3商品を徹底比較しています。
+            ソールラボでは、ピットソール・ランウェイキュアソール・スリムアップインソールの3商品を比較しています。
           </p>
           <Link href="/ranking/" className="btn-cta text-base md:text-lg">
             おすすめランキングを見る

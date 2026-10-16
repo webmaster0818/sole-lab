@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "歩行を安定させるアーチサポート", "b": "ふくらはぎを働かせるには歩行の安定が鍵です。土踏まずを支えて着地を安定させる設計を選びましょう。"}, {"t": "一日履いて疲れにくいクッション", "b": "夕方のむくみケアには、日中ずっと快適に歩けることが大切。衝撃を吸収するクッション性のあるものが向いています。"}, {"t": "毎日の靴に合う汎用性", "b": "むくみケアは日々の歩行の積み重ねです。通勤や買い物など普段の靴で履ける汎用タイプを選びましょう。"}];
+const points = [{"t": "歩行を安定させるアーチサポート", "b": "ふくらはぎを働かせるには歩行の安定が鍵です。土踏まずを支えて着地を安定させる設計を選ぶことをおすすめします。"}, {"t": "一日履いて疲れにくいクッション", "b": "夕方のむくみケアには、日中ずっと快適に歩けることが大切。衝撃を吸収するクッション性のあるものが向いています。"}, {"t": "毎日の靴に合う汎用性", "b": "むくみケアは日々の歩行の積み重ねです。通勤や買い物など普段の靴で履ける汎用タイプを選ぶことをおすすめします。"}];
 const related = [{"href": "/articles/swelling-insole/", "label": "むくみ対策インソール"}, {"href": "/articles/calf-slimming-insole/", "label": "ふくらはぎとインソール"}, {"href": "/articles/leg-slimming/", "label": "脚やせとインソール"}, {"href": "/articles/walking-diet/", "label": "ウォーキングダイエットとインソール"}];
 
 export default function AnkleSlimPage() {
@@ -134,7 +134,7 @@ export default function AnkleSlimPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">歩行を安定させてむくみケアを後押し。アーチを支えるインソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">歩行を安定させてむくみケアを後押し。アーチを支えるインソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "中足骨パッドで横アーチを支える", "b": "開張足対策の中心は、指の付け根の手前を持ち上げて横アーチを作る中足骨パッドです。位置が合うものを選びましょう。"}, {"t": "前足部のフィットと幅", "b": "足幅が広がっているため、前足部がきつくない設計が大切です。靴も幅広（3E以上）を選ぶと相乗効果があります。"}, {"t": "縦アーチも含めた全体サポート", "b": "横アーチだけでなく内側縦アーチも支えると足全体が安定します。3点支持の設計が理想です。"}];
+const points = [{"t": "中足骨パッドで横アーチを支える", "b": "開張足対策の中心は、指の付け根の手前を持ち上げて横アーチを作る中足骨パッドです。位置が合うものを選ぶことをおすすめします。"}, {"t": "前足部のフィットと幅", "b": "足幅が広がっているため、前足部がきつくない設計が大切です。靴も幅広（3E以上）を選ぶと相乗効果があります。"}, {"t": "縦アーチも含めた全体サポート", "b": "横アーチだけでなく内側縦アーチも支えると足全体が安定します。3点支持の設計が理想です。"}];
 const related = [{"href": "/articles/hallux-valgus-prevention/", "label": "外反母趾の予防インソール"}, {"href": "/articles/morton-disease-insole/", "label": "モートン病のインソール"}, {"href": "/articles/heel-pain-insole/", "label": "かかとが痛い時のインソール"}, {"href": "/articles/size-adjustment/", "label": "インソールのサイズ調整方法"}, {"href": "/articles/flat-feet/", "label": "扁平足のインソール"}, {"href": "/articles/foot-arch/", "label": "足のアーチのチェック"}];
 
 export default function SplayFootPage() {
@@ -115,7 +115,7 @@ export default function SplayFootPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴の見直しと早めの対策</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">開張足は進行すると外反母趾やモートン病につながるため、早めの対策が有効です。幅の狭い靴やハイヒールを避け、幅広で足指が動かせる靴に替えましょう。足指のグーパー運動など筋力ケアも効果的です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">開張足は進行すると外反母趾やモートン病につながるため、早めの対策が有効です。幅の狭い靴やハイヒールを避け、幅広で足指が動かせる靴に替えてください。足指のグーパー運動など筋力ケアも効果的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">変形や痛みが進む場合は整形外科で相談し、必要に応じてオーダーメイドの装具を検討してください。</p>
         </section>
 
@@ -159,7 +159,7 @@ export default function SplayFootPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">横アーチを支えるインソールで、開張足の広がりと前足部の負担を抑えましょう。</p>
+          <p className="text-white/90 text-sm mb-5">横アーチを支えるインソールで、開張足の広がりと前足部の負担を抑えてください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-05",
 };
 
-const faqs = [{"q": "捻挫を繰り返します。インソールで予防できますか？", "a": "かかとを安定させるインソールは足首の横ブレを抑え、再発予防の補助になります。ただし靭帯のゆるみが強い場合は、サポーターや専門的なリハビリも併用しましょう。"}, {"q": "足首が痛い時、インソールはどんなものが良いですか？", "a": "深いヒールカップで後足部を固定し、アーチを支える安定性重視のインソールが向いています。柔らかいだけのクッション系は支えになりにくい傾向があります。"}, {"q": "インソールとサポーター、どちらが良いですか？", "a": "役割が違い、併用も可能です。インソールは着地の安定、サポーターは足首関節の固定が得意です。痛みが強い時期はサポーター、日常の予防にはインソールが向いています。"}];
+const faqs = [{"q": "捻挫を繰り返します。インソールで予防できますか？", "a": "かかとを安定させるインソールは足首の横ブレを抑え、再発予防の補助になります。ただし靭帯のゆるみが強い場合は、サポーターや専門的なリハビリも併用してください。"}, {"q": "足首が痛い時、インソールはどんなものが良いですか？", "a": "深いヒールカップで後足部を固定し、アーチを支える安定性重視のインソールが向いています。柔らかいだけのクッション系は支えになりにくい傾向があります。"}, {"q": "インソールとサポーター、どちらが良いですか？", "a": "役割が違い、併用も可能です。インソールは着地の安定、サポーターは足首関節の固定が得意です。痛みが強い時期はサポーター、日常の予防にはインソールが向いています。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "深いヒールカップで後足部を固定", "b": "かかとが横にブレないよう、深く包み込むヒールカップ付きを選びましょう。足首の安定の土台になります。"}, {"t": "アーチサポートで着地を安定", "b": "アーチが崩れると足全体が傾きやすくなります。土踏まずを支える設計で着地のブレを抑えます。"}, {"t": "適度な硬さで支える", "b": "柔らかすぎると支えになりません。後足部を安定させられる、しっかりした硬さの素材が向いています。"}];
+const points = [{"t": "深いヒールカップで後足部を固定", "b": "かかとが横にブレないよう、深く包み込むヒールカップ付きを選ぶことをおすすめします。足首の安定の土台になります。"}, {"t": "アーチサポートで着地を安定", "b": "アーチが崩れると足全体が傾きやすくなります。土踏まずを支える設計で着地のブレを抑えます。"}, {"t": "適度な硬さで支える", "b": "柔らかすぎると支えになりません。後足部を安定させられる、しっかりした硬さの素材が向いています。"}];
 const related = [{"href": "/articles/heel-pain-insole/", "label": "かかとの痛みのインソール"}, {"href": "/articles/foot-arch/", "label": "足のアーチのチェック"}, {"href": "/articles/sneaker-insole/", "label": "スニーカー用インソール"}, {"href": "/articles/how-to-choose/", "label": "インソールの選び方"}];
 
 export default function AnklePainPage() {
@@ -115,7 +115,7 @@ export default function AnklePainPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">捻挫ぐせのケアと受診の目安</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">捻挫直後は安静・冷却・圧迫・挙上（RICE）が基本で、無理に歩かないことが大切です。インソールは回復後の再発予防や日常の安定の補助として使いましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">捻挫直後は安静・冷却・圧迫・挙上（RICE）が基本で、無理に歩かないことが大切です。インソールは回復後の再発予防や日常の安定の補助として使ってください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">腫れや内出血が強い、体重をかけられない場合は靭帯損傷や骨折の可能性があるため、整形外科を受診してください。あわせて足首まわりのバランス・筋力トレーニングも再発予防に有効です。</p>
         </section>
 
@@ -133,7 +133,7 @@ export default function AnklePainPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">後足部を安定させるインソールで、足首のぐらつき・負担を軽くしましょう。</p>
+          <p className="text-white/90 text-sm mb-5">後足部を安定させるインソールで、足首のぐらつき・負担を軽くしてください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

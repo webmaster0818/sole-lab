@@ -21,7 +21,7 @@ export default function Header() {
         <Link href="/" className="flex flex-col leading-tight">
           <span className="text-xl font-bold text-gradient-fresh">ソールラボ</span>
           <span className="text-[10px] text-gray-500 tracking-wide">
-            ダイエットインソール徹底比較
+            ダイエットインソール比較
           </span>
         </Link>
 

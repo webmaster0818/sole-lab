@@ -24,7 +24,7 @@ const structuredData = {
   dateModified: "2026-06-13",
 };
 
-const faqs = [{"q": "インソールは素足と靴下、どちらで使うのが正解ですか？", "a": "中敷きタイプは靴下着用での使用が一般的です。素足だと汗や皮脂が直接付着して劣化やニオイが進みやすくなります。フィット確認は実際に合わせる靴下で行いましょう。"}, {"q": "厚手の靴下だとインソールの効果は落ちますか？", "a": "アーチサポートの感触は厚みの分マイルドになり、靴内の容積も圧迫されます。効果がゼロになるわけではありませんが、きつさを感じるなら靴下を薄手にするか、靴に余裕を持たせてください。"}, {"q": "5本指ソックスとインソールは併用できますか？", "a": "併用できます。足指が独立して動かしやすい5本指ソックスは、アーチサポート系インソールと相性が良い組み合わせです。つま先の生地が増える分、靴の余裕だけ確認しましょう。"}, {"q": "ストッキングでもインソールを使えますか？", "a": "使えますが、滑りやすい素材のため足がインソール上でずれやすくなります。パンプス用の薄型を選ぶ、滑り止め付きのフットカバーを併用するなど、ずれ対策をすると快適です。"}, {"q": "ソックス型インソールの上に靴下を履いてもいいですか？", "a": "製品によって推奨される着用方法が異なるため、公式の案内に従ってください。重ね方によっては圧迫やずれの原因になります。購入前に装着方法を確認しておくと安心です。"}];
+const faqs = [{"q": "インソールは素足と靴下、どちらで使うのが正解ですか？", "a": "中敷きタイプは靴下着用での使用が一般的です。素足だと汗や皮脂が直接付着して劣化やニオイが進みやすくなります。フィット確認は実際に合わせる靴下で行ってください。"}, {"q": "厚手の靴下だとインソールの効果は落ちますか？", "a": "アーチサポートの感触は厚みの分マイルドになり、靴内の容積も圧迫されます。効果がゼロになるわけではありませんが、きつさを感じるなら靴下を薄手にするか、靴に余裕を持たせてください。"}, {"q": "5本指ソックスとインソールは併用できますか？", "a": "併用できます。足指が独立して動かしやすい5本指ソックスは、アーチサポート系インソールと相性が良い組み合わせです。つま先の生地が増える分、靴の余裕だけご確認ください。"}, {"q": "ストッキングでもインソールを使えますか？", "a": "使えますが、滑りやすい素材のため足がインソール上でずれやすくなります。パンプス用の薄型を選ぶ、滑り止め付きのフットカバーを併用するなど、ずれ対策をすると快適です。"}, {"q": "ソックス型インソールの上に靴下を履いてもいいですか？", "a": "製品によって推奨される着用方法が異なるため、公式の案内に従ってください。重ね方によっては圧迫やずれの原因になります。購入前に装着方法を確認しておくと安心です。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "いつも履く靴下の厚みを基準にフィットを確認", "b": "インソール選び・サイズ調整は、実際に合わせる靴下を履いた状態で行いましょう。仕事で厚手、休日は薄手など使い分けるなら、よく使う組み合わせを基準にします。"}, {"t": "滑りにくく蒸れにくい素材の靴下を合わせる", "b": "綿やウール混など吸湿性のある靴下は、足裏のずれと蒸れの両方を抑えられます。ストッキングで使う場合は、足がずれないか・かかとが浮かないかを入念に確認しましょう。"}, {"t": "5本指ソックスは足指の使いやすさで好相性", "b": "5本指ソックスは足指が独立して動かしやすく、地面をつかむ感覚を妨げにくいため、アーチサポート系インソールとの併用に向いています。ただしつま先部分の生地が増える分、靴の捨て寸に余裕があるか確認を。"}];
+const points = [{"t": "いつも履く靴下の厚みを基準にフィットを確認", "b": "インソール選び・サイズ調整は、実際に合わせる靴下を履いた状態で行ってください。仕事で厚手、休日は薄手など使い分けるなら、よく使う組み合わせを基準にします。"}, {"t": "滑りにくく蒸れにくい素材の靴下を合わせる", "b": "綿やウール混など吸湿性のある靴下は、足裏のずれと蒸れの両方を抑えられます。ストッキングで使う場合は、足がずれないか・かかとが浮かないかを入念にご確認ください。"}, {"t": "5本指ソックスは足指の使いやすさで好相性", "b": "5本指ソックスは足指が独立して動かしやすく、地面をつかむ感覚を妨げにくいため、アーチサポート系インソールとの併用に向いています。ただしつま先部分の生地が増える分、靴の捨て寸に余裕があるか確認を。"}];
 const related = [{"href": "/articles/summer-mure-insole/", "label": "夏の蒸れ対策インソール"}, {"href": "/articles/thickness-guide-insole/", "label": "インソールの厚みの選び方"}, {"href": "/articles/deodorize-insole/", "label": "インソールの防臭・消臭ケア"}, {"href": "/articles/correct-usage-insole/", "label": "ダイエットインソールの効果的な使い方"}];
 
 export default function SocksCompatPage() {
@@ -65,7 +65,7 @@ export default function SocksCompatPage() {
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">インソールと靴下の相性ガイド｜5本指ソックス・厚手・ストッキング別の注意点</h1>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">同じインソールでも、合わせる靴下によってフィット感は意外なほど変わります。厚手の靴下でアーチサポートの感触が鈍くなったり、滑りやすいストッキングで足がずれたり。インソールの性能を引き出すには、靴下との組み合わせにも目を向けましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">同じインソールでも、合わせる靴下によってフィット感は意外なほど変わります。厚手の靴下でアーチサポートの感触が鈍くなったり、滑りやすいストッキングで足がずれたり。インソールの性能を引き出すには、靴下との組み合わせにも目を向けてください。</p>
         </header>
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
@@ -94,7 +94,7 @@ export default function SocksCompatPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴下派・5本指ソックス派におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">中敷きタイプは靴下の厚みごとのフィット確認を。ソックス型は装着方法そのものが異なる点に注意しましょう。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">中敷きタイプは靴下の厚みごとのフィット確認を。ソックス型は装着方法そのものが異なる点にご注意ください。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -134,7 +134,7 @@ export default function SocksCompatPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">靴下との相性も踏まえて、自分の使い方に合うタイプのインソールを比較してみましょう。</p>
+          <p className="text-white/90 text-sm mb-5">靴下との相性も踏まえて、自分の使い方に合うタイプのインソールを比較してんでください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

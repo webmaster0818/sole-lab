@@ -6,9 +6,9 @@ import VerificationNote from "../../components/VerificationNote";
 
 export const metadata: Metadata = {
   title:
-    "ピットソール vs スリムアップインソール徹底比較！違いと選び方｜ソールラボ",
+    "ピットソール vs スリムアップインソール比較！違いと選び方｜ソールラボ",
   description:
-    "ピットソールとスリムアップインソールを徹底比較。価格・効果・技術・サイズ展開・口コミの違いを表で整理し、あなたに合うダイエットインソールの選び方を解説します。",
+    "ピットソールとスリムアップインソールを比較。価格・効果・技術・サイズ展開・口コミの違いを表で整理し、あなたに合うダイエットインソールの選び方を解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/compare/pitsole-vs-slimup/",
   },
@@ -18,9 +18,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "ピットソール vs スリムアップインソール徹底比較！違いと選び方",
+    "ピットソール vs スリムアップインソール比較！違いと選び方",
   description:
-    "ピットソールとスリムアップインソールを価格・効果・技術・サイズ・口コミの5項目で徹底比較。あなたに合ったダイエットインソールの選び方を解説。",
+    "ピットソールとスリムアップインソールを価格・効果・技術・サイズ・口コミの5項目で比較。あなたに合ったダイエットインソールの選び方を解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -141,7 +141,7 @@ const faqs = [
   {
     question: "男性が使うならどちらが良いですか？",
     answer:
-      "ピットソールは男女兼用でXS（21cm〜）〜L（〜27.5cm）の展開です。スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズで最大26.5cmです（公式サイトにて2026年7月確認）。足のサイズが26.5cmを超える男性はピットソールを選びましょう。",
+      "ピットソールは男女兼用でXS（21cm〜）〜L（〜27.5cm）の展開です。スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズで最大26.5cmです（公式サイトにて2026年7月確認）。足のサイズが26.5cmを超える男性はピットソールを選ぶことをおすすめします。",
   },
   {
     question: "どちらも返品・交換は可能ですか？",
@@ -177,11 +177,11 @@ export default function PitsoleVsSlimupPage() {
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソール vs スリムアップインソール
             <br />
-            <span className="text-violet-600">徹底比較</span>
+            <span className="text-violet-600">比較</span>
             ！違いと選び方
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            人気ダイエットインソール「ピットソール」と「スリムアップインソール」を価格・効果・技術・サイズ・口コミの5項目で徹底比較。
+            人気ダイエットインソール「ピットソール」と「スリムアップインソール」を価格・効果・技術・サイズ・口コミの5項目で比較。
             それぞれの強み・弱みを整理し、あなたに合った1足の選び方を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
@@ -331,7 +331,7 @@ export default function PitsoleVsSlimupPage() {
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            価格を徹底比較 - どっちがお得？
+            価格を比較 - どっちがお得？
           </h2>
           <div className="space-y-4">
             <div className="card overflow-x-auto">
@@ -379,7 +379,7 @@ export default function PitsoleVsSlimupPage() {
                 <span className="font-bold text-amber-700">価格比較のポイント：</span>
                 単品購入ならピットソールが402円安くお得です。2足セットや実質4足分のまとめ買いではスリムアップインソール（3足＋1足無料で実質4,480円/足）がやや有利ですが、
                 ピットソールの6足セット（24,156円・4,026円/足）まで含めると1足単価の最安はピットソールになります（各公式サイトにて2026年7月確認）。
-                家族で使いたい方や靴ごとに入れ替えたい方は、必要な足数に合わせて選びましょう。
+                家族で使いたい方や靴ごとに入れ替えたい方は、必要な足数に合わせて選ぶことをおすすめします。
               </p>
             </div>
           </div>
@@ -466,7 +466,7 @@ export default function PitsoleVsSlimupPage() {
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            9項目で徹底比較
+            9項目で比較
           </h2>
           <div className="space-y-3">
             {comparisonItems.map((item) => (
@@ -910,7 +910,7 @@ export default function PitsoleVsSlimupPage() {
               className="card block text-center hover:border-[#0ea5e9] transition-colors"
             >
               <p className="text-sm font-bold text-gray-900 mb-1">ピットソール</p>
-              <p className="text-xs text-gray-500">口コミ・効果を徹底検証</p>
+              <p className="text-xs text-gray-500">口コミ・効果を検証</p>
             </Link>
             <Link
               href="/slim-up-insole/"

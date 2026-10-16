@@ -268,7 +268,7 @@ export default function DeskWorkPage() {
               },
               {
                 title: "エレベーターの代わりに階段を使う",
-                desc: "オフィス内の移動で階段を使う習慣をつけましょう。階段昇降は平地歩行の2〜3倍のカロリーを消費します。インソールのアーチサポートにより正しい体重移動で階段を上れます。",
+                desc: "オフィス内の移動で階段を使う習慣をつけてください。階段昇降は平地歩行の2〜3倍のカロリーを消費します。インソールのアーチサポートにより正しい体重移動で階段を上れます。",
                 tag: "おすすめ度：★★★★☆",
               },
               {
@@ -278,7 +278,7 @@ export default function DeskWorkPage() {
               },
               {
                 title: "退勤後に一駅分歩く",
-                desc: "退勤後に1駅分（15〜20分）歩く習慣をつけましょう。1日の終わりにインソール入りの靴でウォーキングすることで、歩数を効率的に稼げます。音楽やポッドキャストを聴きながら歩けばストレス発散にも。",
+                desc: "退勤後に1駅分（15〜20分）歩く習慣をつけてください。1日の終わりにインソール入りの靴でウォーキングすることで、歩数を効率的に稼げます。音楽やポッドキャストを聴きながら歩けばストレス発散にも。",
                 tag: "おすすめ度：★★★★☆",
               },
             ].map((item) => (
@@ -442,7 +442,7 @@ export default function DeskWorkPage() {
               },
               {
                 title: "こまめな水分補給",
-                desc: "水分をこまめに摂ることで、トイレに行く回数が増え、自然と歩行機会が増えます。1時間にコップ1杯の水分補給を心がけましょう。",
+                desc: "水分をこまめに摂ることで、トイレに行く回数が増え、自然と歩行機会が増えます。1時間にコップ1杯の水分補給を心がけてください。",
               },
               {
                 title: "退勤後のストレッチ",
@@ -547,7 +547,7 @@ export default function DeskWorkPage() {
               <p className="text-xs text-gray-500 mt-1">むくみ軽減に効果的なインソールの選び方</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
           </div>

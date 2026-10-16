@@ -143,7 +143,7 @@ export default function LifespanPage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             インソールは消耗品です。交換時期を見極めないと足のトラブルに直結します。
             <br className="hidden md:block" />
-            素材別の寿命目安と劣化のサインを知り、適切なタイミングで交換しましょう。
+            素材別の寿命目安と劣化のサインを知り、適切なタイミングで交換してください。
           </p>
         </div>
       </section>
@@ -487,7 +487,7 @@ export default function LifespanPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            適切なケアを行うことで、インソールの寿命を最大限に引き延ばすことができます。以下のポイントを日々の習慣に取り入れましょう。
+            適切なケアを行うことで、インソールの寿命を最大限に引き延ばすことができます。以下のポイントを日々の習慣に取り入れてください。
           </p>
 
           <div className="space-y-4">
@@ -505,7 +505,7 @@ export default function LifespanPage() {
                 毎日靴から取り出して乾燥させる
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                帰宅したらインソールを靴から取り出し、風通しの良い場所で乾燥させましょう。靴の中に入れたままだと湿気がこもり、雑菌の繁殖と素材の劣化が進行します。直射日光やドライヤーは素材を傷めるため避け、陰干しで自然乾燥させてください。
+                帰宅したらインソールを靴から取り出し、風通しの良い場所で乾燥させてください。靴の中に入れたままだと湿気がこもり、雑菌の繁殖と素材の劣化が進行します。直射日光やドライヤーは素材を傷めるため避け、陰干しで自然乾燥させてください。
               </p>
             </div>
 
@@ -514,7 +514,7 @@ export default function LifespanPage() {
                 定期的に手洗いする
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                月に1〜2回程度、中性洗剤でやさしく手洗いすることで、汗や皮脂汚れを除去し、素材の劣化を遅らせることができます。洗濯機は絶対に使わないでください。脱水も手で軽く押し絞る程度にとどめ、陰干しで完全に乾かしてから使用しましょう。詳しい洗い方は
+                月に1〜2回程度、中性洗剤でやさしく手洗いすることで、汗や皮脂汚れを除去し、素材の劣化を遅らせることができます。洗濯機は絶対に使わないでください。脱水も手で軽く押し絞る程度にとどめ、陰干しで完全に乾かしてから使用してください。詳しい洗い方は
                 <Link href="/articles/washing-guide/" className="text-[#0ea5e9] hover:underline">インソールの洗い方ガイド</Link>
                 で解説しています。
               </p>
@@ -534,7 +534,7 @@ export default function LifespanPage() {
                 交換時期を記録する
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                インソールの使用開始日をスマホのメモやカレンダーに記録しておきましょう。使用日数や歩数を把握することで、劣化が進む前に適切なタイミングで交換できます。スマホの歩数計アプリと連動させて累計歩数を管理すると、より正確な交換タイミングの判断が可能です。
+                インソールの使用開始日をスマホのメモやカレンダーに記録しておいてください。使用日数や歩数を把握することで、劣化が進む前に適切なタイミングで交換できます。スマホの歩数計アプリと連動させて累計歩数を管理すると、より正確な交換タイミングの判断が可能です。
               </p>
             </div>
           </div>
@@ -726,7 +726,7 @@ export default function LifespanPage() {
                 </span>
               </summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">
-                劣化したインソールを使い続けると、アーチサポートの機能が失われて扁平足が進行する、衝撃吸収力の低下により膝や腰への負担が増加する、足裏の荷重バランスが崩れて外反母趾や足底筋膜炎のリスクが高まる、といった問題が生じます。定期的な交換で足の健康を守りましょう。
+                劣化したインソールを使い続けると、アーチサポートの機能が失われて扁平足が進行する、衝撃吸収力の低下により膝や腰への負担が増加する、足裏の荷重バランスが崩れて外反母趾や足底筋膜炎のリスクが高まる、といった問題が生じます。定期的な交換で足の健康を守ってください。
               </div>
             </details>
           </div>
@@ -739,7 +739,7 @@ export default function LifespanPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            インソールは消耗品であり、定期的な交換が足の健康を維持するために不可欠です。素材や使用頻度によって寿命は異なりますが、3〜6ヶ月を目安に状態をチェックし、劣化のサインが見られたら早めに交換しましょう。
+            インソールは消耗品であり、定期的な交換が足の健康を維持するために不可欠です。素材や使用頻度によって寿命は異なりますが、3〜6ヶ月を目安に状態をチェックし、劣化のサインが見られたら早めに交換してください。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -747,7 +747,7 @@ export default function LifespanPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            2枚のインソールをローテーションし、毎日乾燥させることで寿命を延ばすことも可能です。適切なケアと定期交換で、常に最高のコンディションで足をサポートしましょう。
+            2枚のインソールをローテーションし、毎日乾燥させることで寿命を延ばすことも可能です。適切なケアと定期交換で、常に最高のコンディションで足をサポートしてください。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">

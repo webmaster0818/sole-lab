@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "衣類ついでの手軽な買い足しに向く", "b": "防寒・クッション・サイズ調整など、日常のちょっとした快適さ目的なら、低価格で気軽に試せる衣料チェーンは便利です。"}, {"t": "ダイエット目的は設計を確認", "b": "価格ではなく、アーチサポートの構造や姿勢・歩行サポートの設計があるかで選びましょう。低価格の汎用品とは目的が異なります。"}, {"t": "在庫・品揃えは流動的と心得る", "b": "衣料チェーンのインソール類は主力商品ではなく、店舗や季節で品揃えが大きく変わります。目当ての商品がある場合は他のルートも検討しましょう。"}];
+const points = [{"t": "衣類ついでの手軽な買い足しに向く", "b": "防寒・クッション・サイズ調整など、日常のちょっとした快適さ目的なら、低価格で気軽に試せる衣料チェーンは便利です。"}, {"t": "ダイエット目的は設計を確認", "b": "価格ではなく、アーチサポートの構造や姿勢・歩行サポートの設計があるかで選ぶことをおすすめします。低価格の汎用品とは目的が異なります。"}, {"t": "在庫・品揃えは流動的と心得る", "b": "衣料チェーンのインソール類は主力商品ではなく、店舗や季節で品揃えが大きく変わります。目当ての商品がある場合は他のルートもご検討ください。"}];
 const related = [{"href": "/articles/100kin-comparison/", "label": "100均インソールの比較"}, {"href": "/articles/cheap-insole/", "label": "コスパの良いインソール"}, {"href": "/articles/nitori-insole/", "label": "ニトリのインソール"}, {"href": "/articles/where-to-buy-insole/", "label": "市販はどこで売ってる"}];
 
 export default function ShimamuraPage() {
@@ -134,7 +134,7 @@ export default function ShimamuraPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

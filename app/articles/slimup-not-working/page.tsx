@@ -62,7 +62,7 @@ const faqs = [
   {
     question: "スリムアップインソールの口コミは信頼できますか？",
     answer:
-      "SNS上にはPR投稿も含まれているため、購入者の詳細なレビューやダイエットカフェなどの第三者サイトの口コミも参考にしましょう。監修者の井上剛志氏はYouTube登録者約136万人の実績がある美容整体師で、専門家としての信頼性は一定程度担保されています。",
+      "SNS上にはPR投稿も含まれているため、購入者の詳細なレビューやダイエットカフェなどの第三者サイトの口コミも参考にしてください。監修者の井上剛志氏はYouTube登録者約136万人の実績がある美容整体師で、専門家としての信頼性は一定程度担保されています。",
   },
 ];
 
@@ -133,7 +133,7 @@ export default function SlimupNotWorkingPage() {
       <section className="bg-gradient-to-b from-red-50 to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm text-[#e8627c] font-medium mb-2">
-            スリムアップインソール徹底検証
+            スリムアップインソール検証
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             スリムアップインソールは
@@ -224,7 +224,7 @@ export default function SlimupNotWorkingPage() {
           <div className="mt-6 bg-amber-50 border border-amber-200 rounded-xl p-5">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-[#c9a76c]">重要：</span>
-              スリムアップインソールは「履くだけで脂肪が燃える」商品ではありません。骨格筋にアプローチし、日常の歩行における筋肉の使い方を改善するサポートツールです。毎日歩くことが前提の設計である点を理解しておきましょう。
+              スリムアップインソールは「履くだけで脂肪が燃える」商品ではありません。骨格筋にアプローチし、日常の歩行における筋肉の使い方を改善するサポートツールです。毎日歩くことが前提の設計である点を理解しておいてください。
             </p>
           </div>
         </div>
@@ -302,7 +302,7 @@ export default function SlimupNotWorkingPage() {
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
                       <span className="font-bold text-[#e8627c]">実態：</span>
-                      購入前にかかとからつま先までの実寸を測り、対応範囲に合うサイズを選びましょう。靴の元の中敷きが取り外せる場合は、外してから入れるとフィット感が高まります。
+                      購入前にかかとからつま先までの実寸を測り、対応範囲に合うサイズを選ぶことをおすすめします。靴の元の中敷きが取り外せる場合は、外してから入れるとフィット感が高まります。
                     </p>
                   </div>
                 </div>
@@ -476,12 +476,12 @@ export default function SlimupNotWorkingPage() {
               {
                 num: "01",
                 title: "実寸に合ったサイズを選ぶ",
-                desc: "S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。購入前に足の実寸を測って対応範囲に合うサイズを選び、装着時はサポートポイントが土踏まずのアーチ部分の正しい位置にくるか確認しましょう。",
+                desc: "S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。購入前に足の実寸を測って対応範囲に合うサイズを選び、装着時はサポートポイントが土踏まずのアーチ部分の正しい位置にくるかご確認ください。",
               },
               {
                 num: "02",
                 title: "最初は短時間から慣らす",
-                desc: "初日から1日中使うと足裏が疲れる場合があります。最初の3〜5日は2〜3時間の使用から始め、足裏の筋肉を徐々に慣らしていきましょう。筋肉痛は正しく使われている証拠です。",
+                desc: "初日から1日中使うと足裏が疲れる場合があります。最初の3〜5日は2〜3時間の使用から始め、足裏の筋肉を徐々に慣らしていいてください。筋肉痛は正しく使われている証拠です。",
               },
               {
                 num: "03",
@@ -491,12 +491,12 @@ export default function SlimupNotWorkingPage() {
               {
                 num: "04",
                 title: "意識的に歩く量を増やす",
-                desc: "1駅手前で降りて歩く、エレベーターの代わりに階段を使う、昼休みに10分散歩するなど、小さな工夫で歩数は増やせます。目標は1日5,000歩以上。スマホの歩数計で管理しましょう。",
+                desc: "1駅手前で降りて歩く、エレベーターの代わりに階段を使う、昼休みに10分散歩するなど、小さな工夫で歩数は増やせます。目標は1日5,000歩以上。スマホの歩数計で管理してください。",
               },
               {
                 num: "05",
                 title: "3ヶ月は判断を保留する",
-                desc: "1ヶ月で「効果なし」と判断するのは早すぎます。1ヶ月目は姿勢の変化、2ヶ月目は歩行の楽さ、3ヶ月目に体型変化というのが一般的な流れ。最低3ヶ月は継続してから判断しましょう。",
+                desc: "1ヶ月で「効果なし」と判断するのは早すぎます。1ヶ月目は姿勢の変化、2ヶ月目は歩行の楽さ、3ヶ月目に体型変化というのが一般的な流れ。最低3ヶ月は継続してから判断してください。",
               },
             ].map((item) => (
               <div key={item.num} className="bg-white border border-gray-200 rounded-xl p-5">
@@ -667,7 +667,7 @@ export default function SlimupNotWorkingPage() {
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <Link href="/slim-up-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">スリムアップインソールの口コミ・効果を徹底検証</p>
+              <p className="text-sm font-semibold text-gray-900">スリムアップインソールの口コミ・効果を検証</p>
               <p className="text-xs text-gray-500 mt-1">骨格筋サポート構造の仕組みから最安値情報まで詳しく解説</p>
             </Link>
             <Link href="/articles/slimup-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
@@ -679,7 +679,7 @@ export default function SlimupNotWorkingPage() {
               <p className="text-xs text-gray-500 mt-1">S/M 2サイズの選び方と効果的な使い方を解説</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
           </div>
@@ -728,7 +728,7 @@ export default function SlimupNotWorkingPage() {
               効果を出すためのポイントは3つ。毎日装着して1日5,000歩以上歩くこと、最低3ヶ月は継続すること、足の実寸に合ったサイズ（S：23.0〜24.5cm／M：25.0〜26.5cm）を選ぶこと。この3つを実践すれば、姿勢改善から始まり、段階的に体型の変化を実感できる可能性があります。
             </p>
             <p>
-              セット購入時のコスパの良さと、S/Mの2サイズから実寸で選べるシンプルなサイズ体系（公式サイトにて2026年7月確認）は、スリムアップインソールの特徴です。正しく使って、骨格筋サポートの効果を最大限に引き出しましょう。
+              セット購入時のコスパの良さと、S/Mの2サイズから実寸で選べるシンプルなサイズ体系（公式サイトにて2026年7月確認）は、スリムアップインソールの特徴です。正しく使って、骨格筋サポートの効果を最大限に引き出してください。
             </p>
           </div>
 

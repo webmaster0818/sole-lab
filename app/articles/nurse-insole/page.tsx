@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "ナースシューズに入る薄型設計", "b": "ナースシューズは中敷きスペースが浅めです。厚すぎると窮屈になるため、薄型でアーチサポートのある設計を選びましょう。元の中敷きを外して入れるのも手です。"}, {"t": "アーチサポートで歩行と立ちを支える", "b": "歩行距離が長い看護師には、内側縦アーチをしっかり支える設計が必須。疲れの蓄積を抑えます。"}, {"t": "通気性・抗菌で蒸れ対策", "b": "長時間勤務で靴の中は蒸れがち。通気性や抗菌・防臭機能があると快適さが保てます。"}];
+const points = [{"t": "ナースシューズに入る薄型設計", "b": "ナースシューズは中敷きスペースが浅めです。厚すぎると窮屈になるため、薄型でアーチサポートのある設計を選ぶことをおすすめします。元の中敷きを外して入れるのも手です。"}, {"t": "アーチサポートで歩行と立ちを支える", "b": "歩行距離が長い看護師には、内側縦アーチをしっかり支える設計が必須。疲れの蓄積を抑えます。"}, {"t": "通気性・抗菌で蒸れ対策", "b": "長時間勤務で靴の中は蒸れがち。通気性や抗菌・防臭機能があると快適さが保てます。"}];
 const related = [{"href": "/articles/standing-work/", "label": "立ち仕事で疲れないインソール"}, {"href": "/articles/care-worker-insole/", "label": "介護士のインソール"}, {"href": "/articles/swelling-insole/", "label": "むくみ対策インソール"}, {"href": "/articles/walking-insole/", "label": "ウォーキング用インソール"}];
 
 export default function NursePage() {
@@ -116,7 +116,7 @@ export default function NursePage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">夜勤・長時間勤務での使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">夜勤など長時間勤務では、休憩時に靴を脱いで足を休める・ふくらはぎを伸ばすと、インソールの効果と相まって疲れがたまりにくくなります。むくみが強い方は着圧ソックスの併用も有効です。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">へたってくると効果が落ちるため、毎日長時間使う看護師さんは交換時期（3〜6ヶ月目安）を意識しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">へたってくると効果が落ちるため、毎日長時間使う看護師さんは交換時期（3〜6ヶ月目安）を意識してください。</p>
         </section>
 
         <section className="mb-12">
@@ -133,7 +133,7 @@ export default function NursePage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">立ちっぱなし・歩きっぱなしの足の疲れに。アーチを支えるインソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">立ちっぱなし・歩きっぱなしの足の疲れに。アーチを支えるインソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

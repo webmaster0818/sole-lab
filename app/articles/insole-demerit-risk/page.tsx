@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-05",
 };
 
-const faqs = [{"q": "ダイエットインソールのデメリットは何ですか？", "a": "履くだけで痩せる即効性はなく、食事・運動の見直しが前提です。また足に合わない製品は痛みの原因になります。仕組みを理解して選ぶことが大切です。"}, {"q": "効果が出にくいのはどんな人ですか？", "a": "即効性を期待する人、毎日続けない人、食事・運動を見直さない人は効果を感じにくい傾向です。継続と生活習慣の見直しが鍵です。"}, {"q": "使わないほうが良い人はいますか？", "a": "足・膝・腰に強い痛みや変形がある方、糖尿病などの持病がある方は、自己判断を避け医師に相談してから使いましょう。"}];
+const faqs = [{"q": "ダイエットインソールのデメリットは何ですか？", "a": "履くだけで痩せる即効性はなく、食事・運動の見直しが前提です。また足に合わない製品は痛みの原因になります。仕組みを理解して選ぶことが大切です。"}, {"q": "効果が出にくいのはどんな人ですか？", "a": "即効性を期待する人、毎日続けない人、食事・運動を見直さない人は効果を感じにくい傾向です。継続と生活習慣の見直しが鍵です。"}, {"q": "使わないほうが良い人はいますか？", "a": "足・膝・腰に強い痛みや変形がある方、糖尿病などの持病がある方は、自己判断を避け医師に相談してから使ってください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "即効性を期待しない", "b": "履いてすぐ痩せるものではありません。数週間〜数ヶ月の継続と、食事・運動の見直しが前提です。"}, {"t": "足に合わないと痛みの原因に", "b": "アーチの高さやサイズが合わないと痛み・違和感が出ます。調整できる製品を選び、合わなければ見直しましょう。"}, {"t": "持病がある人は医師に相談", "b": "足・膝・腰に痛みや変形がある方、糖尿病などの持病がある方は、自己判断せず医師に相談を。"}];
+const points = [{"t": "即効性を期待しない", "b": "履いてすぐ痩せるものではありません。数週間〜数ヶ月の継続と、食事・運動の見直しが前提です。"}, {"t": "足に合わないと痛みの原因に", "b": "アーチの高さやサイズが合わないと痛み・違和感が出ます。調整できる製品を選び、合わなければ見直してください。"}, {"t": "持病がある人は医師に相談", "b": "足・膝・腰に痛みや変形がある方、糖尿病などの持病がある方は、自己判断せず医師に相談を。"}];
 const related = [{"href": "/articles/insole-truth/", "label": "ダイエットインソールの真実"}, {"href": "/articles/insole-expectations/", "label": "インソールへの期待値"}, {"href": "/articles/diet-period-insole/", "label": "効果が出る期間の目安"}, {"href": "/articles/correct-usage-insole/", "label": "効果的な使い方"}];
 
 export default function DemeritRiskPage() {
@@ -116,7 +116,7 @@ export default function DemeritRiskPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">向かない人・後悔しないために</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">『何もせず痩せたい』『すぐ結果が欲しい』という方には、ダイエットインソールは向きません。逆に、日常の姿勢・歩き方を整えながらコツコツ取り組める方には、続けやすい補助になります。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">後悔しないためには、仕組みを理解し、返金保証のある正規品を選び、足に合うか試しながら使うことが大切です。強い痛みや持病がある場合は医療機関に相談しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">後悔しないためには、仕組みを理解し、返金保証のある正規品を選び、足に合うか試しながら使うことが大切です。強い痛みや持病がある場合は医療機関にご相談ください。</p>
         </section>
 
         <section className="mb-12">
@@ -133,7 +133,7 @@ export default function DemeritRiskPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">仕組みを理解して、自分に合うインソールを正規品で選びましょう。</p>
+          <p className="text-white/90 text-sm mb-5">仕組みを理解して、自分に合うインソールを正規品で選ぶことをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

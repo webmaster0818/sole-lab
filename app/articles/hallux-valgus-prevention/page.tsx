@@ -17,7 +17,7 @@ const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage"
   { "@type": "Question", name: "外反母趾はなぜ女性に多いのですか？", acceptedAnswer: { "@type": "Answer", text: "女性に多い主な理由は、ヒールやパンプスなど先の細い靴の着用頻度が高いこと、女性ホルモンの影響で靭帯が柔らかく伸びやすいこと、男性に比べて筋力が弱く足のアーチを維持しにくいことの3点です。ただし近年は男性の外反母趾も増加傾向にあります。" } },
   { "@type": "Question", name: "外反母趾はインソールで治りますか？", acceptedAnswer: { "@type": "Answer", text: "インソールで外反母趾を「完治」させることは困難ですが、進行を遅らせる、痛みを軽減する、さらなる悪化を予防するといった効果は期待できます。特に横アーチのサポートにより、中足骨の開きを抑制し、母趾への圧力を分散させることが重要です。" } },
   { "@type": "Question", name: "外反母趾の初期症状はどのようなものですか？", acceptedAnswer: { "@type": "Answer", text: "初期症状としては、親指の付け根が少し外側に膨らんでいる、長時間歩くと親指の付け根が痛む、靴の内側が親指の付け根に当たって赤くなる、足の幅が以前より広がった気がする、などが挙げられます。角度が15度以上になると外反母趾と診断されます。" } },
-  { "@type": "Question", name: "外反母趾を予防するための靴選びのポイントは？", acceptedAnswer: { "@type": "Answer", text: "つま先に1〜1.5cmの余裕がある靴を選ぶ、幅広タイプで足指が自由に動ける空間を確保する、ヒールは3cm以下に抑える、紐やベルトで足の甲をしっかり固定できるものを選ぶ、の4点が重要です。先の尖ったポインテッドトゥは避けましょう。" } },
+  { "@type": "Question", name: "外反母趾を予防するための靴選びのポイントは？", acceptedAnswer: { "@type": "Answer", text: "つま先に1〜1.5cmの余裕がある靴を選ぶ、幅広タイプで足指が自由に動ける空間を確保する、ヒールは3cm以下に抑える、紐やベルトで足の甲をしっかり固定できるものを選ぶ、の4点が重要です。先の尖ったポインテッドトゥは避けてください。" } },
   { "@type": "Question", name: "外反母趾の進行を止めるにはどうすればよいですか？", acceptedAnswer: { "@type": "Answer", text: "進行を止めるには、横アーチをサポートするインソールの使用、足指のグーパー体操やタオルギャザーなどの足指トレーニング、適切な靴選び、足指セパレーターの使用の4点を組み合わせることが効果的です。すでに痛みが強い場合は整形外科の受診をおすすめします。" } },
 ] };
 
@@ -40,7 +40,7 @@ export default function HalluxValgusPreventionPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">外反母趾 予防 対策</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">外反母趾の原因と<span className="text-[#0ea5e9]">予防法</span><br className="md:hidden" />インソール以外の対策も紹介</h1>
-          <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">外反母趾は進行性の症状です。原因を理解し、早めの予防対策を行いましょう。<br className="hidden md:block" />インソール、足指トレーニング、靴選びの3本柱で総合的にケアする方法を解説します。</p>
+          <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">外反母趾は進行性の症状です。原因を理解し、早めの予防対策を行ってください。<br className="hidden md:block" />インソール、足指トレーニング、靴選びの3本柱で総合的にケアする方法を解説します。</p>
         </div>
       </section>
 
@@ -92,10 +92,10 @@ export default function HalluxValgusPreventionPage() {
 
         <section id="shoes" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">外反母趾を予防する靴選び</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">適切な靴選びは外反母趾予防の基本です。以下のポイントを押さえましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">適切な靴選びは外反母趾予防の基本です。以下のポイントを押さえてください。</p>
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">つま先に十分な空間を確保する</h3><p className="text-sm text-gray-700 leading-relaxed">靴のつま先部分（トゥボックス）は足指が自由に動ける広さが必要です。靴を履いた状態でつま先が1〜1.5cm余裕があり、足指を上下に動かせることを確認してください。ラウンドトゥやスクエアトゥの靴が外反母趾予防に適しています。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ヒールは3cm以下に</h3><p className="text-sm text-gray-700 leading-relaxed">ヒールが高いほど体重が前足部に集中し、横アーチへの負担と母趾への圧迫が増加します。日常使いの靴はヒール3cm以下が理想的です。どうしてもヒールを履く必要がある場合は、使用時間を短くし、移動時はフラットシューズに履き替えましょう。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ヒールは3cm以下に</h3><p className="text-sm text-gray-700 leading-relaxed">ヒールが高いほど体重が前足部に集中し、横アーチへの負担と母趾への圧迫が増加します。日常使いの靴はヒール3cm以下が理想的です。どうしてもヒールを履く必要がある場合は、使用時間を短くし、移動時はフラットシューズに履き替えてください。</p></div>
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">足の甲をしっかり固定できる靴を選ぶ</h3><p className="text-sm text-gray-700 leading-relaxed">紐靴やベルト付きの靴で足の甲をしっかり固定することで、靴内での足の前滑りを防ぎ、つま先への圧迫を軽減できます。スリッポンタイプは足が前に滑りやすいため、外反母趾予防の観点からはあまり推奨されません。</p></div>
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">インソールを入れ替えられる靴を選ぶ</h3><p className="text-sm text-gray-700 leading-relaxed">純正の中敷きを取り外して、横アーチサポート付きのインソールに入れ替えられる靴が理想的です。靴とインソールの組み合わせで、外反母趾予防の効果をさらに高めることができます。</p></div>
           </div>
@@ -116,9 +116,9 @@ export default function HalluxValgusPreventionPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足指トレーニングで予防する</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">足指の筋力を鍛えることで、外反母趾の予防と改善に効果があります。毎日続けることが重要です。</p>
           <div className="space-y-4">
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">足指グーパー体操</h3><p className="text-sm text-gray-700 leading-relaxed">足指を大きく開いて（パー）5秒キープ、強く握って（グー）5秒キープを繰り返します。足指の筋力強化と可動域の維持に効果的です。20回を3セット、毎日行いましょう。入浴後の温まった状態で行うとより効果的です。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">足指グーパー体操</h3><p className="text-sm text-gray-700 leading-relaxed">足指を大きく開いて（パー）5秒キープ、強く握って（グー）5秒キープを繰り返します。足指の筋力強化と可動域の維持に効果的です。20回を3セット、毎日行ってください。入浴後の温まった状態で行うとより効果的です。</p></div>
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">母趾外転トレーニング</h3><p className="text-sm text-gray-700 leading-relaxed">親指だけを他の4本の指から離すように外側に広げるトレーニングです。母趾外転筋を直接鍛え、母趾を正しい位置に保持する力を強化します。最初は難しいですが、毎日続けることで徐々にできるようになります。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">タオルギャザー</h3><p className="text-sm text-gray-700 leading-relaxed">床に広げたタオルを足指だけで手前に引き寄せます。横アーチを形成する筋肉（骨間筋、虫様筋）を効果的に鍛えられます。片足20回を3セット行いましょう。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">タオルギャザー</h3><p className="text-sm text-gray-700 leading-relaxed">床に広げたタオルを足指だけで手前に引き寄せます。横アーチを形成する筋肉（骨間筋、虫様筋）を効果的に鍛えられます。片足20回を3セット行ってください。</p></div>
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ビー玉つかみ</h3><p className="text-sm text-gray-700 leading-relaxed">足指でビー玉やタオルをつかんで別の場所に移すトレーニングです。足指の巧緻性と筋力を同時に鍛えられます。遊び感覚で行えるため、テレビを見ながらなど気軽に取り組めます。</p></div>
           </div>
         </section>
@@ -127,10 +127,10 @@ export default function HalluxValgusPreventionPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">日常生活での予防ポイント</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足指トレーニングや靴選び以外にも、日常生活で外反母趾を予防するポイントがあります。</p>
           <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700"><span className="font-bold">足指セパレーターの活用：</span>就寝時や自宅でのリラックス時に足指セパレーターを使用し、母趾を正しい位置に保持する習慣をつけましょう。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700"><span className="font-bold">裸足の時間を増やす：</span>自宅では裸足で過ごし、足指を自由に動かす時間を確保しましょう。スリッパより裸足のほうが足裏の筋肉を使います。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700"><span className="font-bold">足指セパレーターの活用：</span>就寝時や自宅でのリラックス時に足指セパレーターを使用し、母趾を正しい位置に保持する習慣をつけてください。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700"><span className="font-bold">裸足の時間を増やす：</span>自宅では裸足で過ごし、足指を自由に動かす時間を確保してください。スリッパより裸足のほうが足裏の筋肉を使います。</p></div>
             <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700"><span className="font-bold">体重管理：</span>体重が増えると前足部への荷重が増加し、横アーチの崩れを加速させます。適正体重の維持は外反母趾予防にも重要です。</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700"><span className="font-bold">五本指ソックスの活用：</span>五本指ソックスは足指を1本ずつ独立させ、母趾が他の指に押されるのを防ぎます。外反母趾予防の観点から日常的に活用しましょう。</p></div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700"><span className="font-bold">五本指ソックスの活用：</span>五本指ソックスは足指を1本ずつ独立させ、母趾が他の指に押されるのを防ぎます。外反母趾予防の観点から日常的にご活用ください。</p></div>
           </div>
         </section>
 
@@ -183,7 +183,7 @@ export default function HalluxValgusPreventionPage() {
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">外反母趾はなぜ女性に多いのですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">ヒールやパンプスの着用頻度が高いこと、女性ホルモンの影響で靭帯が柔らかいこと、筋力が弱くアーチを維持しにくいことの3点が主な理由です。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">外反母趾はインソールで治りますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">完治は困難ですが、進行を遅らせる、痛みを軽減する、さらなる悪化を予防するといった効果は期待できます。横アーチのサポートが特に重要です。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">外反母趾の初期症状はどのようなものですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">親指の付け根が少し外側に膨らんでいる、長時間歩くと痛む、靴が当たって赤くなる、足幅が広がった気がする、などが初期症状です。角度15度以上で外反母趾と診断されます。</div></details>
-            <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">外反母趾を予防するための靴選びのポイントは？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">つま先に1〜1.5cmの余裕、幅広タイプ、ヒール3cm以下、紐やベルトで甲を固定できるものが重要です。ポインテッドトゥは避けましょう。</div></details>
+            <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">外反母趾を予防するための靴選びのポイントは？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">つま先に1〜1.5cmの余裕、幅広タイプ、ヒール3cm以下、紐やベルトで甲を固定できるものが重要です。ポインテッドトゥは避けてください。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">外反母趾の進行を止めるにはどうすればよいですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">横アーチサポートのインソール、足指トレーニング、適切な靴選び、足指セパレーターの4点を組み合わせることが効果的です。痛みが強い場合は整形外科を受診してください。</div></details>
           </div>
         </section>
@@ -191,7 +191,7 @@ export default function HalluxValgusPreventionPage() {
         <section id="summary" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">外反母趾は横アーチの崩れ（開張足）を根本原因とする進行性の症状です。合わない靴、筋力低下、遺伝的要因が複合して発症・進行します。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">予防には「適切な靴選び」「横アーチサポート付きインソール」「足指トレーニング」「日常生活での注意」の4本柱で総合的にケアすることが重要です。早期の対策で進行を食い止めましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">予防には「適切な靴選び」「横アーチサポート付きインソール」「足指トレーニング」「日常生活での注意」の4本柱で総合的にケアすることが重要です。早期の対策で進行を食い止めてください。</p>
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">外反母趾予防におすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">

@@ -34,7 +34,7 @@ const faqStructuredData = {
     { "@type": "Question", name: "インソールをカットしすぎた場合はどうすればいいですか？", acceptedAnswer: { "@type": "Answer", text: "残念ながら、カットしすぎたインソールは元に戻せません。そのため、最初は大きめにカットし、少しずつ切り詰めていくことが重要です。万が一カットしすぎた場合は、やや大きめの別の靴で使用するか、新しいインソールで再度サイズ調整を行ってください。" } },
     { "@type": "Question", name: "カットに必要な道具は何ですか？", acceptedAnswer: { "@type": "Answer", text: "よく切れるハサミ（裁ちばさみが理想的）、油性ペン、靴の純正中敷き（ガイドとして使用）があれば十分です。カッターナイフは曲線のカットが難しいため、ハサミをおすすめします。定規は直線部分の確認に使えますが必須ではありません。" } },
     { "@type": "Question", name: "カットラインの印刷がないインソールはどうやってカットしますか？", acceptedAnswer: { "@type": "Answer", text: "靴に最初から入っている純正中敷きをガイドとして使います。純正中敷きをインソールの上に重ね、輪郭を油性ペンでなぞってカットラインを作ります。純正中敷きとインソールのかかと部分を合わせて重ねるのがポイントです。" } },
-    { "@type": "Question", name: "インソールは左右でカットサイズを変えた方が良いですか？", acceptedAnswer: { "@type": "Answer", text: "はい、左右の足のサイズが異なる方は多いため、必ず左右それぞれの靴に合わせてカットしましょう。左右のインソールを間違えないよう、裏面に「左」「右」と印をつけておくと便利です。片方ずつ靴に入れてフィッティングを確認しながらカットしてください。" } },
+    { "@type": "Question", name: "インソールは左右でカットサイズを変えた方が良いですか？", acceptedAnswer: { "@type": "Answer", text: "はい、左右の足のサイズが異なる方は多いため、必ず左右それぞれの靴に合わせてカットしてください。左右のインソールを間違えないよう、裏面に「左」「右」と印をつけておくと便利です。片方ずつ靴に入れてフィッティングを確認しながらカットしてください。" } },
     { "@type": "Question", name: "カットした断面がボロボロになるのを防ぐ方法はありますか？", acceptedAnswer: { "@type": "Answer", text: "よく切れる新しいハサミを使うことが最も重要です。切れ味の悪いハサミでは断面が毛羽立ちやすくなります。カット後に断面が気になる場合は、目の細かいヤスリやサンドペーパーで軽く整えると、きれいな仕上がりになります。" } },
     { "@type": "Question", name: "インソールを入れたら靴がきつくなりました。どうすればいいですか？", acceptedAnswer: { "@type": "Answer", text: "純正の中敷きの上に重ねて入れず、中敷きと入れ替えるのが基本です。それでもきつい場合は、薄型タイプのインソールを選ぶ、靴ひもやストラップで甲の締め付けを調整する、より内部に余裕のある靴で使う、といった方法を試してください。無理に押し込むとインソールが波打ち、本来の効果が発揮されません。" } },
     { "@type": "Question", name: "革靴やパンプスでも自分でカット調整できますか？", acceptedAnswer: { "@type": "Answer", text: "可能です。ただし革靴やパンプスは中敷きが接着されて外せないことが多いため、純正中敷きをガイドにする代わりに、靴へ直接入れて当たりを確認しながら2〜3mmずつカットするのが安全です。靴内の空間が小さいパンプスでは、薄型タイプやかかとから土踏まずまでのハーフタイプが向く場合もあります。" } },
@@ -118,16 +118,16 @@ export default function SizeAdjustmentPage() {
 
         <section id="tools" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">必要な道具と準備</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">サイズ調整に必要な道具を準備しましょう。特別なものは不要で、家庭にあるもので十分対応できます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">サイズ調整に必要な道具を準備してください。特別なものは不要で、家庭にあるもので十分対応できます。</p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">必須：よく切れるハサミ</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">裁ちばさみや工作用の大きめハサミが理想的です。切れ味の良いハサミを使うことで、断面がきれいに仕上がり、素材の毛羽立ちを防げます。小さな文具用ハサミでは力が入りにくく、ガタガタした仕上がりになりやすいため避けましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">裁ちばさみや工作用の大きめハサミが理想的です。切れ味の良いハサミを使うことで、断面がきれいに仕上がり、素材の毛羽立ちを防げます。小さな文具用ハサミでは力が入りにくく、ガタガタした仕上がりになりやすいため避けてください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">必須：油性ペン（細書き）</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">カットラインを描くための油性ペンです。細書きタイプを使うと正確なラインが描けます。水性ペンは素材によっては弾いてしまうため、油性を選びましょう。インソールの裏面（靴底側）に描くと、表面に跡が残りません。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">カットラインを描くための油性ペンです。細書きタイプを使うと正確なラインが描けます。水性ペンは素材によっては弾いてしまうため、油性を選ぶことをおすすめします。インソールの裏面（靴底側）に描くと、表面に跡が残りません。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">必須：靴の純正中敷き</h3>
@@ -142,7 +142,7 @@ export default function SizeAdjustmentPage() {
 
         <section id="steps" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">カットの手順（5ステップ）</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">以下の5ステップで、失敗なくインソールをカットできます。焦らず丁寧に進めましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">以下の5ステップで、失敗なくインソールをカットできます。焦らず丁寧に進めてください。</p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
@@ -171,7 +171,7 @@ export default function SizeAdjustmentPage() {
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">ラインに沿ってカット</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">描いたカットラインに沿って、ハサミで丁寧にカットします。一度に大きくカットせず、少しずつ切り進めましょう。曲線部分はハサミの先端を使い、小刻みに方向を変えながらカットするときれいに仕上がります。直線部分は大きな刃で一気にカットしてOKです。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">描いたカットラインに沿って、ハサミで丁寧にカットします。一度に大きくカットせず、少しずつ切り進めてください。曲線部分はハサミの先端を使い、小刻みに方向を変えながらカットするときれいに仕上がります。直線部分は大きな刃で一気にカットしてOKです。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
@@ -190,7 +190,7 @@ export default function SizeAdjustmentPage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">大きめにカットしてから微調整する</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">カットしすぎは取り返しがつきませんが、大きい分には追加で切れます。最初は2〜3mm大きめにカットし、靴に入れて確認してから微調整するのが選び方のポイントです。「足りないよりは余る方がマシ」と覚えておきましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">カットしすぎは取り返しがつきませんが、大きい分には追加で切れます。最初は2〜3mm大きめにカットし、靴に入れて確認してから微調整するのが選び方のポイントです。「足りないよりは余る方がマシ」と覚えておいてください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">つま先側だけカットする</h3>
@@ -198,11 +198,11 @@ export default function SizeAdjustmentPage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">左右別々にカットする</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">左右の足のサイズは多くの人で異なります。また、靴も左右で微妙にサイズが違うことがあります。必ず左右のインソールをそれぞれの靴に合わせてカットしましょう。左右を間違えないよう、裏面に「L」「R」と書いておくと便利です。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">左右の足のサイズは多くの人で異なります。また、靴も左右で微妙にサイズが違うことがあります。必ず左右のインソールをそれぞれの靴に合わせてカットしてください。左右を間違えないよう、裏面に「L」「R」と書いておくと便利です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">カットライン印刷があれば活用する</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">ピットソールなど多くのインソールには、裏面にサイズ別のカットラインが印刷されています。このラインを活用すれば、純正中敷きを使わなくても正確なカットが可能です。自分のサイズに対応するラインを確認し、そのラインに沿ってカットしましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">ピットソールなど多くのインソールには、裏面にサイズ別のカットラインが印刷されています。このラインを活用すれば、純正中敷きを使わなくても正確なカットが可能です。自分のサイズに対応するラインを確認し、そのラインに沿ってカットしてください。</p>
             </div>
           </div>
         </section>
@@ -225,19 +225,19 @@ export default function SizeAdjustmentPage() {
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <h3 className="text-base md:text-xl font-bold text-gray-900 mb-3">スリムアップインソール（Slim Up Insole）のカット方法</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">スリムアップインソールは男女兼用で幅広いサイズに対応しています。裏面のカットラインに沿ってサイズ調整が可能です。男性用・女性用でカットラインが分かれている場合があるので、自分の性別に合ったラインを確認してからカットしましょう。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">スリムアップインソールは男女兼用で幅広いサイズに対応しています。裏面のカットラインに沿ってサイズ調整が可能です。男性用・女性用でカットラインが分かれている場合があるので、自分の性別に合ったラインを確認してからカットしてください。</p>
             <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細を見る &rarr;</Link>
           </div>
         </section>
 
         <section id="shoe-types" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴種別のサイズ調整のコツ（スニーカー/革靴/パンプス）</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">同じインソールでも、入れる靴のタイプによって調整の勘所が変わります。手持ちの靴に合わせてポイントを押さえましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">同じインソールでも、入れる靴のタイプによって調整の勘所が変わります。手持ちの靴に合わせてポイントを押さえてください。</p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">スニーカー：純正中敷きガイドの基本手順がそのまま使える</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">スニーカーは中敷きを取り外せるものが多く、この記事の基本手順（純正中敷きをガイドにカット）がそのまま使えます。内部空間にも比較的余裕があるため、初めてのカットに最も向いた靴種です。入れ替えた後は靴ひもをしっかり締めて甲を固定すると、歩行中のインソールのズレを防げます。ランニングなど運動用の場合は、履いて足踏み・軽いジャンプをしてズレやつま先の当たりがないかまで確認しましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">スニーカーは中敷きを取り外せるものが多く、この記事の基本手順（純正中敷きをガイドにカット）がそのまま使えます。内部空間にも比較的余裕があるため、初めてのカットに最も向いた靴種です。入れ替えた後は靴ひもをしっかり締めて甲を固定すると、歩行中のインソールのズレを防げます。ランニングなど運動用の場合は、履いて足踏み・軽いジャンプをしてズレやつま先の当たりがないかまでご確認ください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">革靴（ビジネスシューズ）：中敷きが外せない前提で「直接合わせ」</h3>
@@ -245,7 +245,7 @@ export default function SizeAdjustmentPage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">パンプス：空間が小さく前滑りしやすい、最も慎重に</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">パンプスは靴内の空間が小さく、カットの許容範囲が最も狭い靴種です。かかとを基準に合わせ、つま先側を少しずつカットして、指が靴の先に押し付けられないかを毎回履いて確認します。全長タイプを入れると甲が窮屈になる場合は、かかとから土踏まずまでのハーフタイプや前足部用の薄いパッドという選択肢もあります。ヒールのあるパンプスは足が前に滑りやすいため、インソール自体が前へずれていないかも定期的にチェックしましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">パンプスは靴内の空間が小さく、カットの許容範囲が最も狭い靴種です。かかとを基準に合わせ、つま先側を少しずつカットして、指が靴の先に押し付けられないかを毎回履いて確認します。全長タイプを入れると甲が窮屈になる場合は、かかとから土踏まずまでのハーフタイプや前足部用の薄いパッドという選択肢もあります。ヒールのあるパンプスは足が前に滑りやすいため、インソール自体が前へずれていないかも定期的にチェックしてください。</p>
             </div>
           </div>
         </section>
@@ -264,7 +264,7 @@ export default function SizeAdjustmentPage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">3. 足の状態そのものが変わっていないか</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">横アーチが低下して足幅が広がる<Link href="/articles/splay-foot-insole/" className="text-[#0ea5e9] underline">開張足</Link>のように、足の形の変化が「靴が合わない」の原因になっていることもあります。足指の付け根のしびれ・痛みがあれば<Link href="/articles/morton-disease-insole/" className="text-[#0ea5e9] underline">モートン病の記事</Link>、かかとの痛みがあれば<Link href="/articles/heel-pain-insole/" className="text-[#0ea5e9] underline">かかと痛の記事</Link>も参考にしてください。ただしインソールは医療機器ではないため、痛み・しびれ・変形が続く場合は整形外科での相談を優先しましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">横アーチが低下して足幅が広がる<Link href="/articles/splay-foot-insole/" className="text-[#0ea5e9] underline">開張足</Link>のように、足の形の変化が「靴が合わない」の原因になっていることもあります。足指の付け根のしびれ・痛みがあれば<Link href="/articles/morton-disease-insole/" className="text-[#0ea5e9] underline">モートン病の記事</Link>、かかとの痛みがあれば<Link href="/articles/heel-pain-insole/" className="text-[#0ea5e9] underline">かかと痛の記事</Link>も参考にしてください。ただしインソールは医療機器ではないため、痛み・しびれ・変形が続く場合は整形外科での相談を優先してください。</p>
             </div>
           </div>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">どのタイプのインソールが自分に合うか迷っている段階なら、<Link href="/diagnosis/" className="text-[#0ea5e9] underline font-bold">6つの質問でわかるタイプ診断</Link>から絞り込むのも近道です。フィッティングに不安が残る場合は、シューフィッターのいる靴店で足のサイズ計測を受けるのも有効です。</p>
@@ -287,7 +287,7 @@ export default function SizeAdjustmentPage() {
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールは左右でカットサイズを変えた方が良いですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">はい、左右の足のサイズが異なる方は多いため、必ず左右それぞれの靴に合わせてカットしましょう。左右のインソールを間違えないよう、裏面に「左」「右」と印をつけておくと便利です。片方ずつ靴に入れてフィッティングを確認しながらカットしてください。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">はい、左右の足のサイズが異なる方は多いため、必ず左右それぞれの靴に合わせてカットしてください。左右のインソールを間違えないよう、裏面に「左」「右」と印をつけておくと便利です。片方ずつ靴に入れてフィッティングを確認しながらカットしてください。</div>
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">カットした断面がボロボロになるのを防ぐ方法はありますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>

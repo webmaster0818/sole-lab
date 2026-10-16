@@ -13,11 +13,11 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   title: {
-    default: "ソールラボ | ダイエットインソール徹底比較",
+    default: "ソールラボ | ダイエットインソール比較",
     template: "%s | ソールラボ",
   },
   description:
-    "ダイエットインソール徹底比較。ピットソール・ランウェイキュアソール・スリムアップインソールの口コミ・効果・料金を比較。",
+    "ダイエットインソール比較。ピットソール・ランウェイキュアソール・スリムアップインソールの口コミ・効果・料金を比較。",
   metadataBase: new URL("https://sole-laboratory.com"),
   robots: {
     index: true,
@@ -39,7 +39,7 @@ const structuredData = {
       name: "ソールラボ",
       url: "https://sole-laboratory.com",
       description:
-        "ダイエットインソール徹底比較。ピットソール・ランウェイキュアソール・スリムアップインソールの口コミ・効果・料金を比較。",
+        "ダイエットインソール比較。ピットソール・ランウェイキュアソール・スリムアップインソールの口コミ・効果・料金を比較。",
     },
     {
       "@type": "Organization",

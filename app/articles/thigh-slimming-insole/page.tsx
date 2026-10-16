@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "アーチサポートで蹴り出しを助ける", "b": "土踏まずを支えると地面を蹴り出しやすくなり、前ももに頼らない歩き方の助けになります。"}, {"t": "姿勢を整える安定性", "b": "足元が安定すると骨盤の傾きが整いやすく、立ち姿・歩き姿のバランスが改善する補助になります。"}, {"t": "毎日続けられる快適さ", "b": "痩せ効果は継続が前提。長時間履いても快適で、普段の靴に入る設計を選びましょう。"}];
+const points = [{"t": "アーチサポートで蹴り出しを助ける", "b": "土踏まずを支えると地面を蹴り出しやすくなり、前ももに頼らない歩き方の助けになります。"}, {"t": "姿勢を整える安定性", "b": "足元が安定すると骨盤の傾きが整いやすく、立ち姿・歩き姿のバランスが改善する補助になります。"}, {"t": "毎日続けられる快適さ", "b": "痩せ効果は継続が前提。長時間履いても快適で、普段の靴に入る設計を選ぶことをおすすめします。"}];
 const related = [{"href": "/articles/leg-slimming/", "label": "脚痩せインソールの仕組み"}, {"href": "/articles/calf-slimming-insole/", "label": "ふくらはぎ痩せのインソール"}, {"href": "/articles/lower-body-diet-insole/", "label": "下半身痩せのインソール"}, {"href": "/articles/walking-diet/", "label": "ウォーキングダイエット"}, {"href": "/articles/diet-period-insole/", "label": "効果が出る期間の目安と続け方"}];
 
 export default function ThighSlimmingPage() {
@@ -115,7 +115,7 @@ export default function ThighSlimmingPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">太もも痩せのための使い方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、かかとから着地してつま先で地面を蹴る歩き方を意識すると、前ももに頼らず脚全体を使えます。ウォーキングや日常の歩行で実践しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、かかとから着地してつま先で地面を蹴る歩き方を意識すると、前ももに頼らず脚全体を使えます。ウォーキングや日常の歩行で実践してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">太もも痩せには食事管理と下半身の運動が基本です。インソールはあくまで姿勢・歩き方を整える補助であり、単独で痩せる魔法ではありません。</p>
         </section>
 
@@ -136,7 +136,7 @@ export default function ThighSlimmingPage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">前もも・股関節まわりのストレッチ</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">張りを感じやすい前ももや、歩行に関わる股関節まわりをゆっくり伸ばすストレッチは、一般的なセルフケアとしてよく紹介されています。入浴後など体が温まったタイミングで、反動をつけず心地よい範囲で行いましょう。痛みが出る場合は中止してください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">張りを感じやすい前ももや、歩行に関わる股関節まわりをゆっくり伸ばすストレッチは、一般的なセルフケアとしてよく紹介されています。入浴後など体が温まったタイミングで、反動をつけず心地よい範囲で行ってください。痛みが出る場合は中止してください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">食事・睡眠を整える</h3>
@@ -160,7 +160,7 @@ export default function ThighSlimmingPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">姿勢と歩き方を整えるインソールで、下半身ケアをサポートしましょう。</p>
+          <p className="text-white/90 text-sm mb-5">姿勢と歩き方を整えるインソールで、下半身ケアをサポートしてください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

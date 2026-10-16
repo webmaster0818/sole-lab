@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "スリムアップインソールを最安値で買うにはどうすればいいですか？",
     answer:
-      "最安値で購入するなら公式サイトの3足セット+1足プレゼント（実質4足で17,920円、1足あたり4,480円）がおすすめです。楽天やAmazonはポイント還元がありますが、セット割引は公式サイトの方が充実しています。ポイント還元率を含めた実質価格で比較しましょう。",
+      "最安値で購入するなら公式サイトの3足セット+1足プレゼント（実質4足で17,920円、1足あたり4,480円）がおすすめです。楽天やAmazonはポイント還元がありますが、セット割引は公式サイトの方が充実しています。ポイント還元率を含めた実質価格で比較することをおすすめします。",
   },
   {
     question: "スリムアップインソールはドラッグストアで買えますか？",
@@ -56,7 +56,7 @@ const faqs = [
   {
     question: "スリムアップインソールのセット割引は何足セットがお得ですか？",
     answer:
-      "最もお得なのは3足セット+1足プレゼント（実質4足で17,920円、1足あたり4,480円、約36%OFF）です。サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式のため（公式サイトにて2026年7月確認）、家族とシェアする場合は使う方の足の実寸に合うか確認しましょう。1人で4足持てば通勤用・プライベート用・運動用・予備と使い分けも可能です。",
+      "最もお得なのは3足セット+1足プレゼント（実質4足で17,920円、1足あたり4,480円、約36%OFF）です。サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式のため（公式サイトにて2026年7月確認）、家族とシェアする場合は使う方の足の実寸に合うかご確認ください。1人で4足持てば通勤用・プライベート用・運動用・予備と使い分けも可能です。",
   },
   {
     question: "スリムアップインソールのキャンペーンはいつありますか？",
@@ -176,7 +176,7 @@ export default function SlimupCouponPage() {
                 2026年4月現在、スリムアップインソール公式サイト（イッティ）では<strong>3足セット購入で1足プレゼント</strong>のキャンペーンが常時適用されています。実質4足で17,920円（1足あたり4,480円）と非常にお得です。
               </p>
               <p>
-                サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。ご家族やパートナーとシェアする場合は、使う方それぞれの足の実寸に合うサイズかを確認しましょう。
+                サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。ご家族やパートナーとシェアする場合は、使う方それぞれの足の実寸に合うサイズかをご確認ください。
               </p>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default function SlimupCouponPage() {
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            公式サイトのセット割引を徹底比較
+            公式サイトのセット割引を比較
           </h2>
 
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
@@ -275,7 +275,7 @@ export default function SlimupCouponPage() {
               編集部おすすめ
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              サイズが合えばご家族やパートナーとシェアできるのもセット購入のメリット。夫婦で2足ずつ分けて使えば、1人あたり約9,000円で2足分のインソールが手に入ります。ただしサイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式のため（公式サイトにて2026年7月確認）、それぞれの足の実寸に合うサイズかを事前に確認しましょう。
+              サイズが合えばご家族やパートナーとシェアできるのもセット購入のメリット。夫婦で2足ずつ分けて使えば、1人あたり約9,000円で2足分のインソールが手に入ります。ただしサイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式のため（公式サイトにて2026年7月確認）、それぞれの足の実寸に合うサイズかを事前にご確認ください。
             </p>
           </div>
         </div>
@@ -566,7 +566,7 @@ export default function SlimupCouponPage() {
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <Link href="/slim-up-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">スリムアップインソールの口コミ・効果を徹底検証</p>
+              <p className="text-sm font-semibold text-gray-900">スリムアップインソールの口コミ・効果を検証</p>
               <p className="text-xs text-gray-500 mt-1">骨格筋サポート構造の仕組みから最安値情報まで詳しく解説</p>
             </Link>
             <Link href="/articles/slimup-not-working/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
@@ -578,7 +578,7 @@ export default function SlimupCouponPage() {
               <p className="text-xs text-gray-500 mt-1">S/M 2サイズの選び方と効果的な使い方を解説</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
           </div>

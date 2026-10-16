@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-13",
 };
 
-const faqs = [{"q": "インソールのニオイを取る一番の方法は何ですか？", "a": "染みついたニオイのリセットには製品の案内に沿った洗浄（または交換）が必要です。ただし日常的には「毎晩取り出して陰干し＋ローテーションで休ませる」のが最も効果的な予防策です。"}, {"q": "消臭スプレーだけでニオイ対策になりますか？", "a": "スプレーは雑菌の増殖を抑える補助にはなりますが、汗や皮脂の汚れ自体は残るため洗浄の代わりにはなりません。乾燥・ローテーションと組み合わせて使いましょう。"}, {"q": "10円玉や重曹を入れると消臭できると聞きましたが？", "a": "民間的な方法として知られますが、効果は限定的で素材との相性もあります。基本は乾燥・休息・靴下の3本柱で雑菌の繁殖条件を断つことです。確実なのは陰干しとローテーションです。"}, {"q": "何をしてもすぐ臭くなります。どうすればいいですか？", "a": "雑菌が素材の奥に定着している可能性が高く、洗浄してもダメなら交換時期です。また、足側の角質ケアや靴自体の乾燥も見直しを。皮むけやかゆみを伴う場合は水虫などの可能性があるため皮膚科に相談してください。"}, {"q": "ニオイにくいインソールはありますか？", "a": "抗菌防臭加工をうたう製品（例：スリムアップインソールは抗菌防臭加工ありと案内）はニオイにくさの面で有利です。ただし加工があっても乾燥などの日常ケアは必要です。"}];
+const faqs = [{"q": "インソールのニオイを取る一番の方法は何ですか？", "a": "染みついたニオイのリセットには製品の案内に沿った洗浄（または交換）が必要です。ただし日常的には「毎晩取り出して陰干し＋ローテーションで休ませる」のが最も効果的な予防策です。"}, {"q": "消臭スプレーだけでニオイ対策になりますか？", "a": "スプレーは雑菌の増殖を抑える補助にはなりますが、汗や皮脂の汚れ自体は残るため洗浄の代わりにはなりません。乾燥・ローテーションと組み合わせて使ってください。"}, {"q": "10円玉や重曹を入れると消臭できると聞きましたが？", "a": "民間的な方法として知られますが、効果は限定的で素材との相性もあります。基本は乾燥・休息・靴下の3本柱で雑菌の繁殖条件を断つことです。確実なのは陰干しとローテーションです。"}, {"q": "何をしてもすぐ臭くなります。どうすればいいですか？", "a": "雑菌が素材の奥に定着している可能性が高く、洗浄してもダメなら交換時期です。また、足側の角質ケアや靴自体の乾燥も見直しを。皮むけやかゆみを伴う場合は水虫などの可能性があるため皮膚科に相談してください。"}, {"q": "ニオイにくいインソールはありますか？", "a": "抗菌防臭加工をうたう製品（例：スリムアップインソールは抗菌防臭加工ありと案内）はニオイにくさの面で有利です。ただし加工があっても乾燥などの日常ケアは必要です。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -93,7 +93,7 @@ export default function DeodorizePage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">防臭・消臭ケアにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">日常の防臭ケアのしやすさ（手入れ方法の明確さ・抗菌加工の有無）にも注目して選びましょう。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">日常の防臭ケアのしやすさ（手入れ方法の明確さ・抗菌加工の有無）にも注目して選ぶことをおすすめします。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -133,7 +133,7 @@ export default function DeodorizePage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">ニオイ対策は製品選びから。抗菌防臭加工や手入れのしやすさで比較してみましょう。</p>
+          <p className="text-white/90 text-sm mb-5">ニオイ対策は製品選びから。抗菌防臭加工や手入れのしやすさで比較してんでください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

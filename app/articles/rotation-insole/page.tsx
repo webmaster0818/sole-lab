@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "靴ごとに専用の1枚を割り当てる", "b": "1枚を毎日違う靴に入れ替えると、カット調整が靴ごとに合わず、出し入れで縁が傷みやすくなります。よく履く靴2〜3足それぞれに専用のインソールを入れて、靴ごとローテーションするのが手間なく確実です。"}, {"t": "乾きやすさ・手入れのしやすさで選ぶ", "b": "ローテーション運用では「休ませている間にしっかり乾くか」が重要です。陰干しで乾きやすい構造か、手入れ方法が公式に案内されているか（手洗い可・拭き取りのみ等）を確認しましょう。"}, {"t": "同じモデルで揃えるか役割分担するか", "b": "同じモデルを2枚なら感覚が変わらず続けやすいのがメリット。通勤用はアーチサポート重視、室内用はクッション重視など、シーンで役割分担するのも実用的です。"}];
+const points = [{"t": "靴ごとに専用の1枚を割り当てる", "b": "1枚を毎日違う靴に入れ替えると、カット調整が靴ごとに合わず、出し入れで縁が傷みやすくなります。よく履く靴2〜3足それぞれに専用のインソールを入れて、靴ごとローテーションするのが手間なく確実です。"}, {"t": "乾きやすさ・手入れのしやすさで選ぶ", "b": "ローテーション運用では「休ませている間にしっかり乾くか」が重要です。陰干しで乾きやすい構造か、手入れ方法が公式に案内されているか（手洗い可・拭き取りのみ等）をご確認ください。"}, {"t": "同じモデルで揃えるか役割分担するか", "b": "同じモデルを2枚なら感覚が変わらず続けやすいのがメリット。通勤用はアーチサポート重視、室内用はクッション重視など、シーンで役割分担するのも実用的です。"}];
 const related = [{"href": "/articles/lifespan/", "label": "インソールの寿命と交換時期"}, {"href": "/articles/washing-guide/", "label": "インソールの洗い方・お手入れガイド"}, {"href": "/articles/deodorize-insole/", "label": "インソールの防臭・消臭ケア"}, {"href": "/articles/insole-care/", "label": "インソールの正しい使い方・お手入れまとめ"}];
 
 export default function RotationPage() {
@@ -133,7 +133,7 @@ export default function RotationPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">ローテーション用の2枚目にも。手入れしやすく長く使えるインソールを比較してみましょう。</p>
+          <p className="text-white/90 text-sm mb-5">ローテーション用の2枚目にも。手入れしやすく長く使えるインソールを比較してんでください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

@@ -24,7 +24,7 @@ const structuredData = {
   dateModified: "2026-06-05",
 };
 
-const faqs = [{"q": "介護士の腰痛にインソールは効果がありますか？", "a": "足元を安定させて姿勢のブレを減らすことで、腰への負担を分散する補助になります。ただし移乗時の正しい姿勢とあわせることが大切で、痛みが強い場合は受診しましょう。"}, {"q": "どんな靴に入れるのが良いですか？", "a": "滑りにくく安定した介護用シューズやスニーカーが向いています。インソールが入る深さがあるか確認し、必要なら元の中敷きを外して使いましょう。"}, {"q": "立ち仕事用インソールとの違いは？", "a": "基本は共通ですが、介護は中腰・移乗など踏ん張る動作が多いため、安定性と衝撃吸収をより重視するのがポイントです。"}];
+const faqs = [{"q": "介護士の腰痛にインソールは効果がありますか？", "a": "足元を安定させて姿勢のブレを減らすことで、腰への負担を分散する補助になります。ただし移乗時の正しい姿勢とあわせることが大切で、痛みが強い場合は受診してください。"}, {"q": "どんな靴に入れるのが良いですか？", "a": "滑りにくく安定した介護用シューズやスニーカーが向いています。インソールが入る深さがあるか確認し、必要なら元の中敷きを外して使ってください。"}, {"q": "立ち仕事用インソールとの違いは？", "a": "基本は共通ですが、介護は中腰・移乗など踏ん張る動作が多いため、安定性と衝撃吸収をより重視するのがポイントです。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "足元を安定させるアーチサポート", "b": "中腰や踏ん張りの多い介護では、足裏が安定していることが腰の負担軽減につながります。アーチをしっかり支える設計を選びましょう。"}, {"t": "衝撃吸収と踏ん張りやすさ", "b": "移乗時の踏み込みや長時間の立ちに対応する、衝撃吸収と安定性を両立した適度な硬さのものが向いています。"}, {"t": "靴に合う厚みと耐久性", "b": "介護用シューズに入る厚みで、毎日長時間使ってもへたりにくい耐久性のある製品を選びましょう。"}];
+const points = [{"t": "足元を安定させるアーチサポート", "b": "中腰や踏ん張りの多い介護では、足裏が安定していることが腰の負担軽減につながります。アーチをしっかり支える設計を選ぶことをおすすめします。"}, {"t": "衝撃吸収と踏ん張りやすさ", "b": "移乗時の踏み込みや長時間の立ちに対応する、衝撃吸収と安定性を両立した適度な硬さのものが向いています。"}, {"t": "靴に合う厚みと耐久性", "b": "介護用シューズに入る厚みで、毎日長時間使ってもへたりにくい耐久性のある製品を選ぶことをおすすめします。"}];
 const related = [{"href": "/articles/nurse-insole/", "label": "看護師のインソール"}, {"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}, {"href": "/articles/back-pain/", "label": "腰痛のインソール対策"}, {"href": "/articles/factory-work-insole/", "label": "工場の立ち仕事インソール"}];
 
 export default function CareWorkerPage() {
@@ -70,7 +70,7 @@ export default function CareWorkerPage() {
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">介護士さんには、足元を安定させて姿勢を支えるアーチサポートと、中腰・移乗の衝撃をやわらげるクッション性を備えたインソールが向いています。足の疲れと腰の負担をまとめてケアしましょう。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">介護士さんには、足元を安定させて姿勢を支えるアーチサポートと、中腰・移乗の衝撃をやわらげるクッション性を備えたインソールが向いています。足の疲れと腰の負担をまとめてケアしてください。</p>
         </div>
 
         <section className="mb-12">
@@ -117,7 +117,7 @@ export default function CareWorkerPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">腰を守る使い方のコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは足元の安定をサポートしますが、腰を守るには移乗時のボディメカニクス（膝を使い腰を落とす）も重要です。インソールと正しい介助姿勢を組み合わせることで、腰への負担をより減らせます。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">すでに腰や膝に痛みがある場合は無理をせず、整形外科に相談しましょう。インソールは負担軽減の補助です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">すでに腰や膝に痛みがある場合は無理をせず、整形外科にご相談ください。インソールは負担軽減の補助です。</p>
         </section>
 
         <section className="mb-12">
@@ -134,7 +134,7 @@ export default function CareWorkerPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">足元を安定させ腰の負担も軽くするインソールで、介護の毎日をサポートしましょう。</p>
+          <p className="text-white/90 text-sm mb-5">足元を安定させ腰の負担も軽くするインソールで、介護の毎日をサポートしてください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

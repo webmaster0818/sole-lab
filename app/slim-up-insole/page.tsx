@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "スリムアップインソールの口コミ・評判と効果を検証【整体師監修・2026年10月】",
   description:
-    "美容整体師・井上剛志監修のスリムアップインソールを徹底検証。口コミ・評判は確認できた実レビューのみを出典を併記で整理し、効果の仕組み、最安値情報、サイズ選びまで客観的に解説します。",
+    "美容整体師・井上剛志監修のスリムアップインソールを検証。口コミ・評判は確認できた実レビューのみを出典を併記で整理し、効果の仕組み、最安値情報、サイズ選びまで客観的に解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/slim-up-insole/",
   },
@@ -40,7 +40,7 @@ const reviewStructuredData = {
   headline:
     "スリムアップインソールの口コミ・評判と効果を検証【整体師監修・2026年10月】",
   description:
-    "美容整体師・井上剛志監修のスリムアップインソールを徹底検証。口コミ・評判・効果・最安値情報まで詳しく解説。",
+    "美容整体師・井上剛志監修のスリムアップインソールを検証。口コミ・評判・効果・最安値情報まで詳しく解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -76,7 +76,7 @@ const faqStructuredData = {
       name: "男性でも使用できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "スリムアップインソールは公式サイトでS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズから選ぶ選択式です（公式サイトにて2026年7月確認）。最大26.5cmまで対応しているため、足のサイズが26.5cm以内であれば男性でも使用できます。サイズ選びは足の実寸を基準にしましょう。",
+        text: "スリムアップインソールは公式サイトでS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズから選ぶ選択式です（公式サイトにて2026年7月確認）。最大26.5cmまで対応しているため、足のサイズが26.5cm以内であれば男性でも使用できます。サイズ選びは足の実寸を基準にしてください。",
       },
     },
     {
@@ -185,7 +185,7 @@ export default function SlimUpInsolePage() {
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             スリムアップインソールの
             <br className="md:hidden" />
-            <span className="text-emerald-600">口コミ・効果</span>を徹底検証
+            <span className="text-emerald-600">口コミ・効果</span>を検証
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             美容整体師・井上剛志氏（YouTube登録者約136万人）監修のダイエットインソール。
@@ -374,7 +374,7 @@ export default function SlimUpInsolePage() {
               },
               {
                 title: "靴の形状によっては合わない",
-                text: "公式FAQでも、スニーカーやウォーキングシューズなど深さのある靴での使用が推奨されています。パンプスやヒールでは窮屈になる場合があるため、使いたい靴が決まっている方は事前に確認しましょう。",
+                text: "公式FAQでも、スニーカーやウォーキングシューズなど深さのある靴での使用が推奨されています。パンプスやヒールでは窮屈になる場合があるため、使いたい靴が決まっている方は事前にご確認ください。",
               },
               {
                 title: "使い始めは違和感が出る場合がある",
@@ -765,7 +765,7 @@ export default function SlimUpInsolePage() {
               サイズの選び方
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed mb-3">
-              スリムアップインソールは公式サイトでS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズから選ぶ選択式です（公式サイトにて2026年7月確認）。以下の手順でサイズを選びましょう。
+              スリムアップインソールは公式サイトでS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズから選ぶ選択式です（公式サイトにて2026年7月確認）。以下の手順でサイズを選ぶことをおすすめします。
             </p>
             <ol className="space-y-3">
               {[
@@ -794,7 +794,7 @@ export default function SlimUpInsolePage() {
                 {
                   title: "慣らし期間を設ける",
                   description:
-                    "最初は1日2〜3時間から始めて、1週間かけて徐々に使用時間を延ばしましょう。急に長時間使うと足が痛くなる場合があります。",
+                    "最初は1日2〜3時間から始めて、1週間かけて徐々に使用時間を延ばしてください。急に長時間使うと足が痛くなる場合があります。",
                 },
                 {
                   title: "歩行量の多い靴に使う",
@@ -804,7 +804,7 @@ export default function SlimUpInsolePage() {
                 {
                   title: "正しい歩き方を意識する",
                   description:
-                    "かかとから着地してつま先で蹴り出す正しい歩行を心がけましょう。インソールの効果を最大限に引き出せます。",
+                    "かかとから着地してつま先で蹴り出す正しい歩行を心がけてください。インソールの効果を最大限に引き出せます。",
                 },
                 {
                   title: "定期的にお手入れする",
@@ -942,7 +942,7 @@ export default function SlimUpInsolePage() {
             {
               question: "男性でも使用できますか？",
               answer:
-                "スリムアップインソールは公式サイトでS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズから選ぶ選択式です（公式サイトにて2026年7月確認）。最大26.5cmまで対応しているため、足のサイズが26.5cm以内であれば男性でも使用できます。サイズ選びは足の実寸を基準にしましょう。",
+                "スリムアップインソールは公式サイトでS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズから選ぶ選択式です（公式サイトにて2026年7月確認）。最大26.5cmまで対応しているため、足のサイズが26.5cm以内であれば男性でも使用できます。サイズ選びは足の実寸を基準にしてください。",
             },
             {
               question: "パンプスやヒールの靴にも使えますか？",
@@ -1076,7 +1076,7 @@ export default function SlimUpInsolePage() {
               <p className="text-xs text-gray-500 mt-1">継続使用の効果を検証</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を徹底比較</p>
+              <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
           </div>
@@ -1090,7 +1090,7 @@ export default function SlimUpInsolePage() {
             他のインソールと比較してみませんか？
           </h2>
           <p className="text-sm text-gray-600 mb-6 leading-relaxed">
-            ピットソール・ランウェイキュアソール・スリムアップインソールの3商品を徹底比較。
+            ピットソール・ランウェイキュアソール・スリムアップインソールの3商品を比較。
             <br className="hidden md:block" />
             あなたの目的や予算に合ったダイエットインソールが見つかります。
           </p>

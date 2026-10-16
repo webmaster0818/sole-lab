@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "革靴に響かない薄型・目立たない設計", "b": "革靴はフィットが命。厚すぎると窮屈になるため、薄型でアーチサポートのあるものを。黒や濃色で表面に縫い目が出にくいものなら、靴を脱いだときにも目立ちにくく、ビジネスシーンでも違和感がありません。元の中敷きと入れ替えるタイプが便利です。"}, {"t": "アーチサポートと衝撃吸収", "b": "底が薄く硬い革靴の弱点を補うため、土踏まずを支えつつ衝撃を吸収する設計を選びましょう。かかと部分のクッションがあると、硬い路面を長時間歩いたときの負担を和らげる助けになります。"}, {"t": "消臭・抗菌機能", "b": "通気性の低い革靴は蒸れやすいので、消臭・抗菌素材のインソールでニオイ対策を。表面に汗を吸いやすい起毛素材やドライ素材を使ったものは、サラッとした履き心地を保ちやすい傾向があります。"}];
+const points = [{"t": "革靴に響かない薄型・目立たない設計", "b": "革靴はフィットが命。厚すぎると窮屈になるため、薄型でアーチサポートのあるものを。黒や濃色で表面に縫い目が出にくいものなら、靴を脱いだときにも目立ちにくく、ビジネスシーンでも違和感がありません。元の中敷きと入れ替えるタイプが便利です。"}, {"t": "アーチサポートと衝撃吸収", "b": "底が薄く硬い革靴の弱点を補うため、土踏まずを支えつつ衝撃を吸収する設計を選ぶことをおすすめします。かかと部分のクッションがあると、硬い路面を長時間歩いたときの負担を和らげる助けになります。"}, {"t": "消臭・抗菌機能", "b": "通気性の低い革靴は蒸れやすいので、消臭・抗菌素材のインソールでニオイ対策を。表面に汗を吸いやすい起毛素材やドライ素材を使ったものは、サラッとした履き心地を保ちやすい傾向があります。"}];
 const related = [{"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}, {"href": "/articles/walking-insole/", "label": "ウォーキング用インソール"}, {"href": "/articles/sales-staff-insole/", "label": "販売員のインソール"}, {"href": "/articles/how-to-choose/", "label": "インソールの選び方"}];
 
 export default function BusinessShoesPage() {
@@ -125,7 +125,7 @@ export default function BusinessShoesPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">サイズ調整と使い方の注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは靴のサイズに合わせて使うことが大切です。多くの製品はつま先側に余分があり、自分の靴の元の中敷きを型紙にしてハサミでカットできる仕様になっています。一度に大きく切らず、少しずつ調整しながら靴に入れて確認すると、切りすぎを防げます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">取り付けの基本は、元の中敷きを取り外してから入れ替えること。元の中敷きの上に重ねると厚みが増して窮屈になり、かかとが浮いて靴擦れの原因になることがあります。革靴がもともとフィットしている場合は特に、入れ替えるタイプを選ぶと余裕を保ちやすくなります。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使い始めは違和感を覚えることもあります。アーチサポートのあるインソールは土踏まずに当たる感覚があるため、最初は短時間から慣らし、徐々に着用時間を延ばすのが無難です。前後の向きや裏表を間違えないよう、製品の表示を確認して取り付けましょう。なお、効果の感じ方には個人差があり、使用しても痛みやしびれが改善しない、あるいは悪化する場合は使用を中止し、医療機関に相談してください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使い始めは違和感を覚えることもあります。アーチサポートのあるインソールは土踏まずに当たる感覚があるため、最初は短時間から慣らし、徐々に着用時間を延ばすのが無難です。前後の向きや裏表を間違えないよう、製品の表示を確認して取り付けてください。なお、効果の感じ方には個人差があり、使用しても痛みやしびれが改善しない、あるいは悪化する場合は使用を中止し、医療機関に相談してください。</p>
         </section>
 
         <section className="mb-12">
@@ -142,7 +142,7 @@ export default function BusinessShoesPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">革靴の通勤の足の疲れと蒸れに。薄型インソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">革靴の通勤の足の疲れと蒸れに。薄型インソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

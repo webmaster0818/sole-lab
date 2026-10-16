@@ -115,7 +115,7 @@ export default function MujiPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">目的別の選び方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">日常の靴を少し快適にしたいなら無印のシンプルなインソールで十分です。姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選びましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">日常の靴を少し快適にしたいなら無印のシンプルなインソールで十分です。姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選ぶことをおすすめします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">市販のインソールは、おおまかに用途で分かれます。選ぶときは次の3つの軸を意識すると迷いにくくなります。</p>
           <ul className="text-sm md:text-base text-gray-700 leading-relaxed mb-4 list-disc pl-5 space-y-2">
             <li><span className="font-bold">クッション・衝撃吸収タイプ</span>：立ち仕事や長時間歩行の疲れをやわらげたい人向け。普段履きの快適さを底上げしたいなら無印のようなシンプル系で十分なことが多く見られます。</li>
@@ -140,7 +140,7 @@ export default function MujiPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

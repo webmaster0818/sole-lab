@@ -24,7 +24,7 @@ const structuredData = {
   dateModified: "2026-06-13",
 };
 
-const faqs = [{"q": "運転中にインソールが邪魔になりませんか？", "a": "薄型〜標準の厚みでフィット感のあるものなら、ペダル操作への影響は感じにくい傾向があります。厚すぎるものや靴の中でズレるものは避け、必要ならカットしてサイズを合わせましょう。"}, {"q": "座っている時間が長くても意味はありますか？", "a": "あります。ドライバーの足の負担は乗り降りや階段など歩行時の衝撃に集中するため、その瞬間の衝撃を吸収できることが重要です。運転中のむくみには休憩時の足首運動を併用しましょう。"}, {"q": "宅配で階段の上り下りが多く膝が心配です。", "a": "アーチサポートと衝撃吸収のあるインソールは、着地時の負担を分散する補助になります。ただし膝の痛みがすでにある場合は、悪化する前に整形外科で診てもらうことをおすすめします。"}];
+const faqs = [{"q": "運転中にインソールが邪魔になりませんか？", "a": "薄型〜標準の厚みでフィット感のあるものなら、ペダル操作への影響は感じにくい傾向があります。厚すぎるものや靴の中でズレるものは避け、必要ならカットしてサイズを合わせてください。"}, {"q": "座っている時間が長くても意味はありますか？", "a": "あります。ドライバーの足の負担は乗り降りや階段など歩行時の衝撃に集中するため、その瞬間の衝撃を吸収できることが重要です。運転中のむくみには休憩時の足首運動を併用してください。"}, {"q": "宅配で階段の上り下りが多く膝が心配です。", "a": "アーチサポートと衝撃吸収のあるインソールは、着地時の負担を分散する補助になります。ただし膝の痛みがすでにある場合は、悪化する前に整形外科で診てもらうことをおすすめします。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "かかとの衝撃吸収を重視", "b": "車から降りる動作はかかとから着地しがちで、回数が多いほど負担が蓄積します。かかと部分のクッション性が高いものを選びましょう。アスファルトや階段での歩行衝撃の軽減にもつながります。"}, {"t": "荷物を持ったときの踏ん張りを支えるアーチサポート", "b": "荷物のぶん足裏への荷重は増えます。土踏まずをしっかり支える設計なら、増えた荷重を足裏全体に分散させ、疲れの蓄積を抑える助けになります。"}, {"t": "運転を邪魔しないフィット感", "b": "厚すぎるインソールはペダルの感覚に影響したり、靴の中で足が動く原因になります。靴にフィットする薄型〜標準の厚みで、ズレにくいものが向いています。"}];
+const points = [{"t": "かかとの衝撃吸収を重視", "b": "車から降りる動作はかかとから着地しがちで、回数が多いほど負担が蓄積します。かかと部分のクッション性が高いものを選ぶことをおすすめします。アスファルトや階段での歩行衝撃の軽減にもつながります。"}, {"t": "荷物を持ったときの踏ん張りを支えるアーチサポート", "b": "荷物のぶん足裏への荷重は増えます。土踏まずをしっかり支える設計なら、増えた荷重を足裏全体に分散させ、疲れの蓄積を抑える助けになります。"}, {"t": "運転を邪魔しないフィット感", "b": "厚すぎるインソールはペダルの感覚に影響したり、靴の中で足が動く原因になります。靴にフィットする薄型〜標準の厚みで、ズレにくいものが向いています。"}];
 const related = [{"href": "/articles/warehouse-work-insole/", "label": "倉庫作業のインソール"}, {"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}, {"href": "/articles/walking-insole/", "label": "ウォーキング用インソール"}, {"href": "/articles/back-pain/", "label": "腰痛のインソール対策"}];
 
 export default function DeliveryDriverPage() {
@@ -70,7 +70,7 @@ export default function DeliveryDriverPage() {
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">配達員・ドライバーには、乗り降りや階段での着地衝撃を吸収するクッション性と、荷物を持ったときの踏ん張りを支えるアーチサポートを両立したインソールが向いています。運転中のペダル操作を邪魔しない、靴にフィットする薄型〜標準の厚みを選びましょう。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">配達員・ドライバーには、乗り降りや階段での着地衝撃を吸収するクッション性と、荷物を持ったときの踏ん張りを支えるアーチサポートを両立したインソールが向いています。運転中のペダル操作を邪魔しない、靴にフィットする薄型〜標準の厚みを選ぶことをおすすめします。</p>
         </div>
 
         <section className="mb-12">
@@ -117,7 +117,7 @@ export default function DeliveryDriverPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">運転と歩行を繰り返す働き方でのケア</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">長距離運転が続く日は、休憩のたびに車から出て足首を回したり、かかとの上げ下げをすると血流が促され、むくみ・だるさの予防になります。インソールはあくまで衝撃と荷重を分散する補助なので、休憩時のリセットと組み合わせるのが効果的です。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">膝や足裏、かかとの痛みが続く場合は、乗降の衝撃の積み重ねによる炎症などの可能性もあります。自己判断で我慢せず、整形外科で相談してください。安全靴指定の現場では、つま先の芯に干渉しない厚みかどうかも確認しましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">膝や足裏、かかとの痛みが続く場合は、乗降の衝撃の積み重ねによる炎症などの可能性もあります。自己判断で我慢せず、整形外科で相談してください。安全靴指定の現場では、つま先の芯に干渉しない厚みかどうかもご確認ください。</p>
         </section>
 
         <section className="mb-12">
@@ -134,7 +134,7 @@ export default function DeliveryDriverPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">乗り降り・階段・運転を繰り返す足に。衝撃吸収インソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">乗り降り・階段・運転を繰り返す足に。衝撃吸収インソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

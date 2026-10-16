@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "かかとと前足部の衝撃吸収", "b": "ジャンプの着地はかかとだけでなく前足部にも衝撃がかかります。両方に弾力のあるクッションを備えたインソールを選びましょう。"}, {"t": "踏み切りを支えるアーチサポート", "b": "アーチが潰れると踏み切りの力が逃げ、足裏も疲れやすくなります。土踏まずをしっかり支える設計が向いています。"}, {"t": "体育館シューズに収まる厚みとフィット", "b": "バレーシューズは軽量でタイトな設計が多いため、厚すぎないものを。元の中敷きと入れ替えて、靴の中でズレないフィット感を確認しましょう。"}];
+const points = [{"t": "かかとと前足部の衝撃吸収", "b": "ジャンプの着地はかかとだけでなく前足部にも衝撃がかかります。両方に弾力のあるクッションを備えたインソールを選ぶことをおすすめします。"}, {"t": "踏み切りを支えるアーチサポート", "b": "アーチが潰れると踏み切りの力が逃げ、足裏も疲れやすくなります。土踏まずをしっかり支える設計が向いています。"}, {"t": "体育館シューズに収まる厚みとフィット", "b": "バレーシューズは軽量でタイトな設計が多いため、厚すぎないものを。元の中敷きと入れ替えて、靴の中でズレないフィット感をご確認ください。"}];
 const related = [{"href": "/articles/basketball-insole/", "label": "バスケのインソール"}, {"href": "/articles/badminton-insole/", "label": "バドミントンのインソール"}, {"href": "/articles/futsal-insole/", "label": "フットサルのインソール"}, {"href": "/articles/ankle-pain-insole/", "label": "足首の痛みのインソール"}];
 
 export default function VolleyballPage() {
@@ -69,7 +69,7 @@ export default function VolleyballPage() {
 
         <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">バレーボールには、かかとと前足部の衝撃を吸収するクッションと、踏み切りの力を逃さないアーチサポートを備え、体育館シューズに収まる厚みのインソールが向いています。膝や足首に強い痛みがある場合は、まず整形外科で診てもらいましょう。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">バレーボールには、かかとと前足部の衝撃を吸収するクッションと、踏み切りの力を逃さないアーチサポートを備え、体育館シューズに収まる厚みのインソールが向いています。膝や足首に強い痛みがある場合は、まず整形外科で診てもらってください。</p>
         </div>
 
         <section className="mb-12">
@@ -115,7 +115,7 @@ export default function VolleyballPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">体育館シューズでの使い方と注意点</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">体育館シューズに入れる際は、元の中敷きを取り外して入れ替えるのが基本です。入れた直後はいきなり試合強度で使わず、軽い練習で足を慣らしましょう。カットできるタイプなら、元の中敷きを型紙にしてつま先側を少しずつ調整するとフィットします。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">体育館シューズに入れる際は、元の中敷きを取り外して入れ替えるのが基本です。入れた直後はいきなり試合強度で使わず、軽い練習で足を慣らしてください。カットできるタイプなら、元の中敷きを型紙にしてつま先側を少しずつ調整するとフィットします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">膝の皿の下が痛む、着地のたびにかかとや足首が痛むなど、強い痛みや長引く痛みがある場合はオーバーユース障害の可能性があります。インソールは負担軽減の補助なので、無理をせず整形外科を受診してください。</p>
         </section>
 
@@ -133,7 +133,7 @@ export default function VolleyballPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">ジャンプの多い練習を続ける足に。クッションとアーチサポートのインソールを比較してみましょう。</p>
+          <p className="text-white/90 text-sm mb-5">ジャンプの多い練習を続ける足に。クッションとアーチサポートのインソールを比較してんでください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

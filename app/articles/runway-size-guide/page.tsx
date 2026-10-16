@@ -654,7 +654,7 @@ export default function RunwaySizeGuidePage() {
               className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
-                ランウェイキュアソールの口コミ・効果を徹底検証
+                ランウェイキュアソールの口コミ・効果を検証
               </p>
             </Link>
             <Link
@@ -678,7 +678,7 @@ export default function RunwaySizeGuidePage() {
               className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
-                ピットソール vs ランウェイキュアソール 徹底比較
+                ピットソール vs ランウェイキュアソール 比較
               </p>
             </Link>
           </div>

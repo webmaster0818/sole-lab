@@ -546,7 +546,7 @@ export default function InsoleExpectationsPage() {
               {
                 pattern: "サイズが合っていないインソールを使い続けている",
                 solution:
-                  "大きすぎるインソールは靴の中でズレてアーチサポートが効きません。小さすぎると足全体をカバーできません。自分の足サイズに合ったインソールを正しくカットして使いましょう。",
+                  "大きすぎるインソールは靴の中でズレてアーチサポートが効きません。小さすぎると足全体をカバーできません。自分の足サイズに合ったインソールを正しくカットして使ってください。",
               },
               {
                 pattern: "体重計の数値だけで効果を判断している",
@@ -556,7 +556,7 @@ export default function InsoleExpectationsPage() {
               {
                 pattern: "安価な「なんちゃってダイエットインソール」を使っている",
                 solution:
-                  "100均や安価なインソールにダイエット効果は期待できません。足裏3点アーチサポートや特許技術を搭載した本格的なダイエットインソールを選びましょう。",
+                  "100均や安価なインソールにダイエット効果は期待できません。足裏3点アーチサポートや特許技術を搭載した本格的なダイエットインソールを選ぶことをおすすめします。",
               },
             ].map((item) => (
               <div key={item.pattern} className="card">
@@ -680,7 +680,7 @@ export default function InsoleExpectationsPage() {
             義肢装具士の見解：インソールでできること・できないこと
           </h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            専門家（義肢装具士）の見解として、インソール単体で大幅な体重減少を実現するのは難しいとされています。インソールの効果を正しく理解しましょう。
+            専門家（義肢装具士）の見解として、インソール単体で大幅な体重減少を実現するのは難しいとされています。インソールの効果を正しく理解してください。
           </p>
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <div className="bg-green-50 p-4 rounded-lg">
@@ -772,7 +772,7 @@ export default function InsoleExpectationsPage() {
               className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
-                ダイエットインソール vs 100均インソール｜違いと効果を徹底比較
+                ダイエットインソール vs 100均インソール｜違いと効果を比較
               </p>
             </Link>
             <Link

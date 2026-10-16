@@ -44,7 +44,7 @@ const faqStructuredData = {
       name: "スニーカーに入れるインソールは厚さどのくらいが良いですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "スニーカー用インソールは3〜5mm程度の厚さが一般的です。純正の中敷きと同程度の厚さであれば、靴内の空間を圧迫せず快適に使用できます。ハイカットスニーカーであれば少し厚めでも問題ありませんが、ローカットの場合は薄型を選びましょう。",
+        text: "スニーカー用インソールは3〜5mm程度の厚さが一般的です。純正の中敷きと同程度の厚さであれば、靴内の空間を圧迫せず快適に使用できます。ハイカットスニーカーであれば少し厚めでも問題ありませんが、ローカットの場合は薄型を選ぶことをおすすめします。",
       },
     },
     {
@@ -252,7 +252,7 @@ export default function SneakerInsolePage() {
               <h3 className="text-base md:text-lg font-bold text-gray-900">通気性・防臭性</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-              スニーカーは1日中履くことが多いため、蒸れやニオイ対策は重要です。通気性の良いメッシュ素材や、抗菌・防臭加工が施されたインソールを選びましょう。活性炭素材や銀イオン加工などの防臭技術を採用している製品であれば、長時間の着用でも快適さが持続します。
+              スニーカーは1日中履くことが多いため、蒸れやニオイ対策は重要です。通気性の良いメッシュ素材や、抗菌・防臭加工が施されたインソールを選ぶことをおすすめします。活性炭素材や銀イオン加工などの防臭技術を採用している製品であれば、長時間の着用でも快適さが持続します。
             </p>
           </div>
 
@@ -373,28 +373,28 @@ export default function SneakerInsolePage() {
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">手順1：純正中敷きを取り外す</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                まず靴に最初から入っている中敷きを取り外します。取り外した中敷きはインソールをカットする際のガイドとして使えるので、捨てずに保管しておきましょう。接着されている場合は、つま先側から少しずつ丁寧に剥がしてください。
+                まず靴に最初から入っている中敷きを取り外します。取り外した中敷きはインソールをカットする際のガイドとして使えるので、捨てずに保管しておいてください。接着されている場合は、つま先側から少しずつ丁寧に剥がしてください。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">手順2：サイズを確認してカット</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                インソールを靴に入れてサイズを確認します。大きい場合は、取り外した純正中敷きを重ねてガイドラインにし、つま先部分をカットして調整しましょう。一度に多くカットせず、少しずつ切り詰めてフィッティングを確認するのがコツです。
+                インソールを靴に入れてサイズを確認します。大きい場合は、取り外した純正中敷きを重ねてガイドラインにし、つま先部分をカットして調整してください。一度に多くカットせず、少しずつ切り詰めてフィッティングを確認するのがコツです。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">手順3：靴に入れて履き心地を確認</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                インソールを靴に入れたら、実際に履いて歩いてみましょう。かかとがしっかり収まり、足指に余裕があるかを確認します。つま先が窮屈に感じる場合はインソールをさらにカットするか、シューレースを少し緩めて調整してください。
+                インソールを靴に入れたら、実際に履いて歩いてんでください。かかとがしっかり収まり、足指に余裕があるかを確認します。つま先が窮屈に感じる場合はインソールをさらにカットするか、シューレースを少し緩めて調整してください。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">注意：厚さの確認を忘れずに</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                インソールを入れた後に靴がきつく感じる場合は、厚すぎる可能性があります。特にローカットスニーカーは空間に余裕がないため、3〜4mm程度の薄型インソールを選びましょう。無理に入れると足の甲を圧迫し、血行不良の原因になります。
+                インソールを入れた後に靴がきつく感じる場合は、厚すぎる可能性があります。特にローカットスニーカーは空間に余裕がないため、3〜4mm程度の薄型インソールを選ぶことをおすすめします。無理に入れると足の甲を圧迫し、血行不良の原因になります。
               </p>
             </div>
           </div>
@@ -407,35 +407,35 @@ export default function SneakerInsolePage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            スニーカー用インソールは、使うシーンによって重視するポイントが変わります。自分の生活スタイルに合った使い方を見つけましょう。
+            スニーカー用インソールは、使うシーンによって重視するポイントが変わります。自分の生活スタイルに合った使い方を見つけてください。
           </p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">通勤・通学（毎日の長時間歩行）</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                毎日の通勤・通学で長時間歩く方は、アーチサポートとクッション性のバランスが良いインソールを選びましょう。耐久性も重要で、毎日使っても3ヶ月以上は性能を維持する製品が理想的です。ピットソールやスリムアップインソールは耐久性にも定評があり、日常使いに最適です。
+                毎日の通勤・通学で長時間歩く方は、アーチサポートとクッション性のバランスが良いインソールを選ぶことをおすすめします。耐久性も重要で、毎日使っても3ヶ月以上は性能を維持する製品が理想的です。ピットソールやスリムアップインソールは耐久性にも定評があり、日常使いに最適です。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">買い物・お出かけ（快適性重視）</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                休日のショッピングやお出かけでは、クッション性を重視したインソールが快適です。長時間歩き回ることが多いため、足裏の疲労を軽減するクッション素材と、足が蒸れない通気性の両方を備えた製品を選びましょう。
+                休日のショッピングやお出かけでは、クッション性を重視したインソールが快適です。長時間歩き回ることが多いため、足裏の疲労を軽減するクッション素材と、足が蒸れない通気性の両方を備えた製品を選ぶことをおすすめします。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ダイエット目的（姿勢改善重視）</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                普段の歩行でダイエット効果を得たい方は、姿勢改善と正しい重心移動を促す設計のインソールを選びましょう。ランウェイキュアソールやスリムアップインソールは、歩行時の筋肉の使い方を最適化し、消費カロリーの向上をサポートします。詳しい歩き方は<Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">ダイエットインソールの効果的な歩き方</Link>の記事で解説しています。
+                普段の歩行でダイエット効果を得たい方は、姿勢改善と正しい重心移動を促す設計のインソールを選ぶことをおすすめします。ランウェイキュアソールやスリムアップインソールは、歩行時の筋肉の使い方を最適化し、消費カロリーの向上をサポートします。詳しい歩き方は<Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">ダイエットインソールの効果的な歩き方</Link>の記事で解説しています。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">立ち仕事（サポート力重視）</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                スニーカーで立ち仕事をする方は、アーチサポート力の高いインソールを選びましょう。長時間立ちっぱなしだと足裏のアーチが崩れやすいため、しっかりと支える構造が重要です。詳しくは<Link href="/articles/standing-work/" className="text-[#0ea5e9] hover:underline">立ち仕事用インソールの記事</Link>も参考にしてください。
+                スニーカーで立ち仕事をする方は、アーチサポート力の高いインソールを選ぶことをおすすめします。長時間立ちっぱなしだと足裏のアーチが崩れやすいため、しっかりと支える構造が重要です。詳しくは<Link href="/articles/standing-work/" className="text-[#0ea5e9] hover:underline">立ち仕事用インソールの記事</Link>も参考にしてください。
               </p>
             </div>
           </div>
@@ -454,7 +454,7 @@ export default function SneakerInsolePage() {
                 <span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span>
               </summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">
-                スニーカー用インソールは3〜5mm程度の厚さが一般的です。純正の中敷きと同程度の厚さであれば、靴内の空間を圧迫せず快適に使用できます。ハイカットスニーカーであれば少し厚めでも問題ありませんが、ローカットの場合は薄型を選びましょう。
+                スニーカー用インソールは3〜5mm程度の厚さが一般的です。純正の中敷きと同程度の厚さであれば、靴内の空間を圧迫せず快適に使用できます。ハイカットスニーカーであれば少し厚めでも問題ありませんが、ローカットの場合は薄型を選ぶことをおすすめします。
               </div>
             </details>
 
@@ -507,7 +507,7 @@ export default function SneakerInsolePage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            スニーカー用インソールは、普段の歩行を快適にし、疲労軽減・姿勢改善・ダイエット効果をもたらす手軽なアイテムです。選ぶ際は薄型設計・アーチサポート・通気性・サイズ調整のしやすさをチェックしましょう。
+            スニーカー用インソールは、普段の歩行を快適にし、疲労軽減・姿勢改善・ダイエット効果をもたらす手軽なアイテムです。選ぶ際は薄型設計・アーチサポート・通気性・サイズ調整のしやすさをチェックしてください。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">

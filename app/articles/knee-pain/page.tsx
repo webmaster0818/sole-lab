@@ -44,7 +44,7 @@ const faqStructuredData = {
     {
       "@type": "Question",
       name: "膝痛に効くインソールの選び方は？",
-      acceptedAnswer: { "@type": "Answer", text: "膝痛改善には、内側縦アーチのサポートが充実し、かかとの安定性が高いインソールを選びましょう。膝が内側に入る（ニーイン）タイプの方は、内側アーチを高めに支えるモデルが効果的です。O脚気味の方は外側のサポートも重要です。衝撃吸収素材がかかとに配置されていることも重要なポイントです。" },
+      acceptedAnswer: { "@type": "Answer", text: "膝痛改善には、内側縦アーチのサポートが充実し、かかとの安定性が高いインソールを選ぶことをおすすめします。膝が内側に入る（ニーイン）タイプの方は、内側アーチを高めに支えるモデルが効果的です。O脚気味の方は外側のサポートも重要です。衝撃吸収素材がかかとに配置されていることも重要なポイントです。" },
     },
     {
       "@type": "Question",
@@ -59,7 +59,7 @@ const faqStructuredData = {
     {
       "@type": "Question",
       name: "変形性膝関節症にもインソールは使えますか？",
-      acceptedAnswer: { "@type": "Answer", text: "変形性膝関節症の初期〜中期段階では、インソールによる荷重分散が症状の軽減に役立つ場合があります。ただし必ず主治医に相談のうえ使用してください。外側ウェッジインソールなど特殊な形状が処方されることもあるため、自己判断での選択は避けましょう。" },
+      acceptedAnswer: { "@type": "Answer", text: "変形性膝関節症の初期〜中期段階では、インソールによる荷重分散が症状の軽減に役立つ場合があります。ただし必ず主治医に相談のうえ使用してください。外側ウェッジインソールなど特殊な形状が処方されることもあるため、自己判断での選択は避けてください。" },
     },
   ],
 };
@@ -232,14 +232,14 @@ export default function KneePainPage() {
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">かかとの安定性（ヒールカップ）</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">深めのヒールカップがかかとを包み込むことで、着地時の左右のブレを抑制します。かかとが安定することで、膝への捻じれストレスが大幅に軽減されます。フラットなインソールではこの効果が得られないため、ヒールカップの有無は必ず確認しましょう。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">深めのヒールカップがかかとを包み込むことで、着地時の左右のブレを抑制します。かかとが安定することで、膝への捻じれストレスが大幅に軽減されます。フラットなインソールではこの効果が得られないため、ヒールカップの有無は必ずご確認ください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
                 <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">衝撃吸収素材の品質</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">かかとと前足部に高品質な衝撃吸収素材（EVA、ジェル、高密度フォーム等）が配置されているものを選びましょう。安価なインソールは薄い素材しか使われていないため、十分な衝撃吸収効果が得られません。膝痛が目的であれば、かかと部分の衝撃吸収を特に重視してください。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">かかとと前足部に高品質な衝撃吸収素材（EVA、ジェル、高密度フォーム等）が配置されているものを選ぶことをおすすめします。安価なインソールは薄い素材しか使われていないため、十分な衝撃吸収効果が得られません。膝痛が目的であれば、かかと部分の衝撃吸収を特に重視してください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
@@ -259,25 +259,25 @@ export default function KneePainPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールと併用したい膝痛対策エクササイズ</h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            インソールの効果を最大化するために、膝周りの筋力強化とストレッチを併用しましょう。
+            インソールの効果を最大化するために、膝周りの筋力強化とストレッチを併用してください。
           </p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">大腿四頭筋の強化（座位での膝伸展）</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">椅子に座った状態で膝をゆっくり伸ばし、5秒間キープして戻します。大腿四頭筋を鍛えることで膝関節の安定性が向上し、インソールとの相乗効果で膝への負担がさらに軽減されます。片足10回を3セット、毎日行いましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">椅子に座った状態で膝をゆっくり伸ばし、5秒間キープして戻します。大腿四頭筋を鍛えることで膝関節の安定性が向上し、インソールとの相乗効果で膝への負担がさらに軽減されます。片足10回を3セット、毎日行ってください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ハムストリングスのストレッチ</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">太もも裏の筋肉が硬いと、膝が完全に伸びきらず、歩行時に膝への負担が増加します。床に座って片足を伸ばし、つま先に向かって前屈するストレッチを30秒間行い、左右交互に3セット実施しましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">太もも裏の筋肉が硬いと、膝が完全に伸びきらず、歩行時に膝への負担が増加します。床に座って片足を伸ばし、つま先に向かって前屈するストレッチを30秒間行い、左右交互に3セット実施してください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">臀筋（お尻）の強化</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">臀筋が弱いと歩行時に骨盤が落ち込み、膝が内側に入りやすくなります。横向きに寝て上側の脚を上げるヒップアブダクションや、ブリッジエクササイズで臀筋を鍛えましょう。膝のアライメント安定に直結するトレーニングです。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">臀筋が弱いと歩行時に骨盤が落ち込み、膝が内側に入りやすくなります。横向きに寝て上側の脚を上げるヒップアブダクションや、ブリッジエクササイズで臀筋を鍛えてください。膝のアライメント安定に直結するトレーニングです。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ふくらはぎのストレッチ</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">ふくらはぎが硬いと足首の背屈可動域が制限され、歩行時に膝で代償する動きが生じます。壁に手をついてふくらはぎを伸ばすストレッチを30秒キープ、左右3セットずつ行いましょう。足首の柔軟性改善は膝痛予防の基本です。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">ふくらはぎが硬いと足首の背屈可動域が制限され、歩行時に膝で代償する動きが生じます。壁に手をついてふくらはぎを伸ばすストレッチを30秒キープ、左右3セットずつ行ってください。足首の柔軟性改善は膝痛予防の基本です。</p>
             </div>
           </div>
         </section>
@@ -347,7 +347,7 @@ export default function KneePainPage() {
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">膝痛に効くインソールの選び方は？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">内側縦アーチのサポートが充実し、かかとの安定性が高いインソールを選びましょう。膝が内側に入るタイプの方は内側アーチを高めに支えるモデルが効果的です。衝撃吸収素材がかかとに配置されていることも重要です。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">内側縦アーチのサポートが充実し、かかとの安定性が高いインソールを選ぶことをおすすめします。膝が内側に入るタイプの方は内側アーチを高めに支えるモデルが効果的です。衝撃吸収素材がかかとに配置されていることも重要です。</div>
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">膝痛がある場合、インソールはどのくらいの期間使えば効果を感じますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>

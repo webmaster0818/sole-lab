@@ -149,7 +149,7 @@ export default function FootArchPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足裏を水で濡らし、色の濃い紙や段ボールの上に片足で立って足形を取ります。土踏まず部分がほぼ全面ついていたら扁平足（ローアーチ）、中央部分の幅が足幅の半分以下なら正常、ほとんどついていなければハイアーチの可能性があります。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">靴底の減り方チェック</h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">普段履いている靴の底を確認しましょう。内側が大きく減っている場合は過回内（アーチ低下）の可能性が高く、外側が大きく減っている場合はハイアーチ（過回外）の傾向があります。左右で減り方が大きく異なる場合は、骨盤の歪みも考えられます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">普段履いている靴の底をご確認ください。内側が大きく減っている場合は過回内（アーチ低下）の可能性が高く、外側が大きく減っている場合はハイアーチ（過回外）の傾向があります。左右で減り方が大きく異なる場合は、骨盤の歪みも考えられます。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">片足立ちテスト</h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">片足で30秒間立ってみてください。足首が内側に大きく倒れる、バランスが取りにくい場合はアーチの機能低下が疑われます。目を閉じて行うとより正確に評価できます。</p>
@@ -198,19 +198,19 @@ export default function FootArchPage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ショートフットエクササイズ</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">足指を曲げずに、足裏の筋肉だけで土踏まずを持ち上げるトレーニングです。足を短くするイメージで行います。最初は難しいですが、続けることで足裏の内在筋が鍛えられ、アーチの自己保持力が向上します。片足10回を3セット、毎日行いましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">足指を曲げずに、足裏の筋肉だけで土踏まずを持ち上げるトレーニングです。足を短くするイメージで行います。最初は難しいですが、続けることで足裏の内在筋が鍛えられ、アーチの自己保持力が向上します。片足10回を3セット、毎日行ってください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">タオルギャザー</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">床にタオルを広げ、足指だけでタオルを手前に引き寄せるトレーニングです。足指の屈曲筋と足裏の内在筋を同時に鍛えられます。横アーチの強化に特に効果的です。片足20回を3セット行いましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">床にタオルを広げ、足指だけでタオルを手前に引き寄せるトレーニングです。足指の屈曲筋と足裏の内在筋を同時に鍛えられます。横アーチの強化に特に効果的です。片足20回を3セット行ってください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">カーフレイズ（つま先立ち）</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">つま先立ちで上下する運動は、後脛骨筋を鍛えてアーチを支える力を強化します。段差の端に立って行うと可動域が広がり効果的です。15回を3セット、ゆっくりと行いましょう。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">つま先立ちで上下する運動は、後脛骨筋を鍛えてアーチを支える力を強化します。段差の端に立って行うと可動域が広がり効果的です。15回を3セット、ゆっくりと行ってください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">裸足ウォーキング</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">自宅内や安全な場所で裸足で歩くことで、足裏の感覚を刺激し、内在筋を活性化させます。1日10〜15分程度から始めましょう。ただし痛みがある場合は無理をせず、インソール使用時と交互に行ってください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">自宅内や安全な場所で裸足で歩くことで、足裏の感覚を刺激し、内在筋を活性化させます。1日10〜15分程度から始めてください。ただし痛みがある場合は無理をせず、インソール使用時と交互に行ってください。</p>
             </div>
           </div>
         </section>

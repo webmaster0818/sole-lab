@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "作業靴・安全靴向けならホームセンターが手堅い", "b": "現場作業や庭仕事など、作業靴の疲れ対策が目的なら、耐久性重視の実用品が手頃に揃うホームセンターは合理的です。"}, {"t": "ダイエット目的は専用設計を確認", "b": "姿勢・歩行サポートが目的なら、作業向けのクッション系ではなく、アーチサポートを軸にしたダイエット向け設計かを確認しましょう。"}, {"t": "品揃えは店舗・時期で変わる前提で", "b": "ホームセンターの在庫・取扱商品は店舗規模や季節で変わります。確実に欲しい商品が決まっている場合は通販ルートも検討しましょう。"}];
+const points = [{"t": "作業靴・安全靴向けならホームセンターが手堅い", "b": "現場作業や庭仕事など、作業靴の疲れ対策が目的なら、耐久性重視の実用品が手頃に揃うホームセンターは合理的です。"}, {"t": "ダイエット目的は専用設計を確認", "b": "姿勢・歩行サポートが目的なら、作業向けのクッション系ではなく、アーチサポートを軸にしたダイエット向け設計かをご確認ください。"}, {"t": "品揃えは店舗・時期で変わる前提で", "b": "ホームセンターの在庫・取扱商品は店舗規模や季節で変わります。確実に欲しい商品が決まっている場合は通販ルートもご検討ください。"}];
 const related = [{"href": "/articles/workman-insole/", "label": "ワークマンのインソール"}, {"href": "/articles/factory-work-insole/", "label": "工場勤務のインソール"}, {"href": "/articles/cheap-insole/", "label": "コスパの良いインソール"}, {"href": "/articles/where-to-buy-insole/", "label": "市販はどこで売ってる"}];
 
 export default function HomeCenterPage() {
@@ -76,7 +76,7 @@ export default function HomeCenterPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ホームセンターのインソールの特徴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ホームセンターのインソール売り場は、作業用品の文脈が中心です。安全靴・作業靴・長靴に入れて使う前提の、衝撃吸収や疲労軽減をうたう実用的な商品が多く、価格も手頃で耐久性重視。現場仕事や庭仕事、立ち作業の負担を減らす目的では理にかなった品揃えです。農作業用品や靴コーナーの近くで実物を確かめて買えるのも利点です。なお、具体的な品揃えや取扱ブランドは店舗の規模・時期によって異なります。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方、ダイエットインソールは日常の歩行や立ち姿勢でアーチを支え、姿勢・歩き方を整えることを目的とした設計です。ホームセンターの作業向けインソールは「重作業の疲れを減らす」ことが主眼で、ボディメイクを狙う設計とは方向性が異なります。作業中の足の負担軽減と、日常のダイエットサポートは分けて考えましょう。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方、ダイエットインソールは日常の歩行や立ち姿勢でアーチを支え、姿勢・歩き方を整えることを目的とした設計です。ホームセンターの作業向けインソールは「重作業の疲れを減らす」ことが主眼で、ボディメイクを狙う設計とは方向性が異なります。作業中の足の負担軽減と、日常のダイエットサポートは分けて考えてください。</p>
         </section>
 
         <section className="mb-12">
@@ -134,7 +134,7 @@ export default function HomeCenterPage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較しましょう。</p>
+          <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較することをおすすめします。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
