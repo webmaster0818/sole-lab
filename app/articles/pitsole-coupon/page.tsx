@@ -171,6 +171,7 @@ export default function PitsoleCouponPage() {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
             2026年7月現在のキャンペーン・割引情報
           </h2>
+            <p className="text-xs text-gray-500 mt-3">※ 上記は2026年7月時点に確認した内容です。キャンペーン・割引の内容は予告なく変更される場合があるため、お申し込み前に必ず公式サイトで最新の条件をご確認ください（当サイトでは2026年7月以降の再確認を行えていません）。</p>
 
           <div className="card border-2 border-[#c9a76c] bg-amber-50 mb-6">
             <h3 className="text-base font-bold text-[#c9a76c] mb-3">
