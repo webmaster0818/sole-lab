@@ -190,7 +190,7 @@ export default function SlimUpInsolePage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             美容整体師・井上剛志氏（YouTube登録者約136万人）監修のダイエットインソール。
             <br className="hidden md:block" />
-            実際の口コミから効果の仕組み、最安値まで実データにもとづいてレビューします。
+            実際の口コミから効果の仕組み、最安値まで、公式情報と実在の口コミ集計をもとにレビューします。
           </p>
         </div>
       </section>
