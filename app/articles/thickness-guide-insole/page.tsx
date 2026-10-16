@@ -208,7 +208,7 @@ export default function ThicknessGuidePage() {
 
         <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">靴に合う厚みのインソールで、快適なフィットを実現してください。</p>
+          <p className="text-white/90 text-sm mb-5">靴に合う厚みのインソールで、快適なフィットを目指せます。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
