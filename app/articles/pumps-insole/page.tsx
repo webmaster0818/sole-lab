@@ -3,16 +3,16 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "パンプス用インソールおすすめ5選｜ヒール靴の疲れ対策",
+  title: "パンプス用インソール（中敷き）おすすめ5選｜ヒールで疲れにくくする選び方",
   description:
-    "パンプス用インソールのおすすめ5選を紹介。ヒール靴での足の疲れ・前滑り・つま先の痛みを解消するインソールの選び方を解説。ピットソール・ランウェイキュアソール・スリムアップインソールの比較も。",
+    "パンプス・ヒール用インソール（中敷き）のおすすめ5選。前滑り・つま先の痛み・足裏の疲れの原因別に選び方と使い方を解説し、ピットソール・ランウェイキュアソール・スリムアップインソールも比較します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pumps-insole/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "パンプス用インソールおすすめ5選｜ヒール靴の疲れ対策",
+    title: "パンプス用インソール（中敷き）おすすめ5選｜ヒールで疲れにくくする選び方",
     description:
-      "パンプス用インソールのおすすめ5選を紹介。ヒール靴での足の疲れ・前滑り・つま先の痛みを解消するインソールの選び方を解説。",
+      "パンプス・ヒール用インソール（中敷き）のおすすめ5選。前滑り・つま先の痛み・足裏の疲れの原因別に選び方と使い方を解説します。",
     url: "https://sole-laboratory.com/articles/pumps-insole/",
     type: "article",
   },
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "パンプス用インソールおすすめ5選｜ヒール靴の疲れ対策",
+  headline: "パンプス用インソール（中敷き）おすすめ5選｜ヒールで疲れにくくする選び方",
   description:
-    "パンプス用インソールのおすすめ5選を紹介。ヒール靴での足の疲れ・前滑り・つま先の痛みを解消するインソールの選び方を解説。",
+    "パンプス・ヒール用インソール（中敷き）のおすすめ5選。前滑り・つま先の痛み・足裏の疲れの原因別に選び方と使い方を解説します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -31,7 +31,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-10-17",
 };
 
 const faqStructuredData = {
@@ -129,7 +129,7 @@ export default function PumpsInsolePage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">2026年最新版</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            パンプス用インソール
+            パンプス用インソール（中敷き）
             <br className="md:hidden" />
             おすすめ<span className="text-[#0ea5e9]">5選</span>
           </h1>
