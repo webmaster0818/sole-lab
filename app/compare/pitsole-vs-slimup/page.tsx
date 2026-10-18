@@ -779,6 +779,12 @@ export default function PitsoleVsSlimupPage() {
             <p className="text-xs text-gray-500 mt-2">
               出典: <a href="https://www.diet-cafe.jp/2022/06/pitsole.html" target="_blank" rel="nofollow noopener" className="underline">ダイエットカフェ（ピットソール）</a>／<a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" target="_blank" rel="nofollow noopener" className="underline">BACCHUS ONLINE SHOP（楽天）商品レビュー</a>／<a href="https://review.rakuten.co.jp/item/1/304721_10001278/1.1/" target="_blank" rel="nofollow noopener" className="underline">イッティ公式 楽天市場店 商品レビュー</a>（いずれも2026年10月14日参照）
             </p>
+            <p className="text-sm text-gray-700 mt-4">
+              良い口コミ・悪い口コミの出典つきの一覧は、商品ごとのページにまとめています：
+              <Link href="/slim-up-insole/#bad-reviews" className="text-emerald-600 underline font-bold">スリムアップインソールの口コミ・評判</Link>
+              ／
+              <Link href="/pitsole/" className="text-[#0ea5e9] underline font-bold">ピットソールの口コミ・評判</Link>
+            </p>
           </div>
         </div>
       </section>
