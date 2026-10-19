@@ -5,9 +5,9 @@ import FootArchDiagram from "../../components/FootArchDiagram";
 import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
-  title: "アキレス腱炎に向くインソールの選び方【2026年】ヒールアップの効果も解説",
+  title: "アキレス腱炎のインソールおすすめ3選と選び方【2026年】ヒールアップの考え方",
   description:
-    "アキレス腱の痛み・アキレス腱炎にインソールは使える？かかとを少し上げてアキレス腱の張力を和らげるヒールアップの仕組みと選び方、おすすめ3選を解説。ランナーにも。",
+    "アキレス腱炎のインソールは、かかとをわずかに上げるヒールアップとかかとのクッション性で選びます。おすすめ3選と選び方3つのポイントを解説。インソールは治療の代わりではないため、痛みが続く場合は整形外科を受診してください。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/achilles-pain-insole/",
   },
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "アキレス腱炎に向くインソールの選び方｜ヒールアップで腱の負担を軽く",
+  headline: "アキレス腱炎のインソールおすすめ3選と選び方｜ヒールアップで腱の負担を軽く",
   description:
-    "アキレス腱の痛み・アキレス腱炎にインソールは使える？かかとを少し上げてアキレス腱の張力を和らげるヒールアップの仕組みと選び方、おすすめ3選を解説。ランナーにも。",
+    "アキレス腱炎のインソールは、かかとをわずかに上げるヒールアップとかかとのクッション性で選びます。おすすめ3選と選び方3つのポイントを解説。インソールは治療の代わりではないため、痛みが続く場合は整形外科を受診してください。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-07-10",
+  dateModified: "2026-10-19",
 };
 
 const faqs = [{"q": "アキレス腱炎にインソールは効果がありますか？", "a": "かかとを上げてアキレス腱の張力を和らげ、衝撃を吸収する補助になります。ただし炎症が強い時期は安静が第一で、インソールは回復をサポートする位置づけです。"}, {"q": "ランニング用と普段用、どちらに入れるべきですか？", "a": "痛みがある間は普段履きにも入れて日常の負担を減らすのがおすすめです。運動再開時はクッション性の高いランニングシューズと組み合わせてください。"}, {"q": "どのくらいで改善しますか？", "a": "個人差が大きく、軽度でも数週間かかることがあります。改善しない・悪化する場合は自己判断を続けず整形外科を受診してください。"}, {"q": "インソールを使えばアキレス腱炎は治りますか？", "a": "いいえ。市販のインソールは医療機器ではなく、かかとまわりの負担を減らす補助が目的で、治療の代わりにはなりません。痛みが続く・腫れや熱感がある場合は、アキレス腱炎やアキレス腱周囲炎などの可能性があるため、自己判断せず整形外科で診断を受けてください。"}, {"q": "ヒールリフトはどのくらいの高さが良いですか？", "a": "一般には数mm程度のわずかな高さから試し、必ず左右両足に入れるのが基本とされます。高くしすぎると靴の中で前滑りしたり、つま先が圧迫されたりすることがあります。違和感や痛みが増す場合は使用を中止し、医療機関に相談してください。"}];
@@ -65,7 +65,7 @@ export default function AchillesPage() {
             <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
-          <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">アキレス腱炎に向くインソールの選び方｜ヒールアップで腱の負担を軽く</h1>
+          <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">アキレス腱炎のインソールおすすめ3選と選び方｜ヒールアップで腱の負担を軽く</h1>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">歩き始めや運動後にアキレス腱（かかとの上）が痛む——アキレス腱炎は、ランナーや立ち仕事の方に多い症状です。かかとをわずかに上げるインソールは、アキレス腱の張力をやわらげる補助になります。</p>
         </header>
 
@@ -86,7 +86,7 @@ export default function AchillesPage() {
       </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">アキレス腱の痛みの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">アキレス腱炎のインソールの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
