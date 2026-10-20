@@ -5,9 +5,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title:
-    "インソールで痩せるのは本当？ダイエットインソールの効果と仕組みを客観的に検証",
+    "インソール（中敷き）で痩せるのは本当？ダイエットインソールの効果と仕組みを客観的に検証",
   description:
-    "結論、インソールだけで痩せるわけではありません。期待できるのは足裏アーチと姿勢・歩行のサポートで、体型の変化には食事管理や運動との併用と継続が前提です。「履くだけで痩せる」と言われる仕組みと限界、3商品のアプローチ比較まで客観的に検証します。",
+    "結論、インソール（中敷き）だけで痩せるわけではありません。期待できるのは足裏アーチと姿勢・歩行のサポートで、体型の変化には食事管理や運動との併用と継続が前提です。「履くだけで痩せる」と言われる仕組みと限界、3商品のアプローチ比較まで客観的に検証します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/diet-mechanism/",
   },
@@ -17,9 +17,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "インソールで痩せるのは本当？ダイエットインソールの効果と仕組みを客観的に検証",
+    "インソール（中敷き）で痩せるのは本当？ダイエットインソールの効果と仕組みを客観的に検証",
   description:
-    "結論、インソールだけで痩せるわけではありません。「履くだけで痩せる」と言われる仕組みと限界、期待できる効果を客観的に検証します。",
+    "結論、インソール（中敷き）だけで痩せるわけではありません。「履くだけで痩せる」と言われる仕組みと限界、期待できる効果を客観的に検証します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -27,7 +27,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-14",
-  dateModified: "2026-09-17",
+  dateModified: "2026-10-20",
 };
 
 const faqs = [
@@ -123,12 +123,12 @@ export default function DietMechanismPage() {
             ダイエットコラム
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            インソールで痩せるのは本当？
+            インソール（中敷き）で痩せるのは本当？
             <br />
             <span className="text-emerald-600">効果と仕組み</span>を客観的に検証
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            「インソールを入れるだけで痩せるって本当？」その疑問に、科学的根拠と専門家の見解をもとに事実にもとづいてお答えします。期待できる効果とその限界、効果を最大化する方法まで解説。
+            「インソール（中敷き）を入れるだけで痩せるって本当？」という疑問に、仕組みと限界の両面からお答えします。期待できる効果と、効果を高める使い方まで解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full font-medium">
