@@ -38,11 +38,11 @@ export default function PlantarFasciitisPage() {
 
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "足底筋膜炎とインソール" }]} />
 
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">足底筋膜炎 インソール</p>
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">足底筋膜炎 インソール</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            <span className="text-[#0ea5e9]">足底筋膜炎</span>とインソール
+            <span className="text-[#8a6a4f]">足底筋膜炎</span>とインソール
             <br className="md:hidden" />
             痛みを軽減する選び方ガイド
           </h1>
@@ -61,7 +61,7 @@ export default function PlantarFasciitisPage() {
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>足底筋膜炎にインソールは効果的です。アーチサポートで足裏の負荷を分散し、かかとへの衝撃を吸収することで痛みを軽減できます。ただし、症状が改善しない場合は整形外科を受診してください。</p>
         </div>
@@ -79,28 +79,28 @@ export default function PlantarFasciitisPage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#what-is" className="hover:text-[#0ea5e9] transition-colors">1. 足底筋膜炎とは？症状と原因</a></li>
-            <li><a href="#mechanism" className="hover:text-[#0ea5e9] transition-colors">2. インソールが足底筋膜炎に効く仕組み</a></li>
-            <li><a href="#choose" className="hover:text-[#0ea5e9] transition-colors">3. 足底筋膜炎向けインソールの選び方</a></li>
-            <li><a href="#usage" className="hover:text-[#0ea5e9] transition-colors">4. インソールの正しい使い方と注意点</a></li>
-            <li><a href="#self-care" className="hover:text-[#0ea5e9] transition-colors">5. インソールと併用したいセルフケア</a></li>
-            <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">6. おすすめインソール3選</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">7. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">8. まとめ</a></li>
+            <li><a href="#what-is" className="hover:text-[#8a6a4f] transition-colors">1. 足底筋膜炎とは？症状と原因</a></li>
+            <li><a href="#mechanism" className="hover:text-[#8a6a4f] transition-colors">2. インソールが足底筋膜炎に効く仕組み</a></li>
+            <li><a href="#choose" className="hover:text-[#8a6a4f] transition-colors">3. 足底筋膜炎向けインソールの選び方</a></li>
+            <li><a href="#usage" className="hover:text-[#8a6a4f] transition-colors">4. インソールの正しい使い方と注意点</a></li>
+            <li><a href="#self-care" className="hover:text-[#8a6a4f] transition-colors">5. インソールと併用したいセルフケア</a></li>
+            <li><a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">6. おすすめインソール3選</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">7. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">8. まとめ</a></li>
           </ol>
         </div>
       </section>
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <section id="what-is" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足底筋膜炎とは？症状と原因</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">足底筋膜炎とは？症状と原因</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足底筋膜炎は、かかとの骨から足指の付け根まで足裏に張っている「足底筋膜」という厚い帯状の組織に炎症や微小な断裂が生じる症状です。成人の足の痛みの中で最も多い原因の一つで、特に40〜60代に多く発症します。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">典型的な症状</h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">最も特徴的な症状は「朝起きて一歩目を踏み出したときの鋭い痛み」です。就寝中に足底筋膜が収縮した状態で固まり、起床時に急に伸ばされることで強い痛みが発生します。また長時間座った後に立ち上がったときや、長時間歩いた後にも痛みが出ます。痛みの場所はかかとの内側底面が最も多く、土踏まず全体に広がることもあります。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">発症の主な原因</h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足底筋膜炎の原因は複合的です。足のアーチ（特に内側縦アーチ）の崩れにより足底筋膜に過度な牽引力がかかること、体重増加による足底への荷重増加、硬い路面での長時間の立ち仕事や歩行、急激な運動量の増加（特にランニング）、ふくらはぎやアキレス腱の硬さ、加齢による足底脂肪パッドの薄化などが主な原因です。<Link href="/articles/foot-arch/" className="text-[#0ea5e9] hover:underline">足のアーチの崩れ</Link>は特に大きな要因です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足底筋膜炎の原因は複合的です。足のアーチ（特に内側縦アーチ）の崩れにより足底筋膜に過度な牽引力がかかること、体重増加による足底への荷重増加、硬い路面での長時間の立ち仕事や歩行、急激な運動量の増加（特にランニング）、ふくらはぎやアキレス腱の硬さ、加齢による足底脂肪パッドの薄化などが主な原因です。<Link href="/articles/foot-arch/" className="text-[#8a6a4f] hover:underline">足のアーチの崩れ</Link>は特に大きな要因です。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">なりやすい人の特徴</h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">以下のような方は足底筋膜炎のリスクが高い傾向があります。扁平足またはハイアーチの方、BMI30以上の方、長時間の立ち仕事（接客業、工場勤務、教職など）の方、ランニングやジョギングを始めたばかりの方、ふくらはぎが硬い方、クッション性のない靴を常用している方。</p>
@@ -111,7 +111,7 @@ export default function PlantarFasciitisPage() {
         </section>
 
         <section id="mechanism" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールが足底筋膜炎に効く仕組み</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールが足底筋膜炎に効く仕組み</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールは以下のメカニズムで足底筋膜炎の症状を軽減します。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">アーチサポートによる牽引力の軽減</h3>
@@ -128,29 +128,29 @@ export default function PlantarFasciitisPage() {
         </section>
 
         <section id="choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足底筋膜炎向けインソールの選び方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">足底筋膜炎向けインソールの選び方</h2>
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
-              <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span><h3 className="text-base md:text-lg font-bold text-gray-900">適度な硬さのアーチサポート</h3></div>
+              <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span><h3 className="text-base md:text-lg font-bold text-gray-900">適度な硬さのアーチサポート</h3></div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">足底筋膜炎には、やや硬めのアーチサポートが効果的です。柔らかすぎるとアーチが沈み込んで足底筋膜の牽引を防げません。逆に硬すぎると足裏に痛みが出る場合があります。手で押してやや抵抗を感じる程度の硬さが理想的です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
-              <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span><h3 className="text-base md:text-lg font-bold text-gray-900">かかと部分の十分なクッション</h3></div>
+              <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span><h3 className="text-base md:text-lg font-bold text-gray-900">かかと部分の十分なクッション</h3></div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">かかとは痛みの中心部です。かかと部分に厚みのある衝撃吸収素材（EVA、ジェル、高密度フォームなど）が配置されていることが必須条件です。かかとへの衝撃を最低20%以上軽減できる素材が理想的です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
-              <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span><h3 className="text-base md:text-lg font-bold text-gray-900">深めのヒールカップ</h3></div>
+              <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span><h3 className="text-base md:text-lg font-bold text-gray-900">深めのヒールカップ</h3></div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">かかとを包み込むように設計された深いヒールカップは、かかとの脂肪パッドを集めて天然のクッション効果を高めます。またかかとを安定させることで、着地時のブレを防ぎ、足底筋膜への不均等なストレスを予防します。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
-              <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span><h3 className="text-base md:text-lg font-bold text-gray-900">フルレングス（全長）タイプ</h3></div>
+              <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span><h3 className="text-base md:text-lg font-bold text-gray-900">フルレングス（全長）タイプ</h3></div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">足底筋膜はかかとから足指の付け根まで伸びているため、足裏全体をカバーするフルレングスタイプのインソールが効果的です。ハーフインソール（かかとだけ）では足底筋膜全体へのサポートが不十分になります。</p>
             </div>
           </div>
         </section>
 
         <section id="usage" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールの正しい使い方と注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールの正しい使い方と注意点</h2>
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">最初は短時間から始める</h3><p className="text-sm text-gray-700 leading-relaxed">足底筋膜炎の痛みがある状態で急にインソールを終日使用すると、かえって症状が悪化することがあります。最初は1〜2時間から始め、3〜5日かけて徐々に使用時間を延ばしていいてください。</p></div>
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">室内履きにもインソールを入れる</h3><p className="text-sm text-gray-700 leading-relaxed">自宅でのフローリング上の素足歩行は足底筋膜炎を悪化させます。室内用スリッパやサンダルにもインソールを入れるか、アーチサポート付きの室内履きを使用してください。特に朝起きてすぐの歩行時にサポートがあると、ファーストステップペインの軽減に効果的です。</p></div>
@@ -160,7 +160,7 @@ export default function PlantarFasciitisPage() {
         </section>
 
         <section id="self-care" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールと併用したいセルフケア</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールと併用したいセルフケア</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールだけでなく、以下のセルフケアを組み合わせることで回復を早められます。</p>
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4"><h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">足底筋膜ストレッチ</h3><p className="text-sm text-gray-700 leading-relaxed">椅子に座った状態で痛い方の足を反対側の膝の上に乗せ、手で足指を反らせて土踏まずが伸びるのを感じましょう。30秒キープを5回、朝・昼・夜の3回行います。特に朝起きる前にベッドの中で行うと、ファーストステップペインの予防に効果的です。</p></div>
@@ -171,19 +171,19 @@ export default function PlantarFasciitisPage() {
         </section>
 
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">おすすめインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">おすすめインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">足底筋膜炎のケアに適したインソールを紹介します。</p>
 
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">足底筋膜炎ケアに</span>
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">足底筋膜炎ケアに</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">世界特許の3点サポート構造が内側縦アーチを適切に支え、足底筋膜への過度な牽引力を軽減します。足底筋膜炎の根本原因であるアーチの崩れを包括的にケアし、痛みの軽減と再発予防の両方に貢献。耐久性の高い素材で長期間のケアに適しています。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>3点サポートで足底筋膜への牽引力を効果的に軽減</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>アーチ崩れの根本原因にアプローチ</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>高耐久素材で長期間の継続ケアが可能</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点サポートで足底筋膜への牽引力を効果的に軽減</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>アーチ崩れの根本原因にアプローチ</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>高耐久素材で長期間の継続ケアが可能</span></li>
             </ul>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -191,11 +191,11 @@ export default function PlantarFasciitisPage() {
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">歩行姿勢の改善により足裏への荷重パターンを最適化し、足底筋膜の特定部位に集中するストレスを分散します。薄型設計のため、仕事用の靴にも入れやすく、日中のケアに最適です。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>歩行姿勢改善で足底への荷重パターンを最適化</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型で仕事用の靴にも対応</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>日中の長時間使用でも快適</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>歩行姿勢改善で足底への荷重パターンを最適化</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型で仕事用の靴にも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>日中の長時間使用でも快適</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -203,18 +203,18 @@ export default function PlantarFasciitisPage() {
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">スリムアップインソール（Slim Up Insole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美容整体師監修の正しい重心移動により、かかとへの荷重集中を防ぎ、足底筋膜の付着部へのストレスを軽減します。体重管理（ダイエット）効果も期待でき、足底筋膜炎の原因の一つである体重増加対策にもなります。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>重心改善でかかと付着部へのストレスを軽減</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>ダイエット効果で体重管理にも貢献</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>足底筋膜炎の複合的な原因にアプローチ</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>重心改善でかかと付着部へのストレスを軽減</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>ダイエット効果で体重管理にも貢献</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>足底筋膜炎の複合的な原因にアプローチ</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed">3商品の料金・機能・口コミを一覧で比較したい方は<Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。</p></div>
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed">3商品の料金・機能・口コミを一覧で比較したい方は<Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。</p></div>
         </section>
 
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">足底筋膜炎にインソールは効果がありますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">はい、適切なインソールは足底筋膜炎の痛み軽減に効果的です。アーチサポートにより足底筋膜への牽引力を軽減し、クッション素材がかかとへの衝撃を吸収します。重症の場合は医療機関での治療も必要です。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">足底筋膜炎用のインソールはどんな特徴がありますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">適度な硬さのアーチサポート、かかと部分の厚いクッション材、深めのヒールカップ、やや硬めの中足部が特徴です。柔らかすぎるインソールは逆効果になることもあります。</div></details>
@@ -225,18 +225,18 @@ export default function PlantarFasciitisPage() {
         </section>
 
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">まとめ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足底筋膜炎は適切なケアで改善できる症状です。インソールによるアーチサポートと衝撃吸収は、痛みの軽減と再発予防の両方に効果的です。ストレッチや体重管理と組み合わせることで、回復をさらに早めることができます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">痛みを我慢して放置すると慢性化し、治療期間が長引きます。早めのインソール導入とセルフケアの開始で、快適な歩行を取り戻してください。</p>
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">足底筋膜炎ケアにおすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：3点サポートでアーチ崩れの根本原因にアプローチ。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：歩行姿勢改善で足底への荷重を最適化。薄型で仕事用にも。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：重心改善とダイエット効果で複合的にケア。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：3点サポートでアーチ崩れの根本原因にアプローチ。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：歩行姿勢改善で足底への荷重を最適化。薄型で仕事用にも。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：重心改善とダイエット効果で複合的にケア。</li>
             </ul>
           </div>
-          <div className="text-center"><Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link></div>
+          <div className="text-center"><Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link></div>
         </section>
       </article>
 

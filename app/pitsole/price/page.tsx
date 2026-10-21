@@ -166,7 +166,7 @@ export default function PitsolePricePage() {
         {/* 目次 */}
         <nav className="bg-gray-50 border border-gray-200 rounded-xl p-6">
           <p className="font-bold text-gray-900 mb-3 text-sm">目次</p>
-          <ol className="space-y-1.5 text-sm text-[#0ea5e9]">
+          <ol className="space-y-1.5 text-sm text-[#8a6a4f]">
             <li>
               <a href="#conclusion" className="hover:underline">
                 1. 【結論】最安値で買えるのはここ！
@@ -753,13 +753,13 @@ export default function PitsolePricePage() {
         </section>
 
         {/* 関連記事 */}
-        <section className="bg-sky-50 border border-sky-200 rounded-xl p-6">
+        <section className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-6">
           <h2 className="font-bold text-gray-900 mb-3">関連記事</h2>
           <ul className="space-y-2 text-sm">
             <li>
               <Link
                 href="/pitsole"
-                className="text-[#0ea5e9] hover:underline"
+                className="text-[#8a6a4f] hover:underline"
               >
                 ピットソールの口コミ・効果を検証【累計200万足の実力】
               </Link>

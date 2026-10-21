@@ -61,7 +61,7 @@ export default function SorboComparisonPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ソルボのインソールはどんな人向け？ダイエット目的との使い分けガイド</h1>
@@ -74,18 +74,18 @@ export default function SorboComparisonPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ソルボとはどんなブランド？（公式情報まとめ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ソルボとはどんなブランド？（公式情報まとめ）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ソルボは、衝撃吸収素材「ソルボセイン」を開発・製造する三進興産株式会社のブランドです（出典：ソルボ公式オンラインストア、2026年6月参照）。ソルボセインは英国での研究開発を背景に生まれた素材で、公式サイトでは人の筋肉や皮膚に近い衝撃吸収・圧力分散性能を持つと説明されています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">代表的なシリーズである「DSIS」インソールは、整形外科医とともに開発され、足裏のアーチを支える設計が特徴とされています。公式オンラインストアによれば1996年の発売以来1,000万足以上を販売しており、スポーツ用インソール、立ち仕事などの快適インソール、フットケアサポーターなど幅広いカテゴリを展開しています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">まとめると、ソルボの得意領域は「衝撃吸収・圧力分散」と「足の悩みのケア」。スポーツ時や立ち仕事の足への衝撃をやわらげたい方に長く選ばれてきたブランドといえます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ソルボと比較検討するときの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ソルボと比較検討するときの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -94,12 +94,12 @@ export default function SorboComparisonPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ソルボと比較検討するときにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ソルボと比較検討するときにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ダイエット・ボディメイクを目的にするなら、姿勢・歩行サポートを軸に設計された以下の3製品が当サイトの比較対象です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -116,17 +116,17 @@ export default function SorboComparisonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ソルボと当サイト紹介製品の使い分け</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ソルボと当サイト紹介製品の使い分け</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">両者は競合というより目的が異なる存在です。スポーツや立ち仕事で足への衝撃・負担をやわらげたい靴にはソルボのような衝撃吸収系を、ウォーキングや日常の歩行でボディメイクを狙う靴には姿勢・歩行サポート系を、と靴ごとに使い分けるのが現実的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">なお、1足の靴にインソールを2枚重ねるのは靴内が窮屈になるため基本的におすすめしません。目的別に靴を分けて、それぞれに合ったインソールを入れる使い方が効果的です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

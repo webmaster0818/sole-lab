@@ -62,7 +62,7 @@ export default function AchillesPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">アキレス腱炎のインソールおすすめ3選と選び方｜ヒールアップで腱の負担を軽く</h1>
@@ -75,7 +75,7 @@ export default function AchillesPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">アキレス腱が痛む原因とインソールの役割</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">アキレス腱が痛む原因とインソールの役割</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アキレス腱炎は、ふくらはぎの筋肉とかかとをつなぐアキレス腱に繰り返し負担がかかって炎症が起きる状態です。ランニングの急な距離・強度アップ、硬い路面、ふくらはぎの柔軟性不足などが引き金になります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールでかかとをわずかに高くすると、足首が底屈方向になりアキレス腱の引っ張りが軽減されます。さらにかかとのクッションで着地衝撃を吸収すれば、腱への繰り返し負荷を減らす補助になります。</p>
         </section>
@@ -86,11 +86,11 @@ export default function AchillesPage() {
       </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">アキレス腱炎のインソールの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">アキレス腱炎のインソールの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -99,12 +99,12 @@ export default function AchillesPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">アキレス腱の痛みにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">アキレス腱の痛みにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">かかとのクッションとアーチサポートで後足部を安定させるインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -121,20 +121,20 @@ export default function AchillesPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">運動時の注意とセルフケア</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">運動時の注意とセルフケア</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">痛みが強い急性期はまず安静とアイシングを優先し、無理に運動を続けないことが大切です。インソールは負担軽減の補助であり、ふくらはぎのストレッチや段階的な運動再開とあわせて使ってください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">症状が長引く・腫れがある場合は、アキレス腱断裂の前兆のこともあるため整形外科を受診してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ヒールカップ・ヒールリフトの考え方（一般論）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ヒールカップ・ヒールリフトの考え方（一般論）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アキレス腱への負担を減らす設計として、インソール選びでよく登場するのが「ヒールリフト」と「ヒールカップ」です。ヒールリフトは、かかとを数mmだけ高くしてつま先との高低差をつける考え方で、足首がわずかに底屈方向（つま先立ちの方向）になるぶん、ふくらはぎからアキレス腱への引っ張りが緩むとされます。ポイントは、左右両足に同じ高さで入れることと、高くしすぎないことです。片足だけ高くすると左右差が生まれ、高すぎると靴の中で前滑りしてつま先が圧迫されたり、かかとが浅くなって不安定になったりします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ヒールカップは、かかとを立体的に包み込んで後足部のブレを抑える構造です。着地のたびにかかとが内外に傾くと、アキレス腱には捻れ方向の負担が繰り返しかかります。かかとが深く収まるカップ形状は、この横方向のブレを抑えて着地を安定させる補助になります。柔らかすぎる素材はかかとが沈み込んで安定しにくいため、クッション性と支えの硬さのバランスが取れたものが向いています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">いずれも一般的な考え方であり、市販のインソールは医療機器ではありません。あくまで日常やスポーツでの負担を減らす補助として使い、痛みそのものへの対処は次の受診の目安を確認してください。かかとまわりの痛みは<Link href="/articles/heel-pain-insole/" className="text-[#e8627c] underline font-medium">かかとの痛み</Link>や<Link href="/articles/plantar-fasciitis/" className="text-[#e8627c] underline font-medium">足底筋膜炎</Link>と原因が異なることもあります。どのタイプが合うか迷う場合は<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問で相性がわかるタイプ診断</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">痛みが続く・腫れがある場合は整形外科へ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">痛みが続く・腫れがある場合は整形外科へ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アキレス腱まわりの痛みには、アキレス腱炎・アキレス腱周囲炎・かかとの骨への付着部の炎症（付着部症）など、対処の異なる状態が含まれます。市販のインソールは負担を減らす補助であり、治療の代わりにはなりません。次のような場合は自己判断で様子を見続けず、整形外科を受診してください。</p>
           <ul className="list-disc pl-6 space-y-2 mb-4 text-sm md:text-base text-gray-700 leading-relaxed">
             <li>痛みが数週間たっても引かない、またはだんだん強くなっている</li>
@@ -147,11 +147,11 @@ export default function AchillesPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

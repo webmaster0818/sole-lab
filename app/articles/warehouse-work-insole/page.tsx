@@ -60,7 +60,7 @@ export default function WarehouseWorkPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">倉庫作業・ピッキングにおすすめのインソール｜コンクリ床の歩き回り対策</h1>
@@ -73,17 +73,17 @@ export default function WarehouseWorkPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">倉庫の仕事で足が疲れる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">倉庫の仕事で足が疲れる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">同じ『現場系の立ち仕事』でも、ラインの前に立ち続ける工場作業と違い、倉庫のピッキングは歩行が主体です。広い倉庫内を棚から棚へ移動し続けるため一日の歩行距離が長く、その一歩一歩がクッション性のないコンクリート床への着地になります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">さらに荷物を持ち上げる・運ぶ動作では、体重に荷物の重さが加わった負荷が足裏にかかります。歩行の繰り返し衝撃と重量物の荷重、この2つを受け止めるには、クッション性とアーチサポートを兼ね備えたインソールが合理的です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">倉庫作業・ピッキングの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">倉庫作業・ピッキングの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function WarehouseWorkPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">倉庫作業・ピッキングにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">倉庫作業・ピッキングにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">コンクリート床の長距離歩行と重量物の荷重を受け止めるインソールが倉庫作業に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function WarehouseWorkPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">安全靴での使い方と疲れをためないコツ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">安全靴での使い方と疲れをためないコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">安全靴に入れる場合は、つま先の保護芯まわりが窮屈にならないか必ず確認し、カットできるタイプでサイズを合わせると失敗しにくい傾向があります。フィットしないと靴の中で足が滑り、長距離歩行ではかえって疲れや靴ずれの原因になります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">休憩時にふくらはぎと足裏を伸ばすと、歩き回りの疲れがリセットしやすくなります。毎日長距離を歩く使い方ではインソールがへたりやすいため、3〜6ヶ月を目安に交換を。足裏やかかとの痛みが続く場合は我慢せず整形外科を受診してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

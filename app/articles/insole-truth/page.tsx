@@ -114,7 +114,7 @@ export default function InsoleTruthPage() {
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>ダイエットインソールは「嘘」ではありませんが、「履くだけで痩せる魔法の道具」でもありません。正しい効果は、姿勢改善・歩行効率向上による運動効率のサポートです。継続使用と適度な運動の併用が成功の条件です。</p>
         </div>

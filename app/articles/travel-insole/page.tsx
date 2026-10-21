@@ -60,7 +60,7 @@ export default function TravelPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">旅行・観光の歩き疲れに向くインソールの選び方｜普段の何倍も歩く日に備える</h1>
@@ -73,17 +73,17 @@ export default function TravelPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">旅行で足が疲れやすい理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">旅行で足が疲れやすい理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">旅行中の歩数は、普段デスクワーク中心の人にとって日常の2〜3倍以上になることがあります。さらに観光では、石畳や坂道、長い階段など普段歩かない路面が多く、立ち止まって展示を見る・行列に並ぶといった「立ちっぱなし」の時間も加わります。歩く・立つが一日中続くことで、足裏のアーチは疲労で沈み込み、衝撃を吸収しにくくなって疲れが加速します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">また、座っている時間が短く足を下げ続けるため、夕方には足がむくみやすくなります。インソールでアーチを支えると、着地の衝撃が分散されて足裏の疲労がたまりにくくなるほか、歩行時にふくらはぎの筋ポンプが働きやすくなり、むくみ対策の補助にもなります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">旅行・観光の歩き疲れの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">旅行・観光の歩き疲れの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function TravelPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">旅行・観光の歩き疲れにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">旅行・観光の歩き疲れにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、日常の歩行サポートを目的としたインソールで、旅行のような「歩く量が一時的に増える日」のケアにも取り入れやすいものです。ピットソールは特許取得のアーチサポートで長時間の街歩き向き、ランウェイキュアソールは足に直接装着するソックス型なのでスニーカーからホテルのスリッパまで履き物を選ばず、スリムアップインソールは軽量なEVA/PE素材で携行の負担になりません。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,13 +114,13 @@ export default function TravelPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">旅行前の準備と旅先での注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">旅行前の準備と旅先での注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは旅行当日デビューにせず、出発の1〜2週間前から普段の靴に入れて慣らしておいてください。慣らし期間に違和感や当たりがないか確認しておけば、本番で靴ずれや足裏の痛みに悩まされるリスクを減らせます。あわせて、観光の合間に座って足を休める・夜にふくらはぎを軽くストレッチするだけでも、翌日の疲れの残り方が変わります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">旅行中にかかとや足裏に鋭い痛みが出た場合は、無理に予定を詰め込まず歩く量を減らしてください。帰宅後も痛みが続く場合は、足底腱膜炎など歩きすぎによるトラブルの可能性があるため、整形外科で確認しておくと安心です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">旅程タイプ別の考え方（街歩き・山歩き・テーマパーク）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">旅程タイプ別の考え方（街歩き・山歩き・テーマパーク）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">同じ旅行でも、旅程のタイプによって足への負担のかかり方は変わります。メインの過ごし方に合わせて、重視するポイントを整理しておいてください。</p>
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">街歩き・観光地めぐり：クッションとアーチサポートの両立</h3>
@@ -137,18 +137,18 @@ export default function TravelPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">携行と履き替えのコツ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">携行と履き替えのコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">中敷き型はメインの歩き用スニーカーに入れたままにしておけば、荷物は増えません。旅先で別の靴にも使いたい場合は、当日の朝に慌てて入れ替えるのではなく、前夜のうちに移してフィット感を確かめておくと安心です。ソックス型は足に直接装着するため、靴を履き替えても付け替えの手間がなく、履き物が複数になる旅程と相性が良い形式です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一日歩いた後のインソールは汗を含んでいます。ホテルに戻ったら靴から取り出して乾かしておくと、翌日も快適に使えて衛生面でも安心です。雨で濡れた場合も同様に、靴とは別にして乾かしてください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">「一日中立つ・歩き続ける」という負担は、<Link href="/articles/security-guard-insole/" className="text-[#e8627c] underline font-medium">警備員など立ち仕事</Link>の足の疲れとも共通しています。自分の足や使い方にどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソールタイプ診断</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

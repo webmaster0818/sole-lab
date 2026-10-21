@@ -61,7 +61,7 @@ export default function SlipOnPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">靴タイプ別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">靴タイプ別</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">スリッポンに合うインソールの選び方｜かかと脱げと前滑りを抑える</h1>
@@ -74,17 +74,17 @@ export default function SlipOnPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スリッポンで足が疲れる・脱げやすい理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">スリッポンで足が疲れる・脱げやすい理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">スリッポンはひもがないぶん、甲を押さえる力が弱く、歩行のたびにかかとがわずかに浮きやすい構造です。足はそれを防ごうと無意識に指を曲げて踏ん張るため、長く歩くと足裏や指の付け根が疲れやすくなります。また底が薄くフラットなモデルが多く、アーチを支える機能はほとんど期待できません。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールで土踏まずを支えて足裏との接地面を増やすと、靴の中での前滑りや足のブレが減り、踏ん張りによる疲れをやわらげる補助になります。ただしひもで締められない靴は中敷き自体もズレやすいため、靴の形に正確に合わせることが他の靴以上に重要です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スリッポンの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">スリッポンの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function SlipOnPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スリッポンにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">スリッポンにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">フィット調整できないスリッポンの弱点は、アーチサポートと正確なサイズ合わせで補えます。中敷きのズレ自体が気になる方には、靴ではなく足に直接装着するソックス型のランウェイキュアソール（女性向けM/L・22.5〜25cm）という手もあります。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function SlipOnPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スリッポンで使うときの注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">スリッポンで使うときの注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">入れた直後は甲のきつさとかかとの浮きを室内でご確認ください。元の中敷きが外せるモデルなら外してから入れると、高さが変わりにくくフィット感を保てます。キャンバス地など柔らかいスリッポンは特に、厚みの変化が履き心地に直結します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れても足裏の疲れや痛みが続く場合は、靴のサイズや形が足に合っていない可能性があります。痛みやしびれが長引く場合は、無理に履き続けず整形外科に相談してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

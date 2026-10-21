@@ -60,7 +60,7 @@ export default function DietPeriodPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ダイエットインソールは何日で効果が出る？期間の目安と続け方</h1>
@@ -73,18 +73,18 @@ export default function DietPeriodPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">効果が出るまでの期間の考え方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">効果が出るまでの期間の考え方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ダイエットインソールは、足元を安定させて姿勢や歩き方を整え、日常で使う筋肉を増やすことで消費エネルギーを高める『補助』です。脂肪が一気に燃えるわけではないため、即効性を期待すると挫折しがちです。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">目安として、足の疲れにくさや姿勢の変化は使い始めて数日〜2週間、むくみの軽減は数週間、体型の印象の変化は1〜3ヶ月の継続が必要とされます。ただし、これはあくまで一般的な考え方であり、感じ方は体格・運動量・生活習慣などによって大きく異なります。同じ期間でも変化を実感できる人もいれば、ほとんど自覚できない人もいるのが実際のところです。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">大切なのは「履くだけで痩せる」と期待しすぎないことです。インソールは足元を整えて運動の質を高める手助けをするものであり、消費エネルギーが食事による摂取エネルギーを下回らなければ体重は減りません。インソールの使用と並行して、食事のバランスや歩く量・運動の習慣を見直すことで、はじめて変化につながりやすくなります。個人差が大きいため、日々の小さな変化を記録しながら、焦らず続けるのがおすすめです。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">効果が出る期間の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">効果が出る期間の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function DietPeriodPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">効果が出る期間におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">効果が出る期間におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">毎日続けやすく、姿勢と歩行をしっかり整えるインソールが継続のカギです。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,20 +115,20 @@ export default function DietPeriodPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">挫折しない続け方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">挫折しない続け方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">効果を急がず、まずは『毎日履く』習慣をつくってください。歩数や体重、足の疲れ具合を記録すると、小さな変化に気づけてモチベーションが続きます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">2週間ほどで足の疲れにくさや姿勢の変化を感じたら、歩く量や運動を少しずつ増やしていくと、体型の変化につながりやすくなります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">期間の目安は「結果」ではなく「習慣化」で考える</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">期間の目安は「結果」ではなく「習慣化」で考える</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「何日で効果が出るか」を保証することは、誰にもできません。効果の感じ方には体格・活動量・食事など多くの要因が関わり、個人差が非常に大きいためです。そこでおすすめしたいのが、期間を『結果が出るまでの日数』ではなく『習慣が定着するまでの段階』として捉える考え方です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">たとえば、最初の2週間は「毎日履くこと」だけを目標にする。次の1ヶ月で、かかと着地→蹴り出しの歩き方を意識に加える。その先で歩く量や食事の見直しを少しずつ足していく——という段階の踏み方です。これはあくまで習慣化のための目安であり、体型の変化を約束するものではありませんが、「結果が出ない」と焦って数日でやめてしまうより、はるかに続けやすくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一般に、新しい行動が習慣として定着するまでには一定の期間がかかるとされ、必要な期間は行動の内容や人によって大きく異なると言われています。だからこそ「まずは履くことだけ」のように、ハードルを最小にして始めるのが現実的です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">継続のコツと見直しタイミング</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">継続のコツと見直しタイミング</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">続けるためのコツは、意志の力に頼らず「仕組み」で続けることです。</p>
           <ul className="list-disc list-inside space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-6">
             <li>インソールを入れる靴を「毎日必ず履く1足」に決めて、迷いをなくす</li>
@@ -145,11 +145,11 @@ export default function DietPeriodPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

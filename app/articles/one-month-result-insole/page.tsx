@@ -60,7 +60,7 @@ export default function OneMonthResultPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ダイエットインソールは1ヶ月でどこまで変わる？現実的な期待値</h1>
@@ -73,17 +73,17 @@ export default function OneMonthResultPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">1ヶ月で「体型が変わらない」その理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">1ヶ月で「体型が変わらない」その理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">体重や体型は、摂取エネルギーと消費エネルギーの差が積み重なって少しずつ変わります。一般に健康的な減量ペースは1ヶ月あたり体重の数%程度とされ、それも運動と食事管理を続けた場合の話です。インソールはこのエネルギー収支に直接働きかけるものではないため、履くだけで1ヶ月で体型が変わると期待するのは現実的ではありません。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">では1ヶ月はムダかというと、そうではありません。アーチを支えるインソールに足が慣れ、立ち方・歩き方が安定して『疲れにくい』と感じられるようになるのが、おおむねこの時期です。疲れにくくなれば歩く距離や階段を使う頻度を保ちやすくなり、運動・食事管理と組み合わせたときの土台になります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">1ヶ月でどこまで変わる？の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">1ヶ月でどこまで変わる？の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function OneMonthResultPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">1ヶ月でどこまで変わる？におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">1ヶ月でどこまで変わる？におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">1ヶ月続けて『足の疲れにくさ』を実感しやすい、アーチサポートとクッション性を備えたインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function OneMonthResultPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">1ヶ月の使い方と現実的な目標設定</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">1ヶ月の使い方と現実的な目標設定</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">1ヶ月の目標は『体重を○kg減らす』ではなく、『毎日履いて歩く習慣をつくる』『足が疲れにくくなったか確かめる』に置くのが現実的です。体型の変化を急ぐと挫折しやすく、誇大な広告に振り回される原因にもなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">もし1ヶ月で体型を変えたいなら、主役は食事管理と運動です。インソールは活動を支える脇役として併用し、体型の評価は2〜3ヶ月以上の長い目でご覧ください。短期間での劇的な変化をうたう情報には注意してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

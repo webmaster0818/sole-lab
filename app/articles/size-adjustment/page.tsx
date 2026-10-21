@@ -60,13 +60,13 @@ export default function SizeAdjustmentPage() {
 
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "インソールのサイズ調整方法" }]} />
 
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">実践ガイド</p>
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">実践ガイド</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             インソールのサイズ調整方法
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">カットのコツ</span>
+            <span className="text-[#8a6a4f]">カットのコツ</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             買ったインソールが靴に合わない？自分でカットしてぴったりサイズにする方法と
@@ -84,22 +84,22 @@ export default function SizeAdjustmentPage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#why" className="hover:text-[#0ea5e9] transition-colors">1. サイズ調整が必要な理由</a></li>
-            <li><a href="#tools" className="hover:text-[#0ea5e9] transition-colors">2. 必要な道具と準備</a></li>
-            <li><a href="#steps" className="hover:text-[#0ea5e9] transition-colors">3. カットの手順（5ステップ）</a></li>
-            <li><a href="#tips" className="hover:text-[#0ea5e9] transition-colors">4. 失敗しないためのコツ</a></li>
-            <li><a href="#products" className="hover:text-[#0ea5e9] transition-colors">5. 各製品のカット方法</a></li>
-            <li><a href="#shoe-types" className="hover:text-[#0ea5e9] transition-colors">6. 靴種別のサイズ調整のコツ</a></li>
-            <li><a href="#refit" className="hover:text-[#0ea5e9] transition-colors">7. 調整してもフィットしない場合の見直し</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">8. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">9. まとめ</a></li>
+            <li><a href="#why" className="hover:text-[#8a6a4f] transition-colors">1. サイズ調整が必要な理由</a></li>
+            <li><a href="#tools" className="hover:text-[#8a6a4f] transition-colors">2. 必要な道具と準備</a></li>
+            <li><a href="#steps" className="hover:text-[#8a6a4f] transition-colors">3. カットの手順（5ステップ）</a></li>
+            <li><a href="#tips" className="hover:text-[#8a6a4f] transition-colors">4. 失敗しないためのコツ</a></li>
+            <li><a href="#products" className="hover:text-[#8a6a4f] transition-colors">5. 各製品のカット方法</a></li>
+            <li><a href="#shoe-types" className="hover:text-[#8a6a4f] transition-colors">6. 靴種別のサイズ調整のコツ</a></li>
+            <li><a href="#refit" className="hover:text-[#8a6a4f] transition-colors">7. 調整してもフィットしない場合の見直し</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">8. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">9. まとめ</a></li>
           </ol>
         </div>
       </section>
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <section id="why" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">サイズ調整が必要な理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">サイズ調整が必要な理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは靴のように0.5cm刻みの細かいサイズ展開ではなく、S・M・Lなどの幅広いサイズレンジで販売されていることがほとんどです。そのため、購入したインソールがそのまま靴にぴったりフィットするケースはまれで、多くの場合カットによるサイズ調整が必要になります。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">サイズが合わないインソールのリスク</h3>
@@ -117,7 +117,7 @@ export default function SizeAdjustmentPage() {
         </section>
 
         <section id="tools" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">必要な道具と準備</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">必要な道具と準備</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">サイズ調整に必要な道具を準備してください。特別なものは不要で、家庭にあるもので十分対応できます。</p>
 
           <div className="space-y-4">
@@ -141,41 +141,41 @@ export default function SizeAdjustmentPage() {
         </section>
 
         <section id="steps" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">カットの手順（5ステップ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">カットの手順（5ステップ）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">以下の5ステップで、失敗なくインソールをカットできます。焦らず丁寧に進めてください。</p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">純正中敷きを取り出す</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">靴から純正の中敷きを丁寧に取り出します。つま先側から少しずつ剥がすと、接着されている場合でも比較的きれいに外せます。取り出した中敷きは捨てずに保管してください。カットのガイドとして使うだけでなく、インソールを別の靴に移す際に元に戻すこともできます。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">かかとを合わせて重ねる</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">純正中敷きの裏面とインソールの裏面を上にして重ねます。このとき重要なのは、かかと部分をぴったり合わせることです。かかとの位置がずれると、アーチサポートの位置もずれてしまい、インソールの効果が半減します。テープで仮止めすると作業しやすくなります。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">カットラインを描く</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">純正中敷きの輪郭に沿って、インソールの裏面に油性ペンでカットラインを描きます。つま先部分は純正中敷きの形状に沿って描き、サイド部分はインソールの方が細い場合はそのままでOKです。最初は純正中敷きより2〜3mm大きめに描いておくと安心です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">ラインに沿ってカット</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">描いたカットラインに沿って、ハサミで丁寧にカットします。一度に大きくカットせず、少しずつ切り進めてください。曲線部分はハサミの先端を使い、小刻みに方向を変えながらカットするときれいに仕上がります。直線部分は大きな刃で一気にカットしてOKです。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">5</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">5</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">靴に入れてフィッティング確認</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">カットしたインソールを靴に入れ、実際に履いてフィッティングを確認します。端が折れ曲がっていないか、つま先に余裕があるか、かかとがずれないかをチェック。まだ大きい部分があれば、追加でカットして微調整します。一度に多くカットしすぎないよう、2〜3mm単位で調整するのがコツです。</p>
@@ -184,7 +184,7 @@ export default function SizeAdjustmentPage() {
         </section>
 
         <section id="tips" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">失敗しないためのコツ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">失敗しないためのコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">カット時によくある失敗を防ぐためのコツをまとめました。</p>
 
           <div className="space-y-4">
@@ -208,30 +208,30 @@ export default function SizeAdjustmentPage() {
         </section>
 
         <section id="products" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">各製品のカット方法</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">各製品のカット方法</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">主要なダイエットインソール3商品のカット方法を解説します。</p>
 
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm">
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <h3 className="text-base md:text-xl font-bold text-gray-900 mb-3">ピットソール（Pitsole）のカット方法</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">ピットソールの裏面にはサイズ別のカットラインが印刷されています。XS（21〜22.5cm）、S（23〜24.5cm）、M（25〜26cm）、L（26.5〜27.5cm）、XL（28〜29cm・ブラック/ピンク限定）の5サイズ展開（公式サイトにて2026年7月確認）で、それぞれの中でさらに0.5cm刻みのカットラインがあります。自分の足のサイズに合ったラインに沿ってカットするだけなので、初心者でも簡単にサイズ調整ができます。</p>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細を見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細を見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <h3 className="text-base md:text-xl font-bold text-gray-900 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）のカット方法</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">ランウェイキュアソールはM（22.5〜23.5cm）・L（24〜25cm）の2サイズ展開です。サイズレンジが狭いため、大幅なカットが不要なケースが多いですが、靴の形状に合わせた微調整は必要です。薄型設計のため、ハサミで簡単にカットでき、断面もきれいに仕上がります。</p>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細を見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細を見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <h3 className="text-base md:text-xl font-bold text-gray-900 mb-3">スリムアップインソール（Slim Up Insole）のカット方法</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">スリムアップインソールは男女兼用で幅広いサイズに対応しています。裏面のカットラインに沿ってサイズ調整が可能です。男性用・女性用でカットラインが分かれている場合があるので、自分の性別に合ったラインを確認してからカットしてください。</p>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細を見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細を見る &rarr;</Link>
           </div>
         </section>
 
         <section id="shoe-types" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴種別のサイズ調整のコツ（スニーカー/革靴/パンプス）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴種別のサイズ調整のコツ（スニーカー/革靴/パンプス）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">同じインソールでも、入れる靴のタイプによって調整の勘所が変わります。手持ちの靴に合わせてポイントを押さえてください。</p>
 
           <div className="space-y-4">
@@ -251,7 +251,7 @@ export default function SizeAdjustmentPage() {
         </section>
 
         <section id="refit" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">調整してもフィットしない場合の見直し</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">調整してもフィットしない場合の見直し</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">手順どおりカットしてもしっくりこない場合、原因はカットの精度ではなく「靴」や「足」の側にあることが少なくありません。次の順で見直してみてください。</p>
           <div className="space-y-4 mb-6">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
@@ -264,14 +264,14 @@ export default function SizeAdjustmentPage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">3. 足の状態そのものが変わっていないか</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">横アーチが低下して足幅が広がる<Link href="/articles/splay-foot-insole/" className="text-[#0ea5e9] underline">開張足</Link>のように、足の形の変化が「靴が合わない」の原因になっていることもあります。足指の付け根のしびれ・痛みがあれば<Link href="/articles/morton-disease-insole/" className="text-[#0ea5e9] underline">モートン病の記事</Link>、かかとの痛みがあれば<Link href="/articles/heel-pain-insole/" className="text-[#0ea5e9] underline">かかと痛の記事</Link>も参考にしてください。ただしインソールは医療機器ではないため、痛み・しびれ・変形が続く場合は整形外科での相談を優先してください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">横アーチが低下して足幅が広がる<Link href="/articles/splay-foot-insole/" className="text-[#8a6a4f] underline">開張足</Link>のように、足の形の変化が「靴が合わない」の原因になっていることもあります。足指の付け根のしびれ・痛みがあれば<Link href="/articles/morton-disease-insole/" className="text-[#8a6a4f] underline">モートン病の記事</Link>、かかとの痛みがあれば<Link href="/articles/heel-pain-insole/" className="text-[#8a6a4f] underline">かかと痛の記事</Link>も参考にしてください。ただしインソールは医療機器ではないため、痛み・しびれ・変形が続く場合は整形外科での相談を優先してください。</p>
             </div>
           </div>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">どのタイプのインソールが自分に合うか迷っている段階なら、<Link href="/diagnosis/" className="text-[#0ea5e9] underline font-bold">6つの質問でわかるタイプ診断</Link>から絞り込むのも近道です。フィッティングに不安が残る場合は、シューフィッターのいる靴店で足のサイズ計測を受けるのも有効です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">どのタイプのインソールが自分に合うか迷っている段階なら、<Link href="/diagnosis/" className="text-[#8a6a4f] underline font-bold">6つの質問でわかるタイプ診断</Link>から絞り込むのも近道です。フィッティングに不安が残る場合は、シューフィッターのいる靴店で足のサイズ計測を受けるのも有効です。</p>
         </section>
 
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールをカットしすぎた場合はどうすればいいですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
@@ -305,22 +305,22 @@ export default function SizeAdjustmentPage() {
         </section>
 
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">まとめ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールのサイズ調整は「純正中敷きをガイドにする」「大きめにカットして微調整する」「つま先側だけカットする」の3つを守れば、誰でも失敗なく行えます。正しいサイズにカットしたインソールは、靴の中でズレにくく、効果を最大限に発揮してくれます。</p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">カット対応の主要3商品</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：裏面に詳細なカットライン印刷あり。初心者でも簡単にサイズ調整可能。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：薄型設計でカットしやすい。サイズレンジが狭く大幅カット不要。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：男女兼用の幅広いサイズ対応。カットラインで簡単調整。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：裏面に詳細なカットライン印刷あり。初心者でも簡単にサイズ調整可能。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型設計でカットしやすい。サイズレンジが狭く大幅カット不要。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：男女兼用の幅広いサイズ対応。カットラインで簡単調整。</li>
             </ul>
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールの効果はフィット感で大きく変わります。面倒に感じるかもしれませんが、5分程度の作業で靴に完璧にフィットするインソールが手に入ります。ぜひこの記事の手順を参考に、ぴったりサイズのインソールで快適な歩行を楽しんでください。</p>
 
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
           </div>
         </section>
       </article>

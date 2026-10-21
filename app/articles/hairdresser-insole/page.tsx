@@ -61,7 +61,7 @@ export default function HairdresserPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">美容師の足の疲れにおすすめのインソール｜立ちっぱなしの負担対策</h1>
@@ -74,7 +74,7 @@ export default function HairdresserPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">美容師の足が疲れる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">美容師の足が疲れる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">美容師の仕事は、ほぼ一日中立ちっぱなしで、施術中はその場で姿勢を保ち続けます。サロンの床はタイルやコンクリートなど硬いことが多く、足裏への衝撃が蓄積しやすい環境です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">立ち続けると足裏のアーチが疲労で沈み込み、衝撃を吸収できずに疲れ・むくみが強まります。インソールでアーチを支え、硬い床からの衝撃をクッションで吸収すると、足の疲れを軽くする助けになります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">夕方に足がむくむのは、長時間の立位で重力により水分や血液が下半身にたまりやすくなるためです。本来はふくらはぎの筋肉が伸び縮みして血液を心臓へ戻すポンプの役割を果たしますが、同じ姿勢で立ち続けるとこの動きが乏しくなり、足首やふくらはぎがだるく重く感じやすくなります。</p>
@@ -82,11 +82,11 @@ export default function HairdresserPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">美容師の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">美容師の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -95,19 +95,19 @@ export default function HairdresserPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">仕事靴での使い方と注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">仕事靴での使い方と注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは入れて終わりではなく、靴の中で正しく機能させてこそ役立ちます。まずは靴に元から入っている中敷きを外し、その上に重ねず入れ替えて使うのが基本です。重ねると厚みでつま先が窮屈になり、かえって足に負担がかかることがあります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">入れるときは、かかとを靴の後ろにしっかり合わせ、土踏まずのサポート位置が自分の足のアーチと合っているかをご確認ください。位置がずれると本来のサポートが得られません。歩いたり立ったりしたときに違和感がないか、出勤前に一度試しておくと安心です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">衛生面では、汗をかきやすい仕事靴だからこそこまめなケアが大切です。取り外せるインソールは仕事終わりに取り出して陰干しし、湿気を逃すと臭いやムレを抑えられます。複数枚を用意して日替わりで使い、しっかり乾かしてから使い回すのもおすすめです。</p>
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">美容師におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">美容師におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">硬い床の衝撃を吸収し、アーチを支える薄型インソールが美容師さんに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -124,18 +124,18 @@ export default function HairdresserPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">立ち仕事の疲れをためないコツ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">立ち仕事の疲れをためないコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">施術の合間に足踏みやかかと上げをすると、ふくらはぎの筋ポンプが働いてむくみがたまりにくくなります。インソールと組み合わせると効果的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">毎日長時間使うとインソールはへたりやすいので、3〜6ヶ月を目安に交換すると効果を保てます。クッションが薄くつぶれてきた、土踏まずの支えが弱く感じる、といったサインが交換の目安です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">仕事中は水分をこまめにとり、休憩時に足首を回したりつま先立ちをしたりして血流を促すのも有効です。帰宅後に足を少し高くして休めると、むくみのリセットに役立つとされています。インソールはあくまで疲れをやわらげる補助であり、無理のない範囲で休息や姿勢の見直しと組み合わせることが大切です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

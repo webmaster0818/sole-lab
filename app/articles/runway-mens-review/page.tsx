@@ -130,15 +130,15 @@ export default function RunwayMensReviewPage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ランウェイキュアソールは男性でも使える？" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             公式サイトにて2026年7月確認
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ランウェイキュアソールは
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">男性でも使える？</span>
+            <span className="text-[#8a6a4f]">男性でも使える？</span>
             <br />
             サイズ対応の真実と代替案
           </h1>
@@ -158,42 +158,42 @@ export default function RunwayMensReviewPage() {
           </p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#conclusion" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#conclusion" className="hover:text-[#8a6a4f] transition-colors">
                 1. 結論：公式サイズは女性向けM/Lの2サイズのみ
               </a>
             </li>
             <li>
-              <a href="#size" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#size" className="hover:text-[#8a6a4f] transition-colors">
                 2. 公式サイズ展開と男性の足サイズの関係
               </a>
             </li>
             <li>
-              <a href="#under25" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#under25" className="hover:text-[#8a6a4f] transition-colors">
                 3. 足の実寸が25.0cm以内の男性の場合
               </a>
             </li>
             <li>
-              <a href="#alternatives" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#alternatives" className="hover:text-[#8a6a4f] transition-colors">
                 4. 25cmを超える男性の代替案
               </a>
             </li>
             <li>
-              <a href="#chart" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#chart" className="hover:text-[#8a6a4f] transition-colors">
                 5. 足サイズ別の選択肢早見表
               </a>
             </li>
             <li>
-              <a href="#price" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#price" className="hover:text-[#8a6a4f] transition-colors">
                 6. 3製品の価格比較（公式確認値）
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 7. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 8. まとめ
               </a>
             </li>
@@ -205,7 +205,7 @@ export default function RunwayMensReviewPage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="conclusion" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             結論：公式サイズは女性向けM/Lの2サイズのみ
           </h2>
 
@@ -228,10 +228,10 @@ export default function RunwayMensReviewPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            当サイトの<Link href="/runway-cure-sole/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソール製品ページ</Link>でも、公式確認済みのサイズ情報として「男性はサイズ非対応のため使用できない」旨を明記しています。本記事はこの公式情報を前提に、「では男性はどうすればよいのか」に正面から答えます。
+            当サイトの<Link href="/runway-cure-sole/" className="text-[#8a6a4f] hover:underline">ランウェイキュアソール製品ページ</Link>でも、公式確認済みのサイズ情報として「男性はサイズ非対応のため使用できない」旨を明記しています。本記事はこの公式情報を前提に、「では男性はどうすればよいのか」に正面から答えます。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold">お詫びと訂正（2026年7月5日）：</span>
               本記事は以前「男性も使用できる」前提の内容を掲載していましたが、公式サイトの再確認により、サイズ展開が女性向けM/L（22.5〜25.0cm）のみであることを確認したため、全面的に訂正しました。
@@ -241,7 +241,7 @@ export default function RunwayMensReviewPage() {
 
         {/* Section 2 */}
         <section id="size" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             公式サイズ展開と男性の足サイズの関係
           </h2>
 
@@ -287,7 +287,7 @@ export default function RunwayMensReviewPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            自分の足の実寸を正確に測る方法は、<Link href="/articles/runway-size-guide/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソールサイズガイド</Link>で解説しています。靴のサイズ（足入れサイズ）と足の実寸は異なることが多いため、判断は必ず実寸で行ってください。
+            自分の足の実寸を正確に測る方法は、<Link href="/articles/runway-size-guide/" className="text-[#8a6a4f] hover:underline">ランウェイキュアソールサイズガイド</Link>で解説しています。靴のサイズ（足入れサイズ）と足の実寸は異なることが多いため、判断は必ず実寸で行ってください。
           </p>
 
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
@@ -300,7 +300,7 @@ export default function RunwayMensReviewPage() {
 
         {/* Section 3 */}
         <section id="under25" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             足の実寸が25.0cm以内の男性の場合
           </h2>
 
@@ -338,13 +338,13 @@ export default function RunwayMensReviewPage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            サイズ選び全般の考え方は<Link href="/articles/size-adjustment/" className="text-[#0ea5e9] hover:underline">インソールサイズ調整の記事</Link>も参考になります（カット調整の話は中敷き型が対象で、ソックス型のランウェイキュアソールには適用できません）。
+            サイズ選び全般の考え方は<Link href="/articles/size-adjustment/" className="text-[#8a6a4f] hover:underline">インソールサイズ調整の記事</Link>も参考になります（カット調整の話は中敷き型が対象で、ソックス型のランウェイキュアソールには適用できません）。
           </p>
         </section>
 
         {/* Section 4 */}
         <section id="alternatives" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             25cmを超える男性の代替案
           </h2>
 
@@ -356,7 +356,7 @@ export default function RunwayMensReviewPage() {
             ピットソール：21.0〜29.0cmの5サイズ展開
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            <Link href="/pitsole/" className="text-[#0ea5e9] hover:underline">ピットソール</Link>は靴に入れる中敷き型のインソールで、公式サイズ展開はXS/S/M/L/XLの5サイズ。男性の一般的な足サイズを含む広い範囲をカバーしています。
+            <Link href="/pitsole/" className="text-[#8a6a4f] hover:underline">ピットソール</Link>は靴に入れる中敷き型のインソールで、公式サイズ展開はXS/S/M/L/XLの5サイズ。男性の一般的な足サイズを含む広い範囲をカバーしています。
           </p>
 
           <div className="overflow-x-auto mb-4">
@@ -398,26 +398,26 @@ export default function RunwayMensReviewPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mb-6">
-            出典：ピットソール公式サイト（2026年7月確認）。詳細は<Link href="/pitsole/size/" className="text-[#0ea5e9] hover:underline">ピットソールのサイズ情報ページ</Link>をご覧ください。
+            出典：ピットソール公式サイト（2026年7月確認）。詳細は<Link href="/pitsole/size/" className="text-[#8a6a4f] hover:underline">ピットソールのサイズ情報ページ</Link>をご覧ください。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
             スリムアップインソール：最大26.5cmまで
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            <Link href="/slim-up-insole/" className="text-[#0ea5e9] hover:underline">スリムアップインソール</Link>の公式サイズ展開はS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズで、対応最大は26.5cmです（公式サイトにて2026年7月確認）。足の実寸が26.5cm以内の男性であれば選択肢になりますが、それを超える場合は対応外です。
+            <Link href="/slim-up-insole/" className="text-[#8a6a4f] hover:underline">スリムアップインソール</Link>の公式サイズ展開はS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズで、対応最大は26.5cmです（公式サイトにて2026年7月確認）。足の実寸が26.5cm以内の男性であれば選択肢になりますが、それを超える場合は対応外です。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              足の実寸が26.5cmを超える男性の場合、当サイトで公式サイズを確認済みの3製品のうち対応するのは<span className="font-bold">ピットソール（L/XL）のみ</span>です。3製品の詳しい比較は<Link href="/compare/pitsole-vs-runway/" className="text-[#0ea5e9] hover:underline">ピットソール vs ランウェイキュアソール比較</Link>や<Link href="/ranking/" className="text-[#0ea5e9] hover:underline">おすすめランキングページ</Link>をご覧ください。
+              足の実寸が26.5cmを超える男性の場合、当サイトで公式サイズを確認済みの3製品のうち対応するのは<span className="font-bold">ピットソール（L/XL）のみ</span>です。3製品の詳しい比較は<Link href="/compare/pitsole-vs-runway/" className="text-[#8a6a4f] hover:underline">ピットソール vs ランウェイキュアソール比較</Link>や<Link href="/ranking/" className="text-[#8a6a4f] hover:underline">おすすめランキングページ</Link>をご覧ください。
             </p>
           </div>
         </section>
 
         {/* Section 5 */}
         <section id="chart" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             足サイズ別の選択肢早見表
           </h2>
 
@@ -471,7 +471,7 @@ export default function RunwayMensReviewPage() {
 
         {/* Section 6 */}
         <section id="price" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             3製品の価格比較（公式確認値）
           </h2>
 
@@ -509,13 +509,13 @@ export default function RunwayMensReviewPage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            ランウェイキュアソールの価格・購入方法の詳細は<Link href="/runway-cure-sole/price/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソール料金ページ</Link>で解説しています。ただし前述のとおり、25cmを超える男性はサイズ対応外である点にご注意ください。
+            ランウェイキュアソールの価格・購入方法の詳細は<Link href="/runway-cure-sole/price/" className="text-[#8a6a4f] hover:underline">ランウェイキュアソール料金ページ</Link>で解説しています。ただし前述のとおり、25cmを超える男性はサイズ対応外である点にご注意ください。
           </p>
         </section>
 
         {/* Section 7: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -569,7 +569,7 @@ export default function RunwayMensReviewPage() {
 
         {/* Section 8: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -591,13 +591,13 @@ export default function RunwayMensReviewPage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            足の実寸が25cmを超える男性は、対応サイズが公式に明示されている<Link href="/pitsole/" className="text-[#0ea5e9] hover:underline">ピットソール</Link>を第一候補として検討してください。サイズの詳細は<Link href="/pitsole/size/" className="text-[#0ea5e9] hover:underline">ピットソールのサイズ情報ページ</Link>で確認できます。
+            足の実寸が25cmを超える男性は、対応サイズが公式に明示されている<Link href="/pitsole/" className="text-[#8a6a4f] hover:underline">ピットソール</Link>を第一候補として検討してください。サイズの詳細は<Link href="/pitsole/size/" className="text-[#8a6a4f] hover:underline">ピットソールのサイズ情報ページ</Link>で確認できます。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               ランウェイキュアソールの製品情報・公式スペックは
-              <Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール製品ページ</Link>で、3製品の総合比較は<Link href="/ranking/" className="text-[#0ea5e9] hover:underline">おすすめランキングページ</Link>で確認できます。
+              <Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール製品ページ</Link>で、3製品の総合比較は<Link href="/ranking/" className="text-[#8a6a4f] hover:underline">おすすめランキングページ</Link>で確認できます。
             </p>
           </div>
         </section>

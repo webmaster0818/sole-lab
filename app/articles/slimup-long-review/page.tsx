@@ -131,15 +131,15 @@ export default function SlimupLongReviewPage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "スリムアップインソール長期レビュー検証" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年7月更新 長期使用の検証記事
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             スリムアップインソールを
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">3ヶ月</span>使うとどうなる？
+            <span className="text-[#8a6a4f]">3ヶ月</span>使うとどうなる？
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             美容整体師監修のスリムアップインソールを長期間使うと何が起こるのか。
@@ -154,7 +154,7 @@ export default function SlimupLongReviewPage() {
         <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-amber-700 mb-1">この記事の検証方針</p>
           <p className="leading-relaxed">
-            当サイトは、架空の人物による体験談や出典のない実測値（体重◯kg減など）を掲載しない方針です（<Link href="/content-policy/" className="text-[#0ea5e9] underline">コンテンツポリシー</Link>）。
+            当サイトは、架空の人物による体験談や出典のない実測値（体重◯kg減など）を掲載しない方針です（<Link href="/content-policy/" className="text-[#8a6a4f] underline">コンテンツポリシー</Link>）。
             本記事は特定個人の使用日記ではなく、<strong>公式サイトで確認できる仕様・使い方の案内、確認できる実レビュー、アーチサポート型インソール一般の知見</strong>をもとに、「3ヶ月使うと何が起こりやすいか」「何を確認すべきか」を期間別に整理した検証記事です。効果には個人差があり、痩せると断定できるものではありません。
           </p>
         </div>
@@ -172,47 +172,47 @@ export default function SlimupLongReviewPage() {
           </p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#premise" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#premise" className="hover:text-[#8a6a4f] transition-colors">
                 1. 検証の前提（製品仕様と期待値の整理）
               </a>
             </li>
             <li>
-              <a href="#week1" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#week1" className="hover:text-[#8a6a4f] transition-colors">
                 2. 使用1週目に起こりやすいこと
               </a>
             </li>
             <li>
-              <a href="#month1" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#month1" className="hover:text-[#8a6a4f] transition-colors">
                 3. 1ヶ月目の確認ポイント
               </a>
             </li>
             <li>
-              <a href="#month3" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#month3" className="hover:text-[#8a6a4f] transition-colors">
                 4. 2〜3ヶ月目に期待できること・できないこと
               </a>
             </li>
             <li>
-              <a href="#durability" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#durability" className="hover:text-[#8a6a4f] transition-colors">
                 5. 耐久性と交換目安
               </a>
             </li>
             <li>
-              <a href="#reviews" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#reviews" className="hover:text-[#8a6a4f] transition-colors">
                 6. 確認できる口コミ・レビューの現状
               </a>
             </li>
             <li>
-              <a href="#tips" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#tips" className="hover:text-[#8a6a4f] transition-colors">
                 7. 長期使用を続けるコツと注意点
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 8. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 9. まとめ
               </a>
             </li>
@@ -224,12 +224,12 @@ export default function SlimupLongReviewPage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="premise" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             検証の前提（製品仕様と期待値の整理）
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            スリムアップインソールは、美容整体師・井上剛志氏が監修した機能性インソールです。足裏のアーチをサポートし、歩行時の姿勢・筋肉の使い方を整えることを狙った設計で、S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開です（公式サイトにて2026年7月確認）。詳しい製品情報は<Link href="/slim-up-insole/" className="text-[#0ea5e9] hover:underline">スリムアップインソール詳細ページ</Link>を参照してください。
+            スリムアップインソールは、美容整体師・井上剛志氏が監修した機能性インソールです。足裏のアーチをサポートし、歩行時の姿勢・筋肉の使い方を整えることを狙った設計で、S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開です（公式サイトにて2026年7月確認）。詳しい製品情報は<Link href="/slim-up-insole/" className="text-[#8a6a4f] hover:underline">スリムアップインソール詳細ページ</Link>を参照してください。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
@@ -254,7 +254,7 @@ export default function SlimupLongReviewPage() {
 
         {/* Section 2 */}
         <section id="week1" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             使用1週目に起こりやすいこと
           </h2>
 
@@ -291,7 +291,7 @@ export default function SlimupLongReviewPage() {
             </div>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               1週目のポイント：焦らず慣らすことが最優先。違和感は徐々に薄れるのが通常ですが、痛みが続く場合はサイズ・靴との相性を見直してください。
             </p>
@@ -300,7 +300,7 @@ export default function SlimupLongReviewPage() {
 
         {/* Section 3 */}
         <section id="month1" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             1ヶ月目の確認ポイント
           </h2>
 
@@ -319,7 +319,7 @@ export default function SlimupLongReviewPage() {
             歩行量の変化
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            長期使用の成果を左右する最大の要因は歩行量です。スマホや歩数計で1日の歩数を記録し、開始前より歩く機会が増えているかをご確認ください。歩行量が変わっていなければ、体型面の変化を期待する根拠は乏しくなります。歩き方の質については<Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">効果的な歩き方の記事</Link>も参考になります。
+            長期使用の成果を左右する最大の要因は歩行量です。スマホや歩数計で1日の歩数を記録し、開始前より歩く機会が増えているかをご確認ください。歩行量が変わっていなければ、体型面の変化を期待する根拠は乏しくなります。歩き方の質については<Link href="/articles/effective-walking/" className="text-[#8a6a4f] hover:underline">効果的な歩き方の記事</Link>も参考になります。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5">
@@ -335,7 +335,7 @@ export default function SlimupLongReviewPage() {
 
         {/* Section 4 */}
         <section id="month3" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             2〜3ヶ月目に期待できること・できないこと
           </h2>
 
@@ -381,13 +381,13 @@ export default function SlimupLongReviewPage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            体型・体重の変化を目指す場合は、インソールを「歩行の質と量を高める補助ツール」と位置づけ、食事管理・運動と組み合わせるのが現実的です。2〜3ヶ月続けても目的に合った手応えがない場合は、使い方（歩行量・サイズ・靴との相性）を見直すか、<Link href="/articles/slimup-not-working/" className="text-[#0ea5e9] hover:underline">効果を感じにくい場合の対処法</Link>を確認してください。
+            体型・体重の変化を目指す場合は、インソールを「歩行の質と量を高める補助ツール」と位置づけ、食事管理・運動と組み合わせるのが現実的です。2〜3ヶ月続けても目的に合った手応えがない場合は、使い方（歩行量・サイズ・靴との相性）を見直すか、<Link href="/articles/slimup-not-working/" className="text-[#8a6a4f] hover:underline">効果を感じにくい場合の対処法</Link>を確認してください。
           </p>
         </section>
 
         {/* Section 5 */}
         <section id="durability" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             耐久性と交換目安
           </h2>
 
@@ -419,19 +419,19 @@ export default function SlimupLongReviewPage() {
                 チェックポイント3：クッション性の低下
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                EVA素材は使用とともに徐々に潰れてクッション性が低下します。インソール全般の交換目安は一般的に3〜6ヶ月程度とされています。詳しくは<Link href="/articles/lifespan/" className="text-[#0ea5e9] hover:underline">インソールの寿命・交換目安の記事</Link>を参考にしてください。
+                EVA素材は使用とともに徐々に潰れてクッション性が低下します。インソール全般の交換目安は一般的に3〜6ヶ月程度とされています。詳しくは<Link href="/articles/lifespan/" className="text-[#8a6a4f] hover:underline">インソールの寿命・交換目安の記事</Link>を参考にしてください。
               </p>
             </div>
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            長持ちさせるコツは、使用後に靴から取り出して陰干しし、汗を溜めないことです。お手入れ方法の詳細は<Link href="/articles/insole-care/" className="text-[#0ea5e9] hover:underline">インソールのお手入れガイド</Link>をご覧ください。
+            長持ちさせるコツは、使用後に靴から取り出して陰干しし、汗を溜めないことです。お手入れ方法の詳細は<Link href="/articles/insole-care/" className="text-[#8a6a4f] hover:underline">インソールのお手入れガイド</Link>をご覧ください。
           </p>
         </section>
 
         {/* Section 6 */}
         <section id="reviews" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             確認できる口コミ・レビューの現状
           </h2>
 
@@ -442,13 +442,13 @@ export default function SlimupLongReviewPage() {
           <div className="bg-white border border-gray-200 rounded-lg p-5 mb-4">
             <ul className="space-y-2 text-sm text-gray-700 leading-relaxed">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] shrink-0 mt-0.5">&#10003;</span>
+                <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                 <span>
                   楽天市場（イッティ公式 楽天市場店）の単品の商品レビューは総合3.6 / 5.0（5件・2026年10月14日参照）。★4〜5では足裏への刺激が心地よいといった声が見られますが、件数が少なく傾向を断定できる段階ではありません。
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] shrink-0 mt-0.5">&#10003;</span>
+                <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                 <span>
                   3ヶ月以上の長期使用について具体的に書かれた、出典を確認できる口コミは現時点で見つけられていません。
                 </span>
@@ -460,13 +460,13 @@ export default function SlimupLongReviewPage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            口コミの蓄積状況は今後も定期的に確認し、本記事を更新します。より口コミ件数の多い製品と比較したい方は<Link href="/ranking/" className="text-[#0ea5e9] hover:underline">3製品比較ランキング</Link>をご覧ください。
+            口コミの蓄積状況は今後も定期的に確認し、本記事を更新します。より口コミ件数の多い製品と比較したい方は<Link href="/ranking/" className="text-[#8a6a4f] hover:underline">3製品比較ランキング</Link>をご覧ください。
           </p>
         </section>
 
         {/* Section 7 */}
         <section id="tips" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             長期使用を続けるコツと注意点
           </h2>
 
@@ -516,7 +516,7 @@ export default function SlimupLongReviewPage() {
                 交換時期を見逃さない
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                ヘタったインソールを使い続けると本来のサポートが得られません。3〜6ヶ月を目安に状態をチェックし、アーチのヘタリやクッション性の低下が見られたら交換してください。価格・購入方法は<Link href="/slim-up-insole/price/" className="text-[#0ea5e9] hover:underline">料金ページ</Link>で確認できます。
+                ヘタったインソールを使い続けると本来のサポートが得られません。3〜6ヶ月を目安に状態をチェックし、アーチのヘタリやクッション性の低下が見られたら交換してください。価格・購入方法は<Link href="/slim-up-insole/price/" className="text-[#8a6a4f] hover:underline">料金ページ</Link>で確認できます。
               </p>
             </div>
           </div>
@@ -524,7 +524,7 @@ export default function SlimupLongReviewPage() {
 
         {/* Section 8: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -544,7 +544,7 @@ export default function SlimupLongReviewPage() {
 
         {/* Section 9: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -570,13 +570,13 @@ export default function SlimupLongReviewPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            他製品も含めて検討したい方は、口コミデータの多い<Link href="/pitsole/" className="text-[#0ea5e9] hover:underline">ピットソール</Link>や、姿勢サポート特化の<Link href="/runway-cure-sole/" className="text-[#0ea5e9] hover:underline">ランウェイキュアソール</Link>も選択肢になります。
+            他製品も含めて検討したい方は、口コミデータの多い<Link href="/pitsole/" className="text-[#8a6a4f] hover:underline">ピットソール</Link>や、姿勢サポート特化の<Link href="/runway-cure-sole/" className="text-[#8a6a4f] hover:underline">ランウェイキュアソール</Link>も選択肢になります。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミの傾向を一覧で比較したい方は
-              <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。スリムアップインソールの効果が感じにくい場合の対処法は<Link href="/articles/slimup-not-working/" className="text-[#0ea5e9] hover:underline">効果なし？の記事</Link>を参考にしてください。
+              <Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。スリムアップインソールの効果が感じにくい場合の対処法は<Link href="/articles/slimup-not-working/" className="text-[#8a6a4f] hover:underline">効果なし？の記事</Link>を参考にしてください。
             </p>
           </div>
         </section>

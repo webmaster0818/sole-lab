@@ -60,7 +60,7 @@ export default function BusinessShoesPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">靴タイプ別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">靴タイプ別</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ビジネスシューズ・革靴のインソールの選び方｜通勤の足の疲れ・蒸れ対策</h1>
@@ -73,7 +73,7 @@ export default function BusinessShoesPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">革靴で足が疲れる・蒸れる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">革靴で足が疲れる・蒸れる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ビジネスシューズは見た目重視で底が薄く硬い製品が多く、クッション性が不足しがちです。さらに通気性が低いため靴の中が蒸れやすく、長時間の歩行でアーチが沈むと疲れやニオイが強まります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一般に、長時間の歩行や立ち仕事で足が疲れやすくなる背景には、いくつかの要因が重なっていると考えられています。革靴は底がフラットで硬く反発が少ないため、着地のたびにかかと・土踏まず・前足部へ衝撃が伝わりやすい構造です。また、つま先の細いデザインや硬い甲革は足を一定の形に固定するため、長時間履くと圧迫感やこわばりにつながりやすくなります。デスクと外回りを行き来する通勤スタイルでは、座位と歩行が繰り返されることで足のむくみも生じやすい傾向があります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">蒸れやニオイの一因としては、革靴の通気性の低さが挙げられます。足裏は汗をかきやすい部位で、密閉された靴内では湿気がこもり、雑菌が繁殖しやすい環境になりがちです。これがニオイの原因の一つと言われています。夕方になると靴がきつく感じるのも、こうしたむくみや湿気の影響が背景にあると考えられます。</p>
@@ -81,11 +81,11 @@ export default function BusinessShoesPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ビジネスシューズ・革靴の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ビジネスシューズ・革靴の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -94,12 +94,12 @@ export default function BusinessShoesPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ビジネスシューズ・革靴におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ビジネスシューズ・革靴におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">革靴に響かない薄型で、アーチサポートと消臭機能を備えたインソールがビジネスシューズに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -116,24 +116,24 @@ export default function BusinessShoesPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">蒸れ・ニオイを抑える使い方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">蒸れ・ニオイを抑える使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">帰宅後はインソールを取り出して陰干しすると、蒸れがリセットされニオイがこもりにくくなります。複数枚をローテーションするのも効果的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">革靴を2足以上で履き回すと靴自体が乾く時間ができ、インソールの消臭効果と相まって快適さが保てます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">サイズ調整と使い方の注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">サイズ調整と使い方の注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは靴のサイズに合わせて使うことが大切です。多くの製品はつま先側に余分があり、自分の靴の元の中敷きを型紙にしてハサミでカットできる仕様になっています。一度に大きく切らず、少しずつ調整しながら靴に入れて確認すると、切りすぎを防げます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">取り付けの基本は、元の中敷きを取り外してから入れ替えること。元の中敷きの上に重ねると厚みが増して窮屈になり、かかとが浮いて靴擦れの原因になることがあります。革靴がもともとフィットしている場合は特に、入れ替えるタイプを選ぶと余裕を保ちやすくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使い始めは違和感を覚えることもあります。アーチサポートのあるインソールは土踏まずに当たる感覚があるため、最初は短時間から慣らし、徐々に着用時間を延ばすのが無難です。前後の向きや裏表を間違えないよう、製品の表示を確認して取り付けてください。なお、効果の感じ方には個人差があり、使用しても痛みやしびれが改善しない、あるいは悪化する場合は使用を中止し、医療機関に相談してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

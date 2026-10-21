@@ -62,7 +62,7 @@ export default function MortonPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">モートン病に向くインソールの選び方｜横アーチを支えてしびれを和らげる</h1>
@@ -75,7 +75,7 @@ export default function MortonPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">モートン病の原因と横アーチの関係</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">モートン病の原因と横アーチの関係</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">モートン病は、足指の付け根を通る神経が圧迫されて起こる神経症状で、3趾と4趾の間に多く見られます。横アーチ（足の指の付け根を結ぶ弓状の構造）が低下して中足骨の間が狭まると、神経が挟み込まれやすくなると考えられています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ハイヒールや先の細い靴、長時間の立ち仕事は横アーチに負担をかけます。インソールで横アーチを下から支え、神経が圧迫される部分の手前で荷重を受け止めることで、しびれや痛みをやわらげる補助になります。</p>
         </section>
@@ -86,11 +86,11 @@ export default function MortonPage() {
       </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">モートン病の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">モートン病の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -99,12 +99,12 @@ export default function MortonPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">モートン病におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">モートン病におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">横アーチを支え、前足部にゆとりが出る薄型インソールがモートン病には向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -121,13 +121,13 @@ export default function MortonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴の見直しと受診の目安</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴の見直しと受診の目安</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールと同時に、先の細い靴やヒールの高い靴を避け、足指が動かせる幅広・低めの靴に替えると効果的です。痛みが強い、しびれが広がる場合は神経の問題のため、整形外科で診断を受けてください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは症状緩和の補助であり、進行した場合は注射や手術が必要になることもあります。早めの受診が改善への近道です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">モートン病でインソールを選ぶときのチェックポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">モートン病でインソールを選ぶときのチェックポイント</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">市販のインソールは医療機器ではなく、あくまで足への負担を減らす補助アイテムです。その前提のうえで、実際に靴へ入れて確認するときは次の3点をチェックすると失敗しにくくなります。しびれ・痛みの診断や治療は整形外科で受けてください。</p>
           <div className="space-y-4 mb-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
@@ -147,7 +147,7 @@ export default function MortonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">日常でできる負担軽減の工夫（一般論）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">日常でできる負担軽減の工夫（一般論）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールと合わせて、前足部への負担そのものを減らす生活の工夫も大切です。以下は一般的に紹介される内容で、効果を保証するものではありません。</p>
           <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             <li>靴はつま先に1cmほどのゆとりがあり、足指の付け根で曲がる幅広・ヒール低めのものを選ぶ</li>
@@ -160,11 +160,11 @@ export default function MortonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

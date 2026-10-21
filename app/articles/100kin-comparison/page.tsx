@@ -783,7 +783,7 @@ export default function HyakkinComparisonPage() {
               <span><strong>特許技術がない→骨格矯正の精度が低い：</strong>専用インソールに搭載される特許技術による骨格矯正と比べ、100均製品では精度の高い補正が期待できません。</span>
             </li>
           </ul>
-          <p className="text-gray-600 text-sm bg-blue-50 p-3 rounded-lg">
+          <p className="text-gray-600 text-sm bg-[#faf7f3] p-3 rounded-lg">
             ただし「足の疲労軽減」や「快適性」の向上には100均インソールでも一定の効果があります。目的に応じて使い分けることが大切です。
           </p>
         </div>

@@ -61,7 +61,7 @@ export default function SocksCompatPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">インソールと靴下の相性ガイド｜5本指ソックス・厚手・ストッキング別の注意点</h1>
@@ -74,17 +74,17 @@ export default function SocksCompatPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴下でインソールのフィットが変わる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴下でインソールのフィットが変わる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールのアーチサポートは、足裏とインソールが適切に密着してはじめて機能します。間に挟まる靴下が厚いほどサポートの感触はマイルドになり、逆に薄いほどダイレクトに伝わります。「店で素足に近い状態で試したら良かったのに、厚手の靴下で履いたら印象が違う」というのは典型的なミスマッチです。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">また、靴下の滑りやすさも重要です。ナイロン系のストッキングやツルツルした化繊靴下は足裏がインソール上で滑りやすく、せっかくのサポート位置から足がずれてしまうことがあります。汗をかく季節は吸湿性の低い靴下だと蒸れやニオイも進みやすくなるため、素材選びはフィットと衛生の両方に効いてきます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴下派・5本指ソックス派の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴下派・5本指ソックス派の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function SocksCompatPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴下派・5本指ソックス派におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴下派・5本指ソックス派におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">中敷きタイプは靴下の厚みごとのフィット確認を。ソックス型は装着方法そのものが異なる点にご注意ください。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function SocksCompatPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ソックス型インソールと靴下の関係｜注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ソックス型インソールと靴下の関係｜注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ランウェイキュアソールのようなソックス型インソールは、中敷きとして靴に入れるのではなく足に直接装着するタイプです。靴下のように足に履いて使う設計のため、「インソールと靴下の相性」の前提がそもそも中敷きタイプと異なります。靴下と重ねる場合の着用順序や組み合わせは自己流にせず、製品公式の案内に従ってください。重ね方によっては圧迫感やずれ、蒸れの原因になることがあります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">中敷きタイプ（ピットソール・スリムアップインソールなど）は、靴下を替えてもインソール自体の位置は安定しているのが利点です。いずれのタイプでも、しびれ・強い圧迫感・皮膚トラブルなどが出た場合は使用を中止し、症状が続くようなら皮膚科や整形外科など医療機関に相談してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

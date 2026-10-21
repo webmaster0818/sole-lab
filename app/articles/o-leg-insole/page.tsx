@@ -679,7 +679,7 @@ export default function OLegInsolePage() {
               <p className="text-gray-700 text-sm">整形外科の受診を優先してください。インソールは補助的な役割にとどまり、専門的な治療が必要です。</p>
             </div>
           </div>
-          <p className="text-gray-600 text-sm bg-blue-50 p-3 rounded-lg">
+          <p className="text-gray-600 text-sm bg-[#faf7f3] p-3 rounded-lg">
             いずれの程度でも、かかとの安定感とアーチサポートの両方があるインソールを選ぶことが重要です。
           </p>
         </div>
@@ -715,7 +715,7 @@ export default function OLegInsolePage() {
 
       {/* 逆効果になるケース */}
       <section className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           O脚矯正インソールが「逆効果」になるケースと避け方
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-4">
@@ -736,7 +736,7 @@ export default function OLegInsolePage() {
           </div>
         </div>
         <p className="text-xs text-gray-500">
-          関連: <a href="/articles/correct-usage-insole/" className="text-[#0ea5e9] underline">インソールの正しい使い方・慣らし方</a> / <a href="/articles/size-adjustment/" className="text-[#0ea5e9] underline">サイズが合わないときの調整方法</a>
+          関連: <a href="/articles/correct-usage-insole/" className="text-[#8a6a4f] underline">インソールの正しい使い方・慣らし方</a> / <a href="/articles/size-adjustment/" className="text-[#8a6a4f] underline">サイズが合わないときの調整方法</a>
         </p>
       </section>
 

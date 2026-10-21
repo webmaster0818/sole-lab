@@ -125,13 +125,13 @@ export default function PumpsInsolePage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "パンプス用インソールおすすめ" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">2026年最新版</p>
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">2026年最新版</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             パンプス用インソール（中敷き）
             <br className="md:hidden" />
-            おすすめ<span className="text-[#0ea5e9]">5選</span>
+            おすすめ<span className="text-[#8a6a4f]">5選</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             ヒール靴の前滑り・つま先の痛み・足裏の疲れを解消するインソールを厳選。
@@ -146,13 +146,13 @@ export default function PumpsInsolePage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#problem" className="hover:text-[#0ea5e9] transition-colors">1. パンプスで足が疲れる原因</a></li>
-            <li><a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">2. パンプス用インソールの選び方</a></li>
-            <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">3. パンプス用インソールおすすめ5選</a></li>
-            <li><a href="#usage" className="hover:text-[#0ea5e9] transition-colors">4. パンプス用インソールの使い方</a></li>
-            <li><a href="#care" className="hover:text-[#0ea5e9] transition-colors">5. パンプスでの足の疲れを防ぐコツ</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">6. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">7. まとめ</a></li>
+            <li><a href="#problem" className="hover:text-[#8a6a4f] transition-colors">1. パンプスで足が疲れる原因</a></li>
+            <li><a href="#how-to-choose" className="hover:text-[#8a6a4f] transition-colors">2. パンプス用インソールの選び方</a></li>
+            <li><a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">3. パンプス用インソールおすすめ5選</a></li>
+            <li><a href="#usage" className="hover:text-[#8a6a4f] transition-colors">4. パンプス用インソールの使い方</a></li>
+            <li><a href="#care" className="hover:text-[#8a6a4f] transition-colors">5. パンプスでの足の疲れを防ぐコツ</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">6. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">7. まとめ</a></li>
           </ol>
         </div>
       </section>
@@ -161,7 +161,7 @@ export default function PumpsInsolePage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="problem" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             パンプスで足が疲れる原因
           </h2>
 
@@ -199,7 +199,7 @@ export default function PumpsInsolePage() {
 
         {/* Section 2 */}
         <section id="how-to-choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             パンプス用インソールの選び方
           </h2>
 
@@ -209,7 +209,7 @@ export default function PumpsInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">薄型・極薄設計</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -219,7 +219,7 @@ export default function PumpsInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">滑り止め機能</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -229,7 +229,7 @@ export default function PumpsInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">アーチサポート</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -239,7 +239,7 @@ export default function PumpsInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">対応ヒール高さ</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -250,7 +250,7 @@ export default function PumpsInsolePage() {
 
         {/* Section 3 */}
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             パンプス用インソールおすすめ5選
           </h2>
 
@@ -259,18 +259,18 @@ export default function PumpsInsolePage() {
           </p>
 
           {/* Product 1 */}
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
               パンプスとの相性が最も良いのがランウェイキュアソールです。薄型設計でパンプスの空間を圧迫せず、美姿勢サポート機能でヒールによる骨盤の前傾を補正します。M（22.5〜23.5cm）・L（24〜25cm）の2サイズ展開で、多くのパンプスに対応可能です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型設計でパンプスの空間にフィット</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美姿勢サポートでヒールによる骨盤前傾を補正</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>女性向けサイズ展開で選びやすい</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でパンプスの空間にフィット</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートでヒールによる骨盤前傾を補正</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>女性向けサイズ展開で選びやすい</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           {/* Product 2 */}
@@ -281,11 +281,11 @@ export default function PumpsInsolePage() {
               世界特許取得の3点サポート構造で、パンプスでも足裏のアーチをしっかり支えます。XSサイズ（21〜22.5cm）からの展開があり、小さめのパンプスにも対応可能。カットして調整できるため、さまざまなデザインのパンプスに合わせることができます。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>世界特許の3点サポートで前方荷重を分散</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>XSサイズからの展開で小さめのパンプスにも対応</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>カット調整で好みのフィット感に</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界特許の3点サポートで前方荷重を分散</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>XSサイズからの展開で小さめのパンプスにも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>カット調整で好みのフィット感に</span></li>
             </ul>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           {/* Product 3 */}
@@ -296,11 +296,11 @@ export default function PumpsInsolePage() {
               美容整体師監修のインソールで、パンプスでの歩行姿勢を改善します。正しい重心移動を促す設計により、ヒールでの歩き方が安定し、足の疲れだけでなく見た目の美しさも向上します。通勤でパンプスを履く方のダイエットサポートとしても効果的です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師監修で歩き方が美しく変わる</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>正しい重心移動でヒールでの歩行が安定</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>通勤中のダイエット効果も期待できる</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師監修で歩き方が美しく変わる</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>正しい重心移動でヒールでの歩行が安定</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>通勤中のダイエット効果も期待できる</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           {/* Product 4 */}
@@ -311,9 +311,9 @@ export default function PumpsInsolePage() {
               日本のシューケア老舗ブランドが開発したパンプス専用インソールです。極薄のジェル素材で前足部をクッションし、つま先への圧力を軽減。透明タイプでサンダルやオープントゥのパンプスにも目立たず使用できるのが特徴です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>極薄ジェル素材でつま先の痛みを軽減</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>透明タイプでオープンシューズにも使える</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>日本の老舗シューケアブランドの信頼性</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>極薄ジェル素材でつま先の痛みを軽減</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>透明タイプでオープンシューズにも使える</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>日本の老舗シューケアブランドの信頼性</span></li>
             </ul>
           </div>
 
@@ -325,16 +325,16 @@ export default function PumpsInsolePage() {
               フットケアの世界的ブランドが開発したパンプス・ヒール靴専用のジェルインソールです。独自のジェルテクノロジーが前足部の衝撃を吸収し、長時間のパーティーや立食イベントでも足の疲れを軽減します。粘着タイプでずれにくく、着脱も簡単です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>独自ジェルテクノロジーで衝撃を効率吸収</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>粘着タイプでずれにくい</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>世界的フットケアブランドの安心感</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>独自ジェルテクノロジーで衝撃を効率吸収</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>粘着タイプでずれにくい</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界的フットケアブランドの安心感</span></li>
             </ul>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミを一覧で比較したい方は
-              <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>
+              <Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>
               をご覧ください。
             </p>
           </div>
@@ -342,7 +342,7 @@ export default function PumpsInsolePage() {
 
         {/* Section 4 */}
         <section id="usage" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             パンプス用インソールの使い方
           </h2>
 
@@ -376,7 +376,7 @@ export default function PumpsInsolePage() {
 
         {/* Section 5 */}
         <section id="care" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             パンプスでの足の疲れを防ぐコツ
           </h2>
 
@@ -417,7 +417,7 @@ export default function PumpsInsolePage() {
 
         {/* Section 6: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -476,7 +476,7 @@ export default function PumpsInsolePage() {
 
         {/* Section 7: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -487,9 +487,9 @@ export default function PumpsInsolePage() {
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">今回紹介した主要3商品</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：薄型で美姿勢サポート。パンプスとの相性が最も良い。</li>
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートで前方荷重を分散。カット調整可能。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：美容整体師監修。ヒールでの歩き方を美しく変える。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型で美姿勢サポート。パンプスとの相性が最も良い。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートで前方荷重を分散。カット調整可能。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：美容整体師監修。ヒールでの歩き方を美しく変える。</li>
             </ul>
           </div>
 
@@ -498,7 +498,7 @@ export default function PumpsInsolePage() {
           </p>
 
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">
               3商品の詳細比較ランキングを見る
             </Link>
           </div>

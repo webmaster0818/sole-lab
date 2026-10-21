@@ -93,15 +93,15 @@ export default function StandingWorkPage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "立ち仕事インソール" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年最新版
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             立ち仕事で足が疲れない
             <br className="md:hidden" />
-            最強インソール<span className="text-[#0ea5e9]">3選</span>
+            最強インソール<span className="text-[#8a6a4f]">3選</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             看護師・販売員・工場勤務など、立ち仕事で足の疲れに悩む方へ。
@@ -113,7 +113,7 @@ export default function StandingWorkPage() {
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>立ち仕事で疲れないインソールの選び方は、①アーチサポートで足裏の負荷分散、②低反発素材で衝撃吸収、③ヒールカップでかかと安定の3点が重要です。8時間以上の立ち仕事にはクッション性と通気性を兼ね備えた製品がおすすめです。</p>
         </div>
@@ -133,7 +133,7 @@ export default function StandingWorkPage() {
             <li>
               <a
                 href="#cause"
-                className="hover:text-[#0ea5e9] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 1. 立ち仕事で足が疲れる原因
               </a>
@@ -141,7 +141,7 @@ export default function StandingWorkPage() {
             <li>
               <a
                 href="#mechanism"
-                className="hover:text-[#0ea5e9] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 2. インソールが立ち仕事の疲れを軽減する仕組み
               </a>
@@ -149,7 +149,7 @@ export default function StandingWorkPage() {
             <li>
               <a
                 href="#how-to-choose"
-                className="hover:text-[#0ea5e9] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 3. 立ち仕事向けインソールの選び方3つのポイント
               </a>
@@ -157,7 +157,7 @@ export default function StandingWorkPage() {
             <li>
               <a
                 href="#recommend"
-                className="hover:text-[#0ea5e9] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 4. 立ち仕事におすすめのインソール3選
               </a>
@@ -165,7 +165,7 @@ export default function StandingWorkPage() {
             <li>
               <a
                 href="#other-tips"
-                className="hover:text-[#0ea5e9] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 5. 立ち仕事の疲れを軽減するその他の方法
               </a>
@@ -173,7 +173,7 @@ export default function StandingWorkPage() {
             <li>
               <a
                 href="#faq"
-                className="hover:text-[#0ea5e9] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 6. よくある質問（FAQ）
               </a>
@@ -181,7 +181,7 @@ export default function StandingWorkPage() {
             <li>
               <a
                 href="#summary"
-                className="hover:text-[#0ea5e9] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 7. まとめ
               </a>
@@ -194,7 +194,7 @@ export default function StandingWorkPage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* ===== H2: 立ち仕事で足が疲れる原因 ===== */}
         <section id="cause" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             立ち仕事で足が疲れる原因
           </h2>
 
@@ -233,7 +233,7 @@ export default function StandingWorkPage() {
 
         {/* ===== H2: インソールが立ち仕事の疲れを軽減する仕組み ===== */}
         <section id="mechanism" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             インソールが立ち仕事の疲れを軽減する仕組み
           </h2>
 
@@ -262,9 +262,9 @@ export default function StandingWorkPage() {
             足裏は身体の土台です。インソールによって足元が安定すると、自然と姿勢が正しくなり、体幹のバランスが改善されます。姿勢が良くなると、特定の筋肉への偏った負荷が減り、足だけでなく腰や背中の疲れも軽減される効果が期待できます。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <span className="font-bold text-[#0ea5e9]">まとめると：</span>
+              <span className="font-bold text-[#8a6a4f]">まとめると：</span>
               インソールは「荷重分散」「衝撃吸収」「姿勢改善」の3つの働きで、立ち仕事の足の疲れにアプローチします。靴を買い替えるよりも手軽に導入でき、今の靴のまま快適さをアップできるのが大きなメリットです。
             </p>
           </div>
@@ -272,7 +272,7 @@ export default function StandingWorkPage() {
 
         {/* ===== H2: 立ち仕事向けインソールの選び方3つのポイント ===== */}
         <section id="how-to-choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             立ち仕事向けインソールの選び方3つのポイント
           </h2>
 
@@ -283,7 +283,7 @@ export default function StandingWorkPage() {
           {/* Point 1 */}
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                 1
               </span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -298,7 +298,7 @@ export default function StandingWorkPage() {
           {/* Point 2 */}
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                 2
               </span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -313,7 +313,7 @@ export default function StandingWorkPage() {
           {/* Point 3 */}
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                 3
               </span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -328,7 +328,7 @@ export default function StandingWorkPage() {
 
         {/* ===== H2: 立ち仕事におすすめのインソール3選 ===== */}
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             立ち仕事におすすめのインソール3選
           </h2>
 
@@ -337,8 +337,8 @@ export default function StandingWorkPage() {
           </p>
 
           {/* Pitsole */}
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">
               おすすめ 1
             </span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">
@@ -349,17 +349,17 @@ export default function StandingWorkPage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>
                   世界特許取得の3点サポート構造でアーチをしっかり支える
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>XS〜XLの5サイズ展開（21〜29cm対応・XLはブラック・ピンク限定）で男女兼用（公式サイトにて2026年7月確認）</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>
                   まとめ買い割引あり。2足セット以降で1足あたりの価格がお得に
                 </span>
@@ -367,7 +367,7 @@ export default function StandingWorkPage() {
             </ul>
             <Link
               href="/pitsole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               ピットソールの詳細レビューを見る &rarr;
             </Link>
@@ -386,17 +386,17 @@ export default function StandingWorkPage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>
                   美姿勢サポート設計で足だけでなく腰や背中の疲れにもアプローチ
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>M（22.5〜23.5cm）・L（24〜25cm）の2サイズ展開</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>
                   薄型設計のためナースシューズやパンプスにも入れやすい
                 </span>
@@ -404,7 +404,7 @@ export default function StandingWorkPage() {
             </ul>
             <Link
               href="/runway-cure-sole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               ランウェイキュアソールの詳細レビューを見る &rarr;
             </Link>
@@ -423,32 +423,32 @@ export default function StandingWorkPage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>美容整体師監修で身体全体のバランス改善を考慮した設計</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>男女兼用で幅広いサイズに対応</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>正しい重心移動を促し、長時間立っていても疲れにくい</span>
               </li>
             </ul>
             <Link
               href="/slim-up-insole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               スリムアップインソールの詳細レビューを見る &rarr;
             </Link>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミを一覧で比較したい方は
               <Link
                 href="/ranking/"
-                className="text-[#0ea5e9] font-bold hover:underline"
+                className="text-[#8a6a4f] font-bold hover:underline"
               >
                 おすすめランキングページ
               </Link>
@@ -459,7 +459,7 @@ export default function StandingWorkPage() {
 
         {/* ===== H2: 立ち仕事の疲れを軽減するその他の方法 ===== */}
         <section id="other-tips" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             立ち仕事の疲れを軽減するその他の方法
           </h2>
 
@@ -508,7 +508,7 @@ export default function StandingWorkPage() {
 
         {/* ===== H2: よくある質問（FAQ） ===== */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -577,7 +577,7 @@ export default function StandingWorkPage() {
 
         {/* ===== H2: まとめ ===== */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -597,7 +597,7 @@ export default function StandingWorkPage() {
               <li>
                 <Link
                   href="/pitsole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   ピットソール
                 </Link>
@@ -606,7 +606,7 @@ export default function StandingWorkPage() {
               <li>
                 <Link
                   href="/runway-cure-sole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   ランウェイキュアソール
                 </Link>
@@ -615,7 +615,7 @@ export default function StandingWorkPage() {
               <li>
                 <Link
                   href="/slim-up-insole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   スリムアップインソール
                 </Link>
@@ -631,7 +631,7 @@ export default function StandingWorkPage() {
           <div className="text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md"
+              className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md"
             >
               3商品の詳細比較ランキングを見る
             </Link>

@@ -130,13 +130,13 @@ export default function BackPainPage() {
 
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "インソールと腰痛の関係" }]} />
 
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             インソール 腰痛 改善
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            インソールと<span className="text-[#0ea5e9]">腰痛</span>の関係
+            インソールと<span className="text-[#8a6a4f]">腰痛</span>の関係
             <br className="md:hidden" />
             足元から腰痛を改善する方法
           </h1>
@@ -150,7 +150,7 @@ export default function BackPainPage() {
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>インソールで腰痛が改善する可能性はあります。足裏の3つのアーチが崩れると姿勢が乱れ腰に負担がかかりますが、アーチサポート付きインソールで足元から姿勢を整えることで腰への負担を軽減できます。ただし重度の腰痛は必ず医師にご相談ください。</p>
         </div>
@@ -168,21 +168,21 @@ export default function BackPainPage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#mechanism" className="hover:text-[#0ea5e9] transition-colors">1. 足元の歪みが腰痛を引き起こすメカニズム</a></li>
-            <li><a href="#types" className="hover:text-[#0ea5e9] transition-colors">2. インソールが効果的な腰痛のタイプ</a></li>
-            <li><a href="#improvement" className="hover:text-[#0ea5e9] transition-colors">3. インソールによる腰痛改善の仕組み</a></li>
-            <li><a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">4. 腰痛改善のためのインソール選び</a></li>
-            <li><a href="#exercise" className="hover:text-[#0ea5e9] transition-colors">5. インソールと併用したい腰痛対策</a></li>
-            <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">6. おすすめインソール3選</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">7. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">8. まとめ</a></li>
+            <li><a href="#mechanism" className="hover:text-[#8a6a4f] transition-colors">1. 足元の歪みが腰痛を引き起こすメカニズム</a></li>
+            <li><a href="#types" className="hover:text-[#8a6a4f] transition-colors">2. インソールが効果的な腰痛のタイプ</a></li>
+            <li><a href="#improvement" className="hover:text-[#8a6a4f] transition-colors">3. インソールによる腰痛改善の仕組み</a></li>
+            <li><a href="#how-to-choose" className="hover:text-[#8a6a4f] transition-colors">4. 腰痛改善のためのインソール選び</a></li>
+            <li><a href="#exercise" className="hover:text-[#8a6a4f] transition-colors">5. インソールと併用したい腰痛対策</a></li>
+            <li><a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">6. おすすめインソール3選</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">7. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">8. まとめ</a></li>
           </ol>
         </div>
       </section>
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <section id="mechanism" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             足元の歪みが腰痛を引き起こすメカニズム
           </h2>
 
@@ -227,7 +227,7 @@ export default function BackPainPage() {
         </section>
 
         <section id="types" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             インソールが効果的な腰痛のタイプ
           </h2>
 
@@ -247,7 +247,7 @@ export default function BackPainPage() {
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">立ち仕事で腰が疲れる</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 長時間の立位で足裏のアーチが崩れ、骨盤が前傾することで腰の筋肉に負担がかかります。
-                <Link href="/articles/standing-work/" className="text-[#0ea5e9] hover:underline">立ち仕事とインソール</Link>
+                <Link href="/articles/standing-work/" className="text-[#8a6a4f] hover:underline">立ち仕事とインソール</Link>
                 の組み合わせは非常に効果的です。
               </p>
             </div>
@@ -256,7 +256,7 @@ export default function BackPainPage() {
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">扁平足や外反母趾がある方の腰痛</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 足の構造的な問題がある方は、歩行時のアライメント異常を通じて腰痛が生じやすい傾向があります。足の問題を
-                <Link href="/articles/flat-feet/" className="text-[#0ea5e9] hover:underline">インソールで補正</Link>
+                <Link href="/articles/flat-feet/" className="text-[#8a6a4f] hover:underline">インソールで補正</Link>
                 することで、腰痛の改善も見込めます。
               </p>
             </div>
@@ -278,7 +278,7 @@ export default function BackPainPage() {
         </section>
 
         <section id="improvement" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             インソールによる腰痛改善の仕組み
           </h2>
 
@@ -316,7 +316,7 @@ export default function BackPainPage() {
         </section>
 
         <section id="how-to-choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             腰痛改善のためのインソール選び
           </h2>
 
@@ -327,7 +327,7 @@ export default function BackPainPage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">3つのアーチを全てサポートする設計</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -337,7 +337,7 @@ export default function BackPainPage() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">適度な硬さと衝撃吸収のバランス</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -347,7 +347,7 @@ export default function BackPainPage() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">ヒールカップの深さ</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -357,7 +357,7 @@ export default function BackPainPage() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">使用シーンに合った設計</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -368,7 +368,7 @@ export default function BackPainPage() {
         </section>
 
         <section id="exercise" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             インソールと併用したい腰痛対策
           </h2>
 
@@ -402,7 +402,7 @@ export default function BackPainPage() {
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ウォーキングの習慣化</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 適度な歩行は腰痛改善に効果的です。インソールで足元を安定させた状態でのウォーキングは、腰周りの血流を改善し、筋肉の柔軟性を維持します。1日20〜30分程度、自分のペースで歩くことから始めてください。
-                <Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">効果的なウォーキング方法</Link>
+                <Link href="/articles/effective-walking/" className="text-[#8a6a4f] hover:underline">効果的なウォーキング方法</Link>
                 も参考にしてください。
               </p>
             </div>
@@ -410,7 +410,7 @@ export default function BackPainPage() {
         </section>
 
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             おすすめインソール3選
           </h2>
 
@@ -418,18 +418,18 @@ export default function BackPainPage() {
             腰痛改善に適した機能を備えたおすすめインソールを3つ紹介します。
           </p>
 
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">腰痛対策に最適</span>
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">腰痛対策に最適</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
               世界特許の3点サポート構造が足裏のアライメントを最適化し、骨盤の傾きを改善します。足元から腰椎までの運動連鎖を整えることで、腰への負担を根本的に軽減。累計200万足の販売実績が効果の高さを裏付けています。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>3つのアーチを全てサポートし骨盤アライメントを改善</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>衝撃吸収素材で歩行時の腰への振動を軽減</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>まとめ買い割引で継続使用のコストを抑制</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3つのアーチを全てサポートし骨盤アライメントを改善</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>衝撃吸収素材で歩行時の腰への振動を軽減</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>まとめ買い割引で継続使用のコストを抑制</span></li>
             </ul>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -439,11 +439,11 @@ export default function BackPainPage() {
               美姿勢サポート機能により、歩行時の姿勢を改善し、腰への負担を軽減します。骨盤周りの筋肉を効率的に使えるよう設計されているため、腰を支える筋力の活性化にも寄与。薄型設計でビジネスシューズにも対応可能です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>姿勢改善機能で腰への代償負担を軽減</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>骨盤周りの筋肉を活性化し腰のサポート力を向上</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型でビジネスシューズにも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>姿勢改善機能で腰への代償負担を軽減</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>骨盤周りの筋肉を活性化し腰のサポート力を向上</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型でビジネスシューズにも対応</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -453,24 +453,24 @@ export default function BackPainPage() {
               美容整体師監修のもと、正しい重心移動を促す設計が特徴です。重心が適正な位置に導かれることで、腰を反らせたり丸めたりする不良姿勢を改善し、腰椎への過度な負担を防ぎます。男女兼用で幅広いサイズに対応。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師監修で重心位置を最適化</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>不良姿勢の改善で腰椎への負担を軽減</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>男女兼用の幅広いサイズ展開</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師監修で重心位置を最適化</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>不良姿勢の改善で腰椎への負担を軽減</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>男女兼用の幅広いサイズ展開</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミを一覧で比較したい方は
-              <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>
+              <Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>
               をご覧ください。
             </p>
           </div>
         </section>
 
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
 
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg">
@@ -501,7 +501,7 @@ export default function BackPainPage() {
         </section>
 
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">まとめ</h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             腰痛の多くは足元の歪みや歩行姿勢の問題と密接に関連しています。足裏のアーチが崩れることで骨盤が傾き、腰椎に過度な負担がかかるという運動連鎖を理解することが、根本的な改善への第一歩です。
@@ -514,14 +514,14 @@ export default function BackPainPage() {
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">腰痛改善におすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：3点サポート構造で骨盤アライメントを最適化。腰痛の根本改善に。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートで歩行姿勢を改善。薄型でビジネスにも。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：重心改善で不良姿勢を矯正。腰椎への負担を軽減。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：3点サポート構造で骨盤アライメントを最適化。腰痛の根本改善に。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートで歩行姿勢を改善。薄型でビジネスにも。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：重心改善で不良姿勢を矯正。腰椎への負担を軽減。</li>
             </ul>
           </div>
 
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">
               3商品の詳細比較ランキングを見る
             </Link>
           </div>

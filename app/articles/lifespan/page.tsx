@@ -130,15 +130,15 @@ export default function LifespanPage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "インソールの寿命と交換時期" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             インソール 寿命 交換時期
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             インソールの寿命と交換時期
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">劣化サイン</span>も解説
+            <span className="text-[#8a6a4f]">劣化サイン</span>も解説
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             インソールは消耗品です。交換時期を見極めないと足のトラブルに直結します。
@@ -150,7 +150,7 @@ export default function LifespanPage() {
 
       {/* 結論先出し（直答） */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">結論：交換時期の目安</p>
           <p>インソールの寿命は素材・使用頻度で変わりますが、一般的な交換の目安は<strong>約3〜6か月</strong>です（毎日使用で3〜4か月、週3〜4回で5〜6か月）。「クッションのへたり」「におい・変色」「すり減り・かかとの傾き」などの劣化サインが出たら、足のトラブルを防ぐため早めの交換がおすすめです。</p>
         </div>
@@ -164,42 +164,42 @@ export default function LifespanPage() {
           </p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#why-replace" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#why-replace" className="hover:text-[#8a6a4f] transition-colors">
                 1. インソールに寿命がある理由
               </a>
             </li>
             <li>
-              <a href="#lifespan-by-material" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#lifespan-by-material" className="hover:text-[#8a6a4f] transition-colors">
                 2. 素材別のインソール寿命目安
               </a>
             </li>
             <li>
-              <a href="#deterioration-signs" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#deterioration-signs" className="hover:text-[#8a6a4f] transition-colors">
                 3. 劣化サイン5つのチェックポイント
               </a>
             </li>
             <li>
-              <a href="#risk" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#risk" className="hover:text-[#8a6a4f] transition-colors">
                 4. 交換を怠ったときのリスク
               </a>
             </li>
             <li>
-              <a href="#extend-life" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#extend-life" className="hover:text-[#8a6a4f] transition-colors">
                 5. インソールの寿命を延ばすコツ
               </a>
             </li>
             <li>
-              <a href="#product-durability" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#product-durability" className="hover:text-[#8a6a4f] transition-colors">
                 6. おすすめインソールの耐久性比較
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 7. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 8. まとめ
               </a>
             </li>
@@ -211,7 +211,7 @@ export default function LifespanPage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="why-replace" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             インソールに寿命がある理由
           </h2>
 
@@ -257,7 +257,7 @@ export default function LifespanPage() {
 
         {/* Section 2 */}
         <section id="lifespan-by-material" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             素材別のインソール寿命目安
           </h2>
 
@@ -330,10 +330,10 @@ export default function LifespanPage() {
             多くの高機能インソールは単一素材ではなく、複数素材を組み合わせて設計されています。例えば、表面に通気性の高いメッシュ、中層にEVAクッション、底部にTPUのアーチサポートという3層構造のものがあります。この場合、最も早く劣化するのは表面素材やEVA層であり、全体としての寿命はそれらに左右されます。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               素材の特徴を詳しく知りたい方は
-              <Link href="/articles/material-comparison/" className="text-[#0ea5e9] font-bold hover:underline">
+              <Link href="/articles/material-comparison/" className="text-[#8a6a4f] font-bold hover:underline">
                 インソール素材比較の記事
               </Link>
               も合わせてご覧ください。
@@ -343,7 +343,7 @@ export default function LifespanPage() {
 
         {/* Section 3 */}
         <section id="deterioration-signs" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             劣化サイン5つのチェックポイント
           </h2>
 
@@ -405,7 +405,7 @@ export default function LifespanPage() {
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 洗っても取れない悪臭は、インソール内部に雑菌が深く侵入している証拠です。素材の劣化により内部に水分が溜まりやすくなり、雑菌の温床となっています。見た目はまだ使えそうに見えても、衛生面から交換を推奨します。臭いが気になる場合は、まず
-                <Link href="/articles/washing-guide/" className="text-[#0ea5e9] hover:underline">インソールの洗い方</Link>
+                <Link href="/articles/washing-guide/" className="text-[#8a6a4f] hover:underline">インソールの洗い方</Link>
                 を試し、それでも改善しなければ交換してください。
               </p>
             </div>
@@ -428,7 +428,7 @@ export default function LifespanPage() {
 
         {/* Section 4 */}
         <section id="risk" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             交換を怠ったときのリスク
           </h2>
 
@@ -441,7 +441,7 @@ export default function LifespanPage() {
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             アーチサポートが機能しなくなったインソールを使い続けると、足裏のアーチを支える力がなくなり、扁平足が進行します。一度崩れたアーチを元に戻すのは困難で、場合によっては医療機関での治療が必要になることもあります。
-            <Link href="/articles/foot-arch/" className="text-[#0ea5e9] hover:underline">足のアーチの崩れ</Link>
+            <Link href="/articles/foot-arch/" className="text-[#8a6a4f] hover:underline">足のアーチの崩れ</Link>
             については別記事で詳しく解説しています。
           </p>
 
@@ -450,9 +450,9 @@ export default function LifespanPage() {
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             衝撃吸収力が失われたインソールでは、歩行時の衝撃が足裏から膝、腰へとダイレクトに伝わります。特に体重の重い方や長時間歩く方は、
-            <Link href="/articles/knee-pain/" className="text-[#0ea5e9] hover:underline">膝痛</Link>
+            <Link href="/articles/knee-pain/" className="text-[#8a6a4f] hover:underline">膝痛</Link>
             や
-            <Link href="/articles/back-pain/" className="text-[#0ea5e9] hover:underline">腰痛</Link>
+            <Link href="/articles/back-pain/" className="text-[#8a6a4f] hover:underline">腰痛</Link>
             のリスクが大幅に高まります。
           </p>
 
@@ -461,7 +461,7 @@ export default function LifespanPage() {
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             クッション性の低下したインソールは、足底筋膜に過度なストレスを与えます。足底筋膜炎は一度発症すると完治に数ヶ月かかることもある厄介な症状です。インソールの適切な交換で予防することが重要です。詳しくは
-            <Link href="/articles/plantar-fasciitis/" className="text-[#0ea5e9] hover:underline">足底筋膜炎とインソールの記事</Link>
+            <Link href="/articles/plantar-fasciitis/" className="text-[#8a6a4f] hover:underline">足底筋膜炎とインソールの記事</Link>
             をご参照ください。
           </p>
 
@@ -482,7 +482,7 @@ export default function LifespanPage() {
 
         {/* Section 5 */}
         <section id="extend-life" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             インソールの寿命を延ばすコツ
           </h2>
 
@@ -515,7 +515,7 @@ export default function LifespanPage() {
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 月に1〜2回程度、中性洗剤でやさしく手洗いすることで、汗や皮脂汚れを除去し、素材の劣化を遅らせることができます。洗濯機は絶対に使わないでください。脱水も手で軽く押し絞る程度にとどめ、陰干しで完全に乾かしてから使用してください。詳しい洗い方は
-                <Link href="/articles/washing-guide/" className="text-[#0ea5e9] hover:underline">インソールの洗い方ガイド</Link>
+                <Link href="/articles/washing-guide/" className="text-[#8a6a4f] hover:underline">インソールの洗い方ガイド</Link>
                 で解説しています。
               </p>
             </div>
@@ -542,7 +542,7 @@ export default function LifespanPage() {
 
         {/* Section 6 */}
         <section id="product-durability" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             おすすめインソールの耐久性比較
           </h2>
 
@@ -551,8 +551,8 @@ export default function LifespanPage() {
           </p>
 
           {/* Product 1: Pitsole */}
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">
               耐久性で選ぶなら
             </span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">
@@ -563,21 +563,21 @@ export default function LifespanPage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>TPU系素材のアーチサポートで長期間形状を維持</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>まとめ買い割引で定期交換のコストを抑制</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>累計200万足の販売実績で品質の安定性が証明済み</span>
               </li>
             </ul>
             <Link
               href="/pitsole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               ピットソールの詳細レビューを見る &rarr;
             </Link>
@@ -596,21 +596,21 @@ export default function LifespanPage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>薄型でも荷重分散設計で形崩れしにくい</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>パンプスなど狭い靴内でも安定した耐久性</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>定期購入コースで交換管理が容易</span>
               </li>
             </ul>
             <Link
               href="/runway-cure-sole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               ランウェイキュアソールの詳細レビューを見る &rarr;
             </Link>
@@ -629,32 +629,32 @@ export default function LifespanPage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>クッション性と耐久性のバランスが良好</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>価格帯を考慮するとコストパフォーマンスが高い</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>男女兼用で家族での共有も可能</span>
               </li>
             </ul>
             <Link
               href="/slim-up-insole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               スリムアップインソールの詳細レビューを見る &rarr;
             </Link>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミを一覧で比較したい方は
               <Link
                 href="/ranking/"
-                className="text-[#0ea5e9] font-bold hover:underline"
+                className="text-[#8a6a4f] font-bold hover:underline"
               >
                 おすすめランキングページ
               </Link>
@@ -665,7 +665,7 @@ export default function LifespanPage() {
 
         {/* Section 7: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -734,7 +734,7 @@ export default function LifespanPage() {
 
         {/* Section 8: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -758,7 +758,7 @@ export default function LifespanPage() {
               <li>
                 <Link
                   href="/pitsole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   ピットソール
                 </Link>
@@ -767,7 +767,7 @@ export default function LifespanPage() {
               <li>
                 <Link
                   href="/runway-cure-sole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   ランウェイキュアソール
                 </Link>
@@ -776,7 +776,7 @@ export default function LifespanPage() {
               <li>
                 <Link
                   href="/slim-up-insole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   スリムアップインソール
                 </Link>
@@ -788,7 +788,7 @@ export default function LifespanPage() {
           <div className="text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md"
+              className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md"
             >
               3商品の詳細比較ランキングを見る
             </Link>

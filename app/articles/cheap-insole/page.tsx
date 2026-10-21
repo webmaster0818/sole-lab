@@ -214,7 +214,7 @@ export default function CheapInsolePage() {
               セット購入時の1足あたり最安値は<strong>ピットソール（4,026円/足・6足セット）</strong>で、スリムアップインソール（4,480円/足）が続きます。ピットソールのセット構成は2足12,364円・4足18,120円・6足24,156円の3種類です。ランウェイキュアソールはセット時約5,987円/足とやや高めですが、ソックス型で靴を選ばない使いやすさが特長です（女性向けサイズ22.5〜25.0cm）。価格はいずれも各公式サイトにて2026年7月確認の税込表示です。
             </p>
             <p>
-              3製品ともセット購入で割引が受けられます。単品購入はコスパが悪いため、購入を決めたらセットで購入するのが鉄則です。なお、いずれも実店舗（ドンキ・薬局など）での取り扱いは確認されておらず、セット割引は公式サイト限定です。取扱状況の詳細は<Link href="/articles/where-to-buy-insole/" className="text-[#0ea5e9] underline">3製品の販売店・最安値比較</Link>と<Link href="/runway-cure-sole/#where-to-buy" className="text-[#0ea5e9] underline">ランウェイキュアソールの販売店情報</Link>で確認できます。
+              3製品ともセット購入で割引が受けられます。単品購入はコスパが悪いため、購入を決めたらセットで購入するのが鉄則です。なお、いずれも実店舗（ドンキ・薬局など）での取り扱いは確認されておらず、セット割引は公式サイト限定です。取扱状況の詳細は<Link href="/articles/where-to-buy-insole/" className="text-[#8a6a4f] underline">3製品の販売店・最安値比較</Link>と<Link href="/runway-cure-sole/#where-to-buy" className="text-[#8a6a4f] underline">ランウェイキュアソールの販売店情報</Link>で確認できます。
             </p>
           </div>
         </div>
@@ -266,7 +266,7 @@ export default function CheapInsolePage() {
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
                     <h3 className="text-base font-bold text-gray-900">ランウェイキュアソール 3足セット</h3>
-                    <span className="text-xs bg-sky-100 text-[#0ea5e9] px-2 py-0.5 rounded-full font-medium">薄型ソックス型</span>
+                    <span className="text-xs bg-[#f3ece4] text-[#8a6a4f] px-2 py-0.5 rounded-full font-medium">薄型ソックス型</span>
                   </div>
                   <p className="text-sm text-gray-600 leading-relaxed mb-2">
                     1足あたり約5,987円。足に直接装着するソックス型で靴を選ばず使えるのが独自の強み。女性向けサイズ（22.5〜25.0cm）です。

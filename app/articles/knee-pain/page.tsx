@@ -83,11 +83,11 @@ export default function KneePainPage() {
 
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "インソールと膝痛の関係" }]} />
 
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">インソール 膝痛 軽減</p>
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">インソール 膝痛 軽減</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            インソールと<span className="text-[#0ea5e9]">膝痛</span>の関係
+            インソールと<span className="text-[#8a6a4f]">膝痛</span>の関係
             <br className="md:hidden" />
             歩行姿勢の改善で膝への負担を軽減
           </h1>
@@ -111,21 +111,21 @@ export default function KneePainPage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#cause" className="hover:text-[#0ea5e9] transition-colors">1. 膝痛と足のアライメントの関係</a></li>
-            <li><a href="#knee-types" className="hover:text-[#0ea5e9] transition-colors">2. インソールが効果的な膝痛のタイプ</a></li>
-            <li><a href="#how-insole-helps" className="hover:text-[#0ea5e9] transition-colors">3. インソールが膝痛を軽減する仕組み</a></li>
-            <li><a href="#choose" className="hover:text-[#0ea5e9] transition-colors">4. 膝痛対策のインソール選び4つのポイント</a></li>
-            <li><a href="#exercise" className="hover:text-[#0ea5e9] transition-colors">5. インソールと併用したい膝痛対策エクササイズ</a></li>
-            <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">6. おすすめインソール3選</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">7. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">8. まとめ</a></li>
+            <li><a href="#cause" className="hover:text-[#8a6a4f] transition-colors">1. 膝痛と足のアライメントの関係</a></li>
+            <li><a href="#knee-types" className="hover:text-[#8a6a4f] transition-colors">2. インソールが効果的な膝痛のタイプ</a></li>
+            <li><a href="#how-insole-helps" className="hover:text-[#8a6a4f] transition-colors">3. インソールが膝痛を軽減する仕組み</a></li>
+            <li><a href="#choose" className="hover:text-[#8a6a4f] transition-colors">4. 膝痛対策のインソール選び4つのポイント</a></li>
+            <li><a href="#exercise" className="hover:text-[#8a6a4f] transition-colors">5. インソールと併用したい膝痛対策エクササイズ</a></li>
+            <li><a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">6. おすすめインソール3選</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">7. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">8. まとめ</a></li>
           </ol>
         </div>
       </section>
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <section id="cause" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">膝痛と足のアライメントの関係</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">膝痛と足のアライメントの関係</h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             膝は人体の中で最も大きな関節であり、歩行や階段昇降、しゃがみ動作など日常のあらゆる動きで負荷を受けます。膝関節は足首と股関節の間に位置しているため、足元のアライメント（骨格の配列）が崩れると、直接的に膝への負担が増加します。
@@ -160,7 +160,7 @@ export default function KneePainPage() {
         </section>
 
         <section id="knee-types" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールが効果的な膝痛のタイプ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールが効果的な膝痛のタイプ</h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
             以下のような膝痛には、インソールによる改善効果が特に期待できます。
@@ -194,7 +194,7 @@ export default function KneePainPage() {
         </section>
 
         <section id="how-insole-helps" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールが膝痛を軽減する仕組み</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールが膝痛を軽減する仕組み</h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
             インソールは以下の3つのメカニズムで膝への負担を軽減します。
@@ -217,38 +217,38 @@ export default function KneePainPage() {
         </section>
 
         <section id="choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">膝痛対策のインソール選び4つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">膝痛対策のインソール選び4つのポイント</h2>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">内側縦アーチのサポート力</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">膝痛の多くは過回内が原因であるため、内側縦アーチを適切な高さで支えるインソールが効果的です。ただし高すぎるアーチサポートは逆に足裏に痛みを生じさせるため、自分の足のアーチ高に合ったものを選ぶことが重要です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">かかとの安定性（ヒールカップ）</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">深めのヒールカップがかかとを包み込むことで、着地時の左右のブレを抑制します。かかとが安定することで、膝への捻じれストレスが大幅に軽減されます。フラットなインソールではこの効果が得られないため、ヒールカップの有無は必ずご確認ください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">衝撃吸収素材の品質</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">かかとと前足部に高品質な衝撃吸収素材（EVA、ジェル、高密度フォーム等）が配置されているものを選ぶことをおすすめします。安価なインソールは薄い素材しか使われていないため、十分な衝撃吸収効果が得られません。膝痛が目的であれば、かかと部分の衝撃吸収を特に重視してください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">耐久性と形状保持力</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 膝痛対策は長期間の使用が前提となるため、素材の耐久性は重要です。TPU系のアーチサポートは長期間にわたって形状を維持するため、継続的な効果が期待できます。
-                <Link href="/articles/lifespan/" className="text-[#0ea5e9] hover:underline">インソールの寿命と交換時期</Link>
+                <Link href="/articles/lifespan/" className="text-[#8a6a4f] hover:underline">インソールの寿命と交換時期</Link>
                 も参考にしてください。
               </p>
             </div>
@@ -256,7 +256,7 @@ export default function KneePainPage() {
         </section>
 
         <section id="exercise" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールと併用したい膝痛対策エクササイズ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールと併用したい膝痛対策エクササイズ</h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
             インソールの効果を最大化するために、膝周りの筋力強化とストレッチを併用してください。
@@ -283,22 +283,22 @@ export default function KneePainPage() {
         </section>
 
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">おすすめインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">おすすめインソール3選</h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">膝痛軽減に適した機能を備えたインソールを紹介します。</p>
 
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">膝への負担軽減に</span>
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">膝への負担軽減に</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
               世界特許の3点サポート構造が足のアライメントを正しく整え、膝への不均等な荷重を解消します。内側縦アーチ、外側縦アーチ、横アーチの3点を適切に支えることで、膝関節が正しい軸で動くようサポート。歩行時の膝へのストレスを根本から軽減します。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>3点サポートで足のアライメントを正しく矯正</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>膝関節への不均等荷重を解消</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>TPU系素材で長期間のアーチサポート機能を維持</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点サポートで足のアライメントを正しく矯正</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>膝関節への不均等荷重を解消</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>TPU系素材で長期間のアーチサポート機能を維持</span></li>
             </ul>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -308,11 +308,11 @@ export default function KneePainPage() {
               歩行姿勢の改善に特化した設計で、膝が内側に入るニーインを防止します。骨盤周りの筋肉を正しく使えるようサポートし、股関節から膝にかけてのアライメントを最適化。薄型設計のため、さまざまな靴に対応可能です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>歩行姿勢改善でニーインを防止</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>骨盤〜膝のアライメントを最適化</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型設計でさまざまな靴に対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>歩行姿勢改善でニーインを防止</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>骨盤〜膝のアライメントを最適化</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でさまざまな靴に対応</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -322,24 +322,24 @@ export default function KneePainPage() {
               美容整体師監修のもと設計された正しい重心移動を促すインソールです。膝に過度な負担がかからないよう、かかとから母趾球へのスムーズな重心移動をサポートします。歩行時の膝へのストレスを軽減しながら、ダイエット効果も期待できます。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>正しい重心移動で膝への負担を最小化</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師監修の科学的設計</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>膝痛軽減とダイエット効果を両立</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>正しい重心移動で膝への負担を最小化</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師監修の科学的設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>膝痛軽減とダイエット効果を両立</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミを一覧で比較したい方は
-              <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>
+              <Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>
               をご覧ください。
             </p>
           </div>
         </section>
 
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールで膝の痛みは軽減できますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
@@ -365,7 +365,7 @@ export default function KneePainPage() {
         </section>
 
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">まとめ</h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             膝痛の多くは足のアライメント異常（過回内、ニーイン）や衝撃吸収不足が根本原因です。インソールで足元のアライメントを正しく整え、衝撃を吸収することで、膝への負担を大幅に軽減できます。
@@ -378,14 +378,14 @@ export default function KneePainPage() {
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">膝痛対策におすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：3点サポートでアライメントを矯正。膝への不均等荷重を解消。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：歩行姿勢改善でニーインを防止。薄型で使いやすい。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：正しい重心移動で膝への負担を最小化。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：3点サポートでアライメントを矯正。膝への不均等荷重を解消。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：歩行姿勢改善でニーインを防止。薄型で使いやすい。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：正しい重心移動で膝への負担を最小化。</li>
             </ul>
           </div>
 
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">
               3商品の詳細比較ランキングを見る
             </Link>
           </div>

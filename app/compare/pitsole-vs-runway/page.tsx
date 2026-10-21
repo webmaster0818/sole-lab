@@ -120,15 +120,15 @@ export default function PitsoleVsRunwayPage() {
       <Breadcrumb items={[{ label: "ピットソール vs ランウェイキュアソール" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#0ea5e9] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             比較記事
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソール vs ランウェイキュアソール
             <br />
-            <span className="text-[#0ea5e9]">比較</span>！どっちがおすすめ？
+            <span className="text-[#8a6a4f]">比較</span>！どっちがおすすめ？
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             世界特許を持つBMZ社の「ピットソール」と、3点アーチサポートの「ランウェイキュアソール」。
@@ -136,10 +136,10 @@ export default function PitsoleVsRunwayPage() {
             この記事では両商品を比較し、あなたにぴったりなのはどちらかを解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               2商品を比較
             </span>
-            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               料金・技術・口コミ
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -169,7 +169,7 @@ export default function PitsoleVsRunwayPage() {
                   <th className="text-left px-4 py-3 border border-gray-200 font-semibold text-gray-700 w-1/4">
                     比較項目
                   </th>
-                  <th className="text-left px-4 py-3 border border-gray-200 font-semibold text-[#0ea5e9] w-[37.5%]">
+                  <th className="text-left px-4 py-3 border border-gray-200 font-semibold text-[#8a6a4f] w-[37.5%]">
                     ピットソール
                   </th>
                   <th className="text-left px-4 py-3 border border-gray-200 font-semibold text-[#8b5cf6] w-[37.5%]">
@@ -216,9 +216,9 @@ export default function PitsoleVsRunwayPage() {
               </tbody>
             </table>
           </div>
-          <div className="mt-6 card bg-sky-50 border-sky-200">
+          <div className="mt-6 card bg-[#faf7f3] border-[#e8ded6]">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <span className="font-bold text-[#0ea5e9]">ざっくりまとめると：</span>
+              <span className="font-bold text-[#8a6a4f]">ざっくりまとめると：</span>
               ピットソールは世界特許の技術力・サイズ展開の広さ・販売実績で優位。ランウェイキュアソールはセット割引と、足に直接装着するソックス型で靴を選びにくい点が強みです。
             </p>
           </div>
@@ -237,7 +237,7 @@ export default function PitsoleVsRunwayPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="card">
-              <div className="h-1 rounded-full mb-4 bg-[#0ea5e9]" />
+              <div className="h-1 rounded-full mb-4 bg-[#8a6a4f]" />
               <h3 className="text-lg font-bold text-gray-900 mb-3">ピットソールの料金</h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex justify-between">
@@ -304,7 +304,7 @@ export default function PitsoleVsRunwayPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="card">
-              <div className="h-1 rounded-full mb-4 bg-[#0ea5e9]" />
+              <div className="h-1 rounded-full mb-4 bg-[#8a6a4f]" />
               <h3 className="text-lg font-bold text-gray-900 mb-3">ピットソールのサイズ展開</h3>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between py-2 border-b border-gray-100">
@@ -370,23 +370,23 @@ export default function PitsoleVsRunwayPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="card">
-              <div className="h-1 rounded-full mb-4 bg-[#0ea5e9]" />
+              <div className="h-1 rounded-full mb-4 bg-[#8a6a4f]" />
               <h3 className="text-lg font-bold text-gray-900 mb-3">ピットソールの技術</h3>
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span><span className="font-semibold text-gray-900">世界特許取得</span>（BMZ社の立方骨サポート技術）</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>足の横アーチと縦アーチを同時にサポート</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>骨格を正しいアライメントに導く設計</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>体幹を安定させ、効率的な歩行を促進</span>
                 </li>
               </ul>
@@ -444,7 +444,7 @@ export default function PitsoleVsRunwayPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="card">
-              <div className="h-1 rounded-full mb-4 bg-[#0ea5e9]" />
+              <div className="h-1 rounded-full mb-4 bg-[#8a6a4f]" />
               <h3 className="text-lg font-bold text-gray-900 mb-3">ピットソールの口コミ傾向</h3>
               <div className="mb-4">
                 <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">良い口コミ</p>
@@ -577,7 +577,7 @@ export default function PitsoleVsRunwayPage() {
                 },
               ].map((item) => (
                 <li key={item.title} className="flex items-start gap-3">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0 font-bold">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0 font-bold">&#10003;</span>
                   <div>
                     <p className="font-semibold text-gray-900 text-sm">{item.title}</p>
                     <p className="text-sm text-gray-600 mt-0.5 leading-relaxed">{item.desc}</p>
@@ -650,7 +650,7 @@ export default function PitsoleVsRunwayPage() {
           </h2>
           <div className="card mb-6">
             <p className="text-sm text-gray-600 leading-relaxed">
-              総合的に見ると、<span className="font-bold text-[#0ea5e9]">多くの方にはピットソールがおすすめ</span>です。
+              総合的に見ると、<span className="font-bold text-[#8a6a4f]">多くの方にはピットソールがおすすめ</span>です。
               世界特許の技術力、XS〜XLの幅広いサイズ展開、累計200万足の販売実績、楽天ランキング1位という圧倒的な実績は、初めてのダイエットインソール選びにおいて大きな安心材料になります。
               男女兼用でサイズの心配が少なく、口コミも豊富なため、購入前に十分な情報を集めた上で判断できる点も強みです。
             </p>
@@ -664,7 +664,7 @@ export default function PitsoleVsRunwayPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="card text-center">
               <p className="text-xs text-gray-500 mb-1">迷ったらこちら</p>
-              <p className="text-lg font-bold text-[#0ea5e9] mb-2">ピットソール</p>
+              <p className="text-lg font-bold text-[#8a6a4f] mb-2">ピットソール</p>
               <p className="text-xs text-gray-500 mb-4">技術力・サイズ展開・実績で選ぶなら</p>
               <Link href="/pitsole/" className="btn-cta text-sm inline-block w-full mb-3">
                 ピットソールの詳細を見る

@@ -130,7 +130,7 @@ export default function DeskWorkPage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-blue-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm text-[#e8627c] font-medium mb-2">
             悩み別インソール活用法
@@ -146,10 +146,10 @@ export default function DeskWorkPage() {
             「座りっぱなしなのに足が疲れる」「夕方になると足がパンパン」そんなデスクワーカーの悩みに、インソールはどこまで効果があるのか。答えと、歩行量が少ない方でも効果を引き出す活用法を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#6f543c] px-3 py-1 rounded-full font-medium">
               デスクワーク 足の疲れ
             </span>
-            <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#6f543c] px-3 py-1 rounded-full font-medium">
               インソール 効果
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">

@@ -131,15 +131,15 @@ export default function PitsoleVsTentialPage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ピットソール vs TENTIAL比較" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年最新版 比較レビュー
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソール vs TENTIAL
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">機能性インソール2強</span>を比較
+            <span className="text-[#8a6a4f]">機能性インソール2強</span>を比較
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             高機能インソールとして人気のピットソールとTENTIAL。
@@ -161,47 +161,47 @@ export default function PitsoleVsTentialPage() {
           </p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#overview" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#overview" className="hover:text-[#8a6a4f] transition-colors">
                 1. ピットソールとTENTIALの基本情報
               </a>
             </li>
             <li>
-              <a href="#spec-comparison" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#spec-comparison" className="hover:text-[#8a6a4f] transition-colors">
                 2. スペック比較表
               </a>
             </li>
             <li>
-              <a href="#function" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#function" className="hover:text-[#8a6a4f] transition-colors">
                 3. 機能面の比較
               </a>
             </li>
             <li>
-              <a href="#comfort" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#comfort" className="hover:text-[#8a6a4f] transition-colors">
                 4. フィット感・履き心地の比較
               </a>
             </li>
             <li>
-              <a href="#cost" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#cost" className="hover:text-[#8a6a4f] transition-colors">
                 5. 価格・コスパの比較
               </a>
             </li>
             <li>
-              <a href="#reviews" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#reviews" className="hover:text-[#8a6a4f] transition-colors">
                 6. 口コミ・評判の比較
               </a>
             </li>
             <li>
-              <a href="#recommendation" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#recommendation" className="hover:text-[#8a6a4f] transition-colors">
                 7. 目的別おすすめ
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 8. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 9. まとめ
               </a>
             </li>
@@ -213,7 +213,7 @@ export default function PitsoleVsTentialPage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="overview" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ピットソールとTENTIALの基本情報
           </h2>
 
@@ -252,7 +252,7 @@ export default function PitsoleVsTentialPage() {
 
         {/* Section 2 */}
         <section id="spec-comparison" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             スペック比較表
           </h2>
 
@@ -265,7 +265,7 @@ export default function PitsoleVsTentialPage() {
               <thead>
                 <tr className="bg-gray-50">
                   <th className="border border-gray-200 px-4 py-3 text-left font-bold text-gray-900">比較項目</th>
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold text-[#0ea5e9]">ピットソール</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold text-[#8a6a4f]">ピットソール</th>
                   <th className="border border-gray-200 px-4 py-3 text-left font-bold text-gray-700">TENTIAL</th>
                 </tr>
               </thead>
@@ -314,7 +314,7 @@ export default function PitsoleVsTentialPage() {
             </table>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               スペック面では、ピットソールの方がまとめ買い割引や臨床データの面で優位です。一方TENTIALはサイズ展開が広く、大きめの足にも対応している点が強みです。
             </p>
@@ -323,7 +323,7 @@ export default function PitsoleVsTentialPage() {
 
         {/* Section 3 */}
         <section id="function" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             機能面の比較
           </h2>
 
@@ -388,7 +388,7 @@ export default function PitsoleVsTentialPage() {
 
         {/* Section 4 */}
         <section id="comfort" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             フィット感・履き心地の比較
           </h2>
 
@@ -429,7 +429,7 @@ export default function PitsoleVsTentialPage() {
                 通気性
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                通気性に関しては両製品ともに一定の配慮がされていますが、大きな差はありません。どちらも長時間の使用では汗で多少の蒸れが発生するため、定期的に取り出して乾燥させることが推奨されます。インソールの手入れ方法については<Link href="/articles/insole-care/" className="text-[#0ea5e9] hover:underline">インソールのお手入れガイド</Link>を参考にしてください。
+                通気性に関しては両製品ともに一定の配慮がされていますが、大きな差はありません。どちらも長時間の使用では汗で多少の蒸れが発生するため、定期的に取り出して乾燥させることが推奨されます。インソールの手入れ方法については<Link href="/articles/insole-care/" className="text-[#8a6a4f] hover:underline">インソールのお手入れガイド</Link>を参考にしてください。
               </p>
             </div>
           </div>
@@ -437,7 +437,7 @@ export default function PitsoleVsTentialPage() {
 
         {/* Section 5 */}
         <section id="cost" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             価格・コスパの比較
           </h2>
 
@@ -467,10 +467,10 @@ export default function PitsoleVsTentialPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            ピットソールの詳しい料金プランやまとめ買い割引の内容は、<Link href="/pitsole/price/" className="text-[#0ea5e9] hover:underline">ピットソールの料金ページ</Link>で解説しています。
+            ピットソールの詳しい料金プランやまとめ買い割引の内容は、<Link href="/pitsole/price/" className="text-[#8a6a4f] hover:underline">ピットソールの料金ページ</Link>で解説しています。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               コストパフォーマンスを重視するなら、ピットソールのまとめ買いが最もお得な選択肢です。単品で試したい場合もピットソールの方が約1,400円安く購入できます。
             </p>
@@ -479,7 +479,7 @@ export default function PitsoleVsTentialPage() {
 
         {/* Section 6 */}
         <section id="reviews" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             口コミ・評判の比較
           </h2>
 
@@ -537,7 +537,7 @@ export default function PitsoleVsTentialPage() {
 
         {/* Section 7 */}
         <section id="recommendation" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             目的別おすすめ
           </h2>
 
@@ -546,8 +546,8 @@ export default function PitsoleVsTentialPage() {
           </p>
 
           <div className="space-y-4 mb-6">
-            <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6">
-              <h3 className="text-base md:text-lg font-bold text-[#0ea5e9] mb-3">
+            <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6">
+              <h3 className="text-base md:text-lg font-bold text-[#8a6a4f] mb-3">
                 ピットソールがおすすめの方
               </h3>
               <ul className="text-sm md:text-base text-gray-700 space-y-2 list-disc list-inside">
@@ -561,7 +561,7 @@ export default function PitsoleVsTentialPage() {
               <div className="mt-4">
                 <Link
                   href="/pitsole/"
-                  className="inline-block text-sm font-bold text-white bg-[#0ea5e9] hover:bg-sky-600 px-5 py-2 rounded-lg transition-colors"
+                  className="inline-block text-sm font-bold text-white bg-[#8a6a4f] hover:bg-[#8a6a4f] px-5 py-2 rounded-lg transition-colors"
                 >
                   ピットソールの詳細レビューを見る
                 </Link>
@@ -583,17 +583,17 @@ export default function PitsoleVsTentialPage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            なお、ピットソールと他のインソールの比較もあわせて検討したい方は、<Link href="/compare/pitsole-vs-runway/" className="text-[#0ea5e9] hover:underline">ピットソール vs ランウェイキュアソール比較</Link>や<Link href="/compare/pitsole-vs-slimup/" className="text-[#0ea5e9] hover:underline">ピットソール vs スリムアップインソール比較</Link>もご覧ください。
+            なお、ピットソールと他のインソールの比較もあわせて検討したい方は、<Link href="/compare/pitsole-vs-runway/" className="text-[#8a6a4f] hover:underline">ピットソール vs ランウェイキュアソール比較</Link>や<Link href="/compare/pitsole-vs-slimup/" className="text-[#8a6a4f] hover:underline">ピットソール vs スリムアップインソール比較</Link>もご覧ください。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            また、ランウェイキュアソールやスリムアップインソールを含めた総合ランキングは<Link href="/ranking/" className="text-[#0ea5e9] hover:underline">おすすめランキングページ</Link>で確認できます。
+            また、ランウェイキュアソールやスリムアップインソールを含めた総合ランキングは<Link href="/ranking/" className="text-[#8a6a4f] hover:underline">おすすめランキングページ</Link>で確認できます。
           </p>
         </section>
 
         {/* Section 8: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -647,7 +647,7 @@ export default function PitsoleVsTentialPage() {
 
         {/* Section 9: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -673,10 +673,10 @@ export default function PitsoleVsTentialPage() {
             総合的に見ると、「効果」と「コスパ」の両面でピットソールが優位です。特にダイエットや姿勢改善を目的とする方にはピットソールを強くおすすめします。一方、足の疲れの軽減やビジネスシューズでの使用を主目的とする方にはTENTIALも選択肢に入ります。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               当サイトでは、ピットソール・ランウェイキュアソール・スリムアップインソールの3商品を中心に比較レビューを行っています。
-              <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキング</Link>で3商品の料金・機能・口コミを一覧で比較できますので、あわせてご確認ください。
+              <Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキング</Link>で3商品の料金・機能・口コミを一覧で比較できますので、あわせてご確認ください。
             </p>
           </div>
         </section>

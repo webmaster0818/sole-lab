@@ -60,7 +60,7 @@ export default function DeodorizePage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">インソールの防臭・消臭ケア｜臭くなる原因と毎日できるニオイ対策</h1>
@@ -73,17 +73,17 @@ export default function DeodorizePage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールが臭くなるメカニズム</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールが臭くなるメカニズム</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足は1日にコップ1杯程度の汗をかくといわれます。汗そのものはほぼ無臭ですが、靴内の高温多湿な環境で雑菌が汗や皮脂、古い角質を分解するときにニオイ物質が発生します。インソールは足裏に密着して汗を吸い込み続けるため、靴の中でも特に雑菌が繁殖しやすいパーツです。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">つまりニオイ対策の本質は「雑菌が増える条件（湿気・栄養・時間）を断つこと」です。履いたら乾かす、連続使用を避けて休ませる、靴下で汗や角質の持ち込みを減らす——地味ですが、この日常ケアの積み重ねがどんな消臭グッズより効きます。すでに染みついたニオイのリセットには洗浄が必要になるため、その場合は素材別の洗い方を解説した洗い方ガイドを参考にしてください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">防臭・消臭ケアの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">防臭・消臭ケアの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function DeodorizePage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">防臭・消臭ケアにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">防臭・消臭ケアにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">日常の防臭ケアのしやすさ（手入れ方法の明確さ・抗菌加工の有無）にも注目して選ぶことをおすすめします。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function DeodorizePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">今日からできる防臭習慣5つ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">今日からできる防臭習慣5つ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">(1)帰宅したらインソールを靴から取り出し、風通しのよい日陰で一晩乾かす。(2)同じインソール・同じ靴の連続使用を避け、2足ローテーションで丸1日休ませる。(3)綿や5本指など吸湿性のよい靴下を履き、素足での使用を避ける。(4)消臭・除菌スプレーは「乾かした後の補助」として使う（スプレーで湿らせたまま放置すると逆効果。アルコール系は素材を傷める場合があるためインソール対応品を）。(5)靴側にも乾燥剤や新聞紙を入れて湿気を残さない。インソールだけケアしても靴が湿っていればニオイは戻ります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">これらを続けてもニオイがすぐ戻る場合は、雑菌が素材の奥まで定着しているサインで、洗浄またはインソール自体の交換時期です。手入れ方法は製品ごとに異なり、ピットソールは中性洗剤での手早い手洗い＋陰干し（洗濯機厳禁）、ランウェイキュアソールは水洗い非推奨で固く絞った布での拭き取りが公式の案内です。なお、足の強いニオイに皮むけ・かゆみを伴う場合は水虫など皮膚トラブルの可能性があるため、皮膚科の受診を検討してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

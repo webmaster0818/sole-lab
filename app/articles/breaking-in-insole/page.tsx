@@ -60,7 +60,7 @@ export default function BreakingInPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">インソールに慣れるまで痛い・違和感がある時の対処法</h1>
@@ -73,37 +73,37 @@ export default function BreakingInPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">なぜ最初は違和感・痛みが出るのか</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">なぜ最初は違和感・痛みが出るのか</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">これまでアーチを支えられていなかった足に、急にしっかりしたサポートが入ると、土踏まずが押し上げられる感覚や、使っていなかった筋肉が刺激される違和感が出ることがあります。これは足がサポートに適応していく過程で起こる一時的なものが多く見られます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方で、サイズが合っていない、アーチの高さが足に合わない、靴の中で窮屈になっているなど、製品が合っていないことが原因の痛みもあります。一時的な慣らしの違和感と、合わない痛みを見極めることが大切です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">新しい靴の慣らし期間と靴擦れの原因</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">新しい靴の慣らし期間と靴擦れの原因</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">新しい靴は、買ったばかりの状態では素材が硬く、足の形にもまだ馴染んでいません。一般的には数日〜2週間ほど、最初は短時間の着用を繰り返すうちに少しずつ足になじんでいくことが多いとされます。革靴など硬い素材ほど慣らしに時間がかかる傾向があり、いきなり一日中歩き回るような使い方は靴擦れの原因になりやすい傾向があります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">靴擦れの一般的な原因は、靴の中で足が前後・左右に動いてしまい、かかとや指の付け根などが繰り返しこすれることです。サイズが大きすぎて足が滑る、逆に小さすぎて圧迫される、甲や幅が合っていない、靴の硬い縫い目が肌に当たる——といった「フィットのずれ」が積み重なると、こすれや圧迫が起きやすくなります。新品時は特にこのずれが出やすいため、最初の数日は様子を見ながら履くと安心です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールでフィットを調整する考え方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールでフィットを調整する考え方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは、靴と足のあいだにできるすき間を埋めてフィットを整える役割があります。靴の中で足が滑って動くことがこすれの一因になるため、適度に厚みのあるインソールやアーチサポートで足の位置を安定させると、靴の中での余分な動きを抑えられる場合があります。とくにかかとが浮く・前滑りするといった動きが靴擦れにつながっているケースでは、フィット調整が役立つことがあります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ただし、インソールはあくまでフィットを補助するものです。靴自体のサイズや形状が大きくずれている場合は、インソールだけで根本的に解決するのは難しいため、まずは靴選びそのものを見直すことが前提になります。インソールは「ちょうどよい靴をさらに足に合わせる」ための調整手段と考えると失敗が少なくなります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">サイズ・厚みの選び方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">サイズ・厚みの選び方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールはサイズ表記どおりに選ぶのが基本ですが、靴の形によっては大きめの製品をつま先側でカットして調整するタイプもあります。カットして使う場合は、いきなり切らず、もとの中敷きを型紙にして少しずつ合わせると失敗しにくくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">厚みは、靴の中の余裕に合わせて選びます。厚すぎると靴が窮屈になり、かえって甲や指が圧迫されて新たな靴擦れを招くことがあります。逆に薄すぎるとフィット調整の効果が出にくくなります。窮屈に感じる場合は、もとの中敷きを外してインソールと入れ替える、薄型タイプに変えるといった調整が有効です。アーチサポートの高さも、高すぎると土踏まずに違和感が出やすいため、足に合った高さを選ぶことが大切です。詳しくは<Link href="/articles/thickness-guide-insole/" className="text-[#e8627c] underline font-medium">厚みの選び方</Link>もあわせてご覧ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴擦れ予防の注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴擦れ予防の注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">靴擦れを防ぐには、フィット調整に加えて履き方の工夫も役立ちます。新しい靴は最初から長時間履かず短時間から慣らす、こすれやすい部位を事前に保護する、靴ひもやストラップでかかとが浮かないよう調整する、といった基本を押さえておいてください。すでに赤みやこすれが出ている部位は、その箇所を圧迫・刺激しないよう注意してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">なお、本記事で紹介するインソールは医療目的の装具ではなく、フィット調整や履き心地のサポートを目的としたものです。痛みや傷、水ぶくれが続く・悪化する場合や、もともと足に変形やトラブルがある場合は、自己判断で使い続けず、皮膚科や整形外科などの医療機関に相談してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴ずれ・当たりが出やすい部位別の対処</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴ずれ・当たりが出やすい部位別の対処</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">慣らし期間の靴ずれや「当たり」は、出る部位によって原因と対処が変わります。代表的な3つの部位別に、一般的な考え方を整理します。</p>
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">かかと（上下に動いてこすれる）</h3>
@@ -120,7 +120,7 @@ export default function BreakingInPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">慣らし期間中のインソール活用手順</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">慣らし期間中のインソール活用手順</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールの慣らしは「短時間から段階的に」が基本です。次のようなステップで進めると、違和感の原因を切り分けながら無理なく慣らせます。</p>
           <ol className="list-decimal pl-6 space-y-3 mb-4 text-sm md:text-base text-gray-700 leading-relaxed">
             <li><span className="font-bold">室内で30分〜1時間試す:</span> まず家の中で履き、土踏まずの当たり方・つま先の余裕・かかとの収まりを確認します。この段階で強い痛みがあれば、サイズやアーチの高さが合っていない可能性があります。</li>
@@ -132,11 +132,11 @@ export default function BreakingInPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">慣れるまでの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">慣れるまでの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -145,12 +145,12 @@ export default function BreakingInPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">慣れるまでにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">慣れるまでにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">足に合うアーチの高さと、調整しやすい設計のインソールが慣らしやすくなります。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -167,17 +167,17 @@ export default function BreakingInPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">慣らしても痛い場合の見極め</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">慣らしても痛い場合の見極め</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">短時間からの慣らしを2週間ほど続けても痛みが減らない、むしろ悪化する場合は、その製品が足に合っていない可能性があります。無理に使い続けず、別のアーチ高さ・厚みの製品を試してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">もともと足に痛みや変形がある方は、自己判断で続けず整形外科に相談してください。インソールは合うものを使ってこそ効果を発揮します。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

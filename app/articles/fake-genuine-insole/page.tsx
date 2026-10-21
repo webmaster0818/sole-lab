@@ -60,7 +60,7 @@ export default function FakeGenuinePage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ダイエットインソールの偽物・正規品の見分け方｜安全に買うコツ</h1>
@@ -73,18 +73,18 @@ export default function FakeGenuinePage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">なぜ偽物・模倣品が出回るのか</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">なぜ偽物・模倣品が出回るのか</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">人気が高くよく売れる製品ほど、似せた模倣品や、正規ルートを通らない非正規品が出回りやすくなります。見た目が似ていても、素材や設計が異なり、本来の機能や耐久性が得られないことがあります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">さらに、非正規品やフリマの中古は、メーカーの正規品保証や返金保証の対象外です。安く見えても、効果が得られず買い直すことになれば結局割高になりかねません。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">購入前に確認できる一般的なポイントとして、販売元がメーカー公式ストアか正規取扱店か、定価から極端にかけ離れた価格になっていないか、販売者情報や特定商取引法に基づく表記が明示されているか、返品・返金保証の条件が記載されているか、などが挙げられます。ひとつでも不明確な点があれば、購入を急がず確認するのが安心です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">偽物・正規品の選び方4つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">偽物・正規品の選び方4つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function FakeGenuinePage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">偽物・正規品におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">偽物・正規品におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">正規販売店から購入し、正規品保証・返金保証を確認するのが安全です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function FakeGenuinePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">フリマ・中古の注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">フリマ・中古の注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">フリマアプリの中古は、衛生面に加え、正規品保証・返金保証の対象外であることがほとんどです。安くても、効果や安全性が保証されないリスクがあります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">とくにインソールは肌に触れて毎日使うものです。安全と効果を考えれば、多少高くても正規の新品を選ぶのが安心です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

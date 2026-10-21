@@ -60,7 +60,7 @@ export default function ThicknessGuidePage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">インソールの厚みの選び方｜靴のタイプ別の目安と注意点</h1>
@@ -73,17 +73,17 @@ export default function ThicknessGuidePage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厚みで何が変わるのか</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">厚みで何が変わるのか</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールの厚みは、サポート力・クッション性・靴の中の窮屈さに影響します。厚いほどクッションやサイズ調整の効果は高まりますが、靴の中が狭くなり、合わないと窮屈で痛くなります。薄いほど靴を選びませんが、サポートやクッションは控えめになります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">靴の内寸とのバランスが重要で、中が浅い革靴やパンプス、安全靴には薄型が、余裕のあるスニーカーには標準が向きます。元の中敷きを外して入れ替えれば、その分厚みに余裕が生まれます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厚みの選び方の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">厚みの選び方の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function ThicknessGuidePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">薄型・標準・厚手の特徴と向く靴</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">薄型・標準・厚手の特徴と向く靴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールの厚みは大きく薄型・標準・厚手の3タイプに分けられます。明確な規格があるわけではなく、製品ごとに「薄型」「フルレングス」などの表記で示されるのが一般的です。それぞれの特徴と向く靴・用途を整理すると、次のように考えられます。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">タイプ</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
                   <th className="p-3 text-left border-b border-gray-200">向く靴・用途</th>
@@ -114,19 +114,19 @@ export default function ThicknessGuidePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厚みとフィット感・つま先の余裕の関係</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">厚みとフィット感・つま先の余裕の関係</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れると、その厚みの分だけ足の位置が持ち上がり、靴の中の空間が狭くなります。とくに甲の高さやつま先の余裕に影響しやすく、厚いものほど甲がきつく感じたり、つま先が靴の先端に当たりやすくなったりします。逆に薄型は元のフィット感をほとんど変えずにサポートだけを足せるのが利点です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">フィット感を保つ目安として、立った状態でつま先が靴の先端に当たらず、足指が軽く動かせる余裕を残せているかをご確認ください。かかとが浮く、甲が圧迫される、指先が窮屈といった場合は、厚みが合っていないサインです。元の中敷きを外して入れ替えると、その分の余裕が生まれ、厚手でも収まりやすくなります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴のサイズへの影響と選び方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴のサイズへの影響と選び方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">厚いインソールは靴の内寸を実質的に小さくするため、サイズ調整として使えます。少し大きい靴のフィットを高めたいときは厚手が役立ち、ジャストサイズの靴には薄型〜標準が無難です。これから靴を新調する場合に厚手のインソールを使う予定があるなら、その分を見込んで靴を選ぶと失敗しにくくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">多くのインソールはサイズ展開があり、靴やつま先の形に合わせて先端をハサミでカットして調整できるタイプもあります。購入前に対応サイズを確認し、必要に応じてカット可否もチェックしておいてください。サイズ調整の具体的な手順は<Link href="/articles/size-adjustment/" className="text-[#e8627c] underline font-medium">インソールのサイズ調整</Link>もあわせてご覧ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴の種類別に見る厚みの目安（一般論）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴の種類別に見る厚みの目安（一般論）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">同じ「薄型・標準・厚手」でも、靴の構造によって収まり方は大きく変わります。代表的な靴のタイプ別に、一般的な厚みの考え方を整理します。いずれも目安であり、最終的には実際に履いて窮屈さを確認してください。</p>
           <div className="space-y-4 mb-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
@@ -150,12 +150,12 @@ export default function ThicknessGuidePage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厚みの選び方におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">厚みの選び方におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">靴の内寸に合う厚みで、アーチサポートのあるインソールを選ぶことをおすすめします。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -172,7 +172,7 @@ export default function ThicknessGuidePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある失敗と注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある失敗と注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">厚みでよくある失敗は、サポート力を期待して厚手を選んだ結果、靴が窮屈になってしまうケースです。サポート力は必ずしも厚みに比例するわけではなく、薄型でもアーチサポート設計の製品があります。中が浅い靴には、無理に厚手を入れず薄型を選ぶ方が快適です。</p>
           <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             <li>元の中敷きを外さずに厚手を重ねて、甲やつま先がきつくなる。</li>
@@ -184,7 +184,7 @@ export default function ThicknessGuidePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厚みで失敗したときのリカバリー</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">厚みで失敗したときのリカバリー</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「買ってみたら窮屈だった」「薄すぎて物足りない」という場合も、すぐに買い直す前にできる調整があります。次の順で試すのが一般的です。</p>
           <ol className="list-decimal pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             <li><span className="font-bold">元の中敷きを外して入れ替える：</span>厚くて窮屈な場合の最初の対処です。取り外せる中敷きなら、その厚みの分だけ余裕が生まれます。</li>
@@ -195,11 +195,11 @@ export default function ThicknessGuidePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

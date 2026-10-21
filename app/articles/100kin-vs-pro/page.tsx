@@ -131,15 +131,15 @@ export default function HyakkinVsProPage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "100均 vs 高機能インソール比較" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年最新版 比較検証
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             100均インソール vs 高機能インソール
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">比較</span>テスト
+            <span className="text-[#8a6a4f]">比較</span>テスト
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             ダイソーやセリアの100均インソールと、ピットソールなどの高機能インソール。
@@ -157,52 +157,52 @@ export default function HyakkinVsProPage() {
           </p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#overview" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#overview" className="hover:text-[#8a6a4f] transition-colors">
                 1. 比較の前提と検証方法
               </a>
             </li>
             <li>
-              <a href="#materials" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#materials" className="hover:text-[#8a6a4f] transition-colors">
                 2. 素材と構造の比較
               </a>
             </li>
             <li>
-              <a href="#cushion" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#cushion" className="hover:text-[#8a6a4f] transition-colors">
                 3. クッション性・衝撃吸収の比較
               </a>
             </li>
             <li>
-              <a href="#arch" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#arch" className="hover:text-[#8a6a4f] transition-colors">
                 4. アーチサポートの比較
               </a>
             </li>
             <li>
-              <a href="#durability" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#durability" className="hover:text-[#8a6a4f] transition-colors">
                 5. 耐久性の比較
               </a>
             </li>
             <li>
-              <a href="#diet" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#diet" className="hover:text-[#8a6a4f] transition-colors">
                 6. ダイエット効果の比較
               </a>
             </li>
             <li>
-              <a href="#cost" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#cost" className="hover:text-[#8a6a4f] transition-colors">
                 7. トータルコストの比較
               </a>
             </li>
             <li>
-              <a href="#who" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#who" className="hover:text-[#8a6a4f] transition-colors">
                 8. どちらを選ぶべきか
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 9. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 10. まとめ
               </a>
             </li>
@@ -214,7 +214,7 @@ export default function HyakkinVsProPage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="overview" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             比較の前提と検証方法
           </h2>
 
@@ -282,7 +282,7 @@ export default function HyakkinVsProPage() {
 
         {/* Section 2 */}
         <section id="materials" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             素材と構造の比較
           </h2>
 
@@ -312,7 +312,7 @@ export default function HyakkinVsProPage() {
             特にピットソールの3点サポート構造は、世界特許技術に基づき、内側縦アーチ・外側縦アーチ・横アーチの3箇所を異なる硬度の素材で支えます。この精密な設計が、単なるクッションとは次元の異なる機能を実現しています。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               素材・構造の差は一目瞭然です。100均は「敷くだけ」の平面構造、高機能インソールは足の骨格に合わせた「支える」立体構造。この根本的な設計差が、以降で比較するすべての性能差の原因です。
             </p>
@@ -321,7 +321,7 @@ export default function HyakkinVsProPage() {
 
         {/* Section 3 */}
         <section id="cushion" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             クッション性・衝撃吸収の比較
           </h2>
 
@@ -382,7 +382,7 @@ export default function HyakkinVsProPage() {
 
         {/* Section 4 */}
         <section id="arch" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             アーチサポートの比較
           </h2>
 
@@ -415,7 +415,7 @@ export default function HyakkinVsProPage() {
 
         {/* Section 5 */}
         <section id="durability" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             耐久性の比較
           </h2>
 
@@ -477,7 +477,7 @@ export default function HyakkinVsProPage() {
 
         {/* Section 6 */}
         <section id="diet" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ダイエット効果の比較
           </h2>
 
@@ -504,7 +504,7 @@ export default function HyakkinVsProPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            インソールダイエットの科学的なメカニズムについて詳しく知りたい方は、<Link href="/articles/diet-mechanism/" className="text-[#0ea5e9] hover:underline">インソールダイエットのメカニズム解説記事</Link>をご覧ください。
+            インソールダイエットの科学的なメカニズムについて詳しく知りたい方は、<Link href="/articles/diet-mechanism/" className="text-[#8a6a4f] hover:underline">インソールダイエットのメカニズム解説記事</Link>をご覧ください。
           </p>
 
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
@@ -517,7 +517,7 @@ export default function HyakkinVsProPage() {
 
         {/* Section 7 */}
         <section id="cost" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             トータルコストの比較
           </h2>
 
@@ -575,10 +575,10 @@ export default function HyakkinVsProPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            年間12,000円で体重が3kg以上減り、姿勢が改善され、腰痛が軽減されるなら、その費用対効果は非常に高いと言えます。ジムの月会費（月7,000〜10,000円）と比較しても、はるかに経済的です。ピットソールの詳しい料金プランは<Link href="/pitsole/price/" className="text-[#0ea5e9] hover:underline">料金ページ</Link>で確認できます。
+            年間12,000円で体重が3kg以上減り、姿勢が改善され、腰痛が軽減されるなら、その費用対効果は非常に高いと言えます。ジムの月会費（月7,000〜10,000円）と比較しても、はるかに経済的です。ピットソールの詳しい料金プランは<Link href="/pitsole/price/" className="text-[#8a6a4f] hover:underline">料金ページ</Link>で確認できます。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               「安さ」だけで選ぶなら100均、「効果」を含めたコスパで選ぶなら高機能インソール。目的に応じた判断が重要です。ダイエットや健康改善が目的なら、1日33円の投資は十分に価値があります。
             </p>
@@ -587,7 +587,7 @@ export default function HyakkinVsProPage() {
 
         {/* Section 8 */}
         <section id="who" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             どちらを選ぶべきか
           </h2>
 
@@ -609,8 +609,8 @@ export default function HyakkinVsProPage() {
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6">
-              <h3 className="text-base md:text-lg font-bold text-[#0ea5e9] mb-3">
+            <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6">
+              <h3 className="text-base md:text-lg font-bold text-[#8a6a4f] mb-3">
                 高機能インソールを選ぶべきケース
               </h3>
               <ul className="text-sm md:text-base text-gray-700 space-y-2 list-disc list-inside">
@@ -626,7 +626,7 @@ export default function HyakkinVsProPage() {
               <div className="mt-4">
                 <Link
                   href="/ranking/"
-                  className="inline-block text-sm font-bold text-white bg-[#0ea5e9] hover:bg-sky-600 px-5 py-2 rounded-lg transition-colors"
+                  className="inline-block text-sm font-bold text-white bg-[#8a6a4f] hover:bg-[#8a6a4f] px-5 py-2 rounded-lg transition-colors"
                 >
                   高機能インソールのおすすめランキングを見る
                 </Link>
@@ -639,19 +639,19 @@ export default function HyakkinVsProPage() {
           </p>
 
           <ul className="text-sm md:text-base text-gray-700 space-y-2 mb-6 list-disc list-inside">
-            <li><span className="font-bold">ピットソール：</span>ダイエット効果を最重視。臨床データあり。まとめ買い割引でコスパも良い。<Link href="/pitsole/" className="text-[#0ea5e9] hover:underline">詳細を見る</Link></li>
-            <li><span className="font-bold">ランウェイキュアソール：</span>美姿勢サポートと薄型設計。ビジネスシューズにも対応。<Link href="/runway-cure-sole/" className="text-[#0ea5e9] hover:underline">詳細を見る</Link></li>
-            <li><span className="font-bold">スリムアップインソール：</span>美容整体師監修。重心移動の最適化で自然に痩せる設計。<Link href="/slim-up-insole/" className="text-[#0ea5e9] hover:underline">詳細を見る</Link></li>
+            <li><span className="font-bold">ピットソール：</span>ダイエット効果を最重視。臨床データあり。まとめ買い割引でコスパも良い。<Link href="/pitsole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
+            <li><span className="font-bold">ランウェイキュアソール：</span>美姿勢サポートと薄型設計。ビジネスシューズにも対応。<Link href="/runway-cure-sole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
+            <li><span className="font-bold">スリムアップインソール：</span>美容整体師監修。重心移動の最適化で自然に痩せる設計。<Link href="/slim-up-insole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
           </ul>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            100均と高機能インソールの比較として、以前の記事<Link href="/articles/100kin-comparison/" className="text-[#0ea5e9] hover:underline">100均インソール比較記事</Link>や<Link href="/articles/cheap-insole/" className="text-[#0ea5e9] hover:underline">安いインソール記事</Link>もあわせてご覧ください。
+            100均と高機能インソールの比較として、以前の記事<Link href="/articles/100kin-comparison/" className="text-[#8a6a4f] hover:underline">100均インソール比較記事</Link>や<Link href="/articles/cheap-insole/" className="text-[#8a6a4f] hover:underline">安いインソール記事</Link>もあわせてご覧ください。
           </p>
         </section>
 
         {/* Section 9: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -697,7 +697,7 @@ export default function HyakkinVsProPage() {
                 Q. 高機能インソールの中でどれを選べばいいですか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. ダイエット効果と骨格矯正を重視するならピットソール、姿勢改善と薄型設計を重視するならランウェイキュアソール、整体的アプローチと重心移動の最適化を重視するならスリムアップインソールがおすすめです。3商品の詳しい比較は<Link href="/ranking/" className="text-[#0ea5e9] hover:underline">おすすめランキングページ</Link>で確認できます。
+                A. ダイエット効果と骨格矯正を重視するならピットソール、姿勢改善と薄型設計を重視するならランウェイキュアソール、整体的アプローチと重心移動の最適化を重視するならスリムアップインソールがおすすめです。3商品の詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] hover:underline">おすすめランキングページ</Link>で確認できます。
               </p>
             </div>
           </div>
@@ -705,7 +705,7 @@ export default function HyakkinVsProPage() {
 
         {/* Section 10: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -731,10 +731,10 @@ export default function HyakkinVsProPage() {
             ダイエット・姿勢改善・健康維持を目的とするなら、高機能インソールへの投資は十分に元が取れます。1日あたり約33円で、体型改善と健康維持ができると考えれば、缶コーヒー1本以下の投資です。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               高機能インソール3商品の料金・機能・口コミを一覧で比較したい方は
-              <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。まずは1足から試してみたい方は<Link href="/pitsole/price/" className="text-[#0ea5e9] hover:underline">ピットソールの料金ページ</Link>で最新の割引情報を確認できます。
+              <Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。まずは1足から試してみたい方は<Link href="/pitsole/price/" className="text-[#8a6a4f] hover:underline">ピットソールの料金ページ</Link>で最新の割引情報を確認できます。
             </p>
           </div>
         </section>

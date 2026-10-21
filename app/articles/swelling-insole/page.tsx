@@ -638,7 +638,7 @@ export default function SwellingInsolePage() {
               <p className="text-gray-700 text-sm">足首をゆっくり大きく回すことで、ふくらはぎの筋ポンプ機能を促進します。座ったままできるので、デスクワーク中にもおすすめです。</p>
             </div>
           </div>
-          <p className="text-gray-600 text-sm bg-blue-50 p-3 rounded-lg">
+          <p className="text-gray-600 text-sm bg-[#faf7f3] p-3 rounded-lg">
             インソールで正しい足の使い方をサポートしつつ、これらのトレーニングで筋力を強化することで、むくみの根本改善が期待できます。
           </p>
         </div>

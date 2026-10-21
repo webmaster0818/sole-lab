@@ -61,7 +61,7 @@ export default function BasketballPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">バスケのインソールの選び方｜ジャンプの着地衝撃と足首保護</h1>
@@ -74,7 +74,7 @@ export default function BasketballPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バスケで足に負担がかかる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バスケで足に負担がかかる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">バスケットボールはジャンプの着地、ダッシュとストップ、左右の素早い切り返しが連続する競技で、足首・膝・足裏に大きな衝撃と捻れの負担がかかります。着地の衝撃を吸収しきれないと、足首の捻挫や膝の痛み、足底の疲労につながります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">特にジャンプからの着地では、自分の体重に加えて落下のエネルギーが足元に集中し、前足部やかかとに繰り返し強い負荷がかかります。リバウンドやシュートのたびにこの動作が積み重なるため、衝撃をうまく逃がせる足元の環境づくりが大切です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">また、ピボットや急なストップ＆ダッシュでは、足の中で前後・左右へのズレが生じやすくなります。足が靴の中で滑ったりブレたりすると、踏ん張りが効かないだけでなく、足首をひねる原因にもなりかねません。素早い方向転換が多いプレースタイルほど、足元の安定性が問われます。</p>
@@ -82,12 +82,12 @@ export default function BasketballPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バスケットボールの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バスケットボールの選び方3つのポイント</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">バスケ用にインソールを選ぶときは、「衝撃吸収」「安定性」「フィット」の3つを軸に考えると迷いにくくなります。ジャンプの多いプレーなら衝撃吸収を、切り返しやストップが多いなら安定性を優先するなど、自分のプレースタイルに合わせて重視するポイントを決めてください。どれか一つに偏りすぎず、バランスのとれた一枚を選ぶのが基本です。</p>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -96,12 +96,12 @@ export default function BasketballPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バスケットボールにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バスケットボールにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">着地衝撃の吸収と後足部の安定を両立したインソールがバスケに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -118,7 +118,7 @@ export default function BasketballPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バッシュでの使い方・サイズ調整の注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バッシュでの使い方・サイズ調整の注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">バスケットシューズに入れる際は、元の中敷きを外して入れ替えるとフィットが保てます。バッシュはもともと足を包み込むようにタイトな作りのモデルが多いため、元の中敷きの上に重ねて入れると窮屈になり、かえって動きづらくなることがあります。インソールとバッシュの相性を確かめるためにも、必ず一度履いてみてフィット感をご確認ください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズ調整では、つま先側に余裕がありすぎたり、逆に指先が当たったりしないかをチェックします。元の中敷きを型紙にしてインソールの先端を少しずつカットできるタイプもありますが、切りすぎると元に戻せないため、少しずつ調整するのが無難です。厚みのあるインソールに替えると靴内のスペースが減るので、足首まわりの締め付けやかかとの収まりも合わせて確認してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足首の不安定さが気になる場合は、足首サポーターやバランストレーニングも併用してください。インソールはあくまで足元の環境を整える補助であり、足首やふくらはぎの筋力づくりと組み合わせることで、より安定したプレーにつながります。</p>
@@ -126,7 +126,7 @@ export default function BasketballPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ジャンプ着地の衝撃とポジション別の考え方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ジャンプ着地の衝撃とポジション別の考え方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ジャンプの着地では、一般に自分の体重を上回る負荷が足にかかるとされ、この動作が試合や練習を通して何度も繰り返されます。プレーするポジションや役割によって、ジャンプの回数と切り返しの頻度のバランスが変わるため、インソールで重視するポイントも変わってきます。</p>
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">ゴール下が主戦場のプレーヤー：衝撃吸収を最優先</h3>
@@ -144,18 +144,18 @@ export default function BasketballPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">体育館の床・屋外コートでの注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">体育館の床・屋外コートでの注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">体育館のフローリングはグリップが効きやすく、急停止時に足がしっかり止まるぶん、靴の中で足が前に滑ったりつま先が詰まったりしやすくなります。インソールの表面素材が滑りにくいものだと、靴内のズレを抑えやすくなります。また、長時間の練習では汗で靴内が蒸れて滑りの原因になるため、練習後にインソールを取り出して乾かす習慣もおすすめです。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">屋外コートはアスファルトやコンクリートなど硬い路面が多く、一般に着地衝撃が体育館より大きくなりやすいとされます。屋外中心でプレーする方はクッション性をより重視し、路面が硬いぶんインソールの消耗も早くなりがちなので、へたりを感じたら早めの交換を心がけてください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">自分のプレースタイルにどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソールタイプ診断</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

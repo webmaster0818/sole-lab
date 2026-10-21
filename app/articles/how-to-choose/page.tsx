@@ -85,25 +85,25 @@ export default function HowToChoosePage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "選び方ガイド" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-sky-600 font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             ダイエットコラム
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ダイエットインソールの選び方
             <br />
-            <span className="text-sky-600">5つのポイント</span>
+            <span className="text-[#8a6a4f]">5つのポイント</span>
             【失敗しない】
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             「種類が多すぎてどれを選べばいいかわからない」「買ったけど合わなかった」そんな失敗を防ぐために、ダイエットインソール選びで押さえるべき5つのポイントを解説します。自分にぴったりの1足を見つけてください。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-sky-100 text-sky-700 px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#6f543c] px-3 py-1 rounded-full font-medium">
               ダイエットインソール
             </span>
-            <span className="bg-sky-100 text-sky-700 px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#6f543c] px-3 py-1 rounded-full font-medium">
               選び方
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -192,7 +192,7 @@ export default function HowToChoosePage() {
             {/* ポイント1: サイズ */}
             <div className="card">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-sky-600 shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   01
                 </span>
                 <div>
@@ -208,15 +208,15 @@ export default function HowToChoosePage() {
                     </p>
                     <ul className="space-y-2 ml-1">
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         自分の足のサイズ（cm）が対応サイズ範囲に含まれているか
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         使いたい靴の中敷きを外してインソールが収まるスペースがあるか
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         甲が低めの靴の場合、インソールの厚みで窮屈にならないか
                       </li>
                     </ul>
@@ -234,7 +234,7 @@ export default function HowToChoosePage() {
             {/* ポイント2: アーチサポート */}
             <div className="card">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-sky-600 shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   02
                 </span>
                 <div>
@@ -253,15 +253,15 @@ export default function HowToChoosePage() {
                     </p>
                     <ul className="space-y-2 ml-1">
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         3つのアーチ（内側縦・外側縦・横）すべてをサポートしているか
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         特許取得など、科学的根拠のある設計かどうか
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         硬すぎず柔らかすぎない、適度な弾力があるか
                       </li>
                     </ul>
@@ -279,7 +279,7 @@ export default function HowToChoosePage() {
             {/* ポイント3: 靴との相性 */}
             <div className="card">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-sky-600 shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   03
                 </span>
                 <div>
@@ -345,7 +345,7 @@ export default function HowToChoosePage() {
             {/* ポイント4: 価格と続けやすさ */}
             <div className="card">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-sky-600 shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   04
                 </span>
                 <div>
@@ -361,15 +361,15 @@ export default function HowToChoosePage() {
                     </p>
                     <ul className="space-y-2 ml-1">
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         エントリー価格帯（2,000〜3,000円）：気軽に試せるが機能は限定的
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         ミドル価格帯（4,000〜5,000円）：機能と価格のバランスが良い
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         プレミアム価格帯（6,000円〜）：特許技術・高品質素材を採用
                       </li>
                     </ul>
@@ -390,7 +390,7 @@ export default function HowToChoosePage() {
             {/* ポイント5: 口コミ・実績 */}
             <div className="card">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-sky-600 shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   05
                 </span>
                 <div>
@@ -406,19 +406,19 @@ export default function HowToChoosePage() {
                     </p>
                     <ul className="space-y-2 ml-1">
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         良い口コミと悪い口コミの両方をバランスよく読む
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         自分と似た体型・用途の方のレビューを重視する
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         累計販売数・リピート率・メディア掲載実績なども参考にする
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-sky-500 shrink-0 mt-0.5">&#10003;</span>
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                         購入後1ヶ月以上使った長期レビューを探す
                       </li>
                     </ul>
@@ -452,7 +452,7 @@ export default function HowToChoosePage() {
           </div>
 
           <div className="space-y-4">
-            <div className="card border-l-4 border-l-sky-500">
+            <div className="card border-l-4 border-l-[#8a6a4f]">
               <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">
                 効果・実績重視なら：ピットソール
               </h3>
@@ -467,7 +467,7 @@ export default function HowToChoosePage() {
                     key={point}
                     className="text-sm text-gray-600 flex items-start gap-2"
                   >
-                    <span className="text-sky-500 shrink-0 mt-0.5">
+                    <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                       &#10003;
                     </span>
                     {point}
@@ -484,7 +484,7 @@ export default function HowToChoosePage() {
               </div>
               <Link
                 href="/pitsole/"
-                className="text-sky-600 hover:text-sky-700 text-sm font-medium transition-colors"
+                className="text-[#8a6a4f] hover:text-[#6f543c] text-sm font-medium transition-colors"
               >
                 ピットソールの詳細を見る &rarr;
               </Link>
@@ -570,7 +570,7 @@ export default function HowToChoosePage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-sky-600 hover:bg-sky-700 text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングを見る
             </Link>
@@ -632,7 +632,7 @@ export default function HowToChoosePage() {
                 },
               ].map((group) => (
                 <div key={group.category}>
-                  <h3 className="text-sm font-bold text-sky-600 mb-2">
+                  <h3 className="text-sm font-bold text-[#8a6a4f] mb-2">
                     {group.category}
                   </h3>
                   <ul className="space-y-2">
@@ -670,7 +670,7 @@ export default function HowToChoosePage() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-sky-600 shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -678,7 +678,7 @@ export default function HowToChoosePage() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-sky-600 font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -711,7 +711,7 @@ export default function HowToChoosePage() {
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-sky-600 hover:bg-sky-700 text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base text-center"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base text-center"
             >
               ダイエットインソールランキングを見る
             </Link>

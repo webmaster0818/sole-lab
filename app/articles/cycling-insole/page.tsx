@@ -61,7 +61,7 @@ export default function CyclingPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ロードバイク・自転車のインソールの選び方｜ペダリング効率と足裏のしびれ対策</h1>
@@ -74,7 +74,7 @@ export default function CyclingPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">自転車で足裏に負担がかかる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">自転車で足裏に負担がかかる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ロードバイクや自転車のペダリングは、足裏の母趾球付近でペダルを押し続ける動作の繰り返しです。アーチの支えがないと力が一点に集中し、ペダリング効率が落ちるうえ、神経が圧迫されて足裏や指のしびれ（ホットフット）が起こることがあります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールでアーチを支えると、足裏全体で力を受けてペダルに伝えやすくなり、効率が高まります。圧の集中が分散されることで、長距離でのしびれも軽減できます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一般的に、ペダリングは「踏み込む」だけでなく「引き上げる」局面もあり、足が靴の中で安定しているほど力のロスが少なくなると言われています。アーチが落ち込んで足裏がぐらつくと、踏み込みのたびに足が左右や前後に動き、その分だけ余計な力を使ってしまいます。足の土台が安定することは、効率だけでなく膝や足首のブレを抑えることにもつながると考えられています。</p>
@@ -82,11 +82,11 @@ export default function CyclingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ロードバイク・自転車の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ロードバイク・自転車の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -95,7 +95,7 @@ export default function CyclingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ビンディングシューズと普通の靴での選び方の違い</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ビンディングシューズと普通の靴での選び方の違い</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">同じ自転車向けでも、ビンディングシューズ（クリート固定）とスニーカーなどの普通の靴では、インソールに求める条件が少し変わります。乗り方に合わせて選ぶと失敗しにくくなります。</p>
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">ビンディングシューズ（クリート固定）の場合</h3>
@@ -108,12 +108,12 @@ export default function CyclingPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ロードバイク・自転車におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ロードバイク・自転車におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">アーチを支えてペダリング効率を高め、しびれを防ぐ薄型インソールが自転車に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -130,24 +130,24 @@ export default function CyclingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">長距離ライドでの使い方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">長距離ライドでの使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ビンディングシューズに入れる際は、元の中敷きと入れ替えてクリート位置との相性をご確認ください。フィットしないとペダリングに影響します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">長距離でしびれが出やすい方は、こまめに足の位置を変える・休憩で足を動かすこともあわせて行うと効果的です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">サイズ・厚みの注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">サイズ・厚みの注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイクリングシューズは内寸が狭めに作られていることが多いため、インソール選びではサイズと厚みに注意が必要です。元の中敷きを外して入れ替えることを前提に考えると、靴の容量を圧迫しにくくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズはつま先に余裕を残しつつ、かかとが浮かない範囲で合わせます。インソールが大きい場合は、メーカーの推奨に沿ってつま先側をカットして調整できる製品もあります。逆に小さすぎると足裏全体を支えきれず、アーチサポートの効果が出にくくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">厚みは、厚いほどクッション性は増しますが、靴の中で足が持ち上がってつま先やかかとが窮屈になりやすく、ペダリング時の収まりが悪くなることがあります。一般的にサイクリングでは、薄型でアーチをしっかり支えるタイプが扱いやすいとされています。装着後は短い距離から試し、当たりや窮屈さがないかをご確認ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

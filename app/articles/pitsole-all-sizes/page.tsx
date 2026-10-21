@@ -130,15 +130,15 @@ export default function PitsoleAllSizesPage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ピットソール サイズ別実寸レビュー" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年最新版 サイズ実寸レビュー
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソール
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">サイズ別実寸</span>レビュー
+            <span className="text-[#8a6a4f]">サイズ別実寸</span>レビュー
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             XS・S・M・Lの4サイズの実寸を計測し、フィット感を検証。
@@ -156,52 +156,52 @@ export default function PitsoleAllSizesPage() {
           </p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#size-chart" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#size-chart" className="hover:text-[#8a6a4f] transition-colors">
                 1. ピットソールのサイズ展開
               </a>
             </li>
             <li>
-              <a href="#xs-review" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#xs-review" className="hover:text-[#8a6a4f] transition-colors">
                 2. XSサイズ（21〜22.5cm）実寸レビュー
               </a>
             </li>
             <li>
-              <a href="#s-review" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#s-review" className="hover:text-[#8a6a4f] transition-colors">
                 3. Sサイズ（23〜24.5cm）実寸レビュー
               </a>
             </li>
             <li>
-              <a href="#m-review" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#m-review" className="hover:text-[#8a6a4f] transition-colors">
                 4. Mサイズ（25〜26cm）実寸レビュー
               </a>
             </li>
             <li>
-              <a href="#l-review" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#l-review" className="hover:text-[#8a6a4f] transition-colors">
                 5. Lサイズ（26.5〜27.5cm）実寸レビュー
               </a>
             </li>
             <li>
-              <a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#how-to-choose" className="hover:text-[#8a6a4f] transition-colors">
                 6. 失敗しないサイズの選び方
               </a>
             </li>
             <li>
-              <a href="#cut-guide" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#cut-guide" className="hover:text-[#8a6a4f] transition-colors">
                 7. カット方法とフィッティング調整
               </a>
             </li>
             <li>
-              <a href="#shoe-compatibility" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#shoe-compatibility" className="hover:text-[#8a6a4f] transition-colors">
                 8. 靴のタイプ別相性
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 9. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 10. まとめ
               </a>
             </li>
@@ -213,7 +213,7 @@ export default function PitsoleAllSizesPage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="size-chart" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ピットソールのサイズ展開
           </h2>
 
@@ -234,35 +234,35 @@ export default function PitsoleAllSizesPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#0ea5e9]">XS</td>
+                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">XS</td>
                   <td className="border border-gray-200 px-4 py-3">21〜22.5cm</td>
                   <td className="border border-gray-200 px-4 py-3">約23.0cm</td>
                   <td className="border border-gray-200 px-4 py-3">約7.8cm</td>
                   <td className="border border-gray-200 px-4 py-3">21.0〜22.5cm</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#0ea5e9]">S</td>
+                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">S</td>
                   <td className="border border-gray-200 px-4 py-3">23〜24.5cm</td>
                   <td className="border border-gray-200 px-4 py-3">約25.0cm</td>
                   <td className="border border-gray-200 px-4 py-3">約8.3cm</td>
                   <td className="border border-gray-200 px-4 py-3">23.0〜24.5cm</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#0ea5e9]">M</td>
+                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">M</td>
                   <td className="border border-gray-200 px-4 py-3">25〜26cm</td>
                   <td className="border border-gray-200 px-4 py-3">約26.5cm</td>
                   <td className="border border-gray-200 px-4 py-3">約8.8cm</td>
                   <td className="border border-gray-200 px-4 py-3">25.0〜26.0cm</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#0ea5e9]">L</td>
+                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">L</td>
                   <td className="border border-gray-200 px-4 py-3">26.5〜27.5cm</td>
                   <td className="border border-gray-200 px-4 py-3">約28.0cm</td>
                   <td className="border border-gray-200 px-4 py-3">約9.3cm</td>
                   <td className="border border-gray-200 px-4 py-3">26.5〜27.5cm</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#0ea5e9]">XL</td>
+                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">XL</td>
                   <td className="border border-gray-200 px-4 py-3">28〜29cm</td>
                   <td className="border border-gray-200 px-4 py-3">—（実寸未検証）</td>
                   <td className="border border-gray-200 px-4 py-3">—（実寸未検証）</td>
@@ -282,7 +282,7 @@ export default function PitsoleAllSizesPage() {
 
         {/* Section 2 */}
         <section id="xs-review" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             XSサイズ（21〜22.5cm）実寸レビュー
           </h2>
 
@@ -317,7 +317,7 @@ export default function PitsoleAllSizesPage() {
 
         {/* Section 3 */}
         <section id="s-review" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             Sサイズ（23〜24.5cm）実寸レビュー
           </h2>
 
@@ -352,7 +352,7 @@ export default function PitsoleAllSizesPage() {
 
         {/* Section 4 */}
         <section id="m-review" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             Mサイズ（25〜26cm）実寸レビュー
           </h2>
 
@@ -387,7 +387,7 @@ export default function PitsoleAllSizesPage() {
 
         {/* Section 5 */}
         <section id="l-review" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             Lサイズ（26.5〜27.5cm）実寸レビュー
           </h2>
 
@@ -416,13 +416,13 @@ export default function PitsoleAllSizesPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            Lサイズはメンズのスニーカー（26.5〜27.5cm）に最適です。ランニングシューズやウォーキングシューズとの相性は抜群で、かかと部分のフィット感が安定感をもたらします。なお28cm以上の方には、ブラック・ピンク限定でXLサイズ（28〜29cm）が公式に用意されています（2026年7月確認）。ピットソールのサイズ情報の詳細は<Link href="/pitsole/size/" className="text-[#0ea5e9] hover:underline">ピットソールサイズページ</Link>でも確認できます。
+            Lサイズはメンズのスニーカー（26.5〜27.5cm）に最適です。ランニングシューズやウォーキングシューズとの相性は抜群で、かかと部分のフィット感が安定感をもたらします。なお28cm以上の方には、ブラック・ピンク限定でXLサイズ（28〜29cm）が公式に用意されています（2026年7月確認）。ピットソールのサイズ情報の詳細は<Link href="/pitsole/size/" className="text-[#8a6a4f] hover:underline">ピットソールサイズページ</Link>でも確認できます。
           </p>
         </section>
 
         {/* Section 6 */}
         <section id="how-to-choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             失敗しないサイズの選び方
           </h2>
 
@@ -433,7 +433,7 @@ export default function PitsoleAllSizesPage() {
           <div className="space-y-4 mb-6">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <h3 className="text-base font-bold text-gray-900">正確な足長を計測する</h3>
               </div>
               <p className="text-sm text-gray-700 leading-relaxed">
@@ -443,7 +443,7 @@ export default function PitsoleAllSizesPage() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <h3 className="text-base font-bold text-gray-900">サイズ範囲の境界にいる場合は大きめを</h3>
               </div>
               <p className="text-sm text-gray-700 leading-relaxed">
@@ -453,7 +453,7 @@ export default function PitsoleAllSizesPage() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <h3 className="text-base font-bold text-gray-900">使用する靴のサイズも考慮する</h3>
               </div>
               <p className="text-sm text-gray-700 leading-relaxed">
@@ -463,7 +463,7 @@ export default function PitsoleAllSizesPage() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <h3 className="text-base font-bold text-gray-900">純正中敷きと比較する</h3>
               </div>
               <p className="text-sm text-gray-700 leading-relaxed">
@@ -475,7 +475,7 @@ export default function PitsoleAllSizesPage() {
 
         {/* Section 7 */}
         <section id="cut-guide" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             カット方法とフィッティング調整
           </h2>
 
@@ -497,23 +497,23 @@ export default function PitsoleAllSizesPage() {
           </h3>
           <div className="space-y-3 mb-6">
             <div className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg p-4">
-              <span className="flex-shrink-0 w-8 text-xs font-bold text-white bg-[#0ea5e9] rounded-full flex items-center justify-center h-8">1</span>
+              <span className="flex-shrink-0 w-8 text-xs font-bold text-white bg-[#8a6a4f] rounded-full flex items-center justify-center h-8">1</span>
               <p className="text-sm text-gray-700">靴の純正中敷きを取り出し、ピットソールの上に重ねる</p>
             </div>
             <div className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg p-4">
-              <span className="flex-shrink-0 w-8 text-xs font-bold text-white bg-[#0ea5e9] rounded-full flex items-center justify-center h-8">2</span>
+              <span className="flex-shrink-0 w-8 text-xs font-bold text-white bg-[#8a6a4f] rounded-full flex items-center justify-center h-8">2</span>
               <p className="text-sm text-gray-700">かかと部分を合わせて固定し、つま先のはみ出し部分を確認</p>
             </div>
             <div className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg p-4">
-              <span className="flex-shrink-0 w-8 text-xs font-bold text-white bg-[#0ea5e9] rounded-full flex items-center justify-center h-8">3</span>
+              <span className="flex-shrink-0 w-8 text-xs font-bold text-white bg-[#8a6a4f] rounded-full flex items-center justify-center h-8">3</span>
               <p className="text-sm text-gray-700">最も近いカットラインを確認し、最初は1段階大きめでカット</p>
             </div>
             <div className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg p-4">
-              <span className="flex-shrink-0 w-8 text-xs font-bold text-white bg-[#0ea5e9] rounded-full flex items-center justify-center h-8">4</span>
+              <span className="flex-shrink-0 w-8 text-xs font-bold text-white bg-[#8a6a4f] rounded-full flex items-center justify-center h-8">4</span>
               <p className="text-sm text-gray-700">靴に入れてフィット感を確認。大きければ追加でカット</p>
             </div>
             <div className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg p-4">
-              <span className="flex-shrink-0 w-8 text-xs font-bold text-white bg-[#0ea5e9] rounded-full flex items-center justify-center h-8">5</span>
+              <span className="flex-shrink-0 w-8 text-xs font-bold text-white bg-[#8a6a4f] rounded-full flex items-center justify-center h-8">5</span>
               <p className="text-sm text-gray-700">つま先に5mm程度の余裕が残るサイズがベスト</p>
             </div>
           </div>
@@ -521,14 +521,14 @@ export default function PitsoleAllSizesPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-amber-700">注意：</span>
-              一度カットしたものは元に戻せません。必ず少しずつカットし、靴に入れて確認しながら調整してください。カットしすぎるとアーチサポートの位置がずれてしまう可能性があります。詳しいサイズ調整方法は<Link href="/articles/size-adjustment/" className="text-[#0ea5e9] hover:underline">サイズ調整ガイド</Link>も参考にしてください。
+              一度カットしたものは元に戻せません。必ず少しずつカットし、靴に入れて確認しながら調整してください。カットしすぎるとアーチサポートの位置がずれてしまう可能性があります。詳しいサイズ調整方法は<Link href="/articles/size-adjustment/" className="text-[#8a6a4f] hover:underline">サイズ調整ガイド</Link>も参考にしてください。
             </p>
           </div>
         </section>
 
         {/* Section 8 */}
         <section id="shoe-compatibility" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             靴のタイプ別相性
           </h2>
 
@@ -560,7 +560,7 @@ export default function PitsoleAllSizesPage() {
                 ビジネスシューズとの相性（相性：やや注意が必要）
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                ビジネスシューズは靴内の空間が狭いため、ピットソールの厚み（かかと部約1.5〜1.7cm）がフィット感に影響する場合があります。中敷きが取り外せるタイプの靴であれば問題ありませんが、中敷きが接着されている靴では窮屈に感じることがあります。その場合は0.5cm大きめの靴を選ぶか、<Link href="/runway-cure-sole/" className="text-[#0ea5e9] hover:underline">薄型のランウェイキュアソール</Link>を検討してみてください。
+                ビジネスシューズは靴内の空間が狭いため、ピットソールの厚み（かかと部約1.5〜1.7cm）がフィット感に影響する場合があります。中敷きが取り外せるタイプの靴であれば問題ありませんが、中敷きが接着されている靴では窮屈に感じることがあります。その場合は0.5cm大きめの靴を選ぶか、<Link href="/runway-cure-sole/" className="text-[#8a6a4f] hover:underline">薄型のランウェイキュアソール</Link>を検討してみてください。
               </p>
             </div>
 
@@ -569,7 +569,7 @@ export default function PitsoleAllSizesPage() {
                 ランニングシューズとの相性（相性：良い）
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                ランニングシューズとの相性も良好です。ただし厚底のランニングシューズ（HOKAなど）は純正中敷きとの一体設計のものがあるため、取り外し可能か事前に確認が必要です。薄底〜標準的なランニングシューズであれば問題なくフィットします。ランニング向けインソールの詳しい情報は<Link href="/articles/running-insole/" className="text-[#0ea5e9] hover:underline">ランニング向けインソール記事</Link>をご覧ください。
+                ランニングシューズとの相性も良好です。ただし厚底のランニングシューズ（HOKAなど）は純正中敷きとの一体設計のものがあるため、取り外し可能か事前に確認が必要です。薄底〜標準的なランニングシューズであれば問題なくフィットします。ランニング向けインソールの詳しい情報は<Link href="/articles/running-insole/" className="text-[#8a6a4f] hover:underline">ランニング向けインソール記事</Link>をご覧ください。
               </p>
             </div>
 
@@ -578,7 +578,7 @@ export default function PitsoleAllSizesPage() {
                 パンプスとの相性（相性：サイズによる）
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                パンプスは靴内の空間が限られるため、XSまたはSサイズの使用が中心になります。ヒールの高さが5cm以下であればフィットしやすいですが、ハイヒール（7cm以上）の場合はかかと部分が浮きやすくなります。パンプスでの使用については<Link href="/articles/pumps-insole/" className="text-[#0ea5e9] hover:underline">パンプス向けインソール記事</Link>も参考にしてください。
+                パンプスは靴内の空間が限られるため、XSまたはSサイズの使用が中心になります。ヒールの高さが5cm以下であればフィットしやすいですが、ハイヒール（7cm以上）の場合はかかと部分が浮きやすくなります。パンプスでの使用については<Link href="/articles/pumps-insole/" className="text-[#8a6a4f] hover:underline">パンプス向けインソール記事</Link>も参考にしてください。
               </p>
             </div>
           </div>
@@ -586,7 +586,7 @@ export default function PitsoleAllSizesPage() {
 
         {/* Section 9: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -640,7 +640,7 @@ export default function PitsoleAllSizesPage() {
 
         {/* Section 10: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -663,13 +663,13 @@ export default function PitsoleAllSizesPage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ピットソールの購入やまとめ買い割引については<Link href="/pitsole/price/" className="text-[#0ea5e9] hover:underline">ピットソール料金ページ</Link>をご覧ください。また、ピットソールの効果や口コミについては<Link href="/pitsole/" className="text-[#0ea5e9] hover:underline">ピットソール詳細レビュー</Link>で確認できます。
+            ピットソールの購入やまとめ買い割引については<Link href="/pitsole/price/" className="text-[#8a6a4f] hover:underline">ピットソール料金ページ</Link>をご覧ください。また、ピットソールの効果や口コミについては<Link href="/pitsole/" className="text-[#8a6a4f] hover:underline">ピットソール詳細レビュー</Link>で確認できます。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               ランウェイキュアソールやスリムアップインソールのサイズ選びについては
-              <Link href="/articles/runway-size-guide/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソールサイズガイド</Link>、<Link href="/articles/slimup-guide/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソールガイド</Link>をご覧ください。3商品の比較は<Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキング</Link>で確認できます。
+              <Link href="/articles/runway-size-guide/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソールサイズガイド</Link>、<Link href="/articles/slimup-guide/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソールガイド</Link>をご覧ください。3商品の比較は<Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキング</Link>で確認できます。
             </p>
           </div>
         </section>

@@ -61,7 +61,7 @@ export default function PregnancyPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">妊娠中にインソールは使える？使用前に知っておきたい注意点</h1>
@@ -74,17 +74,17 @@ export default function PregnancyPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">妊娠中に足へ負担がかかる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">妊娠中に足へ負担がかかる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">妊娠中は、おなかが大きくなることで体重が増え、体の重心も前方へ変化します。これを支えるために反り腰気味の姿勢になりやすく、足裏や腰への負担が増えるといわれます。また、ホルモンの影響で関節を支える靭帯が緩みやすくなることが一般に知られており、足のアーチが下がって足が疲れやすくなったり、靴のサイズ感が変わったりする方もいます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールで土踏まずを支えることは、こうした足裏の負担をやわらげる補助になる可能性があります。ただし妊娠中の体の状態は一人ひとり大きく異なり、時期によっても変わります。むくみや痛みの背景に医療的な確認が必要な場合もあるため、自己判断で対処せず、まず妊婦健診の際などに主治医・助産師へ相談することを強くおすすめします。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">妊娠中の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">妊娠中の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function PregnancyPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">妊娠中におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">妊娠中におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">妊娠中に検討する場合は、主治医・助産師への相談を前提に、安定した履き慣れた靴に合わせやすい薄型タイプから慎重に選ぶことをおすすめします。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function PregnancyPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">妊娠中の使い方の注意と受診の目安</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">妊娠中の使い方の注意と受診の目安</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使う場合は、必ず安定した靴（かかとが低く、足の甲が固定できるスニーカーなど）と組み合わせ、初日は室内で短時間だけ試してください。違和感・歩きにくさ・足の痛みを感じたら、すぐに使用をやめてください。妊娠の経過とともに足の状態は変わるため、合っていたものが合わなくなることもあります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足の強いむくみ・急なむくみの悪化・痛み・しびれがある場合は、インソールでのケアを考える前に、必ず主治医に相談してください。妊娠中の症状には医療的な確認が必要なものが含まれます。この記事は一般的な情報であり、個別の医学的アドバイスに代わるものではありません。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

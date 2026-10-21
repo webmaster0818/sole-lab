@@ -58,13 +58,13 @@ export default function GiftInsolePage() {
 
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "インソールのプレゼントおすすめ" }]} />
 
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">ギフトガイド</p>
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">ギフトガイド</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             インソールのプレゼント
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">おすすめ</span>ガイド
+            <span className="text-[#8a6a4f]">おすすめ</span>ガイド
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             父の日・母の日・敬老の日に贈る健康ギフトとして注目のインソール。
@@ -82,20 +82,20 @@ export default function GiftInsolePage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#why" className="hover:text-[#0ea5e9] transition-colors">1. インソールが健康ギフトに最適な理由</a></li>
-            <li><a href="#scene" className="hover:text-[#0ea5e9] transition-colors">2. シーン別おすすめプレゼント</a></li>
-            <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">3. プレゼントにおすすめのインソール3選</a></li>
-            <li><a href="#choose" className="hover:text-[#0ea5e9] transition-colors">4. プレゼント用インソールの選び方</a></li>
-            <li><a href="#wrap" className="hover:text-[#0ea5e9] transition-colors">5. 贈り方のコツとメッセージ例</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">6. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">7. まとめ</a></li>
+            <li><a href="#why" className="hover:text-[#8a6a4f] transition-colors">1. インソールが健康ギフトに最適な理由</a></li>
+            <li><a href="#scene" className="hover:text-[#8a6a4f] transition-colors">2. シーン別おすすめプレゼント</a></li>
+            <li><a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">3. プレゼントにおすすめのインソール3選</a></li>
+            <li><a href="#choose" className="hover:text-[#8a6a4f] transition-colors">4. プレゼント用インソールの選び方</a></li>
+            <li><a href="#wrap" className="hover:text-[#8a6a4f] transition-colors">5. 贈り方のコツとメッセージ例</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">6. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">7. まとめ</a></li>
           </ol>
         </div>
       </section>
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <section id="why" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールが健康ギフトに最適な理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールが健康ギフトに最適な理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは「もらって嬉しい健康グッズ」として、近年プレゼントとして選ばれる機会が増えています。その理由を解説します。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">毎日使える実用的なギフト</h3>
@@ -119,7 +119,7 @@ export default function GiftInsolePage() {
         </section>
 
         <section id="scene" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シーン別おすすめプレゼント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シーン別おすすめプレゼント</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">贈るシーンに合わせたインソールの選び方を紹介します。</p>
 
           <div className="space-y-4">
@@ -143,19 +143,19 @@ export default function GiftInsolePage() {
         </section>
 
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">プレゼントにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">プレゼントにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ギフトとして贈りやすく、もらった方にも喜ばれるインソールを3つ厳選しました。</p>
 
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">プレゼントに最も適しているのがピットソールです。XS〜XLの5サイズ展開（21〜29cm、公式サイトにて2026年7月確認）のため、相手の性別を問わず贈れます。カットラインが印刷されており、もらった方が自分でサイズ調整できるのもギフトとして安心なポイント。まとめ買い割引を活用すれば、2足セットでお得に贈れます。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>男女兼用で誰にでも贈りやすい</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>カットライン付きでサイズ調整が簡単</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>まとめ買い割引で2足セットがお得</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>男女兼用で誰にでも贈りやすい</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>カットライン付きでサイズ調整が簡単</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>まとめ買い割引で2足セットがお得</span></li>
             </ul>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -163,11 +163,11 @@ export default function GiftInsolePage() {
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">女性への贈り物に最適なのがランウェイキュアソールです。美姿勢サポートに特化した設計で、「きれいに歩きたい」という女性の願いに応えます。薄型設計でパンプスにも使えるため、オフィスワークのお母さんや奥様へのプレゼントとして人気です。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>女性向けの美姿勢サポート設計</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>パンプス対応の薄型設計</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>「きれいに歩く」というポジティブなメッセージ性</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>女性向けの美姿勢サポート設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>パンプス対応の薄型設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>「きれいに歩く」というポジティブなメッセージ性</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -175,16 +175,16 @@ export default function GiftInsolePage() {
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">スリムアップインソール（Slim Up Insole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美容整体師監修という専門家のお墨付きが、プレゼントとしての説得力を高めます。正しい重心移動を促す設計で、「健康的に歩く」ことをサポート。サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズのため、贈る相手の足の実寸に合うかを確認して選ぶことをおすすめします。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師監修の信頼感がギフトに最適</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>S/Mの2サイズ・抗菌防臭仕様</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>健康的な歩行をサポートする設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師監修の信頼感がギフトに最適</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>S/Mの2サイズ・抗菌防臭仕様</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>健康的な歩行をサポートする設計</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
         </section>
 
         <section id="choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">プレゼント用インソールの選び方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">プレゼント用インソールの選び方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">プレゼントとしてインソールを選ぶ際のチェックポイントを紹介します。</p>
 
           <div className="space-y-4">
@@ -194,7 +194,7 @@ export default function GiftInsolePage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">使い方がわかりやすい製品を選ぶ</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">インソールに馴染みのない方でもすぐに使い始められるよう、使い方の説明が丁寧な製品を選ぶことをおすすめします。カットラインの印刷がある、使い方ガイドが同梱されている、などの製品が安心です。必要に応じて<Link href="/articles/size-adjustment/" className="text-[#0ea5e9] hover:underline">サイズ調整方法の記事</Link>のURLを添えるのもおすすめです。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">インソールに馴染みのない方でもすぐに使い始められるよう、使い方の説明が丁寧な製品を選ぶことをおすすめします。カットラインの印刷がある、使い方ガイドが同梱されている、などの製品が安心です。必要に応じて<Link href="/articles/size-adjustment/" className="text-[#8a6a4f] hover:underline">サイズ調整方法の記事</Link>のURLを添えるのもおすすめです。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">相手のライフスタイルに合わせる</h3>
@@ -208,7 +208,7 @@ export default function GiftInsolePage() {
         </section>
 
         <section id="wrap" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">贈り方のコツとメッセージ例</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">贈り方のコツとメッセージ例</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールをプレゼントする際の贈り方のコツと、添えるメッセージの例を紹介します。</p>
 
           <div className="space-y-4">
@@ -228,7 +228,7 @@ export default function GiftInsolePage() {
         </section>
 
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールをプレゼントする場合、サイズはどう選べば良いですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
@@ -254,22 +254,22 @@ export default function GiftInsolePage() {
         </section>
 
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">まとめ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは「毎日使える実用性」「健康への気遣い」「手頃な価格」を兼ね備えた、もらって嬉しい健康ギフトです。相手のライフスタイルに合わせて選び、ポジティブなメッセージを添えて贈ってください。</p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">プレゼントにおすすめ3商品</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：男女兼用・カット調整可能で誰にでも贈りやすい。まとめ買い割引でお得。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：女性向け美姿勢サポート。お母さんや奥様へのギフトに最適。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：美容整体師監修の信頼感。ペア使いにもおすすめ。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：男女兼用・カット調整可能で誰にでも贈りやすい。まとめ買い割引でお得。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：女性向け美姿勢サポート。お母さんや奥様へのギフトに最適。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：美容整体師監修の信頼感。ペア使いにもおすすめ。</li>
             </ul>
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">大切な人の健康を願う気持ちを形にできるインソールのプレゼント。次の父の日や母の日、敬老の日に、ぜひ検討してみてください。</p>
 
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
           </div>
         </section>
       </article>

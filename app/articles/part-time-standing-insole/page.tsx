@@ -61,7 +61,7 @@ export default function PartTimeStandingPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">立ち仕事のバイト・パートにおすすめのインソール｜長時間シフトの疲れ対策</h1>
@@ -74,17 +74,17 @@ export default function PartTimeStandingPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バイト・パートの立ち仕事で足が疲れる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バイト・パートの立ち仕事で足が疲れる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">接客や品出しの立ち仕事は、レジ前で立ち続ける時間と店内を動き回る時間が混ざり合い、シフトによっては休憩まで長く立ちっぱなしになることもあります。店舗の床は硬く、職場指定の靴やスニーカーは必ずしも自分の足に合っているとは限りません。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">とくに立ち仕事を始めたばかりの時期は、足裏のアーチを支える筋肉がまだ慣れておらず、疲れやむくみを感じやすいものです。インソールで土踏まずを支えて衝撃を吸収すると、シフト後半の足の重さをやわらげる補助になります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">立ち仕事のアルバイト・パートの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">立ち仕事のアルバイト・パートの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function PartTimeStandingPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">立ち仕事のアルバイト・パートにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">立ち仕事のアルバイト・パートにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">手頃に始めるならカット調整できるスリムアップ（S/M・抗菌防臭）、しっかり支えたいなら特許技術のアーチサポートを持つピットソール（XS〜XLの5サイズ・カット可）という選び方ができます。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function PartTimeStandingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シフトの疲れをためない工夫</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シフトの疲れをためない工夫</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">立ち仕事に慣れるまでは、休憩中に靴を脱いで足を休める、帰宅後にふくらはぎを伸ばすといった小さなケアの積み重ねが効きます。インソールと組み合わせると、翌日に疲れを持ち越しにくくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">週に数回のシフトでも、足裏やかかとの痛みが何週間も続くようなら、単なる疲れではない可能性があります。我慢して続けず、整形外科で一度相談してください。靴自体が合っていない場合は、サイズの合う靴への見直しも並行して行ってください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

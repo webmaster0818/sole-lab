@@ -61,7 +61,7 @@ export default function AbcMartPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">靴量販店（ABCマート等）のインソールはダイエットに使える？専用品との違い</h1>
@@ -74,17 +74,17 @@ export default function AbcMartPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴量販店のインソールの特徴</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴量販店のインソールの特徴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">靴量販店の強みは、なんといっても靴の専門売り場と同じ場所でインソールを選べることです。新しい靴に合わせて中敷きを試したり、サイズが大きめだった靴のフィット調整に使ったりと、「靴ありき」で選べるのは量販店ならではです。クッション系・消臭系・かかとフィット系など、履き心地を高める汎用インソールが中心に並びます。なお、具体的な取扱ブランドや品揃えは店舗の規模や時期によって変わるため、目当ての商品がある場合は事前に確認するのが確実です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方、ダイエットインソールは足裏のアーチを支えて姿勢・歩き方を整えることを目的とした専用設計です。靴量販店のインソールは「靴を快適に履く」ことが主目的のため、ボディメイクを狙うなら設計思想の異なる専用品のほうが目的に合います。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴量販店（ABCマート等）の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴量販店（ABCマート等）の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function AbcMartPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">靴量販店（ABCマート等）におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴量販店（ABCマート等）におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ダイエットや姿勢改善が目的なら、専用設計のインソールが向いています。なお、当サイトで紹介する3製品（ピットソール・ランウェイキュアソール・スリムアップインソール）は、靴量販店を含む実店舗での取り扱いは確認されておらず、公式通販が中心です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function AbcMartPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ピットソールなどのダイエットインソールは靴量販店で売ってる？</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ピットソールなどのダイエットインソールは靴量販店で売ってる？</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「ピットソール ABCマート」のように店頭での購入を考えて検索する方もいますが、<strong>ピットソール・ランウェイキュアソール・スリムアップインソールの靴量販店での取り扱いは確認されていません</strong>。いずれも公式サイトなどの通販が主な購入ルートで、ピットソールは公式サイトと正規のAmazon・楽天店舗が中心、ランウェイキュアソールは公式サイト（FLOReショップ）が中心です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使い分けの目安はシンプルで、「靴のフィット感・快適さを今すぐ調整したい」なら靴量販店、「姿勢や歩き方を整えてダイエットにつなげたい」なら専用設計の通販品です。量販店の店頭にもアーチサポートをうたう商品はありますが、設計や目的が異なる別商品なので、混同しないようにしてください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

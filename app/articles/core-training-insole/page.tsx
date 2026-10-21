@@ -60,7 +60,7 @@ export default function CoreTrainingPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">体幹を意識するインソールとは？バランス・姿勢への効果</h1>
@@ -73,7 +73,7 @@ export default function CoreTrainingPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足元の安定と体幹の関係</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">足元の安定と体幹の関係</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">体幹は、立つ・歩く・姿勢を保つといった日常動作の土台になる筋肉群です。足元（足裏のアーチ）が不安定だと姿勢が崩れ、体幹をうまく使えずに一部の筋肉に頼った姿勢になりがちです。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチを支えるインソールで足元を安定させると、骨盤や背骨が整いやすく、立つ・歩く動作で体幹を意識・使用しやすくなります。土台が安定することは、体幹を働かせる前提条件といえます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">人の体は足裏で地面と接しており、足元のわずかな傾きやぐらつきは膝・骨盤・背骨へと連なって全身の姿勢に影響します。足裏のアーチが崩れると重心が偏り、本来体幹で支えるべき負担を腰や脚の特定の筋肉が肩代わりしやすくなります。インソールでアーチを補助することは、こうした重心の偏りをならし、体幹で姿勢を支える感覚を取り戻す土台づくりにつながると考えられます。</p>
@@ -81,11 +81,11 @@ export default function CoreTrainingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">体幹の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">体幹の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -94,12 +94,12 @@ export default function CoreTrainingPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">体幹におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">体幹におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">足元を安定させて姿勢と体幹を意識しやすくするアーチサポートのインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -116,17 +116,17 @@ export default function CoreTrainingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">体幹を意識する使い方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">体幹を意識する使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、頭・骨盤・かかとが一直線になる姿勢を意識して立つ・歩くようにしてください。お腹を軽く引き締める意識を持つと体幹が働きやすくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">本格的に体幹を鍛えるにはプランクなどの体幹トレーニングが効果的です。インソールは日常での意識づけの補助としてご活用ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

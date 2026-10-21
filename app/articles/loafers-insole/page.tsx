@@ -60,7 +60,7 @@ export default function LoafersPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">靴タイプ別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">靴タイプ別</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ローファーに合うインソールの選び方｜脱げやすさと硬い底の疲れ対策</h1>
@@ -73,17 +73,17 @@ export default function LoafersPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ローファーで足が疲れる・痛くなる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ローファーで足が疲れる・痛くなる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ローファーの底は革や硬めの合成素材で平らに作られていることが多く、土踏まずを支える構造がほとんどありません。アスファルトの通学路や駅までの道を歩くと、着地の衝撃がそのまま足裏に伝わり、足裏のだるさやかかとの痛みにつながりやすくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">さらにローファーはひもやベルトで甲を固定できないため、歩くたびにかかとがわずかに浮き、靴の中で足が前後に動きがちです。この『遊び』は靴ずれや指の付け根への負担の原因にもなります。インソールで足裏とのフィット感を高めると、衝撃の緩和と靴の中の安定の両方を補助できます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ローファーの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ローファーの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function LoafersPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ローファーにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ローファーにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ローファーには、薄型でカット調整ができ、アーチを支えられるインソールが向いています。ピットソールはXS〜XLの5サイズ（21〜29cm・XLはブラック・ピンク限定、公式サイトにて2026年7月確認）でカット調整でき、学生用の小さめサイズにも対応しやすいのが特徴です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function LoafersPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ローファーで使うときの注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ローファーで使うときの注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">入れた直後はサイズ感が変わるため、まず室内で履いて甲のきつさとかかとの浮きをご確認ください。元の中敷きが取り外せるタイプなら、外してから入れると窮屈になりにくい傾向があります。きつい場合は無理に使わず、薄いタイプへの変更を検討してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れても靴ずれやかかとの痛みが続く場合は、靴そのもののサイズが合っていない可能性があります。また、足裏やかかとの痛みが2週間以上続く・腫れを伴う場合は、自己判断せず整形外科を受診してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

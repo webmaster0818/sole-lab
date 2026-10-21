@@ -61,7 +61,7 @@ export default function WideShoesPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">靴タイプ別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">靴タイプ別</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">幅広・3Eの靴のインソールの選び方｜開張足・甲高幅広の足に</h1>
@@ -74,17 +74,17 @@ export default function WideShoesPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足の幅が広い・甲が高い原因とインソール</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">足の幅が広い・甲が高い原因とインソール</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足の幅が広く感じる原因の一つに、横アーチの低下による『開張足』があります。横アーチが潰れると足の前方が扇状に広がり、幅広の靴が必要になります。甲高の方も含め、足のアーチ構造が関係しています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールで横アーチを支えると、足幅の広がりの進行を抑え、前足部への負担を分散できます。幅広の靴に入る設計を選べば、窮屈さを増やさずにサポートできます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">幅広・3Eの靴の選び方のポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">幅広・3Eの靴の選び方のポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function WideShoesPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">幅広・3Eの靴におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">幅広・3Eの靴におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">横アーチを支え、前足部にゆとりのあるインソールが幅広・甲高の足に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,7 +115,7 @@ export default function WideShoesPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">3製品のサイズ対応（幅広・甲高の方の選び方）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">3製品のサイズ対応（幅広・甲高の方の選び方）</h2>
           <div className="rounded-xl bg-[#fff7ed] border border-[#fed7aa] p-4 mb-6">
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               まず前提として、<strong>ダイエットインソール3製品は「足の幅」ではなく「足長（cm）」でサイズ展開しています</strong>。幅（ワイズ）別の展開はありません。そのため幅広・甲高の方は、<strong>①薄型を選んで靴内の余裕を確保する ②3E以上のワイズの靴と組み合わせる ③つま先側をカット調整する</strong>のが基本になります。各製品の足長サイズは以下のとおりです（いずれも公式サイトにて2026年7月確認）。
@@ -124,7 +124,7 @@ export default function WideShoesPage() {
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">サイズ展開（足長）</th>
                   <th className="p-3 text-left border-b border-gray-200">厚み・幅広向きか</th>
@@ -144,17 +144,17 @@ export default function WideShoesPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">幅広の靴選びとあわせて</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">幅広の靴選びとあわせて</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールと同時に、3Eや4Eなど自分の足幅に合った靴を選ぶことが大切です。窮屈な靴に無理に入れると逆効果になります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足幅の広がりが進む・痛みがある場合は開張足や外反母趾の可能性があるため、整形外科にご相談ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

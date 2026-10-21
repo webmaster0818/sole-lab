@@ -130,14 +130,14 @@ export default function PitsoleMensPage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-blue-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-blue-600 font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             ピットソール メンズ特集
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソールは
-            <span className="text-blue-600">男性</span>にも効果ある？
+            <span className="text-[#8a6a4f]">男性</span>にも効果ある？
             <br />
             メンズ向けガイド
           </h1>
@@ -145,10 +145,10 @@ export default function PitsoleMensPage() {
             ピットソールは女性向けのイメージが強いですが、実は男性にも十分対応しています。この記事では、男性ならではのサイズ選び、ビジネスシューズへの装着方法、男性ユーザーの口コミを解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#6f543c] px-3 py-1 rounded-full font-medium">
               ピットソール 男性
             </span>
-            <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#6f543c] px-3 py-1 rounded-full font-medium">
               メンズ
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -245,25 +245,25 @@ export default function PitsoleMensPage() {
                     </td>
                     <td className="py-3 text-gray-900">△</td>
                   </tr>
-                  <tr className="border-b border-gray-100 bg-blue-50">
+                  <tr className="border-b border-gray-100 bg-[#faf7f3]">
                     <td className="py-3 text-gray-900 font-bold">M</td>
                     <td className="py-3 text-gray-900 font-bold">
                       25〜26cm
                     </td>
-                    <td className="py-3 text-blue-600 font-medium">
+                    <td className="py-3 text-[#8a6a4f] font-medium">
                       多くの男性に最適
                     </td>
-                    <td className="py-3 text-blue-600 font-bold">◎</td>
+                    <td className="py-3 text-[#8a6a4f] font-bold">◎</td>
                   </tr>
-                  <tr className="border-b border-gray-100 bg-blue-50">
+                  <tr className="border-b border-gray-100 bg-[#faf7f3]">
                     <td className="py-3 text-gray-900 font-bold">L</td>
                     <td className="py-3 text-gray-900 font-bold">
                       26.5〜27.5cm
                     </td>
-                    <td className="py-3 text-blue-600 font-medium">
+                    <td className="py-3 text-[#8a6a4f] font-medium">
                       足が大きめの男性向け
                     </td>
-                    <td className="py-3 text-blue-600 font-bold">◎</td>
+                    <td className="py-3 text-[#8a6a4f] font-bold">◎</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 text-gray-900 font-bold">XL</td>
@@ -287,25 +287,25 @@ export default function PitsoleMensPage() {
               </h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500 shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   元の中敷きを取り外してからピットソールを入れる
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500 shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   靴のサイズと同じか、0.5cm大きめのピットソールを選ぶ
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500 shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   幅広タイプのスニーカーなら相性抜群
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500 shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   ランニングシューズとの併用も可能
@@ -319,25 +319,25 @@ export default function PitsoleMensPage() {
               </h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500 shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   必ず元の中敷きを取り外す（スペースが限られるため）
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500 shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   先の細い革靴はつま先部分を多めにカットして調整
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500 shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   紐靴タイプが最も装着しやすい
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-500 shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   ローファーはフィット感を要確認
@@ -376,19 +376,19 @@ export default function PitsoleMensPage() {
               </h3>
               <ul className="space-y-2 text-sm text-gray-600 leading-relaxed">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-600 mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>
                     楽天公式店（BACCHUS ONLINE SHOP）の商品レビューは、2足SETが総合3.98（451件）、3足+1足セットが総合4.11（679件）。男女は区別されていませんが、姿勢面の変化や立ち仕事での使用感に触れる声が見られます。
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-600 mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>
                     ダイエットカフェ（52件）では「姿勢が良くなった」「歩きやすくなった」という声がある一方、体重に言及した口コミでは「痩せなかった」26件が「痩せた」12件を上回ります。男性の投稿はごく一部です。
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-600 mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>
                     男性向けの参考になる確認済みの事実として、L（26.5〜27.5cm）・XL（28〜29cm）の男性対応サイズが公式に用意されており、ビジネスシューズでの使用も公式に案内されています（公式サイト・2026年7月確認）。
                   </span>
@@ -399,7 +399,7 @@ export default function PitsoleMensPage() {
               </p>
             </div>
 
-            <div className="card border-l-4 border-l-blue-500">
+            <div className="card border-l-4 border-l-[#8a6a4f]">
               <p className="text-sm text-gray-700 leading-relaxed">
                 <span className="font-bold text-gray-900">編集部の整理：</span>
                 男性に限定した口コミが少ない現状では、「歩行量が多い使い方ほど設計の狙いに合う」という製品特性（歩行時の筋肉活動をサポートする設計）と、サイズ・靴との適合性を判断材料にするのが現実的です。営業・立ち仕事など歩行量の多い方は効果を検証しやすく、デスクワーク中心の方は歩行機会を意識的に増やす前提でご検討ください。
@@ -450,7 +450,7 @@ export default function PitsoleMensPage() {
             ].map((item) => (
               <div key={item.step} className="card">
                 <div className="flex items-start gap-3">
-                  <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full shrink-0">
+                  <span className="bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full shrink-0">
                     {item.step}
                   </span>
                   <div>
@@ -503,7 +503,7 @@ export default function PitsoleMensPage() {
                   "足の疲れが明らかに軽減される",
                   "靴の減り方が均等になってくる",
                 ],
-                color: "border-l-blue-400",
+                color: "border-l-[#8a6a4f]",
               },
               {
                 period: "2〜3ヶ月目",
@@ -515,7 +515,7 @@ export default function PitsoleMensPage() {
                   "基礎代謝の向上による疲れにくさ",
                   "周囲から「姿勢が良くなった」と言われることも",
                 ],
-                color: "border-l-blue-600",
+                color: "border-l-[#8a6a4f]",
               },
               {
                 period: "半年以上",
@@ -548,7 +548,7 @@ export default function PitsoleMensPage() {
                           key={change}
                           className="text-sm text-gray-600 flex items-start gap-2"
                         >
-                          <span className="text-blue-500 shrink-0 mt-0.5">
+                          <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                             &#10003;
                           </span>
                           {change}
@@ -645,8 +645,8 @@ export default function PitsoleMensPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             2026年時点で、ピットソールには<strong>XLサイズ（28-29cm）が追加</strong>されています（公式サイトにて2026年7月確認）。これまで足のサイズが27.5cmを超える男性はLサイズでは対応しきれないケースがありましたが、XLサイズの登場により幅広い足サイズに対応可能になりました。なお、XLサイズは<strong>ブラック・ピンクのカラーのみ</strong>の展開である点に注意してください。
           </p>
-          <div className="bg-white rounded-lg p-4 border border-blue-200">
-            <h4 className="font-bold text-blue-700 mb-2">ビジネスシューズでの使用ポイント</h4>
+          <div className="bg-white rounded-lg p-4 border border-[#e8ded6]">
+            <h4 className="font-bold text-[#6f543c] mb-2">ビジネスシューズでの使用ポイント</h4>
             <p className="text-sm text-gray-700 leading-relaxed">
               ビジネスシューズは靴自体が大きめに作られていることが多いため、足のサイズが28cm前後の方でもLサイズで十分入るケースがあります。まずはLサイズで試し、窮屈に感じる場合はXLサイズを検討するのがおすすめです。
             </p>
@@ -665,7 +665,7 @@ export default function PitsoleMensPage() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-blue-600 shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -673,7 +673,7 @@ export default function PitsoleMensPage() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-blue-600 font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>

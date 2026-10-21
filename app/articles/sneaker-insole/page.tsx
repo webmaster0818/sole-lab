@@ -130,15 +130,15 @@ export default function SneakerInsolePage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "スニーカー用インソールおすすめ" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年最新版
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             スニーカー用インソール
             <br className="md:hidden" />
-            おすすめ<span className="text-[#0ea5e9]">5選</span>
+            おすすめ<span className="text-[#8a6a4f]">5選</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             通勤・通学・買い物など普段使いのスニーカーをもっと快適に。
@@ -157,13 +157,13 @@ export default function SneakerInsolePage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#why" className="hover:text-[#0ea5e9] transition-colors">1. スニーカーにインソールを入れるメリット</a></li>
-            <li><a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">2. スニーカー用インソールの選び方</a></li>
-            <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">3. スニーカー用インソールおすすめ5選</a></li>
-            <li><a href="#usage" className="hover:text-[#0ea5e9] transition-colors">4. インソールの入れ方と注意点</a></li>
-            <li><a href="#scene" className="hover:text-[#0ea5e9] transition-colors">5. シーン別おすすめの使い方</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">6. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">7. まとめ</a></li>
+            <li><a href="#why" className="hover:text-[#8a6a4f] transition-colors">1. スニーカーにインソールを入れるメリット</a></li>
+            <li><a href="#how-to-choose" className="hover:text-[#8a6a4f] transition-colors">2. スニーカー用インソールの選び方</a></li>
+            <li><a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">3. スニーカー用インソールおすすめ5選</a></li>
+            <li><a href="#usage" className="hover:text-[#8a6a4f] transition-colors">4. インソールの入れ方と注意点</a></li>
+            <li><a href="#scene" className="hover:text-[#8a6a4f] transition-colors">5. シーン別おすすめの使い方</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">6. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">7. まとめ</a></li>
           </ol>
         </div>
       </section>
@@ -172,7 +172,7 @@ export default function SneakerInsolePage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="why" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             スニーカーにインソールを入れるメリット
           </h2>
 
@@ -218,7 +218,7 @@ export default function SneakerInsolePage() {
 
         {/* Section 2 */}
         <section id="how-to-choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             スニーカー用インソールの選び方
           </h2>
 
@@ -228,7 +228,7 @@ export default function SneakerInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">薄型設計であること</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -238,7 +238,7 @@ export default function SneakerInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">アーチサポート機能</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -248,7 +248,7 @@ export default function SneakerInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">通気性・防臭性</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -258,7 +258,7 @@ export default function SneakerInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">カットして調整可能か</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -269,7 +269,7 @@ export default function SneakerInsolePage() {
 
         {/* Section 3 */}
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             スニーカー用インソールおすすめ5選
           </h2>
 
@@ -278,18 +278,18 @@ export default function SneakerInsolePage() {
           </p>
 
           {/* Product 1 */}
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
               世界特許取得のBMZ社の技術を採用した、スニーカーとの相性が抜群のインソールです。薄型ながら3点サポート構造で足裏のアーチをしっかり支え、普段の歩行を快適にします。累計200万足の販売実績があり、幅広いユーザーから支持されています。カットして調整できるためあらゆるスニーカーに対応可能です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>世界特許の3点サポートで普段歩きが快適に</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>XS〜XLの5サイズ展開（21〜29cm）・カット調整可能</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>まとめ買い割引で2足目以降がお得</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界特許の3点サポートで普段歩きが快適に</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>XS〜XLの5サイズ展開（21〜29cm）・カット調整可能</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>まとめ買い割引で2足目以降がお得</span></li>
             </ul>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           {/* Product 2 */}
@@ -300,11 +300,11 @@ export default function SneakerInsolePage() {
               美姿勢サポートに特化したインソールで、スニーカーでの歩行姿勢を美しく整えます。薄型設計のため靴内の空間を圧迫せず、見た目のシルエットも崩しません。骨盤周りの筋肉を正しく使えるよう設計されており、普段の歩行がエクササイズ効果を持つようになります。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型設計でスニーカーのシルエットを崩さない</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美姿勢サポートで見た目の印象もアップ</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>普段の歩行がエクササイズに変わる設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でスニーカーのシルエットを崩さない</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートで見た目の印象もアップ</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>普段の歩行がエクササイズに変わる設計</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           {/* Product 3 */}
@@ -315,11 +315,11 @@ export default function SneakerInsolePage() {
               美容整体師監修のインソールで、正しい重心移動を促す設計が特徴です。スニーカーに入れるだけで、通勤や買い物の歩行が全身のバランスを整えるエクササイズに変わります。男女兼用で幅広いサイズに対応しており、家族でシェアして使うこともできます。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師監修で全身のバランスを改善</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>男女兼用で家族でシェアも可能</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>日常歩行を効率的なエクササイズに変換</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師監修で全身のバランスを改善</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>男女兼用で家族でシェアも可能</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>日常歩行を効率的なエクササイズに変換</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           {/* Product 4 */}
@@ -330,9 +330,9 @@ export default function SneakerInsolePage() {
               フランスのインソール専門メーカーSIDASのウォーキング向けモデルです。3D形状が足裏にフィットし、長時間の歩行でも疲れにくい設計。表面にはメッシュ素材を採用しており、通気性と速乾性に優れています。スニーカーとの相性が良く、日常使いに最適です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>3D形状で足裏全体にフィット</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>メッシュ素材で通気性・速乾性に優れる</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>ウォーキング専門の知見を活かした設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3D形状で足裏全体にフィット</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>メッシュ素材で通気性・速乾性に優れる</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>ウォーキング専門の知見を活かした設計</span></li>
             </ul>
           </div>
 
@@ -344,16 +344,16 @@ export default function SneakerInsolePage() {
               アメリカのインソールブランドSuperfeetの日常使い向けモデルです。独自のヒールカップが足を安定させ、薄型でありながらしっかりとしたアーチサポートを提供します。カジュアルシューズからスニーカーまで幅広く対応し、耐久性にも優れた長寿命設計です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型設計でどのスニーカーにも対応</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>ヒールカップで安定性が高い</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>耐久性に優れた長寿命設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でどのスニーカーにも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>ヒールカップで安定性が高い</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>耐久性に優れた長寿命設計</span></li>
             </ul>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミを一覧で比較したい方は
-              <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>
+              <Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>
               をご覧ください。
             </p>
           </div>
@@ -361,7 +361,7 @@ export default function SneakerInsolePage() {
 
         {/* Section 4 */}
         <section id="usage" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             インソールの入れ方と注意点
           </h2>
 
@@ -402,7 +402,7 @@ export default function SneakerInsolePage() {
 
         {/* Section 5 */}
         <section id="scene" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             シーン別おすすめの使い方
           </h2>
 
@@ -428,14 +428,14 @@ export default function SneakerInsolePage() {
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ダイエット目的（姿勢改善重視）</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                普段の歩行でダイエット効果を得たい方は、姿勢改善と正しい重心移動を促す設計のインソールを選ぶことをおすすめします。ランウェイキュアソールやスリムアップインソールは、歩行時の筋肉の使い方を最適化し、消費カロリーの向上をサポートします。詳しい歩き方は<Link href="/articles/effective-walking/" className="text-[#0ea5e9] hover:underline">ダイエットインソールの効果的な歩き方</Link>の記事で解説しています。
+                普段の歩行でダイエット効果を得たい方は、姿勢改善と正しい重心移動を促す設計のインソールを選ぶことをおすすめします。ランウェイキュアソールやスリムアップインソールは、歩行時の筋肉の使い方を最適化し、消費カロリーの向上をサポートします。詳しい歩き方は<Link href="/articles/effective-walking/" className="text-[#8a6a4f] hover:underline">ダイエットインソールの効果的な歩き方</Link>の記事で解説しています。
               </p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">立ち仕事（サポート力重視）</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                スニーカーで立ち仕事をする方は、アーチサポート力の高いインソールを選ぶことをおすすめします。長時間立ちっぱなしだと足裏のアーチが崩れやすいため、しっかりと支える構造が重要です。詳しくは<Link href="/articles/standing-work/" className="text-[#0ea5e9] hover:underline">立ち仕事用インソールの記事</Link>も参考にしてください。
+                スニーカーで立ち仕事をする方は、アーチサポート力の高いインソールを選ぶことをおすすめします。長時間立ちっぱなしだと足裏のアーチが崩れやすいため、しっかりと支える構造が重要です。詳しくは<Link href="/articles/standing-work/" className="text-[#8a6a4f] hover:underline">立ち仕事用インソールの記事</Link>も参考にしてください。
               </p>
             </div>
           </div>
@@ -443,7 +443,7 @@ export default function SneakerInsolePage() {
 
         {/* Section 6: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -484,7 +484,7 @@ export default function SneakerInsolePage() {
                 <span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span>
               </summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">
-                ぬるま湯に中性洗剤を少量溶かし、やわらかいブラシで表面を軽くこすり洗いしてください。すすぎ後は形を整えて風通しの良い日陰で完全に乾かします。洗濯機や乾燥機の使用は変形の原因になるため避けてください。詳しいお手入れ方法は<Link href="/articles/washing-guide/" className="text-[#0ea5e9] hover:underline">インソールの洗い方ガイド</Link>をご覧ください。
+                ぬるま湯に中性洗剤を少量溶かし、やわらかいブラシで表面を軽くこすり洗いしてください。すすぎ後は形を整えて風通しの良い日陰で完全に乾かします。洗濯機や乾燥機の使用は変形の原因になるため避けてください。詳しいお手入れ方法は<Link href="/articles/washing-guide/" className="text-[#8a6a4f] hover:underline">インソールの洗い方ガイド</Link>をご覧ください。
               </div>
             </details>
 
@@ -502,7 +502,7 @@ export default function SneakerInsolePage() {
 
         {/* Section 7: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -513,9 +513,9 @@ export default function SneakerInsolePage() {
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">今回紹介した主要3商品</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートで安定感抜群。カット調整でどのスニーカーにも対応。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：薄型で姿勢改善。スニーカーのシルエットを崩さない設計。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：美容整体師監修。日常歩行をダイエットに変える設計。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートで安定感抜群。カット調整でどのスニーカーにも対応。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型で姿勢改善。スニーカーのシルエットを崩さない設計。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：美容整体師監修。日常歩行をダイエットに変える設計。</li>
             </ul>
           </div>
 
@@ -524,7 +524,7 @@ export default function SneakerInsolePage() {
           </p>
 
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">
               3商品の詳細比較ランキングを見る
             </Link>
           </div>

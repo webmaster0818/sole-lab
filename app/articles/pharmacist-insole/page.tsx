@@ -61,7 +61,7 @@ export default function PharmacistPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">薬剤師におすすめのインソール｜調剤室の立ちっぱなし・むくみ対策</h1>
@@ -74,17 +74,17 @@ export default function PharmacistPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">薬剤師の足が疲れる理由は『動かない立ち仕事』</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">薬剤師の足が疲れる理由は『動かない立ち仕事』</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">看護師のように院内を歩き回る仕事と違い、薬剤師の立ち仕事は調剤台やカウンターの前で静止している時間が長いのが特徴です。足を動かさずに立ち続けると、ふくらはぎの筋ポンプが働かず血流が滞り、むくみやだるさが出やすくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">また、静止した立位では体重がかかと寄りの同じ場所にかかり続け、足裏のアーチがじわじわ沈み込みます。歩行のような衝撃はなくても、持続的な荷重がアーチを疲れさせるのです。この負担には、土踏まずを支えて荷重を分散するインソールと、こまめに足を動かす習慣の組み合わせが有効です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">薬剤師・医療系の立ち仕事の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">薬剤師・医療系の立ち仕事の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function PharmacistPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">薬剤師・医療系の立ち仕事におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">薬剤師・医療系の立ち仕事におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">動きの少ない立ち仕事の持続荷重には、アーチを支え続けられるインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function PharmacistPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">むくみをためない調剤室での過ごし方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">むくみをためない調剤室での過ごし方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">静止立位が中心の薬剤師は、インソールに加えて『足を動かす』工夫が効果を大きく左右します。調剤の合間にかかとの上げ下げや足踏みを数回行うだけでも、ふくらはぎの筋ポンプが働いてむくみがたまりにくくなります。むくみが強い方は着圧ソックスの併用も選択肢です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">なお、足裏の痛みやしびれ、片足だけの強いむくみなど、ただの疲れと違う症状が続く場合は、整形外科など医療機関で相談してください。医療従事者ご自身の身体こそ、早めのケアが大切です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

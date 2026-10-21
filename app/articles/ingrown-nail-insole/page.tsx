@@ -60,7 +60,7 @@ export default function IngrownNailPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">巻き爪にインソールは使える？まず受診、そして足指を使う歩きの補助に</h1>
@@ -73,17 +73,17 @@ export default function IngrownNailPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">巻き爪の主な原因とインソールにできること</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">巻き爪の主な原因とインソールにできること</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">爪はもともと巻く性質があり、歩行時に足指が地面を踏みしめて下から圧がかかることで平らな形が保たれると考えられています。浮き指などで足指を使わない歩き方が続くと下からの支えが減り、爪が巻き込みやすくなるといわれます。ほかにも深爪、先の細い靴やサイズの合わない靴による圧迫、爪の切り方などが関係します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールはこのうち『足指が接地して歩ける状態』を支える部分で役立ちます。アーチを支えて重心の偏りを整えると、足指が使いやすくなり、爪に下からの自然な圧がかかる歩き方をサポートします。ただし、すでに食い込んで痛い・腫れている・膿が出ている巻き爪は医療機関での処置が必要です。インソールはあくまで負担軽減と再発予防の補助と考えてください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">巻き爪の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">巻き爪の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function IngrownNailPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">巻き爪におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">巻き爪におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">足指が使いやすくなるアーチサポートと、前足部を圧迫しない薄さを両立したインソールが巻き爪対策の補助に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function IngrownNailPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">受診を最優先に。インソールと靴の見直しは補助</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">受診を最優先に。インソールと靴の見直しは補助</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">巻き爪が皮膚に食い込んで痛む、赤く腫れている、膿が出ている場合は、自分で爪を切り込んだりせず、皮膚科・形成外科を受診してください。ワイヤー矯正など専門的な処置が必要なことがあります。インソールは治療ではなく、歩き方と荷重のバランスを整える補助です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">あわせて、爪は短く切りすぎず角を残す『スクエアオフ』に整える、先の細い靴やサイズの大きすぎる靴を避ける、といった基本のケアが再発予防に大切です。糖尿病など持病のある方は、足のトラブル全般を自己処置せず必ず医療機関にご相談ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

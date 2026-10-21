@@ -61,7 +61,7 @@ export default function WithTrainingPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">筋トレとインソールの併用｜姿勢を整えて運動の質を高める考え方</h1>
@@ -74,17 +74,17 @@ export default function WithTrainingPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールは筋トレの「主役」ではなく「土台」</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールは筋トレの「主役」ではなく「土台」</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ダイエットの基本は、消費エネルギーを増やし摂取エネルギーを適切に管理することです。筋トレは筋肉量を保ち基礎代謝を支える有効な手段ですが、その効果はトレーニング内容と継続によるもので、インソールが直接もたらすものではありません。この点を正しく理解しておくことが、過度な期待を避けるうえで重要です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方で、足元が不安定だと立ち姿勢や歩行のバランスが崩れ、足の疲れがたまりやすくなります。アーチをサポートするインソールで足元の土台を整えると、立ち仕事や移動が楽になり、結果として『動くことが億劫になりにくい』という間接的な後押しになります。スクワットなど立位の種目で姿勢を意識しやすくなる、という声もあります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">筋トレとの併用の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">筋トレとの併用の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function WithTrainingPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">筋トレとの併用におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">筋トレとの併用におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">足元を安定させて立位トレーニングや日常の歩行を支える、アーチサポート付きインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function WithTrainingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">併用するときの考え方と注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">併用するときの考え方と注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールはトレーニングの代わりにはなりません。痩せたい・体型を変えたいなら、筋トレ・有酸素運動・食事管理が主役で、インソールは『動きやすい足元を整える脇役』と位置づけてください。器具に頼って運動量を減らしては本末転倒です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">高重量のスクワットやデッドリフトなど、足裏の感覚が重要な種目では、厚みのあるクッションがかえって不安定に感じることがあります。トレーニングシューズはソールが薄く硬めのものが基本で、インソールは普段履きを中心に活用するのがおすすめです。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

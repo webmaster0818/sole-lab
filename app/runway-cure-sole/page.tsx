@@ -239,9 +239,9 @@ export default function RunwayCureSolePage() {
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
-          <p className="mb-2"><strong>どこで売ってる？：</strong>購入は公式サイト（FLOReショップ）が中心で、ドン・キホーテ・薬局・靴店など実店舗での取り扱いは確認されていません。Amazon・楽天の出品は時期により変動し、セット割引・最安値は公式サイト限定です（<a href="#where-to-buy" className="text-[#0ea5e9] underline">販売店の詳細はこちら</a>）。</p>
+          <p className="mb-2"><strong>どこで売ってる？：</strong>購入は公式サイト（FLOReショップ）が中心で、ドン・キホーテ・薬局・靴店など実店舗での取り扱いは確認されていません。Amazon・楽天の出品は時期により変動し、セット割引・最安値は公式サイト限定です（<a href="#where-to-buy" className="text-[#8a6a4f] underline">販売店の詳細はこちら</a>）。</p>
           <p>ランウェイキュアソールは3点アーチサポートで美姿勢を促すインソールです。即効的なダイエット効果は期待できませんが、楽天公式店の実レビュー（総合3.98・865件、2026年10月14日参照）では姿勢面の変化を挙げる声が見られます。</p>
         </div>
         <div className="text-center my-8">

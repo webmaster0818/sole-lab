@@ -62,7 +62,7 @@ export default function ShinSplintPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">シンスプリントに向くインソールの選び方｜過回内を抑えてすねの痛みを軽減</h1>
@@ -75,7 +75,7 @@ export default function ShinSplintPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シンスプリントの原因と過回内の関係</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シンスプリントの原因と過回内の関係</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">シンスプリント（脛骨過労性骨膜炎）は、すねの内側の骨膜や筋肉の付着部に繰り返し負担がかかって炎症が起こる状態です。急な運動量の増加、硬い路面、扁平足や過回内（足が内側に倒れ込む動き）が関係するとされます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足が過度に内側へ倒れ込むと、すねの内側の筋肉が引っ張られ続けます。インソールでアーチを支えて過回内を抑えると、この繰り返しの牽引ストレスを減らす補助になります。</p>
         </section>
@@ -86,11 +86,11 @@ export default function ShinSplintPage() {
       </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シンスプリントの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シンスプリントの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -99,12 +99,12 @@ export default function ShinSplintPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シンスプリントにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シンスプリントにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">アーチサポートが高く、過回内を抑えられる安定性の高いインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -121,31 +121,31 @@ export default function ShinSplintPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">練習環境の見直しと受診の目安</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">練習環境の見直しと受診の目安</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールと同時に、練習量を急に増やさない・硬い路面を避ける・ふくらはぎや足首のストレッチを行うことが再発予防に重要です。クッション性のあるシューズへの買い替えも有効です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">すねを押すと強く痛む、安静でも痛む場合は疲労骨折の可能性があるため、運動を中止して整形外科を受診してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シンスプリントと走り方・練習量の関係（一般論）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シンスプリントと走り方・練習量の関係（一般論）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">シンスプリントは「足の構造（過回内・扁平足）」だけでなく、「どれだけ・どう走っているか」が大きく関わるとされる症状です。一般に引き金として挙げられるのは、練習量や強度の急な増加、硬いアスファルトやコンクリートでの走り込み、クッションのすり減ったシューズの使い続け、ふくらはぎや足首まわりの柔軟性不足などです。特に新入部員や走り始めのランナーは、体が慣れる前に距離が増えやすく、発症しやすい時期といわれます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">走り方の面では、歩幅を広げすぎて体の前方で強く着地するようなフォームは、着地衝撃とすねへの負担が大きくなりやすいと一般に言われます。歩幅を抑えて回転数（ピッチ）でスピードをつくる走り方は、着地衝撃を分散しやすい選択肢の一つです。ただしフォームには個人差が大きく、急に変えること自体が別の部位の負担になることもあるため、部活動なら指導者、ランナーなら経験者や専門家に相談しながら少しずつ調整するのが現実的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">練習量は「急に増やさない」が最大の予防策とされます。距離や本数を一気に増やさず段階的に上げる、週に休養日を確保する、硬い路面での走り込みを連日続けない、といった調整をインソールでの負担軽減とあわせて行うことが大切です。インソールだけで練習環境の問題を打ち消すことはできません。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">再発予防と段階的復帰の考え方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">再発予防と段階的復帰の考え方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">シンスプリントは、痛みが引いた直後に元の練習量へ一気に戻すとぶり返しやすいといわれます。一般的な考え方としては、痛みなく歩けることを確認してから、①ウォーキング、②短時間の軽いジョギング、③距離を少しずつ延ばす、④スピード練習や坂道・ジャンプ系の動きを最後に戻す、という順で段階的に上げていきます。途中で痛みが再発したら一段階戻して様子を見る、を繰り返すのが基本です。復帰のペースは症状や個人差によって大きく異なるため、目安どおりに進まなくても焦らないことが重要です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">注意したいのは、すねの痛みにはシンスプリントだけでなく脛骨の疲労骨折が隠れていることがある点です。押すと一点が鋭く痛む、安静にしていても痛む、夜間も痛むといった場合、両者の鑑別は整形外科での画像検査など医療機関でなければ判断できません。市販のインソールは医療機器ではなく、治療の代わりにはなりません。復帰の可否を自己判断だけで決めず、痛みが続く場合は必ず整形外科を受診してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">再発予防としては、アーチを支えるインソールの継続使用に加え、すり減ったシューズの交換、ふくらはぎのストレッチの習慣化が一般に挙げられます。着地の衝撃は<Link href="/articles/heel-pain-insole/" className="text-[#e8627c] underline font-medium">かかとの痛み</Link>にもつながることがあるため、かかとまわりに症状がある方はあわせて確認してください。どのタイプのインソールが自分に合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問で相性がわかるタイプ診断</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

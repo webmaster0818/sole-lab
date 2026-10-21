@@ -60,7 +60,7 @@ export default function MedicalOrthoticsPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">市販インソールと医療用足底板（足底装具）の違い｜どちらを選ぶべき？</h1>
@@ -73,17 +73,17 @@ export default function MedicalOrthoticsPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">医療用足底板と市販インソールは何が違うのか</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">医療用足底板と市販インソールは何が違うのか</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">医療用足底板（足底装具）は、整形外科などで医師が診断し、治療上必要と判断した場合に処方される装具です。国家資格を持つ義肢装具士が患者の足型を採型し、症状や骨格に合わせて個別に設計・作製します。扁平足障害や足底腱膜炎、関節リウマチによる足部変形、糖尿病性の足病変など、疾患の治療・進行予防の一環として用いられるものです。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">費用面では、医師が治療のために必要と認めて作製された治療用装具は、健康保険の療養費支給の対象になり得る制度があります。一般に、いったん全額を支払ったうえで加入する健康保険（保険者）に申請する流れですが、対象となる条件・手続き・支給額は個々のケースや保険者によって異なるため、具体的なことは受診先の医療機関や加入先の保険者に確認してください。これに対し市販インソールは医療行為を伴わない汎用設計の製品で、保険制度の対象ではなく、治療目的のものでもありません。そのぶん数千円程度から手軽に試せるのが特徴です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">医療用足底板との違いの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">医療用足底板との違いの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function MedicalOrthoticsPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">医療用足底板との違いにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">医療用足底板との違いにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">治療が不要で日常のサポートが目的なら、市販の機能性インソールから手軽に始められます。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function MedicalOrthoticsPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">受診の目安と、市販品を使う場合の注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">受診の目安と、市販品を使う場合の注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">次のような場合は市販品より受診を優先してください。(1)安静にしていても痛む、(2)朝の一歩目の強い痛みが数週間続く、(3)足の変形が進んでいる、(4)糖尿病・リウマチなど足に影響する持病がある、(5)子どもの足の痛みが続く。これらは治療用装具を含む医学的な対応が必要な可能性があり、健康保険の制度を使えるかどうかも含めて医療機関で相談するのが確実です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">市販インソールを使う場合は、「痛みを治すもの」ではなく「負担を減らす補助」と位置づけ、痛みが出たら使用を中止して原因をご確認ください。医療用足底板を処方されている方が自己判断で市販品に置き換えるのは避け、必ず主治医に相談してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

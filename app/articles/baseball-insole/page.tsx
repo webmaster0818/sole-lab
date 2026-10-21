@@ -61,7 +61,7 @@ export default function BaseballPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">野球のインソールの選び方｜スパイク対応で走塁・守備・打撃の安定に</h1>
@@ -74,17 +74,17 @@ export default function BaseballPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">野球で足元の安定が重要な理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">野球で足元の安定が重要な理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">野球は、打撃や投球での踏み込み、守備でのダッシュとストップ、走塁での全力疾走と、足元の安定が求められる動作が多い競技です。スパイクはグリップ重視でクッションやアーチサポートが少なく、足裏が疲れやすい構造です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールでアーチを支えると、踏み込みやダッシュの力が地面に伝わりやすくなり、安定したプレーにつながります。衝撃吸収性は守備の構えや長時間の試合での足の疲れも軽減します。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">野球の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">野球の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,18 +93,18 @@ export default function BaseballPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">素材とサイズの選び方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">素材とサイズの選び方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールの素材は、足裏を支えるアーチ部分の硬さと、衝撃を受け止めるクッション部分の柔らかさのバランスで選びます。一般に、硬めの素材はアーチをしっかり支えて踏み込みの力が逃げにくく、柔らかめの素材はクッション性に優れて着地の衝撃をやわらげます。野球では踏ん張りとダッシュ・ストップの衝撃の両方があるため、アーチは支えつつ、かかと側にクッションのある構造が扱いやすい傾向です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズは、今使っているスパイクの中敷きと重ねて長さ・幅を比べるのが確実です。多くの製品はS・M・Lなどの幅で展開され、つま先側をカットして微調整できるタイプもあります。迷ったときは大きめを選んで切り詰めると失敗しにくいでしょう。汗をかきやすい競技なので、通気性や抗菌・防臭への配慮があるかも確認しておくと快適です。具体的な対応サイズ・素材の仕様や価格は、各商品の公式サイトや店頭表示で確認してください。</p>
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">野球におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">野球におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">スパイクに入り、踏み込みを支えるアーチサポート付きインソールが野球に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -121,24 +121,24 @@ export default function BaseballPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スパイクでの使い方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">スパイクでの使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">スパイクに入れる際は元の中敷きを外し、フィットをご確認ください。グラウンドで汚れやすいため、使用後は乾かすと長持ちします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">長時間の試合・練習では足裏が疲れやすいので、クッション性のあるものを選ぶと後半まで安定したプレーがしやすくなります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">使用上の注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">使用上の注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">新しいインソールに替えた直後は、足裏やアーチの当たり方が変わって違和感を覚えることがあります。いきなり試合で使うのではなく、まず練習で短時間から慣らし、フィットを確かめてから本番に投入すると安心です。痛みやしびれが続く場合は使用を中止してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは消耗品で、使い続けるとクッションやアーチのへたりが進みます。へたってきたら早めに交換し、左右のすり減り方に偏りがないかも時々チェックしてください。グラウンドの砂や汗で汚れやすいため、使用後は取り出して陰干しし、清潔に保つと長持ちします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">なお、インソールの効き方には個人差があり、履くだけでパフォーマンスが上がったり痩せたりするわけではありません。足の痛みや変形など気になる症状がある場合は、自己判断で対処せず、専門家や医療機関に相談することをおすすめします。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

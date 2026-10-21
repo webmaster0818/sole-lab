@@ -60,7 +60,7 @@ export default function WorkmanPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ワークマンのインソールはダイエットに使える？特徴と専用品との違い</h1>
@@ -73,7 +73,7 @@ export default function WorkmanPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ワークマンのインソールの特徴</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ワークマンのインソールの特徴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ワークマンは作業者向けに、衝撃吸収や疲労軽減、消臭などを重視した低価格のインソールを展開しています。立ち仕事や歩き回る作業の疲れ対策として、コストパフォーマンスに優れているのが魅力です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方で、ダイエットインソールは、足元を安定させて姿勢・歩き方を整え、使う筋肉を増やすことを目的にした設計です。ワークマン品は疲れ軽減には十分ですが、姿勢改善やボディメイクを狙うなら専用設計の製品のほうが目的に合います。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ワークマンのインソールは、おおまかに次のようなカテゴリーで考えると選びやすくなります。具体的な商品名・価格・在庫は時期や店舗によって変わるため、最終的には店舗や公式オンラインストアで最新の取り扱いを確認してください。</p>
@@ -85,11 +85,11 @@ export default function WorkmanPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ワークマンの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ワークマンの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -98,12 +98,12 @@ export default function WorkmanPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ワークマンにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ワークマンにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ダイエットや姿勢改善が目的なら、専用設計のインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -120,7 +120,7 @@ export default function WorkmanPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">目的別の選び方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">目的別の選び方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">とにかく安く疲れを軽減したい・作業靴に入れたいならワークマンの汎用インソールが手軽です。一方、姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選ぶことをおすすめします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">両者は価格帯も目的も異なります。どちらが優れているかではなく、自分の目的に合うかで選ぶのがポイントです。</p>
           <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700 leading-relaxed">
@@ -131,12 +131,12 @@ export default function WorkmanPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ワークマンとダイエットインソール3製品の違い（価格・目的・アーチサポート）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ワークマンとダイエットインソール3製品の違い（価格・目的・アーチサポート）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「ワークマンの安いインソールで代用できないの？」という疑問に、違いを整理します。両者は<span className="font-bold">価格帯も設計思想も別物</span>です。ワークマンは作業・立ち仕事向けの安価なクッション系、ダイエットインソール3製品は姿勢や骨格へアプローチする専用設計で、どちらが上ということではなく<span className="font-bold">目的で選ぶもの</span>です。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">項目</th>
                   <th className="p-3 text-left border-b border-gray-200">ワークマンの汎用インソール</th>
                   <th className="p-3 text-left border-b border-gray-200">ダイエットインソール3製品</th>
@@ -154,7 +154,7 @@ export default function WorkmanPage() {
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">製品</th>
                   <th className="p-3 text-left border-b border-gray-200">単品価格</th>
                   <th className="p-3 text-left border-b border-gray-200">サイズ展開</th>
@@ -171,18 +171,18 @@ export default function WorkmanPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">サイズ調整・使い方の注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">サイズ調整・使い方の注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">汎用インソールはサイズ展開がS・M・Lなど幅を持たせてあることが多く、靴にぴったり合わせるにはカット調整が必要になる場合があります。多くの製品にはカット用のガイド線が入っているので、いま使っている靴の中敷きを型紙にして、つま先側から少しずつ切ると失敗しにくくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使うときは、靴に元から入っている中敷きを抜いてから入れ替えるか、薄手のものを上に重ねるのが基本です。厚みが増すと靴がきつくなったり、かかとが浮いたりすることがあるため、装着後は実際に歩いてフィット感を確かめてください。違和感や痛みが続く場合は無理に使い続けないでください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">衛生面では、抗菌防臭加工があっても定期的に乾燥させ、汚れたら早めに交換するのが快適に使うコツです。お手入れ方法や交換目安は製品ごとに異なるため、パッケージや公式の表示に従ってください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

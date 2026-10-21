@@ -307,7 +307,7 @@ export default function PitsoleNotWorkingPage() {
                 percentage: "13%",
                 detail:
                   "インフルエンサーのPR投稿が多いことに不信感を持ち、購入を後悔したという声もあります。PR投稿はマーケティング手法の一つであり、それ自体が製品の効果を否定するものではありません。判断材料としては、ダイエットカフェなどの第三者レビューサイトや、特許技術・臨床試験データなどの客観的な情報を参考にしてください。",
-                color: "text-blue-600",
+                color: "text-[#8a6a4f]",
               },
               {
                 rank: "5位",

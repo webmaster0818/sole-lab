@@ -60,7 +60,7 @@ export default function SportsShopPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">スポーツ用品店のインソールはダイエットに使える？競技用との目的の違い</h1>
@@ -73,17 +73,17 @@ export default function SportsShopPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スポーツ用品店のインソールの特徴</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">スポーツ用品店のインソールの特徴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">スポーツ用品店では、ランニング・サッカー・バスケットボールなど競技別の機能性インソールが充実しています。衝撃吸収やエネルギーリターン、足の熱成形フィッティングに対応する店舗もあり、競技中の足のサポートという点では実店舗の中で最も専門性が高いチャネルです。スタッフに競技や足の悩みを相談しながら選べるのも利点です。なお、取扱ブランドや品揃えは店舗の規模・時期によって異なります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ただし、これらは「競技中のパフォーマンス・ケガ予防」を主目的とした設計です。ダイエットインソールが目指すのは、日常の歩行や立ち姿勢でアーチを支え、姿勢・歩き方を整えること。使う場面も目的も異なるため、「高機能なスポーツ用を買えばダイエットにもなる」とは考えないほうが正確です。両者の違いは別記事「スポーツ用とダイエット用の違い」でも詳しく解説しています。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スポーツ用品店の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">スポーツ用品店の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function SportsShopPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">スポーツ用品店におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">スポーツ用品店におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">日常の歩行・姿勢サポートが目的なら、ダイエット向けの専用設計が選択肢になります。なお、当サイトで紹介する3製品（ピットソール・ランウェイキュアソール・スリムアップインソール）は、スポーツ用品店を含む実店舗での取り扱いは確認されておらず、公式通販が中心です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function SportsShopPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ダイエットインソールはスポーツ用品店で売ってる？</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ダイエットインソールはスポーツ用品店で売ってる？</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ピットソール・ランウェイキュアソール・スリムアップインソールの<strong>スポーツ用品店での取り扱いは確認されていません</strong>。ピットソールは公式サイトと正規のAmazon・楽天店舗、ランウェイキュアソールは公式サイト（FLOReショップ）、スリムアップインソールも通販が主な購入ルートです。店頭の機能性インソールとは設計目的が異なる別商品です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">選び分けの目安は「いつ使うか」です。部活やマラソン大会など競技中の足を支えたいならスポーツ用品店で競技に合ったものを、通勤・買い物・ウォーキングなど日常の歩行で姿勢や歩き方を整えたいならダイエット専用設計を選ぶことをおすすめします。どちらか一方が優れているのではなく、目的が違うだけです。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

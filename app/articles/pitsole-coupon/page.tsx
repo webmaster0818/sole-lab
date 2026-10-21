@@ -495,7 +495,7 @@ export default function PitsoleCouponPage() {
                   "セット割引が公式ほど充実していない",
                   "価格変動が大きい",
                 ],
-                color: "border-l-blue-500",
+                color: "border-l-[#8a6a4f]",
               },
               {
                 rank: "5位",

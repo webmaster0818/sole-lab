@@ -55,11 +55,11 @@ export default function FootArchPage() {
 
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "足のアーチとは？崩れる原因と対策" }]} />
 
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">足のアーチ 崩れ 原因</p>
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">足のアーチ 崩れ 原因</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            足の<span className="text-[#0ea5e9]">アーチ</span>とは？
+            足の<span className="text-[#8a6a4f]">アーチ</span>とは？
             <br className="md:hidden" />
             崩れる原因と対策
           </h1>
@@ -83,22 +83,22 @@ export default function FootArchPage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#what-is" className="hover:text-[#0ea5e9] transition-colors">1. 足のアーチとは？3つのアーチの役割</a></li>
-            <li><a href="#collapse-cause" className="hover:text-[#0ea5e9] transition-colors">2. アーチが崩れる5つの原因</a></li>
-            <li><a href="#self-check" className="hover:text-[#0ea5e9] transition-colors">3. 自分のアーチをセルフチェック</a></li>
-            <li><a href="#risk" className="hover:text-[#0ea5e9] transition-colors">4. アーチ崩れが引き起こすトラブル</a></li>
-            <li><a href="#insole-effect" className="hover:text-[#0ea5e9] transition-colors">5. インソールによるアーチ矯正の効果</a></li>
-            <li><a href="#training" className="hover:text-[#0ea5e9] transition-colors">6. アーチを強化するトレーニング</a></li>
-            <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">7. おすすめインソール3選</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">8. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">9. まとめ</a></li>
+            <li><a href="#what-is" className="hover:text-[#8a6a4f] transition-colors">1. 足のアーチとは？3つのアーチの役割</a></li>
+            <li><a href="#collapse-cause" className="hover:text-[#8a6a4f] transition-colors">2. アーチが崩れる5つの原因</a></li>
+            <li><a href="#self-check" className="hover:text-[#8a6a4f] transition-colors">3. 自分のアーチをセルフチェック</a></li>
+            <li><a href="#risk" className="hover:text-[#8a6a4f] transition-colors">4. アーチ崩れが引き起こすトラブル</a></li>
+            <li><a href="#insole-effect" className="hover:text-[#8a6a4f] transition-colors">5. インソールによるアーチ矯正の効果</a></li>
+            <li><a href="#training" className="hover:text-[#8a6a4f] transition-colors">6. アーチを強化するトレーニング</a></li>
+            <li><a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">7. おすすめインソール3選</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">8. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">9. まとめ</a></li>
           </ol>
         </div>
       </section>
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <section id="what-is" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足のアーチとは？3つのアーチの役割</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">足のアーチとは？3つのアーチの役割</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足のアーチとは、足の骨格が形成するアーチ状の構造のことです。人間の足には26個の骨があり、これらが靭帯や筋肉によってアーチ状に保たれています。このアーチ構造が、歩行時の衝撃吸収、推進力の生成、バランスの維持という3つの重要な機能を担っています。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">内側縦アーチ（土踏まず）</h3>
@@ -116,7 +116,7 @@ export default function FootArchPage() {
         </section>
 
         <section id="collapse-cause" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">アーチが崩れる5つの原因</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">アーチが崩れる5つの原因</h2>
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center text-sm font-bold">1</span><h3 className="text-base md:text-lg font-bold text-gray-900">加齢による筋力・靭帯の衰え</h3></div>
@@ -136,13 +136,13 @@ export default function FootArchPage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3"><span className="flex-shrink-0 w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center text-sm font-bold">5</span><h3 className="text-base md:text-lg font-bold text-gray-900">長時間の立ち仕事・歩行</h3></div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">1日8時間以上の立ち仕事や長距離の歩行は、足裏の筋肉に大きな疲労を蓄積させます。筋疲労した状態ではアーチを維持する力が低下し、時間の経過とともにアーチが崩れていきます。特に<Link href="/articles/standing-work/" className="text-[#0ea5e9] hover:underline">立ち仕事</Link>の方はインソールでのサポートが重要です。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">1日8時間以上の立ち仕事や長距離の歩行は、足裏の筋肉に大きな疲労を蓄積させます。筋疲労した状態ではアーチを維持する力が低下し、時間の経過とともにアーチが崩れていきます。特に<Link href="/articles/standing-work/" className="text-[#8a6a4f] hover:underline">立ち仕事</Link>の方はインソールでのサポートが重要です。</p>
             </div>
           </div>
         </section>
 
         <section id="self-check" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">自分のアーチをセルフチェック</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">自分のアーチをセルフチェック</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">自宅で簡単にできるアーチのセルフチェック方法を紹介します。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">ウェットテスト（足形チェック）</h3>
@@ -156,21 +156,21 @@ export default function FootArchPage() {
         </section>
 
         <section id="risk" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">アーチ崩れが引き起こすトラブル</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">アーチ崩れが引き起こすトラブル</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足のアーチが崩れると、足だけでなく全身にさまざまな問題が波及します。</p>
 
           <div className="space-y-3 mb-6">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><span className="font-bold">足底筋膜炎：</span>アーチが崩れると足底筋膜に過度なストレスがかかり、かかと周辺に強い痛みが生じます。<Link href="/articles/plantar-fasciitis/" className="text-[#0ea5e9] hover:underline">詳しくはこちら</Link></p>
+              <p className="text-sm text-gray-700"><span className="font-bold">足底筋膜炎：</span>アーチが崩れると足底筋膜に過度なストレスがかかり、かかと周辺に強い痛みが生じます。<Link href="/articles/plantar-fasciitis/" className="text-[#8a6a4f] hover:underline">詳しくはこちら</Link></p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><span className="font-bold">外反母趾：</span>横アーチの崩れにより親指の付け根が外側に張り出し、痛みや変形が生じます。<Link href="/articles/hallux-valgus-prevention/" className="text-[#0ea5e9] hover:underline">詳しくはこちら</Link></p>
+              <p className="text-sm text-gray-700"><span className="font-bold">外反母趾：</span>横アーチの崩れにより親指の付け根が外側に張り出し、痛みや変形が生じます。<Link href="/articles/hallux-valgus-prevention/" className="text-[#8a6a4f] hover:underline">詳しくはこちら</Link></p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><span className="font-bold">膝痛：</span>アーチ崩れによる過回内が膝のアライメントを乱し、<Link href="/articles/knee-pain/" className="text-[#0ea5e9] hover:underline">膝痛</Link>を引き起こします。</p>
+              <p className="text-sm text-gray-700"><span className="font-bold">膝痛：</span>アーチ崩れによる過回内が膝のアライメントを乱し、<Link href="/articles/knee-pain/" className="text-[#8a6a4f] hover:underline">膝痛</Link>を引き起こします。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><span className="font-bold">腰痛：</span>足元の不安定さが骨盤の歪みにつながり、<Link href="/articles/back-pain/" className="text-[#0ea5e9] hover:underline">腰痛</Link>の原因になります。</p>
+              <p className="text-sm text-gray-700"><span className="font-bold">腰痛：</span>足元の不安定さが骨盤の歪みにつながり、<Link href="/articles/back-pain/" className="text-[#8a6a4f] hover:underline">腰痛</Link>の原因になります。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <p className="text-sm text-gray-700"><span className="font-bold">疲れやすさ：</span>アーチの衝撃吸収機能が失われると、歩行効率が低下し、同じ距離を歩いても疲れやすくなります。</p>
@@ -179,7 +179,7 @@ export default function FootArchPage() {
         </section>
 
         <section id="insole-effect" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールによるアーチ矯正の効果</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールによるアーチ矯正の効果</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは崩れたアーチを外部から支え、正しい位置での荷重を促す「補助具」としての役割を果たします。完全にアーチを元に戻すことは困難ですが、以下の効果が期待できます。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">アーチの物理的サポート</h3>
@@ -193,7 +193,7 @@ export default function FootArchPage() {
         </section>
 
         <section id="training" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">アーチを強化するトレーニング</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">アーチを強化するトレーニング</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールと併用して足裏のトレーニングを行うことで、アーチの回復効果が高まります。</p>
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
@@ -216,19 +216,19 @@ export default function FootArchPage() {
         </section>
 
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">おすすめインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">おすすめインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">アーチサポートに優れたインソールを紹介します。</p>
 
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">3点アーチサポート</span>
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">3点アーチサポート</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">世界特許の3点サポート構造により、内側縦アーチ・外側縦アーチ・横アーチの3つを同時にサポートします。3つのアーチを包括的に支えることで、足裏全体のバランスを最適化し、アーチ崩れの進行を防ぎながら正しい荷重パターンを促します。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>世界特許の3点サポートで3つのアーチを同時にケア</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>TPU系素材で長期間アーチサポート形状を維持</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>足裏全体のバランスを最適化し連鎖的な問題を予防</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界特許の3点サポートで3つのアーチを同時にケア</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>TPU系素材で長期間アーチサポート形状を維持</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>足裏全体のバランスを最適化し連鎖的な問題を予防</span></li>
             </ul>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -236,11 +236,11 @@ export default function FootArchPage() {
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">薄型でありながら効果的なアーチサポートを実現。パンプスやローファーなど靴内空間が限られる靴でもアーチをしっかり支えます。歩行姿勢の改善を通じて、アーチに適切な刺激を与え、足裏の筋力活性化にも寄与します。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型設計でも効果的なアーチサポートを実現</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>歩行姿勢改善で足裏筋力の活性化を促す</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>パンプスやビジネスシューズにも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でも効果的なアーチサポートを実現</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>歩行姿勢改善で足裏筋力の活性化を促す</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>パンプスやビジネスシューズにも対応</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -248,20 +248,20 @@ export default function FootArchPage() {
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">スリムアップインソール（Slim Up Insole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美容整体師監修のもと、正しい重心位置を促す設計でアーチへの負担を軽減します。重心が適正な位置にあることで、アーチにかかる力が均等化され、特定部位への過度なストレスを防ぎます。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>正しい重心位置でアーチへの負担を均等化</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師の知見に基づく科学的設計</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>ダイエット効果とアーチケアを同時に追求</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>正しい重心位置でアーチへの負担を均等化</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師の知見に基づく科学的設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>ダイエット効果とアーチケアを同時に追求</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
-            <p className="text-sm text-gray-700 leading-relaxed">3商品の料金・機能・口コミを一覧で比較したい方は<Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。</p>
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
+            <p className="text-sm text-gray-700 leading-relaxed">3商品の料金・機能・口コミを一覧で比較したい方は<Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。</p>
           </div>
         </section>
 
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">足のアーチにはどんな種類がありますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">足のアーチは3種類あります。土踏まずを形成する「内側縦アーチ」、足の外側に沿った「外側縦アーチ」、つま先の付け根に横方向に走る「横アーチ」です。この3つが連携して衝撃吸収、推進力の生成、バランスの維持を行っています。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">足のアーチが崩れる主な原因は何ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">主な原因は加齢による筋力低下、体重増加、運動不足、合わない靴の使用、長時間の立ち仕事などです。後天的な生活習慣が大きな要因となることが多く見られます。</div></details>
@@ -272,19 +272,19 @@ export default function FootArchPage() {
         </section>
 
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">まとめ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足のアーチは全身を支える土台であり、その崩れは足だけでなく膝、腰、姿勢にまで影響を及ぼします。加齢、体重増加、運動不足、合わない靴などの要因でアーチは崩れていきますが、早期の対策で進行を食い止めることが可能です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールによるアーチサポートと、足裏のトレーニングの併用が最も効果的なアプローチです。特に3つのアーチを同時にケアできるインソールを選ぶことで、包括的な改善が期待できます。</p>
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">アーチケアにおすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートで3つのアーチを同時にケア。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：薄型でも効果的なアーチサポート。パンプスにも対応。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：重心改善でアーチへの負担を均等化。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートで3つのアーチを同時にケア。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型でも効果的なアーチサポート。パンプスにも対応。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：重心改善でアーチへの負担を均等化。</li>
             </ul>
           </div>
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
           </div>
         </section>
       </article>

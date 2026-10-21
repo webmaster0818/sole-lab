@@ -60,13 +60,13 @@ export default function WashingGuidePage() {
 
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "インソールの洗い方ガイド" }]} />
 
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">お手入れガイド</p>
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">お手入れガイド</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             インソール(中敷き)の洗い方・
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">洗濯方法ガイド</span>
+            <span className="text-[#8a6a4f]">洗濯方法ガイド</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             正しい洗い方と日々のケアでインソールの寿命を延ばし、清潔に長く使い続ける方法を
@@ -78,7 +78,7 @@ export default function WashingGuidePage() {
 
       {/* 結論先出し（直答） */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">結論：インソールの洗い方の基本</p>
           <p>基本は<strong>ぬるま湯＋中性洗剤でやさしく手洗い→よくすすいで→風通しの良い日陰で陰干し</strong>です。水洗いの可否は素材で異なり、EVA・ポリウレタン・ジェルは水洗いOK、革（レザー）は水洗いNG（拭き取り）。<strong>洗濯機・ドライヤー・直射日光・漂白剤は変形や劣化の原因になるため避ける</strong>のが基本です。</p>
         </div>
@@ -92,23 +92,23 @@ export default function WashingGuidePage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#why" className="hover:text-[#0ea5e9] transition-colors">1. インソールを洗う必要がある理由</a></li>
-            <li><a href="#method" className="hover:text-[#0ea5e9] transition-colors">2. 基本の洗い方（手洗い手順）</a></li>
-            <li><a href="#material" className="hover:text-[#0ea5e9] transition-colors">3. 素材別のお手入れ方法</a></li>
-            <li><a href="#daily" className="hover:text-[#0ea5e9] transition-colors">4. 日常のケアで寿命を延ばす方法</a></li>
-            <li><a href="#ng" className="hover:text-[#0ea5e9] transition-colors">5. やってはいけないNG行為</a></li>
-            <li><a href="#material-cautions" className="hover:text-[#0ea5e9] transition-colors">6. 素材別に気をつけたい注意点</a></li>
-            <li><a href="#dry-ng" className="hover:text-[#0ea5e9] transition-colors">7. 乾かし方のNGと正しい乾燥のコツ</a></li>
-            <li><a href="#odor" className="hover:text-[#0ea5e9] transition-colors">8. 洗っても取れない臭いの段階的対処</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">9. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">10. まとめ</a></li>
+            <li><a href="#why" className="hover:text-[#8a6a4f] transition-colors">1. インソールを洗う必要がある理由</a></li>
+            <li><a href="#method" className="hover:text-[#8a6a4f] transition-colors">2. 基本の洗い方（手洗い手順）</a></li>
+            <li><a href="#material" className="hover:text-[#8a6a4f] transition-colors">3. 素材別のお手入れ方法</a></li>
+            <li><a href="#daily" className="hover:text-[#8a6a4f] transition-colors">4. 日常のケアで寿命を延ばす方法</a></li>
+            <li><a href="#ng" className="hover:text-[#8a6a4f] transition-colors">5. やってはいけないNG行為</a></li>
+            <li><a href="#material-cautions" className="hover:text-[#8a6a4f] transition-colors">6. 素材別に気をつけたい注意点</a></li>
+            <li><a href="#dry-ng" className="hover:text-[#8a6a4f] transition-colors">7. 乾かし方のNGと正しい乾燥のコツ</a></li>
+            <li><a href="#odor" className="hover:text-[#8a6a4f] transition-colors">8. 洗っても取れない臭いの段階的対処</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">9. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">10. まとめ</a></li>
           </ol>
         </div>
       </section>
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <section id="why" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソールを洗う必要がある理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールを洗う必要がある理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足は1日にコップ1杯分（約200ml）の汗をかくと言われています。この汗をインソールが吸収し続けると、雑菌が繁殖してニオイの原因になるだけでなく、素材の劣化も早めます。定期的な洗浄は衛生面だけでなく、インソールの寿命を延ばすためにも重要です。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">雑菌の繁殖とニオイの防止</h3>
@@ -129,41 +129,41 @@ export default function WashingGuidePage() {
         </section>
 
         <section id="method" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">基本の洗い方（手洗い手順）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">基本の洗い方（手洗い手順）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ほとんどのインソールに適用できる基本の手洗い手順を紹介します。</p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">ぬるま湯を準備する</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">洗面器やバケツに30〜35度のぬるま湯を張ります。熱すぎるお湯はインソールの素材を傷めるため、必ずぬるま湯を使ってください。中性洗剤（食器用洗剤）を数滴垂らし、軽く泡立てます。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">インソールを浸して洗う</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">インソールをぬるま湯に浸し、やわらかい歯ブラシや布で表面を優しくこすります。力を入れすぎると表面素材が傷むため、軽い力で汚れを落としてください。特にかかとやつま先部分は汚れが溜まりやすいので、念入りに洗います。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">しっかりすすぐ</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">流水でインソールをしっかりすすぎ、洗剤を完全に洗い流します。洗剤が残ると肌荒れの原因になったり、素材の劣化を早めたりするため、泡が出なくなるまで丁寧にすすいでください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">水分を取り除く</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">タオルでインソールを挟み、軽く押して水分を吸い取ります。絞ったり、叩いたりすると形状が変わる恐れがあるため、あくまで「挟んで押す」程度にとどめてください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">5</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">5</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">完全に乾燥させる</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">風通しの良い日陰で完全に乾燥させます。直射日光は素材を劣化させるため避けてください。乾燥時間は通常12〜24時間程度です。扇風機の風を当てると乾燥時間を短縮できます。完全に乾いてから靴に戻してください。</p>
@@ -172,7 +172,7 @@ export default function WashingGuidePage() {
         </section>
 
         <section id="material" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">素材別のお手入れ方法</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">素材別のお手入れ方法</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールの素材によってお手入れ方法が異なります。自分のインソールの素材を確認して、適切な方法でケアしてください。</p>
 
           <div className="space-y-4">
@@ -196,7 +196,7 @@ export default function WashingGuidePage() {
         </section>
 
         <section id="daily" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">日常のケアで寿命を延ばす方法</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">日常のケアで寿命を延ばす方法</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">毎日の簡単なケアを習慣にするだけで、インソールの寿命を大幅に延ばせます。</p>
 
           <div className="space-y-4">
@@ -220,7 +220,7 @@ export default function WashingGuidePage() {
         </section>
 
         <section id="ng" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">やってはいけないNG行為</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">やってはいけないNG行為</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールの寿命を縮めてしまうNG行為をまとめました。以下は必ず避けてください。</p>
 
           <div className="space-y-4">
@@ -248,7 +248,7 @@ export default function WashingGuidePage() {
         </section>
 
         <section id="material-cautions" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">素材別に気をつけたい注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">素材別に気をつけたい注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">洗い方の手順は同じでも、素材によって「傷みやすいポイント」は異なります。ここでは一般的な素材ごとの注意点を整理します。実際に洗えるかどうか・お手入れ方法は、必ずお使いの製品の表示や説明書を優先してください。</p>
 
           <div className="space-y-4">
@@ -272,7 +272,7 @@ export default function WashingGuidePage() {
         </section>
 
         <section id="dry-ng" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">乾かし方のNGと正しい乾燥のコツ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">乾かし方のNGと正しい乾燥のコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">せっかく丁寧に洗っても、乾かし方を間違えるとインソールを傷めてしまいます。「早く乾かしたい」ときほど、次のNGに注意してください。</p>
 
           <div className="space-y-4 mb-6">
@@ -299,43 +299,43 @@ export default function WashingGuidePage() {
         </section>
 
         <section id="odor" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">洗っても取れない臭いの段階的対処</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">洗っても取れない臭いの段階的対処</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">きちんと洗っているのに臭いが残る場合は、いきなり買い替える前に、次の段階を順番に試してんでください。</p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">洗い方と乾かし方を見直す</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">生乾きは「臭い戻り」の大きな原因です。完全に乾き切ってから使えているか、毎日靴から取り出して乾かせているかをまず見直してください。2セットのローテーション使用も有効です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">重曹のつけ置きを試す</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">通常の洗浄で取れない臭いには、重曹水でのつけ置きが一般的な方法として知られています。ただし素材によっては向かない場合があるため、目立たない部分で試すか、製品の表示を確認してから行ってください。つけ置き後はしっかりすすぎ、完全に乾かします。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">靴本体・靴下側もケアする</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">インソールだけ洗っても、靴の中に汚れや湿気が残っていれば臭いは戻りがちです。靴自体の乾燥・消臭、通気性の良い靴下への見直しなど、「靴の中の環境」ごと整えることが大切です。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">それでも取れなければ交換を検討する</h3>
               </div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">内部まで染み込んだ臭いは、洗浄では取り切れないことがあります。ここまで試しても改善しない場合は寿命のサインと考え、交換をご検討ください。買い替えの際に自分の足や目的に合うタイプを知りたい方は、<Link href="/diagnosis/" className="text-[#0ea5e9] font-bold hover:underline">インソール診断</Link>も参考にしてください。</p>
+              <p className="text-sm md:text-base text-gray-700 leading-relaxed">内部まで染み込んだ臭いは、洗浄では取り切れないことがあります。ここまで試しても改善しない場合は寿命のサインと考え、交換をご検討ください。買い替えの際に自分の足や目的に合うタイプを知りたい方は、<Link href="/diagnosis/" className="text-[#8a6a4f] font-bold hover:underline">インソール診断</Link>も参考にしてください。</p>
             </div>
           </div>
         </section>
 
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールは洗濯機で洗えますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
@@ -369,22 +369,22 @@ export default function WashingGuidePage() {
         </section>
 
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">まとめ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールの正しいお手入れは、「毎日靴から取り出して乾かす」「週1回ぬるま湯で手洗い」「完全に乾かしてから靴に戻す」の3つが基本です。洗濯機・ドライヤー・漂白剤の使用は避け、優しく丁寧に扱うことで寿命を大幅に延ばせます。</p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">主要3商品のお手入れポイント</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：EVA素材で水洗いOK。ぬるま湯と中性洗剤で手洗い。浸け置きは10分以内。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：薄型設計で乾きが早い。週1回のケアで清潔を維持。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：水洗い可能。しっかり乾かしてから使用を再開。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：EVA素材で水洗いOK。ぬるま湯と中性洗剤で手洗い。浸け置きは10分以内。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型設計で乾きが早い。週1回のケアで清潔を維持。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：水洗い可能。しっかり乾かしてから使用を再開。</li>
             </ul>
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">正しいケアを続ければ、インソールの効果を長期間維持でき、交換頻度を減らすことで結果的にコスト削減にもつながります。毎日のちょっとした習慣で、清潔で快適なインソールライフを送ってください。</p>
 
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
           </div>
         </section>
       </article>

@@ -57,11 +57,11 @@ export default function MaterialComparisonPage() {
 
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "インソールの素材比較" }]} />
 
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">インソール 素材 比較</p>
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">インソール 素材 比較</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            インソールの<span className="text-[#0ea5e9]">素材比較</span>
+            インソールの<span className="text-[#8a6a4f]">素材比較</span>
             <br className="md:hidden" />
             EVA・TPU・コルク・ジェルの違い
           </h1>
@@ -77,22 +77,22 @@ export default function MaterialComparisonPage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#overview" className="hover:text-[#0ea5e9] transition-colors">1. インソール素材が性能を左右する理由</a></li>
-            <li><a href="#eva" className="hover:text-[#0ea5e9] transition-colors">2. EVA（エチレン酢酸ビニル）の特徴</a></li>
-            <li><a href="#tpu" className="hover:text-[#0ea5e9] transition-colors">3. TPU（熱可塑性ポリウレタン）の特徴</a></li>
-            <li><a href="#cork" className="hover:text-[#0ea5e9] transition-colors">4. コルクの特徴</a></li>
-            <li><a href="#gel" className="hover:text-[#0ea5e9] transition-colors">5. ジェル（シリコン）の特徴</a></li>
-            <li><a href="#comparison" className="hover:text-[#0ea5e9] transition-colors">6. 素材別比較表と目的別おすすめ</a></li>
-            <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">7. おすすめインソールの素材設計</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">8. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">9. まとめ</a></li>
+            <li><a href="#overview" className="hover:text-[#8a6a4f] transition-colors">1. インソール素材が性能を左右する理由</a></li>
+            <li><a href="#eva" className="hover:text-[#8a6a4f] transition-colors">2. EVA（エチレン酢酸ビニル）の特徴</a></li>
+            <li><a href="#tpu" className="hover:text-[#8a6a4f] transition-colors">3. TPU（熱可塑性ポリウレタン）の特徴</a></li>
+            <li><a href="#cork" className="hover:text-[#8a6a4f] transition-colors">4. コルクの特徴</a></li>
+            <li><a href="#gel" className="hover:text-[#8a6a4f] transition-colors">5. ジェル（シリコン）の特徴</a></li>
+            <li><a href="#comparison" className="hover:text-[#8a6a4f] transition-colors">6. 素材別比較表と目的別おすすめ</a></li>
+            <li><a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">7. おすすめインソールの素材設計</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">8. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">9. まとめ</a></li>
           </ol>
         </div>
       </section>
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <section id="overview" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">インソール素材が性能を左右する理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソール素材が性能を左右する理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             インソールの機能性は使用される素材によって大きく異なります。衝撃吸収力、アーチサポートの保持力、通気性、耐久性、重量など、すべての性能指標は素材の特性に依存しています。同じ形状のインソールでも、EVAで作られたものとTPUで作られたものでは使用感が全く異なります。
           </p>
@@ -110,7 +110,7 @@ export default function MaterialComparisonPage() {
         </section>
 
         <section id="eva" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">EVA（エチレン酢酸ビニル）の特徴</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">EVA（エチレン酢酸ビニル）の特徴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             EVAは最も広く使われているインソール素材です。ランニングシューズのミッドソールにも採用されるほど信頼性が高く、コストパフォーマンスに優れています。
           </p>
@@ -132,13 +132,13 @@ export default function MaterialComparisonPage() {
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">EVAが向いている用途</h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
             軽さを重視するランニングやウォーキング、コストを抑えて定期的に交換したい方に最適です。また通勤程度の日常使いでも十分な性能を発揮します。ただし長期間の使用やハードな運動には向いていないため、
-            <Link href="/articles/lifespan/" className="text-[#0ea5e9] hover:underline">交換時期の目安</Link>
+            <Link href="/articles/lifespan/" className="text-[#8a6a4f] hover:underline">交換時期の目安</Link>
             を守ることが重要です。
           </p>
         </section>
 
         <section id="tpu" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">TPU（熱可塑性ポリウレタン）の特徴</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">TPU（熱可塑性ポリウレタン）の特徴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             TPUは近年ハイエンドインソールで採用が増えている高機能素材です。形状記憶性と復元力に優れ、長期間にわたってサポート機能を維持します。ピットソールのアーチサポート部にも使用されている注目素材です。
           </p>
@@ -164,7 +164,7 @@ export default function MaterialComparisonPage() {
         </section>
 
         <section id="cork" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">コルクの特徴</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">コルクの特徴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             コルクはコルクガシの樹皮から採取される天然素材です。Birkenstockのフットベッドに代表されるように、使い込むほど足に馴染む独特のフィッティング性が魅力です。
           </p>
@@ -191,7 +191,7 @@ export default function MaterialComparisonPage() {
         </section>
 
         <section id="gel" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ジェル（シリコン）の特徴</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ジェル（シリコン）の特徴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             ジェル素材はシリコンをベースとした粘弾性のある素材で、衝撃吸収に最も優れた性能を持ちます。かかとパッドや前足部パッドなど、部分使用で採用されることが多い素材です。
           </p>
@@ -217,7 +217,7 @@ export default function MaterialComparisonPage() {
         </section>
 
         <section id="comparison" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">素材別比較表と目的別おすすめ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">素材別比較表と目的別おすすめ</h2>
 
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
@@ -260,20 +260,20 @@ export default function MaterialComparisonPage() {
         </section>
 
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">おすすめインソールの素材設計</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">おすすめインソールの素材設計</h2>
 
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">複合素材設計</span>
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">複合素材設計</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
               アーチサポート部にTPU系素材、クッション層にEVAを採用した複合素材設計です。TPUの高い形状保持力でアーチサポートを長期間維持しつつ、EVAのクッション性で歩行時の快適性を確保。世界特許技術と素材工学の融合により、高いパフォーマンスを実現しています。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>TPU+EVAの複合設計でサポート力と快適性を両立</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>長期間アーチサポート機能を維持する高耐久設計</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>素材工学に基づく世界特許技術を採用</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>TPU+EVAの複合設計でサポート力と快適性を両立</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>長期間アーチサポート機能を維持する高耐久設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>素材工学に基づく世界特許技術を採用</span></li>
             </ul>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -283,11 +283,11 @@ export default function MaterialComparisonPage() {
               薄型でありながら高い機能性を実現した素材設計です。限られた厚みの中で最大限のサポート力を発揮するため、高密度の素材を採用。パンプスやビジネスシューズなど、靴内空間が限られる場面でも快適に使用できます。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型でも高密度素材で十分なサポート力</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>パンプスやビジネスシューズに最適な厚み設計</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>荷重分散設計で素材の劣化を最小化</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型でも高密度素材で十分なサポート力</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>パンプスやビジネスシューズに最適な厚み設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>荷重分散設計で素材の劣化を最小化</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -297,22 +297,22 @@ export default function MaterialComparisonPage() {
               美容整体師監修のもと、適度な硬さと柔軟性のバランスを追求した素材選定です。重心移動を適切にガイドするため、部位によって素材の硬度を変えた設計が特徴。クッション性と耐久性の両立を実現しています。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>部位別の硬度調整で重心移動をガイド</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>クッション性と耐久性のバランスが良好</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師の知見を素材選定に反映</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>部位別の硬度調整で重心移動をガイド</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>クッション性と耐久性のバランスが良好</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師の知見を素材選定に反映</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              3商品の料金・機能・口コミを一覧で比較したい方は<Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。
+              3商品の料金・機能・口コミを一覧で比較したい方は<Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。
             </p>
           </div>
         </section>
 
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールの素材で最も一般的なのは何ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">最も一般的なインソール素材はEVAです。軽量で衝撃吸収性に優れ、コストも抑えられるため市販インソールの多くに採用されています。ただし耐久性はTPUやコルクに劣り、3〜6ヶ月程度で交換が必要になります。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">TPU素材のインソールのメリットは何ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">TPUは形状保持力と復元力に優れた素材です。長期間使用してもアーチサポートの形状が崩れにくく、EVAの2〜3倍の耐久性があります。アーチサポート部に使用されることが多い高機能素材です。</div></details>
@@ -323,7 +323,7 @@ export default function MaterialComparisonPage() {
         </section>
 
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">まとめ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             インソールの素材は性能を決定づける最重要要素です。EVAは軽量でコスパが良く、TPUは形状保持力と耐久性に優れ、コルクは天然素材ならではのフィッティング性が魅力、ジェルは衝撃吸収力が最高クラスです。
           </p>
@@ -333,13 +333,13 @@ export default function MaterialComparisonPage() {
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">素材設計に優れたおすすめインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：TPU+EVA複合設計。サポート力と快適性を高次元で両立。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：薄型でも高密度素材で十分なサポート力を発揮。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：部位別の硬度調整で重心移動を最適化。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：TPU+EVA複合設計。サポート力と快適性を高次元で両立。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型でも高密度素材で十分なサポート力を発揮。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：部位別の硬度調整で重心移動を最適化。</li>
             </ul>
           </div>
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
           </div>
         </section>
       </article>

@@ -264,31 +264,31 @@ export default function PitsolePage() {
       <Breadcrumb items={[{ label: "ピットソール 口コミ・効果" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#0ea5e9] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             レビュー記事
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソールの口コミ・効果を検証
             <br />
-            <span className="text-[#0ea5e9]">累計200万足</span>の実力とは？
+            <span className="text-[#8a6a4f]">累計200万足</span>の実力とは？
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             世界特許取得のインソール「Pitsole（ピットソール）」の口コミ・評判を調査。
             「痩せない」という悪い口コミの真相から、効果の仕組み、最安値情報、偽物の見分け方まで、公式情報と実在の口コミ集計をもとにレビューします。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               世界特許技術
             </span>
-            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               累計200万足突破
             </span>
-            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               楽天ランキング1位
             </span>
-            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               楽天レビュー3.98（451件）・4.11（679件）
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -304,7 +304,7 @@ export default function PitsolePage() {
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>ピットソールは「履くだけで劇的に痩せる」商品ではありませんが、足裏アーチサポートによる姿勢改善・歩行効率の向上を通じて、ダイエットをサポートするインソールです。臨床試験では3ヶ月使用で39人中35人が体重減少という結果が報告されています。</p>
         </div>
@@ -378,7 +378,7 @@ export default function PitsolePage() {
                       </span>
                       <div className="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden">
                         <div
-                          className="h-full bg-[#0ea5e9] rounded-full"
+                          className="h-full bg-[#8a6a4f] rounded-full"
                           style={{ width: `${(item.score / 5) * 100}%` }}
                         />
                       </div>
@@ -480,7 +480,7 @@ export default function PitsolePage() {
                 className="bg-white border border-gray-200 rounded-lg p-5"
               >
                 <div className="flex items-start gap-3">
-                  <span className="shrink-0 w-8 h-8 bg-sky-100 text-[#0ea5e9] rounded-full flex items-center justify-center text-sm font-bold">
+                  <span className="shrink-0 w-8 h-8 bg-[#f3ece4] text-[#8a6a4f] rounded-full flex items-center justify-center text-sm font-bold">
                     &#10003;
                   </span>
                   <div className="flex-1">
@@ -504,19 +504,19 @@ export default function PitsolePage() {
             </h3>
             <ul className="space-y-1 text-sm text-gray-600">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                   &#9679;
                 </span>
                 「姿勢が良くなった」「歩きやすくなった」という姿勢・歩行面の声が中心（ダイエットカフェ）
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                   &#9679;
                 </span>
                 楽天公式店のレビュー評価は総合3.98〜4.11と比較的高め（2026年10月14日参照）
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                   &#9679;
                 </span>
                 体重の減少そのものよりも、日常の使いやすさ・姿勢サポートとして評価されている
@@ -582,39 +582,39 @@ export default function PitsolePage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="card">
-              <h3 className="text-base font-bold text-[#0ea5e9] mb-4 flex items-center gap-2">
-                <span className="w-6 h-6 bg-sky-100 rounded-full flex items-center justify-center text-xs">
+              <h3 className="text-base font-bold text-[#8a6a4f] mb-4 flex items-center gap-2">
+                <span className="w-6 h-6 bg-[#f3ece4] rounded-full flex items-center justify-center text-xs">
                   &#9675;
                 </span>
                 メリット
               </h3>
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   世界特許取得の技術で信頼性が高い
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   靴に入れるだけで手軽に始められる
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   サイズ展開が広く男女兼用（21〜29cm・5サイズ）
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   姿勢改善・腰痛軽減の副次的効果
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   まとめ買いセットで1足あたりの単価が下がる（6足セットで単品比約39%お得）
@@ -710,17 +710,17 @@ export default function PitsolePage() {
                     洗い替えに
                   </td>
                 </tr>
-                <tr className="border-b border-gray-100 bg-sky-50">
+                <tr className="border-b border-gray-100 bg-[#faf7f3]">
                   <td className="px-4 py-3 text-gray-900 font-medium">
                     4足セット
                   </td>
                   <td className="px-4 py-3 text-gray-900 font-medium">
                     18,120円
                   </td>
-                  <td className="px-4 py-3 text-[#0ea5e9] font-bold">
+                  <td className="px-4 py-3 text-[#8a6a4f] font-bold">
                     4,530円
                   </td>
-                  <td className="px-4 py-3 text-[#0ea5e9] font-medium">
+                  <td className="px-4 py-3 text-[#8a6a4f] font-medium">
                     単品比 約31%お得
                   </td>
                 </tr>
@@ -731,10 +731,10 @@ export default function PitsolePage() {
                   <td className="px-4 py-3 text-gray-900 font-medium">
                     24,156円
                   </td>
-                  <td className="px-4 py-3 text-[#0ea5e9] font-bold">
+                  <td className="px-4 py-3 text-[#8a6a4f] font-bold">
                     4,026円
                   </td>
-                  <td className="px-4 py-3 text-[#0ea5e9] font-medium">
+                  <td className="px-4 py-3 text-[#8a6a4f] font-medium">
                     単品比 約39%お得
                   </td>
                 </tr>
@@ -824,7 +824,7 @@ export default function PitsolePage() {
               </h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">1.</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">1.</span>
                   <span>
                     <span className="font-medium text-gray-900">
                       普段の靴のサイズを基準に選ぶ。
@@ -833,7 +833,7 @@ export default function PitsolePage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">2.</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">2.</span>
                   <span>
                     <span className="font-medium text-gray-900">
                       境界サイズは大きめを選ぶ。
@@ -842,7 +842,7 @@ export default function PitsolePage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">3.</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">3.</span>
                   <span>
                     <span className="font-medium text-gray-900">
                       靴に合わせてカットも可能。
@@ -925,19 +925,19 @@ export default function PitsolePage() {
               </h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   BACCHUSのロゴと製品番号の記載がある
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   専用パッケージに封入されている
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   極端な値引きがされていない（定価の半額以下は要注意）
@@ -966,19 +966,19 @@ export default function PitsolePage() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/articles/100kin-comparison/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#0ea5e9] transition-colors">
+            <Link href="/articles/100kin-comparison/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#8a6a4f] transition-colors">
               <p className="text-sm font-semibold text-gray-900">100均インソールとの違い</p>
               <p className="text-xs text-gray-500 mt-1">価格差の理由と使い分けを検証</p>
             </Link>
-            <Link href="/articles/workman-insole/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#0ea5e9] transition-colors">
+            <Link href="/articles/workman-insole/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#8a6a4f] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ワークマンのインソールとの違い</p>
               <p className="text-xs text-gray-500 mt-1">店頭で買える類似品の実力</p>
             </Link>
-            <Link href="/articles/pitsole-vs-tential/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#0ea5e9] transition-colors">
+            <Link href="/articles/pitsole-vs-tential/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#8a6a4f] transition-colors">
               <p className="text-sm font-semibold text-gray-900">TENTIALインソールとの比較</p>
               <p className="text-xs text-gray-500 mt-1">よく比較される2製品を1対1で検証</p>
             </Link>
-            <Link href="/ranking/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#0ea5e9] transition-colors">
+            <Link href="/ranking/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#8a6a4f] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソール3製品の比較</p>
               <p className="text-xs text-gray-500 mt-1">ランウェイ・スリムアップとの違い</p>
             </Link>
@@ -993,37 +993,37 @@ export default function PitsolePage() {
             ピットソールが向いている人・向いていない人
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="card border-[#0ea5e9]">
-              <h3 className="text-base font-bold text-[#0ea5e9] mb-4">
+            <div className="card border-[#8a6a4f]">
+              <h3 className="text-base font-bold text-[#8a6a4f] mb-4">
                 向いている人
               </h3>
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   姿勢の悪さや骨盤の歪みが気になる方
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   日常の歩行をダイエットに活かしたい方
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   立ち仕事で腰痛・足の疲れに悩んでいる方
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   食事管理や運動も並行して取り組める方
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   特許技術など科学的根拠のある商品を選びたい方

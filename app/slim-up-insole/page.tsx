@@ -202,7 +202,7 @@ export default function SlimUpInsolePage() {
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>スリムアップインソールは美容整体師・井上剛志氏監修のインソールです。土踏まずのサポートにより普段使わない足の筋肉を活性化し、歩行時の姿勢改善をサポートします。価格は単品6,980円（税込）。</p>
         </div>

@@ -60,7 +60,7 @@ export default function ThighSlimmingPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">太もも痩せにインソールは効く？姿勢と歩き方から考える方法</h1>
@@ -73,17 +73,17 @@ export default function ThighSlimmingPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">太ももが張る・太く見える原因とインソール</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">太ももが張る・太く見える原因とインソール</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">前ももが張って見える原因の一つに、姿勢の崩れや歩き方のクセで太ももの前側（大腿四頭筋）ばかり使ってしまうことがあります。骨盤が後傾し、足が地面を蹴れずに前ももで引き上げる歩き方になると、前ももが発達・緊張しやすくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチを支えるインソールで足元を安定させると、地面をしっかり蹴り出す歩き方がしやすくなり、お尻や裏もも、ふくらはぎといった本来使うべき筋肉が働きやすくなります。前ももへの偏りがやわらぐと、脚のラインの印象が変わることがあります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">太もも痩せの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">太もも痩せの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function ThighSlimmingPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">太もも痩せにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">太もも痩せにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">姿勢と歩き方を整える、アーチサポートのしっかりしたインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,20 +114,20 @@ export default function ThighSlimmingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">太もも痩せのための使い方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">太もも痩せのための使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、かかとから着地してつま先で地面を蹴る歩き方を意識すると、前ももに頼らず脚全体を使えます。ウォーキングや日常の歩行で実践してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">太もも痩せには食事管理と下半身の運動が基本です。インソールはあくまで姿勢・歩き方を整える補助であり、単独で痩せる魔法ではありません。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">歩き方・姿勢との関係を正しく理解する</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">歩き方・姿勢との関係を正しく理解する</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">はじめに大切なことをお伝えすると、「インソールを入れれば太ももが痩せる」と断定することはできません。インソールの役割はあくまで足元を安定させて歩行姿勢をサポートすることであり、体型の変化には食事・運動を含む生活全体が関わります。効果の感じ方には個人差があり、インソールは医療機器でもありません。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">そのうえで、一般的な知見として、歩行では太ももの前側（大腿四頭筋）だけでなく、お尻（大臀筋）や太ももの裏側（ハムストリングス）、ふくらはぎなど多くの筋肉が連動して働くとされています。姿勢が崩れた歩き方では特定の筋肉に負担が偏りやすく、かかと着地から蹴り出しまでを意識した歩き方では、下半身の筋肉をバランスよく使いやすくなる——というのが一般的な考え方です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは、こうした歩き方の意識づけを足元から支える補助として位置づけるのが現実的です。なお、歩行時に痛みや違和感がある場合は、無理に歩く量を増やさず、整形外科などの医療機関への相談を優先してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">併用したい生活習慣（一般論）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">併用したい生活習慣（一般論）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを活かすなら、日常の習慣と組み合わせることが前提になります。ここでは一般的に推奨されている習慣を紹介します。いずれも効果を保証するものではなく、無理のない範囲で取り入れることが大切です。</p>
           <div className="space-y-4 mb-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
@@ -147,11 +147,11 @@ export default function ThighSlimmingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

@@ -130,13 +130,13 @@ export default function HeightUpPage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "シークレットインソールの効果と注意点" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             シークレットインソール 効果
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            インソールで<span className="text-[#0ea5e9]">身長アップ</span>？
+            インソールで<span className="text-[#8a6a4f]">身長アップ</span>？
             <br className="md:hidden" />
             シークレットインソールの効果と注意点
           </h1>
@@ -156,42 +156,42 @@ export default function HeightUpPage() {
           </p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#mechanism" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#mechanism" className="hover:text-[#8a6a4f] transition-colors">
                 1. シークレットインソールの仕組み
               </a>
             </li>
             <li>
-              <a href="#effect" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#effect" className="hover:text-[#8a6a4f] transition-colors">
                 2. シークレットインソールの効果
               </a>
             </li>
             <li>
-              <a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#how-to-choose" className="hover:text-[#8a6a4f] transition-colors">
                 3. バレないための選び方と靴の組み合わせ
               </a>
             </li>
             <li>
-              <a href="#caution" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#caution" className="hover:text-[#8a6a4f] transition-colors">
                 4. 使用上の注意点とリスク
               </a>
             </li>
             <li>
-              <a href="#posture" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#posture" className="hover:text-[#8a6a4f] transition-colors">
                 5. 姿勢改善インソールという選択肢
               </a>
             </li>
             <li>
-              <a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">
                 6. おすすめのスタイルアップインソール
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 7. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 8. まとめ
               </a>
             </li>
@@ -203,7 +203,7 @@ export default function HeightUpPage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="mechanism" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             シークレットインソールの仕組み
           </h2>
 
@@ -242,7 +242,7 @@ export default function HeightUpPage() {
 
         {/* Section 2 */}
         <section id="effect" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             シークレットインソールの効果
           </h2>
 
@@ -281,7 +281,7 @@ export default function HeightUpPage() {
 
         {/* Section 3 */}
         <section id="how-to-choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             バレないための選び方と靴の組み合わせ
           </h2>
 
@@ -292,7 +292,7 @@ export default function HeightUpPage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                   1
                 </span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -306,7 +306,7 @@ export default function HeightUpPage() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                   2
                 </span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -320,7 +320,7 @@ export default function HeightUpPage() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                   3
                 </span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -334,7 +334,7 @@ export default function HeightUpPage() {
 
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                   4
                 </span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -350,7 +350,7 @@ export default function HeightUpPage() {
 
         {/* Section 4 */}
         <section id="caution" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             使用上の注意点とリスク
           </h2>
 
@@ -363,7 +363,7 @@ export default function HeightUpPage() {
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             かかとが高くなると、重心が前方に移動し、つま先への荷重が増加します。長時間の使用でつま先や中足骨頭部に痛みが出ることがあります。特に5cm以上のインソールでは、ハイヒールと同様の負荷がかかるため、外反母趾のリスクも高まります。
-            <Link href="/articles/hallux-valgus-prevention/" className="text-[#0ea5e9] hover:underline">外反母趾の予防法</Link>
+            <Link href="/articles/hallux-valgus-prevention/" className="text-[#8a6a4f] hover:underline">外反母趾の予防法</Link>
             も参考にしてください。
           </p>
 
@@ -386,7 +386,7 @@ export default function HeightUpPage() {
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
             かかとが高くなることで骨盤が前傾し、腰椎のカーブが強くなります。これが
-            <Link href="/articles/back-pain/" className="text-[#0ea5e9] hover:underline">腰痛</Link>
+            <Link href="/articles/back-pain/" className="text-[#8a6a4f] hover:underline">腰痛</Link>
             の原因になることがあります。特に元々反り腰の方は、高いシークレットインソールの使用に注意が必要です。腰に負担を感じたら高さを下げるか、使用時間を短くしてください。
           </p>
 
@@ -400,7 +400,7 @@ export default function HeightUpPage() {
 
         {/* Section 5 */}
         <section id="posture" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             姿勢改善インソールという選択肢
           </h2>
 
@@ -427,13 +427,13 @@ export default function HeightUpPage() {
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
             姿勢改善型のインソールは正しい筋肉の使い方を促すため、歩行時のカロリー消費が向上する効果も期待できます。スタイルアップしながらダイエット効果も得られるという、一石二鳥のアプローチです。
-            <Link href="/articles/posture-correction/" className="text-[#0ea5e9] hover:underline">姿勢矯正とインソールの記事</Link>
+            <Link href="/articles/posture-correction/" className="text-[#8a6a4f] hover:underline">姿勢矯正とインソールの記事</Link>
             で詳しく解説しています。
           </p>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <span className="font-bold text-sky-700">比較：</span>
+              <span className="font-bold text-[#6f543c]">比較：</span>
               シークレットインソールは「即効性」が魅力ですが、姿勢改善インソールは「持続性」と「健康面の安全性」で勝ります。目的や使用シーンに応じて使い分けるのが賢い選択です。
             </p>
           </div>
@@ -441,7 +441,7 @@ export default function HeightUpPage() {
 
         {/* Section 6 */}
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             おすすめのスタイルアップインソール
           </h2>
 
@@ -450,8 +450,8 @@ export default function HeightUpPage() {
           </p>
 
           {/* Product 1: Pitsole */}
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">
               姿勢改善で自然にスタイルアップ
             </span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">
@@ -462,21 +462,21 @@ export default function HeightUpPage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>世界特許の3点サポートで自然な姿勢改善</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>足の健康を維持しながらスタイルアップ可能</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>XS〜XLの5サイズ展開（21〜29cm）で男女問わず使用可能</span>
               </li>
             </ul>
             <Link
               href="/pitsole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               ピットソールの詳細レビューを見る &rarr;
             </Link>
@@ -495,21 +495,21 @@ export default function HeightUpPage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>美姿勢サポートで自然な脚長効果</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>薄型設計でパンプスにも対応</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>骨盤周りの筋肉を活性化してスタイルアップ</span>
               </li>
             </ul>
             <Link
               href="/runway-cure-sole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               ランウェイキュアソールの詳細レビューを見る &rarr;
             </Link>
@@ -528,32 +528,32 @@ export default function HeightUpPage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>美容整体師監修で正しい重心移動を実現</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>脚のライン改善でスリム見え効果</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>ダイエット効果とスタイルアップを同時に追求</span>
               </li>
             </ul>
             <Link
               href="/slim-up-insole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               スリムアップインソールの詳細レビューを見る &rarr;
             </Link>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミを一覧で比較したい方は
               <Link
                 href="/ranking/"
-                className="text-[#0ea5e9] font-bold hover:underline"
+                className="text-[#8a6a4f] font-bold hover:underline"
               >
                 おすすめランキングページ
               </Link>
@@ -564,7 +564,7 @@ export default function HeightUpPage() {
 
         {/* Section 7: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -633,7 +633,7 @@ export default function HeightUpPage() {
 
         {/* Section 8: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -653,7 +653,7 @@ export default function HeightUpPage() {
               <li>
                 <Link
                   href="/pitsole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   ピットソール
                 </Link>
@@ -662,7 +662,7 @@ export default function HeightUpPage() {
               <li>
                 <Link
                   href="/runway-cure-sole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   ランウェイキュアソール
                 </Link>
@@ -671,7 +671,7 @@ export default function HeightUpPage() {
               <li>
                 <Link
                   href="/slim-up-insole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   スリムアップインソール
                 </Link>
@@ -683,7 +683,7 @@ export default function HeightUpPage() {
           <div className="text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md"
+              className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md"
             >
               3商品の詳細比較ランキングを見る
             </Link>

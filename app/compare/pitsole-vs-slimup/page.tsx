@@ -185,7 +185,7 @@ export default function PitsoleVsSlimupPage() {
             それぞれの強み・弱みを整理し、あなたに合った1足の選び方を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               ピットソール
             </span>
             <span className="bg-emerald-100 text-emerald-600 px-3 py-1 rounded-full font-medium">
@@ -213,25 +213,25 @@ export default function PitsoleVsSlimupPage() {
               先に結論をお伝えすると、<span className="font-bold text-gray-900">両商品は「技術アプローチ」と「コスト構造」に明確な違いがあります。</span>どちらが優れているというよりも、あなたが何を重視するかで選ぶべき商品が変わります。
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="p-4 bg-sky-50 border border-sky-200 rounded-lg">
-                <h3 className="text-base font-bold text-[#0ea5e9] mb-2">
+              <div className="p-4 bg-[#faf7f3] border border-[#e8ded6] rounded-lg">
+                <h3 className="text-base font-bold text-[#8a6a4f] mb-2">
                   ピットソールが向いている人
                 </h3>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                    <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                     特許技術の信頼性を重視したい
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                    <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                     累計200万足の実績に安心感を感じる
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                    <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                     まずは単品で試したい（単品価格はピットソールが安い）
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                    <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                     21cmからの小さめサイズが必要
                   </li>
                 </ul>
@@ -277,7 +277,7 @@ export default function PitsoleVsSlimupPage() {
                   <th className="py-3 px-2 text-left text-gray-500 font-medium w-1/3">
                     項目
                   </th>
-                  <th className="py-3 px-2 text-center font-bold text-[#0ea5e9] w-1/3">
+                  <th className="py-3 px-2 text-center font-bold text-[#8a6a4f] w-1/3">
                     ピットソール
                   </th>
                   <th className="py-3 px-2 text-center font-bold text-emerald-600 w-1/3">
@@ -341,7 +341,7 @@ export default function PitsoleVsSlimupPage() {
                     <th className="py-3 px-2 text-left text-gray-500 font-medium">
                       購入プラン
                     </th>
-                    <th className="py-3 px-2 text-center font-bold text-[#0ea5e9]">
+                    <th className="py-3 px-2 text-center font-bold text-[#8a6a4f]">
                       ピットソール
                     </th>
                     <th className="py-3 px-2 text-center font-bold text-emerald-600">
@@ -353,7 +353,7 @@ export default function PitsoleVsSlimupPage() {
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-2 text-gray-600">単品</td>
                     <td className="py-3 px-2 text-center text-gray-900 font-medium">
-                      <span className="text-[#0ea5e9]">6,578円</span>
+                      <span className="text-[#8a6a4f]">6,578円</span>
                     </td>
                     <td className="py-3 px-2 text-center text-gray-900">6,980円</td>
                   </tr>
@@ -394,27 +394,27 @@ export default function PitsoleVsSlimupPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="card">
-              <h3 className="text-base font-bold text-[#0ea5e9] mb-3 flex items-center gap-2">
-                <span className="w-6 h-6 bg-sky-100 rounded-full flex items-center justify-center text-xs font-bold">
+              <h3 className="text-base font-bold text-[#8a6a4f] mb-3 flex items-center gap-2">
+                <span className="w-6 h-6 bg-[#f3ece4] rounded-full flex items-center justify-center text-xs font-bold">
                   P
                 </span>
                 ピットソールの技術
               </h3>
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#9679;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9679;</span>
                   BMZ社の世界特許技術「キュボイドバランス理論」を採用
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#9679;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9679;</span>
                   足裏の立方骨（キュボイド）を的確に支え、横アーチ・縦アーチを同時サポート
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#9679;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9679;</span>
                   骨格全体のアライメントに着目し、骨盤の傾きを改善
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#9679;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9679;</span>
                   体幹の安定化により、普段使われにくい筋肉を活性化
                 </li>
               </ul>
@@ -481,7 +481,7 @@ export default function PitsoleVsSlimupPage() {
                   <div
                     className={`text-sm text-center p-2 rounded-lg ${
                       item.winner === "pitsole"
-                        ? "bg-sky-50 text-[#0ea5e9] font-bold"
+                        ? "bg-[#faf7f3] text-[#8a6a4f] font-bold"
                         : "bg-gray-50 text-gray-600"
                     }`}
                   >
@@ -521,29 +521,29 @@ export default function PitsoleVsSlimupPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* ピットソール */}
             <div className="space-y-4">
-              <h3 className="text-base font-bold text-[#0ea5e9]">ピットソール</h3>
+              <h3 className="text-base font-bold text-[#8a6a4f]">ピットソール</h3>
               <div className="card">
                 <h4 className="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
-                  <span className="w-5 h-5 bg-sky-100 rounded-full flex items-center justify-center text-xs text-[#0ea5e9]">
+                  <span className="w-5 h-5 bg-[#f3ece4] rounded-full flex items-center justify-center text-xs text-[#8a6a4f]">
                     &#9675;
                   </span>
                   メリット
                 </h4>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                    <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                     世界特許の技術で信頼性が高い
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                    <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                     累計200万足の販売実績
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                    <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                     楽天ランキング1位獲得
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                    <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                     XS（21cm〜）からの幅広いサイズ展開
                   </li>
                 </ul>
@@ -634,7 +634,7 @@ export default function PitsoleVsSlimupPage() {
             タイプ別おすすめ - あなたに合うのはどっち？
           </h2>
           <div className="space-y-4">
-            <div className="card border-l-4 border-l-[#0ea5e9]">
+            <div className="card border-l-4 border-l-[#8a6a4f]">
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 技術力・実績重視なら → ピットソール
               </h3>
@@ -686,7 +686,7 @@ export default function PitsoleVsSlimupPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="card">
-              <h3 className="text-base font-bold text-[#0ea5e9] mb-4">
+              <h3 className="text-base font-bold text-[#8a6a4f] mb-4">
                 ピットソールの口コミ傾向
               </h3>
               <div className="space-y-3">
@@ -694,15 +694,15 @@ export default function PitsoleVsSlimupPage() {
                   <h4 className="text-sm font-bold text-gray-900 mb-1">良い口コミ</h4>
                   <ul className="space-y-1 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
-                      <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                      <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                       姿勢が改善された・腰痛が軽減した
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                      <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                       普段使えていない筋肉の活性化を実感
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                      <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                       立ち仕事の疲労が軽減した
                     </li>
                   </ul>
@@ -783,7 +783,7 @@ export default function PitsoleVsSlimupPage() {
               良い口コミ・悪い口コミの出典つきの一覧は、商品ごとのページにまとめています：
               <Link href="/slim-up-insole/#bad-reviews" className="text-emerald-600 underline font-bold">スリムアップインソールの口コミ・評判</Link>
               ／
-              <Link href="/pitsole/" className="text-[#0ea5e9] underline font-bold">ピットソールの口コミ・評判</Link>
+              <Link href="/pitsole/" className="text-[#8a6a4f] underline font-bold">ピットソールの口コミ・評判</Link>
             </p>
           </div>
         </div>
@@ -807,15 +807,15 @@ export default function PitsoleVsSlimupPage() {
                 <tbody>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-2 text-gray-600">特許技術・エビデンス</td>
-                    <td className="py-3 px-2 text-center text-[#0ea5e9] font-bold">ピットソール</td>
+                    <td className="py-3 px-2 text-center text-[#8a6a4f] font-bold">ピットソール</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-2 text-gray-600">販売実績・知名度</td>
-                    <td className="py-3 px-2 text-center text-[#0ea5e9] font-bold">ピットソール</td>
+                    <td className="py-3 px-2 text-center text-[#8a6a4f] font-bold">ピットソール</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-2 text-gray-600">単品購入の安さ</td>
-                    <td className="py-3 px-2 text-center text-[#0ea5e9] font-bold">ピットソール</td>
+                    <td className="py-3 px-2 text-center text-[#8a6a4f] font-bold">ピットソール</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-2 text-gray-600">まとめ買いのコスパ</td>
@@ -913,7 +913,7 @@ export default function PitsoleVsSlimupPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link
               href="/pitsole/"
-              className="card block text-center hover:border-[#0ea5e9] transition-colors"
+              className="card block text-center hover:border-[#8a6a4f] transition-colors"
             >
               <p className="text-sm font-bold text-gray-900 mb-1">ピットソール</p>
               <p className="text-xs text-gray-500">口コミ・効果を検証</p>

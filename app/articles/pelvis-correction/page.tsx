@@ -96,15 +96,15 @@ export default function PelvisCorrectionPage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "骨盤矯正インソール" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             骨盤矯正ガイド
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             骨盤矯正
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">インソール</span>の効果を
+            <span className="text-[#8a6a4f]">インソール</span>の効果を
             <br className="md:hidden" />
             科学的に解説
           </h1>
@@ -126,12 +126,12 @@ export default function PelvisCorrectionPage() {
       </div>
 
       <div className="max-w-3xl mx-auto px-4 mt-6">
-        <div className="bg-sky-50 border border-sky-100 rounded-xl p-5">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5">
           <p className="text-sm font-bold text-gray-900 mb-3">インソールでの対策に進む</p>
           <div className="space-y-2">
-          <a href="/articles/flat-feet/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">扁平足とインソール対策</a>
-          <a href="/articles/how-to-choose/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">失敗しないインソールの選び方</a>
-          <a href="/diagnosis/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">30秒診断で自分に合うインソールを探す</a>
+          <a href="/articles/flat-feet/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#6f543c] hover:bg-[#faf7f3] transition-colors">扁平足とインソール対策</a>
+          <a href="/articles/how-to-choose/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#6f543c] hover:bg-[#faf7f3] transition-colors">失敗しないインソールの選び方</a>
+          <a href="/diagnosis/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#6f543c] hover:bg-[#faf7f3] transition-colors">30秒診断で自分に合うインソールを探す</a>
           </div>
         </div>
       </div>
@@ -141,42 +141,42 @@ export default function PelvisCorrectionPage() {
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#what-is" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#what-is" className="hover:text-[#8a6a4f] transition-colors">
                 1. 骨盤の歪みとは？
               </a>
             </li>
             <li>
-              <a href="#cause" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#cause" className="hover:text-[#8a6a4f] transition-colors">
                 2. 骨盤が歪む原因
               </a>
             </li>
             <li>
-              <a href="#mechanism" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#mechanism" className="hover:text-[#8a6a4f] transition-colors">
                 3. インソールで骨盤矯正できる仕組み
               </a>
             </li>
             <li>
-              <a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#how-to-choose" className="hover:text-[#8a6a4f] transition-colors">
                 4. 骨盤矯正インソールの選び方
               </a>
             </li>
             <li>
-              <a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">
                 5. おすすめ骨盤矯正インソール3選
               </a>
             </li>
             <li>
-              <a href="#habits" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#habits" className="hover:text-[#8a6a4f] transition-colors">
                 6. 骨盤矯正の効果を高める習慣
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 7. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 8. まとめ
               </a>
             </li>
@@ -186,7 +186,7 @@ export default function PelvisCorrectionPage() {
 
       {/* 骨盤の歪みとは？ */}
       <section id="what-is" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           骨盤の歪みとは？
         </h2>
 
@@ -197,23 +197,23 @@ export default function PelvisCorrectionPage() {
           「骨盤の歪み」とは、骨盤が<strong>前傾・後傾・左右の傾き・回旋</strong>のいずれかの方向にずれている状態を指します。骨盤自体が変形するわけではなく、周囲の筋肉や靭帯のバランスが崩れることで骨盤の位置が本来のニュートラルポジションからずれてしまうのです。
         </p>
 
-        <div className="bg-sky-50 border border-sky-200 rounded-xl p-5 md:p-6 mb-6">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-6 mb-6">
           <p className="text-sm font-bold text-gray-900 mb-3">骨盤の歪みの主なタイプ</p>
           <ul className="space-y-2 text-sm text-gray-700">
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">1.</span>
+              <span className="text-[#8a6a4f] font-bold mt-0.5">1.</span>
               <span><strong>前傾タイプ</strong> -- 反り腰になり、お腹がぽっこり出やすい。腰痛の原因になりやすい</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">2.</span>
+              <span className="text-[#8a6a4f] font-bold mt-0.5">2.</span>
               <span><strong>後傾タイプ</strong> -- 猫背・フラットバックになり、お尻が垂れやすい。肩こりを招きやすい</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">3.</span>
+              <span className="text-[#8a6a4f] font-bold mt-0.5">3.</span>
               <span><strong>左右傾斜タイプ</strong> -- 片側に重心が偏り、脚長差や腰の片側痛を引き起こす</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">4.</span>
+              <span className="text-[#8a6a4f] font-bold mt-0.5">4.</span>
               <span><strong>回旋タイプ</strong> -- 骨盤がねじれた状態で、歩行時のバランス悪化や膝の痛みにつながる</span>
             </li>
           </ul>
@@ -233,7 +233,7 @@ export default function PelvisCorrectionPage() {
 
       {/* 骨盤が歪む原因 */}
       <section id="cause" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           骨盤が歪む原因
         </h2>
 
@@ -244,7 +244,7 @@ export default function PelvisCorrectionPage() {
         <div className="space-y-4 mb-6">
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">1</span>足裏アーチの崩れ
+              <span className="text-[#8a6a4f] mr-2">1</span>足裏アーチの崩れ
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               身体の土台である足裏のアーチが崩れると、膝が内側に倒れ（ニーイン）、股関節の位置が変わり、骨盤が連動して歪みます。扁平足や開張足の方は骨盤が歪みやすい傾向にあります。人間の身体は「足裏→膝→骨盤→背骨」と下から積み上げる構造のため、土台の崩れが全体に波及するのです。
@@ -252,7 +252,7 @@ export default function PelvisCorrectionPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">2</span>座り姿勢のクセ
+              <span className="text-[#8a6a4f] mr-2">2</span>座り姿勢のクセ
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               脚を組む、片方のお尻に重心を乗せる、浅く座って背もたれに寄りかかるなどの座り方は、骨盤の左右差や前後の傾きを助長します。デスクワーカーは1日8時間以上座っていることも多く、骨盤への影響は非常に大きくなります。
@@ -260,7 +260,7 @@ export default function PelvisCorrectionPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">3</span>筋力バランスの偏り
+              <span className="text-[#8a6a4f] mr-2">3</span>筋力バランスの偏り
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               骨盤周りのインナーマッスル（腸腰筋・骨盤底筋群・腹横筋など）の筋力が低下すると、骨盤を正しい位置に保つ力が弱まります。特に運動不足の方や加齢により筋力が低下している方は、骨盤が不安定になりやすくなります。
@@ -268,7 +268,7 @@ export default function PelvisCorrectionPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">4</span>出産による変化
+              <span className="text-[#8a6a4f] mr-2">4</span>出産による変化
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               妊娠・出産では「リラキシン」というホルモンの影響で骨盤周りの靭帯が緩みます。産後にケアせず放置すると、骨盤が開いたまま固定されてしまうことがあります。産後の骨盤ケアは早めに始めることが重要です。
@@ -276,7 +276,7 @@ export default function PelvisCorrectionPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">5</span>片側重心・カバンの持ち方
+              <span className="text-[#8a6a4f] mr-2">5</span>片側重心・カバンの持ち方
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               いつも同じ肩にバッグをかける、片足に重心を乗せて立つなどの習慣は、左右の筋バランスを崩し骨盤の傾きを引き起こします。日常の何気ないクセが長期間にわたり骨盤を歪ませていきます。
@@ -291,7 +291,7 @@ export default function PelvisCorrectionPage() {
 
       {/* インソールで骨盤矯正できる仕組み */}
       <section id="mechanism" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           インソールで骨盤矯正できる仕組み
         </h2>
 
@@ -301,8 +301,8 @@ export default function PelvisCorrectionPage() {
 
         <div className="grid gap-4 md:grid-cols-3 mb-6">
           <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
-            <div className="w-10 h-10 bg-sky-100 rounded-lg flex items-center justify-center mb-3">
-              <span className="text-[#0ea5e9] font-bold text-lg">1</span>
+            <div className="w-10 h-10 bg-[#f3ece4] rounded-lg flex items-center justify-center mb-3">
+              <span className="text-[#8a6a4f] font-bold text-lg">1</span>
             </div>
             <h3 className="font-bold text-gray-900 text-sm mb-2">足裏アーチの再構築</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
@@ -310,8 +310,8 @@ export default function PelvisCorrectionPage() {
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
-            <div className="w-10 h-10 bg-sky-100 rounded-lg flex items-center justify-center mb-3">
-              <span className="text-[#0ea5e9] font-bold text-lg">2</span>
+            <div className="w-10 h-10 bg-[#f3ece4] rounded-lg flex items-center justify-center mb-3">
+              <span className="text-[#8a6a4f] font-bold text-lg">2</span>
             </div>
             <h3 className="font-bold text-gray-900 text-sm mb-2">下肢アライメントの改善</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
@@ -319,8 +319,8 @@ export default function PelvisCorrectionPage() {
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
-            <div className="w-10 h-10 bg-sky-100 rounded-lg flex items-center justify-center mb-3">
-              <span className="text-[#0ea5e9] font-bold text-lg">3</span>
+            <div className="w-10 h-10 bg-[#f3ece4] rounded-lg flex items-center justify-center mb-3">
+              <span className="text-[#8a6a4f] font-bold text-lg">3</span>
             </div>
             <h3 className="font-bold text-gray-900 text-sm mb-2">骨盤周囲筋の活性化</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
@@ -347,7 +347,7 @@ export default function PelvisCorrectionPage() {
 
       {/* 骨盤矯正インソールの選び方 */}
       <section id="how-to-choose" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           骨盤矯正インソールの選び方
         </h2>
 
@@ -358,7 +358,7 @@ export default function PelvisCorrectionPage() {
         <div className="space-y-4 mb-6">
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">1</span>3点アーチサポート構造
+              <span className="text-[#8a6a4f] mr-2">1</span>3点アーチサポート構造
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               骨盤矯正に最も重要なのが、内側縦アーチ・外側縦アーチ・横アーチの3つを同時にサポートする構造です。1つのアーチだけをサポートしても効果は限定的。3点を適切に支えることで足裏全体のバランスが整い、骨盤への矯正力が生まれます。
@@ -366,7 +366,7 @@ export default function PelvisCorrectionPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">2</span>ヒールカップの深さ
+              <span className="text-[#8a6a4f] mr-2">2</span>ヒールカップの深さ
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               かかとは身体の重心の起点です。深いヒールカップでかかとを包み込むことで足全体の安定性が増し、骨盤矯正効果が高まります。平らなインソールではかかとが横ブレを起こし、アーチサポートの効果も半減してしまいます。
@@ -374,7 +374,7 @@ export default function PelvisCorrectionPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">3</span>特許技術・科学的根拠
+              <span className="text-[#8a6a4f] mr-2">3</span>特許技術・科学的根拠
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               骨盤矯正効果を裏付ける特許技術や臨床データがあるかは重要な判断基準です。特許は第三者機関が技術の新規性・有用性を認めた証拠であり、「なんとなく効きそう」な製品との差が明確に出るポイントです。
@@ -382,7 +382,7 @@ export default function PelvisCorrectionPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">4</span>素材の硬さと耐久性
+              <span className="text-[#8a6a4f] mr-2">4</span>素材の硬さと耐久性
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               骨盤矯正インソールは、ある程度の硬さが必要です。柔らかすぎるクッション素材ではアーチを支える力が不足します。高反発素材や特殊樹脂を使用し、長期間使ってもアーチサポート力が持続する製品を選ぶことをおすすめします。
@@ -390,7 +390,7 @@ export default function PelvisCorrectionPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">5</span>サイズ展開の豊富さ
+              <span className="text-[#8a6a4f] mr-2">5</span>サイズ展開の豊富さ
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               骨盤矯正インソールは足にフィットして初めて効果を発揮します。サイズが合わないと重心がずれ、逆効果になることも。XS〜XLなど細かいサイズ展開がある製品ほど、自分の足に合ったものを選べます。
@@ -401,7 +401,7 @@ export default function PelvisCorrectionPage() {
 
       {/* おすすめ骨盤矯正インソール3選 */}
       <section id="recommend" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           おすすめ骨盤矯正インソール3選
         </h2>
 
@@ -410,8 +410,8 @@ export default function PelvisCorrectionPage() {
         </p>
 
         {/* ピットソール */}
-        <div className="border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 relative">
-          <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">
+        <div className="border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 relative">
+          <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">
             骨盤矯正おすすめ No.1
           </span>
           <h3 className="font-bold text-gray-900 text-base md:text-lg mt-2 mb-3">
@@ -430,7 +430,7 @@ export default function PelvisCorrectionPage() {
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
               <p className="text-xs text-gray-500 mb-1">骨盤矯正おすすめ度</p>
-              <p className="text-[#0ea5e9] font-bold text-lg mb-2">★★★★★</p>
+              <p className="text-[#8a6a4f] font-bold text-lg mb-2">★★★★★</p>
               <p className="text-xs text-gray-500 mb-1">特許技術</p>
               <p className="text-sm font-medium text-gray-900 mb-2">世界特許あり（BMZ社）</p>
               <p className="text-xs text-gray-500 mb-1">価格（税込）</p>
@@ -440,13 +440,13 @@ export default function PelvisCorrectionPage() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/pitsole"
-              className="inline-block bg-[#0ea5e9] text-white text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-sky-600 transition-colors"
+              className="inline-block bg-[#8a6a4f] text-white text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-[#8a6a4f] transition-colors"
             >
               ピットソールの詳細を見る
             </Link>
             <Link
               href="/pitsole/price"
-              className="inline-block border border-[#0ea5e9] text-[#0ea5e9] text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-sky-50 transition-colors"
+              className="inline-block border border-[#8a6a4f] text-[#8a6a4f] text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-[#faf7f3] transition-colors"
             >
               料金プランを確認
             </Link>
@@ -471,7 +471,7 @@ export default function PelvisCorrectionPage() {
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
               <p className="text-xs text-gray-500 mb-1">骨盤矯正おすすめ度</p>
-              <p className="text-[#0ea5e9] font-bold text-lg mb-2">★★★★☆</p>
+              <p className="text-[#8a6a4f] font-bold text-lg mb-2">★★★★☆</p>
               <p className="text-xs text-gray-500 mb-1">特許技術</p>
               <p className="text-sm font-medium text-gray-900 mb-2">なし（独自設計）</p>
               <p className="text-xs text-gray-500 mb-1">価格（税込）</p>
@@ -481,13 +481,13 @@ export default function PelvisCorrectionPage() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/runway-cure-sole"
-              className="inline-block bg-[#0ea5e9] text-white text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-sky-600 transition-colors"
+              className="inline-block bg-[#8a6a4f] text-white text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-[#8a6a4f] transition-colors"
             >
               ランウェイキュアソールの詳細を見る
             </Link>
             <Link
               href="/runway-cure-sole/price"
-              className="inline-block border border-[#0ea5e9] text-[#0ea5e9] text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-sky-50 transition-colors"
+              className="inline-block border border-[#8a6a4f] text-[#8a6a4f] text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-[#faf7f3] transition-colors"
             >
               料金プランを確認
             </Link>
@@ -512,7 +512,7 @@ export default function PelvisCorrectionPage() {
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
               <p className="text-xs text-gray-500 mb-1">骨盤矯正おすすめ度</p>
-              <p className="text-[#0ea5e9] font-bold text-lg mb-2">★★★★☆</p>
+              <p className="text-[#8a6a4f] font-bold text-lg mb-2">★★★★☆</p>
               <p className="text-xs text-gray-500 mb-1">特許技術</p>
               <p className="text-sm font-medium text-gray-900 mb-2">なし（美容整体師監修）</p>
               <p className="text-xs text-gray-500 mb-1">価格（税込）</p>
@@ -522,26 +522,26 @@ export default function PelvisCorrectionPage() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/slim-up-insole"
-              className="inline-block bg-[#0ea5e9] text-white text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-sky-600 transition-colors"
+              className="inline-block bg-[#8a6a4f] text-white text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-[#8a6a4f] transition-colors"
             >
               スリムアップインソールの詳細を見る
             </Link>
             <Link
               href="/slim-up-insole/price"
-              className="inline-block border border-[#0ea5e9] text-[#0ea5e9] text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-sky-50 transition-colors"
+              className="inline-block border border-[#8a6a4f] text-[#8a6a4f] text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-[#faf7f3] transition-colors"
             >
               料金プランを確認
             </Link>
           </div>
         </div>
 
-        <div className="bg-sky-50 border border-sky-200 rounded-xl p-5 text-center">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 text-center">
           <p className="text-sm text-gray-700 mb-3">
             3商品の詳しい比較は総合ランキングをご覧ください
           </p>
           <Link
             href="/ranking"
-            className="inline-block bg-[#0ea5e9] text-white text-sm font-bold px-6 py-3 rounded-lg hover:bg-sky-600 transition-colors"
+            className="inline-block bg-[#8a6a4f] text-white text-sm font-bold px-6 py-3 rounded-lg hover:bg-[#8a6a4f] transition-colors"
           >
             ダイエットインソールおすすめランキングを見る
           </Link>
@@ -550,7 +550,7 @@ export default function PelvisCorrectionPage() {
 
       {/* 骨盤矯正の効果を高める習慣 */}
       <section id="habits" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           骨盤矯正の効果を高める習慣
         </h2>
 
@@ -604,7 +604,7 @@ export default function PelvisCorrectionPage() {
 
       {/* よくある質問（FAQ） */}
       <section id="faq" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           よくある質問（FAQ）
         </h2>
 
@@ -654,7 +654,7 @@ export default function PelvisCorrectionPage() {
 
       {/* まとめ */}
       <section id="summary" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           まとめ
         </h2>
 
@@ -662,27 +662,27 @@ export default function PelvisCorrectionPage() {
           骨盤の歪みは腰痛・冷え・下半身太りなど、さまざまな不調の根本原因となります。この記事では、骨盤の歪みの原因から骨盤矯正インソールの仕組み・選び方・おすすめ商品・効果を高める習慣までを科学的根拠とともに詳しく解説してきました。
         </p>
 
-        <div className="bg-sky-50 border border-sky-200 rounded-xl p-5 md:p-6 mb-6">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-6 mb-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事のポイント</p>
           <ul className="space-y-2 text-sm text-gray-700">
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>骨盤の歪みは前傾・後傾・左右傾斜・回旋の4タイプに分類される</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>足裏アーチの崩れが骨盤の歪みの大きな原因となっている</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>インソールは足元から骨盤を「能動的」に矯正する科学的アプローチ</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>選ぶ際は3点アーチサポート・ヒールカップ・特許技術を重視</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>ストレッチや筋トレとの併用で骨盤矯正効果が大幅にアップ</span>
             </li>
           </ul>
@@ -698,13 +698,13 @@ export default function PelvisCorrectionPage() {
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link
             href="/ranking"
-            className="inline-block bg-[#0ea5e9] text-white text-sm font-bold px-6 py-3 rounded-lg hover:bg-sky-600 transition-colors text-center"
+            className="inline-block bg-[#8a6a4f] text-white text-sm font-bold px-6 py-3 rounded-lg hover:bg-[#8a6a4f] transition-colors text-center"
           >
             インソールおすすめランキングを見る
           </Link>
           <Link
             href="/pitsole"
-            className="inline-block border border-[#0ea5e9] text-[#0ea5e9] text-sm font-bold px-6 py-3 rounded-lg hover:bg-sky-50 transition-colors text-center"
+            className="inline-block border border-[#8a6a4f] text-[#8a6a4f] text-sm font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors text-center"
           >
             ピットソールの詳細を見る
           </Link>

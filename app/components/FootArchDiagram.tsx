@@ -23,13 +23,13 @@ export default function FootArchDiagram() {
 
           {/* 足のアーチ（側面・概念） */}
           <path d="M55,150 Q60,70 120,72 Q230,74 300,74 Q360,74 405,150"
-                fill="#eff6ff" stroke="#0ea5e9" strokeWidth="3" />
+                fill="#eff6ff" stroke="#8a6a4f" strokeWidth="3" />
           {/* 地面 */}
           <line x1="30" y1="165" x2="430" y2="165" stroke="#9ca3af" strokeWidth="2" />
           <text x="30" y="182" fontSize="10" fill="#6b7280">地面</text>
 
           {/* 3つの接地・支持ポイント */}
-          <g fill="#0369a1">
+          <g fill="#6f543c">
             <circle cx="75" cy="150" r="7" />
             <circle cx="230" cy="74" r="7" fill="#e8627c" />
             <circle cx="385" cy="150" r="7" />

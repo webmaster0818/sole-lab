@@ -117,13 +117,13 @@ export default function GolfInsolePage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ゴルフ用インソールおすすめ" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">2026年最新版</p>
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">2026年最新版</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ゴルフ用インソール
             <br className="md:hidden" />
-            おすすめ<span className="text-[#0ea5e9]">5選</span>
+            おすすめ<span className="text-[#8a6a4f]">5選</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             スイングの安定性向上とラウンド中の疲労軽減を両立するインソールを厳選。
@@ -138,13 +138,13 @@ export default function GolfInsolePage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#why" className="hover:text-[#0ea5e9] transition-colors">1. ゴルフにインソールが必要な理由</a></li>
-            <li><a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">2. ゴルフ用インソールの選び方</a></li>
-            <li><a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">3. ゴルフ用インソールおすすめ5選</a></li>
-            <li><a href="#swing" className="hover:text-[#0ea5e9] transition-colors">4. インソールがスイングに与える影響</a></li>
-            <li><a href="#tips" className="hover:text-[#0ea5e9] transition-colors">5. ゴルフでの足の疲れを軽減するコツ</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">6. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">7. まとめ</a></li>
+            <li><a href="#why" className="hover:text-[#8a6a4f] transition-colors">1. ゴルフにインソールが必要な理由</a></li>
+            <li><a href="#how-to-choose" className="hover:text-[#8a6a4f] transition-colors">2. ゴルフ用インソールの選び方</a></li>
+            <li><a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">3. ゴルフ用インソールおすすめ5選</a></li>
+            <li><a href="#swing" className="hover:text-[#8a6a4f] transition-colors">4. インソールがスイングに与える影響</a></li>
+            <li><a href="#tips" className="hover:text-[#8a6a4f] transition-colors">5. ゴルフでの足の疲れを軽減するコツ</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">6. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">7. まとめ</a></li>
           </ol>
         </div>
       </section>
@@ -153,7 +153,7 @@ export default function GolfInsolePage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="why" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ゴルフにインソールが必要な理由
           </h2>
 
@@ -191,7 +191,7 @@ export default function GolfInsolePage() {
 
         {/* Section 2 */}
         <section id="how-to-choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ゴルフ用インソールの選び方
           </h2>
 
@@ -201,7 +201,7 @@ export default function GolfInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">安定性を重視した設計</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -211,7 +211,7 @@ export default function GolfInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">衝撃吸収とクッション性</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -221,7 +221,7 @@ export default function GolfInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">グリップ力（滑り止め）</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -231,7 +231,7 @@ export default function GolfInsolePage() {
 
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">通気性と耐久性</h3>
             </div>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -242,7 +242,7 @@ export default function GolfInsolePage() {
 
         {/* Section 3 */}
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ゴルフ用インソールおすすめ5選
           </h2>
 
@@ -251,18 +251,18 @@ export default function GolfInsolePage() {
           </p>
 
           {/* Product 1 */}
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
               世界特許取得のBMZ社の3点サポート構造が、ゴルフスイング時の足裏安定性を高めます。適度な硬さでアーチを支えつつ、長時間の歩行でも疲れにくいバランスの良い設計です。スイングの再現性を高めたいゴルファーに最適な一枚です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>世界特許の3点サポートでスイング時の安定性が抜群</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>適度な硬さとクッション性のバランスが良い</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>XS〜XLの5サイズ展開でカット調整可能</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界特許の3点サポートでスイング時の安定性が抜群</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>適度な硬さとクッション性のバランスが良い</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>XS〜XLの5サイズ展開でカット調整可能</span></li>
             </ul>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           {/* Product 2 */}
@@ -273,11 +273,11 @@ export default function GolfInsolePage() {
               美容整体師監修のインソールで、正しい重心移動を促す設計がゴルフに適しています。スイング時の体重移動がスムーズになり、パワーの伝達効率が向上します。男女兼用で幅広いサイズに対応しており、ゴルフシューズとの相性も良好です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>正しい重心移動を促しスイングの体重移動がスムーズに</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師監修で全身のバランスを最適化</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>男女兼用で幅広いサイズに対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>正しい重心移動を促しスイングの体重移動がスムーズに</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師監修で全身のバランスを最適化</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>男女兼用で幅広いサイズに対応</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           {/* Product 3 */}
@@ -288,11 +288,11 @@ export default function GolfInsolePage() {
               美姿勢サポート機能がゴルフのアドレス姿勢の改善に貢献します。骨盤周りの筋肉を正しく使えるよう設計されているため、スイング軸の安定とパワーの効率的な伝達をサポート。薄型設計でゴルフシューズの中でも窮屈になりません。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美姿勢サポートでアドレス姿勢が安定</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>骨盤周りの筋肉活性化でスイング軸が安定</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型設計でゴルフシューズとの相性が良い</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートでアドレス姿勢が安定</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>骨盤周りの筋肉活性化でスイング軸が安定</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でゴルフシューズとの相性が良い</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           {/* Product 4 */}
@@ -303,9 +303,9 @@ export default function GolfInsolePage() {
               フランスのインソール専門メーカーが開発したゴルフ専用モデルです。踏ん張り時の安定性を重視した設計で、スイング中の足のブレを最小限に抑えます。3D形状が足裏に密着し、長時間のラウンドでも快適さが持続します。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>ゴルフ専用設計でスイング安定性に特化</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>3D形状で足裏全体に密着</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>インソール専門メーカーの技術力</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>ゴルフ専用設計でスイング安定性に特化</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3D形状で足裏全体に密着</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>インソール専門メーカーの技術力</span></li>
             </ul>
           </div>
 
@@ -317,16 +317,16 @@ export default function GolfInsolePage() {
               カーボンファイバー素材を採用した高性能インソールです。薄型でありながら非常に高い安定性を実現し、スイング時のパワー伝達効率を最大化します。軽量で足への負担が少なく、歩きラウンドでも18ホール快適に過ごせます。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>カーボンファイバーで薄型かつ高安定性</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>軽量でラウンド中の足の負担が少ない</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>パワー伝達効率が高くスイングスピード向上に貢献</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>カーボンファイバーで薄型かつ高安定性</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>軽量でラウンド中の足の負担が少ない</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>パワー伝達効率が高くスイングスピード向上に貢献</span></li>
             </ul>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミを一覧で比較したい方は
-              <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>
+              <Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>
               をご覧ください。
             </p>
           </div>
@@ -334,7 +334,7 @@ export default function GolfInsolePage() {
 
         {/* Section 4 */}
         <section id="swing" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             インソールがスイングに与える影響
           </h2>
 
@@ -375,7 +375,7 @@ export default function GolfInsolePage() {
 
         {/* Section 5 */}
         <section id="tips" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ゴルフでの足の疲れを軽減するコツ
           </h2>
 
@@ -416,7 +416,7 @@ export default function GolfInsolePage() {
 
         {/* Section 6: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -475,7 +475,7 @@ export default function GolfInsolePage() {
 
         {/* Section 7: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -486,9 +486,9 @@ export default function GolfInsolePage() {
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">今回紹介した主要3商品</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートでスイング安定性が抜群。適度な硬さとクッションのバランスが良い。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：正しい重心移動を促し、体重移動がスムーズに。男女兼用。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートでアドレス姿勢を改善。薄型でシューズ内が窮屈にならない。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートでスイング安定性が抜群。適度な硬さとクッションのバランスが良い。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：正しい重心移動を促し、体重移動がスムーズに。男女兼用。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートでアドレス姿勢を改善。薄型でシューズ内が窮屈にならない。</li>
             </ul>
           </div>
 
@@ -497,7 +497,7 @@ export default function GolfInsolePage() {
           </p>
 
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">
               3商品の詳細比較ランキングを見る
             </Link>
           </div>

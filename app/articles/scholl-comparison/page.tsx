@@ -61,7 +61,7 @@ export default function SchollComparisonPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ドクターショールのインソールはどんな人向け？ダイエット目的との使い分けガイド</h1>
@@ -74,18 +74,18 @@ export default function SchollComparisonPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ドクターショールとはどんなブランド？（公式情報まとめ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ドクターショールとはどんなブランド？（公式情報まとめ）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドクターショール（Dr.Scholl）は、1904年に米国の医師ウィリアム・ショールが設立したフットケア＆レッグケアの総合ブランドで、公式サイトでは100ヵ国以上で愛用されていると紹介されています（出典：ドクター・ショール公式サイト、2026年6月参照）。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールの代表シリーズ「ジェルアクティブ（Gel Activ）」は、2層のジェルによるクッション性と、ソフトジェルパッドでかかとへの衝撃を吸収する設計が公式の特徴です。日常向けの「エブリデイ」、立ち仕事向けの「ワーク」、スポーツ向けのラインなど用途別に展開され、ハサミでカットしてサイズ調整できる手軽さも案内されています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">まとめると、ドクターショールの得意領域は「ジェルによるクッション・衝撃吸収」と「フットケア全般の手軽さ」。足の疲れをやわらげる日常ケアの定番ブランドといえます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ドクターショールと比較検討するときの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ドクターショールと比較検討するときの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -94,12 +94,12 @@ export default function SchollComparisonPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ドクターショールと比較検討するときにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ドクターショールと比較検討するときにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ダイエット・ボディメイクを目的にするなら、姿勢・歩行サポートを軸に設計された以下の3製品が当サイトの比較対象です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -116,17 +116,17 @@ export default function SchollComparisonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ドクターショールと当サイト紹介製品の使い分け</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ドクターショールと当サイト紹介製品の使い分け</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドクターショールはジェルクッションによる足の疲れケアを得意とするブランド、当サイトの3製品は姿勢・歩行サポートからのボディメイクが軸で、設計の目的が異なります。立ち仕事用の靴にはクッション系、ウォーキングや通勤でボディメイクを狙う靴にはサポート系と、靴ごとに使い分けるのが現実的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足の痛みやトラブルが続く場合は、どのインソールを使うかにかかわらず、整形外科など医療機関への相談を優先してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

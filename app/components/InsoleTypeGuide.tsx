@@ -21,7 +21,7 @@ export default function InsoleTypeGuide() {
   ];
   return (
     <section className="my-8">
-      <h2 className="text-lg md:text-xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-3">
+      <h2 className="text-lg md:text-xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-3">
         まず知っておきたい｜インソールのタイプ別の選び方
       </h2>
       <p className="text-sm text-gray-600 leading-relaxed mb-4">
@@ -30,7 +30,7 @@ export default function InsoleTypeGuide() {
       <div className="grid gap-3 sm:grid-cols-2">
         {types.map((t) => (
           <div key={t.name} className="rounded-xl border border-gray-200 bg-white p-4">
-            <p className="text-sm font-bold text-[#0369a1] mb-1">{t.name}</p>
+            <p className="text-sm font-bold text-[#6f543c] mb-1">{t.name}</p>
             <p className="text-sm text-gray-700 leading-relaxed">{t.desc}</p>
           </div>
         ))}

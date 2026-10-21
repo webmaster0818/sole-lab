@@ -60,7 +60,7 @@ export default function CommutePage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">通勤ウォーキングに向くインソールの選び方｜毎日の移動を運動習慣に変える</h1>
@@ -73,17 +73,17 @@ export default function CommutePage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">通勤の歩きが「続く運動」になりやすい理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">通勤の歩きが「続く運動」になりやすい理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">新しい運動習慣が続かない一番の理由は、そのための時間と意思決定が毎回必要になることです。その点、通勤は平日ほぼ毎日、決まった時間に必ず発生します。一駅手前で降りる・少し遠回りする・階段を使うといった工夫を組み込めば、新たに時間を確保しなくても歩く量を積み増せます。これは特別なダイエット法ではなく、日常の活動量を底上げするという一般的な考え方です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ただし、通勤の歩きには「靴が選べない」「荷物がある」「歩いた後にそのまま仕事」という制約があります。足が疲れたり痛くなったりすればすぐにやめたくなるため、続けるには足の負担を減らす工夫が重要です。インソールで土踏まずのアーチを支えて着地の衝撃を分散すると、歩く距離を少し増やしても疲れを翌日に持ち越しにくくなり、習慣化の助けになります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">通勤ウォーキングの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">通勤ウォーキングの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function CommutePage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">通勤ウォーキングにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">通勤ウォーキングにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、いずれも日常の歩行をサポートする目的のインソールです。ピットソールはXS〜XL（21〜29cm）対応でカット調整でき、特許取得のアーチサポートで通勤靴に入れっぱなしの運用に向きます。ランウェイキュアソールは靴ではなく足に直接装着するソックス型なので、通勤靴と社内履きを行き来する方でも装着し直す必要がありません。スリムアップインソールはカットできるEVA/PE素材で手に取りやすい価格帯です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function CommutePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">通勤ウォーキングを習慣にするコツと注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">通勤ウォーキングを習慣にするコツと注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">最初から「毎日一駅分歩く」と決めると挫折しやすいので、まずは週2〜3回・10分程度の上乗せから始めるのがおすすめです。歩数計やスマホで歩数を記録すると、増えた分が見えてモチベーションが続きやすくなります。帰りだけ歩く、天気の良い日だけ歩くなど、ハードルは低く設定してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">歩く量を増やした直後に足裏やかかと、すねに痛みが出た場合は、無理に続けず一度ペースを落としてください。痛みが数日たっても引かない場合は、足底腱膜炎などの可能性もあるため整形外科で確認してから再開してください。インソールはあくまで負担を減らす補助であり、痛みを我慢して歩くための道具ではありません。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

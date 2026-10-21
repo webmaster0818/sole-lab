@@ -60,7 +60,7 @@ export default function FootFatiguePage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">足がだるい・疲れやすい人のインソールの選び方｜夕方の重だるさをやわらげる</h1>
@@ -73,17 +73,17 @@ export default function FootFatiguePage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足がだるく疲れやすくなる仕組みとインソールの役割</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">足がだるく疲れやすくなる仕組みとインソールの役割</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">足裏のアーチはバネのように衝撃を吸収・分散する構造です。長時間の立ち仕事や歩行でアーチが疲労して沈み込むと、衝撃を受け流せなくなり、足裏やふくらはぎの筋肉が代わりに働き続けて疲労感・だるさが強まります。扁平足気味の方、硬い床で過ごす時間が長い方はとくにこの悪循環が起きやすいといわれます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールで土踏まずを支えるとアーチのバネの働きが保たれ、筋肉の余計な踏ん張りが減って疲れがたまりにくくなります。インソールは疲労を消すものではなく『疲れにくい足元の環境』をつくる補助です。だるさにむくみや冷えを伴う場合はそれぞれの対策との併用が、長引く・悪化する場合は医療機関への相談が必要です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足のだるさ・疲れの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">足のだるさ・疲れの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function FootFatiguePage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足のだるさ・疲れにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">足のだるさ・疲れにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">アーチサポートとクッション性を両立し、毎日の靴で使い続けやすいインソールが足の疲れ対策に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function FootFatiguePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">疲れをためないセルフケアと相談の目安</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">疲れをためないセルフケアと相談の目安</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールとあわせて、入浴やふくらはぎ・足裏のストレッチ、就寝時に足を少し高くするなどのケアを行うと、その日の疲れを翌日に持ち越しにくくなります。立ち仕事の方は休憩中のかかと上げ運動もおすすめです。むくみが目立つ場合はむくみ対策インソールの記事もあわせてご覧ください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">なお、休んでも回復しないだるさが続く、片足だけ強くだるい・腫れる、しびれや痛みを伴う場合は、血管や神経の病気が隠れていることもあります。自己判断でインソールだけに頼らず、内科や整形外科に相談してください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

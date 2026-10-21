@@ -95,13 +95,13 @@ export default function EffectiveWalkingPage() {
 
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ダイエットインソールの効果的な歩き方" }]} />
 
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">実践ガイド</p>
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">実践ガイド</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ダイエットインソールの
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">効果的な歩き方</span>
+            <span className="text-[#8a6a4f]">効果的な歩き方</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             インソールを入れるだけでは効果は半減。正しい歩き方で消費カロリーを最大化し、
@@ -116,12 +116,12 @@ export default function EffectiveWalkingPage() {
       </div>
 
       <div className="max-w-3xl mx-auto px-4 mt-6">
-        <div className="bg-sky-50 border border-sky-100 rounded-xl p-5">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5">
           <p className="text-sm font-bold text-gray-900 mb-3">インソールでの対策に進む</p>
           <div className="space-y-2">
-          <a href="/articles/walking-insole/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">ウォーキング用インソールの選び方</a>
-          <a href="/diagnosis/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">30秒診断で自分に合うインソールを探す</a>
-          <a href="/articles/how-to-choose/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#0369a1] hover:bg-sky-50 transition-colors">失敗しないインソールの選び方</a>
+          <a href="/articles/walking-insole/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#6f543c] hover:bg-[#faf7f3] transition-colors">ウォーキング用インソールの選び方</a>
+          <a href="/diagnosis/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#6f543c] hover:bg-[#faf7f3] transition-colors">30秒診断で自分に合うインソールを探す</a>
+          <a href="/articles/how-to-choose/" className="block bg-white border border-gray-200 rounded-lg px-4 py-3 text-sm font-medium text-[#6f543c] hover:bg-[#faf7f3] transition-colors">失敗しないインソールの選び方</a>
           </div>
         </div>
       </div>
@@ -130,20 +130,20 @@ export default function EffectiveWalkingPage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
-            <li><a href="#mechanism" className="hover:text-[#0ea5e9] transition-colors">1. ダイエットインソールが痩せるのを助ける仕組み</a></li>
-            <li><a href="#posture" className="hover:text-[#0ea5e9] transition-colors">2. 効果を最大化する正しい歩行姿勢</a></li>
-            <li><a href="#technique" className="hover:text-[#0ea5e9] transition-colors">3. 消費カロリーを上げる歩き方テクニック</a></li>
-            <li><a href="#routine" className="hover:text-[#0ea5e9] transition-colors">4. 日常に取り入れるウォーキングルーティン</a></li>
-            <li><a href="#product" className="hover:text-[#0ea5e9] transition-colors">5. 歩き方別おすすめインソール</a></li>
-            <li><a href="#faq" className="hover:text-[#0ea5e9] transition-colors">6. よくある質問（FAQ）</a></li>
-            <li><a href="#summary" className="hover:text-[#0ea5e9] transition-colors">7. まとめ</a></li>
+            <li><a href="#mechanism" className="hover:text-[#8a6a4f] transition-colors">1. ダイエットインソールが痩せるのを助ける仕組み</a></li>
+            <li><a href="#posture" className="hover:text-[#8a6a4f] transition-colors">2. 効果を最大化する正しい歩行姿勢</a></li>
+            <li><a href="#technique" className="hover:text-[#8a6a4f] transition-colors">3. 消費カロリーを上げる歩き方テクニック</a></li>
+            <li><a href="#routine" className="hover:text-[#8a6a4f] transition-colors">4. 日常に取り入れるウォーキングルーティン</a></li>
+            <li><a href="#product" className="hover:text-[#8a6a4f] transition-colors">5. 歩き方別おすすめインソール</a></li>
+            <li><a href="#faq" className="hover:text-[#8a6a4f] transition-colors">6. よくある質問（FAQ）</a></li>
+            <li><a href="#summary" className="hover:text-[#8a6a4f] transition-colors">7. まとめ</a></li>
           </ol>
         </div>
       </section>
 
       <article className="max-w-4xl mx-auto px-4 pb-16">
         <section id="mechanism" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ダイエットインソールが痩せるのを助ける仕組み</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ダイエットインソールが痩せるのを助ける仕組み</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ダイエットインソールは「入れるだけで痩せる魔法のアイテム」ではありません。正しい姿勢と筋肉の使い方をサポートすることで、歩行時の消費カロリーを向上させるツールです。その仕組みを理解することで、より効果的に活用できるようになります。</p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">足裏アーチの支持による姿勢改善</h3>
@@ -167,7 +167,7 @@ export default function EffectiveWalkingPage() {
         </section>
 
         <section id="posture" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">効果を最大化する正しい歩行姿勢</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">効果を最大化する正しい歩行姿勢</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">インソールの効果を最大限に引き出すための正しい歩行姿勢を解説します。以下のポイントを意識して歩いてください。</p>
 
           <div className="space-y-4">
@@ -195,7 +195,7 @@ export default function EffectiveWalkingPage() {
         </section>
 
         <section id="technique" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">消費カロリーを上げる歩き方テクニック</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">消費カロリーを上げる歩き方テクニック</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">正しい姿勢をベースに、さらに消費カロリーを向上させるテクニックを紹介します。</p>
 
           <div className="space-y-4">
@@ -219,7 +219,7 @@ export default function EffectiveWalkingPage() {
         </section>
 
         <section id="routine" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">日常に取り入れるウォーキングルーティン</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">日常に取り入れるウォーキングルーティン</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">無理なく続けられるウォーキングルーティンの例を紹介します。生活スタイルに合わせてカスタマイズしてください。</p>
 
           <div className="space-y-4">
@@ -243,19 +243,19 @@ export default function EffectiveWalkingPage() {
         </section>
 
         <section id="product" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">歩き方別おすすめインソール</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">歩き方別おすすめインソール</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">歩き方のスタイルに合わせて、最適なインソールを紹介します。</p>
 
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">姿勢改善重視</span>
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">姿勢改善重視</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">世界特許取得の3点サポート構造が、歩行時の姿勢を根本から改善します。足裏のアーチを的確にサポートすることで、かかとから蹴り出しまでの正しい重心移動が自然と身につきます。姿勢の乱れが気になる方、猫背を改善したい方に最適です。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>世界特許の3点サポートで姿勢を根本改善</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>正しい重心移動が自然と身につく</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>累計200万足の実績で信頼性が高い</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界特許の3点サポートで姿勢を根本改善</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>正しい重心移動が自然と身につく</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>累計200万足の実績で信頼性が高い</span></li>
             </ul>
-            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -263,11 +263,11 @@ export default function EffectiveWalkingPage() {
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美姿勢サポートに特化したインソールで、「歩く姿が美しくなる」ことを目指す方に最適です。骨盤周りの筋肉を正しく使えるよう設計されており、歩くたびにヒップアップ効果が期待できます。見た目の美しさとダイエット効果を両立したい方におすすめです。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美姿勢サポートで歩く姿が美しく変わる</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>骨盤周りの筋肉活性化でヒップアップ効果</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>薄型設計でパンプスにも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートで歩く姿が美しく変わる</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>骨盤周りの筋肉活性化でヒップアップ効果</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でパンプスにも対応</span></li>
             </ul>
-            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
@@ -275,23 +275,23 @@ export default function EffectiveWalkingPage() {
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">スリムアップインソール（Slim Up Insole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美容整体師監修で、全身のバランスを整えながら歩くことを目指す方に最適です。正しい重心移動を促す設計により、歩行時に使う筋肉を最適化し、効率的なカロリー消費をサポートします。日常のあらゆる歩行シーンで活躍する万能型です。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>美容整体師監修で全身バランスを最適化</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>正しい重心移動で効率的なカロリー消費</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#0ea5e9] font-bold mt-0.5">+</span><span>男女兼用であらゆるシーンに対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師監修で全身バランスを最適化</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>正しい重心移動で効率的なカロリー消費</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>男女兼用であらゆるシーンに対応</span></li>
             </ul>
-            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
+            <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミを一覧で比較したい方は
-              <Link href="/ranking/" className="text-[#0ea5e9] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。
+              <Link href="/ranking/" className="text-[#8a6a4f] font-bold hover:underline">おすすめランキングページ</Link>をご覧ください。
             </p>
           </div>
         </section>
 
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">ダイエットインソールを入れるだけで痩せますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
@@ -317,22 +317,22 @@ export default function EffectiveWalkingPage() {
         </section>
 
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">まとめ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">まとめ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ダイエットインソールの効果を最大化するには、正しい歩行姿勢と歩き方テクニックの組み合わせが重要です。「姿勢を正す」「歩幅を広げる」「蹴り出しを意識する」の3つを心がけるだけで、日常の歩行が効率的なダイエットタイムに変わります。</p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">今回紹介した3商品</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">ピットソール</Link>：世界特許3点サポートで姿勢改善。正しい重心移動が自然と身につく。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#0ea5e9] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートでヒップアップ効果。見た目も美しく。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">スリムアップインソール</Link>：美容整体師監修。全身バランスを整え効率的なカロリー消費。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：世界特許3点サポートで姿勢改善。正しい重心移動が自然と身につく。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートでヒップアップ効果。見た目も美しく。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：美容整体師監修。全身バランスを整え効率的なカロリー消費。</li>
             </ul>
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ダイエットは継続が最も大切です。インソールで足の疲れを軽減しながら、正しい歩き方を身につけることで、無理なく楽しく痩せる生活習慣を手に入れてください。</p>
 
           <div className="text-center">
-            <Link href="/ranking/" className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
+            <Link href="/ranking/" className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md">3商品の詳細比較ランキングを見る</Link>
           </div>
         </section>
       </article>

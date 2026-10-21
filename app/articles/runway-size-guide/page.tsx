@@ -463,25 +463,25 @@ export default function RunwaySizeGuidePage() {
             </p>
           </div>
 
-          <div className="card bg-blue-50 border-blue-200">
-            <h3 className="text-sm font-bold text-blue-700 mb-3">
+          <div className="card bg-[#faf7f3] border-[#e8ded6]">
+            <h3 className="text-sm font-bold text-[#6f543c] mb-3">
               足のサイズ別・早見メモ
             </h3>
             <ul className="space-y-2 text-sm text-gray-600">
               <li className="flex items-start gap-2">
-                <span className="text-blue-500 shrink-0 mt-0.5">&#10003;</span>
+                <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                 22.5cm未満の方 → ピットソールXS（21〜22.5cm）が候補
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-blue-500 shrink-0 mt-0.5">&#10003;</span>
+                <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                 22.5〜25.0cmの女性 → ランウェイキュアソールの対応範囲
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-blue-500 shrink-0 mt-0.5">&#10003;</span>
+                <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                 25.0cm超の方 → ピットソールM以上、またはスリムアップインソールM（26.5cmまで）が候補
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-blue-500 shrink-0 mt-0.5">&#10003;</span>
+                <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
                 男性 → ランウェイキュアソールはサイズ非対応が多く、ピットソール（最大29cm）が候補
               </li>
             </ul>

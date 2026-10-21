@@ -130,15 +130,15 @@ export default function RunningInsolePage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ランニング用インソールおすすめ" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年最新版
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ランニング用インソール
             <br className="md:hidden" />
-            おすすめ<span className="text-[#0ea5e9]">5選</span>
+            おすすめ<span className="text-[#8a6a4f]">5選</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             ジョギングからマラソンまで、走る人の足を守るインソールを厳選。
@@ -156,37 +156,37 @@ export default function RunningInsolePage() {
           </p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#why" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#why" className="hover:text-[#8a6a4f] transition-colors">
                 1. ランニングにインソールが必要な理由
               </a>
             </li>
             <li>
-              <a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#how-to-choose" className="hover:text-[#8a6a4f] transition-colors">
                 2. ランニング用インソールの選び方4つのポイント
               </a>
             </li>
             <li>
-              <a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">
                 3. ランニング用インソールおすすめ5選
               </a>
             </li>
             <li>
-              <a href="#usage" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#usage" className="hover:text-[#8a6a4f] transition-colors">
                 4. ランニングインソールの正しい使い方
               </a>
             </li>
             <li>
-              <a href="#training" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#training" className="hover:text-[#8a6a4f] transition-colors">
                 5. インソールと組み合わせたいトレーニング
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 6. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 7. まとめ
               </a>
             </li>
@@ -198,7 +198,7 @@ export default function RunningInsolePage() {
       <article className="max-w-4xl mx-auto px-4 pb-16">
         {/* Section 1 */}
         <section id="why" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ランニングにインソールが必要な理由
           </h2>
 
@@ -244,7 +244,7 @@ export default function RunningInsolePage() {
 
         {/* Section 2 */}
         <section id="how-to-choose" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ランニング用インソールの選び方4つのポイント
           </h2>
 
@@ -255,7 +255,7 @@ export default function RunningInsolePage() {
           {/* Point 1 */}
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                 1
               </span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -270,7 +270,7 @@ export default function RunningInsolePage() {
           {/* Point 2 */}
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                 2
               </span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -285,7 +285,7 @@ export default function RunningInsolePage() {
           {/* Point 3 */}
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                 3
               </span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -300,7 +300,7 @@ export default function RunningInsolePage() {
           {/* Point 4 */}
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <div className="flex items-center gap-3 mb-3">
-              <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">
+              <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">
                 4
               </span>
               <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -315,7 +315,7 @@ export default function RunningInsolePage() {
 
         {/* Section 3 */}
         <section id="recommend" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ランニング用インソールおすすめ5選
           </h2>
 
@@ -324,8 +324,8 @@ export default function RunningInsolePage() {
           </p>
 
           {/* Product 1: Pitsole */}
-          <div className="bg-white border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">
+          <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
+            <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">
               おすすめ 1
             </span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">
@@ -336,21 +336,21 @@ export default function RunningInsolePage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>世界特許の3点サポート構造で着地時の安定性が高い</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>XS〜XLの5サイズ展開（21〜29cm対応・公式サイトにて2026年7月確認）</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>まとめ買い割引でランナーのコスト負担を軽減</span>
               </li>
             </ul>
             <Link
               href="/pitsole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               ピットソールの詳細レビューを見る &rarr;
             </Link>
@@ -369,21 +369,21 @@ export default function RunningInsolePage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>姿勢改善機能でランニングフォームが安定</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>薄型設計でシューズ内の快適性を損なわない</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>骨盤周りの筋肉を効率的に使えるよう設計</span>
               </li>
             </ul>
             <Link
               href="/runway-cure-sole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               ランウェイキュアソールの詳細レビューを見る &rarr;
             </Link>
@@ -402,21 +402,21 @@ export default function RunningInsolePage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>美容整体師監修で身体のバランスを最適化</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>正しい重心移動で走行効率とダイエット効果を両立</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>S/Mの2サイズ展開（〜26.5cm）</span>
               </li>
             </ul>
             <Link
               href="/slim-up-insole/"
-              className="inline-block text-sm font-bold text-[#0ea5e9] hover:underline"
+              className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline"
             >
               スリムアップインソールの詳細レビューを見る &rarr;
             </Link>
@@ -435,15 +435,15 @@ export default function RunningInsolePage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>かかとのジェルパッドで着地衝撃を効率的に吸収</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>3D形状で足裏へのフィット感が高い</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>ランニング専門メーカーの知見を凝縮した設計</span>
               </li>
             </ul>
@@ -462,26 +462,26 @@ export default function RunningInsolePage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>深めのヒールカップで足のアライメントを最適化</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>前足部の反発素材で蹴り出し効率を向上</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] font-bold mt-0.5">+</span>
+                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>高い耐久性で長期使用が可能</span>
               </li>
             </ul>
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               3商品の料金・機能・口コミを一覧で比較したい方は
               <Link
                 href="/ranking/"
-                className="text-[#0ea5e9] font-bold hover:underline"
+                className="text-[#8a6a4f] font-bold hover:underline"
               >
                 おすすめランキングページ
               </Link>
@@ -492,7 +492,7 @@ export default function RunningInsolePage() {
 
         {/* Section 4 */}
         <section id="usage" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             ランニングインソールの正しい使い方
           </h2>
 
@@ -534,7 +534,7 @@ export default function RunningInsolePage() {
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 カットタイプのインソールは、少しずつ切り詰めてフィッティングを調整します。最初から大きめにカットし、靴に入れてみて窮屈な部分を少しずつ追加カットするのがコツです。特につま先部分は余裕を持たせ、足指が自由に動く空間を確保してください。詳しいカット方法は
-                <Link href="/articles/size-adjustment/" className="text-[#0ea5e9] hover:underline">サイズ調整方法の記事</Link>
+                <Link href="/articles/size-adjustment/" className="text-[#8a6a4f] hover:underline">サイズ調整方法の記事</Link>
                 で解説しています。
               </p>
             </div>
@@ -543,7 +543,7 @@ export default function RunningInsolePage() {
 
         {/* Section 5 */}
         <section id="training" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             インソールと組み合わせたいトレーニング
           </h2>
 
@@ -592,7 +592,7 @@ export default function RunningInsolePage() {
 
         {/* Section 6: FAQ */}
         <section id="faq" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             よくある質問（FAQ）
           </h2>
 
@@ -661,7 +661,7 @@ export default function RunningInsolePage() {
 
         {/* Section 7: Summary */}
         <section id="summary" className="mb-14">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
             まとめ
           </h2>
 
@@ -681,7 +681,7 @@ export default function RunningInsolePage() {
               <li>
                 <Link
                   href="/pitsole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   ピットソール
                 </Link>
@@ -690,7 +690,7 @@ export default function RunningInsolePage() {
               <li>
                 <Link
                   href="/runway-cure-sole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   ランウェイキュアソール
                 </Link>
@@ -699,7 +699,7 @@ export default function RunningInsolePage() {
               <li>
                 <Link
                   href="/slim-up-insole/"
-                  className="text-[#0ea5e9] font-bold hover:underline"
+                  className="text-[#8a6a4f] font-bold hover:underline"
                 >
                   スリムアップインソール
                 </Link>
@@ -715,7 +715,7 @@ export default function RunningInsolePage() {
           <div className="text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#0ea5e9] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-sky-600 transition-colors shadow-md"
+              className="inline-block bg-[#8a6a4f] text-white font-bold text-sm md:text-base px-8 py-3 rounded-full hover:bg-[#8a6a4f] transition-colors shadow-md"
             >
               3商品の詳細比較ランキングを見る
             </Link>

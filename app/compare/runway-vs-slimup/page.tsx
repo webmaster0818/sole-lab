@@ -812,7 +812,7 @@ export default function RunwayVsSlimupPage() {
             </Link>
           </div>
           <div className="mt-3">
-            <Link href="/ranking/#ruiji" className="text-sm text-[#0ea5e9] underline">
+            <Link href="/ranking/#ruiji" className="text-sm text-[#8a6a4f] underline">
               ランウェイキュアソールの類似品・代わりを探している方はこちら
             </Link>
           </div>
@@ -832,7 +832,7 @@ export default function RunwayVsSlimupPage() {
           <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <Link
               href="/pitsole/"
-              className="inline-flex items-center justify-center px-5 py-3 text-sm font-semibold text-[#0ea5e9] border-2 border-[#0ea5e9] rounded-full hover:bg-sky-50 transition-colors"
+              className="inline-flex items-center justify-center px-5 py-3 text-sm font-semibold text-[#8a6a4f] border-2 border-[#8a6a4f] rounded-full hover:bg-[#faf7f3] transition-colors"
             >
               ピットソールの詳細を見る
             </Link>

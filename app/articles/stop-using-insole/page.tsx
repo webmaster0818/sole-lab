@@ -61,7 +61,7 @@ export default function StopUsingPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">インソールをやめたらどうなる？依存の不安と正しいやめ方</h1>
@@ -74,17 +74,17 @@ export default function StopUsingPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">「インソール依存」は本当に起きるのか</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">「インソール依存」は本当に起きるのか</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「サポートに頼ると足の筋肉がサボって弱くなる」という不安には、一面の理屈があります。体は使わない機能が衰えるのは事実だからです。ただし、日常生活でインソールを使う程度で足の筋力が急激に失われるという話ではありません。むしろアーチが崩れた状態で痛みやかばい歩きが続くほうが、活動量の低下を通じて筋力維持に不利に働くことがあります。インソールで快適に歩ける状態を保ち、歩行量を確保できること自体が、足を使い続けることにつながります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">押さえておきたいのは因果の整理です。インソールは「使っている間、負担を軽減・分散する」道具であり、足の構造や筋力を作り替えるものではありません。だからやめれば、インソールがない状態＝元の足の条件に戻ります。それは「依存で悪化した」のではなく「補助が外れた」だけ。逆に言えば、使っている期間に運動で足を育てておけば、やめたときの状態は始める前より良くなり得ます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">やめたらどうなるの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">やめたらどうなるの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function StopUsingPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">やめたらどうなるにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">やめたらどうなるにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">「支えてもらいながら歩く習慣を作る」が基本戦略。続けやすいインソールを選ぶことをおすすめします。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function StopUsingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">やめたらどうなる？ケース別の見通しと注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">やめたらどうなる？ケース別の見通しと注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">快適性・疲れ対策で使っていた場合、やめると単純に元の負担感に戻ることが多く見られます。「やめたら悪化した」と感じるのは、インソールありの快適さに慣れて元の状態を忘れていたケースがほとんど。一方、扁平足傾向や足底の痛みなど明確な不調があって使い始めた場合、元の原因が解消していなければ症状が戻る可能性は高いといえます。痛みを伴う場合は、やめる・続けるの判断を自己流にせず、整形外科で足の状態を確認してもらうのが安全です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ダイエット目的で使っていた場合も整理は同じです。体重や体型の変化を作るのは歩行量・運動・食事であり、インソールはその歩行を快適にする補助です。やめても、積み上げた運動習慣と筋力は急には失われません。逆にインソールだけに頼って運動していなければ、やめた後に残るものも少なくなります。「インソールをやめられる足を、インソールを使いながら作る」という発想で運動を組み合わせていいてください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

@@ -61,7 +61,7 @@ export default function DonkiPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ドンキのインソールはダイエットに使える？取り扱いと専用品の違い</h1>
@@ -74,17 +74,17 @@ export default function DonkiPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ドンキのインソールの特徴</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ドンキのインソールの特徴</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドン・キホーテは幅広い商品を扱い、インソールも衝撃吸収・消臭・身長アップ系など多彩な汎用品を手頃な価格で展開しています。深夜でもすぐ買える手軽さが魅力です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一方、ダイエットインソールは足元を安定させ姿勢・歩き方を整える専用設計です。ドンキ品は手軽さと種類の豊富さが魅力ですが、ボディメイクを狙うなら専用品のほうが目的に合います。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ドン・キホーテの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ドン・キホーテの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function DonkiPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ドン・キホーテにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ドン・キホーテにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ダイエットや姿勢改善が目的なら、専用設計のインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,23 +115,23 @@ export default function DonkiPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ランウェイキュアソールやピットソールはドンキで売ってる？</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ランウェイキュアソールやピットソールはドンキで売ってる？</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「ランウェイキュアソール ドンキ」「ピットソール ドンキ」と探す方は多いですが、<strong>どちらもドン・キホーテでの取り扱いは確認されていません</strong>。ランウェイキュアソールは公式サイト（FLOReショップ）が中心、ピットソールは公式サイトと正規のAmazon・楽天店舗が主な購入ルートです。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドンキの店頭にもアーチサポートをうたうインソールは並んでいますが、これらは別商品です。セット割引や正規品保証は公式ルート限定のため、確実に正規品が欲しい場合は公式サイトをご利用ください。各製品の詳細は<Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline font-medium">ランウェイキュアソールの口コミ・販売店情報</Link>と<Link href="/pitsole/" className="text-[#e8627c] underline font-medium">ピットソールの口コミ・効果検証</Link>で解説しています。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">目的別の選び方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">目的別の選び方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">すぐに手軽なインソールが欲しいならドンキで十分選べます。姿勢や歩き方を整えてダイエットにつなげたいなら、専用設計の製品を選ぶことをおすすめします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">目的に合うかどうかで選ぶのがポイントです。ダイエット目的なら返金保証のある専用品もご検討ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

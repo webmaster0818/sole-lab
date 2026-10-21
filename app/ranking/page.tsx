@@ -163,15 +163,15 @@ export default function RankingPage() {
       <Breadcrumb items={[{ label: "おすすめランキング" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年7月更新
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ダイエットインソール
             <br className="md:hidden" />
-            おすすめ<span className="text-[#0ea5e9]">ランキング3選</span>
+            おすすめ<span className="text-[#8a6a4f]">ランキング3選</span>
             <br className="md:hidden" />
             を比較！
           </h1>
@@ -214,14 +214,14 @@ export default function RankingPage() {
           <ul className="space-y-1.5 text-xs text-gray-500 border-t border-gray-100 pt-4">
             <li>・価格・スペックは各製品の公式サイト／公式EC店舗の表示を2026年6月に確認した値です（変更される場合があります）。</li>
             <li>・本ページはアフィリエイト広告（PR）を利用していますが、広告報酬の有無や金額が順位・評価に影響することはありません。</li>
-            <li>・インソールは医薬品・医療機器ではなく、痩身・治療効果を保証するものではありません。効果の感じ方には個人差があります（<Link href="/content-policy/" className="text-[#0ea5e9] underline">効果・表現に関する方針</Link>）。</li>
+            <li>・インソールは医薬品・医療機器ではなく、痩身・治療効果を保証するものではありません。効果の感じ方には個人差があります（<Link href="/content-policy/" className="text-[#8a6a4f] underline">効果・表現に関する方針</Link>）。</li>
           </ul>
         </div>
       </section>
 
       {/* 悩み・目的別 早見表（CVR導線） */}
       <section className="max-w-4xl mx-auto px-4 mb-12">
-        <div className="bg-[#f0f9ff] border border-[#bae6fd] rounded-xl p-5 md:p-7">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-7">
           <h2 className="text-base md:text-xl font-bold text-gray-900 mb-2">
             目的・悩み別｜あなたに合うダイエットインソールは？
           </h2>
@@ -229,19 +229,19 @@ export default function RankingPage() {
             重視するポイントから、3製品のうちどれが向いているかをすぐにチェックできます。
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            <Link href="/pitsole/" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-[#0ea5e9] transition-colors group">
-              <p className="text-xs font-bold text-[#0ea5e9] mb-1">効果・実績を重視</p>
-              <p className="text-sm font-bold text-gray-900 group-hover:text-[#0ea5e9]">ピットソール</p>
+            <Link href="/pitsole/" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-[#8a6a4f] transition-colors group">
+              <p className="text-xs font-bold text-[#8a6a4f] mb-1">効果・実績を重視</p>
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#8a6a4f]">ピットソール</p>
               <p className="text-xs text-gray-500 mt-1">特許構造で本格的に取り組みたい人に</p>
             </Link>
-            <Link href="/runway-cure-sole/" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-[#0ea5e9] transition-colors group">
-              <p className="text-xs font-bold text-[#0ea5e9] mb-1">姿勢・バランス重視</p>
-              <p className="text-sm font-bold text-gray-900 group-hover:text-[#0ea5e9]">ランウェイキュアソール</p>
+            <Link href="/runway-cure-sole/" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-[#8a6a4f] transition-colors group">
+              <p className="text-xs font-bold text-[#8a6a4f] mb-1">姿勢・バランス重視</p>
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#8a6a4f]">ランウェイキュアソール</p>
               <p className="text-xs text-gray-500 mt-1">美姿勢サポートを求める人に</p>
             </Link>
-            <Link href="/slim-up-insole/" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-[#0ea5e9] transition-colors group">
-              <p className="text-xs font-bold text-[#0ea5e9] mb-1">価格・コスパ重視</p>
-              <p className="text-sm font-bold text-gray-900 group-hover:text-[#0ea5e9]">スリムアップインソール</p>
+            <Link href="/slim-up-insole/" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-[#8a6a4f] transition-colors group">
+              <p className="text-xs font-bold text-[#8a6a4f] mb-1">価格・コスパ重視</p>
+              <p className="text-sm font-bold text-gray-900 group-hover:text-[#8a6a4f]">スリムアップインソール</p>
               <p className="text-xs text-gray-500 mt-1">まず手頃に試したい人に</p>
             </Link>
           </div>
@@ -249,7 +249,7 @@ export default function RankingPage() {
             ※ 下のランキングで、効果・価格・口コミなど6つの基準の詳しい比較を確認できます。
           </p>
           <div className="mt-4 text-center">
-            <Link href="/diagnosis/" className="inline-flex items-center gap-1 text-sm font-semibold text-[#0ea5e9] hover:underline">
+            <Link href="/diagnosis/" className="inline-flex items-center gap-1 text-sm font-semibold text-[#8a6a4f] hover:underline">
               6つの質問で「あなたに合う1足」を診断する →
             </Link>
           </div>
@@ -262,62 +262,62 @@ export default function RankingPage() {
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#about" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#about" className="hover:text-[#8a6a4f] transition-colors">
                 1. ダイエットインソールとは？本当に効果ある？
               </a>
             </li>
             <li>
-              <a href="#ranking" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#ranking" className="hover:text-[#8a6a4f] transition-colors">
                 2. 【結論】おすすめダイエットインソールBEST3
               </a>
             </li>
             <li>
-              <a href="#reviews" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#reviews" className="hover:text-[#8a6a4f] transition-colors">
                 3. 3商品の口コミ・評判を実数で比較
               </a>
             </li>
             <li>
-              <a href="#comparison" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#comparison" className="hover:text-[#8a6a4f] transition-colors">
                 4. 3商品を6つの基準で比較
               </a>
             </li>
             <li>
-              <a href="#specs" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#specs" className="hover:text-[#8a6a4f] transition-colors">
                 5. 3製品の公式スペック比較（出典を併記）
               </a>
             </li>
             <li>
-              <a href="#type" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#type" className="hover:text-[#8a6a4f] transition-colors">
                 6. タイプ別おすすめはコレ！
               </a>
             </li>
             <li>
-              <a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#how-to-choose" className="hover:text-[#8a6a4f] transition-colors">
                 7. ダイエットインソールの正しい選び方5つのポイント
               </a>
             </li>
             <li>
-              <a href="#maximize" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#maximize" className="hover:text-[#8a6a4f] transition-colors">
                 8. 効果を最大化する使い方
               </a>
             </li>
             <li>
-              <a href="#shihan" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#shihan" className="hover:text-[#8a6a4f] transition-colors">
                 9. 痩せるインソールは市販で買える？販売チャネル比較
               </a>
             </li>
             <li>
-              <a href="#ruiji" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#ruiji" className="hover:text-[#8a6a4f] transition-colors">
                 10. ランウェイキュアソールの類似品・代わりを探している方へ
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 11. よくある質問（FAQ）14選
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 12. まとめ
               </a>
             </li>
@@ -327,7 +327,7 @@ export default function RankingPage() {
 
       {/* Section 1: About Diet Insoles */}
       <section id="about" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           ダイエットインソールとは？本当に効果ある？
         </h2>
 
@@ -345,21 +345,21 @@ export default function RankingPage() {
             </p>
             <ul className="space-y-2 text-sm text-gray-600">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 <span>
                   <strong>体幹の安定化：</strong>
                   骨盤が正しい位置に戻ることで、腹筋・背筋・インナーマッスルが自然に使われるようになる
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 <span>
                   <strong>歩行効率の改善：</strong>
                   正しいフォームでの歩行により、下半身の筋肉がバランスよく使われる
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 <span>
                   <strong>姿勢改善：</strong>
                   猫背やO脚の改善をサポートし、見た目のスタイルアップにつながる
@@ -409,7 +409,7 @@ export default function RankingPage() {
       {/* Section 2: Ranking */}
       <section id="ranking" className="section-primary-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-8 pb-3 border-b-2 border-[#0ea5e9]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-8 pb-3 border-b-2 border-[#8a6a4f]">
             【結論】おすすめダイエットインソールBEST3
           </h2>
 
@@ -417,7 +417,7 @@ export default function RankingPage() {
           <div className="overflow-x-auto mb-10 -mx-4 px-4">
             <table className="w-full bg-white rounded-xl overflow-hidden border border-gray-200 text-sm">
               <thead>
-                <tr className="bg-[#0ea5e9] text-white">
+                <tr className="bg-[#8a6a4f] text-white">
                   <th className="px-3 py-3 text-left font-semibold whitespace-nowrap">
                     項目
                   </th>
@@ -517,13 +517,13 @@ export default function RankingPage() {
             </h3>
             <div className="card">
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="inline-block bg-sky-100 text-[#0ea5e9] text-xs font-semibold px-2.5 py-1 rounded-full">
+                <span className="inline-block bg-[#f3ece4] text-[#8a6a4f] text-xs font-semibold px-2.5 py-1 rounded-full">
                   累計200万足突破
                 </span>
-                <span className="inline-block bg-sky-100 text-[#0ea5e9] text-xs font-semibold px-2.5 py-1 rounded-full">
+                <span className="inline-block bg-[#f3ece4] text-[#8a6a4f] text-xs font-semibold px-2.5 py-1 rounded-full">
                   世界特許取得
                 </span>
-                <span className="inline-block bg-sky-100 text-[#0ea5e9] text-xs font-semibold px-2.5 py-1 rounded-full">
+                <span className="inline-block bg-[#f3ece4] text-[#8a6a4f] text-xs font-semibold px-2.5 py-1 rounded-full">
                   楽天ランキング1位
                 </span>
               </div>
@@ -839,11 +839,11 @@ export default function RankingPage() {
 
       {/* Section 2b: Reviews by numbers (added 2026-09-16) */}
       <section id="reviews" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           3商品の口コミ・評判を実数で比較
         </h2>
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-          当サイトは出典を確認できない口コミを掲載しません（<Link href="/content-policy/" className="text-[#0ea5e9] underline">コンテンツポリシー</Link>）。ここでは、各商品の公式EC店舗（楽天市場）の商品レビュー集計と第三者口コミサイトの評価を、参照日を併記してそのまま掲載します。個別レビューの転載はせず、件数・評価・低評価の傾向のみを示します。
+          当サイトは出典を確認できない口コミを掲載しません（<Link href="/content-policy/" className="text-[#8a6a4f] underline">コンテンツポリシー</Link>）。ここでは、各商品の公式EC店舗（楽天市場）の商品レビュー集計と第三者口コミサイトの評価を、参照日を併記してそのまま掲載します。個別レビューの転載はせず、件数・評価・低評価の傾向のみを示します。
         </p>
         <div className="overflow-x-auto mb-4">
           <table className="w-full min-w-[720px] text-sm border-collapse bg-white">
@@ -862,38 +862,38 @@ export default function RankingPage() {
                 <td className="p-3 border border-gray-200">2足SET 総合3.98（451件）／3足+1足 総合4.11（679件）<span className="block text-xs text-gray-500">BACCHUS ONLINE SHOP・2026年10月14日参照</span></td>
                 <td className="p-3 border border-gray-200">ダイエットカフェ 2.7／5</td>
                 <td className="p-3 border border-gray-200 text-gray-700">「体重の変化は感じられなかった」「価格に見合うか微妙」。姿勢・歩行面の評価は高め</td>
-                <td className="p-3 border border-gray-200"><Link href="/pitsole/" className="text-[#0ea5e9] font-bold hover:underline">悪い口コミの検証</Link></td>
+                <td className="p-3 border border-gray-200"><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">悪い口コミの検証</Link></td>
               </tr>
               <tr>
                 <td className="p-3 border border-gray-200 font-bold text-gray-900">ランウェイキュアソール</td>
                 <td className="p-3 border border-gray-200">総合3.98（865件・★2以下37件）<span className="block text-xs text-gray-500">FLORe公式ショップ 楽天市場店・2026年10月14日参照</span></td>
                 <td className="p-3 border border-gray-200 text-gray-500">確認できる第三者集計なし</td>
                 <td className="p-3 border border-gray-200 text-gray-700">サイズ展開（M/Lのみ）・外反母趾での違和感。姿勢面の変化を挙げる声が中心</td>
-                <td className="p-3 border border-gray-200"><Link href="/runway-cure-sole/#bad-reviews" className="text-[#0ea5e9] font-bold hover:underline">悪い口コミの検証</Link></td>
+                <td className="p-3 border border-gray-200"><Link href="/runway-cure-sole/#bad-reviews" className="text-[#8a6a4f] font-bold hover:underline">悪い口コミの検証</Link></td>
               </tr>
               <tr>
                 <td className="p-3 border border-gray-200 font-bold text-gray-900">スリムアップインソール</td>
                 <td className="p-3 border border-gray-200">単品 総合3.6（5件）<span className="block text-xs text-gray-500">イッティ公式 楽天市場店・2026年10月14日参照</span></td>
                 <td className="p-3 border border-gray-200 text-gray-500">確認できる第三者集計なし</td>
                 <td className="p-3 border border-gray-200 text-gray-700">件数が少なく傾向を断定できる段階ではない</td>
-                <td className="p-3 border border-gray-200"><Link href="/slim-up-insole/" className="text-[#0ea5e9] font-bold hover:underline">口コミの現状</Link></td>
+                <td className="p-3 border border-gray-200"><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">口コミの現状</Link></td>
               </tr>
             </tbody>
           </table>
         </div>
-        <div className="bg-sky-50 border border-sky-200 rounded-xl p-5 text-sm text-gray-700 leading-relaxed">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 text-sm text-gray-700 leading-relaxed">
           <p className="font-bold text-gray-900 mb-2">口コミを読むときの3つの視点</p>
           <ul className="space-y-1.5">
             <li>・<span className="font-bold">出典と件数</span>：公式EC店舗のレビューは件数が多い一方、購入者側に偏ります。第三者サイト（ダイエットカフェ等）は辛口になりやすく、両方を見て中間を取るのが現実的です。</li>
             <li>・<span className="font-bold">何を評価しているか</span>：3商品とも「体重が落ちた」より「姿勢・歩きやすさ」を評価する声が中心です。体重減少を期待した人の低評価が多いのは共通の構造です。</li>
-            <li>・<span className="font-bold">サイズ・靴との相性</span>：低評価の一定数はサイズ選びと靴との相性に由来します。各商品のサイズ表と<Link href="/articles/breaking-in-insole/" className="text-[#0ea5e9] underline">慣れるまでの期間</Link>を先に確認してください。</li>
+            <li>・<span className="font-bold">サイズ・靴との相性</span>：低評価の一定数はサイズ選びと靴との相性に由来します。各商品のサイズ表と<Link href="/articles/breaking-in-insole/" className="text-[#8a6a4f] underline">慣れるまでの期間</Link>を先に確認してください。</li>
           </ul>
         </div>
       </section>
 
       {/* Section 3: Detailed Comparison */}
       <section id="comparison" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-8 pb-3 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-8 pb-3 border-b-2 border-[#8a6a4f]">
           3商品を6つの基準で比較
         </h2>
 
@@ -1106,7 +1106,7 @@ export default function RankingPage() {
             </p>
             <ul className="space-y-2 text-sm text-gray-600 mb-3">
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] mt-0.5 shrink-0 font-bold">
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0 font-bold">
                   1〜2週間
                 </span>
                 <span>
@@ -1114,7 +1114,7 @@ export default function RankingPage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] mt-0.5 shrink-0 font-bold">
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0 font-bold">
                   1〜2ヶ月
                 </span>
                 <span>
@@ -1122,7 +1122,7 @@ export default function RankingPage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#0ea5e9] mt-0.5 shrink-0 font-bold">
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0 font-bold">
                   2〜3ヶ月
                 </span>
                 <span>
@@ -1179,7 +1179,7 @@ export default function RankingPage() {
 
       {/* Section 4: Recommendations by Type */}
       <section id="specs" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           3製品の公式スペック比較（出典を併記）
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
@@ -1262,17 +1262,17 @@ export default function RankingPage() {
 
       <section id="type" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-8 pb-3 border-b-2 border-[#0ea5e9]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-8 pb-3 border-b-2 border-[#8a6a4f]">
             タイプ別おすすめはコレ！
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="card text-center">
-              <div className="h-1.5 rounded-full bg-[#0ea5e9] mb-4" />
+              <div className="h-1.5 rounded-full bg-[#8a6a4f] mb-4" />
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 コスパ重視なら
               </h3>
-              <p className="text-lg font-bold text-[#0ea5e9] mb-3">
+              <p className="text-lg font-bold text-[#8a6a4f] mb-3">
                 ピットソール
               </p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
@@ -1329,13 +1329,13 @@ export default function RankingPage() {
 
       {/* Section 5: How to Choose */}
       <section id="how-to-choose" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           ダイエットインソールの正しい選び方5つのポイント
         </h2>
 
         <div className="space-y-6">
           <div className="flex gap-4">
-            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#0ea5e9] text-white text-sm font-bold shrink-0 mt-0.5">
+            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#8a6a4f] text-white text-sm font-bold shrink-0 mt-0.5">
               1
             </span>
             <div>
@@ -1350,7 +1350,7 @@ export default function RankingPage() {
           </div>
 
           <div className="flex gap-4">
-            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#0ea5e9] text-white text-sm font-bold shrink-0 mt-0.5">
+            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#8a6a4f] text-white text-sm font-bold shrink-0 mt-0.5">
               2
             </span>
             <div>
@@ -1365,7 +1365,7 @@ export default function RankingPage() {
           </div>
 
           <div className="flex gap-4">
-            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#0ea5e9] text-white text-sm font-bold shrink-0 mt-0.5">
+            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#8a6a4f] text-white text-sm font-bold shrink-0 mt-0.5">
               3
             </span>
             <div>
@@ -1380,7 +1380,7 @@ export default function RankingPage() {
           </div>
 
           <div className="flex gap-4">
-            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#0ea5e9] text-white text-sm font-bold shrink-0 mt-0.5">
+            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#8a6a4f] text-white text-sm font-bold shrink-0 mt-0.5">
               4
             </span>
             <div>
@@ -1395,7 +1395,7 @@ export default function RankingPage() {
           </div>
 
           <div className="flex gap-4">
-            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#0ea5e9] text-white text-sm font-bold shrink-0 mt-0.5">
+            <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#8a6a4f] text-white text-sm font-bold shrink-0 mt-0.5">
               5
             </span>
             <div>
@@ -1415,7 +1415,7 @@ export default function RankingPage() {
       {/* Section 6: Maximize Effect */}
       <section id="maximize" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             効果を最大化する使い方
           </h2>
 
@@ -1479,7 +1479,7 @@ export default function RankingPage() {
 
       {/* Section 7: FAQ */}
       <section id="shihan" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           痩せるインソールは市販で買える？販売チャネル比較
         </h2>
 
@@ -1499,10 +1499,10 @@ export default function RankingPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
-              <tr className="bg-sky-50">
+              <tr className="bg-[#faf7f3]">
                 <td className="px-4 py-3 font-medium text-gray-900">公式通販</td>
                 <td className="px-4 py-3 text-gray-600">ピットソール等の専用設計品</td>
-                <td className="px-4 py-3 text-[#0ea5e9] font-bold">◎ 姿勢・歩行サポート設計</td>
+                <td className="px-4 py-3 text-[#8a6a4f] font-bold">◎ 姿勢・歩行サポート設計</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">ドン・キホーテ</td>
@@ -1556,7 +1556,7 @@ export default function RankingPage() {
 
       <section id="ruiji" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             ランウェイキュアソールの類似品・代わりを探している方へ
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-4">
@@ -1567,7 +1567,7 @@ export default function RankingPage() {
             いわゆる「類似品」として比較されるのは、同じ姿勢・歩行サポート設計のダイエットインソールです。
             本記事で比較している3商品では、<strong>ピットソール</strong>と<strong>スリムアップインソール</strong>がその代表で、
             サイズ展開・男女兼用かどうか・価格帯・サポート設計がそれぞれ異なります。
-            どれが合うかは重視するポイント次第なので、まずは<a href="#comparison" className="text-[#0ea5e9] underline">6基準の比較表</a>で違いを確認するのが近道です。
+            どれが合うかは重視するポイント次第なので、まずは<a href="#comparison" className="text-[#8a6a4f] underline">6基準の比較表</a>で違いを確認するのが近道です。
           </p>
           <div className="bg-white border border-gray-200 rounded-xl p-4 mb-4">
             <p className="text-sm text-gray-700 leading-relaxed">
@@ -1593,7 +1593,7 @@ export default function RankingPage() {
       </section>
 
       <section id="faq" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           よくある質問（FAQ）14選
         </h2>
 
@@ -1687,7 +1687,7 @@ export default function RankingPage() {
       {/* Section 8: Summary */}
       <section id="summary" className="section-primary-light py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#0ea5e9]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             まとめ
           </h2>
 

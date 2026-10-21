@@ -60,7 +60,7 @@ export default function ShockVsArchPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">使い方・選び方</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">衝撃吸収型とアーチサポート型インソールの違い｜どっちを選ぶべき？</h1>
@@ -73,17 +73,17 @@ export default function ShockVsArchPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">2つのタイプの仕組みの違い</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">2つのタイプの仕組みの違い</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">衝撃吸収型は、ジェルや低反発フォームなど柔らかい素材を使い、着地時に足裏へ伝わる衝撃エネルギーを素材の変形で受け止めるタイプです。硬い床での立ち仕事やかかとへの突き上げ感には心強い一方、柔らかさは「支える力」とは別物で、アーチの崩れ自体には働きかけません。沈み込みが大きすぎると、かえって足元が不安定になることもあります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチサポート型は、土踏まず（内側縦アーチ）や横アーチを立体形状で下から支え、足裏全体に荷重を分散させるタイプです。足のアーチはバネと衝撃分散の役割を持つため、アーチが機能する状態を保つこと自体が結果的に衝撃対策にもなります。ただし、支えるためにある程度の硬さが必要で、慣れるまで土踏まずに当たる感覚が出る場合があります。現在の機能性インソールの多くは、アーチサポートを軸にクッション素材を組み合わせた複合設計です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">衝撃吸収型とアーチサポート型の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">衝撃吸収型とアーチサポート型の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function ShockVsArchPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">衝撃吸収型とアーチサポート型におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">衝撃吸収型とアーチサポート型におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで扱う3製品はいずれもアーチサポートを軸にした設計で、クッション性とのバランスに個性があります。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function ShockVsArchPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">タイプ選びで失敗しないための注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">タイプ選びで失敗しないための注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチサポート型は、使い始めに土踏まずへの当たりや違和感が出ることがあります。短時間から慣らし、数週間しても痛みが続く場合はサイズやアーチ高が合っていない可能性があるため使用を見直してください。足底の強い痛み・しびれ・明らかな変形がある場合は、市販品のタイプ選び以前に整形外科での診断を優先してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">衝撃吸収型を選ぶ場合も、かかと部分だけのパッドか全面タイプかで靴内の容積への影響が変わります。どちらのタイプでも「靴とのセットで機能する」のがインソールです。普段履く靴に入れた状態（ソックス型は装着した状態）で、かかとの安定感とつま先の余裕を確認してから本格使用に移ってください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

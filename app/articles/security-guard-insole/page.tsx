@@ -60,7 +60,7 @@ export default function SecurityGuardPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">警備員の足の疲れにおすすめのインソール｜長時間の立哨・巡回対策</h1>
@@ -73,7 +73,7 @@ export default function SecurityGuardPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">警備の仕事で足が疲れる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">警備の仕事で足が疲れる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">警備員は、交通誘導や立哨で同じ場所に長時間立ち続けることが多く、足裏への持続的な負担が大きい仕事です。巡回では歩行も加わり、夜勤による拘束時間の長さも疲労を強めます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">立ち続けて足裏のアーチが沈むと衝撃を吸収できず疲れが蓄積します。インソールでアーチを支え、硬い路面やコンクリートからの衝撃を吸収すると、足の疲れをやわらげる補助になります。安全靴を履く場合は薄型を選ぶことをおすすめします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">そもそも長時間の立ち仕事で足が疲れたりむくんだりするのは、いくつかの一般的な原因が重なって起こります。まず、同じ姿勢で立ち続けると足の筋肉がほとんど動かず、ふくらはぎが血液を心臓へ押し戻す「筋ポンプ」が働きにくくなります。すると血液や水分が下半身にたまりやすく、夕方や夜勤明けに足が重い・だるい・むくむと感じやすくなります。</p>
@@ -82,11 +82,11 @@ export default function SecurityGuardPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">警備員の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">警備員の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -95,12 +95,12 @@ export default function SecurityGuardPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">警備員におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">警備員におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">長時間の立哨に耐える衝撃吸収とアーチサポートを備えたインソールが警備員さんに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -117,7 +117,7 @@ export default function SecurityGuardPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">仕事靴での使い方・注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">仕事靴での使い方・注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">仕事靴に入れるときは、まず靴の元の中敷きを取り外し、その上にインソールを重ねるか、入れ替えて使います。安全靴や作業靴は内部が狭いことが多いため、二枚重ねで窮屈になる場合は元の中敷きを外して入れ替えるのがおすすめです。入れたあとは実際に立ったり数歩歩いたりして、つま先が安全カバーに当たらないか、かかとが浮かないかをご確認ください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズが合わずインソールが大きい場合は、ガイド線に沿って先端をカットして調整します。切りすぎると元に戻せないため、少しずつ合わせるのがコツです。前後がずれて足が滑ると感じるときは、いったん抜いて位置を整え直してください。左右の入れ間違いにもご注意ください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">立哨の合間に足踏みやかかと上げをすると、血流が促されて疲れ・むくみがたまりにくくなります。インソールと併用すると効果を感じやすくなります。蒸れ対策として、休憩時に靴を脱いで湿気を逃がしたり、汗をかいたインソールを乾かしたりするのも快適さの維持に役立ちます。</p>
@@ -125,7 +125,7 @@ export default function SecurityGuardPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">立哨と巡回で異なる足への負担</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">立哨と巡回で異なる足への負担</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">同じ警備の仕事でも、立哨と巡回では足への負担の「質」が異なります。自分の勤務がどちらに寄っているかを踏まえると、インソールで重視するポイントを整理しやすくなります。</p>
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">立哨：動かないことによる静的な負担</h3>
@@ -139,18 +139,18 @@ export default function SecurityGuardPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">革靴・安全靴との相性と夜勤明けのケア</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">革靴・安全靴との相性と夜勤明けのケア</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">施設警備などで革靴タイプの制服靴を履く場合は、内部の容積に余裕が少ないため薄型のインソールが基本です。元の中敷きが取り外せる靴なら入れ替え、接着されていて外せない靴なら薄型を上に重ねて、つま先や甲が窮屈にならないかを勤務前に必ず確かめてください。工事現場や施設で安全靴を履く場合は、つま先の先芯部分の空間が限られているため、厚みのあるインソールだと指先が当たりやすくなります。既存の中敷きと同程度の厚みを目安に、立つ・歩く・しゃがむ動作で違和感がないか確認してから勤務に使ってください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">夜勤明けは、長い拘束時間のあいだ足を下げ続けたことで、むくみやだるさが出やすいタイミングです。帰宅後に足を心臓より高くして休む、湯船で温めてからふくらはぎを軽くストレッチする、といったケアを組み合わせると、疲れを翌日に持ち越しにくくなります。汗を含んだインソールは靴から取り出して乾かしておくと、におい対策にもなり次の勤務も快適です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">こうしたケアをしても足の痛みやしびれ、強いむくみが続く場合は、無理をせず整形外科など医療機関にご相談ください。自分の足や勤務スタイルにどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソールタイプ診断</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

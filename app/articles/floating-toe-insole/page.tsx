@@ -60,7 +60,7 @@ export default function FloatingToePage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">浮き指に向くインソールの選び方｜足指が接地する歩きを取り戻す</h1>
@@ -73,17 +73,17 @@ export default function FloatingToePage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">浮き指とは？指が浮くと何が起こるか</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">浮き指とは？指が浮くと何が起こるか</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">浮き指は、立位や歩行時に足指（とくに小指や親指以外の指）が地面に接していない状態です。サイズの合わない靴の中で指を縮めて歩く癖、足指の筋力低下、横アーチの低下、重心がかかと寄りになる姿勢などが背景にあるといわれます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">本来、体重はかかと・親指の付け根・小指の付け根と足指で分担して支えます。指が浮くと支える面が減り、指の付け根とかかとに荷重が集中して、タコや足裏の疲れ、ふらつきの原因になります。インソールでアーチを支えて重心の偏りを整えると、足指が接地して使いやすい状態をつくる補助になります。インソール自体が浮き指を治すわけではないため、足指の運動と組み合わせるのが基本です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">浮き指の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">浮き指の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function FloatingToePage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">浮き指におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">浮き指におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">アーチを支えつつ前足部が薄く、足指の動きを妨げないインソールが浮き指対策に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,17 +114,17 @@ export default function FloatingToePage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">足指の運動と靴の見直しをセットで</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">足指の運動と靴の見直しをセットで</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは足指が使いやすい環境を整える補助です。あわせて、足指のグーパー運動やタオルギャザー（タオルを指でたぐり寄せる運動）で足指の筋力を取り戻すと効果的です。サイズの大きすぎる靴・脱げやすいサンダルは指を縮める癖の原因になるため見直してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">浮き指は巻き爪・タコ・外反母趾などのトラブルや、子供では姿勢・運動能力との関連も指摘されています。痛みや変形が出ている場合、子供の足で気になる場合は、整形外科や足の専門外来に相談してください。インソールは治療ではなく予防・負担軽減の手段です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

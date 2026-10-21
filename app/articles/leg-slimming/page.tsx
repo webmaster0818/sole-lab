@@ -95,7 +95,7 @@ const recommendedProducts = [
     ],
     price: "1,771円〜/月",
     href: "/pitsole/",
-    accent: "#0ea5e9",
+    accent: "#8a6a4f",
   },
   {
     rank: 2,
@@ -197,15 +197,15 @@ export default function LegSlimmingArticlePage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "脚痩せインソール" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#0ea5e9] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             お悩み別ガイド
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             脚痩せしたい人の
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">インソール選び</span>
+            <span className="text-[#8a6a4f]">インソール選び</span>
             ガイド
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
@@ -214,13 +214,13 @@ export default function LegSlimmingArticlePage() {
             この記事では、インソールで脚痩せを目指す方法を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               脚痩せ
             </span>
-            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               下半身痩せ
             </span>
-            <span className="bg-sky-100 text-[#0ea5e9] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               むくみ改善
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -232,7 +232,7 @@ export default function LegSlimmingArticlePage() {
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>脚痩せにインソールが効果的な理由は、足裏アーチを正しくサポートすることで歩行時の筋肉の使い方が変わり、普段使われていない脚の筋肉が活性化されるためです。ただし、インソール単体での即効的な脚痩せは期待できず、正しい歩行習慣との併用が必要です。</p>
         </div>
@@ -250,7 +250,7 @@ export default function LegSlimmingArticlePage() {
                 <li>
                   <a
                     href="#cause"
-                    className="text-[#0ea5e9] hover:underline"
+                    className="text-[#8a6a4f] hover:underline"
                   >
                     1. 脚が太くなる原因とインソールの関係
                   </a>
@@ -258,7 +258,7 @@ export default function LegSlimmingArticlePage() {
                 <li>
                   <a
                     href="#mechanism"
-                    className="text-[#0ea5e9] hover:underline"
+                    className="text-[#8a6a4f] hover:underline"
                   >
                     2. インソールで脚痩せできる仕組み
                   </a>
@@ -266,7 +266,7 @@ export default function LegSlimmingArticlePage() {
                 <li>
                   <a
                     href="#how-to-choose"
-                    className="text-[#0ea5e9] hover:underline"
+                    className="text-[#8a6a4f] hover:underline"
                   >
                     3. 脚痩せ向けインソールの選び方
                   </a>
@@ -274,7 +274,7 @@ export default function LegSlimmingArticlePage() {
                 <li>
                   <a
                     href="#recommended"
-                    className="text-[#0ea5e9] hover:underline"
+                    className="text-[#8a6a4f] hover:underline"
                   >
                     4. 脚痩せにおすすめのインソール3選
                   </a>
@@ -282,20 +282,20 @@ export default function LegSlimmingArticlePage() {
                 <li>
                   <a
                     href="#habits"
-                    className="text-[#0ea5e9] hover:underline"
+                    className="text-[#8a6a4f] hover:underline"
                   >
                     5. インソールと合わせたい脚痩せ習慣
                   </a>
                 </li>
                 <li>
-                  <a href="#faq" className="text-[#0ea5e9] hover:underline">
+                  <a href="#faq" className="text-[#8a6a4f] hover:underline">
                     6. よくある質問（FAQ）
                   </a>
                 </li>
                 <li>
                   <a
                     href="#summary"
-                    className="text-[#0ea5e9] hover:underline"
+                    className="text-[#8a6a4f] hover:underline"
                   >
                     7. まとめ
                   </a>
@@ -380,7 +380,7 @@ export default function LegSlimmingArticlePage() {
             <div className="space-y-4">
               <div className="card">
                 <div className="flex items-start gap-4">
-                  <span className="flex-shrink-0 w-10 h-10 bg-sky-100 text-[#0ea5e9] rounded-full flex items-center justify-center font-bold text-lg">
+                  <span className="flex-shrink-0 w-10 h-10 bg-[#f3ece4] text-[#8a6a4f] rounded-full flex items-center justify-center font-bold text-lg">
                     1
                   </span>
                   <div>
@@ -396,7 +396,7 @@ export default function LegSlimmingArticlePage() {
 
               <div className="card">
                 <div className="flex items-start gap-4">
-                  <span className="flex-shrink-0 w-10 h-10 bg-sky-100 text-[#0ea5e9] rounded-full flex items-center justify-center font-bold text-lg">
+                  <span className="flex-shrink-0 w-10 h-10 bg-[#f3ece4] text-[#8a6a4f] rounded-full flex items-center justify-center font-bold text-lg">
                     2
                   </span>
                   <div>
@@ -412,7 +412,7 @@ export default function LegSlimmingArticlePage() {
 
               <div className="card">
                 <div className="flex items-start gap-4">
-                  <span className="flex-shrink-0 w-10 h-10 bg-sky-100 text-[#0ea5e9] rounded-full flex items-center justify-center font-bold text-lg">
+                  <span className="flex-shrink-0 w-10 h-10 bg-[#f3ece4] text-[#8a6a4f] rounded-full flex items-center justify-center font-bold text-lg">
                     3
                   </span>
                   <div>
@@ -428,7 +428,7 @@ export default function LegSlimmingArticlePage() {
 
               <div className="card">
                 <div className="flex items-start gap-4">
-                  <span className="flex-shrink-0 w-10 h-10 bg-sky-100 text-[#0ea5e9] rounded-full flex items-center justify-center font-bold text-lg">
+                  <span className="flex-shrink-0 w-10 h-10 bg-[#f3ece4] text-[#8a6a4f] rounded-full flex items-center justify-center font-bold text-lg">
                     4
                   </span>
                   <div>
@@ -465,7 +465,7 @@ export default function LegSlimmingArticlePage() {
             </p>
 
             <div className="space-y-4">
-              <div className="card border-l-4 border-l-[#0ea5e9]">
+              <div className="card border-l-4 border-l-[#8a6a4f]">
                 <h3 className="text-base font-bold text-gray-900 mb-2">
                   1. 足裏アーチのサポート力
                 </h3>
@@ -474,7 +474,7 @@ export default function LegSlimmingArticlePage() {
                 </p>
               </div>
 
-              <div className="card border-l-4 border-l-[#0ea5e9]">
+              <div className="card border-l-4 border-l-[#8a6a4f]">
                 <h3 className="text-base font-bold text-gray-900 mb-2">
                   2. 骨盤サポート機能
                 </h3>
@@ -483,7 +483,7 @@ export default function LegSlimmingArticlePage() {
                 </p>
               </div>
 
-              <div className="card border-l-4 border-l-[#0ea5e9]">
+              <div className="card border-l-4 border-l-[#8a6a4f]">
                 <h3 className="text-base font-bold text-gray-900 mb-2">
                   3. 使用シーンとの相性
                 </h3>
@@ -492,7 +492,7 @@ export default function LegSlimmingArticlePage() {
                 </p>
               </div>
 
-              <div className="card border-l-4 border-l-[#0ea5e9]">
+              <div className="card border-l-4 border-l-[#8a6a4f]">
                 <h3 className="text-base font-bold text-gray-900 mb-2">
                   4. サイズ調整のしやすさ
                 </h3>
@@ -501,7 +501,7 @@ export default function LegSlimmingArticlePage() {
                 </p>
               </div>
 
-              <div className="card border-l-4 border-l-[#0ea5e9]">
+              <div className="card border-l-4 border-l-[#8a6a4f]">
                 <h3 className="text-base font-bold text-gray-900 mb-2">
                   5. コストパフォーマンス
                 </h3>
@@ -509,7 +509,7 @@ export default function LegSlimmingArticlePage() {
                   インソールの耐久性は一般的に3〜6ヶ月です。月額に換算して無理のない価格帯の商品を選ぶことをおすすめします。まとめ買い割引がある商品は長期的にお得です。
                   <Link
                     href="/ranking/"
-                    className="text-[#0ea5e9] hover:underline ml-1"
+                    className="text-[#8a6a4f] hover:underline ml-1"
                   >
                     価格比較はランキングページ
                   </Link>
@@ -546,7 +546,7 @@ export default function LegSlimmingArticlePage() {
                   <h3 className="text-lg font-bold text-gray-900">
                     {product.name}
                   </h3>
-                  <span className="text-sm font-semibold text-[#0ea5e9] ml-auto">
+                  <span className="text-sm font-semibold text-[#8a6a4f] ml-auto">
                     {product.price}
                   </span>
                 </div>
@@ -559,7 +559,7 @@ export default function LegSlimmingArticlePage() {
                       key={point}
                       className="flex items-start gap-2 text-sm text-gray-600"
                     >
-                      <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                      <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                         &#10003;
                       </span>
                       {point}
@@ -612,8 +612,8 @@ export default function LegSlimmingArticlePage() {
             ))}
           </div>
 
-          <div className="bg-sky-50 border border-sky-200 rounded-lg p-4 mt-6">
-            <p className="text-sm text-sky-800 leading-relaxed">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4 mt-6">
+            <p className="text-sm text-[#6f543c] leading-relaxed">
               <strong>ポイント：</strong>
               インソールで歩行姿勢を整えながら、上記の習慣を2〜3つ組み合わせることで、より早く脚のラインの変化を実感できます。無理のない範囲で続けることが最も大切です。
             </p>
@@ -678,31 +678,31 @@ export default function LegSlimmingArticlePage() {
               </h3>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2 text-sm text-gray-600">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   脚太りの原因は筋肉のアンバランス・むくみ・骨盤の歪みが複合的に絡む
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   インソールは足裏から骨格を整え、正しい筋肉の使い方を促す
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   選び方はアーチサポート力・骨盤サポート・使用シーンの3つが重要
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   ストレッチやウォーキングとの併用で効果を最大化
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
-                  <span className="text-[#0ea5e9] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
                   2〜3ヶ月の継続使用が脚痩せ実感の目安

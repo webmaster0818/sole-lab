@@ -61,7 +61,7 @@ export default function ZamstComparisonPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ザムストのインソールはどんな人向け？ダイエット目的との使い分けガイド</h1>
@@ -74,18 +74,18 @@ export default function ZamstComparisonPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ザムスト Footcraftとはどんなインソール？（公式情報まとめ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ザムスト Footcraftとはどんなインソール？（公式情報まとめ）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ザムスト（ZAMST）は、医療分野の知見をスポーツに応用する日本シグマックス株式会社のスポーツサポートブランドです（出典：ザムスト公式オンラインショップ、2026年6月参照）。機能性インソール「Footcraft」シリーズは2017年に登場し、サポーターで培った知見を足元のサポートに展開しています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">公式サイトによると、Footcraftは足の「ウィンドラスメカニズム」に着目し、足のアーチが強い状態をサポートする設計が特徴です。硬さと面積の異なる3層のパーツを組み合わせた特許構造で、安定性としなやかなサポートの両立をうたっています。アーチの高さに合わせてLOW・MIDDLE・HIGHの3タイプから選べる点も特徴的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ラインナップはスポーツ全般向けのSTANDARD、衝撃吸収を重視したCUSHION+、サッカー向けFOOTBALL STYLE、バスケ・バレー・テニス等向けAGILITY GRIP、ゴルフ向けなど競技別に展開されています。得意領域は「スポーツ時のアーチサポート・競技別設計」です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ザムストと比較検討するときの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ザムストと比較検討するときの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -94,12 +94,12 @@ export default function ZamstComparisonPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ザムストと比較検討するときにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ザムストと比較検討するときにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">日常の歩行でボディメイクを狙うなら、姿勢・歩行サポートを軸に設計された以下の3製品が当サイトの比較対象です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -116,17 +116,17 @@ export default function ZamstComparisonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ザムストと当サイト紹介製品の使い分け</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ザムストと当サイト紹介製品の使い分け</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ザムストFootcraftはスポーツシーンの足のサポートを目的とした設計、当サイトの3製品は日常の歩行・姿勢からのボディメイクを軸にした設計で、想定シーンが異なります。競技用シューズにはスポーツ向け、毎日の靴にはボディメイク向けと、シーンごとに使い分けるのが現実的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">中高生の部活など成長期のスポーツでは、痛みや違和感がある場合にインソールだけで対処せず、指導者や医療機関に相談することも大切です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

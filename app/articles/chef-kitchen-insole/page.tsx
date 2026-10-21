@@ -61,7 +61,7 @@ export default function ChefKitchenPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">用途・シーン別</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">調理師・厨房スタッフにおすすめのインソール｜コックシューズの疲れ対策</h1>
@@ -74,17 +74,17 @@ export default function ChefKitchenPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厨房の立ち仕事で足が疲れる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">厨房の立ち仕事で足が疲れる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">厨房の床はコンクリートやタイルなど非常に硬く、さらに水や油に対応するためコックシューズは防水性・耐滑性を最優先に作られています。そのぶんクッション性やアーチサポートは控えめなものが多く、長時間の立ち仕事の衝撃が足裏に直接たまりやすいのです。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">また、調理中はコンロや調理台の前など狭い範囲で立ち続けるため、足を大きく動かす機会が少なく、血流が滞ってむくみやだるさも出やすくなります。火や熱気で靴の中が蒸れやすいのも厨房特有の悩みです。インソールでアーチを支えて衝撃を吸収しつつ、蒸れ・衛生面にも配慮した選び方をしてください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">調理師・厨房スタッフの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">調理師・厨房スタッフの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function ChefKitchenPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">調理師・厨房スタッフにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">調理師・厨房スタッフにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">硬く濡れた床での立ちっぱなしには、衝撃吸収とアーチサポートを両立したインソールが向いています。カットで調整できるピットソール・スリムアップ（スリムアップは抗菌防臭加工）はコックシューズにも合わせやすく、ソックス型のランウェイキュアソール（M/L・22.5〜25cmの女性向け）は中敷きを外せない靴でも使えます。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function ChefKitchenPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">厨房での使い方と衛生面の注意</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">厨房での使い方と衛生面の注意</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">コックシューズに入れる場合は、つま先や甲まわりが窮屈にならないか確認し、サイズが合わなければカットして調整してください。厨房は水気が多いため、勤務後はインソールを取り出して乾かすと衛生的に長持ちします。製品ごとのお手入れ方法に従ってケアしてください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">営業の合間には足踏みやかかと上げで血流を促すと、むくみ・だるさがたまりにくくなります。それでも足裏やかかとの痛みが何週間も続く場合は、足底腱膜炎などの可能性があるため整形外科でご相談ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

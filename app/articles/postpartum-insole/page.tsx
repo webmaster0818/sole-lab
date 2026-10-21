@@ -650,15 +650,15 @@ export default function PostpartumInsolePage() {
           </p>
           <ul className="space-y-3 text-gray-700 mb-4">
             <li className="flex items-start">
-              <span className="text-blue-500 mr-2 mt-1 flex-shrink-0">●</span>
+              <span className="text-[#8a6a4f] mr-2 mt-1 flex-shrink-0">●</span>
               <span><strong>スニーカー＋インソールが最も安全な組み合わせ：</strong>足全体をしっかり支えられるスニーカーにインソールを入れることで、産後の不安定な足をサポートします。</span>
             </li>
             <li className="flex items-start">
-              <span className="text-blue-500 mr-2 mt-1 flex-shrink-0">●</span>
+              <span className="text-[#8a6a4f] mr-2 mt-1 flex-shrink-0">●</span>
               <span><strong>ヒールのある靴は産後3〜6ヶ月は避けるのが無難：</strong>靭帯が緩んだ状態でヒールを履くと、足首の捻挫や膝への負担が増加するリスクがあります。</span>
             </li>
             <li className="flex items-start">
-              <span className="text-blue-500 mr-2 mt-1 flex-shrink-0">●</span>
+              <span className="text-[#8a6a4f] mr-2 mt-1 flex-shrink-0">●</span>
               <span><strong>骨盤ベルトとインソールの併用で相乗効果：</strong>骨盤ベルトで上半身の安定を、インソールで下半身の安定をサポートすることで、全身のバランス改善が期待できます。</span>
             </li>
           </ul>

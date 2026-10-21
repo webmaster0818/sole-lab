@@ -170,7 +170,7 @@ export default function BunionInsolePage() {
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>外反母趾にインソールは有効ですが、進行度により効果が異なります。HV角35°未満（軽度〜中度）では58.3%に痛みの軽減効果が報告されていますが、35°以上（重度）では18.8%にとどまります。早期からのインソール使用が重要です。</p>
         </div>
@@ -730,7 +730,7 @@ export default function BunionInsolePage() {
               <p className="text-gray-700 text-sm">医療機関でのオーダーメイドインソールを推奨します。市販品では十分な矯正力が得られない場合があります。</p>
             </div>
           </div>
-          <p className="text-gray-600 text-sm bg-blue-50 p-3 rounded-lg">
+          <p className="text-gray-600 text-sm bg-[#faf7f3] p-3 rounded-lg">
             「ゲル素材のクロスラインが親指を広げ、摩擦と痛みを軽減する」タイプのインソールが外反母趾には特に効果的です。
           </p>
         </div>

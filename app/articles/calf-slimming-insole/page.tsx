@@ -60,7 +60,7 @@ export default function CalfSlimmingPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">ふくらはぎ痩せにインソールは効く？むくみと歩き方から考える方法</h1>
@@ -73,36 +73,36 @@ export default function CalfSlimmingPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ふくらはぎが張る・むくむ原因とインソール</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ふくらはぎが張る・むくむ原因とインソール</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ふくらはぎの張りやむくみは、長時間の立ち仕事やデスクワークで血流が滞ること、つま先重心や蹴り出し不足の歩き方でふくらはぎに余計な力が入ることなどが関係します。ふくらはぎは『第二の心臓』とも呼ばれ、歩行時の筋ポンプで血液を心臓に戻す役割があります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">姿勢や歩き方のクセは、ふくらはぎへの負担と関係すると一般的に言われます。たとえば猫背で重心が前に偏ると、バランスを取るためにふくらはぎが常に緊張しやすくなります。反対に、骨盤が立って体重がかかと寄りに乗ると、歩くたびにふくらはぎが伸び縮みしてポンプ作用が働きやすい、と説明されることが多く見られます。むくみは血液やリンパの流れの滞りが一因とされ、同じ姿勢を長く続けることや運動不足が背景にあると考えられています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチを支えるインソールで足元を安定させ、かかとから着地して蹴り出す歩き方を促すと、ふくらはぎの筋ポンプが働きやすくなり、血流が促されてむくみの軽減を助けます。張りの原因となる不自然な力みもやわらぎます。ただしインソールは歩行や姿勢のサポートを期待するものであり、履くだけでふくらはぎが細くなったり痩せたりするわけではありません。感じ方には個人差があり、食事や運動など生活習慣の見直しと併せて取り組むことが前提です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">重心・歩き方を整えるという考え方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">重心・歩き方を整えるという考え方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールに期待できるのは「ふくらはぎを直接細くすること」ではなく、「足元を整えて、ふくらはぎが働きやすい歩き方を後押しすること」です。土踏まずのアーチが崩れて足が内側に倒れ込むと、重心が偏って一部の筋肉だけに負担が集中しがちになります。アーチサポートで足裏全体に体重を分散させると、左右のバランスや体重移動が安定し、結果として歩行リズムが整いやすくなる、という考え方です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">歩行リズムが整うと、かかと着地から足裏全体、つま先での蹴り出しという一連の動きが自然に行いやすくなります。この蹴り出しの動作がふくらはぎの筋ポンプを使うきっかけになるため、インソールはあくまで「正しく歩くためのきっかけづくり」として捉えるのが現実的です。インソールを入れたからといって意識せず歩けば効果は限られます。足元のサポートと歩き方の意識は、セットで考えることが大切です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">日常の歩行習慣と組み合わせる</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">日常の歩行習慣と組み合わせる</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ふくらはぎのケアは継続が前提です。インソールを使うこと自体が目的ではなく、毎日の歩行量や生活習慣と組み合わせて初めて意味を持ちます。エレベーターより階段を選ぶ、一駅分歩く、通勤や買い物のついでに歩幅を少し広げて歩く——こうした小さな積み重ねが、ふくらはぎを動かす機会を増やします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">デスクワークや立ち仕事で同じ姿勢が続くときは、合間にかかとの上げ下げや足踏みを取り入れると、ふくらはぎのポンプを意識的に働かせられます。入浴やストレッチで脚をほぐす、水分や塩分のとり方に気を配る、睡眠をしっかりとるといった生活面の工夫も、むくみのケアでは欠かせません。インソールはこうした習慣を支える一要素として位置づけ、過度な期待をせずコツコツ続けることがポイントです。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">使う前に知っておきたい注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">使う前に知っておきたい注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールはふくらはぎを細くする医療機器や痩身グッズではありません。「履くだけで細くなる」「短期間で脚痩せできる」といった表現を見かけても、鵜呑みにせず冷静に判断してください。実感には個人差が大きく、合う・合わないも人それぞれです。むくみが長く続く、左右差が強い、痛みやしびれを伴うといった場合は、別の原因が隠れていることもあるため、自己判断せず医療機関に相談してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズが合わないインソールは、かえって歩きにくさや痛みの原因になります。最初は短時間から試し、違和感が強いときは無理に使い続けないことが大切です。特定の店舗や通販で見かける商品の価格やセット内容は変わることがあるため、購入前に必ず店頭や公式サイトで最新の情報をご確認ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ふくらはぎ痩せの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ふくらはぎ痩せの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -111,12 +111,12 @@ export default function CalfSlimmingPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ふくらはぎ痩せにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ふくらはぎ痩せにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">歩行を整えてふくらはぎの筋ポンプを促す、アーチサポートのあるインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -133,17 +133,17 @@ export default function CalfSlimmingPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ふくらはぎケアの使い方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ふくらはぎケアの使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、かかと着地→足裏全体→つま先で蹴り出す歩き方を意識すると、ふくらはぎのポンプが働きやすくなります。こまめに歩く習慣も効果的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">むくみが強い方は、着圧ソックスやふくらはぎのストレッチ、長時間同じ姿勢を避けることもあわせて行ってください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

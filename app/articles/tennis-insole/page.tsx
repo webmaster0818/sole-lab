@@ -60,7 +60,7 @@ export default function TennisPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">テニスのインソールの選び方｜横の動き・急停止の安定性アップ</h1>
@@ -73,17 +73,17 @@ export default function TennisPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">テニスで足に負担がかかる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">テニスで足に負担がかかる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">テニスは左右へのサイドステップ、急停止、ダッシュ、ジャンプが連続し、足が横方向に大きくブレやすい競技です。コートの硬さも加わり、足首・膝・足裏への衝撃と捻れの負担が蓄積します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールでかかとを安定させて横ブレを抑え、衝撃を吸収すると、急な切り返しでも踏ん張りやすく、足首の捻挫などのリスクを減らす補助になります。アーチサポートは素早いステップの力の伝達も助けます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">テニスの選び方のポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">テニスの選び方のポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -92,12 +92,12 @@ export default function TennisPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">テニスにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">テニスにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">後足部の安定と衝撃吸収を両立したインソールがテニスに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -114,13 +114,13 @@ export default function TennisPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">テニスシューズでの使い方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">テニスシューズでの使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">テニスシューズに入れる際は、元の中敷きと入れ替えてフィットを保ってください。横ブレが気になる場合は、足首まわりのトレーニングも併用すると安定します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ハードコートなど硬い面でのプレーが多い方は、クッション性を重視すると関節への負担を抑えられます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">コート面別（ハード・クレー・オムニ）の負担の違いと選び方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">コート面別（ハード・クレー・オムニ）の負担の違いと選び方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">同じテニスでも、プレーするコート面によって足への負担のかかり方は変わるとされます。よく使う面に合わせて、インソールで重視するポイントを調整すると選びやすくなります。</p>
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">ハードコート：衝撃吸収を最優先</h3>
@@ -138,18 +138,18 @@ export default function TennisPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">テニスシューズとの相性・組み合わせのコツ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">テニスシューズとの相性・組み合わせのコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは単体ではなく、シューズとの組み合わせで働きます。ソールのクッションが厚めのシューズなら薄型のインソールでフィットを優先し、ソールが硬め・薄めのモデルなら衝撃吸収を補う、というように「靴とインソールを合わせた全体の厚み・硬さ」で考えるとバランスを取りやすくなります。オールコート用と面専用（オムニ・クレー用など）でソールの性格が異なる点も踏まえておいてください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">入れ替えた直後は感覚が変わるため、いきなり試合や大会で使わず、練習で数回慣らしてから本番に使うのがおすすめです。急停止と切り返しが中心という負荷の性質は<Link href="/articles/basketball-insole/" className="text-[#e8627c] underline font-medium">バスケットボール</Link>とも共通しており、同じく後足部の安定が選び方の軸になります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">自分にどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソールタイプ診断</Link>も参考にしてください。なお、プレー後にかかとや足裏、膝の痛みが続く場合は、インソールで我慢せず整形外科など医療機関への受診をご検討ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

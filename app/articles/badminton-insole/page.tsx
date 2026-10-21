@@ -61,7 +61,7 @@ export default function BadmintonPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">バドミントンのインソールの選び方｜反復ジャンプとフットワークを支える</h1>
@@ -74,7 +74,7 @@ export default function BadmintonPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バドミントンで足に負担がかかる理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バドミントンで足に負担がかかる理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">バドミントンは、コートを前後左右に素早く動き、ジャンプスマッシュの着地やランジ姿勢を繰り返す競技です。短時間に多くのストップ＆ゴーとジャンプがあり、足裏・膝・足首・アキレス腱への衝撃と負担が集中します。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールで着地衝撃を吸収し、かかとを安定させて足のブレを抑えると、素早いフットワークでも踏ん張りやすく、ケガのリスクを減らす補助になります。アーチサポートはランジからの切り返しの力も支えます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">特にバドミントンは、シャトルを追って一歩目を素早く出す競技です。ホームポジションから前後左右へ瞬時に踏み出し、すぐに戻る動きを何度も繰り返すため、急停止（ブレーキング）の負荷もかかります。停止と踏み出しのたびに足元がぐらつくと、無駄な力が必要になり、スタミナの消耗にもつながりやすくなります。足元が安定すると、こうしたロスを抑える補助が期待できます。</p>
@@ -82,11 +82,11 @@ export default function BadmintonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バドミントンの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バドミントンの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -95,7 +95,7 @@ export default function BadmintonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">安定性・衝撃吸収・グリップで選ぶ</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">安定性・衝撃吸収・グリップで選ぶ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">バドミントン向けのインソールは、大きく「安定性」「衝撃吸収」「グリップ」の3つの視点で見ると選びやすくなります。それぞれが動きのどの場面を助けるかを押さえておいてください。</p>
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2">安定性（切り返し・急停止を支える）</h3>
@@ -113,12 +113,12 @@ export default function BadmintonPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バドミントンにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バドミントンにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">着地衝撃の吸収と後足部の安定を両立したインソールがバドミントンに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -135,7 +135,7 @@ export default function BadmintonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">バドミントンシューズでの使い方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バドミントンシューズでの使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">バドミントンシューズは軽量設計でクッションが薄めなことがあります。元の中敷きと入れ替えると衝撃吸収を補えます。シューズによっては中敷きが取り外せないタイプもあるため、購入前に外せるかを確認しておくと安心です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">シューズとの相性を考える際は、インソールの厚みにご注意ください。厚みのあるインソールを入れるとフィット感が変わり、靴がきつく感じたり、つま先の余裕がなくなったりすることがあります。激しく動くバドミントンでは、足が靴の中で動かない適度なフィットが大切です。元の中敷きを抜いて入れ替えれば、厚みの増加を抑えながら衝撃吸収を高められます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">サイズ調整では、つま先に少しゆとりを残しつつ、かかとが浮かない状態を目安にします。インソールが大きい場合は、製品の指示に従ってつま先側をカットして合わせます。長すぎる・短すぎるまま使うと本来のサポートが得られにくいため、自分の足とシューズに合わせて整えてください。新しいインソールに替えた直後は感覚が変わるので、試合本番ではなく練習で慣らしてから使うのがおすすめです。</p>
@@ -143,11 +143,11 @@ export default function BadmintonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

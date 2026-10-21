@@ -60,7 +60,7 @@ export default function MetabolismPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">基礎代謝とインソールの関係｜姿勢・歩行でエネルギー消費を増やす考え方</h1>
@@ -73,7 +73,7 @@ export default function MetabolismPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">基礎代謝と姿勢・歩行の関係</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">基礎代謝と姿勢・歩行の関係</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">基礎代謝は安静時に消費されるエネルギーで、その多くを筋肉が占めます。姿勢が崩れて一部の筋肉しか使わない状態だと、日常の活動で使われる筋肉が減り、消費エネルギーも増えにくくなります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチを支えるインソールで足元を安定させ、正しい姿勢・歩行を促すと、体幹や下半身の筋肉が日常的に使われやすくなります。『ながら』で筋肉を使う土台が整うことで、活動量による消費（NEAT）を高める助けになります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">血行についても、一般に体を動かして筋肉を使うとふくらはぎなどがポンプのように働き、下半身に滞りやすい血液の巡りをサポートすると言われます。足元が不安定だと一部の筋肉に偏った負担がかかりやすく、長時間の立ち姿勢や歩行で疲れやむくみを感じる方もいます。足裏のアーチを支えて重心を整えると、立つ・歩くといった基本動作で全身の筋肉をバランスよく使いやすくなり、こうした日常の動きをしやすくする一助となり得ます。</p>
@@ -81,11 +81,11 @@ export default function MetabolismPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">基礎代謝の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">基礎代謝の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -94,12 +94,12 @@ export default function MetabolismPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">基礎代謝におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">基礎代謝におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">姿勢と歩行を整え、日常で筋肉を使いやすくするアーチサポートのあるインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -116,14 +116,14 @@ export default function MetabolismPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">代謝を意識した使い方</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">代謝を意識した使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、姿勢を立てて歩く・階段を使う・こまめに動くなど、日常の活動量を増やす意識を持ってください。これが消費エネルギーの底上げにつながります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">特別な運動の時間を取りにくい方は、まず「日常の移動」を見直すのがおすすめです。具体的には、1駅手前で降りて歩く、エレベーターより階段を使う、通勤・買い物の道のりを少し遠回りにする、といった工夫です。アーチを支えるインソールで足元が安定すると、こうした「ながら」の動きを続けやすくなり、無理なく活動量を積み重ねられます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">立ち姿勢の意識も大切です。座りっぱなしの時間が長いと下半身の筋肉が使われにくくなるため、1時間に一度は立ち上がる、信号待ちでは背筋を伸ばすなど、小さな習慣を重ねてください。基礎代謝を本格的に上げるには筋トレが効果的です。インソールは姿勢・歩行を整える補助として、こうした運動・食事の見直しと組み合わせて活用するのが現実的な使い方です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">使う前に知っておきたい注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">使う前に知っておきたい注意点</h2>
           <ul className="space-y-3 text-sm md:text-base text-gray-700 leading-relaxed list-disc pl-5">
             <li><span className="font-bold">「履くだけで痩せる」は誤解。</span>インソールは姿勢・歩行を整えるサポート用品であり、それだけで代謝が上がる・体重が減ると断定できるものではありません。誇大な表現の宣伝にはご注意ください。</li>
             <li><span className="font-bold">効果の感じ方には個人差があります。</span>体格・歩き方・生活習慣によって実感は異なります。食事・運動と併用してこそ意味のある補助と考えてください。</li>
@@ -133,11 +133,11 @@ export default function MetabolismPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

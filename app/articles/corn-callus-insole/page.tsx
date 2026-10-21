@@ -60,7 +60,7 @@ export default function CornCallusPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">症状・お悩み</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">タコ・魚の目にインソールは効く？圧の偏りを分散する選び方</h1>
@@ -73,7 +73,7 @@ export default function CornCallusPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">タコ・魚の目ができる原因とインソールの役割</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">タコ・魚の目ができる原因とインソールの役割</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">タコ（胼胝）や魚の目（鶏眼）は、足裏の特定の部分に圧（体重）や摩擦が繰り返しかかることで、皮膚が自分を守ろうとして厚く硬くなる現象です。一般的に、次のような要因が重なって起こりやすいと考えられています。</p>
           <ul className="text-sm md:text-base text-gray-700 leading-relaxed mb-4 space-y-2 list-disc pl-5">
             <li><span className="font-bold">圧（荷重）の偏り：</span>アーチの崩れ（扁平足・開張足・ハイアーチ）があると、足裏の一部に体重が集中し、その部分の皮膚が厚くなりやすくなります。</li>
@@ -85,7 +85,7 @@ export default function CornCallusPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">できる場所別に見る原因の傾向（一般論）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">できる場所別に見る原因の傾向（一般論）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">タコ・魚の目は「どこにできるか」で、背景にある荷重の偏り方の傾向がある程度推測できるとされています。以下は一般的に言われる傾向の整理であり、場所だけで原因を特定できるわけではありません。正確な原因の確認は整形外科・皮膚科で行ってください。</p>
           <div className="space-y-4 mb-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
@@ -108,11 +108,11 @@ export default function CornCallusPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">タコ・魚の目の選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">タコ・魚の目の選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -121,12 +121,12 @@ export default function CornCallusPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">タコ・魚の目におすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">タコ・魚の目におすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">アーチを支えて圧を分散し、摩擦を抑えるインソールがタコ・魚の目の再発予防に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -143,23 +143,23 @@ export default function CornCallusPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">使うときの注意点</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">使うときの注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを取り入れる際は、次の点に気をつけると失敗しにくくなります。まず、インソールを入れると靴の中が窮屈になり、かえって圧や摩擦が増えてしまうことがあります。サイズに少し余裕のある靴と組み合わせ、必要なら厚みの薄いタイプを選ぶことをおすすめします。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">また、足は新しいインソールに慣れるまで時間がかかります。最初は短時間から使い始め、違和感や痛みがないかを確かめながら徐々に使用時間を延ばすのが安心です。使ってみて痛みが出る・かえって悪化する場合は無理に続けず、使用を中止してください。インソールはあくまで負担を軽減するサポートであり、効果の感じ方には個人差があります。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">ケアと受診の目安</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ケアと受診の目安</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">できてしまったタコ・魚の目は、自分で無理に削ると傷や感染の原因になります。とくに芯のある魚の目や、糖尿病など持病がある方は、自己処置を避け、皮膚科で処置を受けるのが安全です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">削っても繰り返す、痛みが強い、赤く腫れる・歩くのがつらいといった場合は、自己判断で対処を続けず、早めに皮膚科や整形外科を受診してください。インソールはあくまで荷重の偏りという『原因』に働きかける再発予防のサポートであり、医療的な処置に代わるものではありません。あわせて、サイズの合った靴選びと足のアーチケアを行い、必要に応じて専門家の診断を受けることをおすすめします。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

@@ -61,7 +61,7 @@ export default function BmzComparisonPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">BMZのインソールはどんな人向け？ピットソールとの関係と使い分けガイド</h1>
@@ -74,18 +74,18 @@ export default function BmzComparisonPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">BMZとはどんなブランド？（公式情報まとめ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">BMZとはどんなブランド？（公式情報まとめ）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">BMZは「キュボイドバランス理論」を掲げる日本のインソールブランドです。公式サイトによると、一般的なインソールのように土踏まずを支えるのではなく、足の外側にある立方骨（キュボイド）を支えることで足のアーチバランスを整え、足の動きを制限せずに「安定性」と「運動性」を両立させる考え方とされています（出典：BMZ公式サイト、2026年6月参照）。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">この理論は特許を取得した独自技術で、公式サイトでは国内特許（特許第6799881号）のほか海外でも特許を取得していることが紹介されています。多くのスポーツ選手が愛用するアスリート向けの高機能インソールとして展開されており、競技用のラインナップが中心です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">なお、当サイトで紹介しているピットソールは、販売元セレスの公式リリースにBMZ社の特許技術（特許第4733957号等）を採用していることが記載されています（2026年6月参照）。つまり両者は対立する関係ではなく、同じ理論的ルーツを持ちながら、BMZはスポーツ向け、ピットソールはダイエット・ボディメイク向けと、目的の異なる展開をしているブランド・製品といえます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">BMZと比較検討するときの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">BMZと比較検討するときの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -94,12 +94,12 @@ export default function BmzComparisonPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">BMZと比較検討するときにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">BMZと比較検討するときにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">日常の歩行でボディメイクを狙うなら、姿勢・歩行サポートを軸に設計された以下の3製品が当サイトの比較対象です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -116,17 +116,17 @@ export default function BmzComparisonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">BMZとピットソール、どう使い分ける？</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">BMZとピットソール、どう使い分ける？</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">BMZはアスリート・スポーツシーンの足のサポートを軸に展開するブランド、ピットソールはBMZ社の特許技術を採用しつつ日常の歩行・姿勢からのダイエット・ボディメイクを軸にした製品です。競技用シューズにはスポーツ向け、毎日のウォーキングや通勤靴にはボディメイク向けと、シーンで使い分けるのが現実的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">キュボイドバランス理論など特許技術の詳細は、当サイトの特許技術解説の記事でも整理しています。技術的な背景を理解してから選びたい方はあわせてご覧ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

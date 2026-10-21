@@ -98,15 +98,15 @@ export default function FlatFeetPage() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "扁平足・浮き指" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-sky-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#0ea5e9] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             足のトラブル改善ガイド
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             扁平足・浮き指に
             <br className="md:hidden" />
-            <span className="text-[#0ea5e9]">インソール</span>は効果ある？
+            <span className="text-[#8a6a4f]">インソール</span>は効果ある？
             <br />
             おすすめ3選
           </h1>
@@ -125,7 +125,7 @@ export default function FlatFeetPage() {
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
-        <div className="bg-sky-50 border-l-4 border-[#0ea5e9] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
           <p>扁平足にインソールは効果があります。崩れた土踏まずのアーチを物理的にサポートし、足の疲れやすさ・膝や腰への負担を軽減します。浮き指の改善にも足裏アーチの回復が有効です。</p>
         </div>
@@ -145,42 +145,42 @@ export default function FlatFeetPage() {
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#what" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#what" className="hover:text-[#8a6a4f] transition-colors">
                 1. 扁平足・浮き指とは？
               </a>
             </li>
             <li>
-              <a href="#cause" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#cause" className="hover:text-[#8a6a4f] transition-colors">
                 2. 原因と症状
               </a>
             </li>
             <li>
-              <a href="#effect" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#effect" className="hover:text-[#8a6a4f] transition-colors">
                 3. インソールの効果
               </a>
             </li>
             <li>
-              <a href="#how-to-choose" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#how-to-choose" className="hover:text-[#8a6a4f] transition-colors">
                 4. インソールの選び方
               </a>
             </li>
             <li>
-              <a href="#recommend" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">
                 5. おすすめインソール3選
               </a>
             </li>
             <li>
-              <a href="#daily-care" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#daily-care" className="hover:text-[#8a6a4f] transition-colors">
                 6. 日常でできるケア
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 7. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#0ea5e9] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 8. まとめ
               </a>
             </li>
@@ -190,7 +190,7 @@ export default function FlatFeetPage() {
 
       {/* 扁平足・浮き指とは？ */}
       <section id="what" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           扁平足・浮き指とは？
         </h2>
 
@@ -199,7 +199,7 @@ export default function FlatFeetPage() {
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 mb-6">
-          <div className="bg-sky-50 border border-sky-200 rounded-xl p-5">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
               扁平足とは
             </h3>
@@ -207,7 +207,7 @@ export default function FlatFeetPage() {
               足裏の内側縦アーチ（いわゆる土踏まず）が低下し、足裏全体が地面にべったりとつく状態です。正常な足裏には3つのアーチ（内側縦・外側縦・横）があり、これらがバネのように衝撃を吸収しています。扁平足ではこのバネ機能が失われるため、歩行時に足・膝・腰への負担が大きくなります。日本人の約7割が何らかのアーチ崩れを持っているとされ、自覚のない「隠れ扁平足」の方も少なくありません。
             </p>
           </div>
-          <div className="bg-sky-50 border border-sky-200 rounded-xl p-5">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
               浮き指とは
             </h3>
@@ -231,7 +231,7 @@ export default function FlatFeetPage() {
 
       {/* 原因と症状 */}
       <section id="cause" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           原因と症状
         </h2>
 
@@ -239,27 +239,27 @@ export default function FlatFeetPage() {
           扁平足・浮き指にはさまざまな原因があります。先天的な骨格の問題だけでなく、日常の生活習慣が大きく影響しています。
         </p>
 
-        <div className="bg-sky-50 border border-sky-200 rounded-xl p-5 md:p-6 mb-6">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-6 mb-6">
           <p className="text-sm font-bold text-gray-900 mb-3">主な原因</p>
           <ul className="space-y-2 text-sm text-gray-700">
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">1.</span>
+              <span className="text-[#8a6a4f] font-bold mt-0.5">1.</span>
               <span><strong>運動不足による足裏筋力の低下</strong> -- 足裏のアーチは筋肉と靭帯で支えられています。歩く機会の減少やデスクワーク中心の生活で筋力が衰えると、アーチが維持できなくなります。</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">2.</span>
+              <span className="text-[#8a6a4f] font-bold mt-0.5">2.</span>
               <span><strong>合わない靴の長期使用</strong> -- 幅の狭い靴やヒールの高い靴は足指の動きを制限し、浮き指を誘発します。一方、大きすぎる靴は足が靴の中で滑り、不安定な歩行パターンを生みます。</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">3.</span>
+              <span className="text-[#8a6a4f] font-bold mt-0.5">3.</span>
               <span><strong>体重の増加</strong> -- 体重が増えると足裏のアーチにかかる荷重が大きくなり、アーチが押しつぶされて扁平足が進行します。特に急激な体重増加は足裏への負担が大きくなります。</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">4.</span>
+              <span className="text-[#8a6a4f] font-bold mt-0.5">4.</span>
               <span><strong>加齢による筋力・靭帯の弱化</strong> -- 年齢とともに後脛骨筋腱や足底腱膜が弱くなり、アーチを支えきれなくなります。40代以降に扁平足が進行するケースが多いのはこのためです。</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold mt-0.5">5.</span>
+              <span className="text-[#8a6a4f] font-bold mt-0.5">5.</span>
               <span><strong>歩き方のクセ</strong> -- 内股歩き・すり足・ペタペタ歩きなど、足指を使わない歩行パターンが続くと、足裏の筋肉が退化し浮き指が進行します。</span>
             </li>
           </ul>
@@ -268,23 +268,23 @@ export default function FlatFeetPage() {
         <p className="text-sm font-bold text-gray-900 mb-3">扁平足の主な症状</p>
         <div className="space-y-2 mb-6">
           <div className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+            <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
             <span>長時間歩くと足裏（特に土踏まず付近）が痛くなる</span>
           </div>
           <div className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+            <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
             <span>夕方になると足がむくみ、靴がきつく感じる</span>
           </div>
           <div className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+            <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
             <span>靴底の内側が偏ってすり減る</span>
           </div>
           <div className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+            <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
             <span>ふくらはぎや膝の内側に痛みが出やすい</span>
           </div>
           <div className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+            <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
             <span>足底腱膜炎（かかとの痛み）を繰り返す</span>
           </div>
         </div>
@@ -292,23 +292,23 @@ export default function FlatFeetPage() {
         <p className="text-sm font-bold text-gray-900 mb-3">浮き指の主な症状</p>
         <div className="space-y-2 mb-6">
           <div className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+            <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
             <span>足指の付け根（中足骨頭部）にタコやウオノメができる</span>
           </div>
           <div className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+            <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
             <span>立っていると前のめりになりやすく、姿勢が安定しない</span>
           </div>
           <div className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+            <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
             <span>歩行時につまずきやすい</span>
           </div>
           <div className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+            <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
             <span>外反母趾や巻き爪を併発している</span>
           </div>
           <div className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+            <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
             <span>冷え性がひどい（足指の血行不良）</span>
           </div>
         </div>
@@ -323,7 +323,7 @@ export default function FlatFeetPage() {
 
       {/* インソールの効果 */}
       <section id="effect" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           インソールの効果
         </h2>
 
@@ -333,8 +333,8 @@ export default function FlatFeetPage() {
 
         <div className="grid gap-4 md:grid-cols-2 mb-6">
           <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
-            <div className="w-10 h-10 bg-sky-100 rounded-lg flex items-center justify-center mb-3">
-              <span className="text-[#0ea5e9] font-bold text-lg">1</span>
+            <div className="w-10 h-10 bg-[#f3ece4] rounded-lg flex items-center justify-center mb-3">
+              <span className="text-[#8a6a4f] font-bold text-lg">1</span>
             </div>
             <h3 className="font-bold text-gray-900 text-sm mb-2">アーチの補整と衝撃吸収</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
@@ -342,8 +342,8 @@ export default function FlatFeetPage() {
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
-            <div className="w-10 h-10 bg-sky-100 rounded-lg flex items-center justify-center mb-3">
-              <span className="text-[#0ea5e9] font-bold text-lg">2</span>
+            <div className="w-10 h-10 bg-[#f3ece4] rounded-lg flex items-center justify-center mb-3">
+              <span className="text-[#8a6a4f] font-bold text-lg">2</span>
             </div>
             <h3 className="font-bold text-gray-900 text-sm mb-2">足指の接地を促す</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
@@ -351,8 +351,8 @@ export default function FlatFeetPage() {
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
-            <div className="w-10 h-10 bg-sky-100 rounded-lg flex items-center justify-center mb-3">
-              <span className="text-[#0ea5e9] font-bold text-lg">3</span>
+            <div className="w-10 h-10 bg-[#f3ece4] rounded-lg flex items-center justify-center mb-3">
+              <span className="text-[#8a6a4f] font-bold text-lg">3</span>
             </div>
             <h3 className="font-bold text-gray-900 text-sm mb-2">歩行バランスの改善</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
@@ -360,8 +360,8 @@ export default function FlatFeetPage() {
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
-            <div className="w-10 h-10 bg-sky-100 rounded-lg flex items-center justify-center mb-3">
-              <span className="text-[#0ea5e9] font-bold text-lg">4</span>
+            <div className="w-10 h-10 bg-[#f3ece4] rounded-lg flex items-center justify-center mb-3">
+              <span className="text-[#8a6a4f] font-bold text-lg">4</span>
             </div>
             <h3 className="font-bold text-gray-900 text-sm mb-2">足裏筋肉の活性化</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
@@ -384,7 +384,7 @@ export default function FlatFeetPage() {
 
       {/* インソールの選び方 */}
       <section id="how-to-choose" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           扁平足・浮き指向けインソールの選び方
         </h2>
 
@@ -395,7 +395,7 @@ export default function FlatFeetPage() {
         <div className="space-y-4 mb-6">
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">1</span>3つのアーチすべてをサポートしているか
+              <span className="text-[#8a6a4f] mr-2">1</span>3つのアーチすべてをサポートしているか
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               足裏には内側縦アーチ・外側縦アーチ・横アーチの3つがあります。扁平足対策には縦アーチの補整が、浮き指対策には横アーチの補整が特に重要です。両方を同時にケアするなら、3つのアーチすべてをサポートする設計のインソールを選ぶことをおすすめします。
@@ -403,7 +403,7 @@ export default function FlatFeetPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">2</span>ヒールカップの深さ
+              <span className="text-[#8a6a4f] mr-2">2</span>ヒールカップの深さ
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               かかとを包み込むヒールカップは、足全体の安定性を大きく左右します。扁平足の方は足が内側に倒れやすいため、深めのヒールカップでかかとを安定させることが重要です。かかとがブレると、いくらアーチをサポートしても効果が半減します。
@@ -411,7 +411,7 @@ export default function FlatFeetPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">3</span>適度な硬さがあるか
+              <span className="text-[#8a6a4f] mr-2">3</span>適度な硬さがあるか
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               柔らかすぎるインソールはアーチを支えきれず、体重で沈んでしまいます。高反発素材や硬質樹脂を使用した、しっかりとした硬さのあるインソールを選ぶことをおすすめします。ただし、硬すぎると足裏が痛くなるため、表面にクッション層を備えた二層構造のものがバランスに優れています。
@@ -419,7 +419,7 @@ export default function FlatFeetPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">4</span>サイズが合っているか
+              <span className="text-[#8a6a4f] mr-2">4</span>サイズが合っているか
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               インソールのアーチサポートは、足裏の正しい位置に来て初めて効果を発揮します。サイズが合っていないと、アーチの位置がずれて逆に痛みが出ることもあります。サイズ展開が豊富な商品を選び、自分の足に合ったものを見つけることが大切です。
@@ -427,7 +427,7 @@ export default function FlatFeetPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#0ea5e9] mr-2">5</span>科学的根拠があるか
+              <span className="text-[#8a6a4f] mr-2">5</span>科学的根拠があるか
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               特許技術の取得、大学や研究機関との共同研究、臨床試験データの公開など、科学的な裏付けがある商品を選ぶことをおすすめします。特にアーチサポートの角度や硬さは人体工学に基づいた設計であることが重要で、根拠のない商品との効果の差は歴然です。
@@ -438,7 +438,7 @@ export default function FlatFeetPage() {
 
       {/* おすすめインソール3選 */}
       <section id="recommend" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           扁平足・浮き指におすすめのインソール3選
         </h2>
 
@@ -447,15 +447,15 @@ export default function FlatFeetPage() {
         </p>
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
           各商品の総合比較は
-          <Link href="/ranking" className="text-[#0ea5e9] underline hover:no-underline">
+          <Link href="/ranking" className="text-[#8a6a4f] underline hover:no-underline">
             インソールおすすめランキング
           </Link>
           のページもあわせてご覧ください。
         </p>
 
         {/* ピットソール */}
-        <div className="border-2 border-[#0ea5e9] rounded-xl p-5 md:p-6 mb-6 relative">
-          <span className="absolute -top-3 left-4 bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">
+        <div className="border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 relative">
+          <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">
             扁平足・浮き指対策 No.1
           </span>
           <h3 className="font-bold text-gray-900 text-base md:text-lg mt-2 mb-3">
@@ -483,7 +483,7 @@ export default function FlatFeetPage() {
           </div>
           <Link
             href="/pitsole"
-            className="inline-block bg-[#0ea5e9] text-white text-sm font-bold px-6 py-3 rounded-lg hover:bg-sky-600 transition-colors"
+            className="inline-block bg-[#8a6a4f] text-white text-sm font-bold px-6 py-3 rounded-lg hover:bg-[#8a6a4f] transition-colors"
           >
             ピットソールの詳細を見る
           </Link>
@@ -516,7 +516,7 @@ export default function FlatFeetPage() {
           </div>
           <Link
             href="/runway-cure-sole"
-            className="inline-block border border-[#0ea5e9] text-[#0ea5e9] text-sm font-bold px-6 py-3 rounded-lg hover:bg-sky-50 transition-colors"
+            className="inline-block border border-[#8a6a4f] text-[#8a6a4f] text-sm font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors"
           >
             ランウェイキュアソールの詳細を見る
           </Link>
@@ -549,19 +549,19 @@ export default function FlatFeetPage() {
           </div>
           <Link
             href="/slim-up-insole"
-            className="inline-block border border-[#0ea5e9] text-[#0ea5e9] text-sm font-bold px-6 py-3 rounded-lg hover:bg-sky-50 transition-colors"
+            className="inline-block border border-[#8a6a4f] text-[#8a6a4f] text-sm font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors"
           >
             スリムアップインソールの詳細を見る
           </Link>
         </div>
 
-        <div className="bg-sky-50 border border-sky-200 rounded-xl p-5 text-center">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 text-center">
           <p className="text-sm text-gray-700 mb-3">
             3商品の価格・機能を横並びで比較したい方はこちら
           </p>
           <Link
             href="/ranking"
-            className="inline-block bg-[#0ea5e9] text-white text-sm font-bold px-6 py-3 rounded-lg hover:bg-sky-600 transition-colors"
+            className="inline-block bg-[#8a6a4f] text-white text-sm font-bold px-6 py-3 rounded-lg hover:bg-[#8a6a4f] transition-colors"
           >
             インソールおすすめランキングを見る
           </Link>
@@ -570,7 +570,7 @@ export default function FlatFeetPage() {
 
       {/* 日常でできるケア */}
       <section id="daily-care" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           日常でできるケア
         </h2>
 
@@ -624,7 +624,7 @@ export default function FlatFeetPage() {
 
       {/* よくある質問（FAQ） */}
       <section id="faq" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           よくある質問（FAQ）
         </h2>
 
@@ -674,7 +674,7 @@ export default function FlatFeetPage() {
 
       {/* まとめ */}
       <section id="summary" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#0ea5e9]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
           まとめ
         </h2>
 
@@ -682,31 +682,31 @@ export default function FlatFeetPage() {
           扁平足・浮き指は日本人に非常に多い足のトラブルですが、適切なインソールの使用と日常のケアを組み合わせることで十分に改善が可能です。この記事では、扁平足・浮き指の仕組みから原因・症状、インソールの効果と選び方、おすすめ商品まで詳しく解説してきました。
         </p>
 
-        <div className="bg-sky-50 border border-sky-200 rounded-xl p-5 md:p-6 mb-6">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-6 mb-6">
           <p className="text-sm font-bold text-gray-900 mb-3">この記事のポイント</p>
           <ul className="space-y-2 text-sm text-gray-700">
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>扁平足と浮き指は併発しやすく、足裏アーチの崩れが共通の原因</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>放置すると膝痛・腰痛・姿勢悪化など全身に悪影響が及ぶ</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>アーチサポート付きインソールで足裏のバネ機能を回復できる</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>選ぶ際は3点アーチサポート・ヒールカップ・科学的根拠を重視</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>3つのアーチを同時にケアできるピットソールが総合評価No.1</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#0ea5e9] font-bold shrink-0">--</span>
+              <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
               <span>タオルギャザーや足指じゃんけんなどのセルフケアとの併用が効果的</span>
             </li>
           </ul>
@@ -722,13 +722,13 @@ export default function FlatFeetPage() {
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link
             href="/ranking"
-            className="inline-block bg-[#0ea5e9] text-white text-sm font-bold px-6 py-3 rounded-lg hover:bg-sky-600 transition-colors text-center"
+            className="inline-block bg-[#8a6a4f] text-white text-sm font-bold px-6 py-3 rounded-lg hover:bg-[#8a6a4f] transition-colors text-center"
           >
             インソールおすすめランキングを見る
           </Link>
           <Link
             href="/pitsole"
-            className="inline-block border border-[#0ea5e9] text-[#0ea5e9] text-sm font-bold px-6 py-3 rounded-lg hover:bg-sky-50 transition-colors text-center"
+            className="inline-block border border-[#8a6a4f] text-[#8a6a4f] text-sm font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors text-center"
           >
             ピットソールの詳細を見る
           </Link>

@@ -61,7 +61,7 @@ export default function SidasComparisonPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">シダスのインソールはどんな人向け？ダイエット目的との使い分けガイド</h1>
@@ -74,18 +74,18 @@ export default function SidasComparisonPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シダスとはどんなブランド？（公式情報まとめ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シダスとはどんなブランド？（公式情報まとめ）</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">シダス（SIDAS)は1975年にフランスで誕生したインソールブランドで、スキー競技者の足のサポートから始まり、世界で初めて熱成型によるインソールを開発したとされています（出典：シダスジャパン公式プレスリリース・公式サイト、2026年6月参照）。現在は世界45か国以上で販売され、日本ではシダスジャパン株式会社が展開しています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">公式サイトでは「様々なスポーツ、様々な日常生活で快適さとパフォーマンス、トラブル予防を実現する足周り360°のプロダクト」と説明されており、スキー・ランニング・アウトドアなどスポーツ別のラインナップや、熱成型で足型に合わせるカスタムインソールが特徴です。トップアスリートのサポート実績も公式に紹介されています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">まとめると、シダスの得意領域は「スポーツでのパフォーマンスと足型へのフィット」。競技シーンで足をしっかり支えたい方に向けたブランド展開といえます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シダスと比較検討するときの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シダスと比較検討するときの選び方3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -94,12 +94,12 @@ export default function SidasComparisonPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シダスと比較検討するときにおすすめのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シダスと比較検討するときにおすすめのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">日常の歩行でボディメイクを狙うなら、姿勢・歩行サポートを軸に設計された以下の3製品が当サイトの比較対象です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -116,17 +116,17 @@ export default function SidasComparisonPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">シダスと当サイト紹介製品の使い分け</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シダスと当サイト紹介製品の使い分け</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">シダスはスポーツ・競技シーンの足のサポートを得意とするブランド、当サイトの3製品は日常の歩行・姿勢からのボディメイクを軸にした製品で、目的が異なります。競技用シューズにはスポーツ特化型、毎日履く靴にはボディメイク向けと、シーンごとの使い分けが現実的です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ダイエット目的でインソールを選ぶ際の考え方は、スポーツ用との違いを整理した記事でも詳しく解説しています。自分の目的を先に決めてから製品を絞り込んでください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}

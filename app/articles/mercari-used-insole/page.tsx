@@ -61,7 +61,7 @@ export default function MercariUsedPage() {
       <article className="max-w-3xl mx-auto px-4 py-8 md:py-12">
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <span className="inline-block bg-[#0ea5e9] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
+            <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">購入ガイド</span>
             <time dateTime="2026-06-13" className="text-xs text-gray-500">2026年6月13日</time>
           </div>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">フリマ・中古のインソールは大丈夫？衛生面・保証・偽造品リスクの注意点</h1>
@@ -74,17 +74,17 @@ export default function MercariUsedPage() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">フリマ・中古のインソールに注意が必要な理由</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">フリマ・中古のインソールに注意が必要な理由</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">第一に衛生面です。インソールは靴の中で足裏の汗や皮脂を受け止め続ける、肌に近い消耗品です。使用済みの中古品は見た目がきれいでも内部に汗や雑菌が残っている可能性があり、衣類以上に「他人が使ったもの」のリスクが残ります。また、使用とともにクッションやアーチサポートはへたるため、中古品では本来の支える機能が落ちている場合もあります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">第二に保証の問題です。メーカーの返金保証や正規品サポートは、公式サイトや正規販売店での購入を条件とするのが一般的で、フリマ経由の購入は新品・未使用とされる出品でも対象外になります。第三に偽造品リスクです。人気商品には模倣品が紛れることがあり、個人間取引では真贋の確認が困難です。なおピットソールはAmazon Transparency（正規品認証プログラム）に登録されており、正規ルートでは真贋確認の仕組みがありますが、フリマの個人出品はこの仕組みの外側です。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">フリマ・中古で買う前に確認したい3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">フリマ・中古で買う前に確認したい3つのポイント</h2>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <span className="flex-shrink-0 w-8 h-8 bg-[#0ea5e9] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                <span className="flex-shrink-0 w-8 h-8 bg-[#8a6a4f] text-white rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">{p.t}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{p.b}</p>
@@ -93,12 +93,12 @@ export default function MercariUsedPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">新品・正規ルートで選ぶならこのインソール3選</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">新品・正規ルートで選ぶならこのインソール3選</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品（ピットソール・ランウェイキュアソール・スリムアップインソール）は、いずれも公式通販が主な購入ルートです。返金保証などの条件は正規ルートでの購入が前提となるため、新品を正規ルートで購入するのが確実です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
-                <tr className="bg-[#f0f9ff] text-gray-900">
+                <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
                   <th className="p-3 text-left border-b border-gray-200">評価</th>
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
@@ -115,17 +115,17 @@ export default function MercariUsedPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">安く買いたい場合の現実的な選択肢</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">安く買いたい場合の現実的な選択肢</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「少しでも安く」が目的なら、フリマの中古より先に検討したい選択肢があります。公式サイトのセット割引（複数足購入で単価が下がる）、公式が出店するAmazon・楽天店舗のポイント還元やセールなどです。これらなら保証や真贋の心配なく価格を抑えられます。正規ルートの選び方は別記事「Amazon・楽天での買い方」で詳しく解説しています。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">どうしてもフリマを利用する場合は、未使用・未開封の明記、購入時期、出品者の評価を確認し、定価から不自然に安い出品は避ける——といった自衛が最低限必要です。そのうえで、保証が受けられないことは織り込んでおいてください。インソールは数ヶ月で交換する消耗品であることを考えると、最初から正規ルートの新品を選ぶほうが結果的に納得感のある買い物になりやすいといえます。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#0ea5e9] pl-3 mb-6">よくある質問（FAQ）</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-3">
             {faqs.map((f) => (
               <details key={f.q} className="border border-gray-200 rounded-xl p-4 group">
-                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#0ea5e9] group-open:rotate-45 transition-transform">＋</span></summary>
+                <summary className="font-bold text-gray-900 text-sm cursor-pointer list-none flex justify-between items-center">{f.q}<span className="text-[#8a6a4f] group-open:rotate-45 transition-transform">＋</span></summary>
                 <p className="text-sm text-gray-700 leading-relaxed mt-3">{f.a}</p>
               </details>
             ))}
