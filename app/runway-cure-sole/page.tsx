@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
 import OfficialCTA from "../components/OfficialCTA";
@@ -843,6 +844,21 @@ export default function RunwayCureSolePage() {
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
           公式販売ページ・公式EC店舗で確認できたスペックのみを掲載しています（2026年6月12日確認）。公式に記載のない項目は「公式表記なし」としています。
         </p>
+        {/* official-figure：公式サイトの画面 */}
+        <figure className="mb-8">
+          <Image
+            src="/images/official-runway.jpg"
+            alt="ランウェイキュアソールの公式サイトの画面"
+            width={900}
+            height={570}
+            sizes="(max-width: 768px) 100vw, 720px"
+            className="w-full h-auto border border-[#e8ded6]"
+          />
+          <figcaption className="mt-2 text-xs text-[#8a7b7e] leading-relaxed">
+            ランウェイキュアソールの公式サイトの画面（2026年10月21日に取得）。出典：
+            <a href="https://flore-inc.co.jp/brand/runwaycuresole/" target="_blank" rel="noopener noreferrer nofollow" className="underline">FLORe 公式サイト</a>
+          </figcaption>
+        </figure>
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-4">
           <table className="w-full text-sm">
             <tbody className="divide-y divide-gray-100 text-gray-600">

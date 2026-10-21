@@ -1,24 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --color-primary: #e8627c;
-  --color-primary-dark: #d14d68;
-  --color-primary-light: #fdf2f4;
-  --color-cta: #d4956b;
-  --color-cta-hover: #c07a52;
+  --color-primary: #8a6a4f;
+  --color-primary-dark: #6f543c;
+  --color-primary-light: #faf3ec;
+  --color-cta: #b98f6b;
+  --color-cta-hover: #a67a56;
   --color-accent-fresh: #34d399;
-  --color-footer-bg: #3d1a38;
+  --color-footer-bg: #3d2b2f;
   --color-text: #1e293b;
   --color-text-light: #64748b;
   --color-bg: #ffffff;
-  --color-bg-section: #fef7f8;
-  --color-border: #f3e0e4;
+  --color-bg-section: #faf7f3;
+  --color-border: #e8ded6;
   --color-gold: #c9a76c;
   --color-gold-light: #f5eed6;
 }
 
 @theme inline {
   --font-sans: var(--font-noto-sans-jp);
+  --font-mincho: var(--font-shippori-mincho);
   --color-primary: var(--color-primary);
   --color-primary-dark: var(--color-primary-dark);
   --color-primary-light: var(--color-primary-light);
@@ -53,7 +54,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0.875rem 2rem;
-  background: linear-gradient(135deg, var(--color-cta), #e8a87c);
+  background: var(--color-cta);
   color: #ffffff;
   font-weight: 700;
   border-radius: 9999px;
@@ -64,7 +65,7 @@ body {
 }
 
 .btn-cta:hover {
-  background: linear-gradient(135deg, var(--color-cta-hover), #d4956b);
+  background: var(--color-cta-hover);
   transform: scale(1.03);
   box-shadow: 0 6px 20px rgba(212, 149, 107, 0.4);
 }
@@ -91,11 +92,13 @@ body {
 
 /* Section backgrounds */
 .section-light {
-  background: var(--color-bg-section);
+  /* 刷新：ピンク系から落ち着いたクリームへ */
+  background: #faf7f3;
 }
 
 .section-primary-light {
-  background: linear-gradient(135deg, var(--color-primary-light), #fef3e8);
+  /* 刷新：グラデーションをやめて単色のクリームに */
+  background: #f5efe7;
 }
 
 /* Sparkle animation */
@@ -114,4 +117,9 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* 写真に重ねる見出し用の明朝 */
+.font-mincho {
+  font-family: var(--font-shippori-mincho), "Hiragino Mincho ProN", "Yu Mincho", serif;
 }

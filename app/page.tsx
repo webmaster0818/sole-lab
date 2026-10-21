@@ -15,6 +15,7 @@ const products = [
   {
     name: "ピットソール",
     key: "pitsole" as const,
+    shot: "/images/official-pitsole.jpg",
     tagline: "特許取得の骨格矯正インソール",
     price: "1,771円〜/月",
     points: ["世界特許取得の独自構造", "累計販売数200万足突破（2025年4月時点・公式発表）", "骨格から姿勢をサポート"],
@@ -25,6 +26,7 @@ const products = [
   {
     name: "ランウェイキュアソール",
     key: "runway" as const,
+    shot: "/images/official-runway.jpg",
     tagline: "美姿勢サポートインソール",
     price: "1,650円〜/月",
     points: ["3つのアーチをサポート", "美姿勢で歩行をサポート", "薄型で靴を選ばない"],
@@ -35,6 +37,7 @@ const products = [
   {
     name: "スリムアップインソール",
     key: "slimup" as const,
+    shot: "/images/official-slimup.jpg",
     tagline: "コスパ重視のダイエットインソール",
     price: "1,100円〜/月",
     points: ["手頃な価格設定", "初めての方におすすめ", "シンプルな設計で使いやすい"],
@@ -120,50 +123,59 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
-      {/* Hero */}
-      <section className="relative overflow-hidden py-20 md:py-28">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#fdf2f4] via-[#fef3e8] to-[#f0fdf4]" />
-        <div className="absolute top-10 right-10 w-32 h-32 bg-[#e8627c]/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-10 left-10 w-40 h-40 bg-[#34d399]/10 rounded-full blur-3xl" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#c9a76c]/8 rounded-full blur-3xl" />
+      {/* Hero：画像は左右を切らずに全幅で出す（width:100% / height:auto） */}
+      <section className="relative">
+        <Image
+          src="/images/hero-walk.jpg"
+          alt=""
+          width={2000}
+          height={1334}
+          sizes="100vw"
+          priority
+          className="w-full h-auto block"
+        />
+        {/* 文字を読ませるための控えめな覆い */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/25 via-black/30 to-black/45" />
 
-        <div className="relative max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          <div className="text-center md:text-left">
-            <p className="inline-block text-xs font-semibold text-[#c9a76c] bg-[#f5eed6] px-3 py-1 rounded-full mb-4 tracking-wider">
-              DIET INSOLE COMPARISON
-            </p>
-            <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-              歩くだけで、
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-full max-w-3xl px-5 text-center">
+            <h1 className="font-mincho text-white leading-[1.9] tracking-[0.08em] text-[clamp(1.05rem,3.2vw,2.1rem)] [text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
+              いつもの靴に入れるだけで
               <br />
-              <span className="text-gradient-fresh">キレイは叶う。</span>
+              毎日の一歩が変わる。
+              <br />
+              もっと自分輝ける
             </h1>
-            <p className="text-gray-600 text-sm md:text-base max-w-lg mx-auto md:mx-0 mb-8 leading-relaxed">
-              忙しい毎日でも、いつもの靴に入れるだけ。
-              <br className="hidden md:block" />
-              人気のダイエットインソール3商品を比較して、
-              <br className="hidden md:block" />
-              あなたにぴったりの一足を見つけてください。
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
-              <Link href="/ranking/" className="btn-cta text-base md:text-lg">
-                おすすめランキングを見る
+
+            <div className="mt-[clamp(1rem,3vw,2.25rem)] flex flex-wrap gap-3 justify-center">
+              <Link
+                href="/ranking/"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-full border border-white/80 bg-white/95 px-[clamp(1rem,2.6vw,2rem)] py-[clamp(0.5rem,1.4vw,0.85rem)] text-[clamp(0.75rem,1.5vw,0.95rem)] text-[#3d2b2f] transition-colors hover:bg-white"
+              >
+                おすすめ3選を見る
               </Link>
-              <Link href="/diagnosis/" className="btn-outline text-base md:text-lg">
-                あなたに合う1足を診断
+              <Link
+                href="/diagnosis/"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-full border border-white/80 px-[clamp(1rem,2.6vw,2rem)] py-[clamp(0.5rem,1.4vw,0.85rem)] text-[clamp(0.75rem,1.5vw,0.95rem)] text-white transition-colors hover:bg-white/15"
+              >
+                自分に合う1足を診断
               </Link>
             </div>
           </div>
-          <div className="relative mx-auto w-full max-w-sm">
-            <div className="absolute -inset-4 bg-gradient-to-tr from-[#e8627c]/20 via-[#c9a76c]/15 to-[#34d399]/20 rounded-3xl blur-2xl" />
-            <Image
-              src="/images/hero-banner.png"
-              alt="自信を持って歩くキャリアウーマン"
-              width={400}
-              height={400}
-              className="relative rounded-2xl shadow-lg"
-              priority
-            />
-          </div>
+        </div>
+      </section>
+
+      {/* ヒーロー直下のリード */}
+      <section className="bg-[#faf7f3]">
+        <div className="max-w-3xl mx-auto px-5 py-12 md:py-16 text-center">
+          <p className="font-mincho text-[#3d2b2f] text-lg md:text-2xl leading-[2] tracking-[0.06em]">
+            無意識の一歩を、意識する一歩に
+          </p>
+          <p className="mt-5 text-sm md:text-base text-[#6b5b5e] leading-[2]">
+            ダイエットインソール3商品を、公式サイトの情報と実在する口コミをもとに比較しています。
+            <br className="hidden md:block" />
+            誇張のない事実だけを並べて、あなたに合う一足を選べるようにしました。
+          </p>
         </div>
       </section>
 
@@ -176,52 +188,93 @@ export default function Home() {
           <p className="text-sm text-gray-500 text-center mb-10">
             それぞれの特徴をひと目で確認できます
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {products.map((product) => (
-              <div key={product.name} className="card flex flex-col relative">
-                <span
-                  className="absolute -top-3 left-4 text-[11px] font-bold text-white px-3 py-1 rounded-full"
-                  style={{ backgroundColor: product.accent }}
-                >
-                  {product.badge}
-                </span>
-                <div
-                  className="h-1 rounded-full mb-4 mt-2"
-                  style={{ background: `linear-gradient(90deg, ${product.accent}, ${product.accent}80)` }}
-                />
-                <h3 className="text-lg font-bold text-gray-900 mb-1">
-                  {product.name}
-                </h3>
-                <p className="text-xs text-gray-500 mb-3">{product.tagline}</p>
-                <p className="text-sm font-semibold mb-4" style={{ color: product.accent }}>
-                  {product.price}
-                </p>
-                <ul className="space-y-2 mb-6 flex-1">
-                  {product.points.map((point) => (
-                    <li
-                      key={point}
-                      className="flex items-start gap-2 text-sm text-gray-600"
-                    >
-                      <span className="mt-0.5 shrink-0" style={{ color: product.accent }}>
-                        &#10003;
-                      </span>
-                      {point}
-                    </li>
+          {/* 横に並べた比較表。縦に伸びないよう、狭い画面では横スクロールにする */}
+          <div className="overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0">
+            <table className="w-full min-w-[680px] border-collapse bg-white border border-[#e8ded6] text-left">
+              <thead>
+                <tr>
+                  <th className="w-[92px] border-b border-[#e8ded6] bg-[#faf7f3] px-3 py-2 text-xs font-medium text-[#6b5b5e]">
+                    &nbsp;
+                  </th>
+                  {products.map((product) => (
+                    <th key={product.name} className="border-b border-l border-[#e8ded6] px-3 py-3 align-top">
+                      <Image
+                        src={product.shot}
+                        alt={`${product.name}の公式サイト`}
+                        width={900}
+                        height={570}
+                        sizes="(max-width: 768px) 33vw, 240px"
+                        className="w-full h-auto border border-[#e8ded6]"
+                      />
+                      <p className="mt-2 text-sm font-semibold text-[#3d2b2f]">{product.name}</p>
+                      <p className="mt-0.5 text-xs font-normal text-[#8a7b7e]">{product.tagline}</p>
+                    </th>
                   ))}
-                </ul>
-                <Link href={product.href} className="btn-outline text-sm w-full">
-                  詳しく見る
-                </Link>
-                <div className="mt-3 flex justify-center">
-                  <OfficialCTA
-                    product={product.key}
-                    label="公式サイトでチェック"
-                    className="btn-cta text-sm w-full text-center"
-                  />
-                </div>
-              </div>
-            ))}
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th className="border-b border-[#e8ded6] bg-[#faf7f3] px-3 py-2 align-top text-xs font-medium text-[#6b5b5e]">
+                    価格の目安
+                  </th>
+                  {products.map((product) => (
+                    <td key={product.name} className="border-b border-l border-[#e8ded6] px-3 py-2 text-sm text-[#3d2b2f]">
+                      {product.price}
+                    </td>
+                  ))}
+                </tr>
+                <tr>
+                  <th className="border-b border-[#e8ded6] bg-[#faf7f3] px-3 py-2 align-top text-xs font-medium text-[#6b5b5e]">
+                    特徴
+                  </th>
+                  {products.map((product) => (
+                    <td key={product.name} className="border-b border-l border-[#e8ded6] px-3 py-2 align-top text-sm text-[#6b5b5e]">
+                      <ul className="space-y-1.5">
+                        {product.points.map((point) => (
+                          <li key={point} className="leading-relaxed">
+                            {point}
+                          </li>
+                        ))}
+                      </ul>
+                    </td>
+                  ))}
+                </tr>
+                <tr>
+                  <th className="bg-[#faf7f3] px-3 py-2 align-top text-xs font-medium text-[#6b5b5e]">
+                    詳しく見る
+                  </th>
+                  {products.map((product) => (
+                    <td key={product.name} className="border-l border-[#e8ded6] px-3 py-3 align-top">
+                      <Link
+                        href={product.href}
+                        className="block rounded-full border border-[#c3a68f] px-3 py-2 text-center text-xs text-[#6b4c3a] transition-colors hover:bg-[#faf3ec]"
+                      >
+                        検証をよむ
+                      </Link>
+                      {/* OfficialCTA の外側の span を横幅いっぱいにして、上のボタンと幅をそろえる */}
+                      <div className="mt-2 [&>span]:flex [&>span]:w-full [&>span>a]:w-full">
+                        <OfficialCTA
+                          product={product.key}
+                          label="公式サイト"
+                          className="block rounded-full bg-[#b98f6b] px-3 py-2 text-center text-xs text-white transition-colors hover:bg-[#a67a56]"
+                        />
+                      </div>
+                    </td>
+                  ))}
+                </tr>
+              </tbody>
+            </table>
           </div>
+          <p className="mt-3 text-xs text-[#8a7b7e] leading-relaxed">
+            表の画像は各製品の公式サイトの画面です（2026年10月21日に取得）。
+            出典：
+            <a href="https://bacchus-inc.jp/" target="_blank" rel="noopener noreferrer nofollow" className="underline">BACCHUS ONLINE SHOP</a>
+            ／
+            <a href="https://flore-inc.co.jp/brand/runwaycuresole/" target="_blank" rel="noopener noreferrer nofollow" className="underline">FLORe</a>
+            ／
+            <a href="https://ichiban-boshi.com/shop/products/B_sui_s" target="_blank" rel="noopener noreferrer nofollow" className="underline">一番星</a>
+            。価格は各製品ページに記載の公式確認値です。
+          </p>
 
           {/* 1対1の比較への導線 */}
           <div className="mt-12">
@@ -254,7 +307,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {reasons.map((reason) => (
               <div key={reason.title} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-[#fdf2f4] to-[#fef3e8] text-[#e8627c] mb-4 shadow-sm">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#f3ece4] text-[#8a6a4f] mb-4 shadow-sm">
                   {reason.icon}
                 </div>
                 <h3 className="text-base font-bold text-gray-900 mb-2">
@@ -280,19 +333,18 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
             {[
-              { label: "足の症状・お悩み別", emoji: "🦶", href: "/articles/#symptom" },
-              { label: "スポーツ別の選び方", emoji: "🏃", href: "/articles/#sports" },
-              { label: "職業・立ち仕事別", emoji: "💼", href: "/articles/#job" },
-              { label: "靴の種類別", emoji: "👟", href: "/articles/#shoes" },
-              { label: "ダイエット・脚痩せ", emoji: "✨", href: "/articles/#diet" },
-              { label: "購入・販売店ガイド", emoji: "🛒", href: "/articles/#buy" },
+              { label: "足の症状・お悩み別", href: "/articles/#symptom" },
+              { label: "スポーツ別の選び方", href: "/articles/#sports" },
+              { label: "職業・立ち仕事別", href: "/articles/#job" },
+              { label: "靴の種類別", href: "/articles/#shoes" },
+              { label: "ダイエット・脚痩せ", href: "/articles/#diet" },
+              { label: "購入・販売店ガイド", href: "/articles/#buy" },
             ].map((cat) => (
               <Link
                 key={cat.href}
                 href={cat.href}
-                className="flex items-center gap-2 bg-white border border-[#f3e0e4] rounded-xl px-4 py-3 text-sm font-medium text-gray-700 hover:bg-[#fdf2f4] hover:text-[#e8627c] transition-colors"
+                className="block border border-[#e8ded6] bg-white px-4 py-3 text-sm text-[#3d2b2f] transition-colors hover:bg-[#faf7f3]"
               >
-                <span className="text-lg">{cat.emoji}</span>
                 {cat.label}
               </Link>
             ))}
@@ -320,7 +372,7 @@ export default function Home() {
                 <summary className="flex items-center justify-between cursor-pointer px-5 py-4 text-sm font-semibold text-gray-900 hover:bg-[#fdf2f4] rounded-xl transition-colors">
                   <span>{faq.question}</span>
                   <svg
-                    className="w-5 h-5 text-[#e8627c] shrink-0 ml-4 group-open:rotate-180 transition-transform"
+                    className="w-5 h-5 text-[#8a6a4f] shrink-0 ml-4 group-open:rotate-180 transition-transform"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
