@@ -132,25 +132,25 @@ export default function SwellingInsolePage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-[#fdf2f4] to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             足のお悩み解決ガイド
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             足のむくみ改善にインソールが
             <br />
-            <span className="text-[#e8627c]">効果的な理由</span>
+            <span className="text-[#8a6a4f]">効果的な理由</span>
             ｜おすすめと対策
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             「夕方になると足がパンパン」「靴がきつくなる」「脚が重だるい」。足のむくみは多くの方が日常的に感じている悩みです。本記事ではむくみの原因を分かりやすく解説し、インソールがなぜむくみ改善に効果的なのかそのメカニズムを紐解きます。おすすめ3商品のむくみへの効果と、インソール以外のむくみ対策もまとめました。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-[#fdf2f4] text-[#e8627c] px-3 py-1 rounded-full font-medium border border-[#f3e0e4]">
+            <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
               むくみ 改善 インソール
             </span>
-            <span className="bg-[#fdf2f4] text-[#e8627c] px-3 py-1 rounded-full font-medium border border-[#f3e0e4]">
+            <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
               足 浮腫み 対策
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -262,7 +262,7 @@ export default function SwellingInsolePage() {
             ].map((item) => (
               <div key={item.step} className="card">
                 <div className="flex items-start gap-3">
-                  <span className="bg-[#e8627c] text-white text-xs font-bold px-3 py-1 rounded-full shrink-0">
+                  <span className="bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full shrink-0">
                     {item.step}
                   </span>
                   <div>
@@ -342,14 +342,14 @@ export default function SwellingInsolePage() {
             ].map((item) => (
               <div key={item.rank} className="card">
                 <div className="flex items-start gap-4">
-                  <span className="text-3xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-3xl font-bold text-[#8a6a4f] shrink-0">
                     {item.rank}位
                   </span>
                   <div className="flex-1">
                     <h3 className="text-base md:text-lg font-bold text-gray-900 mb-1">
                       {item.name}
                     </h3>
-                    <p className="text-sm font-medium text-[#e8627c] mb-3">
+                    <p className="text-sm font-medium text-[#8a6a4f] mb-3">
                       {item.swellingEffect}
                     </p>
                     <ul className="space-y-1 mb-3">
@@ -358,7 +358,7 @@ export default function SwellingInsolePage() {
                           key={point}
                           className="text-sm text-gray-600 flex items-start gap-2"
                         >
-                          <span className="text-[#e8627c] shrink-0 mt-0.5">
+                          <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                             &#10003;
                           </span>
                           {point}
@@ -388,7 +388,7 @@ export default function SwellingInsolePage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d14d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングをもっと見る
             </Link>
@@ -558,7 +558,7 @@ export default function SwellingInsolePage() {
                       key={step}
                       className="text-sm text-gray-600 flex items-start gap-2"
                     >
-                      <span className="text-[#e8627c] font-bold shrink-0">
+                      <span className="text-[#8a6a4f] font-bold shrink-0">
                         {i + 1}.
                       </span>
                       {step}
@@ -655,7 +655,7 @@ export default function SwellingInsolePage() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -663,7 +663,7 @@ export default function SwellingInsolePage() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -693,7 +693,7 @@ export default function SwellingInsolePage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d14d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングを見る
             </Link>
@@ -708,7 +708,7 @@ export default function SwellingInsolePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/articles/standing-work/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 立ち仕事の疲れにインソールは効く？おすすめと選び方
@@ -716,7 +716,7 @@ export default function SwellingInsolePage() {
             </Link>
             <Link
               href="/articles/leg-slimming/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 脚痩せしたい人のインソール選びガイド
@@ -724,9 +724,9 @@ export default function SwellingInsolePage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>

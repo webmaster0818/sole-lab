@@ -134,12 +134,12 @@ export default function PitsoleNotWorkingPage() {
       {/* Hero */}
       <section className="bg-gradient-to-b from-red-50 to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             ピットソール検証
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソールは
-            <span className="text-[#e8627c]">痩せない</span>？
+            <span className="text-[#8a6a4f]">痩せない</span>？
             <br />
             やめた理由の真相と正しい使い方
           </h1>
@@ -147,10 +147,10 @@ export default function PitsoleNotWorkingPage() {
             「ピットソールを使ったけど痩せなかった」「やめた」という口コミを見て不安になっていませんか？この記事では、ネガティブな口コミの原因を徹底分析し、効果を最大化するための正しい使い方を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-red-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-red-100 text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               ピットソール 痩せない
             </span>
-            <span className="bg-red-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-red-100 text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               やめた理由
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -194,9 +194,9 @@ export default function PitsoleNotWorkingPage() {
           </div>
 
           <div className="space-y-6">
-            <div className="card border-l-4 border-l-[#e8627c]">
+            <div className="card border-l-4 border-l-[#8a6a4f]">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   01
                 </span>
                 <div>
@@ -208,7 +208,7 @@ export default function PitsoleNotWorkingPage() {
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
-                      <span className="font-bold text-[#e8627c]">実態：</span>
+                      <span className="font-bold text-[#8a6a4f]">実態：</span>
                       臨床試験では週5日使用で3ヶ月後に平均2kgの変化が報告されています。1週間で劇的な変化を求めるのは現実的ではありません。最低でも2〜3ヶ月の継続が必要です。
                     </p>
                   </div>
@@ -216,9 +216,9 @@ export default function PitsoleNotWorkingPage() {
               </div>
             </div>
 
-            <div className="card border-l-4 border-l-[#e8627c]">
+            <div className="card border-l-4 border-l-[#8a6a4f]">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   02
                 </span>
                 <div>
@@ -230,7 +230,7 @@ export default function PitsoleNotWorkingPage() {
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
-                      <span className="font-bold text-[#e8627c]">実態：</span>
+                      <span className="font-bold text-[#8a6a4f]">実態：</span>
                       1ヶ月目は足裏の感覚変化や姿勢の改善が始まる段階です。体重計に反映されるのは早くても2ヶ月目以降。3ヶ月目以降にボディラインの変化を実感する方が増えます。
                     </p>
                   </div>
@@ -238,9 +238,9 @@ export default function PitsoleNotWorkingPage() {
               </div>
             </div>
 
-            <div className="card border-l-4 border-l-[#e8627c]">
+            <div className="card border-l-4 border-l-[#8a6a4f]">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   03
                 </span>
                 <div>
@@ -252,7 +252,7 @@ export default function PitsoleNotWorkingPage() {
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
-                      <span className="font-bold text-[#e8627c]">実態：</span>
+                      <span className="font-bold text-[#8a6a4f]">実態：</span>
                       効果を実感している方の多くは1日6,000〜8,000歩以上歩いています。通勤や買い物で歩く機会を意識的に増やすことが、効果実感への近道です。
                     </p>
                   </div>
@@ -283,7 +283,7 @@ export default function PitsoleNotWorkingPage() {
                 percentage: "38%",
                 detail:
                   "最も多い理由です。前述の通り、使用期間が短い（1ヶ月未満）、歩行量が少ない（1日3,000歩以下）というケースが大半を占めています。ピットソールは即効性のあるダイエット商品ではなく、日常の歩行を通じて徐々に体質を改善するアイテムのため、効果を感じるまでに2〜3ヶ月の継続が必要です。",
-                color: "text-[#e8627c]",
+                color: "text-[#8a6a4f]",
               },
               {
                 rank: "2位",
@@ -315,7 +315,7 @@ export default function PitsoleNotWorkingPage() {
                 percentage: "9%",
                 detail:
                   "ピットソールの骨格サポート構造はしっかりとした硬さがあるため、最初は違和感や軽い痛みを感じる方がいます。これは足裏のアーチが正しい位置に矯正されることによる初期反応で、通常1〜2週間で慣れます。痛みが強い場合は1日の使用時間を短くし、徐々に延ばしていくのがおすすめです。",
-                color: "text-purple-600",
+                color: "text-[#8a6a4f]",
               },
             ].map((item) => (
               <div key={item.rank} className="card">
@@ -386,7 +386,7 @@ export default function PitsoleNotWorkingPage() {
             </div>
 
             <div className="card bg-red-50 border-red-200">
-              <h3 className="text-base font-bold text-[#e8627c] mb-4">
+              <h3 className="text-base font-bold text-[#8a6a4f] mb-4">
                 期待できない効果
               </h3>
               <ul className="space-y-3">
@@ -403,7 +403,7 @@ export default function PitsoleNotWorkingPage() {
                     key={item}
                     className="text-sm text-gray-700 flex items-start gap-2"
                   >
-                    <span className="text-[#e8627c] shrink-0 mt-0.5">
+                    <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                       &#10007;
                     </span>
                     {item}
@@ -564,7 +564,7 @@ export default function PitsoleNotWorkingPage() {
             </div>
 
             <div className="card">
-              <h3 className="text-base font-bold text-[#e8627c] mb-4">
+              <h3 className="text-base font-bold text-[#8a6a4f] mb-4">
                 向いていない人
               </h3>
               <ul className="space-y-3">
@@ -581,7 +581,7 @@ export default function PitsoleNotWorkingPage() {
                     key={item}
                     className="text-sm text-gray-600 flex items-start gap-2"
                   >
-                    <span className="text-[#e8627c] shrink-0 mt-0.5">
+                    <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                       &#10007;
                     </span>
                     {item}
@@ -729,7 +729,7 @@ export default function PitsoleNotWorkingPage() {
             ].map((item) => (
               <div key={item.num} className="card">
                 <div className="flex items-start gap-3">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <div>
@@ -784,7 +784,7 @@ export default function PitsoleNotWorkingPage() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -792,7 +792,7 @@ export default function PitsoleNotWorkingPage() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -822,7 +822,7 @@ export default function PitsoleNotWorkingPage() {
           <div className="mt-8 text-center">
             <Link
               href="/pitsole/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ピットソールの詳細レビューを見る
             </Link>
@@ -837,7 +837,7 @@ export default function PitsoleNotWorkingPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/pitsole/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ピットソールの口コミ・効果を検証【累計200万足の実力】
@@ -845,15 +845,15 @@ export default function PitsoleNotWorkingPage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>
             <Link
               href="/articles/pitsole-timeline/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ピットソールの効果はいつから？期間別ビフォーアフター検証
@@ -861,7 +861,7 @@ export default function PitsoleNotWorkingPage() {
             </Link>
             <Link
               href="/articles/insole-truth/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ダイエットインソールは嘘？効果の科学的根拠を検証

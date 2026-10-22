@@ -69,8 +69,8 @@ export default function HeelPainPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">「朝起きて最初の一歩でかかとが痛い」「歩くとかかとにズキッと響く」——その痛みの多くは、かかとへの衝撃や足裏のアーチの崩れが関係しています。インソールはかかとへの負担を分散する補助手段として活用できます。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">かかとの痛みには、かかとを深く包む「ヒールカップ」と土踏まずのアーチサポートが付いたインソールが向いています。ただし痛みが強い・長引く場合は足底腱膜炎などの可能性があるため、まず整形外科の受診を優先してください。</p>
         </div>
 
@@ -100,7 +100,7 @@ export default function HeelPainPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">かかとの痛みにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">かかとの安定とアーチサポートを兼ね備えたインソールを選ぶのがポイントです。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">かかとの安定とアーチサポートを兼ね備えたインソールを選ぶのがポイントです。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -111,9 +111,9 @@ export default function HeelPainPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -147,7 +147,7 @@ export default function HeelPainPage() {
               <p className="text-sm text-gray-700 leading-relaxed">成長期には、かかとの骨の成長部分にスポーツなどの負荷が集中して痛みが出ることがあるとされています。大人と同じ対処を自己判断で行わず、整形外科で相談してください。</p>
             </div>
           </div>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">なお、かかとの痛みは<Link href="/articles/splay-foot-insole/" className="text-[#e8627c] underline">開張足</Link>や<Link href="/articles/morton-disease-insole/" className="text-[#e8627c] underline">モートン病</Link>など、足の前側のトラブルと同じ「アーチの崩れ」を背景に持つことがあります。複数の部位が痛む場合も、まず医療機関で全体を診てもらうのが安心です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">なお、かかとの痛みは<Link href="/articles/splay-foot-insole/" className="text-[#8a6a4f] underline">開張足</Link>や<Link href="/articles/morton-disease-insole/" className="text-[#8a6a4f] underline">モートン病</Link>など、足の前側のトラブルと同じ「アーチの崩れ」を背景に持つことがあります。複数の部位が痛む場合も、まず医療機関で全体を診てもらうのが安心です。</p>
         </section>
 
         <section className="mb-12">
@@ -158,7 +158,7 @@ export default function HeelPainPage() {
             <li><span className="font-bold">アーチサポート重視が向くケース：</span>朝の一歩目が痛い、土踏まずがつっぱる感じがある、扁平足ぎみと言われた——など、アーチの崩れによる引っ張りが疑われるタイプ</li>
             <li><span className="font-bold">迷ったら両方を備えたタイプ：</span>市販インソールの多くはヒールカップ・クッション・アーチサポートを兼ね備えています。素材は一般に、ジェル系は衝撃吸収寄り、やや硬さのある樹脂系は支持力寄りの性格があります</li>
           </ul>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">どの機能を重視すべきか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問でわかるタイプ診断</Link>も参考になります。また、インソールは靴に正しくフィットしていないとかかとが浮いて逆効果になるため、<Link href="/articles/size-adjustment/" className="text-[#e8627c] underline">サイズ調整の手順</Link>もあわせて確認してください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">どの機能を重視すべきか迷う場合は、<Link href="/diagnosis/" className="text-[#8a6a4f] underline font-medium">6つの質問でわかるタイプ診断</Link>も参考になります。また、インソールは靴に正しくフィットしていないとかかとが浮いて逆効果になるため、<Link href="/articles/size-adjustment/" className="text-[#8a6a4f] underline">サイズ調整の手順</Link>もあわせて確認してください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">いずれの場合も、インソールは負担軽減の補助であり治療ではありません。強い痛み・腫れ・熱っぽさがある、安静にしても改善しない場合は整形外科を受診してください。</p>
         </section>
 
@@ -174,17 +174,17 @@ export default function HeelPainPage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">かかとの痛みをやわらげる、アーチサポートの効いたインソールを比較してんでください。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

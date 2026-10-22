@@ -541,19 +541,19 @@ export default function CheapInsolePage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/articles/pitsole-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/pitsole-coupon/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールのクーポン・キャンペーン情報</p>
               <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を解説</p>
             </Link>
-            <Link href="/articles/runway-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/runway-coupon/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのクーポン・キャンペーン情報</p>
               <p className="text-xs text-gray-500 mt-1">2026年最新のセット割引・最安値情報</p>
             </Link>
-            <Link href="/articles/slimup-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/slimup-coupon/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールの最安値・キャンペーン情報</p>
               <p className="text-xs text-gray-500 mt-1">3足+1足プレゼントの詳細と購入方法</p>
             </Link>
-            <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/ranking/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
@@ -610,7 +610,7 @@ export default function CheapInsolePage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               おすすめインソールランキングを見る
             </Link>

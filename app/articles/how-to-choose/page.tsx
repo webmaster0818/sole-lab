@@ -505,7 +505,7 @@ export default function HowToChoosePage() {
                     key={point}
                     className="text-sm text-gray-600 flex items-start gap-2"
                   >
-                    <span className="text-purple-500 shrink-0 mt-0.5">
+                    <span className="text-[#a67a56] shrink-0 mt-0.5">
                       &#10003;
                     </span>
                     {point}
@@ -522,7 +522,7 @@ export default function HowToChoosePage() {
               </div>
               <Link
                 href="/runway-cure-sole/"
-                className="text-purple-600 hover:text-purple-700 text-sm font-medium transition-colors"
+                className="text-[#8a6a4f] hover:text-[#6f543c] text-sm font-medium transition-colors"
               >
                 ランウェイキュアソールの詳細を見る &rarr;
               </Link>
@@ -729,17 +729,17 @@ export default function HowToChoosePage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/articles/insole-truth/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/insole-truth/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールは嘘？効果の科学的根拠を検証</p>
             </Link>
-            <Link href="/articles/walking-diet/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/walking-diet/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">歩くだけダイエットは本当に効果ある？インソールで効率UP</p>
             </Link>
-            <Link href="/articles/standing-work/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/standing-work/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">立ち仕事で足が疲れない最強インソール3選</p>
             </Link>
-            <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50">
-              <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>
+            <Link href="/ranking/" className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50">
+              <p className="text-sm font-semibold text-[#8a6a4f]">おすすめダイエットインソール3選を見る →</p>
             </Link>
           </div>
         </div>

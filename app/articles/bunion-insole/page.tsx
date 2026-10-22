@@ -140,25 +140,25 @@ export default function BunionInsolePage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-[#fdf2f4] to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             足のお悩み解決ガイド
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             外反母趾にインソールは効果ある？
             <br />
-            <span className="text-[#e8627c]">痛みを軽減する</span>
+            <span className="text-[#8a6a4f]">痛みを軽減する</span>
             おすすめと注意点
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             「親指の付け根が痛い」「靴を履くと母趾球が当たって辛い」。外反母趾は日本人女性の約30%が抱えると言われる代表的な足のトラブルです。本記事では外反母趾の原因と症状、インソールによる改善メカニズム、ダイエットインソール3商品の外反母趾対応比較、そして整形外科を受診すべき目安まで解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-[#fdf2f4] text-[#e8627c] px-3 py-1 rounded-full font-medium border border-[#f3e0e4]">
+            <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
               外反母趾 インソール おすすめ
             </span>
-            <span className="bg-[#fdf2f4] text-[#e8627c] px-3 py-1 rounded-full font-medium border border-[#f3e0e4]">
+            <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
               痛くない
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -206,7 +206,7 @@ export default function BunionInsolePage() {
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="border-b-2 border-[#f3e0e4]">
+                  <tr className="border-b-2 border-[#e8ded6]">
                     <th className="py-2 text-left text-gray-500 font-medium">
                       段階
                     </th>
@@ -371,7 +371,7 @@ export default function BunionInsolePage() {
                 rank: "1",
                 name: "ピットソール（Pitsole）",
                 verdict: "外反母趾対応：良好",
-                verdictColor: "text-[#34d399]",
+                verdictColor: "text-[#a67a56]",
                 reason:
                   "3点アーチサポート（内側縦・外側縦・横アーチ）を搭載しているため、外反母趾の根本原因である横アーチの崩れに直接アプローチできます。横アーチサポートが開張足を補整し、母趾球への荷重を分散させる効果が期待できます。つま先部分のスペースも比較的余裕があり、外反母趾の方にも使いやすい設計です。",
                 points: [
@@ -401,7 +401,7 @@ export default function BunionInsolePage() {
                 rank: "3",
                 name: "ランウェイキュアソール",
                 verdict: "外反母趾対応：要注意",
-                verdictColor: "text-[#e8627c]",
+                verdictColor: "text-[#8a6a4f]",
                 reason:
                   "整体師監修の骨盤補整設計で姿勢改善効果は高いのですが、外反母趾の方は注意が必要です。薄型設計のためヒール靴にも対応しますが、その分アーチサポートの厚みが限定的です。また、ヒール靴自体が外反母趾を悪化させるリスクがあるため、外反母趾の方がヒール靴で使用する場合はかえって逆効果になる可能性があります。",
                 points: [
@@ -415,7 +415,7 @@ export default function BunionInsolePage() {
             ].map((item) => (
               <div key={item.rank} className="card">
                 <div className="flex items-start gap-4 mb-4">
-                  <span className="text-3xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-3xl font-bold text-[#8a6a4f] shrink-0">
                     {item.rank}位
                   </span>
                   <div>
@@ -436,7 +436,7 @@ export default function BunionInsolePage() {
                       key={point}
                       className="text-sm text-gray-600 flex items-start gap-2"
                     >
-                      <span className="text-[#e8627c] shrink-0 mt-0.5">
+                      <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                         &#10003;
                       </span>
                       {point}
@@ -456,7 +456,7 @@ export default function BunionInsolePage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d14d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングをもっと見る
             </Link>
@@ -516,13 +516,13 @@ export default function BunionInsolePage() {
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-8">
             <p>
               いずれの製品も<span className="font-bold">医療的な治療効果を保証するものではなく</span>、合う・合わないには個人差があります。外反母趾の予防や横アーチのケアについては
-              <Link href="/articles/hallux-valgus-prevention/" className="text-[#e8627c] underline font-medium">外反母趾の予防とインソール</Link>
+              <Link href="/articles/hallux-valgus-prevention/" className="text-[#8a6a4f] underline font-medium">外反母趾の予防とインソール</Link>
               、指が地面につかない浮き指が気になる方は
-              <Link href="/articles/floating-toe-insole/" className="text-[#e8627c] underline font-medium">浮き指のインソール</Link>
+              <Link href="/articles/floating-toe-insole/" className="text-[#8a6a4f] underline font-medium">浮き指のインソール</Link>
               もあわせてご覧ください。自分に合いやすい製品を知りたい方は
-              <Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソール診断</Link>
+              <Link href="/diagnosis/" className="text-[#8a6a4f] underline font-medium">インソール診断</Link>
               、比較して選びたい方は
-              <Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>
+              <Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>
               が参考になります。痛みが強い場合は自己判断せず整形外科にご相談ください。
             </p>
           </div>
@@ -747,7 +747,7 @@ export default function BunionInsolePage() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -755,7 +755,7 @@ export default function BunionInsolePage() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -785,7 +785,7 @@ export default function BunionInsolePage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d14d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングを見る
             </Link>
@@ -800,7 +800,7 @@ export default function BunionInsolePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/articles/o-leg-insole/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 O脚改善にインソールは効果ある？おすすめと選び方ガイド
@@ -808,7 +808,7 @@ export default function BunionInsolePage() {
             </Link>
             <Link
               href="/articles/flat-feet/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 扁平足・浮き指にインソールは効果ある？おすすめ3選
@@ -816,9 +816,9 @@ export default function BunionInsolePage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>

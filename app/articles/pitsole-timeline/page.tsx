@@ -129,14 +129,14 @@ export default function PitsoleTimelinePage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-purple-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-purple-600 font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             ピットソール効果検証
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソールの効果は
-            <span className="text-purple-600">いつから</span>？
+            <span className="text-[#8a6a4f]">いつから</span>？
             <br />
             期間別ビフォーアフター検証
           </h1>
@@ -144,10 +144,10 @@ export default function PitsoleTimelinePage() {
             ピットソールを使い始めたらいつ頃から効果を実感できるのか？多くの競合サイトでは個人の体験談1例だけで語られていますが、この記事では期間別（1週間〜半年）の変化タイムラインを臨床試験データと多数の口コミから総合的に検証します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#6f543c] px-3 py-1 rounded-full font-medium">
               効果いつから
             </span>
-            <span className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#6f543c] px-3 py-1 rounded-full font-medium">
               ビフォーアフター
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -239,7 +239,7 @@ export default function PitsoleTimelinePage() {
                         {row.period}
                       </td>
                       <td className="py-3 text-gray-600">{row.change}</td>
-                      <td className="py-3 text-purple-600 font-medium">
+                      <td className="py-3 text-[#8a6a4f] font-medium">
                         {row.level}
                       </td>
                     </tr>
@@ -280,7 +280,7 @@ export default function PitsoleTimelinePage() {
                   "靴を履いたときのフィット感が変わる",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span className="text-purple-500 shrink-0 mt-0.5">
+                    <span className="text-[#a67a56] shrink-0 mt-0.5">
                       &#10003;
                     </span>
                     {item}
@@ -379,8 +379,8 @@ export default function PitsoleTimelinePage() {
             </p>
           </div>
 
-          <div className="card mt-6 border-2 border-purple-200 bg-purple-50">
-            <h3 className="text-base font-bold text-purple-700 mb-4">
+          <div className="card mt-6 border-2 border-[#e8ded6] bg-[#faf7f3]">
+            <h3 className="text-base font-bold text-[#6f543c] mb-4">
               臨床試験データ
             </h3>
             <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
@@ -408,7 +408,7 @@ export default function PitsoleTimelinePage() {
                   "体力が向上し、長時間歩いても疲れにくい",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span className="text-purple-500 shrink-0 mt-0.5">
+                    <span className="text-[#a67a56] shrink-0 mt-0.5">
                       &#10003;
                     </span>
                     {item}
@@ -431,7 +431,7 @@ export default function PitsoleTimelinePage() {
                   "週1回の記録を欠かさない",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span className="text-purple-500 shrink-0 mt-0.5">
+                    <span className="text-[#a67a56] shrink-0 mt-0.5">
                       &#10003;
                     </span>
                     {item}
@@ -529,7 +529,7 @@ export default function PitsoleTimelinePage() {
             ].map((item) => (
               <div key={item.num} className="card">
                 <div className="flex items-start gap-3">
-                  <span className="text-2xl font-bold text-purple-600 shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <div>
@@ -582,7 +582,7 @@ export default function PitsoleTimelinePage() {
               },
             ].map((item) => (
               <div key={item.feature} className="card">
-                <h3 className="text-base font-bold text-[#e8627c] mb-2">
+                <h3 className="text-base font-bold text-[#8a6a4f] mb-2">
                   {item.feature}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
@@ -624,7 +624,7 @@ export default function PitsoleTimelinePage() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-purple-600 shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -632,7 +632,7 @@ export default function PitsoleTimelinePage() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-purple-600 font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -662,7 +662,7 @@ export default function PitsoleTimelinePage() {
           <div className="mt-8 text-center">
             <Link
               href="/pitsole/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ピットソールの詳細レビューを見る
             </Link>
@@ -677,7 +677,7 @@ export default function PitsoleTimelinePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/pitsole/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ピットソールの口コミ・効果を検証【累計200万足の実力】
@@ -685,15 +685,15 @@ export default function PitsoleTimelinePage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>
             <Link
               href="/articles/pitsole-not-working/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ピットソールは痩せない？やめた理由の真相と正しい使い方
@@ -701,7 +701,7 @@ export default function PitsoleTimelinePage() {
             </Link>
             <Link
               href="/articles/diet-mechanism/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 インソールでダイエットできる仕組みを科学的に解説

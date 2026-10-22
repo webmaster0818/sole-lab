@@ -135,15 +135,15 @@ export default function RunwayCureSolePricePage() {
       <Breadcrumb items={[{ label: "ランウェイキュアソール", href: "/runway-cure-sole/" }, { label: "最安値・販売店" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-purple-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#8b5cf6] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年4月最新版
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ランウェイキュアソールの
             <br className="md:hidden" />
-            <span className="text-[#8b5cf6]">最安値・販売店</span>情報
+            <span className="text-[#8a6a4f]">最安値・販売店</span>情報
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             ランウェイキュアソールはどこで買えるのか、最もお得に購入できる方法を調査しました。
@@ -167,7 +167,7 @@ export default function RunwayCureSolePricePage() {
             <li>
               <a
                 href="#cheapest"
-                className="hover:text-[#8b5cf6] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 1. 最安値で買えるのはここ！
               </a>
@@ -175,7 +175,7 @@ export default function RunwayCureSolePricePage() {
             <li>
               <a
                 href="#comparison"
-                className="hover:text-[#8b5cf6] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 2. 販売チャネル別の価格比較
               </a>
@@ -183,7 +183,7 @@ export default function RunwayCureSolePricePage() {
             <li>
               <a
                 href="#set-discount"
-                className="hover:text-[#8b5cf6] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 3. 公式サイトのセット割引詳細
               </a>
@@ -191,7 +191,7 @@ export default function RunwayCureSolePricePage() {
             <li>
               <a
                 href="#rakuten-amazon"
-                className="hover:text-[#8b5cf6] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 4. 楽天・Amazonでの取り扱い状況
               </a>
@@ -199,7 +199,7 @@ export default function RunwayCureSolePricePage() {
             <li>
               <a
                 href="#no-store"
-                className="hover:text-[#8b5cf6] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 5. 実店舗では買えない
               </a>
@@ -207,7 +207,7 @@ export default function RunwayCureSolePricePage() {
             <li>
               <a
                 href="#checklist"
-                className="hover:text-[#8b5cf6] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 6. 購入前のチェックポイント
               </a>
@@ -215,7 +215,7 @@ export default function RunwayCureSolePricePage() {
             <li>
               <a
                 href="#faq"
-                className="hover:text-[#8b5cf6] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 7. よくある質問（FAQ）
               </a>
@@ -223,7 +223,7 @@ export default function RunwayCureSolePricePage() {
             <li>
               <a
                 href="#summary"
-                className="hover:text-[#8b5cf6] transition-colors"
+                className="hover:text-[#8a6a4f] transition-colors"
               >
                 8. まとめ
               </a>
@@ -236,15 +236,15 @@ export default function RunwayCureSolePricePage() {
       <div className="max-w-4xl mx-auto px-4 pb-16 space-y-14">
         {/* Section 1: 最安値で買えるのはここ！ */}
         <section id="cheapest">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8a6a4f]">
             最安値で買えるのはここ！
           </h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             ランウェイキュアソールを最安値で購入できるのは、販売元である<strong>FLOReショップ公式サイト</strong>です。
             公式サイトでは単品購入に加え、セット購入による割引が用意されており、まとめ買いするほど1足あたりの価格が安くなります。
           </p>
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-5 md:p-6">
-            <p className="text-sm font-bold text-[#8b5cf6] mb-2">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-6">
+            <p className="text-sm font-bold text-[#8a6a4f] mb-2">
               結論：公式サイトのセット購入が最安
             </p>
             <p className="text-sm text-gray-700 leading-relaxed">
@@ -262,7 +262,7 @@ export default function RunwayCureSolePricePage() {
 
         {/* Section 2: 販売チャネル別の価格比較 */}
         <section id="comparison">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8a6a4f]">
             販売チャネル別の価格比較
           </h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -288,8 +288,8 @@ export default function RunwayCureSolePricePage() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-purple-50">
-                  <td className="border border-gray-200 px-4 py-3 font-semibold text-[#8b5cf6]">
+                <tr className="bg-[#faf7f3]">
+                  <td className="border border-gray-200 px-4 py-3 font-semibold text-[#8a6a4f]">
                     FLOReショップ公式
                   </td>
                   <td className="border border-gray-200 px-4 py-3 text-gray-700">
@@ -354,7 +354,7 @@ export default function RunwayCureSolePricePage() {
 
         {/* Section 3: 公式サイトのセット割引詳細 */}
         <section id="set-discount">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8a6a4f]">
             公式サイトのセット割引詳細
           </h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -392,7 +392,7 @@ export default function RunwayCureSolePricePage() {
 
         {/* Section 4: 楽天・Amazonでの取り扱い状況 */}
         <section id="rakuten-amazon">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8a6a4f]">
             楽天・Amazonでの取り扱い状況
           </h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -438,7 +438,7 @@ export default function RunwayCureSolePricePage() {
 
         {/* Section 5: 実店舗では買えない */}
         <section id="no-store">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8a6a4f]">
             実店舗では買えない
           </h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -473,7 +473,7 @@ export default function RunwayCureSolePricePage() {
 
         {/* Section 6: 購入前のチェックポイント */}
         <section id="checklist">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8a6a4f]">
             購入前のチェックポイント
           </h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -515,7 +515,7 @@ export default function RunwayCureSolePricePage() {
 
         {/* Section 7: よくある質問 */}
         <section id="faq">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8a6a4f]">
             よくある質問（FAQ）
           </h2>
           <div className="space-y-4">
@@ -547,7 +547,7 @@ export default function RunwayCureSolePricePage() {
               >
                 <summary className="flex items-center justify-between cursor-pointer p-4 md:p-5 text-sm font-semibold text-gray-900">
                   <span>{faq.q}</span>
-                  <span className="ml-2 text-[#8b5cf6] group-open:rotate-180 transition-transform">
+                  <span className="ml-2 text-[#8a6a4f] group-open:rotate-180 transition-transform">
                     <svg
                       className="w-4 h-4"
                       fill="none"
@@ -575,16 +575,16 @@ export default function RunwayCureSolePricePage() {
 
         {/* Section 8: まとめ */}
         <section id="summary">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4 pb-2 border-b-2 border-[#8a6a4f]">
             まとめ
           </h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             ランウェイキュアソールの購入先と最安値情報をまとめると、以下のとおりです。
           </p>
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-5 md:p-6">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-6">
             <ul className="space-y-2 text-sm text-gray-700">
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] font-bold mt-0.5 shrink-0">
+                <span className="text-[#8a6a4f] font-bold mt-0.5 shrink-0">
                   1.
                 </span>
                 <span>
@@ -593,7 +593,7 @@ export default function RunwayCureSolePricePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] font-bold mt-0.5 shrink-0">
+                <span className="text-[#8a6a4f] font-bold mt-0.5 shrink-0">
                   2.
                 </span>
                 <span>
@@ -601,7 +601,7 @@ export default function RunwayCureSolePricePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] font-bold mt-0.5 shrink-0">
+                <span className="text-[#8a6a4f] font-bold mt-0.5 shrink-0">
                   3.
                 </span>
                 <span>
@@ -609,7 +609,7 @@ export default function RunwayCureSolePricePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] font-bold mt-0.5 shrink-0">
+                <span className="text-[#8a6a4f] font-bold mt-0.5 shrink-0">
                   4.
                 </span>
                 <span>
@@ -617,7 +617,7 @@ export default function RunwayCureSolePricePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] font-bold mt-0.5 shrink-0">
+                <span className="text-[#8a6a4f] font-bold mt-0.5 shrink-0">
                   5.
                 </span>
                 <span>
@@ -639,7 +639,7 @@ export default function RunwayCureSolePricePage() {
           </p>
           <Link
             href="/runway-cure-sole/"
-            className="inline-block bg-[#8b5cf6] hover:bg-[#7c3aed] text-white text-sm font-semibold px-6 py-3 rounded-lg transition-colors"
+            className="inline-block bg-[#8a6a4f] hover:bg-[#7c3aed] text-white text-sm font-semibold px-6 py-3 rounded-lg transition-colors"
           >
             口コミ・効果の詳細を見る
           </Link>

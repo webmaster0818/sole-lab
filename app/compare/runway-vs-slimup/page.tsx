@@ -96,9 +96,9 @@ export default function RunwayVsSlimupPage() {
       <Breadcrumb items={[{ label: "ランウェイキュアソール vs スリムアップインソール" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-indigo-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-indigo-600 font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年4月最新版 ・ 比較検証
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
@@ -106,7 +106,7 @@ export default function RunwayVsSlimupPage() {
             <br className="md:hidden" />
             スリムアップインソール
             <br />
-            <span className="text-indigo-600">比較！</span>
+            <span className="text-[#8a6a4f]">比較！</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             女性向け美姿勢インソール「ランウェイキュアソール」と整体師監修の「スリムアップインソール」。
@@ -126,47 +126,47 @@ export default function RunwayVsSlimupPage() {
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#overview" className="hover:text-indigo-600 transition-colors">
+              <a href="#overview" className="hover:text-[#8a6a4f] transition-colors">
                 1. 両商品の基本情報を比較
               </a>
             </li>
             <li>
-              <a href="#price" className="hover:text-indigo-600 transition-colors">
+              <a href="#price" className="hover:text-[#8a6a4f] transition-colors">
                 2. 価格・コスパ比較
               </a>
             </li>
             <li>
-              <a href="#features" className="hover:text-indigo-600 transition-colors">
+              <a href="#features" className="hover:text-[#8a6a4f] transition-colors">
                 3. 機能・技術の違い
               </a>
             </li>
             <li>
-              <a href="#size" className="hover:text-indigo-600 transition-colors">
+              <a href="#size" className="hover:text-[#8a6a4f] transition-colors">
                 4. サイズ展開・対象ユーザー
               </a>
             </li>
             <li>
-              <a href="#reputation" className="hover:text-indigo-600 transition-colors">
+              <a href="#reputation" className="hover:text-[#8a6a4f] transition-colors">
                 5. 口コミ・評判の比較
               </a>
             </li>
             <li>
-              <a href="#credibility" className="hover:text-indigo-600 transition-colors">
+              <a href="#credibility" className="hover:text-[#8a6a4f] transition-colors">
                 6. 信頼性・監修・メディア実績
               </a>
             </li>
             <li>
-              <a href="#recommend" className="hover:text-indigo-600 transition-colors">
+              <a href="#recommend" className="hover:text-[#8a6a4f] transition-colors">
                 7. こんな人にはこちらがおすすめ
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-indigo-600 transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 8. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-indigo-600 transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 9. まとめ
               </a>
             </li>
@@ -176,7 +176,7 @@ export default function RunwayVsSlimupPage() {
 
       {/* Section 1: Overview Comparison */}
       <section id="overview" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           両商品の基本情報を比較
         </h2>
 
@@ -190,7 +190,7 @@ export default function RunwayVsSlimupPage() {
             <thead>
               <tr className="bg-gray-50 border-b border-gray-200">
                 <th className="text-left px-4 py-3 font-semibold text-gray-900">比較項目</th>
-                <th className="text-center px-4 py-3 font-semibold text-[#8b5cf6]">ランウェイキュアソール</th>
+                <th className="text-center px-4 py-3 font-semibold text-[#8a6a4f]">ランウェイキュアソール</th>
                 <th className="text-center px-4 py-3 font-semibold text-emerald-600">スリムアップインソール</th>
               </tr>
             </thead>
@@ -255,7 +255,7 @@ export default function RunwayVsSlimupPage() {
       {/* Section 2: Price Comparison */}
       <section id="price" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             価格・コスパ比較
           </h2>
 
@@ -266,8 +266,8 @@ export default function RunwayVsSlimupPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             {/* Runway */}
-            <div className="bg-white border border-purple-200 rounded-xl p-5">
-              <p className="text-sm font-bold text-[#8b5cf6] mb-4">ランウェイキュアソール</p>
+            <div className="bg-white border border-[#e8ded6] rounded-xl p-5">
+              <p className="text-sm font-bold text-[#8a6a4f] mb-4">ランウェイキュアソール</p>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex justify-between">
                   <span>1足（単品）</span>
@@ -279,7 +279,7 @@ export default function RunwayVsSlimupPage() {
                 </li>
                 <li className="flex justify-between items-center">
                   <span>3足セット</span>
-                  <span className="font-bold text-[#8b5cf6]">17,960円（1足約5,987円）</span>
+                  <span className="font-bold text-[#8a6a4f]">17,960円（1足約5,987円）</span>
                 </li>
               </ul>
               <p className="mt-3 text-xs text-gray-500">販売元：FLOReショップ公式サイト</p>
@@ -312,19 +312,19 @@ export default function RunwayVsSlimupPage() {
             </p>
             <ul className="space-y-1.5 text-sm text-gray-600">
               <li className="flex items-start gap-2">
-                <span className="text-indigo-600 mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 単品価格はどちらも6,980円（税込）で同額（2026年6月時点の公式表示）
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-indigo-600 mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 セット購入の最安単価はスリムアップインソールが有利（実質4,480円 vs 約5,987円）
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-indigo-600 mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 スリムアップインソールは3足セットに+1足無料が付くのが特徴
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-indigo-600 mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 コスパ重視ならランウェイキュアソールのセット購入がお得
               </li>
             </ul>
@@ -334,7 +334,7 @@ export default function RunwayVsSlimupPage() {
 
       {/* Section 3: Features */}
       <section id="features" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           機能・技術の違い
         </h2>
 
@@ -344,8 +344,8 @@ export default function RunwayVsSlimupPage() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-5">
-            <p className="text-sm font-bold text-[#8b5cf6] mb-3">ランウェイキュアソール</p>
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5">
+            <p className="text-sm font-bold text-[#8a6a4f] mb-3">ランウェイキュアソール</p>
             <h3 className="text-base font-bold text-gray-900 mb-3">3点アーチサポート</h3>
             <p className="text-sm text-gray-600 leading-relaxed mb-3">
               足裏にある「内側縦アーチ」「外側縦アーチ」「横アーチ」の3つを同時にサポートする設計です。
@@ -353,15 +353,15 @@ export default function RunwayVsSlimupPage() {
             </p>
             <ul className="space-y-1.5 text-sm text-gray-600">
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 3つのアーチを同時にケア
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 薄型設計で靴を選ばない
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 骨盤の安定をサポート
               </li>
             </ul>
@@ -407,7 +407,7 @@ export default function RunwayVsSlimupPage() {
       {/* Section 4: Size & Target */}
       <section id="size" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             サイズ展開・対象ユーザー
           </h2>
 
@@ -416,7 +416,7 @@ export default function RunwayVsSlimupPage() {
               <thead>
                 <tr className="bg-gray-50 border-b border-gray-200">
                   <th className="text-left px-4 py-3 font-semibold text-gray-900">項目</th>
-                  <th className="text-center px-4 py-3 font-semibold text-[#8b5cf6]">ランウェイキュアソール</th>
+                  <th className="text-center px-4 py-3 font-semibold text-[#8a6a4f]">ランウェイキュアソール</th>
                   <th className="text-center px-4 py-3 font-semibold text-emerald-600">スリムアップインソール</th>
                 </tr>
               </thead>
@@ -466,7 +466,7 @@ export default function RunwayVsSlimupPage() {
 
       {/* Section 5: Reviews */}
       <section id="reputation" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           口コミ・評判の比較
         </h2>
 
@@ -476,8 +476,8 @@ export default function RunwayVsSlimupPage() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-          <div className="bg-white border border-purple-200 rounded-xl p-5">
-            <p className="text-sm font-bold text-[#8b5cf6] mb-4">ランウェイキュアソールの口コミ傾向</p>
+          <div className="bg-white border border-[#e8ded6] rounded-xl p-5">
+            <p className="text-sm font-bold text-[#8a6a4f] mb-4">ランウェイキュアソールの口コミ傾向</p>
             <p className="text-xs text-gray-500 mb-3">
               楽天公式店（FLORe公式ショップ 楽天市場店）の商品レビュー: 総合3.98 / 5.0（865件・2026年10月14日参照）
             </p>
@@ -486,11 +486,11 @@ export default function RunwayVsSlimupPage() {
                 <p className="text-xs font-semibold text-gray-900 mb-1">良い口コミの傾向</p>
                 <ul className="space-y-1 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                    <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                     背筋が伸びる感覚など姿勢面の変化を挙げる声
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                    <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                     立ち仕事・歩行の多い使い方での購入が目立つ
                   </li>
                 </ul>
@@ -557,7 +557,7 @@ export default function RunwayVsSlimupPage() {
       {/* Section 6: Credibility */}
       <section id="credibility" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             信頼性・監修・メディア実績
           </h2>
 
@@ -567,19 +567,19 @@ export default function RunwayVsSlimupPage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-white border border-purple-200 rounded-xl p-5">
-              <p className="text-sm font-bold text-[#8b5cf6] mb-4">ランウェイキュアソール</p>
+            <div className="bg-white border border-[#e8ded6] rounded-xl p-5">
+              <p className="text-sm font-bold text-[#8a6a4f] mb-4">ランウェイキュアソール</p>
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>有名雑誌での掲載実績あり</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>FLOReショップが販売元として運営</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>SNSを中心に女性ユーザーの間で話題</span>
                 </li>
               </ul>
@@ -627,41 +627,41 @@ export default function RunwayVsSlimupPage() {
 
       {/* Section 7: Recommendations */}
       <section id="recommend" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           こんな人にはこちらがおすすめ
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-5">
-            <p className="text-sm font-bold text-[#8b5cf6] mb-4">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5">
+            <p className="text-sm font-bold text-[#8a6a4f] mb-4">
               ランウェイキュアソールがおすすめの人
             </p>
             <ul className="space-y-3 text-sm text-gray-600">
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 美姿勢を最優先で改善したい女性
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 コスパ重視でセット購入を考えている方
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 パンプスやローヒールなど女性向けの靴で使いたい方
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 まず1足をお手頃価格で試したい方
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 産後の骨盤ケアを日常に取り入れたい方
               </li>
             </ul>
             <div className="mt-4">
               <Link
                 href="/runway-cure-sole/"
-                className="text-sm text-[#8b5cf6] font-semibold hover:underline"
+                className="text-sm text-[#8a6a4f] font-semibold hover:underline"
               >
                 ランウェイキュアソールの詳細レビューを見る →
               </Link>
@@ -720,7 +720,7 @@ export default function RunwayVsSlimupPage() {
       {/* Section 8: FAQ */}
       <section id="faq" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             よくある質問（FAQ）
           </h2>
           <div className="space-y-4">
@@ -756,7 +756,7 @@ export default function RunwayVsSlimupPage() {
 
       {/* Section 9: Summary */}
       <section id="summary" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           まとめ
         </h2>
 
@@ -784,14 +784,14 @@ export default function RunwayVsSlimupPage() {
           </p>
         </div>
 
-        <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-5 md:p-6 text-center">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-6 text-center">
           <p className="text-sm font-bold text-gray-900 mb-4">
             迷ったらこちらもチェック
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/runway-cure-sole/"
-              className="inline-flex items-center justify-center px-5 py-3 text-sm font-semibold text-[#8b5cf6] border-2 border-[#8b5cf6] rounded-full hover:bg-purple-50 transition-colors"
+              className="inline-flex items-center justify-center px-5 py-3 text-sm font-semibold text-[#8a6a4f] border-2 border-[#8a6a4f] rounded-full hover:bg-[#faf7f3] transition-colors"
             >
               ランウェイキュアソール詳細
             </Link>
@@ -821,7 +821,7 @@ export default function RunwayVsSlimupPage() {
 
       {/* もう1つの選択肢：ピットソール */}
       <section className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-600">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           もう1つの選択肢：ピットソール
         </h2>
         <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">

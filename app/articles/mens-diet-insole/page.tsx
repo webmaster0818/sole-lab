@@ -132,13 +132,13 @@ export default function MensDietInsolePage() {
       {/* Hero */}
       <section className="bg-gradient-to-b from-slate-50 to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             メンズ向けガイド
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ダイエットインソール
             <br />
-            <span className="text-[#e8627c]">男性向けおすすめ3選</span>
+            <span className="text-[#8a6a4f]">男性向けおすすめ3選</span>
             <br className="md:hidden" />
             ｜メンズの選び方ガイド
           </h1>
@@ -168,7 +168,6 @@ export default function MensDietInsolePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#9878;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 体重が重い分、効果が出やすい
               </h3>
@@ -177,7 +176,6 @@ export default function MensDietInsolePage() {
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#128694;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 通勤で歩行量を確保しやすい
               </h3>
@@ -186,7 +184,6 @@ export default function MensDietInsolePage() {
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#128170;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 筋肉量が多く姿勢改善効果大
               </h3>
@@ -261,15 +258,15 @@ export default function MensDietInsolePage() {
           </h2>
 
           <div className="space-y-6">
-            <div className="bg-white border-2 border-[#e8627c] rounded-xl p-5 md:p-6">
+            <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6">
               <div className="flex items-center gap-2 mb-3">
-                <span className="text-sm bg-[#e8627c] text-white px-3 py-1 rounded-full font-bold">
+                <span className="text-sm bg-[#8a6a4f] text-white px-3 py-1 rounded-full font-bold">
                   1位
                 </span>
                 <h3 className="text-lg font-bold text-gray-900">
                   ピットソール
                 </h3>
-                <span className="text-xs bg-red-100 text-[#e8627c] px-2 py-0.5 rounded-full">
+                <span className="text-xs bg-red-100 text-[#8a6a4f] px-2 py-0.5 rounded-full">
                   エビデンス最強
                 </span>
               </div>
@@ -294,7 +291,7 @@ export default function MensDietInsolePage() {
                   <span className="text-emerald-600 font-medium">&#10003; 対応</span>
                 </div>
               </div>
-              <Link href="/pitsole/" className="text-sm text-[#e8627c] font-medium hover:underline">
+              <Link href="/pitsole/" className="text-sm text-[#8a6a4f] font-medium hover:underline">
                 ピットソールの詳細レビューを見る →
               </Link>
             </div>
@@ -332,7 +329,7 @@ export default function MensDietInsolePage() {
                   <span className="text-emerald-600 font-medium">&#10003; 対応</span>
                 </div>
               </div>
-              <Link href="/slim-up-insole/" className="text-sm text-[#e8627c] font-medium hover:underline">
+              <Link href="/slim-up-insole/" className="text-sm text-[#8a6a4f] font-medium hover:underline">
                 スリムアップインソールの詳細レビューを見る →
               </Link>
             </div>
@@ -437,7 +434,7 @@ export default function MensDietInsolePage() {
             ].map((item) => (
               <div key={item.num} className="bg-white border border-gray-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <div>
@@ -535,19 +532,19 @@ export default function MensDietInsolePage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/articles/pitsole-mens/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/pitsole-mens/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールは男性でも使える？メンズの口コミ</p>
               <p className="text-xs text-gray-500 mt-1">ピットソールの男性向けサイズ・口コミを解説</p>
             </Link>
-            <Link href="/articles/walking-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/walking-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ウォーキング用インソールおすすめ3選</p>
               <p className="text-xs text-gray-500 mt-1">歩きやすさと痩せ効果を両立するインソール</p>
             </Link>
-            <Link href="/articles/cheap-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/cheap-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールの安いおすすめ比較</p>
               <p className="text-xs text-gray-500 mt-1">コスパ重視で選ぶダイエットインソール</p>
             </Link>
-            <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/ranking/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
@@ -566,7 +563,7 @@ export default function MensDietInsolePage() {
               <details key={faq.question} className="bg-white border border-gray-200 rounded-lg group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2 px-5 py-4">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -574,7 +571,7 @@ export default function MensDietInsolePage() {
                   </span>
                 </summary>
                 <p className="px-5 pb-4 text-sm text-gray-600 leading-relaxed pl-10">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -604,7 +601,7 @@ export default function MensDietInsolePage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               おすすめインソールランキングを見る
             </Link>

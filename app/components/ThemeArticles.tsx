@@ -13,7 +13,7 @@ export default function ThemeArticles({ current }: { current: string }) {
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
           {others.map((i) => (
             <li key={i.href}>
-              <Link href={i.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors text-sm font-semibold text-gray-900">
+              <Link href={i.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors text-sm font-semibold text-gray-900">
                 {i.title}
               </Link>
             </li>

@@ -189,15 +189,15 @@ export default function PitsoleSizePage() {
       <Breadcrumb items={[{ label: "ピットソール", href: "/pitsole/" }, { label: "サイズ選びガイド" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-pink-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             サイズ選びガイド
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソールのサイズ選びガイド
             <br />
-            <span className="text-[#e8627c]">
+            <span className="text-[#8a6a4f]">
               【失敗しない切り方も解説】
             </span>
           </h1>
@@ -219,7 +219,7 @@ export default function PitsoleSizePage() {
         {/* 目次 */}
         <nav className="bg-gray-50 border border-gray-200 rounded-xl p-6">
           <p className="font-bold text-gray-900 mb-3 text-sm">目次</p>
-          <ol className="space-y-1.5 text-sm text-[#e8627c]">
+          <ol className="space-y-1.5 text-sm text-[#8a6a4f]">
             <li>
               <a href="#size-lineup" className="hover:underline">
                 1. ピットソールのサイズ展開
@@ -271,7 +271,7 @@ export default function PitsoleSizePage() {
       </div>
 
       <section id="size-lineup">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#e8627c]">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
             ピットソールのサイズ展開
           </h2>
 
@@ -284,7 +284,7 @@ export default function PitsoleSizePage() {
 
           {/* H3: サイズ一覧 */}
           <h3
-            className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#e8627c]"
+            className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#8a6a4f]"
           >
             全サイズ一覧（XS〜XL）
           </h3>
@@ -292,17 +292,17 @@ export default function PitsoleSizePage() {
           <div className="overflow-x-auto mb-8">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr className="bg-pink-50">
-                  <th className="text-left p-3 font-bold text-gray-900 border-b-2 border-[#f3e0e4]">
+                <tr className="bg-[#faf7f3]">
+                  <th className="text-left p-3 font-bold text-gray-900 border-b-2 border-[#e8ded6]">
                     サイズ
                   </th>
-                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-[#f3e0e4]">
+                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-[#e8ded6]">
                     対応cm
                   </th>
-                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-[#f3e0e4]">
+                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-[#e8ded6]">
                     対象
                   </th>
-                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-[#f3e0e4]">
+                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-[#e8ded6]">
                     備考
                   </th>
                 </tr>
@@ -311,9 +311,9 @@ export default function PitsoleSizePage() {
                 {sizeChart.map((item) => (
                   <tr
                     key={item.size}
-                    className="border-b border-gray-200 hover:bg-[#fdf2f4] transition-colors"
+                    className="border-b border-gray-200 hover:bg-[#faf7f3] transition-colors"
                   >
-                    <td className="p-3 font-bold text-[#e8627c] text-center">
+                    <td className="p-3 font-bold text-[#8a6a4f] text-center">
                       {item.size}
                     </td>
                     <td className="p-3 text-center text-gray-900 font-medium">
@@ -331,9 +331,9 @@ export default function PitsoleSizePage() {
             </table>
           </div>
 
-          <div className="bg-pink-50 border border-[#f3e0e4] rounded-xl p-5 mb-8">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-8">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <strong className="text-[#e8627c]">ポイント：</strong>
+              <strong className="text-[#8a6a4f]">ポイント：</strong>
               各サイズには0.5cm刻みの対応範囲があります。
               たとえば足のサイズが24.5cmの方はSサイズ（23〜24.5cm）の上限ですが、
               靴によってはMサイズ（25〜26cm）の方がフィットする場合もあります。
@@ -341,7 +341,7 @@ export default function PitsoleSizePage() {
           </div>
 
           {/* H3: メンズ・レディース */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#e8627c]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#8a6a4f]">
             メンズ・レディースの選び方
           </h3>
 
@@ -352,50 +352,50 @@ export default function PitsoleSizePage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            <div className="bg-white border border-[#f3e0e4] rounded-xl p-5">
-              <p className="font-bold text-[#e8627c] mb-2 text-sm">
+            <div className="bg-white border border-[#e8ded6] rounded-xl p-5">
+              <p className="font-bold text-[#8a6a4f] mb-2 text-sm">
                 レディース
               </p>
               <ul className="text-sm text-gray-700 space-y-1.5">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     ・
                   </span>
                   21〜22.5cm → XS
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     ・
                   </span>
                   23〜24.5cm → S（人気No.1）
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     ・
                   </span>
                   25〜26cm → M
                 </li>
               </ul>
             </div>
-            <div className="bg-white border border-[#f3e0e4] rounded-xl p-5">
-              <p className="font-bold text-[#e8627c] mb-2 text-sm">
+            <div className="bg-white border border-[#e8ded6] rounded-xl p-5">
+              <p className="font-bold text-[#8a6a4f] mb-2 text-sm">
                 メンズ
               </p>
               <ul className="text-sm text-gray-700 space-y-1.5">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     ・
                   </span>
                   25〜26cm → M
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     ・
                   </span>
                   26.5〜27.5cm → L（人気No.1）
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] mt-0.5 shrink-0">
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     ・
                   </span>
                   28〜29cm → XL
@@ -405,7 +405,7 @@ export default function PitsoleSizePage() {
           </div>
 
           {/* H3: 迷ったら大きめ */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#e8627c]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#8a6a4f]">
             迷ったら大きめを選ぶべき理由
           </h3>
 
@@ -416,7 +416,7 @@ export default function PitsoleSizePage() {
           </p>
 
           <div className="space-y-3 mb-4">
-            <div className="bg-white border border-[#f3e0e4] rounded-lg p-4">
+            <div className="bg-white border border-[#e8ded6] rounded-lg p-4">
               <p className="font-bold text-gray-900 text-sm mb-1">
                 1. カットで小さくできる
               </p>
@@ -425,7 +425,7 @@ export default function PitsoleSizePage() {
                 大きめを購入してカットすれば、ジャストサイズに仕上がります。
               </p>
             </div>
-            <div className="bg-white border border-[#f3e0e4] rounded-lg p-4">
+            <div className="bg-white border border-[#e8ded6] rounded-lg p-4">
               <p className="font-bold text-gray-900 text-sm mb-1">
                 2. 小さいと取り返しがつかない
               </p>
@@ -435,7 +435,7 @@ export default function PitsoleSizePage() {
                 小さいものを大きくすることは不可能です。
               </p>
             </div>
-            <div className="bg-white border border-[#f3e0e4] rounded-lg p-4">
+            <div className="bg-white border border-[#e8ded6] rounded-lg p-4">
               <p className="font-bold text-gray-900 text-sm mb-1">
                 3. 靴による差を吸収できる
               </p>
@@ -446,7 +446,7 @@ export default function PitsoleSizePage() {
             </div>
           </div>
 
-          <div className="bg-[#e8627c] text-white rounded-xl p-5 mb-4">
+          <div className="bg-[#8a6a4f] text-white rounded-xl p-5 mb-4">
             <p className="text-sm font-bold mb-1">
               サイズの境界にいる方へ
             </p>
@@ -462,7 +462,7 @@ export default function PitsoleSizePage() {
         {/* H2: 失敗しない3つのポイント */}
         {/* ==================== */}
         <section id="size-tips">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#e8627c]">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
             サイズ選びで失敗しないための3つのポイント
           </h2>
 
@@ -511,17 +511,17 @@ export default function PitsoleSizePage() {
           <div className="overflow-x-auto mb-8">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr className="bg-pink-50">
-                  <th className="text-left p-3 font-bold text-gray-900 border-b-2 border-[#f3e0e4]">
+                <tr className="bg-[#faf7f3]">
+                  <th className="text-left p-3 font-bold text-gray-900 border-b-2 border-[#e8ded6]">
                     靴の種類
                   </th>
-                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-[#f3e0e4]">
+                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-[#e8ded6]">
                     サイズ調整
                   </th>
-                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-[#f3e0e4]">
+                  <th className="text-center p-3 font-bold text-gray-900 border-b-2 border-[#e8ded6]">
                     アドバイス
                   </th>
-                  <th className="text-left p-3 font-bold text-gray-900 border-b-2 border-[#f3e0e4]">
+                  <th className="text-left p-3 font-bold text-gray-900 border-b-2 border-[#e8ded6]">
                     詳細
                   </th>
                 </tr>
@@ -530,12 +530,12 @@ export default function PitsoleSizePage() {
                 {shoeTypeSizing.map((item) => (
                   <tr
                     key={item.type}
-                    className="border-b border-gray-200 hover:bg-[#fdf2f4] transition-colors"
+                    className="border-b border-gray-200 hover:bg-[#faf7f3] transition-colors"
                   >
                     <td className="p-3 font-medium text-gray-900">
                       {item.type}
                     </td>
-                    <td className="p-3 text-center font-bold text-[#e8627c]">
+                    <td className="p-3 text-center font-bold text-[#8a6a4f]">
                       {item.sizeAdjust}
                     </td>
                     <td className="p-3 text-center text-gray-700 text-xs">
@@ -561,7 +561,7 @@ export default function PitsoleSizePage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-            <div className="bg-white border border-[#f3e0e4] rounded-xl p-5">
+            <div className="bg-white border border-[#e8ded6] rounded-xl p-5">
               <p className="font-bold text-gray-900 text-sm mb-2">
                 足幅が広い方（3E以上）
               </p>
@@ -571,7 +571,7 @@ export default function PitsoleSizePage() {
                 長さ方向をカットする方法が有効です。
               </p>
             </div>
-            <div className="bg-white border border-[#f3e0e4] rounded-xl p-5">
+            <div className="bg-white border border-[#e8ded6] rounded-xl p-5">
               <p className="font-bold text-gray-900 text-sm mb-2">
                 甲が高い方
               </p>
@@ -583,9 +583,9 @@ export default function PitsoleSizePage() {
             </div>
           </div>
 
-          <div className="bg-pink-50 border border-[#f3e0e4] rounded-xl p-5">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <strong className="text-[#e8627c]">重要：</strong>
+              <strong className="text-[#8a6a4f]">重要：</strong>
               ピットソールの厚みは約3〜5mm程度。
               元のインソールと入れ替えて使用するため、
               通常は靴の中のスペースが大きく変わることはありません。
@@ -599,7 +599,7 @@ export default function PitsoleSizePage() {
         {/* H2: 正しい切り方 */}
         {/* ==================== */}
         <section id="how-to-cut">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#e8627c]">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
             ピットソールの正しい切り方【完全手順】
           </h2>
 
@@ -611,14 +611,14 @@ export default function PitsoleSizePage() {
           </p>
 
           {/* 用意するもの */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#34d399]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#a67a56]">
             用意するもの
           </h3>
 
           <div className="bg-green-50 border border-green-200 rounded-xl p-5 mb-8">
             <ul className="text-sm text-gray-700 space-y-2">
               <li className="flex items-start gap-2">
-                <span className="text-[#34d399] font-bold shrink-0">
+                <span className="text-[#a67a56] font-bold shrink-0">
                   1.
                 </span>
                 <span>
@@ -627,7 +627,7 @@ export default function PitsoleSizePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#34d399] font-bold shrink-0">
+                <span className="text-[#a67a56] font-bold shrink-0">
                   2.
                 </span>
                 <span>
@@ -636,7 +636,7 @@ export default function PitsoleSizePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#34d399] font-bold shrink-0">
+                <span className="text-[#a67a56] font-bold shrink-0">
                   3.
                 </span>
                 <span>
@@ -645,7 +645,7 @@ export default function PitsoleSizePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#34d399] font-bold shrink-0">
+                <span className="text-[#a67a56] font-bold shrink-0">
                   4.
                 </span>
                 <span>
@@ -657,7 +657,7 @@ export default function PitsoleSizePage() {
           </div>
 
           {/* 手順1 */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#34d399]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#a67a56]">
             手順1：元のインソールを取り出す
           </h3>
 
@@ -668,7 +668,7 @@ export default function PitsoleSizePage() {
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-8">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <strong className="text-[#34d399]">TIPS：</strong>
+              <strong className="text-[#a67a56]">TIPS：</strong>
               インソールが接着されていて取り外せない靴もあります。
               その場合は、靴の中にピットソールを直接入れてみて、
               はみ出す部分を確認してからカットしてください。
@@ -677,7 +677,7 @@ export default function PitsoleSizePage() {
           </div>
 
           {/* 手順2 */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#34d399]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#a67a56]">
             手順2：サイズラインを確認
           </h3>
 
@@ -695,9 +695,9 @@ export default function PitsoleSizePage() {
             靴のサイズに合ったラインがカットの基準になります。
           </p>
 
-          <div className="bg-pink-50 border border-[#f3e0e4] rounded-xl p-5 mb-8">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-8">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <strong className="text-[#e8627c]">注意：</strong>
+              <strong className="text-[#8a6a4f]">注意：</strong>
               カットラインはあくまで目安です。
               靴のメーカーによってインソールの形状が異なるため、
               必ず元のインソールと照らし合わせて確認してください。
@@ -705,7 +705,7 @@ export default function PitsoleSizePage() {
           </div>
 
           {/* 手順3 */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#34d399]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#a67a56]">
             手順3：型を写す（元インソールに合わせる方法）
           </h3>
 
@@ -758,7 +758,7 @@ export default function PitsoleSizePage() {
           </div>
 
           {/* 手順4 */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#34d399]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#a67a56]">
             手順4：ハサミでカット
           </h3>
 
@@ -769,7 +769,7 @@ export default function PitsoleSizePage() {
 
           <ul className="space-y-2 mb-8">
             <li className="flex items-start gap-3 text-sm text-gray-700">
-              <span className="bg-[#34d399] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
+              <span className="bg-[#a67a56] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
                 1
               </span>
               <span>
@@ -779,7 +779,7 @@ export default function PitsoleSizePage() {
               </span>
             </li>
             <li className="flex items-start gap-3 text-sm text-gray-700">
-              <span className="bg-[#34d399] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
+              <span className="bg-[#a67a56] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
                 2
               </span>
               <span>
@@ -789,7 +789,7 @@ export default function PitsoleSizePage() {
               </span>
             </li>
             <li className="flex items-start gap-3 text-sm text-gray-700">
-              <span className="bg-[#34d399] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
+              <span className="bg-[#a67a56] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
                 3
               </span>
               <span>
@@ -799,7 +799,7 @@ export default function PitsoleSizePage() {
               </span>
             </li>
             <li className="flex items-start gap-3 text-sm text-gray-700">
-              <span className="bg-[#34d399] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
+              <span className="bg-[#a67a56] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
                 4
               </span>
               <span>
@@ -812,7 +812,7 @@ export default function PitsoleSizePage() {
           </ul>
 
           {/* 手順5 */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#34d399]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#a67a56]">
             手順5：靴に入れてフィット確認
           </h3>
 
@@ -821,8 +821,8 @@ export default function PitsoleSizePage() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-8">
-            <div className="bg-white border border-[#f3e0e4] rounded-lg p-4 text-center">
-              <p className="text-[#e8627c] font-bold text-2xl mb-2">
+            <div className="bg-white border border-[#e8ded6] rounded-lg p-4 text-center">
+              <p className="text-[#8a6a4f] font-bold text-2xl mb-2">
                 1
               </p>
               <p className="font-bold text-gray-900 text-sm mb-1">
@@ -832,8 +832,8 @@ export default function PitsoleSizePage() {
                 インソールが波打たず、靴底にフラットに収まっているか確認
               </p>
             </div>
-            <div className="bg-white border border-[#f3e0e4] rounded-lg p-4 text-center">
-              <p className="text-[#e8627c] font-bold text-2xl mb-2">
+            <div className="bg-white border border-[#e8ded6] rounded-lg p-4 text-center">
+              <p className="text-[#8a6a4f] font-bold text-2xl mb-2">
                 2
               </p>
               <p className="font-bold text-gray-900 text-sm mb-1">
@@ -843,8 +843,8 @@ export default function PitsoleSizePage() {
                 サイドやつま先の端が靴壁に干渉してめくれていないか確認
               </p>
             </div>
-            <div className="bg-white border border-[#f3e0e4] rounded-lg p-4 text-center">
-              <p className="text-[#e8627c] font-bold text-2xl mb-2">
+            <div className="bg-white border border-[#e8ded6] rounded-lg p-4 text-center">
+              <p className="text-[#8a6a4f] font-bold text-2xl mb-2">
                 3
               </p>
               <p className="font-bold text-gray-900 text-sm mb-1">
@@ -864,7 +864,7 @@ export default function PitsoleSizePage() {
           </p>
 
           {/* 切りすぎた場合 */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#34d399]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#a67a56]">
             切りすぎた場合の対処法
           </h3>
 
@@ -902,7 +902,7 @@ export default function PitsoleSizePage() {
                 購入をおすすめします。
                 <Link
                   href="/pitsole/price/"
-                  className="text-[#e8627c] hover:underline"
+                  className="text-[#8a6a4f] hover:underline"
                 >
                   セット購入なら1足あたりの価格を抑えられます
                 </Link>
@@ -916,7 +916,7 @@ export default function PitsoleSizePage() {
         {/* H2: 靴別フィッティング */}
         {/* ==================== */}
         <section id="fitting-guide">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#e8627c]">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
             靴別のフィッティングガイド
           </h2>
 
@@ -938,7 +938,7 @@ export default function PitsoleSizePage() {
             入れ替えるだけで使用できます。
           </p>
 
-          <div className="bg-white border border-[#f3e0e4] rounded-xl p-5 mb-8">
+          <div className="bg-white border border-[#e8ded6] rounded-xl p-5 mb-8">
             <p className="font-bold text-gray-900 text-sm mb-2">
               スニーカーのポイント
             </p>
@@ -968,7 +968,7 @@ export default function PitsoleSizePage() {
             カットの調整が特に重要になります。
           </p>
 
-          <div className="bg-white border border-[#f3e0e4] rounded-xl p-5 mb-8">
+          <div className="bg-white border border-[#e8ded6] rounded-xl p-5 mb-8">
             <p className="font-bold text-gray-900 text-sm mb-2">
               パンプスのポイント
             </p>
@@ -1002,7 +1002,7 @@ export default function PitsoleSizePage() {
             サイドのフィット感にも注意が必要です。
           </p>
 
-          <div className="bg-white border border-[#f3e0e4] rounded-xl p-5 mb-8">
+          <div className="bg-white border border-[#e8ded6] rounded-xl p-5 mb-8">
             <p className="font-bold text-gray-900 text-sm mb-2">
               ビジネスシューズのポイント
             </p>
@@ -1036,7 +1036,7 @@ export default function PitsoleSizePage() {
             ピットソールとの相性は比較的良好です。
           </p>
 
-          <div className="bg-white border border-[#f3e0e4] rounded-xl p-5 mb-4">
+          <div className="bg-white border border-[#e8ded6] rounded-xl p-5 mb-4">
             <p className="font-bold text-gray-900 text-sm mb-2">
               ブーツのポイント
             </p>
@@ -1065,7 +1065,7 @@ export default function PitsoleSizePage() {
         {/* H2: 交換・返品 */}
         {/* ==================== */}
         <section id="exchange">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#e8627c]">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
             サイズが合わない場合の交換・返品
           </h2>
 
@@ -1085,10 +1085,10 @@ export default function PitsoleSizePage() {
             公式サイトの交換ポリシー
           </h3>
 
-          <div className="bg-white border border-[#f3e0e4] rounded-xl p-5 mb-4">
+          <div className="bg-white border border-[#e8ded6] rounded-xl p-5 mb-4">
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <span className="bg-[#e8627c] text-white text-xs font-bold px-2 py-0.5 rounded shrink-0 mt-0.5">
+                <span className="bg-[#8a6a4f] text-white text-xs font-bold px-2 py-0.5 rounded shrink-0 mt-0.5">
                   条件
                 </span>
                 <p className="text-sm text-gray-700">
@@ -1128,8 +1128,8 @@ export default function PitsoleSizePage() {
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            <div className="bg-white border border-[#f3e0e4] rounded-xl p-5">
-              <p className="font-bold text-[#e8627c] mb-2 text-sm">
+            <div className="bg-white border border-[#e8ded6] rounded-xl p-5">
+              <p className="font-bold text-[#8a6a4f] mb-2 text-sm">
                 楽天市場の場合
               </p>
               <p className="text-xs text-gray-600 leading-relaxed">
@@ -1140,8 +1140,8 @@ export default function PitsoleSizePage() {
                 ショップに直接問い合わせてください。
               </p>
             </div>
-            <div className="bg-white border border-[#f3e0e4] rounded-xl p-5">
-              <p className="font-bold text-[#e8627c] mb-2 text-sm">
+            <div className="bg-white border border-[#e8ded6] rounded-xl p-5">
+              <p className="font-bold text-[#8a6a4f] mb-2 text-sm">
                 Amazonの場合
               </p>
               <p className="text-xs text-gray-600 leading-relaxed">
@@ -1158,10 +1158,10 @@ export default function PitsoleSizePage() {
             交換時の注意点
           </h3>
 
-          <div className="bg-pink-50 border border-[#f3e0e4] rounded-xl p-6">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-6">
             <ul className="text-sm text-gray-700 space-y-3">
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">
+                <span className="text-[#8a6a4f] font-bold shrink-0">
                   1.
                 </span>
                 <span>
@@ -1173,7 +1173,7 @@ export default function PitsoleSizePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">
+                <span className="text-[#8a6a4f] font-bold shrink-0">
                   2.
                 </span>
                 <span>
@@ -1183,7 +1183,7 @@ export default function PitsoleSizePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">
+                <span className="text-[#8a6a4f] font-bold shrink-0">
                   3.
                 </span>
                 <span>
@@ -1194,7 +1194,7 @@ export default function PitsoleSizePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">
+                <span className="text-[#8a6a4f] font-bold shrink-0">
                   4.
                 </span>
                 <span>
@@ -1212,7 +1212,7 @@ export default function PitsoleSizePage() {
         {/* H2: 効果への影響 */}
         {/* ==================== */}
         <section id="effect">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#e8627c]">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
             サイズ選びが効果に与える影響
           </h2>
 
@@ -1225,32 +1225,32 @@ export default function PitsoleSizePage() {
           </p>
 
           {/* 大きすぎ */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#e8627c]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#8a6a4f]">
             サイズが大きすぎると起こる問題
           </h3>
 
-          <div className="bg-white border border-[#f3e0e4] rounded-xl p-5 mb-8">
+          <div className="bg-white border border-[#e8ded6] rounded-xl p-5 mb-8">
             <ul className="text-sm text-gray-700 space-y-2">
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] shrink-0">・</span>
+                <span className="text-[#8a6a4f] shrink-0">・</span>
                 <span>
                   靴の中でインソールが波打ち、歩行時にずれやすくなる
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] shrink-0">・</span>
+                <span className="text-[#8a6a4f] shrink-0">・</span>
                 <span>
                   アーチサポートの位置がずれて、本来の効果が半減する
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] shrink-0">・</span>
+                <span className="text-[#8a6a4f] shrink-0">・</span>
                 <span>
                   端がめくれて靴ずれの原因になることがある
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] shrink-0">・</span>
+                <span className="text-[#8a6a4f] shrink-0">・</span>
                 <span>
                   見た目にも靴の中がゴワつき、履き心地が悪化する
                 </span>
@@ -1263,35 +1263,35 @@ export default function PitsoleSizePage() {
           </div>
 
           {/* 小さすぎ */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#e8627c]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#8a6a4f]">
             サイズが小さすぎると起こる問題
           </h3>
 
-          <div className="bg-white border border-[#f3e0e4] rounded-xl p-5 mb-8">
+          <div className="bg-white border border-[#e8ded6] rounded-xl p-5 mb-8">
             <ul className="text-sm text-gray-700 space-y-2">
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] shrink-0">・</span>
+                <span className="text-[#8a6a4f] shrink-0">・</span>
                 <span>
                   かかとや足裏の一部しかインソールに乗らず、
                   サポート機能が不十分になる
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] shrink-0">・</span>
+                <span className="text-[#8a6a4f] shrink-0">・</span>
                 <span>
                   インソールの端が靴の中で動き回り、
                   位置が安定しない
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] shrink-0">・</span>
+                <span className="text-[#8a6a4f] shrink-0">・</span>
                 <span>
                   特許構造のアーチサポートが正しい位置に来ないため、
                   姿勢改善効果が期待できない
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] shrink-0">・</span>
+                <span className="text-[#8a6a4f] shrink-0">・</span>
                 <span>
                   足の一部がインソールからはみ出し、
                   段差で不快感が生じる
@@ -1305,7 +1305,7 @@ export default function PitsoleSizePage() {
           </div>
 
           {/* ぴったりサイズ */}
-          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#34d399]">
+          <h3 className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#a67a56]">
             ぴったりサイズで最大効果を引き出す
           </h3>
 
@@ -1344,9 +1344,9 @@ export default function PitsoleSizePage() {
             </div>
           </div>
 
-          <div className="bg-pink-50 border border-[#f3e0e4] rounded-xl p-5">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <strong className="text-[#e8627c]">まとめ：</strong>
+              <strong className="text-[#8a6a4f]">まとめ：</strong>
               サイズ選びはピットソールの効果を左右する最も重要なステップです。
               「だいたい合っていればいい」ではなく、
               <strong>靴ごとにしっかりフィッティングする</strong>
@@ -1360,17 +1360,17 @@ export default function PitsoleSizePage() {
         {/* H2: FAQ */}
         {/* ==================== */}
         <section id="faq">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#e8627c]">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
             よくある質問（FAQ）
           </h2>
 
           <div className="space-y-3">
-            <details className="group bg-white border border-[#f3e0e4] rounded-xl overflow-hidden">
-              <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-[#fdf2f4] transition-colors">
+            <details className="group bg-white border border-[#e8ded6] rounded-xl overflow-hidden">
+              <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-[#faf7f3] transition-colors">
                 <span className="font-bold text-gray-900 text-sm pr-4">
                   Q. ピットソールのサイズはどう選べばいいですか？
                 </span>
-                <span className="text-[#e8627c] text-xl shrink-0 group-open:rotate-45 transition-transform">
+                <span className="text-[#8a6a4f] text-xl shrink-0 group-open:rotate-45 transition-transform">
                   +
                 </span>
               </summary>
@@ -1385,12 +1385,12 @@ export default function PitsoleSizePage() {
               </div>
             </details>
 
-            <details className="group bg-white border border-[#f3e0e4] rounded-xl overflow-hidden">
-              <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-[#fdf2f4] transition-colors">
+            <details className="group bg-white border border-[#e8ded6] rounded-xl overflow-hidden">
+              <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-[#faf7f3] transition-colors">
                 <span className="font-bold text-gray-900 text-sm pr-4">
                   Q. ピットソールの切り方を教えてください
                 </span>
-                <span className="text-[#e8627c] text-xl shrink-0 group-open:rotate-45 transition-transform">
+                <span className="text-[#8a6a4f] text-xl shrink-0 group-open:rotate-45 transition-transform">
                   +
                 </span>
               </summary>
@@ -1405,12 +1405,12 @@ export default function PitsoleSizePage() {
               </div>
             </details>
 
-            <details className="group bg-white border border-[#f3e0e4] rounded-xl overflow-hidden">
-              <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-[#fdf2f4] transition-colors">
+            <details className="group bg-white border border-[#e8ded6] rounded-xl overflow-hidden">
+              <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-[#faf7f3] transition-colors">
                 <span className="font-bold text-gray-900 text-sm pr-4">
                   Q. 切りすぎた場合はどうすればいいですか？
                 </span>
-                <span className="text-[#e8627c] text-xl shrink-0 group-open:rotate-45 transition-transform">
+                <span className="text-[#8a6a4f] text-xl shrink-0 group-open:rotate-45 transition-transform">
                   +
                 </span>
               </summary>
@@ -1424,12 +1424,12 @@ export default function PitsoleSizePage() {
               </div>
             </details>
 
-            <details className="group bg-white border border-[#f3e0e4] rounded-xl overflow-hidden">
-              <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-[#fdf2f4] transition-colors">
+            <details className="group bg-white border border-[#e8ded6] rounded-xl overflow-hidden">
+              <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-[#faf7f3] transition-colors">
                 <span className="font-bold text-gray-900 text-sm pr-4">
                   Q. サイズ交換はできますか？
                 </span>
-                <span className="text-[#e8627c] text-xl shrink-0 group-open:rotate-45 transition-transform">
+                <span className="text-[#8a6a4f] text-xl shrink-0 group-open:rotate-45 transition-transform">
                   +
                 </span>
               </summary>
@@ -1444,12 +1444,12 @@ export default function PitsoleSizePage() {
               </div>
             </details>
 
-            <details className="group bg-white border border-[#f3e0e4] rounded-xl overflow-hidden">
-              <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-[#fdf2f4] transition-colors">
+            <details className="group bg-white border border-[#e8ded6] rounded-xl overflow-hidden">
+              <summary className="flex items-center justify-between p-5 cursor-pointer hover:bg-[#faf7f3] transition-colors">
                 <span className="font-bold text-gray-900 text-sm pr-4">
                   Q. パンプスにも使えますか？サイズはどう選びますか？
                 </span>
-                <span className="text-[#e8627c] text-xl shrink-0 group-open:rotate-45 transition-transform">
+                <span className="text-[#8a6a4f] text-xl shrink-0 group-open:rotate-45 transition-transform">
                   +
                 </span>
               </summary>
@@ -1471,7 +1471,7 @@ export default function PitsoleSizePage() {
         {/* H2: まとめ */}
         {/* ==================== */}
         <section id="summary">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#e8627c]">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
             まとめ
           </h2>
 
@@ -1480,13 +1480,13 @@ export default function PitsoleSizePage() {
             最後に重要なポイントをおさらいします。
           </p>
 
-          <div className="bg-pink-50 border border-[#f3e0e4] rounded-xl p-6 mb-6">
-            <p className="font-bold text-[#e8627c] mb-3 text-sm">
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-6 mb-6">
+            <p className="font-bold text-[#8a6a4f] mb-3 text-sm">
               サイズ選びのポイントまとめ
             </p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">
+                <span className="text-[#8a6a4f] font-bold shrink-0">
                   1.
                 </span>
                 <span>
@@ -1494,7 +1494,7 @@ export default function PitsoleSizePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">
+                <span className="text-[#8a6a4f] font-bold shrink-0">
                   2.
                 </span>
                 <span>
@@ -1503,7 +1503,7 @@ export default function PitsoleSizePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">
+                <span className="text-[#8a6a4f] font-bold shrink-0">
                   3.
                 </span>
                 <span>
@@ -1512,7 +1512,7 @@ export default function PitsoleSizePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">
+                <span className="text-[#8a6a4f] font-bold shrink-0">
                   4.
                 </span>
                 <span>
@@ -1520,7 +1520,7 @@ export default function PitsoleSizePage() {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">
+                <span className="text-[#8a6a4f] font-bold shrink-0">
                   5.
                 </span>
                 <span>
@@ -1538,7 +1538,7 @@ export default function PitsoleSizePage() {
             複数の靴で使い回したい方は、セット購入がお得です。
           </p>
 
-          <div className="bg-[#e8627c] text-white rounded-xl p-6 text-center">
+          <div className="bg-[#8a6a4f] text-white rounded-xl p-6 text-center">
             <p className="font-bold text-lg mb-2">
               ピットソールの最安値をチェック
             </p>
@@ -1547,7 +1547,7 @@ export default function PitsoleSizePage() {
             </p>
             <Link
               href="/pitsole/price/"
-              className="inline-block bg-white text-[#e8627c] font-bold text-sm px-8 py-3 rounded-full hover:bg-pink-50 transition-colors"
+              className="inline-block bg-white text-[#8a6a4f] font-bold text-sm px-8 py-3 rounded-full hover:bg-[#faf7f3] transition-colors"
             >
               価格比較ページを見る
             </Link>
@@ -1565,12 +1565,12 @@ export default function PitsoleSizePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/pitsole/"
-              className="block bg-white border border-[#f3e0e4] rounded-xl p-5 hover:bg-[#fdf2f4] transition-colors group"
+              className="block bg-white border border-[#e8ded6] rounded-xl p-5 hover:bg-[#faf7f3] transition-colors group"
             >
-              <p className="text-xs text-[#e8627c] font-medium mb-1">
+              <p className="text-xs text-[#8a6a4f] font-medium mb-1">
                 レビュー
               </p>
-              <p className="font-bold text-gray-900 text-sm group-hover:text-[#e8627c] transition-colors">
+              <p className="font-bold text-gray-900 text-sm group-hover:text-[#8a6a4f] transition-colors">
                 ピットソールの口コミ・評判を検証
               </p>
               <p className="text-xs text-gray-500 mt-1">
@@ -1580,12 +1580,12 @@ export default function PitsoleSizePage() {
 
             <Link
               href="/pitsole/price/"
-              className="block bg-white border border-[#f3e0e4] rounded-xl p-5 hover:bg-[#fdf2f4] transition-colors group"
+              className="block bg-white border border-[#e8ded6] rounded-xl p-5 hover:bg-[#faf7f3] transition-colors group"
             >
-              <p className="text-xs text-[#e8627c] font-medium mb-1">
+              <p className="text-xs text-[#8a6a4f] font-medium mb-1">
                 価格比較
               </p>
-              <p className="font-bold text-gray-900 text-sm group-hover:text-[#e8627c] transition-colors">
+              <p className="font-bold text-gray-900 text-sm group-hover:text-[#8a6a4f] transition-colors">
                 ピットソールの最安値・販売店比較
               </p>
               <p className="text-xs text-gray-500 mt-1">
@@ -1595,12 +1595,12 @@ export default function PitsoleSizePage() {
 
             <Link
               href="/articles/insole-care/"
-              className="block bg-white border border-[#f3e0e4] rounded-xl p-5 hover:bg-[#fdf2f4] transition-colors group"
+              className="block bg-white border border-[#e8ded6] rounded-xl p-5 hover:bg-[#faf7f3] transition-colors group"
             >
               <p className="text-xs text-[#c9a76c] font-medium mb-1">
                 お手入れ
               </p>
-              <p className="font-bold text-gray-900 text-sm group-hover:text-[#e8627c] transition-colors">
+              <p className="font-bold text-gray-900 text-sm group-hover:text-[#8a6a4f] transition-colors">
                 インソールのお手入れ・洗い方ガイド
               </p>
               <p className="text-xs text-gray-500 mt-1">
@@ -1610,12 +1610,12 @@ export default function PitsoleSizePage() {
 
             <Link
               href="/ranking/"
-              className="block bg-white border border-[#f3e0e4] rounded-xl p-5 hover:bg-[#fdf2f4] transition-colors group"
+              className="block bg-white border border-[#e8ded6] rounded-xl p-5 hover:bg-[#faf7f3] transition-colors group"
             >
               <p className="text-xs text-[#c9a76c] font-medium mb-1">
                 ランキング
               </p>
-              <p className="font-bold text-gray-900 text-sm group-hover:text-[#e8627c] transition-colors">
+              <p className="font-bold text-gray-900 text-sm group-hover:text-[#8a6a4f] transition-colors">
                 ダイエットインソールおすすめランキング
               </p>
               <p className="text-xs text-gray-500 mt-1">

@@ -270,7 +270,7 @@ export default function PatentTechnologyPage() {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
             ピットソールの世界特許技術
           </h2>
-          <p className="text-sm text-[#e8627c] font-medium mb-6">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-6">
             BMZ社のキュボイドバランス理論 × CCLP理論
           </p>
 
@@ -386,7 +386,7 @@ export default function PatentTechnologyPage() {
               ].map((item) => (
                 <div key={item.num} className="card">
                   <div className="flex items-start gap-3">
-                    <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                    <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                       {item.num}
                     </span>
                     <div>
@@ -416,7 +416,7 @@ export default function PatentTechnologyPage() {
                 踵骨前部は、立方骨と隣接する部位であり、この2点を同時に支えることで足の外側全体が安定し、かかとから足指への体重移動がよりスムーズになります。ピットソールにはこのCCLP理論に基づく設計が採用されており、世界特許として保護されています。
               </p>
             </div>
-            <div className="card mt-6 border-l-4 border-l-[#e8627c]">
+            <div className="card mt-6 border-l-4 border-l-[#8a6a4f]">
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 <span className="font-bold text-gray-900">
                   CCLP理論のポイント：
@@ -457,7 +457,7 @@ export default function PatentTechnologyPage() {
                     key={item.label}
                     className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg"
                   >
-                    <span className="text-sm font-bold text-[#e8627c] shrink-0 min-w-[80px]">
+                    <span className="text-sm font-bold text-[#8a6a4f] shrink-0 min-w-[80px]">
                       {item.label}
                     </span>
                     <span className="text-sm text-gray-700">{item.value}</span>
@@ -498,7 +498,7 @@ export default function PatentTechnologyPage() {
               ].map((item) => (
                 <div
                   key={item.title}
-                  className="flex items-start gap-3 p-4 bg-white rounded-xl border border-[#f3e0e4]"
+                  className="flex items-start gap-3 p-4 bg-white rounded-xl border border-[#e8ded6]"
                 >
                   <span className="text-emerald-500 shrink-0 mt-0.5">
                     &#10003;
@@ -548,7 +548,7 @@ export default function PatentTechnologyPage() {
                   name: "内側縦アーチ",
                   sub: "土踏まず",
                   desc: "足の内側を縦に走るアーチ。最も大きく、衝撃吸収と推進力の発生を担う。崩れると「扁平足」になり、疲れやすくなる。",
-                  color: "text-[#e8627c]",
+                  color: "text-[#8a6a4f]",
                 },
                 {
                   name: "外側縦アーチ",
@@ -662,7 +662,7 @@ export default function PatentTechnologyPage() {
               ].map((item) => (
                 <div
                   key={item.step}
-                  className="flex items-start gap-4 p-4 bg-white rounded-xl border border-[#f3e0e4]"
+                  className="flex items-start gap-4 p-4 bg-white rounded-xl border border-[#e8ded6]"
                 >
                   <span className="text-xs font-bold text-white bg-[#c9a76c] px-2 py-1 rounded shrink-0">
                     {item.step}
@@ -692,7 +692,7 @@ export default function PatentTechnologyPage() {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
             スリムアップインソールの整体師監修設計
           </h2>
-          <p className="text-sm text-[#34d399] font-medium mb-6">
+          <p className="text-sm text-[#a67a56] font-medium mb-6">
             美容整体師の知見を製品設計に反映
           </p>
 
@@ -747,7 +747,7 @@ export default function PatentTechnologyPage() {
                 },
               ].map((item) => (
                 <div key={item.title} className="card">
-                  <h4 className="text-sm font-bold text-[#34d399] mb-2">
+                  <h4 className="text-sm font-bold text-[#a67a56] mb-2">
                     {item.title}
                   </h4>
                   <p className="text-sm text-gray-600 leading-relaxed">
@@ -788,7 +788,7 @@ export default function PatentTechnologyPage() {
                     key={item.label}
                     className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg"
                   >
-                    <span className="text-[#34d399] shrink-0 mt-0.5">
+                    <span className="text-[#a67a56] shrink-0 mt-0.5">
                       &#10003;
                     </span>
                     <div>
@@ -801,7 +801,7 @@ export default function PatentTechnologyPage() {
                 ))}
               </div>
             </div>
-            <div className="card mt-6 border-l-4 border-l-[#34d399]">
+            <div className="card mt-6 border-l-4 border-l-[#a67a56]">
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 <span className="font-bold text-gray-900">
                   スリムアップの強み：
@@ -832,13 +832,13 @@ export default function PatentTechnologyPage() {
                   <th className="text-left py-3 pr-4 text-gray-500 font-medium min-w-[100px]">
                     比較項目
                   </th>
-                  <th className="text-left py-3 pr-4 font-medium text-[#e8627c] min-w-[140px]">
+                  <th className="text-left py-3 pr-4 font-medium text-[#8a6a4f] min-w-[140px]">
                     ピットソール
                   </th>
                   <th className="text-left py-3 pr-4 font-medium text-[#c9a76c] min-w-[140px]">
                     ランウェイキュアソール
                   </th>
-                  <th className="text-left py-3 font-medium text-[#34d399] min-w-[140px]">
+                  <th className="text-left py-3 font-medium text-[#a67a56] min-w-[140px]">
                     スリムアップインソール
                   </th>
                 </tr>
@@ -861,7 +861,7 @@ export default function PatentTechnologyPage() {
                     特許状況
                   </td>
                   <td className="py-3 pr-4">
-                    <span className="text-xs bg-[#e8627c]/10 text-[#e8627c] px-2 py-0.5 rounded font-medium">
+                    <span className="text-xs bg-[#8a6a4f]/10 text-[#8a6a4f] px-2 py-0.5 rounded font-medium">
                       世界特許取得
                     </span>
                   </td>
@@ -1022,7 +1022,7 @@ export default function PatentTechnologyPage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d4526c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               技術で選ぶダイエットインソールランキングを見る
             </Link>
@@ -1079,7 +1079,7 @@ export default function PatentTechnologyPage() {
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d4526c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base text-center"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base text-center"
             >
               おすすめインソールランキングを見る
             </Link>
@@ -1100,7 +1100,7 @@ export default function PatentTechnologyPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/articles/insole-truth/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ダイエットインソールは嘘？効果の科学的根拠を検証
@@ -1108,7 +1108,7 @@ export default function PatentTechnologyPage() {
             </Link>
             <Link
               href="/articles/how-to-choose/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ダイエットインソールの選び方5つのポイント【失敗しない】
@@ -1116,7 +1116,7 @@ export default function PatentTechnologyPage() {
             </Link>
             <Link
               href="/articles/insole-care/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 インソールのお手入れ方法と長持ちさせるコツ
@@ -1124,9 +1124,9 @@ export default function PatentTechnologyPage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>

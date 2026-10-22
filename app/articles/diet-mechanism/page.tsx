@@ -159,7 +159,7 @@ export default function DietMechanismPage() {
             「履くだけで痩せる」は本当か？
           </h2>
 
-          <div className="card border-l-4 border-l-[#e8627c] mb-8">
+          <div className="card border-l-4 border-l-[#8a6a4f] mb-8">
             <h3 className="text-base font-bold text-gray-900 mb-3">
               結論：インソール単体では大幅な減量は難しい
             </h3>
@@ -173,7 +173,7 @@ export default function DietMechanismPage() {
             </div>
           </div>
 
-          <div className="card border-l-4 border-l-[#34d399] mb-8">
+          <div className="card border-l-4 border-l-[#a67a56] mb-8">
             <h3 className="text-base font-bold text-gray-900 mb-3">
               ただし、科学的に期待できる効果はある
             </h3>
@@ -196,48 +196,48 @@ export default function DietMechanismPage() {
                 ダイエットインソールに対する正しい期待値は以下のようなイメージです。
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                <div className="bg-white rounded-lg p-4 border border-[#34d399]/30">
-                  <p className="text-sm font-bold text-[#34d399] mb-2">
+                <div className="bg-white rounded-lg p-4 border border-[#a67a56]/30">
+                  <p className="text-sm font-bold text-[#a67a56] mb-2">
                     期待してよいこと
                   </p>
                   <ul className="space-y-1 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
-                      <span className="text-[#34d399] shrink-0 mt-0.5">&#10003;</span>
+                      <span className="text-[#a67a56] shrink-0 mt-0.5">&#10003;</span>
                       歩行姿勢・骨盤バランスの改善
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#34d399] shrink-0 mt-0.5">&#10003;</span>
+                      <span className="text-[#a67a56] shrink-0 mt-0.5">&#10003;</span>
                       歩行時の筋肉活動量の向上
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#34d399] shrink-0 mt-0.5">&#10003;</span>
+                      <span className="text-[#a67a56] shrink-0 mt-0.5">&#10003;</span>
                       下半身のボディライン改善
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#34d399] shrink-0 mt-0.5">&#10003;</span>
+                      <span className="text-[#a67a56] shrink-0 mt-0.5">&#10003;</span>
                       歩行の疲労軽減（より長く歩ける）
                     </li>
                   </ul>
                 </div>
-                <div className="bg-white rounded-lg p-4 border border-[#e8627c]/30">
-                  <p className="text-sm font-bold text-[#e8627c] mb-2">
+                <div className="bg-white rounded-lg p-4 border border-[#8a6a4f]/30">
+                  <p className="text-sm font-bold text-[#8a6a4f] mb-2">
                     期待しすぎないこと
                   </p>
                   <ul className="space-y-1 text-sm text-gray-600">
                     <li className="flex items-start gap-2">
-                      <span className="text-[#e8627c] shrink-0 mt-0.5">&times;</span>
+                      <span className="text-[#8a6a4f] shrink-0 mt-0.5">&times;</span>
                       短期間での大幅な体重減少
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#e8627c] shrink-0 mt-0.5">&times;</span>
+                      <span className="text-[#8a6a4f] shrink-0 mt-0.5">&times;</span>
                       食事制限なしでの劇的な変化
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#e8627c] shrink-0 mt-0.5">&times;</span>
+                      <span className="text-[#8a6a4f] shrink-0 mt-0.5">&times;</span>
                       部分痩せ（お腹だけ、太ももだけ等）
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-[#e8627c] shrink-0 mt-0.5">&times;</span>
+                      <span className="text-[#8a6a4f] shrink-0 mt-0.5">&times;</span>
                       運動なしでのカロリー大量消費
                     </li>
                   </ul>
@@ -380,7 +380,7 @@ export default function DietMechanismPage() {
                     <p>
                       ただし実際には、インソールによる1日あたりの追加カロリー消費は劇的な量ではありません。おおよそ数十kcal程度の差と考えるのが現実的です。しかし、この差は1ヶ月・半年・1年と積み重ねると無視できない数値になります。
                     </p>
-                    <div className="bg-white border border-[#f3e0e4] rounded-lg p-4 mt-2">
+                    <div className="bg-white border border-[#e8ded6] rounded-lg p-4 mt-2">
                       <p className="text-sm font-bold text-gray-900 mb-2">
                         消費カロリーの積み重ね（仮に1日30kcal増の場合）
                       </p>
@@ -742,9 +742,9 @@ export default function DietMechanismPage() {
 
           <div className="space-y-6">
             {/* ピットソール */}
-            <div className="card border border-[#f3e0e4]">
+            <div className="card border border-[#e8ded6]">
               <div className="flex items-center gap-2 mb-4">
-                <span className="bg-[#e8627c] text-white text-xs font-bold px-3 py-1 rounded-full">
+                <span className="bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">
                   骨格矯正アプローチ
                 </span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -759,13 +759,13 @@ export default function DietMechanismPage() {
                   販売実績は累計200万足（2025年4月時点の公式発表）です。
                 </p>
                 <div className="flex flex-wrap gap-2 mt-3">
-                  <span className="text-xs bg-[#fdf2f4] text-[#e8627c] px-2 py-1 rounded">
+                  <span className="text-xs bg-[#faf7f3] text-[#8a6a4f] px-2 py-1 rounded">
                     世界特許技術
                   </span>
-                  <span className="text-xs bg-[#fdf2f4] text-[#e8627c] px-2 py-1 rounded">
+                  <span className="text-xs bg-[#faf7f3] text-[#8a6a4f] px-2 py-1 rounded">
                     3アーチ同時サポート
                   </span>
-                  <span className="text-xs bg-[#fdf2f4] text-[#e8627c] px-2 py-1 rounded">
+                  <span className="text-xs bg-[#faf7f3] text-[#8a6a4f] px-2 py-1 rounded">
                     累計200万足
                   </span>
                 </div>
@@ -773,7 +773,7 @@ export default function DietMechanismPage() {
               <div className="mt-4">
                 <Link
                   href="/pitsole/"
-                  className="text-sm text-[#e8627c] hover:underline font-medium"
+                  className="text-sm text-[#8a6a4f] hover:underline font-medium"
                 >
                   ピットソールの詳細レビューを見る →
                 </Link>
@@ -781,7 +781,7 @@ export default function DietMechanismPage() {
             </div>
 
             {/* ランウェイキュアソール */}
-            <div className="card border border-[#f3e0e4]">
+            <div className="card border border-[#e8ded6]">
               <div className="flex items-center gap-2 mb-4">
                 <span className="bg-[#c9a76c] text-white text-xs font-bold px-3 py-1 rounded-full">
                   美姿勢アプローチ
@@ -798,13 +798,13 @@ export default function DietMechanismPage() {
                   薄型設計でヒール靴にも対応しているため、通勤やオフィスでの使用にも適しています。姿勢改善を通じた「見た目の変化」を重視する方に向いています。
                 </p>
                 <div className="flex flex-wrap gap-2 mt-3">
-                  <span className="text-xs bg-[#fdf2f4] text-[#c9a76c] px-2 py-1 rounded">
+                  <span className="text-xs bg-[#faf7f3] text-[#c9a76c] px-2 py-1 rounded">
                     整体師監修
                   </span>
-                  <span className="text-xs bg-[#fdf2f4] text-[#c9a76c] px-2 py-1 rounded">
+                  <span className="text-xs bg-[#faf7f3] text-[#c9a76c] px-2 py-1 rounded">
                     薄型・ヒール対応
                   </span>
-                  <span className="text-xs bg-[#fdf2f4] text-[#c9a76c] px-2 py-1 rounded">
+                  <span className="text-xs bg-[#faf7f3] text-[#c9a76c] px-2 py-1 rounded">
                     美姿勢特化
                   </span>
                 </div>
@@ -820,9 +820,9 @@ export default function DietMechanismPage() {
             </div>
 
             {/* スリムアップインソール */}
-            <div className="card border border-[#f3e0e4]">
+            <div className="card border border-[#e8ded6]">
               <div className="flex items-center gap-2 mb-4">
-                <span className="bg-[#34d399] text-white text-xs font-bold px-3 py-1 rounded-full">
+                <span className="bg-[#a67a56] text-white text-xs font-bold px-3 py-1 rounded-full">
                   筋肉サポートアプローチ
                 </span>
                 <h3 className="text-base md:text-lg font-bold text-gray-900">
@@ -837,13 +837,13 @@ export default function DietMechanismPage() {
                   男女兼用の豊富なサイズ展開があり、手持ちの靴に合わせてカットできるため、すぐに始められます。まず気軽にインソールダイエットを試してみたい方におすすめです。
                 </p>
                 <div className="flex flex-wrap gap-2 mt-3">
-                  <span className="text-xs bg-emerald-50 text-[#34d399] px-2 py-1 rounded">
+                  <span className="text-xs bg-emerald-50 text-[#a67a56] px-2 py-1 rounded">
                     コスパ重視
                   </span>
-                  <span className="text-xs bg-emerald-50 text-[#34d399] px-2 py-1 rounded">
+                  <span className="text-xs bg-emerald-50 text-[#a67a56] px-2 py-1 rounded">
                     傾斜設計
                   </span>
-                  <span className="text-xs bg-emerald-50 text-[#34d399] px-2 py-1 rounded">
+                  <span className="text-xs bg-emerald-50 text-[#a67a56] px-2 py-1 rounded">
                     男女兼用
                   </span>
                 </div>
@@ -851,7 +851,7 @@ export default function DietMechanismPage() {
               <div className="mt-4">
                 <Link
                   href="/slim-up-insole/"
-                  className="text-sm text-[#34d399] hover:underline font-medium"
+                  className="text-sm text-[#a67a56] hover:underline font-medium"
                 >
                   スリムアップインソールの詳細レビューを見る →
                 </Link>
@@ -985,7 +985,7 @@ export default function DietMechanismPage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d4536d] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#d4536d] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングを見る
             </Link>
@@ -1000,7 +1000,7 @@ export default function DietMechanismPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/articles/insole-truth/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ダイエットインソールは嘘？効果の科学的根拠を検証
@@ -1008,7 +1008,7 @@ export default function DietMechanismPage() {
             </Link>
             <Link
               href="/articles/walking-diet/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 歩くだけダイエットは本当に効果ある？インソールで効率UP
@@ -1016,7 +1016,7 @@ export default function DietMechanismPage() {
             </Link>
             <Link
               href="/articles/pelvis-correction/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 骨盤矯正インソールの効果を科学的に解説
@@ -1024,9 +1024,9 @@ export default function DietMechanismPage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>

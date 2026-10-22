@@ -566,19 +566,19 @@ export default function SlimupCouponPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/slim-up-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/slim-up-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールの口コミ・効果を検証</p>
               <p className="text-xs text-gray-500 mt-1">骨格筋サポート構造の仕組みから最安値情報まで詳しく解説</p>
             </Link>
-            <Link href="/articles/slimup-not-working/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/slimup-not-working/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールは痩せない？口コミから検証</p>
               <p className="text-xs text-gray-500 mt-1">痩せない原因を分析し、効果を最大化する使い方を解説</p>
             </Link>
-            <Link href="/articles/slimup-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/slimup-guide/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールのサイズ選び・使い方ガイド</p>
               <p className="text-xs text-gray-500 mt-1">S/M 2サイズの選び方と効果的な使い方を解説</p>
             </Link>
-            <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/ranking/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
@@ -635,7 +635,7 @@ export default function SlimupCouponPage() {
           <div className="mt-8 text-center">
             <Link
               href="/slim-up-insole/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               スリムアップインソールの詳細レビューを見る
             </Link>

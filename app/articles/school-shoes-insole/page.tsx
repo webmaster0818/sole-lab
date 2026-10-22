@@ -67,8 +67,8 @@ export default function SchoolShoesPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">片道20〜30分の徒歩通学に、学校では一日中上履き——生徒・学生の足は、大人が思う以上に長い時間靴の中で働いています。とくに上履きは底が薄くフラットで、足を支える機能がほとんどありません。成長期の足に配慮したインソールの選び方を解説します。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">通学靴・上履きには、薄型でカットしてサイズを合わせられるインソールが向いています。ただし市販インソールには対応サイズの下限があり（例：ピットソールはXS＝21cm〜）、足がまだ小さいお子さんには合いません。また、かかとや足の痛みを訴える場合は成長期特有の症状の可能性があるため、まず整形外科を受診してください。</p>
         </div>
 
@@ -93,7 +93,7 @@ export default function SchoolShoesPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">通学靴・上履きにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">通学靴・上履きには、薄型でサイズ調整しやすいインソールが向いています。いずれもダイエット目的ではなく、毎日の歩行と立ち時間の負担をやわらげる補助として選ぶことをおすすめします。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">通学靴・上履きには、薄型でサイズ調整しやすいインソールが向いています。いずれもダイエット目的ではなく、毎日の歩行と立ち時間の負担をやわらげる補助として選ぶことをおすすめします。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -104,9 +104,9 @@ export default function SchoolShoesPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -131,17 +131,17 @@ export default function SchoolShoesPage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">底の薄い上履きと毎日の通学路。成長期の足の負担をやわらげるインソールを比較することをおすすめします。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

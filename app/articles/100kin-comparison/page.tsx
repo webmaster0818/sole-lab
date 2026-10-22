@@ -131,25 +131,25 @@ export default function HyakkinComparisonPage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-[#fdf2f4] to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             比較ガイド
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ダイエットインソール vs 100均インソール
             <br />
-            <span className="text-[#e8627c]">違いと効果</span>
+            <span className="text-[#8a6a4f]">違いと効果</span>
             を比較
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             「インソールなんてどれも同じでしょ？」「100均で十分じゃない？」そんな疑問に、素材・構造・アーチサポート・耐久性・特許技術の5項目から具体的に回答します。競合サイトでは「100均では効果なし」で終わってしまいがちですが、本記事では両者の設計思想の違いを比較表付きで徹底的に掘り下げます。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-[#fdf2f4] text-[#e8627c] px-3 py-1 rounded-full font-medium border border-[#f3e0e4]">
+            <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
               ダイエットインソール 100均
             </span>
-            <span className="bg-[#fdf2f4] text-[#e8627c] px-3 py-1 rounded-full font-medium border border-[#f3e0e4]">
+            <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
               比較
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -290,7 +290,7 @@ export default function HyakkinComparisonPage() {
             ].map((item) => (
               <div key={item.num} className="card">
                 <div className="flex items-start gap-3 mb-4">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <h3 className="text-lg font-bold text-gray-900">
@@ -306,8 +306,8 @@ export default function HyakkinComparisonPage() {
                       {item.hyakkin}
                     </p>
                   </div>
-                  <div className="bg-[#fdf2f4] rounded-xl p-4">
-                    <p className="text-xs font-bold text-[#e8627c] mb-2 uppercase tracking-wider">
+                  <div className="bg-[#faf7f3] rounded-xl p-4">
+                    <p className="text-xs font-bold text-[#8a6a4f] mb-2 uppercase tracking-wider">
                       ダイエットインソール
                     </p>
                     <p className="text-sm text-gray-600 leading-relaxed">
@@ -336,14 +336,14 @@ export default function HyakkinComparisonPage() {
           <div className="card overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b-2 border-[#f3e0e4]">
+                <tr className="border-b-2 border-[#e8ded6]">
                   <th className="py-3 text-left text-gray-500 font-medium w-1/4">
                     比較項目
                   </th>
                   <th className="py-3 text-left text-gray-500 font-medium w-[37.5%]">
                     100均インソール
                   </th>
-                  <th className="py-3 text-left text-[#e8627c] font-medium w-[37.5%]">
+                  <th className="py-3 text-left text-[#8a6a4f] font-medium w-[37.5%]">
                     ダイエットインソール
                   </th>
                 </tr>
@@ -553,7 +553,7 @@ export default function HyakkinComparisonPage() {
                     <th className="py-2 text-left text-gray-500 font-medium">
                       100均インソール
                     </th>
-                    <th className="py-2 text-left text-[#e8627c] font-medium">
+                    <th className="py-2 text-left text-[#8a6a4f] font-medium">
                       ダイエットインソール
                     </th>
                   </tr>
@@ -650,7 +650,7 @@ export default function HyakkinComparisonPage() {
             ].map((item) => (
               <div key={item.rank} className="card">
                 <div className="flex items-start gap-4">
-                  <span className="text-3xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-3xl font-bold text-[#8a6a4f] shrink-0">
                     {item.rank}位
                   </span>
                   <div className="flex-1">
@@ -663,7 +663,7 @@ export default function HyakkinComparisonPage() {
                           key={point}
                           className="text-sm text-gray-600 flex items-start gap-2"
                         >
-                          <span className="text-[#e8627c] shrink-0 mt-0.5">
+                          <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                             &#10003;
                           </span>
                           {point}
@@ -693,7 +693,7 @@ export default function HyakkinComparisonPage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d14d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングをもっと見る
             </Link>
@@ -747,8 +747,8 @@ export default function HyakkinComparisonPage() {
                     </p>
                     <p className="text-sm text-gray-600">{item.hyakkin}</p>
                   </div>
-                  <div className="bg-[#fdf2f4] rounded-lg p-3">
-                    <p className="text-xs font-bold text-[#e8627c] mb-1">
+                  <div className="bg-[#faf7f3] rounded-lg p-3">
+                    <p className="text-xs font-bold text-[#8a6a4f] mb-1">
                       ダイエットインソールがおすすめ
                     </p>
                     <p className="text-sm text-gray-600">{item.diet}</p>
@@ -800,7 +800,7 @@ export default function HyakkinComparisonPage() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -808,7 +808,7 @@ export default function HyakkinComparisonPage() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -838,7 +838,7 @@ export default function HyakkinComparisonPage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d14d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングを見る
             </Link>
@@ -853,7 +853,7 @@ export default function HyakkinComparisonPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/articles/insole-expectations/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 インソールダイエットは効果ない？正しい期待値と成功の条件
@@ -861,7 +861,7 @@ export default function HyakkinComparisonPage() {
             </Link>
             <Link
               href="/articles/diet-mechanism/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 インソールでダイエットできる仕組みを専門家視点で解説
@@ -869,7 +869,7 @@ export default function HyakkinComparisonPage() {
             </Link>
             <Link
               href="/runway-cure-sole/#where-to-buy"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ランウェイキュアソールはどこで売ってる？販売店・最安値まとめ
@@ -877,9 +877,9 @@ export default function HyakkinComparisonPage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>

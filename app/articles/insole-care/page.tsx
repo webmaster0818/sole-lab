@@ -116,27 +116,27 @@ export default function InsoleCare() {
       <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "使い方・手入れ" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-pink-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             ダイエットコラム
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             インソールの正しい使い方・洗い方・寿命まとめ
             <br />
-            <span className="text-[#e8627c]">【長持ちさせるコツ】</span>
+            <span className="text-[#8a6a4f]">【長持ちさせるコツ】</span>
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             せっかく購入したインソールも、正しく使わなければ効果は半減。間違った洗い方をすれば寿命を縮めてしまうこともあります。この記事では、インソールの正しい装着方法からサイズ調整、素材別の洗い方、交換時期の見極め方まで、インソールを長く快適に使い続けるために知っておきたいすべてを解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-pink-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               インソール 使い方
             </span>
-            <span className="bg-pink-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               洗い方
             </span>
-            <span className="bg-pink-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               寿命・交換時期
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -153,33 +153,33 @@ export default function InsoleCare() {
 
       <section className="py-8 md:py-10">
         <div className="max-w-3xl mx-auto px-4">
-          <div className="bg-[#fdf2f4] rounded-xl p-6">
+          <div className="bg-[#faf7f3] rounded-xl p-6">
             <p className="text-sm font-bold text-gray-900 mb-3">
               この記事の内容
             </p>
             <ol className="space-y-2 text-sm text-gray-700">
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">1.</span>
+                <span className="text-[#8a6a4f] font-bold shrink-0">1.</span>
                 インソールの正しい使い方
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">2.</span>
+                <span className="text-[#8a6a4f] font-bold shrink-0">2.</span>
                 インソールの洗い方【素材別ガイド】
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">3.</span>
+                <span className="text-[#8a6a4f] font-bold shrink-0">3.</span>
                 インソールの寿命と交換サイン
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">4.</span>
+                <span className="text-[#8a6a4f] font-bold shrink-0">4.</span>
                 ダイエットインソール別のお手入れポイント
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">5.</span>
+                <span className="text-[#8a6a4f] font-bold shrink-0">5.</span>
                 インソールを長持ちさせる5つのコツ
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#e8627c] font-bold shrink-0">6.</span>
+                <span className="text-[#8a6a4f] font-bold shrink-0">6.</span>
                 よくある質問（FAQ）
               </li>
             </ol>
@@ -213,7 +213,7 @@ export default function InsoleCare() {
               </p>
               <ol className="space-y-3 ml-1">
                 <li className="flex items-start gap-3">
-                  <span className="bg-[#e8627c] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="bg-[#8a6a4f] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
                     1
                   </span>
                   <div>
@@ -226,7 +226,7 @@ export default function InsoleCare() {
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="bg-[#e8627c] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="bg-[#8a6a4f] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
                     2
                   </span>
                   <div>
@@ -239,7 +239,7 @@ export default function InsoleCare() {
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="bg-[#e8627c] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="bg-[#8a6a4f] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
                     3
                   </span>
                   <div>
@@ -252,7 +252,7 @@ export default function InsoleCare() {
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="bg-[#e8627c] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="bg-[#8a6a4f] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
                     4
                   </span>
                   <div>
@@ -279,7 +279,7 @@ export default function InsoleCare() {
               </p>
               <ul className="space-y-2 ml-1">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -290,7 +290,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -301,7 +301,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -312,7 +312,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -426,7 +426,7 @@ export default function InsoleCare() {
               </p>
               <ul className="space-y-2 ml-1">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -437,7 +437,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -448,7 +448,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -459,7 +459,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -577,25 +577,25 @@ export default function InsoleCare() {
               </p>
               <ul className="space-y-2 ml-1">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#34d399] shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   水洗いOK。基本の洗い方がそのまま使えます
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#34d399] shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   軽くて乾きやすいため、お手入れのハードルが低い素材です
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#34d399] shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   ただし高温（50℃以上）に弱いため、熱湯やドライヤーの使用は避けてください
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#34d399] shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   長時間水に浸けると気泡構造が壊れることがあるため、浸け置き洗いは5分以内にとどめてください
@@ -717,7 +717,7 @@ export default function InsoleCare() {
               </p>
               <ul className="space-y-2 ml-1">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -728,7 +728,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -739,7 +739,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -750,7 +750,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -761,7 +761,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -904,10 +904,10 @@ export default function InsoleCare() {
                 ].map((item) => (
                   <div
                     key={item.sign}
-                    className="bg-[#fdf2f4] rounded-xl p-4"
+                    className="bg-[#faf7f3] rounded-xl p-4"
                   >
                     <div className="flex items-start gap-2 mb-2">
-                      <span className="text-lg font-bold text-[#e8627c]">
+                      <span className="text-lg font-bold text-[#8a6a4f]">
                         {item.num}
                       </span>
                       <span className="font-bold text-gray-900">
@@ -924,7 +924,7 @@ export default function InsoleCare() {
           </div>
 
           {/* ダイエットインソールの交換時期 */}
-          <div className="card border-l-4 border-l-[#e8627c]">
+          <div className="card border-l-4 border-l-[#8a6a4f]">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4">
               ダイエットインソールの交換時期
             </h3>
@@ -940,7 +940,7 @@ export default function InsoleCare() {
               </p>
               <ul className="space-y-2 ml-1">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -951,7 +951,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -962,7 +962,7 @@ export default function InsoleCare() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   <span>
@@ -997,7 +997,7 @@ export default function InsoleCare() {
           </div>
 
           {/* ピットソール */}
-          <div className="card mb-6 border-l-4 border-l-[#e8627c]">
+          <div className="card mb-6 border-l-4 border-l-[#8a6a4f]">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4">
               ピットソールのお手入れ
             </h3>
@@ -1007,25 +1007,25 @@ export default function InsoleCare() {
               </p>
               <ul className="space-y-2 ml-1">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   EVAフォーム素材のため、基本の水洗いが可能です
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   キュボイドサポート部分（土踏まずの外側やや下の盛り上がり）は強くこすらないでください
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   乾燥時はアーチ部分を上にして立てかけ、立体構造が潰れないようにしてください
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#e8627c] shrink-0 mt-0.5">
+                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   2足・4足・6足のまとめ買いセットで購入すると、ローテーションで寿命を延ばせるうえ、1足あたりのコストも抑えられます
@@ -1034,7 +1034,7 @@ export default function InsoleCare() {
               <div className="mt-4">
                 <Link
                   href="/pitsole/"
-                  className="text-[#e8627c] hover:text-[#d4556d] text-sm font-medium transition-colors"
+                  className="text-[#8a6a4f] hover:text-[#6f543c] text-sm font-medium transition-colors"
                 >
                   ピットソールの詳細を見る &rarr;
                 </Link>
@@ -1053,25 +1053,25 @@ export default function InsoleCare() {
               </p>
               <ul className="space-y-2 ml-1">
                 <li className="flex items-start gap-2">
-                  <span className="text-purple-500 shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   薄型設計のため、洗う際に曲げたり折ったりしないよう注意してください
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-purple-500 shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   表面の生地が繊細なため、歯ブラシよりも柔らかい布での拭き洗いが安心です
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-purple-500 shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   乾燥時は平らな場所に置いて自然乾燥させてください。吊るすと薄型素材が変形する可能性があります
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-purple-500 shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   パンプスに入れて使う場合は汗を吸いやすいため、毎日の陰干しを習慣にしてください
@@ -1080,7 +1080,7 @@ export default function InsoleCare() {
               <div className="mt-4">
                 <Link
                   href="/runway-cure-sole/"
-                  className="text-purple-600 hover:text-purple-700 text-sm font-medium transition-colors"
+                  className="text-[#8a6a4f] hover:text-[#6f543c] text-sm font-medium transition-colors"
                 >
                   ランウェイキュアソールの詳細を見る &rarr;
                 </Link>
@@ -1089,7 +1089,7 @@ export default function InsoleCare() {
           </div>
 
           {/* スリムアップインソール */}
-          <div className="card border-l-4 border-l-[#34d399]">
+          <div className="card border-l-4 border-l-[#a67a56]">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4">
               スリムアップインソールのお手入れ
             </h3>
@@ -1099,25 +1099,25 @@ export default function InsoleCare() {
               </p>
               <ul className="space-y-2 ml-1">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#34d399] shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   EVAフォーム素材のため水洗い可能。基本の洗い方でOKです
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#34d399] shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   傾斜部分（かかと側が高くなっている構造）が特に重要なため、乾燥時に重いものを上に置かないでください
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#34d399] shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   手頃な価格なので、定期的に新品に交換するのもおすすめ。常に最大限の効果を得られます
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#34d399] shrink-0 mt-0.5">
+                  <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
                   男女兼用で幅広いサイズ展開があるため、家族でまとめ買いしてストックしておくのも賢い方法です
@@ -1126,7 +1126,7 @@ export default function InsoleCare() {
               <div className="mt-4">
                 <Link
                   href="/slim-up-insole/"
-                  className="text-[#34d399] hover:text-emerald-500 text-sm font-medium transition-colors"
+                  className="text-[#a67a56] hover:text-emerald-500 text-sm font-medium transition-colors"
                 >
                   スリムアップインソールの詳細を見る &rarr;
                 </Link>
@@ -1178,7 +1178,7 @@ export default function InsoleCare() {
             ].map((item) => (
               <div key={item.num} className="card">
                 <div className="flex items-start gap-3">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <div>
@@ -1197,7 +1197,7 @@ export default function InsoleCare() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d4556d] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               長持ちするダイエットインソールを見る
             </Link>
@@ -1216,7 +1216,7 @@ export default function InsoleCare() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -1224,7 +1224,7 @@ export default function InsoleCare() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -1257,13 +1257,13 @@ export default function InsoleCare() {
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d4556d] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base text-center"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base text-center"
             >
               ダイエットインソールランキングを見る
             </Link>
             <Link
               href="/ranking/#comparison"
-              className="inline-block bg-white hover:bg-[#fdf2f4] text-gray-700 font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base border border-[#f3e0e4] text-center"
+              className="inline-block bg-white hover:bg-[#faf7f3] text-gray-700 font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base border border-[#e8ded6] text-center"
             >
               3製品を比較する
             </Link>
@@ -1278,7 +1278,7 @@ export default function InsoleCare() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/articles/insole-truth/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ダイエットインソールは嘘？効果の科学的根拠を検証
@@ -1286,7 +1286,7 @@ export default function InsoleCare() {
             </Link>
             <Link
               href="/articles/how-to-choose/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ダイエットインソールの選び方5つのポイント【失敗しない】
@@ -1294,7 +1294,7 @@ export default function InsoleCare() {
             </Link>
             <Link
               href="/articles/standing-work/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 立ち仕事で足が疲れない最強インソール3選
@@ -1302,9 +1302,9 @@ export default function InsoleCare() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る &rarr;
               </p>
             </Link>

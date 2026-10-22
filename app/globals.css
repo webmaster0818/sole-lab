@@ -6,7 +6,7 @@
   --color-primary-light: #faf3ec;
   --color-cta: #b98f6b;
   --color-cta-hover: #a67a56;
-  --color-accent-fresh: #34d399;
+  --color-accent-fresh: #a67a56;
   --color-footer-bg: #3d2b2f;
   --color-text: #1e293b;
   --color-text-light: #64748b;
@@ -44,7 +44,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 8px 30px rgba(232, 98, 124, 0.12);
+  box-shadow: 0 8px 30px rgba(138, 106, 79, 0.12);
   transform: translateY(-3px);
 }
 

@@ -39,14 +39,14 @@ export default function AboutPage() {
       />
       <Breadcrumb items={[{ label: "運営者情報" }]} />
       <main className="max-w-4xl mx-auto px-4 py-8">
-        <h1 className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b-2 border-[#e8627c]">
+        <h1 className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b-2 border-[#8a6a4f]">
           運営者情報
         </h1>
 
         {/* サイトについて */}
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">1.</span>
+            <span className="text-[#8a6a4f] mr-2">1.</span>
             サイトについて
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -57,7 +57,7 @@ export default function AboutPage() {
         {/* 運営会社 */}
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">2.</span>
+            <span className="text-[#8a6a4f] mr-2">2.</span>
             運営会社
           </h2>
           <div className="overflow-x-auto">
@@ -101,7 +101,7 @@ export default function AboutPage() {
         {/* 編集方針 */}
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">3.</span>
+            <span className="text-[#8a6a4f] mr-2">3.</span>
             編集方針
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed">
@@ -120,7 +120,7 @@ export default function AboutPage() {
               </li>
               <li>
                 インソールは医薬品・医療機器ではないため、痩身・治療効果を断定する表現は用いず、景品表示法・薬機法に配慮した表現を編集部の基準として統一しています（
-                <Link href="/content-policy/" className="text-[#e8627c] underline">
+                <Link href="/content-policy/" className="text-[#8a6a4f] underline">
                   効果・表現に関する方針（NG/OK表）はこちら
                 </Link>
                 ）。
@@ -135,7 +135,7 @@ export default function AboutPage() {
         {/* 編集・検証体制 */}
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">4.</span>
+            <span className="text-[#8a6a4f] mr-2">4.</span>
             編集・検証体制と情報の確認方法
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">
@@ -151,7 +151,7 @@ export default function AboutPage() {
                 公式に記載のない項目は推測で補わず「公式表記なし」と明示します。架空の口コミ・体験談・統計・調査結果は作成しません。
               </li>
               <li>
-                効果に関する表現は<Link href="/content-policy/" className="text-[#e8627c] underline">記事制作ポリシー</Link>のNG/OK基準に照らして確認します。健康・身体に関わる内容には医療免責を併記します。
+                効果に関する表現は<Link href="/content-policy/" className="text-[#8a6a4f] underline">記事制作ポリシー</Link>のNG/OK基準に照らして確認します。健康・身体に関わる内容には医療免責を併記します。
               </li>
               <li>
                 掲載後も価格改定・キャンペーン・廃盤などに合わせて定期的に見直します。誤りが判明した場合は速やかに修正します。
@@ -166,7 +166,7 @@ export default function AboutPage() {
         {/* 免責事項 */}
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">5.</span>
+            <span className="text-[#8a6a4f] mr-2">5.</span>
             免責事項
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">

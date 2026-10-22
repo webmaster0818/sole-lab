@@ -981,13 +981,13 @@ export default function ArticlesPage() {
       <Breadcrumb items={[{ label: "記事一覧" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-pink-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">Knowledge &amp; Column</p>
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">Knowledge &amp; Column</p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             目的から探す
             <br className="md:hidden" />
-            <span className="text-[#e8627c]">インソール記事</span>
+            <span className="text-[#8a6a4f]">インソール記事</span>
             一覧
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
@@ -1002,16 +1002,15 @@ export default function ArticlesPage() {
         <VerificationNote />
       </div>
 
-      <section className="py-8 border-b border-[#f3e0e4]">
+      <section className="py-8 border-b border-[#e8ded6]">
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-2 md:gap-3">
             {categories.map((cat) => (
               <a
                 key={cat.key}
                 href={`#${cat.key}`}
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-gray-700 bg-white border border-[#f3e0e4] rounded-full px-4 py-2 hover:bg-[#fdf2f4] hover:text-[#e8627c] transition-colors"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-gray-700 bg-white border border-[#e8ded6] rounded-full px-4 py-2 hover:bg-[#faf7f3] hover:text-[#8a6a4f] transition-colors"
               >
-                <span>{cat.emoji}</span>
                 {cat.label}
                 <span className="text-xs text-gray-400">({cat.items.length})</span>
               </a>
@@ -1030,7 +1029,6 @@ export default function ArticlesPage() {
           <div className="max-w-4xl mx-auto px-4">
             <div className="mb-8">
               <h2 className="text-xl md:text-2xl font-bold text-gray-900 flex items-center gap-2">
-                <span>{cat.emoji}</span>
                 {cat.label}
               </h2>
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">{cat.intro}</p>
@@ -1040,9 +1038,9 @@ export default function ArticlesPage() {
                 <Link
                   key={article.href}
                   href={article.href}
-                  className="block border border-[#f3e0e4] rounded-xl p-5 hover:bg-[#fdf2f4] transition-colors group"
+                  className="block border border-[#e8ded6] rounded-xl p-5 hover:bg-[#faf7f3] transition-colors group"
                 >
-                  <h3 className="text-sm md:text-base font-bold text-gray-900 group-hover:text-[#e8627c] transition-colors mb-2 leading-snug">
+                  <h3 className="text-sm md:text-base font-bold text-gray-900 group-hover:text-[#8a6a4f] transition-colors mb-2 leading-snug">
                     {article.title}
                   </h3>
                   <p className="text-xs md:text-sm text-gray-600 leading-relaxed line-clamp-3">
@@ -1056,7 +1054,7 @@ export default function ArticlesPage() {
       ))}
 
       {/* CTA */}
-      <section className="py-12 md:py-16 bg-gradient-to-b from-white to-pink-50">
+      <section className="py-12 md:py-16 bg-gradient-to-b from-white to-[#faf7f3]">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
             どのインソールを選べばいい？
@@ -1066,7 +1064,7 @@ export default function ArticlesPage() {
           </p>
           <Link
             href="/ranking/"
-            className="inline-block bg-[#e8627c] hover:bg-[#d4506a] text-white font-bold py-3 px-8 rounded-full transition-colors text-sm md:text-base"
+            className="inline-block bg-[#8a6a4f] hover:bg-[#d4506a] text-white font-bold py-3 px-8 rounded-full transition-colors text-sm md:text-base"
           >
             おすすめランキングを見る
           </Link>

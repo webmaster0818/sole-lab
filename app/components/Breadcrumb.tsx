@@ -13,7 +13,7 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
     >
       <ol className="flex items-center gap-1 flex-wrap">
         <li>
-          <Link href="/" className="hover:text-[#e8627c] transition-colors">
+          <Link href="/" className="hover:text-[#8a6a4f] transition-colors">
             ホーム
           </Link>
         </li>
@@ -21,7 +21,7 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
           <li key={i} className="flex items-center gap-1">
             <span aria-hidden="true">/</span>
             {item.href ? (
-              <Link href={item.href} className="hover:text-[#e8627c] transition-colors">
+              <Link href={item.href} className="hover:text-[#8a6a4f] transition-colors">
                 {item.label}
               </Link>
             ) : (

@@ -26,10 +26,10 @@ export default function DiagnosisResultPage() {
   return (
     <main className="py-12 md:py-16">
       <div className="max-w-2xl mx-auto px-4">
-        <div className="rounded-2xl border border-[#f3e0e4] bg-white p-6 md:p-10 text-center">
+        <div className="rounded-2xl border border-[#e8ded6] bg-white p-6 md:p-10 text-center">
           <p className="text-sm font-semibold text-gray-500">ダイエットインソール相性診断</p>
           <p className="mt-3 text-xs text-gray-400">この診断結果と相性が良いのは</p>
-          <h1 className="mt-1 text-3xl font-bold" style={{ color: "#34d399" }}>スリムアップインソール</h1>
+          <h1 className="mt-1 text-3xl font-bold" style={{ color: "#a67a56" }}>スリムアップインソール</h1>
           <p className="mt-1 text-sm text-gray-500">コスパ重視のダイエットインソール</p>
           <p className="mt-5 text-sm text-gray-700 leading-relaxed text-left">試しやすさ・コスパを重視する方に向いた結果です。シンプルな設計のスリムアップインソールは、インソールが初めての方や、まず手頃に始めたい方と相性が良い製品です。</p>
           <div className="mt-5 rounded-xl bg-gray-50 p-4 text-left">
@@ -51,7 +51,7 @@ export default function DiagnosisResultPage() {
             <ShareButtons url={url} text="ダイエットインソール相性診断の結果: あなたに合うのはスリムアップインソールでした" />
           </div>
           <div className="mt-6">
-            <Link href="/diagnosis/" className="text-sm text-[#e8627c] underline font-medium">
+            <Link href="/diagnosis/" className="text-sm text-[#8a6a4f] underline font-medium">
               自分でも診断してみる（6つの質問・無料）
             </Link>
             <span className="mx-2 text-gray-300">|</span>

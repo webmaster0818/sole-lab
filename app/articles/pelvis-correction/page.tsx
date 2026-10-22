@@ -715,17 +715,17 @@ export default function PelvisCorrectionPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/articles/posture-correction/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/posture-correction/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">猫背を改善するインソールの選び方【姿勢矯正ガイド】</p>
             </Link>
-            <Link href="/articles/leg-slimming/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/leg-slimming/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">脚痩せしたい人のインソール選びガイド</p>
             </Link>
-            <Link href="/articles/flat-feet/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/flat-feet/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">扁平足・浮き指にインソールは効果ある？おすすめ3選</p>
             </Link>
-            <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50">
-              <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>
+            <Link href="/ranking/" className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50">
+              <p className="text-sm font-semibold text-[#8a6a4f]">おすすめダイエットインソール3選を見る →</p>
             </Link>
           </div>
         </div>

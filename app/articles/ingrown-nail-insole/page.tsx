@@ -67,8 +67,8 @@ export default function IngrownNailPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">足の親指の爪が内側に巻き込んで食い込む、押すと痛い——巻き爪（彎曲爪）や陥入爪は、放置すると痛みや炎症が悪化しやすいトラブルです。痛みや化膿がある場合は、まず皮膚科・形成外科などの医療機関を受診してください。インソールは治療の代わりにはなりませんが、足指がしっかり接地して歩ける状態を支えることで、爪への偏った圧を減らす補助になります。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">巻き爪の痛み・食い込み・化膿は、まず皮膚科・形成外科での診察と処置が第一選択です。インソールは巻き爪を治すものではありませんが、浮き指などで足指が使えていない歩き方を整え、爪が受ける圧のバランスを保つ補助として活用できます。あわせて靴のサイズ・形の見直しを行ってください。</p>
         </div>
 
@@ -93,7 +93,7 @@ export default function IngrownNailPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">巻き爪におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">足指が使いやすくなるアーチサポートと、前足部を圧迫しない薄さを両立したインソールが巻き爪対策の補助に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">足指が使いやすくなるアーチサポートと、前足部を圧迫しない薄さを両立したインソールが巻き爪対策の補助に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -104,9 +104,9 @@ export default function IngrownNailPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -131,17 +131,17 @@ export default function IngrownNailPage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">足指を使った歩きを支えるアーチサポートインソールを比較してんでください。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

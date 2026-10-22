@@ -131,13 +131,13 @@ export default function WalkingInsolePage() {
       {/* Hero */}
       <section className="bg-gradient-to-b from-emerald-50 to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#34d399] font-medium mb-2">
+          <p className="text-sm text-[#a67a56] font-medium mb-2">
             目的別インソール選び
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ウォーキング用インソール
             <br />
-            <span className="text-[#34d399]">おすすめ3選</span>
+            <span className="text-[#a67a56]">おすすめ3選</span>
             <br className="md:hidden" />
             ｜歩きやすさと痩せ効果
           </h1>
@@ -172,7 +172,6 @@ export default function WalkingInsolePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#128099;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 正しい歩行フォーム
               </h3>
@@ -181,7 +180,6 @@ export default function WalkingInsolePage() {
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#128170;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 筋肉活動量の増加
               </h3>
@@ -190,7 +188,6 @@ export default function WalkingInsolePage() {
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#128694;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 疲れにくさの向上
               </h3>
@@ -210,15 +207,15 @@ export default function WalkingInsolePage() {
           </h2>
 
           <div className="space-y-6">
-            <div className="bg-white border-2 border-[#e8627c] rounded-xl p-5 md:p-6">
+            <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6">
               <div className="flex items-center gap-2 mb-3">
-                <span className="text-sm bg-[#e8627c] text-white px-3 py-1 rounded-full font-bold">
+                <span className="text-sm bg-[#8a6a4f] text-white px-3 py-1 rounded-full font-bold">
                   1位
                 </span>
                 <h3 className="text-lg font-bold text-gray-900">
                   ピットソール
                 </h3>
-                <span className="text-xs bg-red-100 text-[#e8627c] px-2 py-0.5 rounded-full">
+                <span className="text-xs bg-red-100 text-[#8a6a4f] px-2 py-0.5 rounded-full">
                   エビデンス重視
                 </span>
               </div>
@@ -243,7 +240,7 @@ export default function WalkingInsolePage() {
                   <span className="text-gray-900 font-medium">男女兼用</span>
                 </div>
               </div>
-              <Link href="/pitsole/" className="text-sm text-[#e8627c] font-medium hover:underline">
+              <Link href="/pitsole/" className="text-sm text-[#8a6a4f] font-medium hover:underline">
                 ピットソールの詳細レビューを見る →
               </Link>
             </div>
@@ -256,7 +253,7 @@ export default function WalkingInsolePage() {
                 <h3 className="text-lg font-bold text-gray-900">
                   ランウェイキュアソール
                 </h3>
-                <span className="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded-full">
+                <span className="text-xs bg-[#f3ece4] text-[#6f543c] px-2 py-0.5 rounded-full">
                   薄型・快適
                 </span>
               </div>
@@ -281,7 +278,7 @@ export default function WalkingInsolePage() {
                   <span className="text-gray-900 font-medium">女性向け</span>
                 </div>
               </div>
-              <Link href="/runway-cure-sole/" className="text-sm text-[#e8627c] font-medium hover:underline">
+              <Link href="/runway-cure-sole/" className="text-sm text-[#8a6a4f] font-medium hover:underline">
                 ランウェイキュアソールの詳細レビューを見る →
               </Link>
             </div>
@@ -319,7 +316,7 @@ export default function WalkingInsolePage() {
                   <span className="text-gray-900 font-medium">23.0〜26.5cm</span>
                 </div>
               </div>
-              <Link href="/slim-up-insole/" className="text-sm text-[#e8627c] font-medium hover:underline">
+              <Link href="/slim-up-insole/" className="text-sm text-[#8a6a4f] font-medium hover:underline">
                 スリムアップインソールの詳細レビューを見る →
               </Link>
             </div>
@@ -359,7 +356,7 @@ export default function WalkingInsolePage() {
             ].map((item) => (
               <div key={item.num} className="bg-white border border-gray-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
-                  <span className="text-2xl font-bold text-[#34d399] shrink-0">
+                  <span className="text-2xl font-bold text-[#a67a56] shrink-0">
                     {item.num}
                   </span>
                   <div>
@@ -456,12 +453,12 @@ export default function WalkingInsolePage() {
                 week: "9〜12週目",
                 title: "効果実感フェーズ",
                 desc: "1日60分、約6,000〜8,000歩の継続。3ヶ月の継続で姿勢の改善、ボディラインの変化を実感する方が増えてきます。体重計の数字にも変化が表れ始めます。",
-                color: "border-l-[#e8627c]",
+                color: "border-l-[#8a6a4f]",
               },
             ].map((item) => (
               <div key={item.week} className={`bg-white border border-gray-200 rounded-xl p-5 border-l-4 ${item.color}`}>
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="text-sm font-bold text-[#e8627c]">{item.week}</span>
+                  <span className="text-sm font-bold text-[#8a6a4f]">{item.week}</span>
                   <h3 className="text-base font-bold text-gray-900">{item.title}</h3>
                 </div>
                 <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
@@ -518,19 +515,19 @@ export default function WalkingInsolePage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/articles/walking-diet/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/walking-diet/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">歩くだけダイエットは本当に効果ある？</p>
               <p className="text-xs text-gray-500 mt-1">歩くだけダイエットの科学的根拠とインソール活用法</p>
             </Link>
-            <Link href="/articles/desk-work/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/desk-work/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">デスクワークの足の疲れにインソールは効果ある？</p>
               <p className="text-xs text-gray-500 mt-1">歩行量が少ない方のインソール活用法</p>
             </Link>
-            <Link href="/articles/how-to-choose/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/how-to-choose/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールの選び方5つのポイント</p>
               <p className="text-xs text-gray-500 mt-1">失敗しないインソールの選び方ガイド</p>
             </Link>
-            <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/ranking/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
@@ -549,7 +546,7 @@ export default function WalkingInsolePage() {
               <details key={faq.question} className="bg-white border border-gray-200 rounded-lg group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2 px-5 py-4">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#34d399] shrink-0">Q.</span>
+                    <span className="text-[#a67a56] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -557,7 +554,7 @@ export default function WalkingInsolePage() {
                   </span>
                 </summary>
                 <p className="px-5 pb-4 text-sm text-gray-600 leading-relaxed pl-10">
-                  <span className="text-[#34d399] font-bold">A.</span>{" "}
+                  <span className="text-[#a67a56] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -584,7 +581,7 @@ export default function WalkingInsolePage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               おすすめインソールランキングを見る
             </Link>

@@ -68,8 +68,8 @@ export default function DonkiPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">深夜まで開いていて何でも揃うドン・キホーテ。インソールも各種扱っていますが、ダイエット目的にはどうなのか——ドンキのインソールの特徴と専用品との違いを整理します。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">ドンキのインソールは、衝撃吸収・消臭・身長アップ系など幅広い汎用品が手頃な価格で手に入ります。姿勢・歩き方を整える本格的なダイエット設計とは目的が異なるため、ダイエット重視なら専用インソールが向いています。</p>
         </div>
 
@@ -94,7 +94,7 @@ export default function DonkiPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ドン・キホーテにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ダイエットや姿勢改善が目的なら、専用設計のインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">ダイエットや姿勢改善が目的なら、専用設計のインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -105,9 +105,9 @@ export default function DonkiPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/#donki" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -117,7 +117,7 @@ export default function DonkiPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ランウェイキュアソールやピットソールはドンキで売ってる？</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">「ランウェイキュアソール ドンキ」「ピットソール ドンキ」と探す方は多いですが、<strong>どちらもドン・キホーテでの取り扱いは確認されていません</strong>。ランウェイキュアソールは公式サイト（FLOReショップ）が中心、ピットソールは公式サイトと正規のAmazon・楽天店舗が主な購入ルートです。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドンキの店頭にもアーチサポートをうたうインソールは並んでいますが、これらは別商品です。セット割引や正規品保証は公式ルート限定のため、確実に正規品が欲しい場合は公式サイトをご利用ください。各製品の詳細は<Link href="/runway-cure-sole/#donki" className="text-[#e8627c] underline font-medium">ランウェイキュアソールの口コミ・販売店情報</Link>と<Link href="/pitsole/" className="text-[#e8627c] underline font-medium">ピットソールの口コミ・効果検証</Link>で解説しています。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ドンキの店頭にもアーチサポートをうたうインソールは並んでいますが、これらは別商品です。セット割引や正規品保証は公式ルート限定のため、確実に正規品が欲しい場合は公式サイトをご利用ください。各製品の詳細は<Link href="/runway-cure-sole/#donki" className="text-[#8a6a4f] underline font-medium">ランウェイキュアソールの口コミ・販売店情報</Link>と<Link href="/pitsole/" className="text-[#8a6a4f] underline font-medium">ピットソールの口コミ・効果検証</Link>で解説しています。</p>
         </section>
 
         <section className="mb-12">
@@ -138,17 +138,17 @@ export default function DonkiPage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">ダイエット目的なら、姿勢と歩行を整える専用インソールを比較することをおすすめします。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

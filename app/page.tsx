@@ -21,7 +21,7 @@ const products = [
     price: "1,771円〜/月",
     points: ["世界特許取得の独自構造", "累計販売数200万足突破（2025年4月時点・公式発表）", "骨格から姿勢をサポート"],
     href: "/pitsole/",
-    accent: "#e8627c",
+    accent: "#8a6a4f",
     badge: "人気No.1",
   },
   {
@@ -43,7 +43,7 @@ const products = [
     price: "1,100円〜/月",
     points: ["手頃な価格設定", "初めての方におすすめ", "シンプルな設計で使いやすい"],
     href: "/slim-up-insole/",
-    accent: "#34d399",
+    accent: "#a67a56",
     badge: "コスパ◎",
   },
 ];
@@ -275,13 +275,13 @@ export default function Home() {
               気になる2製品を1対1で比較する
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
-              <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors text-center">
+              <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors text-center">
                 <p className="text-sm font-semibold text-gray-900">ピットソール vs ランウェイ</p>
               </Link>
-              <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors text-center">
+              <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors text-center">
                 <p className="text-sm font-semibold text-gray-900">ピットソール vs スリムアップ</p>
               </Link>
-              <Link href="/compare/runway-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors text-center">
+              <Link href="/compare/runway-vs-slimup/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors text-center">
                 <p className="text-sm font-semibold text-gray-900">ランウェイ vs スリムアップ</p>
               </Link>
             </div>
@@ -291,8 +291,8 @@ export default function Home() {
 
       {/* Reasons */}
       <section className="section-light py-16 md:py-20 relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-48 h-48 bg-[#e8627c]/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-36 h-36 bg-[#34d399]/5 rounded-full blur-3xl" />
+        <div className="absolute top-0 right-0 w-48 h-48 bg-[#8a6a4f]/5 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-36 h-36 bg-[#a67a56]/5 rounded-full blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-center text-gray-900 mb-10">
             ソールラボが選ばれる理由
@@ -360,9 +360,9 @@ export default function Home() {
             {faqs.map((faq) => (
               <details
                 key={faq.question}
-                className="group border border-[#f3e0e4] rounded-xl"
+                className="group border border-[#e8ded6] rounded-xl"
               >
-                <summary className="flex items-center justify-between cursor-pointer px-5 py-4 text-sm font-semibold text-gray-900 hover:bg-[#fdf2f4] rounded-xl transition-colors">
+                <summary className="flex items-center justify-between cursor-pointer px-5 py-4 text-sm font-semibold text-gray-900 hover:bg-[#faf7f3] rounded-xl transition-colors">
                   <span>{faq.question}</span>
                   <svg
                     className="w-5 h-5 text-[#8a6a4f] shrink-0 ml-4 group-open:rotate-180 transition-transform"
@@ -390,7 +390,7 @@ export default function Home() {
       {/* CTA */}
       <section className="section-primary-light py-16 md:py-20 relative overflow-hidden">
         <div className="absolute top-0 left-1/4 w-32 h-32 bg-[#c9a76c]/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 right-1/4 w-40 h-40 bg-[#e8627c]/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-1/4 w-40 h-40 bg-[#8a6a4f]/10 rounded-full blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1 mx-auto w-full max-w-xs">
             <Image

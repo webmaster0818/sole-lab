@@ -37,9 +37,9 @@ export default function KeihyohoGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
 
       {/* ヒーロー */}
-      <section className="bg-gradient-to-b from-[#fdf2f4] to-white py-12 md:py-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-xs font-semibold text-[#e8627c] mb-3">編集部の運用基準を公開</p>
+          <p className="text-xs font-semibold text-[#8a6a4f] mb-3">編集部の運用基準を公開</p>
           <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
             ダイエットインソールの広告表現
             <br className="md:hidden" />
@@ -155,19 +155,19 @@ https://sole-laboratory.com/articles/keihyoho-guide/`}</pre>
           </div>
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/content-policy/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#e8627c] transition-colors">
+            <Link href="/content-policy/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#8a6a4f] transition-colors">
               <p className="text-sm font-semibold text-gray-900">コンテンツポリシー</p>
               <p className="text-xs text-gray-500 mt-1">当サイトの編集・広告方針の全文</p>
             </Link>
-            <Link href="/articles/insole-truth/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#e8627c] transition-colors">
+            <Link href="/articles/insole-truth/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#8a6a4f] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールは嘘？科学的根拠を検証</p>
               <p className="text-xs text-gray-500 mt-1">「痩せない」と感じる理由も客観的に解説</p>
             </Link>
-            <Link href="/about/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#e8627c] transition-colors">
+            <Link href="/about/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#8a6a4f] transition-colors">
               <p className="text-sm font-semibold text-gray-900">運営者情報・編集体制</p>
               <p className="text-xs text-gray-500 mt-1">情報の確認方法と検証体制</p>
             </Link>
-            <Link href="/ranking/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#e8627c] transition-colors">
+            <Link href="/ranking/" className="block p-4 border border-gray-200 bg-white rounded-xl hover:border-[#8a6a4f] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめランキング</p>
               <p className="text-xs text-gray-500 mt-1">本ガイドの基準で書かれた比較</p>
             </Link>

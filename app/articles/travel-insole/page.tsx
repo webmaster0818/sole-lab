@@ -67,8 +67,8 @@ export default function TravelPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">観光の日は、街歩きや美術館、テーマパークなどで気づけば2万歩近く歩いていることも珍しくありません。普段あまり歩かない人ほど、旅行中の急な歩数増加で足裏やふくらはぎに疲れが出やすく、2日目以降の観光がつらくなりがちです。インソールは「歩ける足」を保って旅行を楽しみ切るための準備の一つです。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">旅行には、長時間歩いてもアーチが疲れにくいサポートと着地のクッション性を備え、歩きやすい靴と組み合わせられるインソールが向いています。大切なのは旅行当日にいきなり使わないこと。出発の1〜2週間前から普段の靴で慣らしておくと、本番で違和感なく使えます。</p>
         </div>
 
@@ -93,7 +93,7 @@ export default function TravelPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">旅行・観光の歩き疲れにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、日常の歩行サポートを目的としたインソールで、旅行のような「歩く量が一時的に増える日」のケアにも取り入れやすいものです。ピットソールは特許取得のアーチサポートで長時間の街歩き向き、ランウェイキュアソールは足に直接装着するソックス型なのでスニーカーからホテルのスリッパまで履き物を選ばず、スリムアップインソールは軽量なEVA/PE素材で携行の負担になりません。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、日常の歩行サポートを目的としたインソールで、旅行のような「歩く量が一時的に増える日」のケアにも取り入れやすいものです。ピットソールは特許取得のアーチサポートで長時間の街歩き向き、ランウェイキュアソールは足に直接装着するソックス型なのでスニーカーからホテルのスリッパまで履き物を選ばず、スリムアップインソールは軽量なEVA/PE素材で携行の負担になりません。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -104,9 +104,9 @@ export default function TravelPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -128,7 +128,7 @@ export default function TravelPage() {
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">山歩き・ハイキングを含む旅：かかとの安定を重視</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed">未舗装の遊歩道や自然公園では路面が不整地になり、足首が左右に揺さぶられやすくなるとされます。かかとを安定させるヒールカップのあるものを、履き慣れたウォーキングシューズと組み合わせてください。本格的な登山を含む場合は<Link href="/articles/hiking-insole/" className="text-[#e8627c] underline font-medium">ハイキング・登山のインソール</Link>も参考にしてください。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">未舗装の遊歩道や自然公園では路面が不整地になり、足首が左右に揺さぶられやすくなるとされます。かかとを安定させるヒールカップのあるものを、履き慣れたウォーキングシューズと組み合わせてください。本格的な登山を含む場合は<Link href="/articles/hiking-insole/" className="text-[#8a6a4f] underline font-medium">ハイキング・登山のインソール</Link>も参考にしてください。</p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">テーマパーク：立ちっぱなしと歩行の交互に備える</h3>
@@ -140,7 +140,7 @@ export default function TravelPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">携行と履き替えのコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">中敷き型はメインの歩き用スニーカーに入れたままにしておけば、荷物は増えません。旅先で別の靴にも使いたい場合は、当日の朝に慌てて入れ替えるのではなく、前夜のうちに移してフィット感を確かめておくと安心です。ソックス型は足に直接装着するため、靴を履き替えても付け替えの手間がなく、履き物が複数になる旅程と相性が良い形式です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">一日歩いた後のインソールは汗を含んでいます。ホテルに戻ったら靴から取り出して乾かしておくと、翌日も快適に使えて衛生面でも安心です。雨で濡れた場合も同様に、靴とは別にして乾かしてください。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">「一日中立つ・歩き続ける」という負担は、<Link href="/articles/security-guard-insole/" className="text-[#e8627c] underline font-medium">警備員など立ち仕事</Link>の足の疲れとも共通しています。自分の足や使い方にどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソールタイプ診断</Link>も参考にしてください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">「一日中立つ・歩き続ける」という負担は、<Link href="/articles/security-guard-insole/" className="text-[#8a6a4f] underline font-medium">警備員など立ち仕事</Link>の足の疲れとも共通しています。自分の足や使い方にどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#8a6a4f] underline font-medium">インソールタイプ診断</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">
@@ -155,17 +155,17 @@ export default function TravelPage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">せっかくの旅行を足の疲れで諦めないために。歩き続けられる足元を準備してください。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

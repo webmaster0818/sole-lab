@@ -408,29 +408,29 @@ export default function PitsolePricePage() {
             楽天市場には公式販売元の<strong>BACCHUS ONLINE SHOP</strong>が出店しています。
             つまり、楽天で購入しても公式サイトと同じ正規品が届きます。
           </p>
-          <div className="bg-rose-50 border border-rose-200 rounded-xl p-6 mb-6">
-            <h3 className="font-bold text-rose-800 mb-3">楽天で買う最大のメリットはポイント還元</h3>
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-6 mb-6">
+            <h3 className="font-bold text-[#6f543c] mb-3">楽天で買う最大のメリットはポイント還元</h3>
             <ul className="space-y-2 text-sm text-gray-700">
               <li className="flex items-start gap-2">
-                <span className="text-rose-600 font-bold shrink-0">1.</span>
+                <span className="text-[#8a6a4f] font-bold shrink-0">1.</span>
                 <span>
                   <strong>通常ポイント1%</strong> + SPU倍率でさらにアップ
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-rose-600 font-bold shrink-0">2.</span>
+                <span className="text-[#8a6a4f] font-bold shrink-0">2.</span>
                 <span>
                   <strong>お買い物マラソン</strong>期間なら最大+9倍のチャンス
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-rose-600 font-bold shrink-0">3.</span>
+                <span className="text-[#8a6a4f] font-bold shrink-0">3.</span>
                 <span>
                   <strong>5と0のつく日</strong>はポイント+2倍
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-rose-600 font-bold shrink-0">4.</span>
+                <span className="text-[#8a6a4f] font-bold shrink-0">4.</span>
                 <span>
                   楽天カード利用で<strong>ポイント+2倍</strong>
                 </span>

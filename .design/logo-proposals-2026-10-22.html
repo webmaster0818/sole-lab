@@ -1,0 +1,109 @@
+<!doctype html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --brown:#8a6a4f; --deep:#5c4433; --gold:#b98f6b; --ivory:#fbf8f4;
+  }
+  body{margin:0;background:#f4efe8;font-family:"Zen Kaku Gothic New",sans-serif;color:#4a3a30;padding:20px}
+  h2{font-size:13px;letter-spacing:.08em;color:#8a7a6c;font-weight:500;margin:22px 0 8px}
+  .sheet{background:var(--ivory);border:1px solid #e7ded3;border-radius:10px;padding:18px 20px;margin-bottom:14px}
+  .cap{font-size:11px;color:#9a8b7d;margin-bottom:10px}
+  .mn{font-family:"Shippori Mincho",serif}
+  .lockup{display:flex;align-items:center;gap:14px}
+  .name{font-size:30px;letter-spacing:.14em;color:var(--deep);line-height:1}
+  .sub{font-size:10px;letter-spacing:.22em;color:#9a8b7d;margin-top:7px}
+  .hdr{display:flex;align-items:center;gap:9px}
+  .hdr .name{font-size:19px;letter-spacing:.12em}
+  .hdr .sub{font-size:8.5px;letter-spacing:.16em;margin-top:4px}
+  .rule{width:34px;height:1px;background:var(--gold);margin:8px 0 6px}
+  .row{display:flex;gap:26px;flex-wrap:wrap;align-items:flex-end}
+  .fav{display:flex;gap:16px;align-items:flex-end}
+  .fv{text-align:center}
+  .fv span{display:block;font-size:9px;color:#9a8b7d;margin-top:5px}
+  .onbar{background:#fff;border:1px solid #eee5db;border-radius:8px;padding:12px 16px;display:inline-block}
+</style>
+
+<!-- ============ 共通：ヒールのパス ============ -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <!-- 塗り -->
+    <path id="heel" d="M1,57 C4,61 12,63.4 26,63.6 C40,63.8 56,63 66,56 C74,50 80,41 84,31
+      C85,41 87,52 89,61 L94.5,61 C95,49 96.5,34 97.5,24
+      C98,11 94.5,2.5 87.5,0.8 C70,10 48,25 31,35.5
+      C21,40 9,46 2,50 C0,52 0,55 1,57 Z"/>
+    <!-- 細ヒール -->
+    <path id="heelS" d="M1,57 C4,61 12,63.4 26,63.6 C40,63.8 56,63 66,56 C74,50 81,41 85,30
+      C87,41 89,52 91,61 L95,61 C95,49 96.5,34 97.5,24
+      C98,11 94.5,2.5 87.5,0.8 C70,10 48,25 31,35.5
+      C21,40 9,46 2,50 C0,52 0,55 1,57 Z"/>
+  </defs>
+</svg>
+
+<h2>ロゴ 案A ── ヒール（塗り）＋ 明朝</h2>
+<div class="sheet">
+  <div class="cap">大きく表示したとき</div>
+  <div class="lockup">
+    <svg width="76" height="52" viewBox="-2 -3 105 70"><use href="#heel" fill="#8a6a4f"/></svg>
+    <div>
+      <div class="name mn">ソールラボ</div>
+      <div class="sub mn">ダイエットインソール比較</div>
+    </div>
+  </div>
+  <div class="cap" style="margin:18px 0 8px">ヘッダーに置いたとき（実寸）</div>
+  <div class="onbar"><div class="hdr">
+    <svg width="42" height="29" viewBox="-2 -3 105 70"><use href="#heel" fill="#8a6a4f"/></svg>
+    <div><div class="name mn">ソールラボ</div><div class="sub mn">ダイエットインソール比較</div></div>
+  </div></div>
+</div>
+
+<h2>ロゴ 案B ── ヒール（細い線）＋ 明朝</h2>
+<div class="sheet">
+  <div class="cap">大きく表示したとき</div>
+  <div class="lockup">
+    <svg width="76" height="52" viewBox="-2 -3 105 70"><use href="#heelS" fill="none" stroke="#8a6a4f" stroke-width="1.6" stroke-linejoin="round"/></svg>
+    <div>
+      <div class="name mn">ソールラボ</div>
+      <div class="sub mn">ダイエットインソール比較</div>
+    </div>
+  </div>
+  <div class="cap" style="margin:18px 0 8px">ヘッダーに置いたとき（実寸）</div>
+  <div class="onbar"><div class="hdr">
+    <svg width="42" height="29" viewBox="-2 -3 105 70"><use href="#heelS" fill="none" stroke="#8a6a4f" stroke-width="2" stroke-linejoin="round"/></svg>
+    <div><div class="name mn">ソールラボ</div><div class="sub mn">ダイエットインソール比較</div></div>
+  </div></div>
+</div>
+
+<h2>ロゴ 案C ── ヒール＋歩いた弧（縦積み・名刺やOG向き）</h2>
+<div class="sheet">
+  <div class="cap">大きく表示したとき</div>
+  <div style="display:inline-block;text-align:center">
+    <svg width="104" height="62" viewBox="-4 -6 112 86">
+      <path d="M-3,76 C24,64 66,56 107,62" fill="none" stroke="#b98f6b" stroke-width="1.2" stroke-linecap="round"/>
+      <use href="#heelS" fill="#8a6a4f"/>
+    </svg>
+    <div class="rule" style="margin:8px auto 6px"></div>
+    <div class="name mn" style="font-size:26px">ソールラボ</div>
+    <div class="sub mn">ダイエットインソール比較</div>
+  </div>
+  <div class="cap" style="margin:18px 0 8px">ヘッダーに置いたとき（実寸・横組みに崩した形）</div>
+  <div class="onbar"><div class="hdr">
+    <svg width="46" height="30" viewBox="-4 -6 112 86">
+      <path d="M-3,76 C24,64 66,56 107,62" fill="none" stroke="#b98f6b" stroke-width="2" stroke-linecap="round"/>
+      <use href="#heelS" fill="#8a6a4f"/>
+    </svg>
+    <div><div class="name mn">ソールラボ</div><div class="sub mn">ダイエットインソール比較</div></div>
+  </div></div>
+</div>
+
+<h2>ファビコン ── 実寸（48 / 32 / 24 / 16px）</h2>
+<div class="sheet">
+<div class="cap" style="margin-top:14px">㋐ 濃い茶の角丸に白のヒール（水平）</div><div class="fav"><div class="fv"><svg width="48" height="48" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5c4433"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#fff"/></g></svg><span>48</span></div><div class="fv"><svg width="32" height="32" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5c4433"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#fff"/></g></svg><span>32</span></div><div class="fv"><svg width="24" height="24" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5c4433"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#fff"/></g></svg><span>24</span></div><div class="fv"><svg width="16" height="16" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5c4433"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#fff"/></g></svg><span>16</span></div></div><div class="cap" style="margin-top:14px">㋑ 同じ形を18度傾けたもの（小さいときに一番見える）</div><div class="fav"><div class="fv"><svg width="48" height="48" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5c4433"/><g transform="rotate(-18 32 32) translate(4,16) scale(0.57)"><use href="#heel" fill="#fff"/></g></svg><span>48</span></div><div class="fv"><svg width="32" height="32" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5c4433"/><g transform="rotate(-18 32 32) translate(4,16) scale(0.57)"><use href="#heel" fill="#fff"/></g></svg><span>32</span></div><div class="fv"><svg width="24" height="24" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5c4433"/><g transform="rotate(-18 32 32) translate(4,16) scale(0.57)"><use href="#heel" fill="#fff"/></g></svg><span>24</span></div><div class="fv"><svg width="16" height="16" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5c4433"/><g transform="rotate(-18 32 32) translate(4,16) scale(0.57)"><use href="#heel" fill="#fff"/></g></svg><span>16</span></div></div><div class="cap" style="margin-top:14px">㋒ アイボリー地に茶のヒール</div><div class="fav"><div class="fv"><svg width="48" height="48" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f3ece3"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#8a6a4f"/></g></svg><span>48</span></div><div class="fv"><svg width="32" height="32" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f3ece3"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#8a6a4f"/></g></svg><span>32</span></div><div class="fv"><svg width="24" height="24" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f3ece3"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#8a6a4f"/></g></svg><span>24</span></div><div class="fv"><svg width="16" height="16" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f3ece3"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#8a6a4f"/></g></svg><span>16</span></div></div><div class="cap" style="margin-top:14px">㋓ 濃い茶の丸に白のヒール</div><div class="fav"><div class="fv"><svg width="48" height="48" viewBox="0 0 64 64"><circle cx="32" cy="32" r="32" fill="#5c4433"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#fff"/></g></svg><span>48</span></div><div class="fv"><svg width="32" height="32" viewBox="0 0 64 64"><circle cx="32" cy="32" r="32" fill="#5c4433"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#fff"/></g></svg><span>32</span></div><div class="fv"><svg width="24" height="24" viewBox="0 0 64 64"><circle cx="32" cy="32" r="32" fill="#5c4433"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#fff"/></g></svg><span>24</span></div><div class="fv"><svg width="16" height="16" viewBox="0 0 64 64"><circle cx="32" cy="32" r="32" fill="#5c4433"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#fff"/></g></svg><span>16</span></div></div><div class="cap" style="margin-top:14px">㋔ 線で描いたヒール（参考・16pxでほぼ消えます）</div><div class="fav"><div class="fv"><svg width="48" height="48" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f3ece3"/><g transform="translate(3,15) scale(0.59)"><use href="#heelS" fill="none" stroke="#8a6a4f" stroke-width="3" stroke-linejoin="round"/></g></svg><span>48</span></div><div class="fv"><svg width="32" height="32" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f3ece3"/><g transform="translate(3,15) scale(0.59)"><use href="#heelS" fill="none" stroke="#8a6a4f" stroke-width="3" stroke-linejoin="round"/></g></svg><span>32</span></div><div class="fv"><svg width="24" height="24" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f3ece3"/><g transform="translate(3,15) scale(0.59)"><use href="#heelS" fill="none" stroke="#8a6a4f" stroke-width="3" stroke-linejoin="round"/></g></svg><span>24</span></div><div class="fv"><svg width="16" height="16" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f3ece3"/><g transform="translate(3,15) scale(0.59)"><use href="#heelS" fill="none" stroke="#8a6a4f" stroke-width="3" stroke-linejoin="round"/></g></svg><span>16</span></div></div></div><h2>ブラウザのタブに並べたとき（16px・実寸）</h2>
+<div class="sheet"><div style="display:flex;align-items:center">
+<div style="display:flex;align-items:center;gap:6px;background:#fff;border:1px solid #e3dad0;border-radius:7px 7px 0 0;padding:6px 12px;font-size:11px">
+<svg width="16" height="16" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5c4433"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#fff"/></g></svg>ソールラボ｜ダイエットインソール比較</div>
+<div style="display:flex;align-items:center;gap:6px;background:#efe9e2;border:1px solid #e3dad0;border-left:0;border-radius:7px 7px 0 0;padding:6px 12px;font-size:11px;color:#8a7a6c">
+<svg width="16" height="16" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#5c4433"/><g transform="rotate(-18 32 32) translate(4,16) scale(0.57)"><use href="#heel" fill="#fff"/></g></svg>㋑（傾けたほう）</div>
+<div style="display:flex;align-items:center;gap:6px;background:#efe9e2;border:1px solid #e3dad0;border-left:0;border-radius:7px 7px 0 0;padding:6px 12px;font-size:11px;color:#8a7a6c">
+<svg width="16" height="16" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f3ece3"/><g transform="translate(3,15) scale(0.59)"><use href="#heel" fill="#8a6a4f"/></g></svg>㋒</div>
+</div></div>

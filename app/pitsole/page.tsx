@@ -1194,44 +1194,44 @@ export default function PitsolePage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">ピットソール関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソール vs ランウェイ比較</p>
               <p className="text-xs text-gray-500 mt-1">どちらが自分に合う？違いを解説</p>
             </Link>
-            <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソール vs スリムアップ比較</p>
               <p className="text-xs text-gray-500 mt-1">効果・価格・口コミで比較</p>
             </Link>
-            <Link href="/articles/pitsole-not-working/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/pitsole-not-working/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールが効かない？原因と対策を解説</p>
               <p className="text-xs text-gray-500 mt-1">効果を最大化する正しい使い方</p>
             </Link>
-            <Link href="/pitsole/price/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/pitsole/price/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールの最安値・販売店まとめ</p>
               <p className="text-xs text-gray-500 mt-1">公式・楽天・Amazonを比較</p>
             </Link>
-            <Link href="/articles/pitsole-coupon/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/pitsole-coupon/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールのクーポン・キャンペーン情報</p>
               <p className="text-xs text-gray-500 mt-1">お得に購入する方法</p>
             </Link>
-            <Link href="/articles/pitsole-all-sizes/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/pitsole-all-sizes/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールのサイズ展開・実寸レビュー</p>
               <p className="text-xs text-gray-500 mt-1">サイズ選びの参考に</p>
             </Link>
-            <Link href="/articles/pitsole-mens/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/pitsole-mens/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールはメンズに使える？</p>
               <p className="text-xs text-gray-500 mt-1">男性の使用感を解説</p>
             </Link>
-            <Link href="/articles/pitsole-timeline/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/pitsole-timeline/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールの効果はいつから？</p>
               <p className="text-xs text-gray-500 mt-1">変化が出るまでの期間の目安</p>
             </Link>
-            <Link href="/articles/pitsole-vs-tential/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/pitsole-vs-tential/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソール vs TENTIAL 比較</p>
               <p className="text-xs text-gray-500 mt-1">機能性インソール2強を比較</p>
             </Link>
-            <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50 md:col-span-2">
-              <p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る →</p>
+            <Link href="/ranking/" className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50 md:col-span-2">
+              <p className="text-sm font-semibold text-[#8a6a4f]">おすすめダイエットインソール3選を見る →</p>
               <p className="text-xs text-gray-500 mt-1">人気インソールを比較して選ぶ</p>
             </Link>
           </div>

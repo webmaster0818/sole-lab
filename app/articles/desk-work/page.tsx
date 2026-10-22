@@ -132,13 +132,13 @@ export default function DeskWorkPage() {
       {/* Hero */}
       <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             悩み別インソール活用法
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             デスクワークの足の疲れに
             <br />
-            <span className="text-[#e8627c]">インソール</span>は効果ある？
+            <span className="text-[#8a6a4f]">インソール</span>は効果ある？
             <br />
             おすすめと対策
           </h1>
@@ -224,7 +224,7 @@ export default function DeskWorkPage() {
             ].map((item) => (
               <div key={item.num} className="bg-white border border-gray-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <div>
@@ -317,8 +317,8 @@ export default function DeskWorkPage() {
               { time: "18:00", action: "退勤：1駅手前で降りて歩く", steps: "+1,500歩" },
               { time: "合計", action: "1日の歩数合計", steps: "約6,000歩" },
             ].map((item) => (
-              <div key={item.time} className={`flex items-center gap-4 p-3 rounded-lg ${item.time === "合計" ? "bg-[#e8627c] text-white" : "bg-white border border-gray-200"}`}>
-                <span className={`text-sm font-bold shrink-0 w-16 ${item.time === "合計" ? "text-white" : "text-[#e8627c]"}`}>
+              <div key={item.time} className={`flex items-center gap-4 p-3 rounded-lg ${item.time === "合計" ? "bg-[#8a6a4f] text-white" : "bg-white border border-gray-200"}`}>
+                <span className={`text-sm font-bold shrink-0 w-16 ${item.time === "合計" ? "text-white" : "text-[#8a6a4f]"}`}>
                   {item.time}
                 </span>
                 <span className={`text-sm flex-1 ${item.time === "合計" ? "text-white font-bold" : "text-gray-700"}`}>
@@ -353,9 +353,9 @@ export default function DeskWorkPage() {
           </div>
 
           <div className="space-y-4">
-            <div className="bg-white border-2 border-[#e8627c] rounded-xl p-5 md:p-6">
+            <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6">
               <div className="flex items-center gap-2 mb-3">
-                <span className="text-sm bg-[#e8627c] text-white px-3 py-1 rounded-full font-bold">
+                <span className="text-sm bg-[#8a6a4f] text-white px-3 py-1 rounded-full font-bold">
                   1位
                 </span>
                 <h3 className="text-base font-bold text-gray-900">
@@ -534,19 +534,19 @@ export default function DeskWorkPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/articles/standing-work/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/standing-work/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">立ち仕事で足が疲れない最強インソール3選</p>
               <p className="text-xs text-gray-500 mt-1">立ち仕事の足の疲れ対策とおすすめインソール</p>
             </Link>
-            <Link href="/articles/walking-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/walking-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ウォーキング用インソールおすすめ3選</p>
               <p className="text-xs text-gray-500 mt-1">歩きやすさと痩せ効果を両立するインソール</p>
             </Link>
-            <Link href="/articles/swelling-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/swelling-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">足のむくみ対策インソールの効果と選び方</p>
               <p className="text-xs text-gray-500 mt-1">むくみ軽減に効果的なインソールの選び方</p>
             </Link>
-            <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/ranking/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
@@ -565,7 +565,7 @@ export default function DeskWorkPage() {
               <details key={faq.question} className="bg-white border border-gray-200 rounded-lg group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2 px-5 py-4">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -573,7 +573,7 @@ export default function DeskWorkPage() {
                   </span>
                 </summary>
                 <p className="px-5 pb-4 text-sm text-gray-600 leading-relaxed pl-10">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -600,7 +600,7 @@ export default function DeskWorkPage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               おすすめインソールランキングを見る
             </Link>

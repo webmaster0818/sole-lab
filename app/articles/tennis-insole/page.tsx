@@ -67,8 +67,8 @@ export default function TennisPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">左右への素早いステップ、急停止、ダッシュを繰り返すテニスは、足の横ブレと衝撃が大きい競技です。後足部を安定させ衝撃を吸収するインソールは、プレーの安定とケガ予防に役立ちます。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">テニスには、左右の動きで足が横ブレしないよう後足部を安定させるヒールカップと、急停止・着地の衝撃を吸収するクッション、アーチサポートを備えたインソールが向いています。</p>
         </div>
 
@@ -93,7 +93,7 @@ export default function TennisPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">テニスにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">後足部の安定と衝撃吸収を両立したインソールがテニスに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">後足部の安定と衝撃吸収を両立したインソールがテニスに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -104,9 +104,9 @@ export default function TennisPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -140,8 +140,8 @@ export default function TennisPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">テニスシューズとの相性・組み合わせのコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは単体ではなく、シューズとの組み合わせで働きます。ソールのクッションが厚めのシューズなら薄型のインソールでフィットを優先し、ソールが硬め・薄めのモデルなら衝撃吸収を補う、というように「靴とインソールを合わせた全体の厚み・硬さ」で考えるとバランスを取りやすくなります。オールコート用と面専用（オムニ・クレー用など）でソールの性格が異なる点も踏まえておいてください。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">入れ替えた直後は感覚が変わるため、いきなり試合や大会で使わず、練習で数回慣らしてから本番に使うのがおすすめです。急停止と切り返しが中心という負荷の性質は<Link href="/articles/basketball-insole/" className="text-[#e8627c] underline font-medium">バスケットボール</Link>とも共通しており、同じく後足部の安定が選び方の軸になります。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">自分にどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソールタイプ診断</Link>も参考にしてください。なお、プレー後にかかとや足裏、膝の痛みが続く場合は、インソールで我慢せず整形外科など医療機関への受診をご検討ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">入れ替えた直後は感覚が変わるため、いきなり試合や大会で使わず、練習で数回慣らしてから本番に使うのがおすすめです。急停止と切り返しが中心という負荷の性質は<Link href="/articles/basketball-insole/" className="text-[#8a6a4f] underline font-medium">バスケットボール</Link>とも共通しており、同じく後足部の安定が選び方の軸になります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">自分にどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#8a6a4f] underline font-medium">インソールタイプ診断</Link>も参考にしてください。なお、プレー後にかかとや足裏、膝の痛みが続く場合は、インソールで我慢せず整形外科など医療機関への受診をご検討ください。</p>
         </section>
 
         <section className="mb-12">
@@ -156,17 +156,17 @@ export default function TennisPage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">テニスの横の動き・急停止の安定に。後足部を支えるインソールを比較することをおすすめします。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

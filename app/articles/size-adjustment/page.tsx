@@ -329,13 +329,13 @@ export default function SizeAdjustmentPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/articles/washing-guide/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">インソールの洗い方・お手入れガイド</p></Link>
-            <Link href="/articles/how-to-choose/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">ダイエットインソールの選び方5つのポイント</p></Link>
-            <Link href="/articles/insole-care/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">インソールの寿命と交換タイミング</p></Link>
-            <Link href="/articles/morton-disease-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">モートン病に向くインソールの選び方</p></Link>
-            <Link href="/articles/splay-foot-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">開張足に向くインソールの選び方</p></Link>
-            <Link href="/articles/heel-pain-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"><p className="text-sm font-semibold text-gray-900">かかとが痛い時のインソールの選び方</p></Link>
-            <Link href="/ranking/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"><p className="text-sm font-semibold text-[#e8627c]">おすすめダイエットインソール3選を見る</p></Link>
+            <Link href="/articles/washing-guide/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"><p className="text-sm font-semibold text-gray-900">インソールの洗い方・お手入れガイド</p></Link>
+            <Link href="/articles/how-to-choose/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"><p className="text-sm font-semibold text-gray-900">ダイエットインソールの選び方5つのポイント</p></Link>
+            <Link href="/articles/insole-care/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"><p className="text-sm font-semibold text-gray-900">インソールの寿命と交換タイミング</p></Link>
+            <Link href="/articles/morton-disease-insole/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"><p className="text-sm font-semibold text-gray-900">モートン病に向くインソールの選び方</p></Link>
+            <Link href="/articles/splay-foot-insole/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"><p className="text-sm font-semibold text-gray-900">開張足に向くインソールの選び方</p></Link>
+            <Link href="/articles/heel-pain-insole/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"><p className="text-sm font-semibold text-gray-900">かかとが痛い時のインソールの選び方</p></Link>
+            <Link href="/ranking/" className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"><p className="text-sm font-semibold text-[#8a6a4f]">おすすめダイエットインソール3選を見る</p></Link>
           </div>
         </div>
       </section>

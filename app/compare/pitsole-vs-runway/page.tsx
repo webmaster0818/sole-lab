@@ -172,7 +172,7 @@ export default function PitsoleVsRunwayPage() {
                   <th className="text-left px-4 py-3 border border-gray-200 font-semibold text-[#8a6a4f] w-[37.5%]">
                     ピットソール
                   </th>
-                  <th className="text-left px-4 py-3 border border-gray-200 font-semibold text-[#8b5cf6] w-[37.5%]">
+                  <th className="text-left px-4 py-3 border border-gray-200 font-semibold text-[#8a6a4f] w-[37.5%]">
                     ランウェイキュアソール
                   </th>
                 </tr>
@@ -262,7 +262,7 @@ export default function PitsoleVsRunwayPage() {
               </p>
             </div>
             <div className="card">
-              <div className="h-1 rounded-full mb-4 bg-[#8b5cf6]" />
+              <div className="h-1 rounded-full mb-4 bg-[#8a6a4f]" />
               <h3 className="text-lg font-bold text-gray-900 mb-3">ランウェイキュアソールの料金</h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex justify-between">
@@ -327,7 +327,7 @@ export default function PitsoleVsRunwayPage() {
               <p className="text-xs text-gray-500 mt-3">5サイズ展開（21〜29cm）</p>
             </div>
             <div className="card">
-              <div className="h-1 rounded-full mb-4 bg-[#8b5cf6]" />
+              <div className="h-1 rounded-full mb-4 bg-[#8a6a4f]" />
               <h3 className="text-lg font-bold text-gray-900 mb-3">ランウェイキュアソールのサイズ展開</h3>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between py-2 border-b border-gray-100">
@@ -392,23 +392,23 @@ export default function PitsoleVsRunwayPage() {
               </ul>
             </div>
             <div className="card">
-              <div className="h-1 rounded-full mb-4 bg-[#8b5cf6]" />
+              <div className="h-1 rounded-full mb-4 bg-[#8a6a4f]" />
               <h3 className="text-lg font-bold text-gray-900 mb-3">ランウェイキュアソールの技術</h3>
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span><span className="font-semibold text-gray-900">3点アーチサポート</span>構造</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>足裏の3つのアーチをバランスよくサポート</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>美姿勢をサポートする設計</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>ソックス型で靴を選びにくい</span>
                 </li>
               </ul>
@@ -487,7 +487,7 @@ export default function PitsoleVsRunwayPage() {
               </div>
             </div>
             <div className="card">
-              <div className="h-1 rounded-full mb-4 bg-[#8b5cf6]" />
+              <div className="h-1 rounded-full mb-4 bg-[#8a6a4f]" />
               <h3 className="text-lg font-bold text-gray-900 mb-3">ランウェイキュアソールの口コミ傾向</h3>
               <div className="mb-4">
                 <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">良い口コミ</p>
@@ -625,7 +625,7 @@ export default function PitsoleVsRunwayPage() {
                 },
               ].map((item) => (
                 <li key={item.title} className="flex items-start gap-3">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0 font-bold">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0 font-bold">&#10003;</span>
                   <div>
                     <p className="font-semibold text-gray-900 text-sm">{item.title}</p>
                     <p className="text-sm text-gray-600 mt-0.5 leading-relaxed">{item.desc}</p>
@@ -655,7 +655,7 @@ export default function PitsoleVsRunwayPage() {
               男女兼用でサイズの心配が少なく、口コミも豊富なため、購入前に十分な情報を集めた上で判断できる点も強みです。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mt-4">
-              一方、<span className="font-bold text-[#8b5cf6]">パンプスに入れたい女性にはランウェイキュアソールも有力な選択肢</span>です。
+              一方、<span className="font-bold text-[#8a6a4f]">パンプスに入れたい女性にはランウェイキュアソールも有力な選択肢</span>です。
               薄型設計で靴を選ばない使いやすさは、通勤時にパンプスを履く女性にとって大きなメリット。
               22.5〜25cmのサイズに該当する女性で、日常の靴にさりげなく入れたいなら検討の価値があります。
             </p>
@@ -673,7 +673,7 @@ export default function PitsoleVsRunwayPage() {
             </div>
             <div className="card text-center">
               <p className="text-xs text-gray-500 mb-1">パンプス派の女性に</p>
-              <p className="text-lg font-bold text-[#8b5cf6] mb-2">ランウェイキュアソール</p>
+              <p className="text-lg font-bold text-[#8a6a4f] mb-2">ランウェイキュアソール</p>
               <p className="text-xs text-gray-500 mb-4">薄型設計・女性特化で選ぶなら</p>
               <Link href="/runway-cure-sole/" className="btn-outline text-sm inline-block w-full mb-3">
                 ランウェイキュアソールの詳細を見る

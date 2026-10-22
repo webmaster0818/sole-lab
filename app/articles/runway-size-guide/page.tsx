@@ -135,14 +135,14 @@ export default function RunwaySizeGuidePage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-pink-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             ランウェイキュアソール特集
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ランウェイキュアソールの
-            <span className="text-[#e8627c]">サイズ選び</span>
+            <span className="text-[#8a6a4f]">サイズ選び</span>
             <br />
             M・Lどっちを選ぶ？対応表つき解説
           </h1>
@@ -150,10 +150,10 @@ export default function RunwaySizeGuidePage() {
             ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開・女性向けのソックス型です。M/Lの選び方、境目サイズの考え方、対応外サイズの方向けの代替案まで、公式サイトの情報（2026年7月確認）をもとに解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-pink-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               ランウェイキュアソール サイズ
             </span>
-            <span className="bg-pink-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               M・Lの選び方
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -238,7 +238,7 @@ export default function RunwaySizeGuidePage() {
             <p>
               サイズはM・Lの2種類のみで、22.5cm未満の方・25.0cmを超える方・男性の多くは対応範囲外となります。
               対応範囲外の方向けの代替案は、この記事の
-              <a href="#out-of-range" className="text-[#e8627c] underline">
+              <a href="#out-of-range" className="text-[#8a6a4f] underline">
                 「対応外サイズの方への代替案」
               </a>
               で製品別に整理しています。
@@ -274,7 +274,7 @@ export default function RunwaySizeGuidePage() {
             ].map((item) => (
               <div key={item.num} className="card">
                 <div className="flex items-start gap-3">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <div>
@@ -490,7 +490,7 @@ export default function RunwaySizeGuidePage() {
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-6">
             <p>
               各サイズ・仕様は公式サイトにて確認した情報です（2026年7月時点）。変更される場合があるため、購入前に必ず各公式サイトの最新情報をご確認ください。製品ごとの詳しい比較は
-              <Link href="/ranking/" className="text-[#e8627c] underline">
+              <Link href="/ranking/" className="text-[#8a6a4f] underline">
                 ランキングページ
               </Link>
               も参考にしてください。
@@ -577,7 +577,7 @@ export default function RunwaySizeGuidePage() {
               また、ランウェイキュアソールは外反母趾の治療を目的とした医療機器ではありません。外反母趾の症状に不安がある方や痛みが続く方は、整形外科など専門医への相談を優先してください。外反母趾との付き合い方については
               <Link
                 href="/runway-cure-sole/"
-                className="text-[#e8627c] underline"
+                className="text-[#8a6a4f] underline"
               >
                 ランウェイキュアソールの詳細ページ
               </Link>
@@ -598,7 +598,7 @@ export default function RunwaySizeGuidePage() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -606,7 +606,7 @@ export default function RunwaySizeGuidePage() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -636,7 +636,7 @@ export default function RunwaySizeGuidePage() {
           <div className="mt-8 text-center">
             <Link
               href="/runway-cure-sole/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ランウェイキュアソールの詳細レビューを見る
             </Link>
@@ -651,7 +651,7 @@ export default function RunwaySizeGuidePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/runway-cure-sole/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ランウェイキュアソールの口コミ・効果を検証
@@ -659,15 +659,15 @@ export default function RunwaySizeGuidePage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>
             <Link
               href="/articles/flat-feet/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 扁平足の方のインソール選びガイド
@@ -675,7 +675,7 @@ export default function RunwaySizeGuidePage() {
             </Link>
             <Link
               href="/compare/pitsole-vs-runway/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ピットソール vs ランウェイキュアソール 比較

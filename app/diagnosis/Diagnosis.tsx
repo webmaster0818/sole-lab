@@ -16,7 +16,7 @@ const PRODUCTS: Record<
     href: "/pitsole/",
     reason:
       "効果・実績を重視するあなたには、世界特許の独自構造で骨格から姿勢をサポートするピットソールが向いています。本格的に取り組みたい方におすすめです。",
-    accent: "#e8627c",
+    accent: "#8a6a4f",
   },
   runway: {
     name: "ランウェイキュアソール",
@@ -32,7 +32,7 @@ const PRODUCTS: Record<
     href: "/slim-up-insole/",
     reason:
       "まず手頃に試したい・コスパを重視するあなたには、シンプルな設計で使いやすいスリムアップインソールが向いています。インソールが初めての方にもおすすめです。",
-    accent: "#34d399",
+    accent: "#a67a56",
   },
 };
 
@@ -150,7 +150,7 @@ export default function Diagnosis() {
 
   if (done) {
     return (
-      <div className="rounded-2xl border border-[#f3e0e4] bg-white p-6 md:p-8 text-center">
+      <div className="rounded-2xl border border-[#e8ded6] bg-white p-6 md:p-8 text-center">
         <p className="text-sm font-semibold text-gray-500">診断結果</p>
         <p className="mt-2 text-xs text-gray-400">あなたに向いているのは</p>
         <h3 className="mt-1 text-2xl font-bold" style={{ color: result.accent }}>
@@ -178,7 +178,7 @@ export default function Diagnosis() {
         </div>
 
         {/* 2製品目の候補（比較でCV接点を1→2に） */}
-        <div className="mt-6 rounded-xl border border-[#f3e0e4] bg-[#fdf7f8] p-5 text-left">
+        <div className="mt-6 rounded-xl border border-[#e8ded6] bg-[#fdf7f8] p-5 text-left">
           <p className="text-xs font-semibold text-gray-500">迷ったら、次の候補と比べる</p>
           <p className="mt-1 text-base font-bold" style={{ color: secondProduct.accent }}>
             {secondProduct.name}
@@ -227,9 +227,9 @@ export default function Diagnosis() {
 
   const cur = QUESTIONS[step];
   return (
-    <div className="rounded-2xl border border-[#f3e0e4] bg-white p-6 md:p-8">
+    <div className="rounded-2xl border border-[#e8ded6] bg-white p-6 md:p-8">
       <div className="flex items-center justify-between mb-4">
-        <p className="text-xs font-semibold text-[#e8627c]">
+        <p className="text-xs font-semibold text-[#8a6a4f]">
           質問 {step + 1} / {QUESTIONS.length}
         </p>
         <div className="flex gap-1">
@@ -237,7 +237,7 @@ export default function Diagnosis() {
             <span
               key={i}
               className="h-1.5 w-6 rounded-full"
-              style={{ backgroundColor: i <= step ? "#e8627c" : "#f3e0e4" }}
+              style={{ backgroundColor: i <= step ? "#8a6a4f" : "#e8ded6" }}
             />
           ))}
         </div>
@@ -249,7 +249,7 @@ export default function Diagnosis() {
             key={o.label}
             type="button"
             onClick={() => choose(o.scores)}
-            className="block w-full text-left rounded-xl border border-[#f3e0e4] px-5 py-4 text-sm font-medium text-gray-700 hover:bg-[#fdf2f4] hover:border-[#e8627c] transition-colors"
+            className="block w-full text-left rounded-xl border border-[#e8ded6] px-5 py-4 text-sm font-medium text-gray-700 hover:bg-[#faf7f3] hover:border-[#8a6a4f] transition-colors"
           >
             {o.label}
           </button>

@@ -67,8 +67,8 @@ export default function SplayFootPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">足の幅が広がってきた、足裏の指の付け根あたりにタコができる——それは横アーチが低下した『開張足』のサインかもしれません。横アーチを支えるインソールは、開張足の負担軽減や外反母趾の予防の補助になります。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">開張足には、足の指の付け根の手前を持ち上げて横アーチを再現する『中足骨パッド』付きインソールが向いています。放置すると外反母趾やモートン病につながることがあるため、早めの対策がおすすめです。</p>
         </div>
 
@@ -93,7 +93,7 @@ export default function SplayFootPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">開張足におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">横アーチを支える中足骨パッド付きで、前足部にゆとりが出るインソールが開張足に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">横アーチを支える中足骨パッド付きで、前足部にゆとりが出るインソールが開張足に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -104,9 +104,9 @@ export default function SplayFootPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -129,7 +129,7 @@ export default function SplayFootPage() {
             <li>立って足を上から見たとき、指の付け根部分が扇状に広がって見える</li>
             <li>濡れた足で床に立ったとき、指の付け根のラインが幅広くべったり接地している</li>
           </ul>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">開張足は<Link href="/articles/morton-disease-insole/" className="text-[#e8627c] underline">モートン病</Link>や外反母趾の背景になることが多い状態です。付け根のしびれや強い痛みがすでにある場合は、インソールでの対策より先に整形外科の受診を優先してください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">開張足は<Link href="/articles/morton-disease-insole/" className="text-[#8a6a4f] underline">モートン病</Link>や外反母趾の背景になることが多い状態です。付け根のしびれや強い痛みがすでにある場合は、インソールでの対策より先に整形外科の受診を優先してください。</p>
         </section>
 
         <section className="mb-12">
@@ -141,7 +141,7 @@ export default function SplayFootPage() {
             <li><span className="font-bold">サイズの合った靴を選ぶ：</span>幅が広がっているからと大きすぎる靴を選ぶと、かえって足が滑って踏ん張りにくくなります。足長・足幅の合った靴＋ヒール控えめが基本です</li>
             <li><span className="font-bold">長時間の立ちっぱなしを区切る：</span>立ち仕事ではこまめに足踏みや休憩を入れ、前足部への荷重を続けないようにします</li>
           </ul>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは靴ごとにフィットさせてこそ支えが機能します。カットして合わせる手順は<Link href="/articles/size-adjustment/" className="text-[#e8627c] underline">インソールのサイズ調整方法</Link>を参考にしてください。どのタイプが合うか迷う場合は<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問でわかるタイプ診断</Link>も利用できます。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは靴ごとにフィットさせてこそ支えが機能します。カットして合わせる手順は<Link href="/articles/size-adjustment/" className="text-[#8a6a4f] underline">インソールのサイズ調整方法</Link>を参考にしてください。どのタイプが合うか迷う場合は<Link href="/diagnosis/" className="text-[#8a6a4f] underline font-medium">6つの質問でわかるタイプ診断</Link>も利用できます。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">なお、これらは一般的な工夫であり、効果には個人差があります。痛み・しびれ・変形が強い、悪化していると感じる場合は整形外科で相談してください。</p>
         </section>
 
@@ -157,17 +157,17 @@ export default function SplayFootPage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">横アーチを支えるインソールで、開張足の広がりと前足部の負担を抑えてください。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

@@ -69,8 +69,8 @@ export default function ShinSplintPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">走ったり跳んだりするとすねの内側が痛む——シンスプリントは、ランナーや部活動の学生に多い症状です。足が内側に倒れ込む『過回内』が一因とされ、アーチを支えるインソールが負担軽減に役立つことがあります。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">シンスプリントには、内側縦アーチをしっかり支えて足の過回内（内側への倒れ込み）を抑えるインソールが向いています。練習量の調整や路面の見直しとあわせ、痛みが続く場合は整形外科にご相談ください。</p>
         </div>
 
@@ -100,7 +100,7 @@ export default function ShinSplintPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">シンスプリントにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">アーチサポートが高く、過回内を抑えられる安定性の高いインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">アーチサポートが高く、過回内を抑えられる安定性の高いインソールが向いています。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -111,9 +111,9 @@ export default function ShinSplintPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -137,7 +137,7 @@ export default function ShinSplintPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">再発予防と段階的復帰の考え方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">シンスプリントは、痛みが引いた直後に元の練習量へ一気に戻すとぶり返しやすいといわれます。一般的な考え方としては、痛みなく歩けることを確認してから、①ウォーキング、②短時間の軽いジョギング、③距離を少しずつ延ばす、④スピード練習や坂道・ジャンプ系の動きを最後に戻す、という順で段階的に上げていきます。途中で痛みが再発したら一段階戻して様子を見る、を繰り返すのが基本です。復帰のペースは症状や個人差によって大きく異なるため、目安どおりに進まなくても焦らないことが重要です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">注意したいのは、すねの痛みにはシンスプリントだけでなく脛骨の疲労骨折が隠れていることがある点です。押すと一点が鋭く痛む、安静にしていても痛む、夜間も痛むといった場合、両者の鑑別は整形外科での画像検査など医療機関でなければ判断できません。市販のインソールは医療機器ではなく、治療の代わりにはなりません。復帰の可否を自己判断だけで決めず、痛みが続く場合は必ず整形外科を受診してください。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">再発予防としては、アーチを支えるインソールの継続使用に加え、すり減ったシューズの交換、ふくらはぎのストレッチの習慣化が一般に挙げられます。着地の衝撃は<Link href="/articles/heel-pain-insole/" className="text-[#e8627c] underline font-medium">かかとの痛み</Link>にもつながることがあるため、かかとまわりに症状がある方はあわせて確認してください。どのタイプのインソールが自分に合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問で相性がわかるタイプ診断</Link>も参考にしてください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">再発予防としては、アーチを支えるインソールの継続使用に加え、すり減ったシューズの交換、ふくらはぎのストレッチの習慣化が一般に挙げられます。着地の衝撃は<Link href="/articles/heel-pain-insole/" className="text-[#8a6a4f] underline font-medium">かかとの痛み</Link>にもつながることがあるため、かかとまわりに症状がある方はあわせて確認してください。どのタイプのインソールが自分に合うか迷う場合は、<Link href="/diagnosis/" className="text-[#8a6a4f] underline font-medium">6つの質問で相性がわかるタイプ診断</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">
@@ -152,17 +152,17 @@ export default function ShinSplintPage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">過回内を抑えるアーチサポートの強いインソールで、すねの負担を軽くしてください。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

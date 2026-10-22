@@ -132,12 +132,12 @@ export default function SlimupNotWorkingPage() {
       {/* Hero */}
       <section className="bg-gradient-to-b from-red-50 to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             スリムアップインソール検証
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             スリムアップインソールは
-            <span className="text-[#e8627c]">痩せない</span>？
+            <span className="text-[#8a6a4f]">痩せない</span>？
             <br />
             口コミから効果を検証
           </h1>
@@ -145,10 +145,10 @@ export default function SlimupNotWorkingPage() {
             「スリムアップインソールを使ったけど痩せなかった」という口コミを見て購入を迷っていませんか？この記事では、ネガティブな口コミの原因を徹底分析し、スリムアップインソールに期待できる効果と正しい使い方を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-red-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-red-100 text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               スリムアップインソール 痩せない
             </span>
-            <span className="bg-red-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-red-100 text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               口コミ検証
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -193,7 +193,6 @@ export default function SlimupNotWorkingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#128170;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 骨格筋サポート構造
               </h3>
@@ -202,7 +201,6 @@ export default function SlimupNotWorkingPage() {
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#128694;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 立体サポート構造
               </h3>
@@ -211,7 +209,6 @@ export default function SlimupNotWorkingPage() {
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#129506;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 S/Mの2サイズ展開
               </h3>
@@ -243,9 +240,9 @@ export default function SlimupNotWorkingPage() {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#e8627c]">
+            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#8a6a4f]">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   01
                 </span>
                 <div>
@@ -257,7 +254,7 @@ export default function SlimupNotWorkingPage() {
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
-                      <span className="font-bold text-[#e8627c]">実態：</span>
+                      <span className="font-bold text-[#8a6a4f]">実態：</span>
                       姿勢の変化は1〜2週間で感じる方もいますが、体重・体型の変化は2〜3ヶ月の継続使用が必要です。1ヶ月未満で「効果なし」と断定するのは早計です。
                     </p>
                   </div>
@@ -265,9 +262,9 @@ export default function SlimupNotWorkingPage() {
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#e8627c]">
+            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#8a6a4f]">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   02
                 </span>
                 <div>
@@ -279,7 +276,7 @@ export default function SlimupNotWorkingPage() {
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
-                      <span className="font-bold text-[#e8627c]">実態：</span>
+                      <span className="font-bold text-[#8a6a4f]">実態：</span>
                       効果を実感するには1日5,000歩以上が目安。通勤で往復20分歩けば約3,000〜4,000歩。あと1,000〜2,000歩を意識的に増やすだけで目標に近づけます。
                     </p>
                   </div>
@@ -287,9 +284,9 @@ export default function SlimupNotWorkingPage() {
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#e8627c]">
+            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#8a6a4f]">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   03
                 </span>
                 <div>
@@ -301,7 +298,7 @@ export default function SlimupNotWorkingPage() {
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
-                      <span className="font-bold text-[#e8627c]">実態：</span>
+                      <span className="font-bold text-[#8a6a4f]">実態：</span>
                       購入前にかかとからつま先までの実寸を測り、対応範囲に合うサイズを選ぶことをおすすめします。靴の元の中敷きが取り外せる場合は、外してから入れるとフィット感が高まります。
                     </p>
                   </div>
@@ -501,7 +498,7 @@ export default function SlimupNotWorkingPage() {
             ].map((item) => (
               <div key={item.num} className="bg-white border border-gray-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <div>
@@ -666,19 +663,19 @@ export default function SlimupNotWorkingPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/slim-up-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/slim-up-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールの口コミ・効果を検証</p>
               <p className="text-xs text-gray-500 mt-1">骨格筋サポート構造の仕組みから最安値情報まで詳しく解説</p>
             </Link>
-            <Link href="/articles/slimup-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/slimup-coupon/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールの最安値・キャンペーン情報</p>
               <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を解説</p>
             </Link>
-            <Link href="/articles/slimup-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/slimup-guide/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールのサイズ選び・使い方ガイド</p>
               <p className="text-xs text-gray-500 mt-1">S/M 2サイズの選び方と効果的な使い方を解説</p>
             </Link>
-            <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/ranking/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
@@ -697,7 +694,7 @@ export default function SlimupNotWorkingPage() {
               <details key={faq.question} className="bg-white border border-gray-200 rounded-lg group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2 px-5 py-4">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -705,7 +702,7 @@ export default function SlimupNotWorkingPage() {
                   </span>
                 </summary>
                 <p className="px-5 pb-4 text-sm text-gray-600 leading-relaxed pl-10">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -735,7 +732,7 @@ export default function SlimupNotWorkingPage() {
           <div className="mt-8 text-center">
             <Link
               href="/slim-up-insole/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               スリムアップインソールの詳細レビューを見る
             </Link>

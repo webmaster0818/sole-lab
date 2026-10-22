@@ -15,7 +15,7 @@ export default function TermsPage() {
     <>
       <Breadcrumb items={[{ label: "利用規約" }]} />
       <main className="max-w-4xl mx-auto px-4 py-8">
-        <h1 className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b-2 border-[#e8627c]">
+        <h1 className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b-2 border-[#8a6a4f]">
           利用規約
         </h1>
 
@@ -26,7 +26,7 @@ export default function TermsPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <span className="text-[#e8627c]">第1条</span>
+            <span className="text-[#8a6a4f]">第1条</span>
             本サービスの目的
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -38,7 +38,7 @@ export default function TermsPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <span className="text-[#e8627c]">第2条</span>
+            <span className="text-[#8a6a4f]">第2条</span>
             本規約の適用
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -49,7 +49,7 @@ export default function TermsPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <span className="text-[#e8627c]">第3条</span>
+            <span className="text-[#8a6a4f]">第3条</span>
             利用条件
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">
@@ -64,7 +64,7 @@ export default function TermsPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <span className="text-[#e8627c]">第4条</span>
+            <span className="text-[#8a6a4f]">第4条</span>
             掲載商品について
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">
@@ -82,7 +82,7 @@ export default function TermsPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <span className="text-[#e8627c]">第5条</span>
+            <span className="text-[#8a6a4f]">第5条</span>
             アフィリエイトリンクについて
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">
@@ -99,7 +99,7 @@ export default function TermsPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <span className="text-[#e8627c]">第6条</span>
+            <span className="text-[#8a6a4f]">第6条</span>
             禁止行為
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed">
@@ -117,7 +117,7 @@ export default function TermsPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <span className="text-[#e8627c]">第7条</span>
+            <span className="text-[#8a6a4f]">第7条</span>
             免責事項
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">
@@ -132,7 +132,7 @@ export default function TermsPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <span className="text-[#e8627c]">第8条</span>
+            <span className="text-[#8a6a4f]">第8条</span>
             著作権
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">
@@ -149,7 +149,7 @@ export default function TermsPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <span className="text-[#e8627c]">第9条</span>
+            <span className="text-[#8a6a4f]">第9条</span>
             規約の変更
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -161,7 +161,7 @@ export default function TermsPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <span className="text-[#e8627c]">第10条</span>
+            <span className="text-[#8a6a4f]">第10条</span>
             準拠法・管轄裁判所
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed">

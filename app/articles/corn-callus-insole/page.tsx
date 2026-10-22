@@ -67,8 +67,8 @@ export default function CornCallusPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">足裏の同じ場所にタコや魚の目が繰り返しできる——それは、その部分に体重（圧）が集中しているサインです。インソールで荷重を足裏全体に分散すると、タコ・魚の目の再発予防の補助になります。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">タコ・魚の目は荷重の偏りが原因のことが多く、アーチを支えて圧を分散するインソールが再発予防の補助になります。削っても繰り返す・痛みが強い場合は、皮膚科や整形外科で原因をご確認ください。</p>
         </div>
 
@@ -90,21 +90,21 @@ export default function CornCallusPage() {
           <div className="space-y-4 mb-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">前足部（指の付け根・とくに2〜3趾の下）</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">横アーチ（指の付け根の横方向のアーチ）が低下する<Link href="/articles/splay-foot-insole/" className="text-[#e8627c] underline">開張足</Link>の傾向があると、本来分散されるはずの荷重が付け根の中央に集中しやすくなると言われています。ヒールやつま先の細い靴で前足部に体重が乗り続けることも要因になります。付け根のしびれや電気が走るような痛みを伴う場合は<Link href="/articles/morton-disease-insole/" className="text-[#e8627c] underline">モートン病</Link>などの可能性もあるため、整形外科で確認してください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">横アーチ（指の付け根の横方向のアーチ）が低下する<Link href="/articles/splay-foot-insole/" className="text-[#8a6a4f] underline">開張足</Link>の傾向があると、本来分散されるはずの荷重が付け根の中央に集中しやすくなると言われています。ヒールやつま先の細い靴で前足部に体重が乗り続けることも要因になります。付け根のしびれや電気が走るような痛みを伴う場合は<Link href="/articles/morton-disease-insole/" className="text-[#8a6a4f] underline">モートン病</Link>などの可能性もあるため、整形外科で確認してください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">小指側（小趾球・足の外側）</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">体重が外側に流れる歩き方のクセや、<Link href="/articles/high-arch-insole/" className="text-[#e8627c] underline">ハイアーチ（凹足）</Link>で接地が外側に偏っている場合に、小指の付け根や足の外側ラインに圧が集中しやすいとされています。幅の合わない靴で小指側が側面から圧迫され、こすれてできるケースもあります。靴の幅の見直しとあわせて、接地を安定させるインソールが選択肢になります。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">体重が外側に流れる歩き方のクセや、<Link href="/articles/high-arch-insole/" className="text-[#8a6a4f] underline">ハイアーチ（凹足）</Link>で接地が外側に偏っている場合に、小指の付け根や足の外側ラインに圧が集中しやすいとされています。幅の合わない靴で小指側が側面から圧迫され、こすれてできるケースもあります。靴の幅の見直しとあわせて、接地を安定させるインソールが選択肢になります。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">かかと</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">かかと着地の衝撃が強い歩き方や、サイズの大きい靴・かかとの浮くサンダルなどで摩擦が繰り返されると、かかとの縁の角質が厚くなりやすいと言われています。乾燥によるひび割れと重なることも多い部位です。クッション性のあるインソールやヒールカップで衝撃と摩擦をやわらげる方法があります。かかとの痛みを伴う場合は<Link href="/articles/heel-pain-insole/" className="text-[#e8627c] underline">かかとが痛い時のインソール</Link>も参考にしてください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">かかと着地の衝撃が強い歩き方や、サイズの大きい靴・かかとの浮くサンダルなどで摩擦が繰り返されると、かかとの縁の角質が厚くなりやすいと言われています。乾燥によるひび割れと重なることも多い部位です。クッション性のあるインソールやヒールカップで衝撃と摩擦をやわらげる方法があります。かかとの痛みを伴う場合は<Link href="/articles/heel-pain-insole/" className="text-[#8a6a4f] underline">かかとが痛い時のインソール</Link>も参考にしてください。</p>
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
             <p className="text-sm text-gray-700 leading-relaxed"><span className="font-bold text-amber-700">受診の目安：</span>芯のある魚の目や、歩くたびに痛むほどのタコは、カミソリなどでの<span className="font-bold">セルフカットは厳禁</span>です。傷や感染、悪化の原因になります。痛みが強い・芯が深い・繰り返す場合や、糖尿病など持病のある方は、皮膚科等で処置を受けてください。インソールはあくまで処置後の再発予防を助ける位置づけです。</p>
           </div>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">自分の足がどのタイプの崩れ方に近いか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">6つの質問でわかるタイプ診断</Link>も参考になります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">自分の足がどのタイプの崩れ方に近いか迷う場合は、<Link href="/diagnosis/" className="text-[#8a6a4f] underline font-medium">6つの質問でわかるタイプ診断</Link>も参考になります。</p>
         </section>
 
         <section className="mb-12">
@@ -122,7 +122,7 @@ export default function CornCallusPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">タコ・魚の目におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">アーチを支えて圧を分散し、摩擦を抑えるインソールがタコ・魚の目の再発予防に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">アーチを支えて圧を分散し、摩擦を抑えるインソールがタコ・魚の目の再発予防に向いています。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -133,9 +133,9 @@ export default function CornCallusPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -166,17 +166,17 @@ export default function CornCallusPage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">荷重を分散するインソールで、タコ・魚の目の繰り返しを防いでください。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

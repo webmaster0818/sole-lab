@@ -132,12 +132,12 @@ export default function RunwayNotWorkingPage() {
       {/* Hero */}
       <section className="bg-gradient-to-b from-red-50 to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             ランウェイキュアソール検証
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ランウェイキュアソールは
-            <span className="text-[#e8627c]">痩せない</span>？
+            <span className="text-[#8a6a4f]">痩せない</span>？
             <br />
             効果の真相と正しい期待値
           </h1>
@@ -145,10 +145,10 @@ export default function RunwayNotWorkingPage() {
             「ランウェイキュアソールを使ったけど痩せなかった」という口コミを見て不安になっていませんか？この記事では、ネガティブな口コミの原因を徹底分析し、ランウェイキュアソールに期待できる本当の効果と正しい使い方を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-red-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-red-100 text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               ランウェイキュアソール 痩せない
             </span>
-            <span className="bg-red-100 text-[#e8627c] px-3 py-1 rounded-full font-medium">
+            <span className="bg-red-100 text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               効果なし？
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -193,7 +193,6 @@ export default function RunwayNotWorkingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#128099;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 3点アーチサポート
               </h3>
@@ -202,7 +201,6 @@ export default function RunwayNotWorkingPage() {
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#128694;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 正しい姿勢・歩行の促進
               </h3>
@@ -211,7 +209,6 @@ export default function RunwayNotWorkingPage() {
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <div className="text-2xl mb-3">&#128170;</div>
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 筋肉活動量の増加
               </h3>
@@ -243,9 +240,9 @@ export default function RunwayNotWorkingPage() {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#e8627c]">
+            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#8a6a4f]">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   01
                 </span>
                 <div>
@@ -257,7 +254,7 @@ export default function RunwayNotWorkingPage() {
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
-                      <span className="font-bold text-[#e8627c]">実態：</span>
+                      <span className="font-bold text-[#8a6a4f]">実態：</span>
                       姿勢の変化は1〜2週間で感じる方もいますが、体重や体型の変化が出るには最低2〜3ヶ月の継続使用が必要です。短期間で判断してしまうのは早計です。
                     </p>
                   </div>
@@ -265,9 +262,9 @@ export default function RunwayNotWorkingPage() {
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#e8627c]">
+            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#8a6a4f]">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   02
                 </span>
                 <div>
@@ -279,7 +276,7 @@ export default function RunwayNotWorkingPage() {
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
-                      <span className="font-bold text-[#e8627c]">実態：</span>
+                      <span className="font-bold text-[#8a6a4f]">実態：</span>
                       効果を実感するには1日5,000歩以上の歩行が目安です。通勤で往復20分歩くだけでも約3,000〜4,000歩。昼休みの散歩を加えれば十分に達成可能な数字です。
                     </p>
                   </div>
@@ -287,9 +284,9 @@ export default function RunwayNotWorkingPage() {
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#e8627c]">
+            <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 border-l-4 border-l-[#8a6a4f]">
               <div className="flex items-start gap-3">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   03
                 </span>
                 <div>
@@ -301,7 +298,7 @@ export default function RunwayNotWorkingPage() {
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
-                      <span className="font-bold text-[#e8627c]">実態：</span>
+                      <span className="font-bold text-[#8a6a4f]">実態：</span>
                       特に23.5cmの方はM・Lどちらにするか迷うポイント。足幅や靴のタイプによって最適なサイズが変わるため、サイズ選びガイドを参考にしてください。
                     </p>
                   </div>
@@ -504,7 +501,7 @@ export default function RunwayNotWorkingPage() {
             ].map((item) => (
               <div key={item.num} className="bg-white border border-gray-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <div>
@@ -744,19 +741,19 @@ export default function RunwayNotWorkingPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/runway-cure-sole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/runway-cure-sole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールの口コミ・効果を検証</p>
               <p className="text-xs text-gray-500 mt-1">3点アーチサポートの仕組みから最安値情報まで詳しく解説</p>
             </Link>
-            <Link href="/articles/runway-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/runway-coupon/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのクーポン・キャンペーン情報</p>
               <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を解説</p>
             </Link>
-            <Link href="/articles/runway-size-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/runway-size-guide/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのサイズ選びガイド</p>
               <p className="text-xs text-gray-500 mt-1">外反母趾でも使える？サイズ別フィッティング解説</p>
             </Link>
-            <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/ranking/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>
@@ -775,7 +772,7 @@ export default function RunwayNotWorkingPage() {
               <details key={faq.question} className="bg-white border border-gray-200 rounded-lg group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2 px-5 py-4">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -783,7 +780,7 @@ export default function RunwayNotWorkingPage() {
                   </span>
                 </summary>
                 <p className="px-5 pb-4 text-sm text-gray-600 leading-relaxed pl-10">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -813,7 +810,7 @@ export default function RunwayNotWorkingPage() {
           <div className="mt-8 text-center">
             <Link
               href="/runway-cure-sole/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ランウェイキュアソールの詳細レビューを見る
             </Link>

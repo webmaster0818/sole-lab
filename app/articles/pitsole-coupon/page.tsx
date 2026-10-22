@@ -261,10 +261,10 @@ export default function PitsoleCouponPage() {
                     <td className="py-3 text-gray-900 font-bold">
                       24,156円
                     </td>
-                    <td className="py-3 text-[#e8627c] font-bold">
+                    <td className="py-3 text-[#8a6a4f] font-bold">
                       4,026円
                     </td>
-                    <td className="py-3 text-[#e8627c] font-bold">
+                    <td className="py-3 text-[#8a6a4f] font-bold">
                       約39%お得
                     </td>
                     <td className="py-3 text-emerald-600 font-bold">◎◎</td>
@@ -309,8 +309,8 @@ export default function PitsoleCouponPage() {
               </div>
             </div>
 
-            <div className="card border-2 border-[#e8627c]">
-              <h3 className="text-base font-bold text-[#e8627c] mb-3">
+            <div className="card border-2 border-[#8a6a4f]">
+              <h3 className="text-base font-bold text-[#8a6a4f] mb-3">
                 最安値を求める方：6足セット
               </h3>
               <div className="space-y-2 text-sm text-gray-600 leading-relaxed">
@@ -319,19 +319,19 @@ export default function PitsoleCouponPage() {
                 </p>
                 <ul className="space-y-1">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0 mt-0.5">
+                    <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                       &#10003;
                     </span>
                     すべての靴にピットソールを入れられる
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0 mt-0.5">
+                    <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                       &#10003;
                     </span>
                     家族でシェアする使い方にも最適
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0 mt-0.5">
+                    <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                       &#10003;
                     </span>
                     交換用の予備も確保できて安心
@@ -463,7 +463,7 @@ export default function PitsoleCouponPage() {
                 cons: [
                   "6足セットより1足あたり約500円高い",
                 ],
-                color: "border-l-[#e8627c]",
+                color: "border-l-[#8a6a4f]",
               },
               {
                 rank: "3位",
@@ -550,7 +550,7 @@ export default function PitsoleCouponPage() {
                         </ul>
                       </div>
                       <div>
-                        <p className="text-xs text-[#e8627c] font-bold mb-1">
+                        <p className="text-xs text-[#8a6a4f] font-bold mb-1">
                           デメリット
                         </p>
                         <ul className="space-y-1">
@@ -559,7 +559,7 @@ export default function PitsoleCouponPage() {
                               key={con}
                               className="text-xs text-gray-600 flex items-start gap-1"
                             >
-                              <span className="text-[#e8627c] shrink-0">
+                              <span className="text-[#8a6a4f] shrink-0">
                                 -
                               </span>
                               {con}
@@ -623,7 +623,7 @@ export default function PitsoleCouponPage() {
                       key={item}
                       className="text-sm text-gray-600 flex items-start gap-2"
                     >
-                      <span className="text-[#e8627c] shrink-0 mt-0.5">
+                      <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                         !
                       </span>
                       {item}
@@ -635,7 +635,7 @@ export default function PitsoleCouponPage() {
           </div>
 
           <div className="card mt-6 bg-red-50 border-red-200">
-            <h3 className="text-base font-bold text-[#e8627c] mb-3">
+            <h3 className="text-base font-bold text-[#8a6a4f] mb-3">
               フリマアプリでの購入は要注意
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
@@ -775,7 +775,7 @@ export default function PitsoleCouponPage() {
           <div className="mt-8 text-center">
             <Link
               href="/pitsole/price/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d54d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ピットソールの最安値・価格比較を見る
             </Link>
@@ -790,7 +790,7 @@ export default function PitsoleCouponPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/pitsole/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ピットソールの口コミ・効果を検証【累計200万足の実力】
@@ -798,15 +798,15 @@ export default function PitsoleCouponPage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>
             <Link
               href="/pitsole/price/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ピットソールの最安値は？公式・楽天・Amazon価格比較
@@ -814,7 +814,7 @@ export default function PitsoleCouponPage() {
             </Link>
             <Link
               href="/articles/pitsole-not-working/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ピットソールは痩せない？やめた理由の真相と正しい使い方

@@ -9,14 +9,14 @@ export default function FootArchDiagram() {
       <div className="overflow-x-auto">
         <svg viewBox="0 0 460 210" role="img" aria-label="足の縦アーチと踵・土踏まず・前足部の3点、および歩行時の衝撃を示した概念図" className="w-full max-w-[460px] mx-auto">
           {/* 衝撃の矢印 */}
-          <g stroke="#f472b6" strokeWidth="2" fill="none">
+          <g stroke="#c9a76c" strokeWidth="2" fill="none">
             <line x1="90" y1="18" x2="90" y2="50" markerEnd="url(#arw)" />
             <line x1="230" y1="8" x2="230" y2="40" markerEnd="url(#arw)" />
             <line x1="370" y1="18" x2="370" y2="50" markerEnd="url(#arw)" />
           </g>
           <defs>
             <marker id="arw" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto">
-              <path d="M0,0 L4,6 L8,0" fill="none" stroke="#f472b6" strokeWidth="2" />
+              <path d="M0,0 L4,6 L8,0" fill="none" stroke="#c9a76c" strokeWidth="2" />
             </marker>
           </defs>
           <text x="230" y="6" textAnchor="middle" fontSize="11" fill="#db2777">歩くたびにかかる衝撃</text>
@@ -31,7 +31,7 @@ export default function FootArchDiagram() {
           {/* 3つの接地・支持ポイント */}
           <g fill="#6f543c">
             <circle cx="75" cy="150" r="7" />
-            <circle cx="230" cy="74" r="7" fill="#e8627c" />
+            <circle cx="230" cy="74" r="7" fill="#8a6a4f" />
             <circle cx="385" cy="150" r="7" />
           </g>
           <text x="75" y="200" textAnchor="middle" fontSize="12" fill="#111827">踵（かかと）</text>

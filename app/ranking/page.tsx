@@ -623,13 +623,13 @@ export default function RankingPage() {
             </h3>
             <div className="card">
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="inline-block bg-purple-100 text-purple-700 text-xs font-semibold px-2.5 py-1 rounded-full">
+                <span className="inline-block bg-[#f3ece4] text-[#6f543c] text-xs font-semibold px-2.5 py-1 rounded-full">
                   足裏3点アーチサポート
                 </span>
-                <span className="inline-block bg-purple-100 text-purple-700 text-xs font-semibold px-2.5 py-1 rounded-full">
+                <span className="inline-block bg-[#f3ece4] text-[#6f543c] text-xs font-semibold px-2.5 py-1 rounded-full">
                   美姿勢・美脚サポート
                 </span>
-                <span className="inline-block bg-purple-100 text-purple-700 text-xs font-semibold px-2.5 py-1 rounded-full">
+                <span className="inline-block bg-[#f3ece4] text-[#6f543c] text-xs font-semibold px-2.5 py-1 rounded-full">
                   FLOReショップ販売
                 </span>
               </div>
@@ -713,7 +713,7 @@ export default function RankingPage() {
                 <Link
                   href="/runway-cure-sole/"
                   className="btn-cta text-sm"
-                  style={{ background: "#8b5cf6" }}
+                  style={{ background: "#8a6a4f" }}
                 >
                   ランウェイキュアソールの詳細レビューを見る
                 </Link>
@@ -725,7 +725,7 @@ export default function RankingPage() {
           {/* Rank 3: Slimup Insole */}
           <div className="mb-4">
             <h3 className="text-base md:text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-orange-400 text-white text-sm font-bold shrink-0">
+              <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#c9a76c] text-white text-sm font-bold shrink-0">
                 3
               </span>
               スリムアップインソール
@@ -826,7 +826,7 @@ export default function RankingPage() {
                 <Link
                   href="/slim-up-insole/"
                   className="btn-cta text-sm"
-                  style={{ background: "#10b981" }}
+                  style={{ background: "#a67a56" }}
                 >
                   スリムアップインソールの詳細レビューを見る
                 </Link>
@@ -1161,15 +1161,15 @@ export default function RankingPage() {
             2製品を1対1でさらに詳しく比較する
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/compare/pitsole-vs-runway/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソール vs ランウェイ</p>
               <p className="text-xs text-gray-500 mt-1">人気2製品の違いを比較</p>
             </Link>
-            <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/compare/pitsole-vs-slimup/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソール vs スリムアップ</p>
               <p className="text-xs text-gray-500 mt-1">効果・価格・口コミで比較</p>
             </Link>
-            <Link href="/compare/runway-vs-slimup/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/compare/runway-vs-slimup/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイ vs スリムアップ</p>
               <p className="text-xs text-gray-500 mt-1">どちらが自分に合う？</p>
             </Link>
@@ -1285,11 +1285,11 @@ export default function RankingPage() {
             </div>
 
             <div className="card text-center">
-              <div className="h-1.5 rounded-full bg-purple-500 mb-4" />
+              <div className="h-1.5 rounded-full bg-[#a67a56] mb-4" />
               <h3 className="text-base font-bold text-gray-900 mb-2">
                 姿勢改善重視なら
               </h3>
-              <p className="text-lg font-bold text-purple-600 mb-3">
+              <p className="text-lg font-bold text-[#8a6a4f] mb-3">
                 ランウェイキュアソール
               </p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
@@ -1718,7 +1718,7 @@ export default function RankingPage() {
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-orange-400 text-white text-xs font-bold shrink-0 mt-0.5">
+                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#c9a76c] text-white text-xs font-bold shrink-0 mt-0.5">
                   3
                 </span>
                 <span>
@@ -1756,20 +1756,20 @@ export default function RankingPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/pitsole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/pitsole/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールの口コミ・効果を検証</p>
             </Link>
-            <Link href="/runway-cure-sole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/runway-cure-sole/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールの口コミ・効果を検証</p>
             </Link>
-            <Link href="/slim-up-insole/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/slim-up-insole/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールの口コミ・効果を検証</p>
             </Link>
-            <Link href="/articles/how-to-choose/" className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/how-to-choose/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールの選び方5つのポイント</p>
             </Link>
-            <Link href="/articles/insole-truth/" className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50 md:col-span-2">
-              <p className="text-sm font-semibold text-[#e8627c]">ダイエットインソールは嘘？効果の科学的根拠を検証 →</p>
+            <Link href="/articles/insole-truth/" className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50 md:col-span-2">
+              <p className="text-sm font-semibold text-[#8a6a4f]">ダイエットインソールは嘘？効果の科学的根拠を検証 →</p>
             </Link>
           </div>
           <div className="max-w-4xl mx-auto px-4">

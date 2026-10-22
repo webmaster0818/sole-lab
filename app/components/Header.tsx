@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Logo from "./Logo";
 
 const navItems = [
   { label: "トップ", href: "/" },
@@ -16,13 +17,10 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#f3e0e4] shadow-sm">
+    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#e8ded6] shadow-sm">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="flex flex-col leading-tight">
-          <span className="text-xl font-bold text-gradient-fresh">ソールラボ</span>
-          <span className="text-[10px] text-gray-500 tracking-wide">
-            ダイエットインソール比較
-          </span>
+        <Link href="/" aria-label="ソールラボ トップページ">
+          <Logo />
         </Link>
 
         {/* Desktop nav */}
@@ -31,7 +29,7 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="px-3 py-2 text-sm font-medium text-gray-700 rounded-md hover:text-[#e8627c] hover:bg-[#fdf2f4] transition-colors"
+              className="px-3 py-2 text-sm font-medium text-gray-700 rounded-md hover:text-[#8a6a4f] hover:bg-[#faf7f3] transition-colors"
             >
               {item.label}
             </Link>
@@ -41,7 +39,7 @@ export default function Header() {
         {/* Mobile hamburger */}
         <button
           type="button"
-          className="md:hidden p-2 text-gray-600 hover:text-[#e8627c] transition-colors"
+          className="md:hidden p-2 text-gray-600 hover:text-[#8a6a4f] transition-colors"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="メニューを開く"
           aria-expanded={isMenuOpen}
@@ -73,13 +71,13 @@ export default function Header() {
 
       {/* Mobile menu */}
       {isMenuOpen && (
-        <nav className="md:hidden border-t border-[#f3e0e4] bg-white/95 backdrop-blur-md">
+        <nav className="md:hidden border-t border-[#e8ded6] bg-white/95 backdrop-blur-md">
           <div className="max-w-6xl mx-auto px-4 py-2">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="block px-3 py-3 text-sm font-medium text-gray-700 hover:text-[#e8627c] hover:bg-[#fdf2f4] rounded-md transition-colors"
+                className="block px-3 py-3 text-sm font-medium text-gray-700 hover:text-[#8a6a4f] hover:bg-[#faf7f3] rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}

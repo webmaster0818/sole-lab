@@ -67,8 +67,8 @@ export default function SecurityGuardPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">交通誘導や施設警備で長時間立ち続け、夜勤や巡回もある警備の仕事。足への負担は相当なものです。アーチを支えて衝撃を吸収するインソールは、立哨・巡回の足の疲れをやわらげる味方になります。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">警備員さんには、長時間の立哨に耐える衝撃吸収とアーチサポートを備え、安全靴・作業靴にも入る薄型〜標準のインソールが向いています。立ちっぱなしと巡回の疲れを軽減します。</p>
         </div>
 
@@ -96,7 +96,7 @@ export default function SecurityGuardPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">警備員におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">長時間の立哨に耐える衝撃吸収とアーチサポートを備えたインソールが警備員さんに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">長時間の立哨に耐える衝撃吸収とアーチサポートを備えたインソールが警備員さんに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -107,9 +107,9 @@ export default function SecurityGuardPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -135,14 +135,14 @@ export default function SecurityGuardPage() {
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">巡回：歩行の反復による動的な負担</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">巡回では、コンクリートの通路や階段など硬い路面を長い距離歩くため、一歩ごとの衝撃がかかとや足裏に繰り返し加わります。着地の衝撃をやわらげるクッション性と、かかとのブレを抑えるヒールカップを重視すると、勤務後半の疲れをためにくくなります。</p>
           </div>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">交通誘導のように立哨と移動が混ざる現場も多く、実際には両方の負担に備えるのが現実的です。「一日中立つ・歩き続ける」負担は<Link href="/articles/travel-insole/" className="text-[#e8627c] underline font-medium">旅行・観光で歩き回る日</Link>とも共通する悩みで、対策の考え方も重なります。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">交通誘導のように立哨と移動が混ざる現場も多く、実際には両方の負担に備えるのが現実的です。「一日中立つ・歩き続ける」負担は<Link href="/articles/travel-insole/" className="text-[#8a6a4f] underline font-medium">旅行・観光で歩き回る日</Link>とも共通する悩みで、対策の考え方も重なります。</p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">革靴・安全靴との相性と夜勤明けのケア</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">施設警備などで革靴タイプの制服靴を履く場合は、内部の容積に余裕が少ないため薄型のインソールが基本です。元の中敷きが取り外せる靴なら入れ替え、接着されていて外せない靴なら薄型を上に重ねて、つま先や甲が窮屈にならないかを勤務前に必ず確かめてください。工事現場や施設で安全靴を履く場合は、つま先の先芯部分の空間が限られているため、厚みのあるインソールだと指先が当たりやすくなります。既存の中敷きと同程度の厚みを目安に、立つ・歩く・しゃがむ動作で違和感がないか確認してから勤務に使ってください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">夜勤明けは、長い拘束時間のあいだ足を下げ続けたことで、むくみやだるさが出やすいタイミングです。帰宅後に足を心臓より高くして休む、湯船で温めてからふくらはぎを軽くストレッチする、といったケアを組み合わせると、疲れを翌日に持ち越しにくくなります。汗を含んだインソールは靴から取り出して乾かしておくと、におい対策にもなり次の勤務も快適です。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed">こうしたケアをしても足の痛みやしびれ、強いむくみが続く場合は、無理をせず整形外科など医療機関にご相談ください。自分の足や勤務スタイルにどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#e8627c] underline font-medium">インソールタイプ診断</Link>も参考にしてください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed">こうしたケアをしても足の痛みやしびれ、強いむくみが続く場合は、無理をせず整形外科など医療機関にご相談ください。自分の足や勤務スタイルにどのタイプが合うか迷う場合は、<Link href="/diagnosis/" className="text-[#8a6a4f] underline font-medium">インソールタイプ診断</Link>も参考にしてください。</p>
         </section>
 
         <section className="mb-12">
@@ -157,17 +157,17 @@ export default function SecurityGuardPage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">長時間の立哨・巡回の足の疲れに。衝撃吸収とアーチサポートのインソールを比較することをおすすめします。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

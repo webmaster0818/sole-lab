@@ -129,14 +129,14 @@ export default function InsoleExpectationsPage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-[#fdf2f4] to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             効果検証コラム
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             インソールダイエットは
-            <span className="text-[#e8627c]">効果ない</span>？
+            <span className="text-[#8a6a4f]">効果ない</span>？
             <br />
             正しい期待値と成功の条件
           </h1>
@@ -144,10 +144,10 @@ export default function InsoleExpectationsPage() {
             「インソールを入れたのに全然痩せない」「インソールダイエットは嘘だった」。SNSやレビューでこうした声を目にして、購入を迷っている方も多いのではないでしょうか。本記事では「効果ない」と感じてしまう3つの本当の理由と、科学的に期待できる効果の範囲、そして成功する人に共通する3つの条件を客観的に解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-[#fdf2f4] text-[#e8627c] px-3 py-1 rounded-full font-medium border border-[#f3e0e4]">
+            <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
               インソール ダイエット 効果ない
             </span>
-            <span className="bg-[#fdf2f4] text-[#e8627c] px-3 py-1 rounded-full font-medium border border-[#f3e0e4]">
+            <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
               本当に痩せる
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -159,7 +159,7 @@ export default function InsoleExpectationsPage() {
 
       {/* 結論先出し（直答） */}
       <div className="max-w-4xl mx-auto px-4 mt-6">
-        <div className="bg-[#fdf2f4] border-l-4 border-[#e8627c] p-4 rounded-r-lg text-sm text-gray-700">
+        <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">
             結論：インソールに期待できること・できないこと
           </p>
@@ -189,7 +189,7 @@ export default function InsoleExpectationsPage() {
             {/* 理由1 */}
             <div className="card">
               <div className="flex items-start gap-3 mb-4">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   01
                 </span>
                 <h3 className="text-lg font-bold text-gray-900">
@@ -212,7 +212,7 @@ export default function InsoleExpectationsPage() {
             {/* 理由2 */}
             <div className="card">
               <div className="flex items-start gap-3 mb-4">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   02
                 </span>
                 <h3 className="text-lg font-bold text-gray-900">
@@ -247,7 +247,7 @@ export default function InsoleExpectationsPage() {
                       },
                     ].map((stage) => (
                       <div key={stage.period} className="flex items-start gap-3">
-                        <span className="text-[#e8627c] font-bold shrink-0 min-w-[80px]">
+                        <span className="text-[#8a6a4f] font-bold shrink-0 min-w-[80px]">
                           {stage.period}
                         </span>
                         <span className="text-gray-600">{stage.change}</span>
@@ -264,7 +264,7 @@ export default function InsoleExpectationsPage() {
             {/* 理由3 */}
             <div className="card">
               <div className="flex items-start gap-3 mb-4">
-                <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                   03
                 </span>
                 <h3 className="text-lg font-bold text-gray-900">
@@ -303,7 +303,7 @@ export default function InsoleExpectationsPage() {
             {[
               {
                 title: "期待できる効果",
-                color: "text-[#34d399]",
+                color: "text-[#a67a56]",
                 bg: "bg-emerald-50",
                 items: [
                   "歩行時の下肢筋活動量の増加（研究で報告あり）",
@@ -316,8 +316,8 @@ export default function InsoleExpectationsPage() {
               },
               {
                 title: "期待しすぎてはいけないこと",
-                color: "text-[#e8627c]",
-                bg: "bg-[#fdf2f4]",
+                color: "text-[#8a6a4f]",
+                bg: "bg-[#faf7f3]",
                 items: [
                   "インソールだけで大幅な体重減少（月2kg以上）",
                   "食事を変えずにインソールだけで痩せること",
@@ -386,7 +386,7 @@ export default function InsoleExpectationsPage() {
                     <th className="py-2 text-left text-gray-500 font-medium">
                       インソールなし
                     </th>
-                    <th className="py-2 text-left text-[#e8627c] font-medium">
+                    <th className="py-2 text-left text-[#8a6a4f] font-medium">
                       インソールあり
                     </th>
                   </tr>
@@ -491,7 +491,7 @@ export default function InsoleExpectationsPage() {
             ].map((item) => (
               <div key={item.num} className="card">
                 <div className="flex items-start gap-3 mb-4">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <h3 className="text-lg font-bold text-gray-900">
@@ -501,8 +501,8 @@ export default function InsoleExpectationsPage() {
                 <p className="text-sm text-gray-600 leading-relaxed mb-4">
                   {item.desc}
                 </p>
-                <div className="bg-[#fdf2f4] rounded-xl p-4">
-                  <p className="text-xs font-bold text-[#e8627c] mb-2">
+                <div className="bg-[#faf7f3] rounded-xl p-4">
+                  <p className="text-xs font-bold text-[#8a6a4f] mb-2">
                     成功者の実践ポイント
                   </p>
                   <ul className="space-y-1">
@@ -511,7 +511,7 @@ export default function InsoleExpectationsPage() {
                         key={tip}
                         className="text-sm text-gray-600 flex items-start gap-2"
                       >
-                        <span className="text-[#e8627c] shrink-0 mt-0.5">
+                        <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                           &#10003;
                         </span>
                         {tip}
@@ -622,7 +622,7 @@ export default function InsoleExpectationsPage() {
             ].map((item) => (
               <div key={item.rank} className="card">
                 <div className="flex items-start gap-4">
-                  <span className="text-3xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-3xl font-bold text-[#8a6a4f] shrink-0">
                     {item.rank}位
                   </span>
                   <div className="flex-1">
@@ -635,7 +635,7 @@ export default function InsoleExpectationsPage() {
                           key={point}
                           className="text-sm text-gray-600 flex items-start gap-2"
                         >
-                          <span className="text-[#e8627c] shrink-0 mt-0.5">
+                          <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                             &#10003;
                           </span>
                           {point}
@@ -665,7 +665,7 @@ export default function InsoleExpectationsPage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d14d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングをもっと見る
             </Link>
@@ -716,7 +716,7 @@ export default function InsoleExpectationsPage() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -724,7 +724,7 @@ export default function InsoleExpectationsPage() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -754,7 +754,7 @@ export default function InsoleExpectationsPage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d14d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングを見る
             </Link>
@@ -769,7 +769,7 @@ export default function InsoleExpectationsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/articles/100kin-comparison/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 ダイエットインソール vs 100均インソール｜違いと効果を比較
@@ -777,7 +777,7 @@ export default function InsoleExpectationsPage() {
             </Link>
             <Link
               href="/articles/diet-mechanism/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 インソールでダイエットできる仕組みを専門家視点で解説
@@ -785,9 +785,9 @@ export default function InsoleExpectationsPage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>

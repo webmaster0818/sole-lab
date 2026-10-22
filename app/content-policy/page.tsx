@@ -16,7 +16,7 @@ export default function ContentPolicyPage() {
     <>
       <Breadcrumb items={[{ label: "記事制作ポリシー" }]} />
       <main className="max-w-4xl mx-auto px-4 py-8">
-        <h1 className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b-2 border-[#e8627c]">
+        <h1 className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b-2 border-[#8a6a4f]">
           記事制作ポリシー
         </h1>
 
@@ -28,15 +28,15 @@ export default function ContentPolicyPage() {
         {/* 4つの原則 */}
         <section className="mb-12">
           <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-            <span className="bg-[#e8627c] text-white text-sm px-3 py-1 rounded">POLICY</span>
+            <span className="bg-[#8a6a4f] text-white text-sm px-3 py-1 rounded">POLICY</span>
             ソールラボの記事制作ポリシー（4つの原則）
           </h2>
 
           <div className="space-y-8">
             {/* 原則1 */}
-            <div className="border border-[#f3e0e4] rounded-lg p-6">
+            <div className="border border-[#e8ded6] rounded-lg p-6">
               <h3 className="text-base font-bold text-gray-900 mb-3 flex items-center gap-3">
-                <span className="bg-[#e8627c] text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">
+                <span className="bg-[#8a6a4f] text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">
                   1
                 </span>
                 ユーザーファーストであり続けます
@@ -55,9 +55,9 @@ export default function ContentPolicyPage() {
             </div>
 
             {/* 原則2 */}
-            <div className="border border-[#f3e0e4] rounded-lg p-6">
+            <div className="border border-[#e8ded6] rounded-lg p-6">
               <h3 className="text-base font-bold text-gray-900 mb-3 flex items-center gap-3">
-                <span className="bg-[#e8627c] text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">
+                <span className="bg-[#8a6a4f] text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">
                   2
                 </span>
                 正確かつ最新な情報発信に努めます
@@ -75,9 +75,9 @@ export default function ContentPolicyPage() {
             </div>
 
             {/* 原則3 */}
-            <div className="border border-[#f3e0e4] rounded-lg p-6">
+            <div className="border border-[#e8ded6] rounded-lg p-6">
               <h3 className="text-base font-bold text-gray-900 mb-3 flex items-center gap-3">
-                <span className="bg-[#e8627c] text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">
+                <span className="bg-[#8a6a4f] text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">
                   3
                 </span>
                 中立的な口コミ・評価を発信します
@@ -96,9 +96,9 @@ export default function ContentPolicyPage() {
             </div>
 
             {/* 原則4 */}
-            <div className="border border-[#f3e0e4] rounded-lg p-6">
+            <div className="border border-[#e8ded6] rounded-lg p-6">
               <h3 className="text-base font-bold text-gray-900 mb-3 flex items-center gap-3">
-                <span className="bg-[#e8627c] text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">
+                <span className="bg-[#8a6a4f] text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">
                   4
                 </span>
                 分かりやすさを追求し続けます
@@ -120,7 +120,7 @@ export default function ContentPolicyPage() {
         {/* 景表法・薬機法 表現方針 */}
         <section className="mb-12">
           <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-            <span className="bg-[#e8627c] text-white text-sm px-3 py-1 rounded">RULE</span>
+            <span className="bg-[#8a6a4f] text-white text-sm px-3 py-1 rounded">RULE</span>
             {KEIHYO_POLICY_HEADING}
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-5">
@@ -151,7 +151,7 @@ export default function ContentPolicyPage() {
               </tbody>
             </table>
           <p className="mt-3 text-xs text-gray-500">
-            この基準の解説・チェックリスト付き完全版は「<a href="/articles/keihyoho-guide/" className="text-[#e8627c] underline">広告表現NG⇔OK対訳ガイド</a>」で公開しています（引用歓迎）。
+            この基準の解説・チェックリスト付き完全版は「<a href="/articles/keihyoho-guide/" className="text-[#8a6a4f] underline">広告表現NG⇔OK対訳ガイド</a>」で公開しています（引用歓迎）。
           </p>
           </div>
           <p className="text-xs text-gray-500 leading-relaxed mt-4">
@@ -163,7 +163,7 @@ export default function ContentPolicyPage() {
         {/* 記事制作フロー */}
         <section className="mb-12">
           <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-            <span className="bg-[#e8627c] text-white text-sm px-3 py-1 rounded">FLOW</span>
+            <span className="bg-[#8a6a4f] text-white text-sm px-3 py-1 rounded">FLOW</span>
             記事制作フロー
           </h2>
 
@@ -171,8 +171,8 @@ export default function ContentPolicyPage() {
             {/* STEP 1 */}
             <div className="flex gap-4">
               <div className="shrink-0">
-                <div className="w-12 h-12 bg-[#fdf2f4] border-2 border-[#e8627c] rounded-full flex items-center justify-center">
-                  <span className="text-[#e8627c] font-bold text-sm">01</span>
+                <div className="w-12 h-12 bg-[#faf7f3] border-2 border-[#8a6a4f] rounded-full flex items-center justify-center">
+                  <span className="text-[#8a6a4f] font-bold text-sm">01</span>
                 </div>
               </div>
               <div>
@@ -188,8 +188,8 @@ export default function ContentPolicyPage() {
             {/* STEP 2 */}
             <div className="flex gap-4">
               <div className="shrink-0">
-                <div className="w-12 h-12 bg-[#fdf2f4] border-2 border-[#e8627c] rounded-full flex items-center justify-center">
-                  <span className="text-[#e8627c] font-bold text-sm">02</span>
+                <div className="w-12 h-12 bg-[#faf7f3] border-2 border-[#8a6a4f] rounded-full flex items-center justify-center">
+                  <span className="text-[#8a6a4f] font-bold text-sm">02</span>
                 </div>
               </div>
               <div>
@@ -206,8 +206,8 @@ export default function ContentPolicyPage() {
             {/* STEP 3 */}
             <div className="flex gap-4">
               <div className="shrink-0">
-                <div className="w-12 h-12 bg-[#fdf2f4] border-2 border-[#e8627c] rounded-full flex items-center justify-center">
-                  <span className="text-[#e8627c] font-bold text-sm">03</span>
+                <div className="w-12 h-12 bg-[#faf7f3] border-2 border-[#8a6a4f] rounded-full flex items-center justify-center">
+                  <span className="text-[#8a6a4f] font-bold text-sm">03</span>
                 </div>
               </div>
               <div>
@@ -223,8 +223,8 @@ export default function ContentPolicyPage() {
             {/* STEP 4 */}
             <div className="flex gap-4">
               <div className="shrink-0">
-                <div className="w-12 h-12 bg-[#fdf2f4] border-2 border-[#e8627c] rounded-full flex items-center justify-center">
-                  <span className="text-[#e8627c] font-bold text-sm">04</span>
+                <div className="w-12 h-12 bg-[#faf7f3] border-2 border-[#8a6a4f] rounded-full flex items-center justify-center">
+                  <span className="text-[#8a6a4f] font-bold text-sm">04</span>
                 </div>
               </div>
               <div>

@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
     <>
       <Breadcrumb items={[{ label: "プライバシーポリシー" }]} />
       <main className="max-w-4xl mx-auto px-4 py-8">
-        <h1 className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b-2 border-[#e8627c]">
+        <h1 className="text-2xl font-bold text-gray-900 mb-8 pb-4 border-b-2 border-[#8a6a4f]">
           プライバシーポリシー
         </h1>
 
@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">1.</span>
+            <span className="text-[#8a6a4f] mr-2">1.</span>
             個人情報の定義
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -37,7 +37,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">2.</span>
+            <span className="text-[#8a6a4f] mr-2">2.</span>
             個人情報の取得方法
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -48,7 +48,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">3.</span>
+            <span className="text-[#8a6a4f] mr-2">3.</span>
             個人情報の利用目的
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed">
@@ -64,7 +64,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">4.</span>
+            <span className="text-[#8a6a4f] mr-2">4.</span>
             個人情報の第三者提供
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed">
@@ -82,7 +82,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">5.</span>
+            <span className="text-[#8a6a4f] mr-2">5.</span>
             個人情報の管理
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -94,7 +94,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">6.</span>
+            <span className="text-[#8a6a4f] mr-2">6.</span>
             開示・訂正・利用停止
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -106,7 +106,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">7.</span>
+            <span className="text-[#8a6a4f] mr-2">7.</span>
             Cookie等の利用
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">
@@ -129,7 +129,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">8.</span>
+            <span className="text-[#8a6a4f] mr-2">8.</span>
             広告について
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">
@@ -147,7 +147,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">9.</span>
+            <span className="text-[#8a6a4f] mr-2">9.</span>
             免責事項
           </h2>
           <div className="text-sm text-gray-700 leading-relaxed space-y-2">
@@ -166,7 +166,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mb-8">
           <h2 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">10.</span>
+            <span className="text-[#8a6a4f] mr-2">10.</span>
             プライバシーポリシーの変更
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -177,7 +177,7 @@ export default function PrivacyPolicyPage() {
 
         <section className="mt-12 p-6 bg-gray-50 rounded-lg">
           <h2 className="text-base font-bold text-gray-900 mb-3">
-            <span className="text-[#e8627c] mr-2">11.</span>
+            <span className="text-[#8a6a4f] mr-2">11.</span>
             お問い合わせ窓口
           </h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">

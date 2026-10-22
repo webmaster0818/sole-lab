@@ -67,8 +67,8 @@ export default function RefundGuaranteePage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">ダイエットインソールには返金保証や定期購入(定期コース)がついていることがあります。お得な反面、条件や解約のルールを知らないと損をすることも。後悔しないための注意点を整理します。</p>
         </header>
 
-        <div className="bg-[#fdf2f4] border border-[#f3e0e4] rounded-xl p-5 mb-10">
-          <p className="font-bold text-[#e8627c] text-sm mb-2">この記事の結論</p>
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
+          <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">返金保証は『条件（期間・対象・申請方法）』を、定期購入は『最低継続回数・解約期限・解約方法』を、購入前に必ずご確認ください。条件を把握しておけば、保証を活かしつつ無駄な出費を防げます。</p>
         </div>
 
@@ -88,21 +88,21 @@ export default function RefundGuaranteePage() {
               </thead>
               <tbody className="text-gray-700 align-top">
                 <tr>
-                  <td className="p-3 border-b border-gray-200 font-medium whitespace-nowrap"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td>
+                  <td className="p-3 border-b border-gray-200 font-medium whitespace-nowrap"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td>
                   <td className="p-3 border-b border-gray-200">公式ページに全額返金保証の記載なし（公式サイトで要確認）</td>
                   <td className="p-3 border-b border-gray-200">公式サイト購入は未使用・未開封品に限りサイズ交換可（到着後7日以内に連絡）</td>
                   <td className="p-3 border-b border-gray-200">単品／2足・4足・6足セット（まとめ買い）</td>
                   <td className="p-3 border-b border-gray-200">定期縛りなし（都度購入）</td>
                 </tr>
                 <tr>
-                  <td className="p-3 border-b border-gray-200 font-medium whitespace-nowrap"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td>
+                  <td className="p-3 border-b border-gray-200 font-medium whitespace-nowrap"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td>
                   <td className="p-3 border-b border-gray-200">公式サイトに「90日間使用して実感がない場合の全額返金保証」の記載あり（条件は公式で要確認）</td>
                   <td className="p-3 border-b border-gray-200">公式ページに返品条件の明記なし（全額返金保証の申請条件は公式サイトで要確認）</td>
                   <td className="p-3 border-b border-gray-200">1足（単品）／2足セット／3足セット</td>
                   <td className="p-3 border-b border-gray-200">定期縛りなし（都度購入）</td>
                 </tr>
                 <tr>
-                  <td className="p-3 font-medium whitespace-nowrap"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td>
+                  <td className="p-3 font-medium whitespace-nowrap"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td>
                   <td className="p-3">公式ページに全額返金保証の記載なし（公式サイトで要確認）</td>
                   <td className="p-3">公式サイト購入は未開封品に限り返品可（詳細条件は公式の返品ポリシーで要確認）</td>
                   <td className="p-3">単品／2足セット／3足セット（+1足プレゼント）</td>
@@ -119,7 +119,7 @@ export default function RefundGuaranteePage() {
               <li><span className="font-bold text-gray-900">返品・交換</span>は、ピットソール・スリムアップインソールとも「公式サイト購入・未開封（ピットソールは未使用も）」が条件です。ピットソールは到着後7日以内の連絡が必要です。</li>
             </ul>
           </div>
-          <p className="text-xs text-gray-500 leading-relaxed mb-2">※上記は各製品ページ（<Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link>／<Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link>／<Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link>）で公式確認済みとして掲載している記述にもとづく整理です。返金保証の適用条件・返品送料・申請方法などの詳細や、記載のない項目（「公式サイトで要確認」）は、必ず各公式サイトの最新の利用規約・返品特約でご確認ください。条件・価格・保証内容は変更される場合があります。</p>
+          <p className="text-xs text-gray-500 leading-relaxed mb-2">※上記は各製品ページ（<Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link>／<Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link>／<Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link>）で公式確認済みとして掲載している記述にもとづく整理です。返金保証の適用条件・返品送料・申請方法などの詳細や、記載のない項目（「公式サイトで要確認」）は、必ず各公式サイトの最新の利用規約・返品特約でご確認ください。条件・価格・保証内容は変更される場合があります。</p>
           <p className="text-xs text-gray-500 leading-relaxed">※本記事は各製品の公式サイトを紹介するPR（アフィリエイト広告）を含みます。詳しい条件は各製品ページおよび公式サイトをご確認ください。</p>
         </section>
 
@@ -159,7 +159,7 @@ export default function RefundGuaranteePage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">返金保証・解約におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">保証や解約条件が明確な、正規販売店での購入が安心です。 詳しい比較は<Link href="/ranking/" className="text-[#e8627c] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">保証や解約条件が明確な、正規販売店での購入が安心です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -170,9 +170,9 @@ export default function RefundGuaranteePage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#e8627c] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#e8627c] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#e8627c] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
@@ -197,17 +197,17 @@ export default function RefundGuaranteePage() {
           </div>
         </section>
 
-        <div className="bg-[#e8627c] rounded-xl p-6 md:p-8 text-center mb-12">
+        <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
           <p className="text-white/90 text-sm mb-5">保証・解約条件が明確なインソールを、安心して選ぶことをおすすめします。</p>
-          <Link href="/ranking/" className="inline-block bg-white text-[#e8627c] font-bold px-6 py-3 rounded-lg hover:bg-[#fdf2f4] transition-colors">おすすめインソールランキングを見る</Link>
+          <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
         <section className="mb-4">
           <h2 className="text-xl font-bold text-gray-900 mb-6">関連記事</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {related.map((r) => (
-              <Link key={r.href} href={r.href} className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+              <Link key={r.href} href={r.href} className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
                 <p className="text-sm font-bold text-gray-900">{r.label}</p>
               </Link>
             ))}

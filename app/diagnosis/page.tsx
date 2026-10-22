@@ -86,15 +86,15 @@ export default function DiagnosisPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
-              { name: "ピットソール", tag: "効果・実績重視", desc: "世界特許の独自構造で骨格から姿勢をサポート", href: "/pitsole/", c: "#e8627c" },
+              { name: "ピットソール", tag: "効果・実績重視", desc: "世界特許の独自構造で骨格から姿勢をサポート", href: "/pitsole/", c: "#8a6a4f" },
               { name: "ランウェイキュアソール", tag: "美姿勢・薄型", desc: "3つのアーチをサポート、靴を選ばない薄型", href: "/runway-cure-sole/", c: "#c9a76c" },
-              { name: "スリムアップインソール", tag: "コスパ重視", desc: "手頃な価格で、初めての方にもおすすめ", href: "/slim-up-insole/", c: "#34d399" },
+              { name: "スリムアップインソール", tag: "コスパ重視", desc: "手頃な価格で、初めての方にもおすすめ", href: "/slim-up-insole/", c: "#a67a56" },
             ].map((p) => (
               <Link key={p.href} href={p.href} className="card group block">
                 <span className="text-xs font-bold" style={{ color: p.c }}>
                   {p.tag}
                 </span>
-                <h3 className="mt-1 text-base font-bold text-gray-900 group-hover:text-[#e8627c]">
+                <h3 className="mt-1 text-base font-bold text-gray-900 group-hover:text-[#8a6a4f]">
                   {p.name}
                 </h3>
                 <p className="mt-2 text-xs text-gray-600 leading-relaxed">{p.desc}</p>
@@ -119,9 +119,9 @@ export default function DiagnosisPage() {
             {faqs.map((f) => (
               <details
                 key={f.question}
-                className="group border border-[#f3e0e4] rounded-xl"
+                className="group border border-[#e8ded6] rounded-xl"
               >
-                <summary className="cursor-pointer px-5 py-4 text-sm font-semibold text-gray-900 hover:bg-[#fdf2f4] rounded-xl">
+                <summary className="cursor-pointer px-5 py-4 text-sm font-semibold text-gray-900 hover:bg-[#faf7f3] rounded-xl">
                   {f.question}
                 </summary>
                 <div className="px-5 pb-4 text-sm text-gray-600 leading-relaxed">

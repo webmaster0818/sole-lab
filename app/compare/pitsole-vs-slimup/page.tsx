@@ -169,15 +169,15 @@ export default function PitsoleVsSlimupPage() {
       <Breadcrumb items={[{ label: "ピットソール vs スリムアップインソール" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-violet-50 to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-violet-600 font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             比較記事
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソール vs スリムアップインソール
             <br />
-            <span className="text-violet-600">比較</span>
+            <span className="text-[#8a6a4f]">比較</span>
             ！違いと選び方
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
@@ -892,7 +892,7 @@ export default function PitsoleVsSlimupPage() {
                 className="card"
               >
                 <h3 className="text-sm font-bold text-gray-900 mb-2 flex items-start gap-2">
-                  <span className="text-violet-600 shrink-0">Q.</span>
+                  <span className="text-[#8a6a4f] shrink-0">Q.</span>
                   {faq.question}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed pl-6">
@@ -927,7 +927,7 @@ export default function PitsoleVsSlimupPage() {
             </Link>
             <Link
               href="/ranking/"
-              className="card block text-center hover:border-violet-500 transition-colors"
+              className="card block text-center hover:border-[#a67a56] transition-colors"
             >
               <p className="text-sm font-bold text-gray-900 mb-1">総合ランキング</p>
               <p className="text-xs text-gray-500">ダイエットインソール比較</p>

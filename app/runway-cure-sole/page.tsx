@@ -219,15 +219,15 @@ export default function RunwayCureSolePage() {
       <Breadcrumb items={[{ label: "ランウェイキュアソール 口コミ・効果" }]} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-purple-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-xs md:text-sm text-[#8b5cf6] font-semibold mb-3">
+          <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
             2026年6月最新版
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ランウェイキュアソールの
             <br className="md:hidden" />
-            口コミ・効果を<span className="text-[#8b5cf6]">検証</span>
+            口コミ・効果を<span className="text-[#8a6a4f]">検証</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Runway Cure Sole（ランウェイキュアソール）の口コミ・評判から効果の仕組みまで、
@@ -259,62 +259,62 @@ export default function RunwayCureSolePage() {
           <p className="text-sm font-bold text-gray-900 mb-3">この記事の内容</p>
           <ol className="space-y-1.5 text-sm text-gray-600">
             <li>
-              <a href="#overall" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#overall" className="hover:text-[#8a6a4f] transition-colors">
                 1. ランウェイキュアソールの総合評価
               </a>
             </li>
             <li>
-              <a href="#where-to-buy" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#where-to-buy" className="hover:text-[#8a6a4f] transition-colors">
                 2. どこで売ってる？市販・ドンキ・通販の取扱状況
               </a>
             </li>
             <li>
-              <a href="#bad-reviews" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#bad-reviews" className="hover:text-[#8a6a4f] transition-colors">
                 3. 悪い口コミ・気になる点
               </a>
             </li>
             <li>
-              <a href="#good-reviews" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#good-reviews" className="hover:text-[#8a6a4f] transition-colors">
                 4. 良い口コミ・評判
               </a>
             </li>
             <li>
-              <a href="#features" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#features" className="hover:text-[#8a6a4f] transition-colors">
                 5. 特徴と効果の仕組み（3点アーチ解説）
               </a>
             </li>
             <li>
-              <a href="#pros-cons" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#pros-cons" className="hover:text-[#8a6a4f] transition-colors">
                 6. メリット・デメリット
               </a>
             </li>
             <li>
-              <a href="#pricing" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#pricing" className="hover:text-[#8a6a4f] transition-colors">
                 7. 料金・最安値・販売店情報
               </a>
             </li>
             <li>
-              <a href="#sizing" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#sizing" className="hover:text-[#8a6a4f] transition-colors">
                 8. サイズ選びのポイント
               </a>
             </li>
             <li>
-              <a href="#bunion" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#bunion" className="hover:text-[#8a6a4f] transition-colors">
                 9. 外反母趾でも使える？注意点と判断基準
               </a>
             </li>
             <li>
-              <a href="#for-whom" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#for-whom" className="hover:text-[#8a6a4f] transition-colors">
                 10. 向いている人・向いていない人
               </a>
             </li>
             <li>
-              <a href="#faq" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
                 11. よくある質問（FAQ）
               </a>
             </li>
             <li>
-              <a href="#summary" className="hover:text-[#8b5cf6] transition-colors">
+              <a href="#summary" className="hover:text-[#8a6a4f] transition-colors">
                 12. まとめ
               </a>
             </li>
@@ -324,16 +324,16 @@ export default function RunwayCureSolePage() {
 
       {/* Section 1: Overall Rating */}
       <section id="overall" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           ランウェイキュアソールの総合評価
         </h2>
 
-        <div className="bg-purple-50 border border-purple-200 rounded-xl p-5 md:p-6 mb-6">
+        <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-6 mb-6">
           <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8">
             <div className="text-center md:text-left">
               <p className="text-sm text-gray-500 mb-1">総合評価（編集部評価）</p>
               <div className="flex items-center gap-2 justify-center md:justify-start">
-                <span className="text-3xl font-bold text-[#8b5cf6]">4.1</span>
+                <span className="text-3xl font-bold text-[#8a6a4f]">4.1</span>
                 <span className="text-sm text-gray-500">/ 5.0</span>
               </div>
               <StarRating rating={4} />
@@ -341,19 +341,19 @@ export default function RunwayCureSolePage() {
             <div className="flex-1 grid grid-cols-2 gap-3 text-sm">
               <div className="flex justify-between items-center bg-white rounded-lg px-3 py-2">
                 <span className="text-gray-600">姿勢サポート力</span>
-                <span className="font-bold text-[#8b5cf6]">4.5</span>
+                <span className="font-bold text-[#8a6a4f]">4.5</span>
               </div>
               <div className="flex justify-between items-center bg-white rounded-lg px-3 py-2">
                 <span className="text-gray-600">履き心地</span>
-                <span className="font-bold text-[#8b5cf6]">4.0</span>
+                <span className="font-bold text-[#8a6a4f]">4.0</span>
               </div>
               <div className="flex justify-between items-center bg-white rounded-lg px-3 py-2">
                 <span className="text-gray-600">コスパ</span>
-                <span className="font-bold text-[#8b5cf6]">3.5</span>
+                <span className="font-bold text-[#8a6a4f]">3.5</span>
               </div>
               <div className="flex justify-between items-center bg-white rounded-lg px-3 py-2">
                 <span className="text-gray-600">サイズ展開</span>
-                <span className="font-bold text-[#8b5cf6]">3.0</span>
+                <span className="font-bold text-[#8a6a4f]">3.0</span>
               </div>
             </div>
           </div>
@@ -376,7 +376,7 @@ export default function RunwayCureSolePage() {
 
       {/* Section 2: Where to Buy (moved up 2026-09-16: 販売店クエリが最大流入のため) */}
       <section id="where-to-buy" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           どこで売ってる？市販・ドンキ・通販の取扱状況
         </h2>
 
@@ -395,9 +395,9 @@ export default function RunwayCureSolePage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
-              <tr className="bg-purple-50">
+              <tr className="bg-[#faf7f3]">
                 <td className="px-4 py-3 font-medium text-gray-900">公式サイト（FLOReショップ）</td>
-                <td className="px-4 py-3 text-[#8b5cf6] font-bold">◎ 取扱あり</td>
+                <td className="px-4 py-3 text-[#8a6a4f] font-bold">◎ 取扱あり</td>
                 <td className="px-4 py-3 text-gray-600">セット割引・正規品保証あり</td>
               </tr>
               <tr>
@@ -436,7 +436,7 @@ export default function RunwayCureSolePage() {
           </p>
         </div>
 
-        <div id="donki" className="bg-purple-50 border border-purple-200 rounded-xl p-5 mb-6">
+        <div id="donki" className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-6">
           <h3 className="text-base font-bold text-gray-900 mb-3">ドン・キホーテで買える？【2026年7月18日確認】</h3>
           <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
             <p>
@@ -450,18 +450,18 @@ export default function RunwayCureSolePage() {
             </p>
             <p>
               セット割引が適用されるのは公式サイト限定です。ドンキで買えるインソール全般について知りたい方は
-              「<a href="/articles/donki-insole/" className="text-[#8b5cf6] underline font-medium">ドンキのインソールはダイエットに使える？</a>」で、
+              「<a href="/articles/donki-insole/" className="text-[#8a6a4f] underline font-medium">ドンキのインソールはダイエットに使える？</a>」で、
               市販品と専用品の違いを解説しています。
             </p>
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <Link href="/articles/donki-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+          <Link href="/articles/donki-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
             <p className="text-sm font-semibold text-gray-900">ドンキのインソールはダイエットに使える？</p>
             <p className="text-xs text-gray-500 mt-1">ドンキの取扱品と専用品の違いを解説</p>
           </Link>
-          <Link href="/articles/where-to-buy-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+          <Link href="/articles/where-to-buy-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
             <p className="text-sm font-semibold text-gray-900">ダイエットインソールはどこで売ってる？</p>
             <p className="text-xs text-gray-500 mt-1">市販・通販の販売チャネルを総まとめ</p>
           </Link>
@@ -471,11 +471,11 @@ export default function RunwayCureSolePage() {
       {/* Section 2: Bad Reviews */}
       <section id="bad-reviews" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             悪い口コミ・気になる点
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            当サイトは出典を確認できない口コミを掲載しない方針です（<Link href="/content-policy/" className="text-[#8b5cf6] underline">コンテンツポリシー</Link>）。
+            当サイトは出典を確認できない口コミを掲載しない方針です（<Link href="/content-policy/" className="text-[#8a6a4f] underline">コンテンツポリシー</Link>）。
             ここでは、公式EC店舗（FLORe公式ショップ 楽天市場店）に投稿された実レビューのうち、低評価レビューで確認できた指摘の傾向を、個別レビューを転載しない形で整理します。
           </p>
           <div className="bg-white border border-gray-200 rounded-lg p-4 md:p-5 mb-4">
@@ -500,7 +500,7 @@ export default function RunwayCureSolePage() {
               </li>
             </ul>
             <p className="text-xs text-gray-500 mt-3">
-              出典: <a href={REVIEW_SOURCE.url} target="_blank" rel="nofollow noopener" className="text-[#8b5cf6] underline">{REVIEW_SOURCE.name}</a>（{REVIEW_SOURCE.refDate}）
+              出典: <a href={REVIEW_SOURCE.url} target="_blank" rel="nofollow noopener" className="text-[#8a6a4f] underline">{REVIEW_SOURCE.name}</a>（{REVIEW_SOURCE.refDate}）
             </p>
           </div>
           <div className="mt-6 bg-white border border-gray-200 rounded-lg p-4 md:p-5">
@@ -530,18 +530,18 @@ export default function RunwayCureSolePage() {
 
       {/* Section 3: Good Reviews */}
       <section id="good-reviews" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           良い口コミ・評判
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
           次に、実際に確認できるレビューデータをご説明します。公式EC店舗（FLORe公式ショップ 楽天市場店）の商品レビューが最も件数が多く、傾向の参考になります。
         </p>
-        <div className="bg-white border border-purple-200 rounded-lg p-4 md:p-5 mb-4">
+        <div className="bg-white border border-[#e8ded6] rounded-lg p-4 md:p-5 mb-4">
           <p className="text-sm font-bold text-gray-900 mb-2">
             楽天公式店の商品レビュー（{REVIEW_SOURCE.refDate}時点）
           </p>
           <div className="flex items-center gap-3 mb-2">
-            <span className="text-2xl font-bold text-[#8b5cf6]">{REVIEW_SOURCE.rating}</span>
+            <span className="text-2xl font-bold text-[#8a6a4f]">{REVIEW_SOURCE.rating}</span>
             <span className="text-sm text-gray-500">/ 5.0（全{REVIEW_SOURCE.count}件）</span>
           </div>
           <p className="text-xs text-gray-500 mb-3">内訳: {REVIEW_SOURCE.breakdown}</p>
@@ -550,7 +550,7 @@ export default function RunwayCureSolePage() {
             なお、レビューには発送・梱包など店舗対応への評価も多く含まれるため、総合点はそれらを含んだ数値である点に留意してください。
           </p>
           <p className="text-xs text-gray-500 mt-3">
-            出典: <a href={REVIEW_SOURCE.url} target="_blank" rel="nofollow noopener" className="text-[#8b5cf6] underline">{REVIEW_SOURCE.name}</a>（{REVIEW_SOURCE.refDate}）。個別レビューの転載はせず、件数・傾向のみ紹介しています。
+            出典: <a href={REVIEW_SOURCE.url} target="_blank" rel="nofollow noopener" className="text-[#8a6a4f] underline">{REVIEW_SOURCE.name}</a>（{REVIEW_SOURCE.refDate}）。個別レビューの転載はせず、件数・傾向のみ紹介しています。
           </p>
         </div>
         <div className="mt-6 bg-white border border-gray-200 rounded-lg p-4 md:p-5">
@@ -559,19 +559,19 @@ export default function RunwayCureSolePage() {
           </p>
           <ul className="space-y-1.5 text-sm text-gray-600">
             <li className="flex items-start gap-2">
-              <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+              <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
               姿勢面の変化（背筋が伸びる感覚）を挙げる声がある
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+              <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
               立ち仕事・歩行量の多い使い方での購入が目立つ
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+              <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
               一方でフィット感（キツさ）への言及もあり、サイズ選びが満足度を左右する
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+              <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
               「痩せた」という直接的な報告は確認できる範囲では多くない（姿勢・歩行サポートとして評価されている）
             </li>
           </ul>
@@ -581,7 +581,7 @@ export default function RunwayCureSolePage() {
       {/* Section 4: Features & Mechanism */}
       <section id="features" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             特徴と効果の仕組み（3点アーチ解説）
           </h2>
 
@@ -602,7 +602,7 @@ export default function RunwayCureSolePage() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-white rounded-lg p-4 border border-gray-200 text-center">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 text-[#8b5cf6] mb-3">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#f3ece4] text-[#8a6a4f] mb-3">
                   <span className="text-lg font-bold">1</span>
                 </div>
                 <h4 className="text-sm font-bold text-gray-900 mb-2">内側縦アーチ</h4>
@@ -611,7 +611,7 @@ export default function RunwayCureSolePage() {
                 </p>
               </div>
               <div className="bg-white rounded-lg p-4 border border-gray-200 text-center">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 text-[#8b5cf6] mb-3">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#f3ece4] text-[#8a6a4f] mb-3">
                   <span className="text-lg font-bold">2</span>
                 </div>
                 <h4 className="text-sm font-bold text-gray-900 mb-2">外側縦アーチ</h4>
@@ -620,7 +620,7 @@ export default function RunwayCureSolePage() {
                 </p>
               </div>
               <div className="bg-white rounded-lg p-4 border border-gray-200 text-center">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 text-[#8b5cf6] mb-3">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#f3ece4] text-[#8a6a4f] mb-3">
                   <span className="text-lg font-bold">3</span>
                 </div>
                 <h4 className="text-sm font-bold text-gray-900 mb-2">横アーチ</h4>
@@ -640,19 +640,19 @@ export default function RunwayCureSolePage() {
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   正しい姿勢を促すことで、体幹の筋肉が自然に使われるようになる
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   骨盤の位置が安定し、下半身の筋肉バランスが改善される
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   歩行効率が向上し、足への負担が軽減される
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   日常の歩行がエクササイズに近い効果をもたらす
                 </li>
               </ul>
@@ -663,32 +663,32 @@ export default function RunwayCureSolePage() {
 
       {/* Section 5: Pros & Cons */}
       <section id="pros-cons" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           メリット・デメリット
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-5">
-            <p className="text-sm font-bold text-[#8b5cf6] mb-4">メリット</p>
+          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5">
+            <p className="text-sm font-bold text-[#8a6a4f] mb-4">メリット</p>
             <ul className="space-y-3 text-sm text-gray-600">
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 足裏3点アーチを同時にサポートし、美姿勢を促進
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 履くだけの手軽さで、特別な運動は不要
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 足に装着するソックス型で手持ちの靴をそのまま使える
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 公式サイトのセット購入で1枚あたりの価格がお得に
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 有名雑誌での掲載実績があり信頼性が高い
               </li>
             </ul>
@@ -724,7 +724,7 @@ export default function RunwayCureSolePage() {
       {/* Section 6: Pricing */}
       <section id="pricing" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             料金・最安値・販売店情報
           </h2>
 
@@ -751,17 +751,17 @@ export default function RunwayCureSolePage() {
                 <tr>
                   <td className="px-4 py-3 text-gray-600">2足セット</td>
                   <td className="px-4 py-3 text-right text-gray-900 font-medium">11,980円</td>
-                  <td className="px-4 py-3 text-right text-[#8b5cf6] font-bold">5,990円</td>
+                  <td className="px-4 py-3 text-right text-[#8a6a4f] font-bold">5,990円</td>
                 </tr>
-                <tr className="bg-purple-50">
+                <tr className="bg-[#faf7f3]">
                   <td className="px-4 py-3 text-gray-600 font-medium">
                     3足セット
-                    <span className="ml-2 text-xs text-white bg-[#8b5cf6] px-2 py-0.5 rounded-full">
+                    <span className="ml-2 text-xs text-white bg-[#8a6a4f] px-2 py-0.5 rounded-full">
                       最安値
                     </span>
                   </td>
                   <td className="px-4 py-3 text-right text-gray-900 font-medium">17,960円</td>
-                  <td className="px-4 py-3 text-right text-[#8b5cf6] font-bold">約5,987円</td>
+                  <td className="px-4 py-3 text-right text-[#8a6a4f] font-bold">約5,987円</td>
                 </tr>
               </tbody>
             </table>
@@ -774,7 +774,7 @@ export default function RunwayCureSolePage() {
             <p className="text-sm font-bold text-gray-900 mb-2">販売店について</p>
             <ul className="space-y-1.5 text-sm text-gray-600">
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#10003;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                 公式サイト（FLOReショップ）：セット割引あり・正規品保証
               </li>
               <li className="flex items-start gap-2">
@@ -792,7 +792,7 @@ export default function RunwayCureSolePage() {
 
       {/* Section 8: Sizing */}
       <section id="sizing" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           サイズ選びのポイント
         </h2>
 
@@ -838,7 +838,7 @@ export default function RunwayCureSolePage() {
 
       {/* 公式スペック */}
       <section id="specs" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           ランウェイキュアソールの公式スペック（出典を併記）
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
@@ -881,7 +881,7 @@ export default function RunwayCureSolePage() {
 
       {/* Section 9: Bunion */}
       <section id="bunion" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           外反母趾でも使える？注意点と判断基準
         </h2>
 
@@ -898,18 +898,18 @@ export default function RunwayCureSolePage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div className="bg-white border border-gray-200 rounded-xl p-5">
-            <p className="text-sm font-bold text-[#8b5cf6] mb-4">使える可能性が高いケース</p>
+            <p className="text-sm font-bold text-[#8a6a4f] mb-4">使える可能性が高いケース</p>
             <ul className="space-y-3 text-sm text-gray-600">
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 変形が軽度で、普段の歩行に痛みがない
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 短時間の使用から様子を見られる
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                 ゆとりのあるスニーカーで使用する
               </li>
             </ul>
@@ -940,7 +940,7 @@ export default function RunwayCureSolePage() {
           </p>
         </div>
 
-        <Link href="/articles/bunion-insole/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+        <Link href="/articles/bunion-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
           <p className="text-sm font-semibold text-gray-900">外反母趾向けインソールの選び方</p>
           <p className="text-xs text-gray-500 mt-1">外反母趾の方がインソールを選ぶときのポイントを詳しく解説</p>
         </Link>
@@ -949,32 +949,32 @@ export default function RunwayCureSolePage() {
       {/* Section 10: Who It's For */}
       <section id="for-whom" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             向いている人・向いていない人
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
-              <p className="text-sm font-bold text-[#8b5cf6] mb-4">向いている人</p>
+              <p className="text-sm font-bold text-[#8a6a4f] mb-4">向いている人</p>
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                   姿勢の悪さが気になっている女性
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                   立ち仕事や歩行が多く、足の疲れを感じている方
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                   激しい運動なしで日常生活の中でケアしたい方
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                   産後の骨盤ケアを日常的に行いたい方
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#8b5cf6] mt-0.5 shrink-0">&#9675;</span>
+                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
                   足のサイズが22.5〜25.0cmの女性
                 </li>
               </ul>
@@ -1010,7 +1010,7 @@ export default function RunwayCureSolePage() {
 
       {/* Section 9: FAQ */}
       <section id="faq" className="max-w-4xl mx-auto px-4 mb-16">
-        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+        <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
           よくある質問（FAQ）
         </h2>
         <div className="space-y-4">
@@ -1046,7 +1046,7 @@ export default function RunwayCureSolePage() {
       {/* Section 10: Summary */}
       <section id="summary" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8b5cf6]">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
             まとめ
           </h2>
           <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
@@ -1066,13 +1066,13 @@ export default function RunwayCureSolePage() {
             </p>
           </div>
 
-          <div className="mt-8 bg-white border border-purple-200 rounded-xl p-5 md:p-6 text-center">
+          <div className="mt-8 bg-white border border-[#e8ded6] rounded-xl p-5 md:p-6 text-center">
             <p className="text-sm font-bold text-gray-900 mb-2">
               ランウェイキュアソールの評価まとめ
             </p>
             <div className="flex items-center justify-center gap-2 mb-3">
               <StarRating rating={4} />
-              <span className="text-lg font-bold text-[#8b5cf6]">4.1</span>
+              <span className="text-lg font-bold text-[#8a6a4f]">4.1</span>
               <span className="text-sm text-gray-500">/ 5.0</span>
             </div>
             <p className="text-xs text-gray-500 mb-4">
@@ -1099,23 +1099,23 @@ export default function RunwayCureSolePage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-lg font-bold text-gray-900 mb-4">関連ページ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <Link href="/articles/runway-not-working/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/runway-not-working/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールは痩せない？効果の真相</p>
               <p className="text-xs text-gray-500 mt-1">痩せない原因を分析し、正しい期待値を解説</p>
             </Link>
-            <Link href="/articles/runway-coupon/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/runway-coupon/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのクーポン・キャンペーン情報</p>
               <p className="text-xs text-gray-500 mt-1">2026年最新のお得な購入方法を解説</p>
             </Link>
-            <Link href="/articles/runway-size-guide/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/runway-size-guide/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソールのサイズ選びガイド</p>
               <p className="text-xs text-gray-500 mt-1">外反母趾でも使える？サイズ別フィッティング解説</p>
             </Link>
-            <Link href="/articles/runway-mens-review/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/articles/runway-mens-review/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイ メンズ向けレビュー</p>
               <p className="text-xs text-gray-500 mt-1">男性の使用感を検証</p>
             </Link>
-            <Link href="/ranking/" className="block p-3 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors">
+            <Link href="/ranking/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
               <p className="text-xs text-gray-500 mt-1">ピットソール・ランウェイキュアソール・スリムアップインソールを比較</p>
             </Link>

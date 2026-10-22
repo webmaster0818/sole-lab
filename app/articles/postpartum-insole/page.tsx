@@ -129,25 +129,25 @@ export default function PostpartumInsolePage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-[#fdf2f4] to-white py-12 md:py-20">
+      <section className="bg-gradient-to-b from-[#faf7f3] to-white py-12 md:py-20">
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-sm text-[#e8627c] font-medium mb-2">
+          <p className="text-sm text-[#8a6a4f] font-medium mb-2">
             産後ケア×ダイエット
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             産後ダイエットにインソールは効果ある？
             <br />
-            <span className="text-[#e8627c]">骨盤ケア×歩行</span>
+            <span className="text-[#8a6a4f]">骨盤ケア×歩行</span>
             で痩せる方法
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             「出産後、体重が戻らない」「下半身が太ったまま」「骨盤の開きが気になる」。産後の体型の悩みを抱えるママは非常に多く見られます。しかし、赤ちゃんの世話でジムに通う時間はなく、激しい運動もできない。そんな産後ママにこそ、インソール×ウォーキングという選択肢があります。競合サイトにはインソール×産後の記事がほぼなく、このテーマはブルーオーシャンです。産後特有の体の変化に着目した独自のアプローチを解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
-            <span className="bg-[#fdf2f4] text-[#e8627c] px-3 py-1 rounded-full font-medium border border-[#f3e0e4]">
+            <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
               産後 ダイエット インソール
             </span>
-            <span className="bg-[#fdf2f4] text-[#e8627c] px-3 py-1 rounded-full font-medium border border-[#f3e0e4]">
+            <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
               骨盤 歩く
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
@@ -251,7 +251,7 @@ export default function PostpartumInsolePage() {
             ].map((item) => (
               <div key={item.num} className="card">
                 <div className="flex items-start gap-3 mb-4">
-                  <span className="text-2xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-2xl font-bold text-[#8a6a4f] shrink-0">
                     {item.num}
                   </span>
                   <h3 className="text-lg font-bold text-gray-900">
@@ -261,7 +261,7 @@ export default function PostpartumInsolePage() {
                 <p className="text-sm text-gray-600 leading-relaxed mb-3">
                   {item.desc}
                 </p>
-                <div className="bg-[#fdf2f4] rounded-lg p-3">
+                <div className="bg-[#faf7f3] rounded-lg p-3">
                   <p className="text-sm text-gray-600 leading-relaxed">
                     {item.detail}
                   </p>
@@ -302,15 +302,15 @@ export default function PostpartumInsolePage() {
               },
               {
                 period: "産後2〜4ヶ月",
-                color: "bg-[#fdf2f4]",
-                textColor: "text-[#e8627c]",
+                color: "bg-[#faf7f3]",
+                textColor: "text-[#8a6a4f]",
                 status: "インソール使用：本格スタート",
                 desc: "身体の回復が進み、活動量を増やせる時期です。インソールの使用を終日に広げ、赤ちゃんとの散歩（ベビーカーウォーキング）を1日30分〜1時間に延ばしてください。骨盤がまだ戻りきっていないこの時期にインソール＋骨盤ベルトで集中ケアすると効果的です。",
               },
               {
                 period: "産後4〜6ヶ月",
-                color: "bg-[#fdf2f4]",
-                textColor: "text-[#e8627c]",
+                color: "bg-[#faf7f3]",
+                textColor: "text-[#8a6a4f]",
                 status: "インソール使用：最大効果の時期",
                 desc: "骨盤が安定してきて、本格的なウォーキングダイエットが可能な時期です。1日1時間のウォーキングを週5日以上目指してください。インソールの効果（姿勢改善・筋活性化）が最も発揮される時期です。離乳食が始まれば授乳量も減るため、食事管理も並行しやすくなります。",
               },
@@ -408,14 +408,14 @@ export default function PostpartumInsolePage() {
             ].map((item) => (
               <div key={item.rank} className="card">
                 <div className="flex items-start gap-4 mb-4">
-                  <span className="text-3xl font-bold text-[#e8627c] shrink-0">
+                  <span className="text-3xl font-bold text-[#8a6a4f] shrink-0">
                     {item.rank}位
                   </span>
                   <div>
                     <h3 className="text-base md:text-lg font-bold text-gray-900">
                       {item.name}
                     </h3>
-                    <span className="text-sm font-medium text-[#e8627c]">
+                    <span className="text-sm font-medium text-[#8a6a4f]">
                       {item.postpartumScore}
                     </span>
                   </div>
@@ -429,7 +429,7 @@ export default function PostpartumInsolePage() {
                       key={point}
                       className="text-sm text-gray-600 flex items-start gap-2"
                     >
-                      <span className="text-[#e8627c] shrink-0 mt-0.5">
+                      <span className="text-[#8a6a4f] shrink-0 mt-0.5">
                         &#10003;
                       </span>
                       {point}
@@ -449,7 +449,7 @@ export default function PostpartumInsolePage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d14d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングをもっと見る
             </Link>
@@ -558,7 +558,7 @@ export default function PostpartumInsolePage() {
           <div className="card overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b-2 border-[#f3e0e4]">
+                <tr className="border-b-2 border-[#e8ded6]">
                   <th className="py-2 text-left text-gray-500 font-medium">方法</th>
                   <th className="py-2 text-left text-gray-500 font-medium">手軽さ</th>
                   <th className="py-2 text-left text-gray-500 font-medium">育児との両立</th>
@@ -676,7 +676,7 @@ export default function PostpartumInsolePage() {
               <details key={faq.question} className="card group">
                 <summary className="cursor-pointer text-base font-bold text-gray-900 list-none flex items-center justify-between gap-2">
                   <span className="flex items-start gap-2">
-                    <span className="text-[#e8627c] shrink-0">Q.</span>
+                    <span className="text-[#8a6a4f] shrink-0">Q.</span>
                     {faq.question}
                   </span>
                   <span className="text-gray-400 group-open:rotate-180 transition-transform shrink-0">
@@ -684,7 +684,7 @@ export default function PostpartumInsolePage() {
                   </span>
                 </summary>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed pl-6">
-                  <span className="text-[#e8627c] font-bold">A.</span>{" "}
+                  <span className="text-[#8a6a4f] font-bold">A.</span>{" "}
                   {faq.answer}
                 </p>
               </details>
@@ -717,7 +717,7 @@ export default function PostpartumInsolePage() {
           <div className="mt-8 text-center">
             <Link
               href="/ranking/"
-              className="inline-block bg-[#e8627c] hover:bg-[#d14d68] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
+              className="inline-block bg-[#8a6a4f] hover:bg-[#6f543c] text-white font-medium px-8 py-3 rounded-lg transition-colors text-sm md:text-base"
             >
               ダイエットインソールランキングを見る
             </Link>
@@ -732,7 +732,7 @@ export default function PostpartumInsolePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href="/articles/pelvis-correction/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 インソールで骨盤矯正はできる？正しい知識と選び方
@@ -740,7 +740,7 @@ export default function PostpartumInsolePage() {
             </Link>
             <Link
               href="/articles/walking-diet/"
-              className="block p-4 border border-[#f3e0e4] rounded-xl hover:bg-[#fdf2f4] transition-colors"
+              className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
                 歩くだけダイエットは本当に効果ある？インソールで効率UP
@@ -748,9 +748,9 @@ export default function PostpartumInsolePage() {
             </Link>
             <Link
               href="/ranking/"
-              className="block p-4 border border-[#e8627c] rounded-xl hover:bg-[#fdf2f4] transition-colors bg-[#fdf2f4]/50"
+              className="block p-4 border border-[#8a6a4f] rounded-xl hover:bg-[#faf7f3] transition-colors bg-[#faf7f3]/50"
             >
-              <p className="text-sm font-semibold text-[#e8627c]">
+              <p className="text-sm font-semibold text-[#8a6a4f]">
                 おすすめダイエットインソール3選を見る →
               </p>
             </Link>
