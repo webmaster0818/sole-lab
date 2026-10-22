@@ -24,7 +24,7 @@ const structuredData = {
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
-  dateModified: "2026-09-11",
+  dateModified: "2026-10-22",
 };
 
 const faqStructuredData = {
@@ -38,6 +38,7 @@ const faqStructuredData = {
     { "@type": "Question", name: "革製のインソールも水洗いして大丈夫ですか？", acceptedAnswer: { "@type": "Answer", text: "革製のインソールは水洗いを避けてください。水に浸すと革が硬くなったり、ひび割れの原因になります。革製インソールのお手入れは、固く絞った布で表面を拭き、専用のレザークリーナーを使うのが正しい方法です。乾燥後にレザーコンディショナーを塗ると、しなやかさが保たれます。" } },
     { "@type": "Question", name: "布張り（ファブリック）のインソールはどう洗えばいいですか？", acceptedAnswer: { "@type": "Answer", text: "布張りタイプは水を含みやすく乾きにくいため、つけ置きは避けて短時間で手洗いし、タオルで水分をしっかり取ってから風通しの良い日陰で乾かしてください。強くこすると毛羽立ちや接着剥がれの原因になります。洗えるかどうかは、必ず製品の表示を確認してください。" } },
     { "@type": "Question", name: "靴用乾燥機や布団乾燥機でインソールを乾かしてもいいですか？", acceptedAnswer: { "@type": "Answer", text: "高温になる乾燥機は、インソールの変形や接着剥がれの原因になるためおすすめしません。急いで乾かしたい場合は、タオルで水分をよく取ってから扇風機やサーキュレーターの風を当てるのが安全です。送風（低温）モードがある機器でも素材への影響は製品により異なるため、表示を確認してから使ってください。" } },
+    { "@type": "Question", name: "靴の中敷きが接着されていて取れない場合は、どう洗えばいいですか？", acceptedAnswer: { "@type": "Answer", text: "接着されている中敷きを無理にはがすと、中敷きや靴を傷めるため、はがさずに手入れします。固く絞った布で中敷きの表面を拭き、汚れが残る部分は薄めた中性洗剤を含ませた布でたたくように落としてから、洗剤が残らないよう水拭きします。その後は靴ごと風通しの良い日陰で乾かしてください。靴全体を水洗いできるかどうかは、靴の洗濯表示や取扱説明を確認してください。" } },
   ],
 };
 
@@ -364,6 +365,10 @@ export default function WashingGuidePage() {
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">靴用乾燥機や布団乾燥機でインソールを乾かしてもいいですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">高温になる乾燥機は、インソールの変形や接着剥がれの原因になるためおすすめしません。急いで乾かしたい場合は、タオルで水分をよく取ってから扇風機やサーキュレーターの風を当てるのが安全です。送風（低温）モードがある機器でも素材への影響は製品により異なるため、表示を確認してから使ってください。</div>
+            </details>
+            <details className="group bg-white border border-gray-200 rounded-lg">
+              <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">靴の中敷きが接着されていて取れない場合は、どう洗えばいいですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">接着されている中敷きを無理にはがすと、中敷きや靴を傷めるため、はがさずに手入れします。固く絞った布で中敷きの表面を拭き、汚れが残る部分は薄めた中性洗剤を含ませた布でたたくように落としてから、洗剤が残らないよう水拭きします。その後は靴ごと風通しの良い日陰で乾かしてください。靴全体を水洗いできるかどうかは、靴の洗濯表示や取扱説明を確認してください。</div>
             </details>
           </div>
         </section>
