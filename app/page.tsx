@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import OfficialCTA from "./components/OfficialCTA";
+import HeroSlides from "./components/HeroSlides";
 
 export const metadata: Metadata = {
   title: "ダイエットインソール比較｜人気3商品の口コミ・効果・最安値を比較【2026年】",
@@ -123,17 +124,9 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
-      {/* Hero：画像は左右を切らずに全幅で出す（width:100% / height:auto） */}
+      {/* Hero：画像は左右を切らずに全幅で出す。3枚を一定時間ごとに入れ替える */}
       <section className="relative">
-        <Image
-          src="/images/hero-walk.jpg"
-          alt=""
-          width={2000}
-          height={1334}
-          sizes="100vw"
-          priority
-          className="w-full h-auto block"
-        />
+        <HeroSlides />
         {/* 文字を読ませるための控えめな覆い */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/25 via-black/30 to-black/45" />
 
