@@ -31,7 +31,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-10-17",
+  dateModified: "2026-10-24",
 };
 
 const faqStructuredData = {
@@ -306,14 +306,14 @@ export default function PumpsInsolePage() {
           {/* Product 4 */}
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 4</span>
-            <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">コロンブス フットソリューション パンプス用</h3>
+            <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">コロンブス フットソリューション つま先コンフォート</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              日本のシューケア老舗ブランドが開発したパンプス専用インソールです。極薄のジェル素材で前足部をクッションし、つま先への圧力を軽減。透明タイプでサンダルやオープントゥのパンプスにも目立たず使用できるのが特徴です。
+              シューケア用品のコロンブスが販売する、女性用の透明ジェルパッドです。公式オンラインショップでは「靴の中で足が前にずれるのを防ぎます」「透明度が高く目立たないので靴のデザインを損ないません」と説明されています。表面はスベり止めのドット加工で、厚さは1mm・2mm・3mmの3種類。税込880円で、水洗いしてくり返し使えます（2026年10月24日に<a href="https://columbus-shop.com/item-detail/1052930" target="_blank" rel="noopener noreferrer" className="underline">コロンブス公式オンラインショップ</a>で確認）。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>極薄ジェル素材でつま先の痛みを軽減</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>透明タイプでオープンシューズにも使える</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>日本の老舗シューケアブランドの信頼性</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>ドット加工のジェルで足の前ズレを防ぐ</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>透明で靴の中で目立たない</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>厚さを1mm・2mm・3mmから選べる</span></li>
             </ul>
           </div>
 
