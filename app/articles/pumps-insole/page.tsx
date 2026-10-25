@@ -31,7 +31,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-10-24",
+  dateModified: "2026-10-25",
 };
 
 const faqStructuredData = {
@@ -322,12 +322,12 @@ export default function PumpsInsolePage() {
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 5</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ドクターショール パーティーフィート</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              フットケアの世界的ブランドが開発したパンプス・ヒール靴専用のジェルインソールです。独自のジェルテクノロジーが前足部の衝撃を吸収し、長時間のパーティーや立食イベントでも足の疲れを軽減します。粘着タイプでずれにくく、着脱も簡単です。
+              ドクター・ショールの、ヒール靴向けの透明ジェルインソールのシリーズです。日本の公式サイトでは「つらい部分に合わせて、選べる10種類のアイテム」として、前すべりストッパー・ジェルハーフ・インソール・かかと用クッションなどが並んでいます。公式の説明は「様々なヒール靴の履き心地をインソールの衝撃吸収作用によって改善」「裏面は粘着タイプ。靴の内側にしっかり密着して、歩行の衝撃でもズレにくく、よれたりしません」「透明・薄型タイプ」です（2026年10月25日に<a href="https://www.drscholl.jp/products/products_03/" target="_blank" rel="noopener noreferrer" className="underline">ドクター・ショール日本公式サイト</a>で確認）。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>独自ジェルテクノロジーで衝撃を効率吸収</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>粘着タイプでずれにくい</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界的フットケアブランドの安心感</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>ジェルの衝撃吸収でヒール靴の履き心地を改善（公式の説明）</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>裏面が粘着タイプでズレにくい</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>つらい部分に合わせて10種類から選べる</span></li>
             </ul>
           </div>
 
