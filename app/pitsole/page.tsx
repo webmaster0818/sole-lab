@@ -36,7 +36,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-10-14",
+  dateModified: "2026-10-26",
 };
 
 const faqStructuredData = {
@@ -56,7 +56,7 @@ const faqStructuredData = {
       name: "ピットソールの偽物を見分ける方法は？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "公式サイトまたは正規販売ルート（公式楽天・Amazon店舗）で購入するのが最も確実です。フリマアプリや非正規ショップでは偽物・使用済み品のリスクがあります。正規品にはBACCHUSのロゴと製品番号が記載されています。",
+        text: "メーカー（株式会社バッカス）の公式通販「BACCHUS ONLINE SHOP」か、楽天市場の公式店「BACCHUS ONLINE SHOP」で購入するのが確実です。公式通販のよくある質問には「転売または譲渡された商品の品質や安全性、賞味期限などは保証しておりません。」とあり、フリマアプリなどで買った転売品は品質の保証を受けられません。見た目で正規品を見分ける方法は、公式には案内されていません（2026年10月26日確認）。",
       },
     },
     {
@@ -64,7 +64,7 @@ const faqStructuredData = {
       name: "ピットソールの類似品と偽物はどう違いますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "偽物は正規品を装った偽造・転売品で、類似品は別ブランドの形状が似たインソール（100均・ワークマン・TENTIALなど）です。類似品は違法ではありませんが、ピットソールの臨床データに基づく設計や正規ルートのサポートは適用されません。比較検討する場合は、各製品が何を根拠にしているかを確認してから選ぶことをおすすめします。",
+        text: "偽物は正規品を装った商品、類似品は別ブランドの形が似たインソール（100均・ワークマン・TENTIALなど）です。類似品は違法ではありませんが、ピットソールとは別の商品で、公式通販のサポートも受けられません。比べる場合は、各製品の公式サイトで何を根拠にしているかを確認してから選んでください。",
       },
     },
     {
@@ -185,12 +185,12 @@ const faqs = [
   {
     question: "ピットソールの偽物を見分ける方法は？",
     answer:
-      "公式サイトまたは正規販売ルート（公式楽天・Amazon店舗）で購入するのが最も確実です。フリマアプリや非正規ショップでは偽物・使用済み品のリスクがあります。正規品にはBACCHUSのロゴと製品番号が記載されています。",
+      "メーカー（株式会社バッカス）の公式通販「BACCHUS ONLINE SHOP」か、楽天市場の公式店「BACCHUS ONLINE SHOP」で購入するのが確実です。公式通販のよくある質問には「転売または譲渡された商品の品質や安全性、賞味期限などは保証しておりません。」とあり、フリマアプリなどで買った転売品は品質の保証を受けられません。見た目で正規品を見分ける方法は、公式には案内されていません（2026年10月26日確認）。",
   },
   {
     question: "ピットソールの類似品と偽物はどう違いますか？",
     answer:
-      "偽物は正規品を装った偽造・転売品で、類似品は別ブランドの形状が似たインソール（100均・ワークマン・TENTIALなど）です。類似品は違法ではありませんが、ピットソールの臨床データに基づく設計や正規ルートのサポートは適用されません。比較検討する場合は、各製品が何を根拠にしているかを確認してから選ぶことをおすすめします。",
+      "偽物は正規品を装った商品、類似品は別ブランドの形が似たインソール（100均・ワークマン・TENTIALなど）です。類似品は違法ではありませんが、ピットソールとは別の商品で、公式通販のサポートも受けられません。比べる場合は、各製品の公式サイトで何を根拠にしているかを確認してから選んでください。",
   },
   {
     question: "サイズが合わない場合は交換できますか？",
@@ -884,13 +884,7 @@ export default function PitsolePage() {
                   <span className="text-green-500 mt-0.5 shrink-0">
                     &#10003;
                   </span>
-                  楽天市場のBACCHUS公式ショップ
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-500 mt-0.5 shrink-0">
-                    &#10003;
-                  </span>
-                  AmazonのBACCHUS公式出品
+                  楽天市場のBACCHUS ONLINE SHOP（公式店）
                 </li>
               </ul>
             </div>
@@ -921,26 +915,20 @@ export default function PitsolePage() {
             </div>
             <div className="card">
               <h3 className="text-sm font-bold text-gray-900 mb-3">
-                正規品チェックポイント
+                購入前の確認ポイント
               </h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
                   <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
-                  BACCHUSのロゴと製品番号の記載がある
+                  販売元が公式通販または楽天市場の公式店（BACCHUS ONLINE SHOP）である
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
-                  専用パッケージに封入されている
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">
-                    &#10003;
-                  </span>
-                  極端な値引きがされていない（定価の半額以下は要注意）
+                  公式は転売品の品質を保証していない（公式通販のよくある質問に記載）
                 </li>
               </ul>
             </div>

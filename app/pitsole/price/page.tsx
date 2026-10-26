@@ -28,7 +28,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-07-05",
+  dateModified: "2026-10-26",
 };
 
 const faqStructuredData = {
@@ -64,7 +64,7 @@ const faqStructuredData = {
       name: "ピットソールの偽物はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "メルカリなどのフリマアプリや非正規ショップでは偽物・使用済み品が出回っている可能性があります。正規品保証があるのは公式サイト、楽天公式ショップ、Amazon公式ストアのみです。",
+        text: "メルカリなどのフリマアプリや非正規ショップでは偽物・使用済み品が出回っている可能性があります。公式通販のよくある質問には「転売または譲渡された商品の品質や安全性、賞味期限などは保証しておりません。」とあるため、公式通販（BACCHUS ONLINE SHOP）か楽天市場の公式店で購入してください。",
       },
     },
     {
@@ -539,7 +539,7 @@ export default function PitsolePricePage() {
               <li className="flex items-start gap-2">
                 <span className="text-red-600 font-bold shrink-0">1.</span>
                 <span>
-                  <strong>偽物の可能性</strong> — 見た目が似ていても、世界特許の骨格補整構造が再現されていない模倣品が存在します。
+                  <strong>正規品かどうか分からない</strong> — 見た目で正規品を見分ける方法は、公式には案内されていません。
                 </span>
               </li>
               <li className="flex items-start gap-2">
@@ -557,15 +557,14 @@ export default function PitsolePricePage() {
               <li className="flex items-start gap-2">
                 <span className="text-red-600 font-bold shrink-0">4.</span>
                 <span>
-                  <strong>保証対象外</strong> — 正規販売ルート以外の購入はメーカー保証の対象外です。
+                  <strong>品質の保証なし</strong> — 公式通販のよくある質問には「転売または譲渡された商品の品質や安全性、賞味期限などは保証しておりません。」とあります（2026年10月26日確認）。
                 </span>
               </li>
             </ul>
           </div>
           <p className="text-gray-700 text-sm leading-relaxed">
             数百円〜千円程度の差額で偽物リスクを負うのは割に合いません。
-            <strong>必ず公式サイト・楽天公式ショップ・Amazon公式ストア</strong>から購入してください。
-            正規品にはBACCHUSのロゴと製品番号が記載されています。
+            <strong>公式通販（BACCHUS ONLINE SHOP）か楽天市場の公式店</strong>から購入してください。
           </p>
         </section>
 
