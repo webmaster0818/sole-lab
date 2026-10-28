@@ -220,7 +220,7 @@ export default function WalkingInsolePage() {
                 </span>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                世界特許取得のキュボイドサポートで3つのアーチを同時にサポート。筑波大学との共同研究で筋肉活動量の増加が科学的に実証済み。ウォーキング時の歩行効率を最も高められるインソールです。累計200万足突破の実績も信頼の証。
+                世界特許取得のキュボイドサポートで3つのアーチを同時にサポート。公式サイトに臨床試験の結果（被験者39名・3か月）を掲載。ウォーキング時の歩行効率を最も高められるインソールです。累計200万足突破の実績も信頼の証。
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4">
                 <div>

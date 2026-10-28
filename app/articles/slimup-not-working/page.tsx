@@ -558,7 +558,7 @@ export default function SlimupNotWorkingPage() {
                     {
                       item: "臨床データ",
                       slimup: "なし",
-                      pitsole: "筑波大学共同研究",
+                      pitsole: "公式に臨床試験の結果を掲載",
                       runway: "限定的",
                     },
                     {

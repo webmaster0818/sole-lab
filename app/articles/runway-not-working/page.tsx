@@ -561,7 +561,7 @@ export default function RunwayNotWorkingPage() {
                     {
                       item: "臨床データ",
                       runway: "限定的",
-                      pitsole: "筑波大学共同研究",
+                      pitsole: "公式に臨床試験の結果を掲載",
                       slimup: "なし",
                     },
                     {

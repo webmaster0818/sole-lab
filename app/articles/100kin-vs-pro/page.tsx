@@ -496,7 +496,7 @@ export default function HyakkinVsProPage() {
             高機能インソールのダイエット効果
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            高機能インソールは、設計段階からダイエット効果を意図して開発されています。ピットソールは臨床試験で体重減少・体脂肪率低下が確認されており、世界特許の3点サポート構造が歩行時の筋肉活動量を増加させます。
+            高機能インソールは、設計段階からダイエット効果を意図して開発されています。ピットソールは、公式サイトに臨床試験の結果（被験者39名・3か月）として「82% 脚部骨格筋上昇」「87% 体重減少」を掲載しています。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">

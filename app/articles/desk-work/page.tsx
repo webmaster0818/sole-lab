@@ -363,7 +363,7 @@ export default function DeskWorkPage() {
                 </h3>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                世界特許取得のキュボイドサポートにより、3つのアーチを同時にサポート。筑波大学との共同研究で筋肉活動量の増加が確認済み。少ない歩数でも効率的に姿勢改善と筋肉活性化が期待できるため、デスクワーカーに最もおすすめです。
+                世界特許取得のキュボイドサポートにより、3つのアーチを同時にサポート。公式サイトに臨床試験の結果（被験者39名・3か月）を掲載。少ない歩数でも効率的に姿勢改善と筋肉活性化が期待できるため、デスクワーカーに最もおすすめです。
               </p>
               <div className="flex items-center gap-4 text-sm">
                 <span className="text-gray-500">単品：6,578円</span>
