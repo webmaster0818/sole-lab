@@ -35,7 +35,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-16",
-  dateModified: "2026-07-19",
+  dateModified: "2026-10-29",
 };
 
 const faqs = [
@@ -510,7 +510,7 @@ export default function PitsoleMensPage() {
                 title: "体型変化期間",
                 changes: [
                   "ズボンのウエストにゆとりが出始める",
-                  "体重が1〜3kg減少（個人差あり）",
+                  "体重の変化（個人差あり）",
                   "下半身の引き締まりを実感",
                   "基礎代謝の向上による疲れにくさ",
                   "周囲から「姿勢が良くなった」と言われることも",
@@ -522,8 +522,7 @@ export default function PitsoleMensPage() {
                 title: "定着期間",
                 changes: [
                   "正しい姿勢・歩き方が習慣化される",
-                  "体重が3〜5kg減少（運動・食事管理併用時）",
-                  "体型の変化が写真で明確に分かる",
+                                    "体型の変化が写真で明確に分かる",
                   "腰痛や膝の痛みの軽減を実感する方も",
                   "健康診断の数値改善（メタボ改善等）",
                 ],

@@ -35,7 +35,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-28",
-  dateModified: "2026-07-05",
+  dateModified: "2026-10-29",
 };
 
 const faqs = [
@@ -462,50 +462,13 @@ export default function DeskWorkPage() {
         </div>
       </section>
 
-      {/* デスクワーカーの成功パターン */}
+      {/* デスクワーカーが避けるべきNG行動 */}
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            デスクワーカーのインソールダイエット成功パターン
-          </h2>
-          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
-            <p>
-              実際にデスクワーク中心の生活でインソールダイエットに成功した方の口コミを分析すると、いくつかの共通パターンが見えてきます。
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            <div className="bg-white rounded-xl p-5 border border-emerald-200">
-              <h3 className="font-bold text-emerald-700 mb-3">パターン1：通勤ウォーキング派</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">
-                自宅から最寄り駅、駅からオフィスの徒歩を合わせて往復40分（約4,000歩）。これに昼休みの散歩15分（約1,500歩）を加えて1日5,500歩を確保。3ヶ月で姿勢改善を実感し、5ヶ月目に体重-2kgを達成。
-              </p>
-            </div>
-            <div className="bg-white rounded-xl p-5 border border-emerald-200">
-              <h3 className="font-bold text-emerald-700 mb-3">パターン2：退勤後ウォーキング派</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">
-                通勤は車のため歩行量が少なかったが、退勤後に30分のウォーキングを日課に。インソール入りのスニーカーで約3,500歩。休日も含めて週6日の継続で4ヶ月目にボディラインの変化を実感。
-              </p>
-            </div>
-            <div className="bg-white rounded-xl p-5 border border-emerald-200">
-              <h3 className="font-bold text-emerald-700 mb-3">パターン3：スタンディングデスク併用派</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">
-                スタンディングデスクを導入し、1日2〜3時間は立って作業。インソール入りの靴を履いて立ち作業することで、座りっぱなしの時間を減らし、足裏からの姿勢改善も同時に実現。2ヶ月で腰痛改善、4ヶ月でウエスト-3cmを達成。
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-6 bg-amber-50 border border-amber-200 rounded-xl p-5">
-            <p className="text-sm text-gray-700 leading-relaxed">
-              <span className="font-bold text-[#c9a76c]">共通点：</span>
-              成功した方に共通しているのは、デスクワーク以外の時間で意識的に歩行量を確保していることです。インソールは「歩く時間を最大限活かすツール」として活用し、座っている時間には別のアプローチ（ストレッチ、着圧ソックス等）を併用しているのが特徴です。
-            </p>
-          </div>
-
-          <div className="mt-6 bg-white border border-gray-200 rounded-xl p-5">
-            <h3 className="text-base font-bold text-gray-900 mb-3">
+          <div className="bg-white border border-gray-200 rounded-xl p-5">
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
               デスクワーカーが避けるべきNG行動
-            </h3>
+            </h2>
             <ul className="space-y-3">
               {[
                 "インソールを入れたまま1日中座りっぱなしで効果を期待する",
