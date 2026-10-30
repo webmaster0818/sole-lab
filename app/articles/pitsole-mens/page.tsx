@@ -35,7 +35,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-16",
-  dateModified: "2026-10-29",
+  dateModified: "2026-10-30",
 };
 
 const faqs = [
@@ -522,9 +522,8 @@ export default function PitsoleMensPage() {
                 title: "定着期間",
                 changes: [
                   "正しい姿勢・歩き方が習慣化される",
-                                    "体型の変化が写真で明確に分かる",
+                  "体型の変化が写真で明確に分かる",
                   "腰痛や膝の痛みの軽減を実感する方も",
-                  "健康診断の数値改善（メタボ改善等）",
                 ],
                 color: "border-l-emerald-600",
               },
@@ -569,15 +568,11 @@ export default function PitsoleMensPage() {
             男性がピットソールを使うメリット
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               {
                 title: "ジム不要の「ながらダイエット」",
                 desc: "通勤や営業の移動時間がそのままダイエットタイムに変わります。ジムに通う時間や費用がかからず、日常の歩行を効率化するだけなので、忙しいビジネスマンにとって最も手軽なダイエット方法です。月額ジム代（8,000〜15,000円）と比べてもコストパフォーマンスは優秀です。",
-              },
-              {
-                title: "メタボ対策・健康管理",
-                desc: "30代以降の男性に多い内臓脂肪型肥満（メタボ）の予防・改善に役立ちます。歩行時の筋活動量を高めることで、日常的なカロリー消費を増やし、食事管理と組み合わせることで健康診断の数値改善も期待できます。特に中性脂肪や血糖値が気になる方に。",
               },
               {
                 title: "腰痛・膝痛の予防",
