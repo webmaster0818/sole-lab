@@ -27,11 +27,10 @@ const structuredData = {
     name: "イッティ",
   },
   offers: {
-    "@type": "AggregateOffer",
+    "@type": "Offer",
     priceCurrency: "JPY",
-    lowPrice: "5973",
-    highPrice: "6980",
-    offerCount: "3",
+    price: "6980",
+    url: "https://ichiban-boshi.com/shop/products/B_sui_s",
   },
 };
 
@@ -155,24 +154,6 @@ export default function SlimUpInsolePage() {
           }),
         }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "name": "スリムアップインソール",
-            "description": "美容整体師・井上剛志監修のダイエットインソール。骨格筋サポートで姿勢改善。",
-            "brand": { "@type": "Brand", "name": "スリムアップインソール" },
-            "offers": {
-              "@type": "Offer",
-              "price": "6980",
-              "priceCurrency": "JPY",
-              "availability": "https://schema.org/InStock"
-            }
-          }),
-        }}
-      />
 
       {/* Breadcrumb */}
       <Breadcrumb items={[{ label: "スリムアップインソール 口コミ・効果" }]} />
@@ -181,7 +162,7 @@ export default function SlimUpInsolePage() {
       <section className="bg-gradient-to-b from-emerald-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-emerald-600 font-semibold mb-3">
-            2026年4月最新版 ・ 整体師監修
+            2026年10月更新 ・ 整体師監修
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             スリムアップインソールの
