@@ -309,7 +309,7 @@ export default function MensDietInsolePage() {
                 </span>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                S（23.0〜24.5cm）/M（25.0〜26.5cm）の2サイズ展開で、26.5cmまでの男性に対応（公式サイトにて2026年7月確認）。美容整体師・井上剛志氏監修の骨格筋アプローチは男女共通で効果を発揮します。3足セット+1足プレゼントのコスパの良さも魅力。
+                S（23.0〜24.5cm）/M（25.0〜26.5cm）の2サイズ展開で、26.5cmまでの男性に対応（公式サイトにて2026年7月確認）。美容整体師・井上剛志氏の監修で、公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。3足セット+1足プレゼントのコスパの良さも魅力。
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4">
                 <div>

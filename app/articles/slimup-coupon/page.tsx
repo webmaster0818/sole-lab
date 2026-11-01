@@ -437,7 +437,7 @@ export default function SlimupCouponPage() {
               「スリムアップインソール ドラッグストア」「スリムアップインソール 薬局」で検索される方も多いですが、スリムアップインソールは<strong>市販されていません</strong>。オンライン専売の商品です。
             </p>
             <p>
-              ドラッグストアや100円ショップで販売されているインソールは別の商品です。見た目が似ていても、美容整体師・井上剛志氏監修の骨格筋サポート構造は正規品のみの設計です。
+              ドラッグストアや100円ショップで販売されているインソールは別の商品です。見た目が似ていても、美容整体師・井上剛志氏監修の3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）は正規品だけのものです。
             </p>
           </div>
 
@@ -541,7 +541,7 @@ export default function SlimupCouponPage() {
               },
               {
                 title: "運動用のシューズに1足",
-                desc: "ウォーキングやジム用のシューズに装着。運動時にも骨格筋サポートの効果を発揮。",
+                desc: "ウォーキングやジム用のシューズに装着。歩く時間の長い靴に入れると、公式の説明どおり歩き「ながら」で使えます。",
               },
               {
                 title: "予備として1足",
@@ -568,7 +568,7 @@ export default function SlimupCouponPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <Link href="/slim-up-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールの口コミ・効果を検証</p>
-              <p className="text-xs text-gray-500 mt-1">骨格筋サポート構造の仕組みから最安値情報まで詳しく解説</p>
+              <p className="text-xs text-gray-500 mt-1">3つの構造の仕組みから最安値情報まで詳しく解説</p>
             </Link>
             <Link href="/articles/slimup-not-working/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールは痩せない？口コミから検証</p>

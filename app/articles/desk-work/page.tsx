@@ -381,7 +381,7 @@ export default function DeskWorkPage() {
                 </h3>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                美容整体師監修の骨格筋アプローチ。サイズはS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズ展開（公式サイトにて2026年7月確認）。3足セット+1足プレゼントでコスパも良好。コスパ重視のデスクワーカーにおすすめです。
+                美容整体師の監修で、公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。サイズはS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズ展開（公式サイトにて2026年7月確認）。3足セット+1足プレゼントでコスパも良好。コスパ重視のデスクワーカーにおすすめです。
               </p>
               <div className="flex items-center gap-4 text-sm">
                 <span className="text-gray-500">単品：6,980円</span>

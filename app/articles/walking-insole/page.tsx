@@ -296,7 +296,7 @@ export default function WalkingInsolePage() {
                 </span>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                美容整体師・井上剛志氏監修の骨格筋アプローチ。サイズはS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズ展開（公式サイトにて2026年7月確認）。3足+1足プレゼントのセット割引でコスパ良好。ウォーキング用とランニング用で使い分けも可能。
+                美容整体師・井上剛志氏の監修で、公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。サイズはS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズ展開（公式サイトにて2026年7月確認）。3足+1足プレゼントのセット割引でコスパ良好。ウォーキング用とランニング用で使い分けも可能。
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4">
                 <div>

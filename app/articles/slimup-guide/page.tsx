@@ -654,7 +654,7 @@ export default function SlimupGuidePage() {
             井上剛志監修のアーチプッシュアップ構造とは
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            スリムアップインソールは、土踏まず部分を持ち上げる<strong>「アーチプッシュアップ」構造</strong>を採用しています。この構造により骨格筋をサポートし、正しい歩行姿勢へと導きます。
+            スリムアップインソールは、土踏まず部分を持ち上げる<strong>「アーチプッシュアップ」構造</strong>を採用しています。公式は「アーチを押し上げ血流対策！」「凹凸による刺激が指圧効果となり血行をよくします。」と説明しています（指圧代用器としての効果）。
           </p>
           <div className="bg-white rounded-lg p-4 border border-[#e8ded6]">
             <h4 className="font-bold text-[#6f543c] mb-2">サイズ選びの注意点</h4>

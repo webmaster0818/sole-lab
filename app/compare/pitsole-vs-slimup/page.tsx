@@ -429,7 +429,7 @@ export default function PitsoleVsSlimupPage() {
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-500 mt-0.5 shrink-0">&#9679;</span>
-                  美容整体師・井上剛志監修の「骨格筋サポート構造」
+                  美容整体師・井上剛志監修の「姿勢を整え足裏刺激し、美脚を目指す特殊構造」
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-500 mt-0.5 shrink-0">&#9679;</span>
@@ -596,7 +596,7 @@ export default function PitsoleVsSlimupPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
-                    骨格筋サポートに特化した立体構造
+                    足指・アーチ・3つの支点を支える3つの構造
                   </li>
                 </ul>
               </div>

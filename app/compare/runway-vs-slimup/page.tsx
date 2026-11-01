@@ -218,7 +218,7 @@ export default function RunwayVsSlimupPage() {
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">技術・設計</td>
                 <td className="px-4 py-3 text-center text-gray-600">3点アーチサポート</td>
-                <td className="px-4 py-3 text-center text-gray-600">骨格筋サポート構造</td>
+                <td className="px-4 py-3 text-center text-gray-600">3つの構造（足指・アーチ・3支点）</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">監修・権威性</td>
@@ -369,15 +369,15 @@ export default function RunwayVsSlimupPage() {
 
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5">
             <p className="text-sm font-bold text-emerald-600 mb-3">スリムアップインソール</p>
-            <h3 className="text-base font-bold text-gray-900 mb-3">骨格筋サポート構造</h3>
+            <h3 className="text-base font-bold text-gray-900 mb-3">姿勢を整え足裏刺激する3つの構造</h3>
             <p className="text-sm text-gray-600 leading-relaxed mb-3">
-              美容整体師・井上剛志氏の知見を活かし、骨格と筋肉の連動に着目した立体サポート構造を採用。
-              足裏から全身の骨格筋バランスを整えるアプローチが特徴です。
+              美容整体師・井上剛志氏の監修で、公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。
+              構造はフリーフィンガーサポート・アーチプッシュアップ・スリーアップバランスの3つです。
             </p>
             <ul className="space-y-1.5 text-sm text-gray-600">
               <li className="flex items-start gap-2">
                 <span className="text-emerald-600 mt-0.5 shrink-0">&#10003;</span>
-                骨格筋に着目した独自設計
+                拇趾球・小趾球・踵骨の3つの支点を高める構造
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-emerald-600 mt-0.5 shrink-0">&#10003;</span>
@@ -394,7 +394,7 @@ export default function RunwayVsSlimupPage() {
         <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
           <p>
             技術面での最大の違いは、ランウェイキュアソールが<strong>足裏アーチの形状補正</strong>から姿勢を改善するのに対し、
-            スリムアップインソールは<strong>骨格筋全体のバランス調整</strong>というアプローチをとっている点です。
+            スリムアップインソールは<strong>足指・アーチ・3つの支点で重心を整える</strong>というアプローチをとっている点です。
           </p>
           <p>
             実用面では、スリムアップインソールの抗菌防臭機能と水洗い対応が大きなアドバンテージです。
@@ -607,7 +607,7 @@ export default function RunwayVsSlimupPage() {
               </ul>
               <p className="mt-4 text-xs text-gray-500 leading-relaxed">
                 YouTube登録者約136万人を誇る美容整体師が監修しており、専門家のお墨付きという点で信頼性が高い傾向があります。
-                骨格筋へのアプローチは整体の知見が活かされた設計といえます。
+                公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。
               </p>
             </div>
           </div>
@@ -773,7 +773,7 @@ export default function RunwayVsSlimupPage() {
           </p>
           <p>
             <strong>スリムアップインソール</strong>は、YouTube登録者約136万人の美容整体師・井上剛志氏が監修。
-            骨格筋サポート構造と抗菌防臭機能を搭載した機能派インソールです。
+            3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）と抗菌防臭加工を備えたインソールです。
             S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開で、最大26.5cmまで対応します（公式サイトにて2026年7月確認）。
             単品6,980円、3足セットは17,920円で+1足無料と、まとめ買い特典も充実しています。
           </p>
@@ -866,7 +866,7 @@ export default function RunwayVsSlimupPage() {
               スリムアップインソールの口コミ・効果を検証
             </p>
             <p className="text-xs text-gray-500">
-              整体師監修の骨格筋サポートインソールの実力
+              整体師監修のスリムアップインソールの実力
             </p>
           </Link>
           <Link

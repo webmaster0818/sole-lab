@@ -377,7 +377,7 @@ export default function RankingPage() {
               これは足の骨格を正しい位置に導く独自構造で、特許として認められた技術です。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed">
-              また、ランウェイキュアソールは足裏3点アーチサポート構造、スリムアップインソールは美容整体師の知見に基づく骨格筋サポート設計と、
+              また、ランウェイキュアソールは足裏3点アーチサポート構造、スリムアップインソールは美容整体師監修の「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と、
               それぞれ異なるアプローチで足裏からの姿勢改善を目指しています。
             </p>
           </div>
@@ -745,7 +745,7 @@ export default function RankingPage() {
 
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
                 YouTube登録者数136万人を誇る美容整体師・井上剛志氏が監修したダイエットインソールです。
-                骨格筋サポートをコンセプトに、足裏から体全体の骨格バランスを整える設計。
+                公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しており、3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）を備えます。
                 抗菌防臭機能も備えており、毎日の使用でも清潔に保てます。
                 3足セットなら17,920円で+1足無料と、まとめ買いでのコスパも良好です。
               </p>
@@ -766,7 +766,7 @@ export default function RankingPage() {
                       <span className="text-green-500 mt-0.5 shrink-0">
                         &#9675;
                       </span>
-                      骨格筋に着目した独自の設計思想
+                      足指・アーチ・3つの支点をそれぞれ支える3つの構造
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-green-500 mt-0.5 shrink-0">
@@ -1053,7 +1053,7 @@ export default function RankingPage() {
                   スリムアップインソール
                 </p>
                 <p className="text-sm text-gray-600">
-                  美容整体師・井上剛志氏（YouTube登録者136万人）の監修による骨格筋サポート設計。整体の知見を活かした足裏アプローチが特徴です。さらに抗菌防臭機能を搭載しています。
+                  美容整体師・井上剛志氏（YouTube登録者136万人）の監修で、公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。さらに抗菌防臭機能を搭載しています。
                 </p>
               </div>
             </div>
@@ -1313,7 +1313,7 @@ export default function RankingPage() {
                 スリムアップインソール
               </p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                YouTube登録者136万人の美容整体師・井上剛志氏が監修。骨格筋に着目した専門的なアプローチで、
+                YouTube登録者136万人の美容整体師・井上剛志氏が監修。「姿勢を整え足裏刺激し、美脚を目指す特殊構造」で、
                 抗菌防臭機能も備えた実用的なインソールです。
               </p>
               <Link

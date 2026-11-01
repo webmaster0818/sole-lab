@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "スリムアップインソールを履くだけで痩せますか？",
     answer:
-      "スリムアップインソールを履くだけで劇的に痩せることはありません。骨格筋サポート構造により正しい姿勢と歩行を促し、日常生活の中での筋肉活動量を増やすサポートアイテムです。毎日の歩行と組み合わせることで効率的なカロリー消費が期待できます。",
+      "スリムアップインソールを履くだけで劇的に痩せることはありません。公式は「履いて歩き続けることで下半身痩せを目指せる」インソールと説明しており、毎日歩くことが前提です。",
   },
   {
     question: "スリムアップインソールの効果はいつから実感できますか？",
@@ -57,7 +57,7 @@ const faqs = [
   {
     question: "スリムアップインソールとピットソール、どちらが効果がありますか？",
     answer:
-      "ピットソールは世界特許技術と臨床試験データがあり、エビデンスの強さではピットソールが優れています。一方、スリムアップインソールは美容整体師監修の骨格筋アプローチが特徴で、価格もセット購入時にお手頃です。コスパ重視ならスリムアップインソール、エビデンス重視ならピットソールがおすすめです。",
+      "ピットソールは世界特許技術と臨床試験データがあり、エビデンスの強さではピットソールが優れています。一方、スリムアップインソールは美容整体師監修の3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）が特徴で、価格もセット購入時にお手頃です。コスパ重視ならスリムアップインソール、エビデンス重視ならピットソールがおすすめです。",
   },
   {
     question: "スリムアップインソールの口コミは信頼できますか？",
@@ -173,7 +173,7 @@ export default function SlimupNotWorkingPage() {
               「スリムアップインソール 痩せない」で検索すると、口コミを並べただけの記事が多く見つかります。しかし、なぜ痩せないのか、どうすれば効果が出るのかまで踏み込んだ記事は少ないのが現状です。
             </p>
             <p>
-              この記事では、<strong>美容整体師・井上剛志氏監修の骨格筋アプローチの仕組み</strong>を踏まえた上で、<strong>痩せない原因の構造的な分析</strong>と<strong>効果を最大化するための具体的なアドバイス</strong>をお伝えします。
+              この記事では、<strong>美容整体師・井上剛志氏監修の3つの構造の仕組み</strong>を踏まえた上で、<strong>痩せない原因の構造的な分析</strong>と<strong>効果を最大化するための具体的なアドバイス</strong>をお伝えします。
             </p>
           </div>
         </div>
@@ -194,10 +194,10 @@ export default function SlimupNotWorkingPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <h3 className="text-base font-bold text-gray-900 mb-2">
-                骨格筋サポート構造
+                3つの構造
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                美容整体師・井上剛志氏監修の独自設計。足裏から骨格筋にアプローチし、正しい姿勢を促すことで普段使われにくい筋肉を活性化させます。一般的なクッション系インソールとは設計思想が異なります。
+                美容整体師・井上剛志氏の監修。公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明し、3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）を挙げています。
               </p>
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
@@ -221,7 +221,7 @@ export default function SlimupNotWorkingPage() {
           <div className="mt-6 bg-amber-50 border border-amber-200 rounded-xl p-5">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-[#c9a76c]">重要：</span>
-              スリムアップインソールは「履くだけで脂肪が燃える」商品ではありません。骨格筋にアプローチし、日常の歩行における筋肉の使い方を改善するサポートツールです。毎日歩くことが前提の設計である点を理解しておいてください。
+              スリムアップインソールは「履くだけで脂肪が燃える」商品ではありません。公式も「履いて歩き続けることで下半身痩せを目指せる」と説明しているとおり、歩くことで使う商品です。毎日歩くことが前提の設計である点を理解しておいてください。
             </p>
           </div>
         </div>
@@ -250,7 +250,7 @@ export default function SlimupNotWorkingPage() {
                     使用期間が短すぎる
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                    「2週間使ったけど全く変化なし」「1ヶ月経っても体重が変わらない」という口コミが目立ちます。しかし、体の変化には時間がかかります。特に骨格筋アプローチは、まず姿勢が改善され、次に歩行フォームが変わり、その結果として筋肉の使い方が変わる段階的なプロセスです。
+                    「2週間使ったけど全く変化なし」「1ヶ月経っても体重が変わらない」という口コミが目立ちます。しかし、体の変化には時間がかかります。特に姿勢を整えるタイプのインソールは、まず姿勢が改善され、次に歩行フォームが変わり、その結果として筋肉の使い方が変わる段階的なプロセスです。
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
@@ -272,7 +272,7 @@ export default function SlimupNotWorkingPage() {
                     歩行量が不足している
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                    スリムアップインソールの効果は「歩く」ことで発揮されます。デスクワーク中心で1日3,000歩未満の方が、インソールだけに頼っても十分な効果は得られません。骨格筋サポートは歩行動作を通じて作用するため、歩行量が少ないと効果も限定的です。
+                    スリムアップインソールの効果は「歩く」ことで発揮されます。デスクワーク中心で1日3,000歩未満の方が、インソールだけに頼っても十分な効果は得られません。公式も歩き「ながら」で使う商品と説明しているため、歩行量が少ないと効果も限定的です。
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
@@ -294,7 +294,7 @@ export default function SlimupNotWorkingPage() {
                     サイズが合っていない
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                    スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。足の実寸に合わないサイズを選ぶと、骨格筋サポートのポイントが足裏の正しい位置に当たらず、効果が大幅に低下します。
+                    スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。足の実寸に合わないサイズを選ぶと、拇趾球・小趾球・踵骨の3つの支点を支える位置が足裏に合わず、効果が大幅に低下します。
                   </p>
                   <div className="bg-red-50 border border-red-100 rounded-lg p-4">
                     <p className="text-sm text-gray-700">
@@ -377,7 +377,7 @@ export default function SlimupNotWorkingPage() {
               結論
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              スリムアップインソールは「魔法のダイエットアイテム」ではなく「骨格筋にアプローチして歩行効率を高めるサポートツール」です。美容整体師監修の骨格筋アプローチは理にかなった設計ですが、効果を発揮するには毎日の歩行と2〜3ヶ月の継続が不可欠です。
+              スリムアップインソールは「魔法のダイエットアイテム」ではなく「歩きながら姿勢を整えるためのサポートツール」です。美容整体師監修の3つの構造を備えていますが、効果を発揮するには毎日の歩行と2〜3ヶ月の継続が不可欠です。
             </p>
           </div>
         </div>
@@ -602,7 +602,7 @@ export default function SlimupNotWorkingPage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-6">
             <p>
-              スリムアップインソールの最大の強みは、美容整体師監修による骨格筋アプローチとセット購入時のコスパです。エビデンスではピットソールに劣りますが、S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式で最大26.5cmまで対応しています（公式サイトにて2026年7月確認）。
+              スリムアップインソールの最大の強みは、美容整体師監修の3つの構造です。エビデンスではピットソールに劣りますが、S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式で最大26.5cmまで対応しています（公式サイトにて2026年7月確認）。
             </p>
             <p>
               どの製品を選んでも「毎日使って歩く」ことが最も重要です。3商品の詳細比較はランキングページをご参照ください。
@@ -665,7 +665,7 @@ export default function SlimupNotWorkingPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <Link href="/slim-up-insole/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールの口コミ・効果を検証</p>
-              <p className="text-xs text-gray-500 mt-1">骨格筋サポート構造の仕組みから最安値情報まで詳しく解説</p>
+              <p className="text-xs text-gray-500 mt-1">3つの構造の仕組みから最安値情報まで詳しく解説</p>
             </Link>
             <Link href="/articles/slimup-coupon/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">スリムアップインソールの最安値・キャンペーン情報</p>
@@ -719,13 +719,13 @@ export default function SlimupNotWorkingPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              「スリムアップインソール 痩せない」という口コミの多くは、使用期間の不足、歩行量の不足、サイズ選びの不適切さに起因しています。スリムアップインソール自体は美容整体師監修の骨格筋アプローチという独自の設計思想に基づいた、理にかなったインソールです。
+              「スリムアップインソール 痩せない」という口コミの多くは、使用期間の不足、歩行量の不足、サイズ選びの不適切さに起因しています。スリムアップインソール自体は美容整体師監修の3つの構造を備えた、理にかなったインソールです。
             </p>
             <p>
               効果を出すためのポイントは3つ。毎日装着して1日5,000歩以上歩くこと、最低3ヶ月は継続すること、足の実寸に合ったサイズ（S：23.0〜24.5cm／M：25.0〜26.5cm）を選ぶこと。この3つを実践すれば、姿勢改善から始まり、段階的に体型の変化を実感できる可能性があります。
             </p>
             <p>
-              セット購入時のコスパの良さと、S/Mの2サイズから実寸で選べるシンプルなサイズ体系（公式サイトにて2026年7月確認）は、スリムアップインソールの特徴です。正しく使って、骨格筋サポートの効果を最大限に引き出してください。
+              セット購入時のコスパの良さと、S/Mの2サイズから実寸で選べるシンプルなサイズ体系（公式サイトにて2026年7月確認）は、スリムアップインソールの特徴です。サイズを合わせ、毎日歩く靴で続けてください。
             </p>
           </div>
 
