@@ -4,13 +4,13 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "インソール(中敷き)の洗い方・洗濯方法ガイド｜洗う頻度・乾かし方・寿命を延ばすコツ",
+  title: "靴の中敷き（インソール）の洗い方｜洗濯機はNG？手洗い手順・乾かし方・洗う頻度",
   description:
-    "インソール(中敷き)の正しい洗い方・洗濯方法を解説。洗う頻度の目安、洗濯機NGの理由、素材別の洗浄方法・乾かし方まで。ピットソール・ランウェイキュアソール・スリムアップインソールのお手入れも紹介。",
+    "靴の中敷き（インソール）は、ぬるま湯と中性洗剤で手洗いし、日陰で陰干しするのが基本です。洗濯機・乾燥機を避ける理由、素材別（EVA・ジェル・革）の洗い方、洗う頻度の目安、取れない臭いの対処まで解説します。",
   alternates: { canonical: "https://sole-laboratory.com/articles/washing-guide/" },
   openGraph: { images: ["/og-default.png"],
-    title: "インソール(中敷き)の洗い方・洗濯方法ガイド｜洗う頻度・乾かし方・寿命を延ばすコツ",
-    description: "インソール(中敷き)の正しい洗い方・洗濯方法を解説。洗う頻度・乾かし方・寿命を延ばすコツを紹介。",
+    title: "靴の中敷き（インソール）の洗い方｜洗濯機はNG？手洗い手順・乾かし方・洗う頻度",
+    description: "靴の中敷き（インソール）は、ぬるま湯と中性洗剤で手洗いし、日陰で陰干しするのが基本です。洗濯機・乾燥機を避ける理由、素材別（EVA・ジェル・革）の洗い方、洗う頻度の目安、取れない臭いの対処まで解説します。",
     url: "https://sole-laboratory.com/articles/washing-guide/",
     type: "article",
   },
@@ -19,12 +19,12 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "インソール(中敷き)の洗い方・洗濯方法ガイド｜洗う頻度・乾かし方・寿命を延ばすコツ",
-  description: "インソール(中敷き)の正しい洗い方・洗濯方法を解説。洗う頻度・乾かし方・寿命を延ばすコツを紹介。",
+  headline: "靴の中敷き（インソール）の洗い方｜洗濯機はNG？手洗い手順・乾かし方・洗う頻度",
+  description: "靴の中敷き（インソール）は、ぬるま湯と中性洗剤で手洗いし、日陰で陰干しするのが基本です。洗濯機・乾燥機を避ける理由、素材別（EVA・ジェル・革）の洗い方、洗う頻度の目安、取れない臭いの対処まで解説します。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
-  dateModified: "2026-10-22",
+  dateModified: "2026-11-01",
 };
 
 const faqStructuredData = {
@@ -65,9 +65,9 @@ export default function WashingGuidePage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">お手入れガイド</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            インソール(中敷き)の洗い方・
+            靴の中敷き（インソール）の
             <br className="md:hidden" />
-            <span className="text-[#8a6a4f]">洗濯方法ガイド</span>
+            <span className="text-[#8a6a4f]">洗い方・洗濯方法</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             正しい洗い方と日々のケアでインソールの寿命を延ばし、清潔に長く使い続ける方法を
@@ -80,7 +80,7 @@ export default function WashingGuidePage() {
       {/* 結論先出し（直答） */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
         <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
-          <p className="font-bold text-gray-900 mb-1">結論：インソールの洗い方の基本</p>
+          <p className="font-bold text-gray-900 mb-1">中敷き（インソール）の洗い方の基本</p>
           <p>基本は<strong>ぬるま湯＋中性洗剤でやさしく手洗い→よくすすいで→風通しの良い日陰で陰干し</strong>です。水洗いの可否は素材で異なり、EVA・ポリウレタン・ジェルは水洗いOK、革（レザー）は水洗いNG（拭き取り）。<strong>洗濯機・ドライヤー・直射日光・漂白剤は変形や劣化の原因になるため避ける</strong>のが基本です。</p>
         </div>
       </div>
