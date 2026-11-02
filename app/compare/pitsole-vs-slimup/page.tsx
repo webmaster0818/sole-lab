@@ -93,7 +93,7 @@ const comparisonItems = [
     label: "技術・特許",
     pitsole: "BMZ社 世界特許取得",
     slimup: "整体師監修（井上剛志）",
-    winner: "pitsole" as const,
+    winner: "draw" as const,
   },
   {
     label: "サイズ展開",
@@ -503,7 +503,7 @@ export default function PitsoleVsSlimupPage() {
             ))}
           </div>
           <p className="text-xs text-gray-500 mt-4">
-            ※ &#9733;は該当項目で優位な方を示しています。「引き分け」の項目は強調なしで表示。
+            ※ &#9733;は、左右の記載を比べて金額・サイズ範囲・有無がはっきり違う項目にだけ付けています。どちらが良いかが数値や有無で決まらない項目は「引き分け」として強調なしで表示しています。
           </p>
         </div>
       </section>

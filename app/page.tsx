@@ -20,6 +20,8 @@ const products = [
     tagline: "特許取得の骨格矯正インソール",
     price: "1,771円〜/月",
     points: ["世界特許取得の独自構造", "累計販売数200万足突破（2025年4月時点・公式発表）", "骨格から姿勢をサポート"],
+    review: "総合3.98（451件）／4.11（679件）",
+    reviewNote: "BACCHUS ONLINE SHOP・2026年10月14日参照",
     href: "/pitsole/",
     accent: "#8a6a4f",
     badge: "人気No.1",
@@ -31,6 +33,8 @@ const products = [
     tagline: "美姿勢サポートインソール",
     price: "1,650円〜/月",
     points: ["3つのアーチをサポート", "美姿勢で歩行をサポート", "薄型で靴を選ばない"],
+    review: "総合3.98（865件）",
+    reviewNote: "FLORe公式ショップ 楽天市場店・2026年10月14日参照",
     href: "/runway-cure-sole/",
     accent: "#c9a76c",
     badge: "美姿勢",
@@ -42,6 +46,8 @@ const products = [
     tagline: "コスパ重視のダイエットインソール",
     price: "1,100円〜/月",
     points: ["手頃な価格設定", "初めての方におすすめ", "シンプルな設計で使いやすい"],
+    review: "総合3.6（5件）",
+    reviewNote: "イッティ公式 楽天市場店（単品）・2026年10月14日参照",
     href: "/slim-up-insole/",
     accent: "#a67a56",
     badge: "コスパ◎",
@@ -213,6 +219,17 @@ export default function Home() {
                   {products.map((product) => (
                     <td key={product.name} className="border-b border-l border-[#e8ded6] px-3 py-2 text-sm text-[#3d2b2f]">
                       {product.price}
+                    </td>
+                  ))}
+                </tr>
+                <tr>
+                  <th className="border-b border-[#e8ded6] bg-[#faf7f3] px-3 py-2 align-top text-xs font-medium text-[#6b5b5e]">
+                    楽天公式店のレビュー
+                  </th>
+                  {products.map((product) => (
+                    <td key={product.name} className="border-b border-l border-[#e8ded6] px-3 py-2 text-sm text-[#3d2b2f]">
+                      {product.review}
+                      <span className="block text-xs text-[#8a7566]">{product.reviewNote}</span>
                     </td>
                   ))}
                 </tr>

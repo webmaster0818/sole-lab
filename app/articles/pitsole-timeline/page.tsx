@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "ピットソールの効果はいつから？期間別ビフォーアフター検証",
   description:
-    "ピットソールの効果はいつから実感できる？1週間・1ヶ月・3ヶ月・半年の期間別変化タイムラインを検証。臨床試験データと口コミから、効果が出るまでの期間と効果を早める方法を解説。",
+    "ピットソールの効果はいつから？公式の臨床試験（3か月・被験者39名）と楽天公式店のレビューをもとに、期間別の整理と使い方のポイントを出典つきで解説します。",
   openGraph: { images: ["/og-default.png"],
     title:
       "ピットソールの効果はいつから？期間別ビフォーアフター検証｜ソールラボ",
     description:
-      "ピットソールの効果はいつから？1週間〜半年の期間別タイムラインを臨床データと口コミで検証。",
+      "ピットソールの効果はいつから？公式の臨床試験と楽天公式店のレビューをもとに期間別に整理。",
     url: "https://sole-laboratory.com/articles/pitsole-timeline/",
     type: "article",
   },
@@ -26,7 +26,7 @@ const structuredData = {
   headline:
     "ピットソールの効果はいつから？期間別ビフォーアフター検証",
   description:
-    "ピットソールの効果はいつから実感できる？期間別変化タイムラインを臨床データと口コミで検証。",
+    "ピットソールの効果はいつから？公式の臨床試験と楽天公式店のレビューをもとに期間別に整理。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -56,7 +56,7 @@ const faqs = [
   {
     question: "ピットソールの効果は年齢によって変わりますか？",
     answer:
-      "基礎代謝は年齢とともに低下するため、若い方のほうが体重変化は出やすい傾向があります。ただし、姿勢改善や歩行フォームの改善効果は年齢に関係なく期待できます。50代以上の方でも、継続使用で体型変化を実感している口コミは多数あります。",
+      "基礎代謝は年齢とともに低下するため、若い方のほうが体重変化は出やすい傾向があります。ただし、姿勢改善や歩行フォームの改善効果は年齢に関係なく期待できます。年齢別の結果を示した公表データは確認できていません。",
   },
   {
     question: "ピットソールの効果が出ない場合、他に何をすればいいですか？",
@@ -141,7 +141,7 @@ export default function PitsoleTimelinePage() {
             期間別ビフォーアフター検証
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            ピットソールを使い始めたらいつ頃から効果を実感できるのか？多くの競合サイトでは個人の体験談1例だけで語られていますが、この記事では期間別（1週間〜半年）の変化タイムラインを臨床試験データと多数の口コミから総合的に検証します。
+            ピットソールを使い始めたらいつ頃から効果を実感できるのか？多くの競合サイトでは個人の体験談1例だけで語られていますが、この記事では、公式サイトに掲載された臨床試験のデータと楽天公式店のレビューをもとに、期間別に整理します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-[#f3ece4] text-[#6f543c] px-3 py-1 rounded-full font-medium">
@@ -168,7 +168,7 @@ export default function PitsoleTimelinePage() {
               「ピットソール 効果いつから」「ピットソール ビフォーアフター」で検索すると、個人ブログの体験談が多数ヒットします。しかし、1人の体験だけでは自分にも同じ結果が出るのか判断できません。
             </p>
             <p>
-              この記事では、<strong>臨床試験のデータ</strong>、<strong>SNS・口コミサイトの多数の投稿</strong>、<strong>メーカー公表の情報</strong>を総合し、期間別に「何が起きるのか」を体系的にまとめました。個人の感想ではなく、多くのユーザーに共通する変化のパターンとして参考にしていただけます。
+              この記事では、<strong>公式サイトに掲載された臨床試験のデータ</strong>（週5日以上・3か月装着／被験者39名）と、<strong>楽天市場の公式店に投稿された商品レビュー</strong>（出典と参照日を各所に明記）をもとに、期間別に整理しました。なお公式の臨床試験は3か月時点の結果のみで、それより短い期間を裏づける公表データはありません。1週間・2週間・1か月の区切りは、使い始めの流れを把握しやすくするための当サイトの整理で、測定値ではありません。
             </p>
           </div>
         </div>
@@ -191,9 +191,6 @@ export default function PitsoleTimelinePage() {
                     <th className="py-3 text-left text-gray-500 font-medium">
                       主な変化
                     </th>
-                    <th className="py-3 text-left text-gray-500 font-medium min-w-[100px]">
-                      実感度
-                    </th>
                   </tr>
                 </thead>
                 <tbody>
@@ -201,37 +198,30 @@ export default function PitsoleTimelinePage() {
                     {
                       period: "1〜3日",
                       change: "足裏への刺激・違和感を感じる",
-                      level: "感覚のみ",
                     },
                     {
                       period: "1週間",
                       change: "足裏の感覚変化・軽い筋肉痛",
-                      level: "★☆☆☆☆",
                     },
                     {
                       period: "2週間",
                       change: "歩き方の変化・足の疲れ軽減",
-                      level: "★★☆☆☆",
                     },
                     {
                       period: "1ヶ月",
                       change: "姿勢改善・歩行フォーム安定",
-                      level: "★★★☆☆",
                     },
                     {
                       period: "2ヶ月",
                       change: "下半身の引き締まり・体重変化の兆し",
-                      level: "★★★☆☆",
                     },
                     {
                       period: "3ヶ月",
                       change: "体型変化・体重の変化",
-                      level: "★★★★☆",
                     },
                     {
                       period: "半年",
                       change: "トータルの体型改善・習慣化",
-                      level: "★★★★★",
                     },
                   ].map((row) => (
                     <tr key={row.period} className="border-b border-gray-100">
@@ -239,16 +229,13 @@ export default function PitsoleTimelinePage() {
                         {row.period}
                       </td>
                       <td className="py-3 text-gray-600">{row.change}</td>
-                      <td className="py-3 text-[#8a6a4f] font-medium">
-                        {row.level}
-                      </td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 毎日装着・1日6,000歩以上歩行した場合の目安です。個人差があります。
+              ※ 毎日装着・1日6,000歩以上歩行した場合の目安です。個人差があります。公式の臨床試験は3か月装着時点の結果で、期間ごとの変化を測定したデータではありません。
             </p>
           </div>
         </div>

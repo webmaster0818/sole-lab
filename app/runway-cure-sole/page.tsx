@@ -153,22 +153,6 @@ const REVIEW_SOURCE = {
   breakdown: "★5：233件／★4：435件／★3：160件／★2：19件／★1：18件",
 };
 
-function StarRating({ rating }: { rating: number }) {
-  return (
-    <div className="flex gap-0.5" aria-label={`${rating}点（5点満点）`}>
-      {[1, 2, 3, 4, 5].map((star) => (
-        <svg
-          key={star}
-          className={`w-4 h-4 ${star <= rating ? "text-yellow-400" : "text-gray-200"}`}
-          fill="currentColor"
-          viewBox="0 0 20 20"
-        >
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-        </svg>
-      ))}
-    </div>
-  );
-}
 
 export default function RunwayCureSolePage() {
   return (
@@ -329,36 +313,16 @@ export default function RunwayCureSolePage() {
         </h2>
 
         <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-6 mb-6">
-          <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8">
-            <div className="text-center md:text-left">
-              <p className="text-sm text-gray-500 mb-1">総合評価（編集部評価）</p>
-              <div className="flex items-center gap-2 justify-center md:justify-start">
-                <span className="text-3xl font-bold text-[#8a6a4f]">4.1</span>
-                <span className="text-sm text-gray-500">/ 5.0</span>
-              </div>
-              <StarRating rating={4} />
-            </div>
-            <div className="flex-1 grid grid-cols-2 gap-3 text-sm">
-              <div className="flex justify-between items-center bg-white rounded-lg px-3 py-2">
-                <span className="text-gray-600">姿勢サポート力</span>
-                <span className="font-bold text-[#8a6a4f]">4.5</span>
-              </div>
-              <div className="flex justify-between items-center bg-white rounded-lg px-3 py-2">
-                <span className="text-gray-600">履き心地</span>
-                <span className="font-bold text-[#8a6a4f]">4.0</span>
-              </div>
-              <div className="flex justify-between items-center bg-white rounded-lg px-3 py-2">
-                <span className="text-gray-600">コスパ</span>
-                <span className="font-bold text-[#8a6a4f]">3.5</span>
-              </div>
-              <div className="flex justify-between items-center bg-white rounded-lg px-3 py-2">
-                <span className="text-gray-600">サイズ展開</span>
-                <span className="font-bold text-[#8a6a4f]">3.0</span>
-              </div>
-            </div>
+          <p className="text-sm text-gray-500 mb-1">楽天公式店の商品レビュー</p>
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-3xl font-bold text-[#8a6a4f]">{REVIEW_SOURCE.rating}</span>
+            <span className="text-sm text-gray-500">/ 5.0（{REVIEW_SOURCE.count}件）</span>
           </div>
+          <p className="text-xs text-gray-600 leading-relaxed">
+            内訳 {REVIEW_SOURCE.breakdown}。出典：<a href={REVIEW_SOURCE.url} target="_blank" rel="noopener noreferrer" className="text-[#8a6a4f] underline">{REVIEW_SOURCE.name}</a>（{REVIEW_SOURCE.refDate}）。
+            当サイトは商品を使用しておらず、点数での評価は行っていません。掲載しているのは公式サイトの記載と、出典を示せるレビューの実数のみです。
+          </p>
         </div>
-
         <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
           <p>
             <strong>Runway Cure Sole（ランウェイキュアソール）</strong>は、FLOReショップが販売する美姿勢サポートインソールです。
@@ -1068,15 +1032,11 @@ export default function RunwayCureSolePage() {
 
           <div className="mt-8 bg-white border border-[#e8ded6] rounded-xl p-5 md:p-6 text-center">
             <p className="text-sm font-bold text-gray-900 mb-2">
-              ランウェイキュアソールの評価まとめ
+              ランウェイキュアソールのまとめ
             </p>
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <StarRating rating={4} />
-              <span className="text-lg font-bold text-[#8a6a4f]">4.1</span>
-              <span className="text-sm text-gray-500">/ 5.0</span>
-            </div>
-            <p className="text-xs text-gray-500 mb-4">
-              美姿勢サポート力と手軽さが魅力。サイズ展開の少なさが惜しい。
+            <p className="text-xs text-gray-600 mb-4 leading-relaxed">
+              楽天公式店の商品レビューは{REVIEW_SOURCE.rating}／5.0（{REVIEW_SOURCE.count}件・{REVIEW_SOURCE.refDate}）。
+              サイズ展開はM・Lの2サイズで、公式サイトに外反母趾の方への注意書きがあります。当サイトは商品を使用しておらず、点数での評価は行っていません。
             </p>
             <Link href="/ranking/" className="btn-cta text-sm md:text-base">
               他のインソールと比較する

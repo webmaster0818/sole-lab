@@ -100,18 +100,17 @@ export default function WithTrainingPage() {
               <thead>
                 <tr className="bg-[#faf7f3] text-gray-900">
                   <th className="p-3 text-left border-b border-gray-200">商品</th>
-                  <th className="p-3 text-left border-b border-gray-200">評価</th>
+                  
                   <th className="p-3 text-left border-b border-gray-200">特徴</th>
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">★3.8</td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">★3.6</td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">★3.5</td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500">※評価はユーザーの口コミ傾向をもとにした編集部独自の目安です。</p>
         </section>
 
         <section className="mb-12">

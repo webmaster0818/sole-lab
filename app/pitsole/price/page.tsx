@@ -710,33 +710,33 @@ export default function PitsolePricePage() {
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-6">
             <ul className="space-y-3 text-sm text-gray-700">
               <li className="flex items-start gap-2">
-                <span className="text-amber-500 font-bold shrink-0">&#9733;</span>
+                <span className="text-amber-500 font-bold shrink-0">&#8226;</span>
                 <span>
                   <strong>最安値は6足セット</strong>で1足あたり4,026円（税込）。
                   4足セットは4,530円/足、単品は6,578円。
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-amber-500 font-bold shrink-0">&#9733;</span>
+                <span className="text-amber-500 font-bold shrink-0">&#8226;</span>
                 <span>
                   <strong>購入できるのはオンラインのみ</strong>（公式サイト・楽天・Amazon）。
                   実店舗での販売はなし。
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-amber-500 font-bold shrink-0">&#9733;</span>
+                <span className="text-amber-500 font-bold shrink-0">&#8226;</span>
                 <span>
                   <strong>楽天ポイント還元</strong>を考慮すると、楽天公式ショップが実質最安になる可能性あり。
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-amber-500 font-bold shrink-0">&#9733;</span>
+                <span className="text-amber-500 font-bold shrink-0">&#8226;</span>
                 <span>
                   <strong>Amazonはセット割引なし</strong>。単品購入のみで複数足購入には不向き。
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-amber-500 font-bold shrink-0">&#9733;</span>
+                <span className="text-amber-500 font-bold shrink-0">&#8226;</span>
                 <span>
                   <strong>メルカリ等のフリマアプリは非推奨</strong>。偽物・中古品のリスクあり。
                 </span>

@@ -290,38 +290,15 @@ export default function SlimUpInsolePage() {
         </h2>
 
         <div className="bg-white border border-gray-200 rounded-xl p-6 md:p-8 mb-6">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="text-4xl font-bold text-emerald-600">3.8</span>
-            <div>
-              <div className="flex items-center gap-0.5 text-yellow-400 text-lg">
-                <span>&#9733;</span>
-                <span>&#9733;</span>
-                <span>&#9733;</span>
-                <span>&#9733;</span>
-                <span className="text-gray-300">&#9733;</span>
-              </div>
-              <p className="text-xs text-gray-500 mt-0.5">
-                総合評価（編集部評価・5点満点）
-              </p>
-            </div>
+          <p className="text-sm text-gray-500 mb-1">楽天公式店の商品レビュー</p>
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-3xl font-bold text-gray-900">3.6</span>
+            <span className="text-sm text-gray-500">/ 5.0（5件）</span>
           </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-            {[
-              { label: "効果実感", score: "3.5" },
-              { label: "コスパ", score: "3.5" },
-              { label: "履き心地", score: "4.0" },
-              { label: "信頼性", score: "4.0" },
-            ].map((item) => (
-              <div
-                key={item.label}
-                className="text-center p-3 bg-gray-50 rounded-lg"
-              >
-                <p className="text-xs text-gray-500 mb-1">{item.label}</p>
-                <p className="text-xl font-bold text-gray-900">{item.score}</p>
-              </div>
-            ))}
-          </div>
+          <p className="text-xs text-gray-600 leading-relaxed">
+            内訳 ★5：2件／★4：1件／★3：1件／★1：1件。出典：イッティ公式 楽天市場店（単品の商品レビュー・2026年10月14日参照）。件数が少なく傾向を断定できる段階ではありません。
+            当サイトは商品を使用しておらず、点数での評価は行っていません。掲載しているのは公式サイトの記載と、出典を示せるレビューの実数のみです。
+          </p>
         </div>
 
         <div className="space-y-4 text-sm text-gray-600 leading-relaxed">

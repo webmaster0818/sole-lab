@@ -429,8 +429,6 @@ export default function PelvisCorrectionPage() {
               </ul>
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
-              <p className="text-xs text-gray-500 mb-1">骨盤矯正おすすめ度</p>
-              <p className="text-[#8a6a4f] font-bold text-lg mb-2">★★★★★</p>
               <p className="text-xs text-gray-500 mb-1">特許技術</p>
               <p className="text-sm font-medium text-gray-900 mb-2">世界特許あり（BMZ社）</p>
               <p className="text-xs text-gray-500 mb-1">価格（税込）</p>
@@ -470,8 +468,6 @@ export default function PelvisCorrectionPage() {
               </ul>
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
-              <p className="text-xs text-gray-500 mb-1">骨盤矯正おすすめ度</p>
-              <p className="text-[#8a6a4f] font-bold text-lg mb-2">★★★★☆</p>
               <p className="text-xs text-gray-500 mb-1">特許技術</p>
               <p className="text-sm font-medium text-gray-900 mb-2">なし（独自設計）</p>
               <p className="text-xs text-gray-500 mb-1">価格（税込）</p>
@@ -511,8 +507,6 @@ export default function PelvisCorrectionPage() {
               </ul>
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
-              <p className="text-xs text-gray-500 mb-1">骨盤矯正おすすめ度</p>
-              <p className="text-[#8a6a4f] font-bold text-lg mb-2">★★★★☆</p>
               <p className="text-xs text-gray-500 mb-1">特許技術</p>
               <p className="text-sm font-medium text-gray-900 mb-2">なし（美容整体師監修）</p>
               <p className="text-xs text-gray-500 mb-1">価格（税込）</p>
