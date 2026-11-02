@@ -179,7 +179,7 @@ export default function WashingGuidePage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">EVA（エチレン酢酸ビニル）素材</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">ピットソールやスリムアップインソールに使われることが多いEVA素材は、水洗いが可能です。ぬるま湯と中性洗剤で優しく手洗いし、自然乾燥させてください。ただし長時間水に浸けすぎると膨張する恐れがあるため、浸け置きは10分以内に留めてください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">ピットソールなどに使われることが多いEVA素材は、水洗いが可能です。ぬるま湯と中性洗剤で優しく手洗いし、自然乾燥させてください。ただし長時間水に浸けすぎると膨張する恐れがあるため、浸け置きは10分以内に留めてください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ポリウレタン素材</h3>
@@ -382,7 +382,7 @@ export default function WashingGuidePage() {
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：EVA素材で水洗いOK。ぬるま湯と中性洗剤で手洗い。浸け置きは10分以内。</li>
               <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型設計で乾きが早い。週1回のケアで清潔を維持。</li>
-              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：水洗い可能。しっかり乾かしてから使用を再開。</li>
+              <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：公式通販の案内は「汚れが酷い場合は、中性洗剤等で洗い、しっかりと水でゆすいだ後、影干ししてください。」「（頻繁な水洗いは推奨しておりません。）」（2026年11月2日確認）。</li>
             </ul>
           </div>
 

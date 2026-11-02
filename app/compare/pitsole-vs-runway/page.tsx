@@ -693,7 +693,7 @@ export default function PitsoleVsRunwayPage() {
           <div className="card">
             <p className="text-sm text-gray-600 leading-relaxed mb-4">
               この2つで迷う方は、整体師監修の「スリムアップインソール」も候補に入れてみてください。
-              単品6,980円で、3足セット購入時に1足無料となるまとめ買いのコスパと、抗菌防臭加工・S（23.0〜24.5cm）／M（25.0〜26.5cm）の2サイズ展開（公式サイトにて2026年7月確認）が特徴です。
+              単品6,980円（公式通販にセット販売の記載なし・2026年11月2日確認）で、抗菌防臭加工・S（23.0〜24.5cm）／M（25.0〜26.5cm）の2サイズ展開（公式サイトにて2026年7月確認）が特徴です。
             </p>
             <div className="flex flex-col sm:flex-row sm:items-center gap-4">
               <Link href="/slim-up-insole/" className="btn-outline text-sm inline-block">

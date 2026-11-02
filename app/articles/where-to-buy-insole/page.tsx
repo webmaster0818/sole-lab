@@ -146,13 +146,13 @@ export default function WhereToBuyPage() {
                 <tr>
                   <td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td>
                   <td className="p-3">6,980円</td>
-                  <td className="p-3"><span className="font-bold text-[#8a6a4f]">4,480円</span><span className="block text-[10px] text-gray-500">3足17,920円（+1足プレゼント）</span></td>
+                  <td className="p-3">公式通販にセット販売の記載なし（2026年11月2日確認）</td>
                   <td className="p-3">公式で要確認<span className="block text-[10px] text-gray-500">未開封品の返品可（条件は公式）</span></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mb-2">※価格・セット構成・返金条件は各製品の<strong>公式サイト・公式EC店舗で確認した値</strong>です（ピットソール=2026年7月／ランウェイ・スリムアップ=2026年6月12日参照）。1足あたりはセット最安プランを税込価格から算出。返金保証の有無・条件は製品ごとに異なり、記載のない項目は「公式で要確認」としています。</p>
+          <p className="text-xs text-gray-500 mb-2">※価格・セット構成・返金条件は各製品の<strong>公式サイト・公式EC店舗で確認した値</strong>です（ピットソール=2026年7月／ランウェイ=2026年6月12日参照／スリムアップ=2026年11月2日に公式通販「一番星」で確認）。1足あたりはセット最安プランを税込価格から算出。返金保証の有無・条件は製品ごとに異なり、記載のない項目は「公式で要確認」としています。</p>
           <p className="text-xs text-gray-500 mb-6">※価格・キャンペーン・保証条件は変更される場合があるため、購入前に必ず各公式サイトで最新の内容をご確認ください。効果には個人差があり、履くだけで痩せることを保証するものではありません。</p>
 
           <div className="bg-[#faf7f3] border border-[#f3ece4] rounded-xl p-5 mb-6">

@@ -48,7 +48,7 @@ const faqStructuredData = {
       name: "ランウェイキュアソールとスリムアップインソールはどちらが安いですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "単品価格はどちらも6,980円（税込）で同額です（2026年6月時点の公式表示）。セット割引を含めると、ランウェイキュアソールは3足セット17,960円で1足あたり約5,987円、スリムアップインソールは3足+1足無料セット17,920円で実質1足あたり4,480円となり、セット購入の単価ではスリムアップインソールが有利です。",
+        text: "単品価格はどちらも6,980円（税込）で同額です（2026年6月時点の公式表示）。セット割引を含めると、ランウェイキュアソールは3足セット17,960円で1足あたり約5,987円です。スリムアップインソールは公式通販にセット販売の記載がなく、1足6,980円（税込）です（2026年11月2日確認）。",
       },
     },
     {
@@ -203,7 +203,7 @@ export default function RunwayVsSlimupPage() {
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">お得なセット</td>
                 <td className="px-4 py-3 text-center text-gray-600">2足11,980円 / 3足17,960円（1足約5,987円）</td>
-                <td className="px-4 py-3 text-center text-gray-600">2足11,980円 / 3足17,920円+1足無料</td>
+                <td className="px-4 py-3 text-center text-gray-600">公式通販にセット販売の記載なし（2026年11月2日確認）</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">サイズ</td>
@@ -243,7 +243,7 @@ export default function RunwayVsSlimupPage() {
           <p>
             一覧で見ると、<strong>ランウェイキュアソール</strong>は「女性に特化した美姿勢サポート」、
             <strong>スリムアップインソール</strong>は「専門家監修で最大26.5cmまで対応するタイプ」というコンセプトの違いが明確です。
-            単品価格はどちらも6,980円（税込）で同額、セット購入の1足あたり単価ではスリムアップインソールが有利です。
+            単品価格はどちらも6,980円（税込）で同額です。スリムアップインソールは公式通販にセット販売の記載がありません（2026年11月2日確認）。
           </p>
           <p>
             一方でスリムアップインソールは抗菌防臭機能やS/Mの2サイズ展開（最大26.5cm・公式サイトにて2026年7月確認）など、日常的な使いやすさに強みがあります。
@@ -293,13 +293,9 @@ export default function RunwayVsSlimupPage() {
                   <span>1足（単品）</span>
                   <span className="font-medium text-gray-900">6,980円</span>
                 </li>
-                <li className="flex justify-between">
-                  <span>2足セット</span>
-                  <span className="font-medium text-gray-900">11,980円（1足5,990円）</span>
-                </li>
-                <li className="flex justify-between items-center">
-                  <span>3足+1足無料</span>
-                  <span className="font-bold text-emerald-600">17,920円（実質1足4,480円）</span>
+                <li className="flex justify-between items-center gap-3">
+                  <span>セット販売</span>
+                  <span className="text-xs text-gray-500 text-right">公式通販にセット販売の記載なし（2026年11月2日確認）</span>
                 </li>
               </ul>
               <p className="mt-3 text-xs text-gray-500">販売元：イッティ公式サイト</p>
@@ -317,11 +313,7 @@ export default function RunwayVsSlimupPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
-                セット購入の最安単価はスリムアップインソールが有利（実質4,480円 vs 約5,987円）
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
-                スリムアップインソールは3足セットに+1足無料が付くのが特徴
+                セット購入はランウェイキュアソールのみ（3足セットで1足約5,987円）。スリムアップインソールは公式通販にセット販売の記載なし（2026年11月2日確認）
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
@@ -385,7 +377,7 @@ export default function RunwayVsSlimupPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-emerald-600 mt-0.5 shrink-0">&#10003;</span>
-                水洗い可能でお手入れ簡単
+                お手入れは公式案内「汚れが酷い場合は、中性洗剤等で洗い、しっかりと水でゆすいだ後、影干ししてください。」「（頻繁な水洗いは推奨しておりません。）」
               </li>
             </ul>
           </div>
@@ -397,7 +389,7 @@ export default function RunwayVsSlimupPage() {
             スリムアップインソールは<strong>足指・アーチ・3つの支点で重心を整える</strong>というアプローチをとっている点です。
           </p>
           <p>
-            実用面では、スリムアップインソールの抗菌防臭機能と水洗い対応が大きなアドバンテージです。
+            実用面では、スリムアップインソールの抗菌防臭機能が大きなアドバンテージです。
             毎日使うインソールだからこそ、衛生面の配慮は見逃せないポイントでしょう。
             一方、ランウェイキュアソールは薄型設計でパンプスなど女性向けの靴にもフィットしやすい特徴があります。
           </p>
@@ -689,10 +681,6 @@ export default function RunwayVsSlimupPage() {
                 <span className="text-emerald-600 mt-0.5 shrink-0">&#9675;</span>
                 足のサイズが規格外（22.5cm未満や25cm超）の方
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-emerald-600 mt-0.5 shrink-0">&#9675;</span>
-                水洗いで清潔に保ちたい方
-              </li>
             </ul>
             <div className="mt-4">
               <Link
@@ -775,12 +763,12 @@ export default function RunwayVsSlimupPage() {
             <strong>スリムアップインソール</strong>は、YouTube登録者約136万人の美容整体師・井上剛志氏が監修。
             3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）と抗菌防臭加工を備えたインソールです。
             S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開で、最大26.5cmまで対応します（公式サイトにて2026年7月確認）。
-            単品6,980円、3足セットは17,920円で+1足無料と、まとめ買い特典も充実しています。
+            価格は1足6,980円（税込）で、公式通販にセット販売の記載はありません（2026年11月2日確認）。
           </p>
           <p>
             最終的には、<strong>女性で美姿勢×コスパ重視ならランウェイキュアソール</strong>、
             <strong>専門家監修×機能性×26.5cmまでの幅広い対応ならスリムアップインソール</strong>がそれぞれ最適解です。
-            どちらも2〜3ヶ月の継続使用が推奨されているため、セット購入でじっくり試すのが賢い選び方でしょう。
+            どちらも2〜3ヶ月の継続使用が推奨されているため、必要な足数を用意してじっくり試すのが賢い選び方でしょう。
           </p>
         </div>
 

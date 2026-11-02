@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "スリムアップインソールの最安値・キャンペーン情報【2026年最新】",
   description:
-    "スリムアップインソールを最安値で購入する方法を解説。2026年最新のキャンペーン情報、公式サイトのセット割引、楽天・Amazon・Yahooショッピングの価格比較、お得な購入方法ランキングを紹介。",
+    "スリムアップインソールを最安値で購入する方法を解説。2026年最新のキャンペーン情報、公式サイトの価格、楽天・Amazon・Yahooショッピングの価格比較、お得な購入方法ランキングを紹介。",
   openGraph: { images: ["/og-default.png"],
     title:
       "スリムアップインソールの最安値・キャンペーン情報【2026年最新】｜ソールラボ",
     description:
-      "スリムアップインソールを最安値で買う方法は？2026年最新のセット割引・ポイント活用法を解説。",
+      "スリムアップインソールを最安値で買う方法は？2026年最新の公式価格・ポイント活用法を解説。",
     url: "https://sole-laboratory.com/articles/slimup-coupon/",
     type: "article",
   },
@@ -26,7 +26,7 @@ const structuredData = {
   headline:
     "スリムアップインソールの最安値・キャンペーン情報【2026年最新】",
   description:
-    "スリムアップインソールを最安値で購入する方法。セット割引・ポイント活用法を解説。",
+    "スリムアップインソールを最安値で購入する方法。公式価格・ポイント活用法を解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "スリムアップインソールを最安値で買うにはどうすればいいですか？",
     answer:
-      "最安値で購入するなら公式サイトの3足セット+1足プレゼント（実質4足で17,920円、1足あたり4,480円）がおすすめです。楽天やAmazonはポイント還元がありますが、セット割引は公式サイトの方が充実しています。ポイント還元率を含めた実質価格で比較することをおすすめします。",
+      "公式通販「一番星」の価格はSサイズ・Mサイズとも1足6,980円（税込）で、セット販売の記載はありません（2026年11月2日確認）。楽天やAmazonはポイント還元があるため、ポイント還元率を含めた実質価格で比較することをおすすめします。",
   },
   {
     question: "スリムアップインソールはドラッグストアで買えますか？",
@@ -56,12 +56,12 @@ const faqs = [
   {
     question: "スリムアップインソールのセット割引は何足セットがお得ですか？",
     answer:
-      "最もお得なのは3足セット+1足プレゼント（実質4足で17,920円、1足あたり4,480円、約36%OFF）です。サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式のため（公式サイトにて2026年7月確認）、家族とシェアする場合は使う方の足の実寸に合うかご確認ください。1人で4足持てば通勤用・プライベート用・運動用・予備と使い分けも可能です。",
+      "公式通販にセット販売の記載はありません（2026年11月2日確認）。価格はSサイズ・Mサイズとも1足6,980円（税込）です。サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式のため（公式サイトにて2026年7月確認）、家族で使う場合は使う方の足の実寸に合うかご確認ください。",
   },
   {
     question: "スリムアップインソールのキャンペーンはいつありますか？",
     answer:
-      "定期的なキャンペーンのスケジュールは公表されていませんが、春の新生活シーズンや夏前のダイエットシーズンに販促が行われる傾向があります。イッティ公式サイトのメルマガ登録で最新情報を受け取れます。セット割引は常時適用されているため、キャンペーンを待たずに購入しても十分お得です。",
+      "定期的なキャンペーンのスケジュールは公表されていませんが、春の新生活シーズンや夏前のダイエットシーズンに販促が行われる傾向があります。イッティ公式サイトのメルマガ登録で最新情報を受け取れます。なお、公式通販にセット販売の記載はありません（2026年11月2日確認）。",
   },
 ];
 
@@ -144,7 +144,7 @@ export default function SlimupCouponPage() {
             </span>
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            スリムアップインソールを少しでもお得に購入したい方へ。2026年最新のキャンペーン情報から、セット割引の比較、楽天・Amazon・Yahooショッピングとの価格比較まで、最安値で買う方法を解説します。
+            スリムアップインソールを少しでもお得に購入したい方へ。2026年最新のキャンペーン情報から、公式価格の確認、楽天・Amazon・Yahooショッピングとの価格比較まで、最安値で買う方法を解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-amber-100 text-[#c9a76c] px-3 py-1 rounded-full font-medium">
@@ -170,11 +170,11 @@ export default function SlimupCouponPage() {
 
           <div className="bg-amber-50 border-2 border-[#c9a76c] rounded-xl p-5 md:p-6 mb-6">
             <h3 className="text-base font-bold text-[#c9a76c] mb-3">
-              公式サイト：3足セット+1足プレゼントが常時適用中
+              公式サイトの価格：1足6,980円（税込）
             </h3>
             <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
               <p>
-                割引の有無・内容は時期によって変わります。2026年10月17日の再確認では、当サイトから公式サイトの現在の割引条件を確認できませんでした。最新の条件は公式サイト（イッティ）でご確認ください。
+                公式通販「一番星」の価格は、SサイズとMサイズのどちらも1足6,980円（税込）です。2026年11月2日の確認では、セット販売や特典の記載はありませんでした。割引の有無・内容は時期によって変わるため、最新の条件は公式サイトでご確認ください。
               </p>
               <p>
                 サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。ご家族やパートナーとシェアする場合は、使う方それぞれの足の実寸に合うサイズかをご確認ください。
@@ -184,17 +184,17 @@ export default function SlimupCouponPage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              一部のサイトでは「期間限定」と煽っていますが、この3足+1足プレゼントは常時行われているキャンペーンです。焦って購入する必要はありませんが、内容が予告なく変更される可能性はあります。
+              公式通販にはセット販売や特典の記載がないため（2026年11月2日確認）、セット割引を前提にした情報にはご注意ください。価格や販売内容は予告なく変更される可能性があります。
             </p>
           </div>
         </div>
       </section>
 
-      {/* 公式サイトのセット割引 */}
+      {/* 公式サイトの価格（購入数別） */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            公式サイトのセット割引を比較
+            公式サイトの価格（購入数別）
           </h2>
 
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-6">
@@ -203,59 +203,32 @@ export default function SlimupCouponPage() {
                 <thead>
                   <tr className="border-b border-gray-200 bg-gray-50">
                     <th className="py-3 px-4 text-left text-gray-500 font-medium">
-                      購入パターン
+                      購入数
                     </th>
                     <th className="py-3 px-4 text-left text-gray-500 font-medium">
                       総額（税込）
                     </th>
                     <th className="py-3 px-4 text-left text-gray-500 font-medium">
-                      実質足数
-                    </th>
-                    <th className="py-3 px-4 text-left text-gray-500 font-medium">
                       1足あたり
-                    </th>
-                    <th className="py-3 px-4 text-left text-gray-500 font-medium">
-                      割引率
-                    </th>
-                    <th className="py-3 px-4 text-left text-gray-500 font-medium">
-                      おすすめ度
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b border-gray-100">
-                    <td className="py-3 px-4 text-gray-900">1足単品</td>
-                    <td className="py-3 px-4 text-gray-900">6,980円</td>
                     <td className="py-3 px-4 text-gray-900">1足</td>
                     <td className="py-3 px-4 text-gray-900">6,980円</td>
-                    <td className="py-3 px-4 text-gray-500">-</td>
-                    <td className="py-3 px-4 text-gray-500">△</td>
+                    <td className="py-3 px-4 text-gray-900">6,980円</td>
                   </tr>
                   <tr className="border-b border-gray-100">
-                    <td className="py-3 px-4 text-gray-900">2足セット</td>
-                    <td className="py-3 px-4 text-gray-900">12,800円</td>
                     <td className="py-3 px-4 text-gray-900">2足</td>
-                    <td className="py-3 px-4 text-gray-700">6,400円</td>
-                    <td className="py-3 px-4 text-gray-700">約8%OFF</td>
-                    <td className="py-3 px-4 text-gray-500">○</td>
+                    <td className="py-3 px-4 text-gray-900">13,960円</td>
+                    <td className="py-3 px-4 text-gray-900">6,980円</td>
                   </tr>
-                  <tr className="border-b border-gray-100 bg-amber-50">
-                    <td className="py-3 px-4 text-gray-900 font-bold">
-                      3足セット+1足
+                  <tr className="border-b border-gray-100">
+                    <td className="py-3 px-4 text-gray-900">セット販売</td>
+                    <td className="py-3 px-4 text-gray-500" colSpan={2}>
+                      公式通販にセット販売の記載なし（2026年11月2日確認）
                     </td>
-                    <td className="py-3 px-4 text-gray-900 font-bold">
-                      17,920円
-                    </td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">
-                      4足
-                    </td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">
-                      4,480円
-                    </td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">
-                      約36%OFF
-                    </td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">◎</td>
                   </tr>
                 </tbody>
               </table>
@@ -264,19 +237,16 @@ export default function SlimupCouponPage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              圧倒的にお得なのは<strong>3足セット+1足プレゼント（実質4足で17,920円、1足あたり4,480円）</strong>です。単品購入と比べると1足あたり2,500円もお得になります。
-            </p>
-            <p>
-              2足セットは割引率が低く、あまりメリットがありません。購入するなら単品か3足セットかの二択で考えるのが合理的です。
+              公式通販「一番星」の価格は、SサイズとMサイズのどちらも1足6,980円（税込）です。公式通販にセット販売の記載はないため（2026年11月2日確認）、複数購入しても1足あたりの価格は変わりません。総額は送料や支払い手数料を含まない目安です。
             </p>
           </div>
 
           <div className="mt-6 bg-amber-50 border border-amber-200 rounded-xl p-5">
             <h3 className="text-base font-bold text-[#c9a76c] mb-2">
-              編集部おすすめ
+              家族で使う場合
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              サイズが合えばご家族やパートナーとシェアできるのもセット購入のメリット。夫婦で2足ずつ分けて使えば、1人あたり約9,000円で2足分のインソールが手に入ります。ただしサイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式のため（公式サイトにて2026年7月確認）、それぞれの足の実寸に合うサイズかを事前にご確認ください。
+              サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。ご家族やパートナーと使う場合は、それぞれの足の実寸に合うサイズを選んでください。
             </p>
           </div>
         </div>
@@ -317,30 +287,30 @@ export default function SlimupCouponPage() {
                       公式サイト（イッティ）
                     </td>
                     <td className="py-3 px-4 text-gray-900">6,980円</td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">
-                      3足+1足プレゼント
+                    <td className="py-3 px-4 text-gray-700">
+                      公式通販にセット販売の記載なし（2026年11月2日確認）
                     </td>
                     <td className="py-3 px-4 text-gray-500">なし</td>
-                    <td className="py-3 px-4 text-[#c9a76c] font-bold">◎</td>
+                    <td className="py-3 px-4 text-gray-700">○</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900">楽天市場</td>
                     <td className="py-3 px-4 text-gray-900">6,980円</td>
-                    <td className="py-3 px-4 text-gray-700">セット割あり</td>
+                    <td className="py-3 px-4 text-gray-700">確認できず</td>
                     <td className="py-3 px-4 text-gray-700">1〜10%</td>
                     <td className="py-3 px-4 text-gray-700">○</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900">Amazon</td>
                     <td className="py-3 px-4 text-gray-900">6,980円</td>
-                    <td className="py-3 px-4 text-gray-700">セット割あり</td>
+                    <td className="py-3 px-4 text-gray-700">確認できず</td>
                     <td className="py-3 px-4 text-gray-700">1〜3%</td>
                     <td className="py-3 px-4 text-gray-700">○</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900">Yahooショッピング</td>
                     <td className="py-3 px-4 text-gray-900">6,980円</td>
-                    <td className="py-3 px-4 text-gray-700">セット割あり</td>
+                    <td className="py-3 px-4 text-gray-700">確認できず</td>
                     <td className="py-3 px-4 text-gray-700">1〜5%</td>
                     <td className="py-3 px-4 text-gray-700">○</td>
                   </tr>
@@ -351,10 +321,10 @@ export default function SlimupCouponPage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              スリムアップインソールは公式サイト（イッティ）、楽天、Amazon、Yahooショッピングのいずれでも購入可能です。単品価格は同じですが、<strong>3足セット+1足プレゼントの特典は公式サイトが最も充実</strong>しています。
+              スリムアップインソールは公式サイト（イッティ）、楽天、Amazon、Yahooショッピングのいずれでも購入可能です。単品価格はいずれも6,980円で、<strong>公式通販にはセット販売の記載がありません</strong>（2026年11月2日確認）。
             </p>
             <p>
-              楽天スーパーセールやAmazonプライムデーのタイミングでポイント大量還元が狙える場合は、ECサイト経由の方がお得になることもあります。ただし、そうしたセールの開催を待つよりも、セット割引ですぐ購入する方が結果的にお得な場合が多く見られます。
+              楽天スーパーセールやAmazonプライムデーのタイミングでポイント大量還元が狙える場合は、ECサイト経由の方がお得になることもあります。セールの開催時期は不定期のため、購入時期とあわせてご検討ください。
             </p>
           </div>
         </div>
@@ -371,31 +341,31 @@ export default function SlimupCouponPage() {
             {[
               {
                 rank: "1",
-                title: "公式サイト 3足セット+1足プレゼント",
-                desc: "1足あたり4,480円で最安値。実質4足手に入るため、家族やパートナーとシェアも可能。複数の靴に入れたい方に最適。",
-                price: "総額17,920円（1足あたり4,480円）",
-                badge: "最安値",
-              },
-              {
-                rank: "2",
                 title: "楽天市場（ポイント10倍デー）",
                 desc: "楽天スーパーセールやお買い物マラソンでポイント10倍の時に購入すれば、実質6,000円前後に。楽天経済圏の方はこちらも検討。",
                 price: "6,980円（ポイント還元後 実質約6,000円）",
                 badge: "ポイント狙い",
               },
               {
-                rank: "3",
+                rank: "2",
                 title: "Amazon（プライムデー）",
                 desc: "プライムデーやタイムセール祭りで割引される場合あり。送料無料で翌日届く利便性が魅力。急いでいる方向け。",
                 price: "6,980円（セール時5,500〜6,500円）",
                 badge: "利便性重視",
               },
               {
-                rank: "4",
+                rank: "3",
                 title: "Yahooショッピング（5のつく日）",
                 desc: "5のつく日やPayPay祭りでポイント還元率がアップ。PayPayユーザーならこちらが有利な場合も。",
                 price: "6,980円（ポイント還元後 実質約6,200円）",
                 badge: "PayPay派",
+              },
+              {
+                rank: "4",
+                title: "公式サイト（一番星）",
+                desc: "SサイズとMサイズのどちらも1足6,980円（税込）です。公式通販にセット販売や特典の記載はありません（2026年11月2日確認）。",
+                price: "6,980円（税込）",
+                badge: "公式",
               },
             ].map((item) => (
               <div key={item.rank} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
@@ -482,7 +452,7 @@ export default function SlimupCouponPage() {
                       スリムアップインソール
                     </td>
                     <td className="py-3 px-4 text-gray-900">6,980円</td>
-                    <td className="py-3 px-4 text-gray-900">4,480円/足</td>
+                    <td className="py-3 px-4 text-gray-900">公式通販にセット販売の記載なし（2026年11月2日確認）</td>
                     <td className="py-3 px-4 text-gray-700">整体師監修・S/M 2サイズ</td>
                   </tr>
                   <tr className="border-b border-gray-100">
@@ -508,7 +478,7 @@ export default function SlimupCouponPage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              セット購入時の1足あたり単価ではピットソール（6足セット時4,026円/足・公式サイトにて2026年7月確認）が最も安くなりますが、スリムアップインソールは3足+1足プレゼントで実質4足手に入る点が大きな魅力です。
+              セット購入時の1足あたり単価ではピットソール（6足セット時4,026円/足・公式サイトにて2026年7月確認）が最も安くなります。スリムアップインソールは公式通販にセット販売の記載がなく、1足6,980円（税込）です（2026年11月2日確認）。
             </p>
             <p>
               また、スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開で、最大26.5cmまで対応します（公式サイトにて2026年7月確認）。男性がダイエットインソールを使いたい場合、ランウェイキュアソール（女性向け）は選択肢に入らないため、足のサイズが26.5cm以内ならスリムアップインソール、それを超えるならピットソール（最大29cm・XLはブラック/ピンク限定）が候補となります。
@@ -521,11 +491,11 @@ export default function SlimupCouponPage() {
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            コスパ重視なら3足セット+1足プレゼントが最強
+            複数の靴で使う場合の考え方
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-6">
             <p>
-              ダイエットインソールで効果を出すには「毎日使う」ことが大切です。毎日使うためには、複数の靴にインソールを入れておくのが理想的です。3足セット+1足プレゼントなら4足分を確保できるため、日常使いに十分対応できます。
+              ダイエットインソールで効果を出すには「毎日使う」ことが大切です。毎日使うためには、複数の靴にインソールを入れておく方法があります。公式通販にセット販売の記載はないため（2026年11月2日確認）、必要な足数を1足6,980円（税込）で購入する形になります。
             </p>
           </div>
 
@@ -545,7 +515,7 @@ export default function SlimupCouponPage() {
               },
               {
                 title: "予備として1足",
-                desc: "洗濯・乾燥中の代替用や、靴の入れ替え用として。インソールのローテーションで長持ちします。",
+                desc: "手入れ後に影干ししている間の代替用や、靴の入れ替え用として。インソールのローテーションで長持ちします。",
               },
             ].map((item) => (
               <div key={item.title} className="bg-white border border-gray-200 rounded-xl p-5">
@@ -618,17 +588,17 @@ export default function SlimupCouponPage() {
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            まとめ：スリムアップインソールは公式3足セットが最安値
+            まとめ：スリムアップインソールの価格と購入先
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              スリムアップインソールを最もお得に購入するなら、<strong>公式サイトの3足セット+1足プレゼント（実質4足で17,920円、1足あたり4,480円）</strong>が最安値です。
+              スリムアップインソールの公式通販「一番星」の価格は、<strong>SサイズとMサイズのどちらも1足6,980円（税込）</strong>です。公式通販にセット販売の記載はありません（2026年11月2日確認）。
             </p>
             <p>
-              楽天・Amazon・Yahooショッピングでも購入できますが、セット割引の充実度では公式サイトが一歩リードしています。ポイント大量還元のセール時期を狙うのも手ですが、セット割引で即購入する方が確実にお得です。
+              楽天・Amazon・Yahooショッピングでも購入でき、単品価格はいずれも6,980円です。ポイント還元を含めた実質価格で比較して選ぶ方法があります。
             </p>
             <p>
-              サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。家族やパートナーとシェアする場合は、それぞれの足の実寸に合うサイズかを確認したうえで、コスパ重視の方はぜひ3足セットでお得にスタートしてみてください。
+              サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。家族やパートナーと使う場合は、それぞれの足の実寸に合うサイズかを確認したうえでご購入ください。
             </p>
           </div>
 

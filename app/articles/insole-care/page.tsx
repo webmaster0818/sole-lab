@@ -1102,7 +1102,7 @@ export default function InsoleCare() {
                   <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
-                  EVAフォーム素材のため水洗い可能。基本の洗い方でOKです
+                  公式通販の案内は「汚れが酷い場合は、中性洗剤等で洗い、しっかりと水でゆすいだ後、影干ししてください。」「（頻繁な水洗いは推奨しておりません。）」です（2026年11月2日確認）
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#a67a56] shrink-0 mt-0.5">

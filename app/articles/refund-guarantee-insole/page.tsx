@@ -105,7 +105,7 @@ export default function RefundGuaranteePage() {
                   <td className="p-3 font-medium whitespace-nowrap"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td>
                   <td className="p-3">公式ページに全額返金保証の記載なし（公式サイトで要確認）</td>
                   <td className="p-3">公式サイト購入は未開封品に限り返品可（詳細条件は公式の返品ポリシーで要確認）</td>
-                  <td className="p-3">単品／2足セット／3足セット（+1足プレゼント）</td>
+                  <td className="p-3">単品6,980円（公式通販にセット販売の記載なし・2026年11月2日確認）</td>
                   <td className="p-3">定期縛りなし（都度購入）</td>
                 </tr>
               </tbody>

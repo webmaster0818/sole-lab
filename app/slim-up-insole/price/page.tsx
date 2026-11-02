@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "スリムアップインソールの最安値・販売店情報【2026年】｜ソールラボ",
   description:
-    "スリムアップインソールの最安値はどこ？公式サイト・楽天・Amazon・Yahoo!ショッピングの価格比較や販売店情報をまとめました。市販では買えない理由やお得なセット購入も解説。",
+    "スリムアップインソールの最安値はどこ？公式サイト・楽天・Amazon・Yahoo!ショッピングの価格比較や販売店情報をまとめました。市販では買えない理由や公式通販の価格も解説。",
   alternates: {
     canonical: "https://sole-laboratory.com/slim-up-insole/price/",
   },
@@ -26,31 +26,9 @@ const structuredData = {
   offers: [
     {
       "@type": "Offer",
-      name: "単品",
+      name: "単品（S・M）",
       priceCurrency: "JPY",
       price: "6980",
-      availability: "https://schema.org/InStock",
-      seller: {
-        "@type": "Organization",
-        name: "イッティ公式",
-      },
-    },
-    {
-      "@type": "Offer",
-      name: "2足セット",
-      priceCurrency: "JPY",
-      price: "11980",
-      availability: "https://schema.org/InStock",
-      seller: {
-        "@type": "Organization",
-        name: "イッティ公式",
-      },
-    },
-    {
-      "@type": "Offer",
-      name: "3足セット＋1足無料",
-      priceCurrency: "JPY",
-      price: "17920",
       availability: "https://schema.org/InStock",
       seller: {
         "@type": "Organization",
@@ -66,7 +44,7 @@ const articleStructuredData = {
   headline:
     "スリムアップインソールの最安値・販売店情報【2026年】",
   description:
-    "スリムアップインソールの最安値・販売店情報を調査。公式サイト・楽天・Amazon・Yahooの価格比較やお得なセット購入を解説。",
+    "スリムアップインソールの最安値・販売店情報を調査。公式サイト・楽天・Amazon・Yahooの価格比較を解説。",
   author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -74,7 +52,7 @@ const articleStructuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-04-08",
+  dateModified: "2026-11-02",
 };
 
 const faqStructuredData = {
@@ -86,7 +64,7 @@ const faqStructuredData = {
       name: "スリムアップインソールの最安値はどこですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "最安値は公式サイトの3足セット＋1足無料プレゼント（17,920円・1足あたり4,480円）です。単品購入の場合はどの販売チャネルでも6,980円（税込）です。",
+        text: "公式通販「一番星」の価格はSサイズ・Mサイズとも1足6,980円（税込）で、公式通販にセット販売の記載はありません（2026年11月2日確認）。単品購入の場合はどの販売チャネルでも6,980円（税込）です。",
       },
     },
     {
@@ -102,7 +80,7 @@ const faqStructuredData = {
       name: "公式サイトで購入するメリットは何ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "公式サイトではセット割引（最大36%OFF）、正規品の保証、在庫の安定供給といったメリットがあります。また、3足セットでは1足無料プレゼントの特典も用意されています。",
+        text: "公式サイトでは正規品の保証、在庫の安定供給といったメリットがあります。なお、公式通販にセット販売や特典の記載はありません（2026年11月2日確認）。",
       },
     },
     {
@@ -110,7 +88,7 @@ const faqStructuredData = {
       name: "楽天やAmazonでも正規品を購入できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、楽天市場・Amazon・Yahoo!ショッピングでもイッティ公式が出店しており正規品を購入できます。ただし、セット割引の内容は公式サイトと異なる場合があります。",
+        text: "はい、楽天市場・Amazon・Yahoo!ショッピングでもイッティ公式が出店しており正規品を購入できます。ただし、価格やポイント還元の内容はショップごとに異なる場合があります。",
       },
     },
     {
@@ -118,7 +96,7 @@ const faqStructuredData = {
       name: "何足セットで買うのが一番お得ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "3足セット＋1足無料プレゼント（17,920円）が最もお得です。実質4足で1足あたり4,480円となり、単品購入より約36%もお得になります。",
+        text: "公式通販にセット販売の記載はありません（2026年11月2日確認）。価格はSサイズ・Mサイズとも1足6,980円（税込）です。",
       },
     },
   ],
@@ -151,7 +129,7 @@ export default function SlimUpInsolePricePage() {
       <section className="bg-gradient-to-b from-emerald-50 to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-emerald-600 font-semibold mb-3">
-            2026年4月最新版 ・ 価格調査
+            2026年11月更新 ・ 価格調査
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             スリムアップインソールの
@@ -218,7 +196,7 @@ export default function SlimUpInsolePricePage() {
                 href="#set-simulation"
                 className="hover:text-emerald-600 transition-colors"
               >
-                6. セット購入がお得！価格シミュレーション
+                6. 購入数別の価格シミュレーション
               </a>
             </li>
             <li>
@@ -249,16 +227,16 @@ export default function SlimUpInsolePricePage() {
 
         <div className="bg-emerald-50 border-2 border-emerald-400 rounded-xl p-6 md:p-8 mb-6">
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            スリムアップインソールの<strong className="text-emerald-700">最安値は公式サイトの3足セット＋1足無料プレゼント</strong>です。
-            17,920円（税込）で実質4足手に入り、<strong className="text-emerald-700">1足あたり4,480円</strong>と単品購入の約36%OFFになります。
+            スリムアップインソールの公式通販「一番星」の価格は、<strong className="text-emerald-700">SサイズとMサイズのどちらも1足6,980円（税込）</strong>です。
+            公式通販にセット販売や特典の記載はありません（2026年11月2日確認）。
           </p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             販売元はイッティ公式で、購入できるのは<strong>公式サイト・楽天市場・Amazon・Yahoo!ショッピング</strong>の4つのオンラインチャネルのみ。
             ドラッグストアやドンキホーテなど市販の実店舗では取り扱いがありません。
           </p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            単品で1足だけ試したい場合はどのショップでも6,980円（税込）ですが、
-            継続使用を見据えるならセット購入が圧倒的にお得です。以下で詳しく比較していきます。
+            単品価格はどのショップでも6,980円（税込）のため、
+            普段利用するショップのポイント還元などを比較して選ぶ方法があります。以下で詳しく比較していきます。
           </p>
         </div>
           {/* 購買意図ページの成果導線(9/28追加・既存コード) */}
@@ -276,7 +254,7 @@ export default function SlimUpInsolePricePage() {
 
         <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
           スリムアップインソールを購入できる全チャネルの価格を一覧でまとめました。
-          すべて税込価格で、2026年4月時点の情報です。
+          すべて税込価格です。モールの単品価格は2026年4月時点、公式通販の価格とセット販売の有無は2026年11月2日に確認した情報です。
         </p>
 
         <div className="overflow-x-auto mb-6">
@@ -287,11 +265,8 @@ export default function SlimUpInsolePricePage() {
                   販売チャネル
                 </th>
                 <th className="py-3 px-4 text-right font-semibold">単品</th>
-                <th className="py-3 px-4 text-right font-semibold">
-                  2足セット
-                </th>
                 <th className="py-3 px-4 text-right font-semibold rounded-tr-lg">
-                  3足セット
+                  セット販売
                 </th>
               </tr>
             </thead>
@@ -301,13 +276,8 @@ export default function SlimUpInsolePricePage() {
                   公式サイト
                 </td>
                 <td className="py-3 px-4 text-right">6,980円</td>
-                <td className="py-3 px-4 text-right">11,980円</td>
-                <td className="py-3 px-4 text-right font-bold text-emerald-700">
-                  17,920円
-                  <br />
-                  <span className="text-xs text-emerald-600">
-                    +1足無料
-                  </span>
+                <td className="py-3 px-4 text-right text-gray-500 text-sm">
+                  公式通販にセット販売の記載なし（2026年11月2日確認）
                 </td>
               </tr>
               <tr className="bg-white border-b border-gray-200">
@@ -316,14 +286,12 @@ export default function SlimUpInsolePricePage() {
                 </td>
                 <td className="py-3 px-4 text-right">6,980円</td>
                 <td className="py-3 px-4 text-right text-gray-400">--</td>
-                <td className="py-3 px-4 text-right text-gray-400">--</td>
               </tr>
               <tr className="bg-gray-50 border-b border-gray-200">
                 <td className="py-3 px-4 font-semibold text-gray-700">
                   Amazon
                 </td>
                 <td className="py-3 px-4 text-right">6,980円</td>
-                <td className="py-3 px-4 text-right text-gray-400">--</td>
                 <td className="py-3 px-4 text-right text-gray-400">--</td>
               </tr>
               <tr className="bg-white border-b border-gray-200">
@@ -332,13 +300,11 @@ export default function SlimUpInsolePricePage() {
                 </td>
                 <td className="py-3 px-4 text-right">6,980円</td>
                 <td className="py-3 px-4 text-right text-gray-400">--</td>
-                <td className="py-3 px-4 text-right text-gray-400">--</td>
               </tr>
               <tr className="bg-gray-100">
                 <td className="py-3 px-4 font-semibold text-gray-400 rounded-bl-lg">
                   ドラッグストア等
                 </td>
-                <td className="py-3 px-4 text-right text-gray-400">取扱なし</td>
                 <td className="py-3 px-4 text-right text-gray-400">取扱なし</td>
                 <td className="py-3 px-4 text-right text-gray-400 rounded-br-lg">
                   取扱なし
@@ -349,7 +315,7 @@ export default function SlimUpInsolePricePage() {
         </div>
 
         <p className="text-xs text-gray-500">
-          ※「--」はセット販売の取り扱いが確認できなかったチャネルです。楽天・Amazon・Yahooでのセット販売は時期により変動する可能性があります。
+          ※「--」はセット販売の取り扱いが確認できなかったチャネルです。モールでの販売内容は時期により変動する可能性があります。
         </p>
       </section>
 
@@ -367,8 +333,8 @@ export default function SlimUpInsolePricePage() {
         <div className="grid gap-4 md:grid-cols-2 mb-6">
           {[
             {
-              title: "セット割引が充実",
-              desc: "2足セット・3足セットの割引価格は公式サイト限定。3足セットなら1足無料プレゼントで実質4足分が手に入ります。",
+              title: "公式価格で購入できる",
+              desc: "SサイズとMサイズのどちらも1足6,980円（税込）です。公式通販にセット販売や特典の記載はありません（2026年11月2日確認）。",
             },
             {
               title: "正規品の保証",
@@ -401,8 +367,8 @@ export default function SlimUpInsolePricePage() {
           <p className="text-sm text-gray-700 leading-relaxed">
             <strong className="text-yellow-700">注意点：</strong>
             公式サイト以外のショップでも正規品は購入できますが、
-            セット割引や特典の内容は公式サイトと異なる場合があります。
-            まとめ買いを検討している方は公式サイトの価格を確認してから購入することをおすすめします。
+            価格やポイント還元の内容はショップごとに異なる場合があります。
+            購入前に公式サイトの価格を確認することをおすすめします。
           </p>
         </div>
       </section>
@@ -461,8 +427,7 @@ export default function SlimUpInsolePricePage() {
             <strong>ポイント：</strong>
             どのECモールでも単品価格は同じ6,980円です。
             普段よく使うショップのポイント還元を活用するのがスマートな選び方といえます。
-            ただし、<strong>セット割引は公式サイト限定</strong>のため、
-            2足以上の購入を検討しているなら公式サイトが最もお得です。
+            なお、<strong>公式通販にもセット販売の記載はありません</strong>（2026年11月2日確認）。
           </p>
         </div>
       </section>
@@ -520,12 +485,12 @@ export default function SlimUpInsolePricePage() {
       {/* Section 6: Set Purchase Simulation */}
       <section id="set-simulation" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-emerald-500">
-          セット購入がお得！価格シミュレーション
+          購入数別の価格シミュレーション
         </h2>
 
         <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
-          スリムアップインソールは毎日使用するもの。インソールの寿命（3〜6ヶ月）を考えると、
-          交換用を含めてまとめ買いするのが賢い選択です。セットごとの価格を詳しく見てんでください。
+          スリムアップインソールは毎日使用するものです。インソールの寿命（3〜6ヶ月）を考えて、交換用を含めた足数を検討する場合の参考として、公式通販の単品価格をもとに合計額を整理しました。
+          公式通販にセット販売の記載はないため（2026年11月2日確認）、複数購入しても1足あたりの価格は変わりません。
         </p>
 
         <div className="space-y-4 mb-8">
@@ -536,7 +501,7 @@ export default function SlimUpInsolePricePage() {
                 単品（1足）
               </h3>
               <span className="bg-gray-100 text-gray-600 text-xs font-semibold px-3 py-1 rounded-full">
-                お試し
+                S・M共通
               </span>
             </div>
             <p className="text-2xl md:text-3xl font-bold text-gray-900 mb-1">
@@ -544,60 +509,7 @@ export default function SlimUpInsolePricePage() {
             </p>
             <p className="text-xs text-gray-500">1足あたり 6,980円</p>
             <p className="text-sm text-gray-600 mt-3 leading-relaxed">
-              まずは1足試してみたい方向け。効果を実感してからセット購入に切り替えるのもありです。
-            </p>
-          </div>
-
-          {/* 2-Set */}
-          <div className="bg-white border border-emerald-200 rounded-xl p-5 md:p-6">
-            <div className="flex items-start justify-between mb-3">
-              <h3 className="text-sm md:text-base font-bold text-gray-900">
-                2足セット
-              </h3>
-              <span className="bg-emerald-100 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full">
-                14%OFF
-              </span>
-            </div>
-            <p className="text-2xl md:text-3xl font-bold text-gray-900 mb-1">
-              11,980<span className="text-sm font-normal text-gray-500">円（税込）</span>
-            </p>
-            <p className="text-xs text-gray-500">
-              1足あたり 5,990円
-              <span className="text-emerald-600 ml-2">
-                （単品より990円お得）
-              </span>
-            </p>
-            <p className="text-sm text-gray-600 mt-3 leading-relaxed">
-              普段使い用と交換用の2足。単品を2回購入するより1,980円お得です。
-            </p>
-          </div>
-
-          {/* 3-Set */}
-          <div className="bg-emerald-50 border-2 border-emerald-400 rounded-xl p-5 md:p-6 relative">
-            <div className="absolute -top-3 left-5 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full">
-              最安値
-            </div>
-            <div className="flex items-start justify-between mb-3 mt-1">
-              <h3 className="text-sm md:text-base font-bold text-gray-900">
-                3足セット ＋ 1足無料プレゼント
-              </h3>
-              <span className="bg-emerald-100 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full">
-                36%OFF
-              </span>
-            </div>
-            <p className="text-2xl md:text-3xl font-bold text-emerald-700 mb-1">
-              17,920<span className="text-sm font-normal text-gray-500">円（税込）</span>
-            </p>
-            <p className="text-xs text-gray-500">
-              実質4足 → 1足あたり 4,480円
-              <span className="text-emerald-600 ml-2">
-                （単品より2,500円お得）
-              </span>
-            </p>
-            <p className="text-sm text-gray-600 mt-3 leading-relaxed">
-              最もお得なプラン。3足分の料金で4足届くため、
-              家族や友人とシェアしたり、長期間の交換用としてストックするのに最適です。
-              単品で4足買うと27,920円なので、<strong className="text-emerald-700">10,000円もお得</strong>になります。
+              公式通販「一番星」の価格です（SサイズとMサイズ共通・2026年11月2日確認）。
             </p>
           </div>
         </div>
@@ -605,58 +517,45 @@ export default function SlimUpInsolePricePage() {
         {/* Comparison Summary */}
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6">
           <h3 className="text-sm md:text-base font-bold text-gray-900 mb-4">
-            単品購入 vs セット購入の差額まとめ
+            購入数別の合計額（公式通販の単品価格で計算）
           </h3>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
               <thead>
                 <tr className="border-b border-gray-300">
                   <th className="py-2 px-3 text-left font-semibold text-gray-700">
-                    プラン
+                    購入数
                   </th>
                   <th className="py-2 px-3 text-right font-semibold text-gray-700">
-                    合計額
+                    合計額（税込）
                   </th>
                   <th className="py-2 px-3 text-right font-semibold text-gray-700">
                     1足単価
-                  </th>
-                  <th className="py-2 px-3 text-right font-semibold text-gray-700">
-                    単品比 節約額
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b border-gray-200">
-                  <td className="py-2 px-3 text-gray-700">単品 x1</td>
+                  <td className="py-2 px-3 text-gray-700">1足</td>
                   <td className="py-2 px-3 text-right">6,980円</td>
                   <td className="py-2 px-3 text-right">6,980円</td>
-                  <td className="py-2 px-3 text-right text-gray-400">--</td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="py-2 px-3 text-gray-700">2足セット</td>
-                  <td className="py-2 px-3 text-right">11,980円</td>
-                  <td className="py-2 px-3 text-right">5,990円</td>
-                  <td className="py-2 px-3 text-right text-emerald-600 font-semibold">
-                    1,980円
-                  </td>
+                  <td className="py-2 px-3 text-gray-700">2足</td>
+                  <td className="py-2 px-3 text-right">13,960円</td>
+                  <td className="py-2 px-3 text-right">6,980円</td>
                 </tr>
                 <tr>
-                  <td className="py-2 px-3 text-emerald-700 font-semibold">
-                    3足+1足無料
-                  </td>
-                  <td className="py-2 px-3 text-right font-semibold">
-                    17,920円
-                  </td>
-                  <td className="py-2 px-3 text-right font-semibold text-emerald-700">
-                    4,480円
-                  </td>
-                  <td className="py-2 px-3 text-right text-emerald-600 font-bold">
-                    10,000円
-                  </td>
+                  <td className="py-2 px-3 text-gray-700">3足</td>
+                  <td className="py-2 px-3 text-right">20,940円</td>
+                  <td className="py-2 px-3 text-right">6,980円</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-gray-500 mt-3">
+            ※送料や支払い手数料は含みません。購入前に公式通販でご確認ください。
+          </p>
         </div>
       </section>
 
@@ -670,7 +569,7 @@ export default function SlimUpInsolePricePage() {
           {[
             {
               q: "スリムアップインソールの最安値はどこですか？",
-              a: "最安値は公式サイトの3足セット＋1足無料プレゼント（17,920円・1足あたり4,480円）です。単品購入の場合はどの販売チャネルでも6,980円（税込）で同一価格となっています。",
+              a: "公式通販「一番星」の価格はSサイズ・Mサイズとも1足6,980円（税込）で、公式通販にセット販売の記載はありません（2026年11月2日確認）。単品購入の場合はどの販売チャネルでも6,980円（税込）で同一価格となっています。",
             },
             {
               q: "スリムアップインソールはドラッグストアで買えますか？",
@@ -678,15 +577,15 @@ export default function SlimUpInsolePricePage() {
             },
             {
               q: "公式サイトで購入するメリットは何ですか？",
-              a: "公式サイトではセット割引（最大36%OFF）、正規品の保証、在庫の安定供給といったメリットがあります。3足セットでは1足無料プレゼントの特典も付きます。単品であればどのショップでも同価格のため、ポイント還元の高いショップを選ぶのもありです。",
+              a: "公式サイトでは正規品の保証、在庫の安定供給といったメリットがあります。なお、公式通販にセット販売や特典の記載はありません（2026年11月2日確認）。単品であればどのショップでも同価格のため、ポイント還元の高いショップを選ぶのもありです。",
             },
             {
               q: "楽天やAmazonでも正規品を購入できますか？",
-              a: "はい、楽天市場・Amazon・Yahoo!ショッピングでもイッティ公式が出店しており正規品を購入できます。ただし、セット割引の内容は公式サイトと異なる場合があるため、まとめ買いの際は公式サイトの価格と比較することをおすすめします。",
+              a: "はい、楽天市場・Amazon・Yahoo!ショッピングでもイッティ公式が出店しており正規品を購入できます。ただし、価格やポイント還元の内容はショップごとに異なる場合があるため、購入前に公式サイトの価格と比較することをおすすめします。",
             },
             {
               q: "何足セットで買うのが一番お得ですか？",
-              a: "3足セット＋1足無料プレゼント（17,920円）が最もお得です。実質4足で1足あたり4,480円、単品で4足購入する場合と比べて10,000円の節約になります。インソールの交換目安は3〜6ヶ月のため、長期的な使用を考えるとまとめ買いが経済的です。",
+              a: "公式通販にセット販売の記載はありません（2026年11月2日確認）。価格はSサイズ・Mサイズとも1足6,980円（税込）です。インソールの交換目安は3〜6ヶ月のため、使用期間に応じて必要な足数をご検討ください。",
             },
           ].map((item) => (
             <details
@@ -723,7 +622,7 @@ export default function SlimUpInsolePricePage() {
             <li className="flex items-start gap-2">
               <span className="text-emerald-500 mt-0.5 shrink-0" aria-hidden="true">&#10003;</span>
               <span>
-                <strong>最安値</strong>は公式サイトの3足セット＋1足無料（17,920円/1足あたり4,480円）
+                <strong>公式通販の価格</strong>はSサイズ・Mサイズとも1足6,980円（税込）（2026年11月2日確認）
               </span>
             </li>
             <li className="flex items-start gap-2">
@@ -747,7 +646,7 @@ export default function SlimUpInsolePricePage() {
             <li className="flex items-start gap-2">
               <span className="text-emerald-500 mt-0.5 shrink-0" aria-hidden="true">&#10003;</span>
               <span>
-                <strong>セット購入</strong>が圧倒的にお得（3足セットなら単品比で最大10,000円節約）
+                <strong>セット販売</strong>は公式通販に記載なし（2026年11月2日確認）
               </span>
             </li>
           </ul>
@@ -755,13 +654,13 @@ export default function SlimUpInsolePricePage() {
 
         <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-4">
           スリムアップインソール（美容整体師・井上剛志監修）は、どこで買っても単品価格は変わりません。
-          まずは1足試してみたい方はお好みのショップで、
-          継続利用を考えている方は公式サイトのセット割引を活用するのがベストな選択です。
+          普段利用するショップのポイント還元などを比較して選ぶ方法があります。
+          公式通販にセット販売の記載はないため（2026年11月2日確認）、必要な足数を単品で購入する形になります。
         </p>
 
         <p className="text-sm md:text-base text-gray-600 leading-relaxed">
           インソールの効果を実感するには2〜3ヶ月の継続使用が推奨されています。
-          交換サイクルも考慮すると、最初からまとめ買いしておくのが結果的に一番お得で手間もかかりません。
+          交換の目安（3〜6ヶ月）とあわせて、必要な足数をご検討ください。
         </p>
 
         {/* Internal link */}

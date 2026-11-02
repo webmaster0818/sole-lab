@@ -40,7 +40,7 @@ const faqStructuredData = {
       name: "ピットソールとスリムアップインソールはどっちがおすすめ？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "技術力・特許の信頼性を重視するならピットソール、コスパやまとめ買いのお得さを重視するならスリムアップインソールがおすすめです。ピットソールはBMZ社の世界特許技術を搭載し累計200万足の実績があります。スリムアップインソールは整体師監修で3足セット購入時に1足無料となりコスパに優れます。",
+        text: "技術力・特許の信頼性を重視するならピットソール、整体師監修や抗菌防臭加工を重視するならスリムアップインソールがおすすめです。ピットソールはBMZ社の世界特許技術を搭載し累計200万足の実績があります。スリムアップインソールは整体師監修で、抗菌防臭加工が施されています。",
       },
     },
     {
@@ -48,7 +48,7 @@ const faqStructuredData = {
       name: "ピットソールとスリムアップインソールの価格差はどのくらい？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "単品価格はピットソール6,578円、スリムアップインソール6,980円でスリムアップインソールの方がやや高めです。ただしスリムアップインソールは2足セット11,980円（1足5,990円）、3足セット17,920円＋1足無料（実質1足4,480円）とまとめ買い割引が充実しています。",
+        text: "単品価格はピットソール6,578円、スリムアップインソール6,980円でスリムアップインソールの方がやや高めです。スリムアップインソールは公式通販にセット販売の記載がありません（2026年11月2日確認）。",
       },
     },
     {
@@ -64,7 +64,7 @@ const faqStructuredData = {
       name: "両方とも洗えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "どちらも水洗いは推奨されていません。使用後は陰干しで乾燥させるのが基本のお手入れ方法です。スリムアップインソールには抗菌防臭加工が施されているため、臭いが気になる方にはアドバンテージがあります。",
+        text: "ピットソールは水洗いが推奨されておらず、使用後は陰干しで乾燥させるのが基本のお手入れ方法です。スリムアップインソールは、公式通販で「汚れが酷い場合は、中性洗剤等で洗い、しっかりと水でゆすいだ後、影干ししてください。」「（頻繁な水洗いは推奨しておりません。）」と案内されています（2026年11月2日確認）。スリムアップインソールには抗菌防臭加工が施されているため、臭いが気になる方にはアドバンテージがあります。",
       },
     },
   ],
@@ -80,14 +80,14 @@ const comparisonItems = [
   {
     label: "2足セット価格",
     pitsole: "12,364円（6,182円/足）",
-    slimup: "11,980円（5,990円/足）",
-    winner: "slimup" as const,
+    slimup: "公式通販にセット販売の記載なし（2026年11月2日確認）",
+    winner: "pitsole" as const,
   },
   {
     label: "まとめ買いセット",
     pitsole: "4足18,120円（4,530円/足）／6足24,156円（4,026円/足）",
-    slimup: "3足17,920円＋1足無料（実質4,480円/足）",
-    winner: "draw" as const,
+    slimup: "公式通販にセット販売の記載なし（2026年11月2日確認）",
+    winner: "pitsole" as const,
   },
   {
     label: "技術・特許",
@@ -131,7 +131,7 @@ const faqs = [
   {
     question: "ピットソールとスリムアップインソールはどっちがおすすめ？",
     answer:
-      "一概には言えませんが、技術力と実績を重視するならピットソール、コスパとまとめ買いのお得さを重視するならスリムアップインソールがおすすめです。以下の「タイプ別おすすめ」セクションも参考にしてください。",
+      "一概には言えませんが、技術力と実績を重視するならピットソール、整体師監修や抗菌防臭加工を重視するならスリムアップインソールがおすすめです。以下の「タイプ別おすすめ」セクションも参考にしてください。",
   },
   {
     question: "両方を併用することはできますか？",
@@ -243,10 +243,6 @@ export default function PitsoleVsSlimupPage() {
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
-                    複数足をまとめ買いしてコスパ良く使いたい
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
                     整体師監修という専門家のお墨付きが欲しい
                   </li>
                   <li className="flex items-start gap-2">
@@ -255,7 +251,7 @@ export default function PitsoleVsSlimupPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
-                    3足+1足無料でお得にまとめ買いしたい
+                    3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）に関心がある
                   </li>
                 </ul>
               </div>
@@ -361,14 +357,14 @@ export default function PitsoleVsSlimupPage() {
                     <td className="py-3 px-2 text-gray-600">2足セット</td>
                     <td className="py-3 px-2 text-center text-gray-900">12,364円<br /><span className="text-xs text-gray-500">（6,182円/足）</span></td>
                     <td className="py-3 px-2 text-center text-gray-900 font-medium">
-                      <span className="text-emerald-600">11,980円</span><br /><span className="text-xs text-gray-500">（5,990円/足）</span>
+                      <span className="text-gray-500 text-xs">公式通販にセット販売の記載なし（2026年11月2日確認）</span>
                     </td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-2 text-gray-600">まとめ買いセット</td>
                     <td className="py-3 px-2 text-center text-gray-900">4足18,120円<span className="text-xs text-gray-500">（4,530円/足）</span><br />6足24,156円<span className="text-xs text-gray-500">（4,026円/足）</span></td>
                     <td className="py-3 px-2 text-center text-gray-900 font-medium">
-                      <span className="text-emerald-600">3足17,920円＋1足無料</span><br /><span className="text-xs text-gray-500">（実質4,480円/足）</span>
+                      <span className="text-gray-500 text-xs">公式通販にセット販売の記載なし（2026年11月2日確認）</span>
                     </td>
                   </tr>
                 </tbody>
@@ -377,8 +373,8 @@ export default function PitsoleVsSlimupPage() {
             <div className="p-4 bg-amber-50 border border-amber-200 rounded-lg">
               <p className="text-sm text-gray-700 leading-relaxed">
                 <span className="font-bold text-amber-700">価格比較のポイント：</span>
-                単品購入ならピットソールが402円安くお得です。2足セットや実質4足分のまとめ買いではスリムアップインソール（3足＋1足無料で実質4,480円/足）がやや有利ですが、
-                ピットソールの6足セット（24,156円・4,026円/足）まで含めると1足単価の最安はピットソールになります（各公式サイトにて2026年7月確認）。
+                単品購入ならピットソールが402円安くお得です。スリムアップインソールは公式通販にセット販売の記載がないため（2026年11月2日確認）、
+                複数足を購入する場合も1足単価はピットソールが安く、6足セット（24,156円・4,026円/足）が最安になります（ピットソールは公式サイトにて2026年7月確認）。
                 家族で使いたい方や靴ごとに入れ替えたい方は、必要な足数に合わせて選ぶことをおすすめします。
               </p>
             </div>
@@ -433,7 +429,7 @@ export default function PitsoleVsSlimupPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-500 mt-0.5 shrink-0">&#9679;</span>
-                  3つのアーチ（内側縦・外側縦・横）を立体的にサポート
+                  3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-500 mt-0.5 shrink-0">&#9679;</span>
@@ -584,10 +580,6 @@ export default function PitsoleVsSlimupPage() {
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
-                    3足セットで1足無料、コスパ抜群
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
                     YouTube136万人の整体師が監修
                   </li>
                   <li className="flex items-start gap-2">
@@ -646,12 +638,11 @@ export default function PitsoleVsSlimupPage() {
             </div>
             <div className="card border-l-4 border-l-emerald-500">
               <h3 className="text-base font-bold text-gray-900 mb-2">
-                コスパ・まとめ買い重視なら → スリムアップインソール
+                整体師監修の構造を重視するなら → スリムアップインソール
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                複数足をまとめ買いするなら、スリムアップインソールのコスパは圧倒的です。
-                3足セット購入で1足無料になるため、実質1足4,480円。通勤靴・ウォーキングシューズ・休日用と使い分けたい方や、
-                家族で使いたい方にはスリムアップインソールがおすすめです。
+                スリムアップインソールは、美容整体師・井上剛志氏の監修による3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）が特徴です。
+                公式通販にセット販売の記載はないため（2026年11月2日確認）、複数の靴で使う場合は1足6,980円（税込）×足数が目安になります。
               </p>
             </div>
             <div className="card border-l-4 border-l-violet-500">
@@ -671,7 +662,6 @@ export default function PitsoleVsSlimupPage() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 「ダイエットインソール自体が初めてで、まずは1足だけ試したい」という方には、
                 単品価格が6,578円と安いピットソールから始めるのが無難です。
-                効果を実感できてから複数足に移行する段階で、スリムアップインソールのまとめ買いを検討するのも賢い選択です。
               </p>
             </div>
           </div>
@@ -737,10 +727,6 @@ export default function PitsoleVsSlimupPage() {
                     <li className="flex items-start gap-2">
                       <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
                       歩き方が変わった・意識が変わった
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
-                      まとめ買いのコスパが良い
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
@@ -819,7 +805,7 @@ export default function PitsoleVsSlimupPage() {
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-2 text-gray-600">まとめ買いのコスパ</td>
-                    <td className="py-3 px-2 text-center text-emerald-600 font-bold">スリムアップインソール</td>
+                    <td className="py-3 px-2 text-center text-[#8a6a4f] font-bold">ピットソール</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-2 text-gray-600">抗菌防臭</td>
@@ -835,7 +821,7 @@ export default function PitsoleVsSlimupPage() {
             <p className="text-sm text-gray-600 leading-relaxed mb-6">
               ピットソールとスリムアップインソールは、どちらも「足裏アーチのサポートにより正しい姿勢と歩行を促す」という基本設計は共通しています。
               大きな違いは、ピットソールが<span className="font-bold text-gray-900">世界特許の技術力と200万足の販売実績</span>を武器にしているのに対し、
-              スリムアップインソールは<span className="font-bold text-gray-900">整体師監修の専門性とまとめ買いの圧倒的コスパ</span>を強みにしている点です。
+              スリムアップインソールは<span className="font-bold text-gray-900">整体師監修の専門性と抗菌防臭加工</span>を強みにしている点です。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed">
               どちらを選んでも、継続使用が効果実感の鍵です。まずは自分の優先順位を明確にして、合った1足を選んでみてください。

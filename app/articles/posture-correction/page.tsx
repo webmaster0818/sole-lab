@@ -461,7 +461,7 @@ export default function PostureCorrectionPage() {
               <p className="text-xs text-gray-500 mb-1">特許技術</p>
               <p className="text-sm font-medium text-gray-900 mb-2">なし（美容整体師監修）</p>
               <p className="text-xs text-gray-500 mb-1">価格（税込）</p>
-              <p className="text-sm font-medium text-gray-900">単品6,980円・セットなら1足あたり4,480円〜</p>
+              <p className="text-sm font-medium text-gray-900">単品6,980円（公式通販・セット販売の記載なし、2026年11月2日確認）</p>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
