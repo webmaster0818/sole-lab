@@ -17,7 +17,7 @@ const structuredData = {
   headline: "教員・先生の立ち仕事におすすめのインソール｜上履きの薄い中敷き対策",
   description:
     "授業で立ちっぱなし、校内を歩き回る教員・先生へ。中敷きが薄い上履きでも使えるインソールの選び方と、足の疲れ・むくみ対策、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ダイエットインソールのビフォーアフターの現実｜写真の見方と正しい期待値",
   description:
     "ダイエットインソールのビフォーアフター写真は信じていい？劇的な変化をうたう画像の注意点と、インソールで現実的に期待できる変化を客観的に解説。誇大広告に惑わされないための知識。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

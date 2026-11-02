@@ -17,7 +17,7 @@ const structuredData = {
   headline: "太もも痩せにインソールは効く？姿勢と歩き方から考える方法",
   description:
     "太もも痩せにダイエットインソールは使える？前ももの張り・歩き方のクセとの関係、姿勢を整えるインソールの使い方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-12",

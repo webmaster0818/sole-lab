@@ -18,7 +18,7 @@ const structuredData = {
   headline: "スリッポンに合うインソールの選び方｜かかと脱げと前滑りを抑える",
   description:
     "ひもがなくサッと履けるスリッポンは、フィット調整ができず足が中で滑りやすい靴。かかと脱げ・前滑りを抑えるインソールの選び方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

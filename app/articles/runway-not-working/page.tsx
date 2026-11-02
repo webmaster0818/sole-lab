@@ -28,7 +28,7 @@ const structuredData = {
     "ランウェイキュアソールは痩せない？効果の真相と正しい期待値",
   description:
     "ランウェイキュアソールは本当に痩せないのか？口コミを徹底分析し、効果が出ない原因と正しい期待値を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

@@ -17,7 +17,7 @@ const structuredData = {
   headline: "衝撃吸収型とアーチサポート型インソールの違い｜どっちを選ぶべき？",
   description:
     "インソールの2大タイプ「衝撃吸収型」と「アーチサポート型」は何が違う？仕組み・向いている人・デメリットを比較し、目的別の選び方と両立タイプの考え方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

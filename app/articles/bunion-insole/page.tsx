@@ -29,7 +29,7 @@ const structuredData = {
     "外反母趾にインソールは効果ある？痛みを軽減するおすすめと注意点",
   description:
     "外反母趾の原因・症状を解説し、インソールによる改善メカニズム・おすすめ商品・選び方・受診目安をまとめたガイド。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

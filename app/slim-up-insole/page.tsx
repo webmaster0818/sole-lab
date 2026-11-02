@@ -41,7 +41,7 @@ const reviewStructuredData = {
     "スリムアップインソールの口コミ・評判と効果を検証【整体師監修・2026年10月】",
   description:
     "美容整体師・井上剛志監修のスリムアップインソールを検証。口コミ・評判・効果・最安値情報まで詳しく解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

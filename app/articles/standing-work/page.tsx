@@ -18,7 +18,7 @@ const structuredData = {
   headline: "立ち仕事で足が疲れない最強インソール3選【2026年】",
   description:
     "立ち仕事で足が疲れないインソールを厳選紹介。選び方・疲れ軽減の仕組み・おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

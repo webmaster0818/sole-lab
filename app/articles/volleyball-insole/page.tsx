@@ -17,7 +17,7 @@ const structuredData = {
   headline: "バレーボールに向くインソールの選び方｜連続ジャンプの着地衝撃をやわらげる",
   description:
     "スパイク・ブロックで連続ジャンプを繰り返すバレーボールに向くインソールは？着地衝撃の吸収と踏み切りを支える選び方、体育館シューズでの使い方、おすすめ3選を解説。膝や足裏の負担が気になる方に。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

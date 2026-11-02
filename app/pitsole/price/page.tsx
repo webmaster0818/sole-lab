@@ -21,7 +21,7 @@ const structuredData = {
     "ピットソールの最安値は？どこで買える？販売店比較【2026年】",
   description:
     "ピットソール(Pitsole)の最安値・販売店を比較。公式サイト・楽天・Amazonの価格差、セット割引の詳細、偽物リスクまで解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

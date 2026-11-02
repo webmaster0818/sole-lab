@@ -24,7 +24,7 @@ const structuredData = {
   headline: "ピットソール サイズ別実寸レビュー｜フィット感を検証",
   description:
     "ピットソールのXS〜L 4サイズの実寸を計測し、フィット感を徹底レビューします。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

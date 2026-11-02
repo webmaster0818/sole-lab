@@ -18,7 +18,7 @@ const structuredData = {
   headline: "靴量販店（ABCマート等）のインソールはダイエットに使える？専用品との違い",
   description:
     "ABCマートをはじめとする靴量販店のインソールはダイエットに使える？靴と同時に選べる量販店ならではの特徴と、姿勢・歩行を整えるダイエット専用設計との目的の違い、選び分けを解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

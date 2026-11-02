@@ -17,7 +17,7 @@ const structuredData = {
   headline: "基礎代謝とインソールの関係｜姿勢・歩行でエネルギー消費を増やす考え方",
   description:
     "基礎代謝を上げたい方へ。姿勢・歩行と消費エネルギーの関係、体幹や下半身を使いやすくするインソールの考え方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

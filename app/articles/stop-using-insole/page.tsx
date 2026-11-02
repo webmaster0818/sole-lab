@@ -18,7 +18,7 @@ const structuredData = {
   headline: "インソールをやめたらどうなる？依存の不安と正しいやめ方",
   description:
     "インソールを使うのをやめたら足は元に戻る？「インソールに依存して足が弱くなる」という不安の真相、筋力維持には運動が本質という整理、やめてよい場合と続けるべき場合を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

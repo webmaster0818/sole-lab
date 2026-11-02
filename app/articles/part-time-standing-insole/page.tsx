@@ -18,7 +18,7 @@ const structuredData = {
   headline: "立ち仕事のバイト・パートにおすすめのインソール｜長時間シフトの疲れ対策",
   description:
     "コンビニ・飲食・レジなど立ち仕事のアルバイト・パートで足が疲れる方へ。長時間シフトの疲れをやわらげるインソールの選び方、指定靴への入れ方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ジム・筋トレ時のインソールの選び方｜種目で変わる足元の役割",
   description:
     "ジムでのトレーニング中、足元を意識していますか？マシン・フリーウェイト・有酸素マシンそれぞれで足裏に求められる役割と、インソールの選び方・使い分け、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

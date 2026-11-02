@@ -17,7 +17,7 @@ const structuredData = {
   headline: "坐骨神経痛にインソールは効く？歩行の衝撃と姿勢から考える対策",
   description:
     "お尻から脚にかけて痛む坐骨神経痛にインソールは使える？歩行衝撃・脚長差・骨盤の傾きとの関係と、インソールでできる負担軽減、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

@@ -21,7 +21,7 @@ const structuredData = {
     "骨盤矯正インソールの効果を科学的に解説",
   description:
     "骨盤の歪みの原因とインソールによる矯正メカニズムを科学的に解説。選び方・おすすめ商品・効果を高める習慣まで網羅。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

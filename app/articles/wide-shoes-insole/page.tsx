@@ -18,7 +18,7 @@ const structuredData = {
   headline: "幅広・3Eの靴のインソールの選び方｜開張足・甲高幅広の足に",
   description:
     "足の幅が広い・甲高で靴が窮屈な方へ。幅広3Eの靴に合うインソールの選び方、開張足・横アーチサポートのポイント、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-07",

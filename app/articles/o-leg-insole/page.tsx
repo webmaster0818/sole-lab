@@ -29,7 +29,7 @@ const structuredData = {
     "O脚改善にインソールは効果ある？おすすめと選び方ガイド",
   description:
     "O脚の原因・タイプを解説し、インソールでO脚が改善するメカニズム・おすすめの選び方をまとめたガイド。「逆効果になるのでは？」という不安への回答、避けるべき使い方も紹介します。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

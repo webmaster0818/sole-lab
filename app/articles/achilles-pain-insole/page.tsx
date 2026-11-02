@@ -19,7 +19,7 @@ const structuredData = {
   headline: "アキレス腱炎のインソールおすすめ3選と選び方｜ヒールアップで腱の負担を軽く",
   description:
     "アキレス腱炎のインソールは、かかとをわずかに上げるヒールアップとかかとのクッション性で選びます。おすすめ3選と選び方3つのポイントを解説。インソールは治療の代わりではないため、痛みが続く場合は整形外科を受診してください。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-10-19",

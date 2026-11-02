@@ -17,7 +17,7 @@ const structuredData = {
   headline: "股関節痛にインソールは効く？脚長差と左右バランスから考える対策",
   description:
     "歩くと股関節が痛む方へ。脚長差や足元の崩れが股関節に与える影響と、インソールでできる負担軽減・左右バランスの補正、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

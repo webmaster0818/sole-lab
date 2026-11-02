@@ -24,7 +24,7 @@ const structuredData = {
   headline: "インソールの寿命と交換時期｜何ヶ月で替えるべき？劣化サインも解説",
   description:
     "インソールの寿命と交換時期を解説。素材別の耐用期間、劣化のサイン、交換を怠るリスクまで詳しく紹介。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

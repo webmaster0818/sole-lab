@@ -17,7 +17,7 @@ const structuredData = {
   headline: "倉庫作業・ピッキングにおすすめのインソール｜コンクリ床の歩き回り対策",
   description:
     "広いコンクリート床の倉庫を一日中歩き回るピッキング・仕分け作業の方へ。長距離歩行と重量物の負担をやわらげるインソールの選び方、安全靴対応、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

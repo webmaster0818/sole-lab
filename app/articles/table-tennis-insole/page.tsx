@@ -18,7 +18,7 @@ const structuredData = {
   headline: "卓球に向くインソールの選び方｜低い姿勢と前足部の負担をやわらげる",
   description:
     "前後左右の細かいフットワークを繰り返す卓球。低い姿勢での前足部荷重と横ステップに対応するインソールの選び方、軽量な卓球シューズに合う薄型、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

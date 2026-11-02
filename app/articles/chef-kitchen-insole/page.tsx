@@ -18,7 +18,7 @@ const structuredData = {
   headline: "調理師・厨房スタッフにおすすめのインソール｜コックシューズの疲れ対策",
   description:
     "濡れた硬い床で立ちっぱなしの調理師・厨房スタッフへ。コックシューズ・厨房シューズと相性の良いインソールの選び方、蒸れ・衛生面の対策、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

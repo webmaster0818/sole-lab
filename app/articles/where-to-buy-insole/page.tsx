@@ -18,7 +18,7 @@ const structuredData = {
   headline: "ダイエットインソールは市販でどこで売ってる？販売店まとめと選び方",
   description:
     "ダイエットインソールはどこで買える？ドラッグストア・ドンキ・ニトリ・無印・ワークマン・東急ハンズなど市販の販売店と、通販との違いを比較して解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-05",

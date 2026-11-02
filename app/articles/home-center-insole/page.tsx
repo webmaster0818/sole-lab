@@ -18,7 +18,7 @@ const structuredData = {
   headline: "ホームセンターのインソールはダイエットに使える？作業用との目的の違い",
   description:
     "カインズやコーナンなどホームセンターのインソールはダイエットに使える？作業靴・安全靴向けが中心という売り場の一般的な特徴と、ダイエット専用設計との目的の違い、選び分けを解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

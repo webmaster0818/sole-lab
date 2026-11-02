@@ -21,7 +21,7 @@ const structuredData = {
     "ピットソール vs ランウェイキュアソール比較！どっちがおすすめ？",
   description:
     "ピットソールとランウェイキュアソールを料金・サイズ・技術・口コミの4軸で比較。それぞれの強みと弱みを客観的に解説します。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

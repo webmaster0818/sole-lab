@@ -17,7 +17,7 @@ const structuredData = {
   headline: "販売員・アパレル店員の足の疲れにおすすめのインソール",
   description:
     "接客で一日中立ちっぱなしの販売員・アパレル店員さんへ。足の疲れ・むくみをやわらげ、おしゃれな靴に響かない薄型インソールの選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

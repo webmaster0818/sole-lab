@@ -27,7 +27,7 @@ const structuredData = {
     "ピットソールの効果はいつから？期間別ビフォーアフター検証",
   description:
     "ピットソールの効果はいつから実感できる？期間別変化タイムラインを臨床データと口コミで検証。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

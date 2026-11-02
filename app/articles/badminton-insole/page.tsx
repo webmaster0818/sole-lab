@@ -18,7 +18,7 @@ const structuredData = {
   headline: "バドミントンのインソールの選び方｜反復ジャンプとフットワークを支える",
   description:
     "バドミントンでフットワークを支えたい・足を守りたい方へ。反復ジャンプと素早い動きの衝撃を吸収するインソールの選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

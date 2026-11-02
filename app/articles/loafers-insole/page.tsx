@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ローファーに合うインソールの選び方｜脱げやすさと硬い底の疲れ対策",
   description:
     "通学や通勤で履くローファーは底が硬く平らで、足が疲れやすい靴。ひもがない靴特有の脱げやすさ・中敷きのズレを防ぐインソールの選び方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

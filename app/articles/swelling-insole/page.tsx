@@ -31,7 +31,7 @@ const structuredData = {
     "足のむくみ改善にインソールが効果的な理由｜おすすめと対策",
   description:
     "足のむくみの原因とインソールによる改善メカニズムを解説し、おすすめ商品とむくみ対策をまとめたガイド。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

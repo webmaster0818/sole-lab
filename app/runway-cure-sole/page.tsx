@@ -30,7 +30,7 @@ const structuredData = {
     "ランウェイキュアソールの口コミ・評判を検証｜どこで売ってる？外反母趾でも使える？",
   description:
     "ランウェイキュアソールの口コミ・評判・効果を検証。販売店情報（市販・ドンキ・通販）、外反母趾への対応、メリット・デメリット、最安値情報まで。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

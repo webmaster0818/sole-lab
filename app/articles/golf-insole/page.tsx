@@ -25,7 +25,7 @@ const structuredData = {
   headline: "ゴルフ用インソールおすすめ5選｜スイング安定の足元改善",
   description:
     "ゴルフ用インソールのおすすめ5選を紹介。スイング時の安定性向上・足の疲れ軽減に最適なインソールの選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

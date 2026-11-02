@@ -17,7 +17,7 @@ const structuredData = {
   headline: "タコ・魚の目にインソールは効く？圧の偏りを分散する選び方",
   description:
     "足裏のタコ・魚の目を繰り返す方へ。タコができる原因＝荷重の偏りと、圧を分散するインソールの選び方、おすすめ3選を解説。再発を防ぎたい方に。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-10",

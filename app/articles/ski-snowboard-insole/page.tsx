@@ -17,7 +17,7 @@ const structuredData = {
   headline: "スキー・スノーボードに向くインソールの選び方｜ブーツ内の足の疲れ対策",
   description:
     "ブーツに固定された足が疲れる・足裏がつる・つま先が冷える——スキー・スノーボードのブーツ内環境に合うインソールの選び方、サイズ調整のコツ、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

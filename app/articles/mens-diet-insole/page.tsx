@@ -28,7 +28,7 @@ const structuredData = {
     "ダイエットインソール男性向けおすすめ3選｜メンズの選び方ガイド",
   description:
     "男性向けダイエットインソールのおすすめ3選。メンズの選び方とビジネスシューズとの相性を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

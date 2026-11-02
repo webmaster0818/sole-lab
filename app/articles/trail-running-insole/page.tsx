@@ -17,7 +17,7 @@ const structuredData = {
   headline: "トレイルランニングに向くインソールの選び方｜不整地と下りの衝撃に備える",
   description:
     "岩や木の根の不整地を走るトレイルランニング。足首のぐらつきを抑える後足部の安定性と、下りの衝撃吸収を備えたインソールの選び方、おすすめ3選を解説。捻挫が不安な方に。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ダイエットインソールのデメリット・注意点｜向かない人と後悔しない選び方",
   description:
     "ダイエットインソールのデメリットや注意点を客観的に解説。効果が出にくい人の特徴、合わない場合のリスク、後悔しないための選び方をまとめました。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

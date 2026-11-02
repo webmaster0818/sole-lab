@@ -17,7 +17,7 @@ const structuredData = {
   headline: "マラソン・長距離走に向くインソールの選び方｜数万回の着地衝撃に備える",
   description:
     "フルマラソンでは数万回の着地衝撃が足にかかります。レース後半のアーチ低下・足裏のマメ・膝の負担に備えるインソールの選び方とおすすめ3選を解説。長い距離を走る市民ランナーの方に。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

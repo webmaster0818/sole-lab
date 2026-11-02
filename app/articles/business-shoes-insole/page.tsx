@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ビジネスシューズ・革靴のインソールの選び方｜通勤の足の疲れ・蒸れ対策",
   description:
     "通勤や外回りで足が疲れる・蒸れるビジネスマンへ。革靴に合う薄型でアーチを支えるインソールの選び方、消臭・衝撃吸収のポイント、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

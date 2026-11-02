@@ -18,7 +18,7 @@ const structuredData = {
   headline: "しまむら等衣料チェーンのインソールはダイエットに使える？低価格品との違い",
   description:
     "しまむらなどの衣料チェーンでインソールは買える？低価格の靴・小物と一緒に選べる衣料チェーンの一般的な特徴と、ダイエット専用設計との目的の違い、選び分けを解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

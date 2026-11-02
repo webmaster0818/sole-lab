@@ -18,7 +18,7 @@ const structuredData = {
   headline: "インソールでヒップアップは可能？姿勢・歩き方から見た見た目の変化",
   description:
     "インソールでヒップアップできる？お尻の筋肉を直接鍛えるものではないが、姿勢や歩き方が整うと見た目の印象が変わることはある。部分痩せは断定せず、現実的な範囲と選び方を客観的に解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

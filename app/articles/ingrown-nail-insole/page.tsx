@@ -17,7 +17,7 @@ const structuredData = {
   headline: "巻き爪にインソールは使える？まず受診、そして足指を使う歩きの補助に",
   description:
     "巻き爪・陥入爪が痛む方へ。まず皮膚科・形成外科の受診が第一選択です。そのうえで、足指が地面に接して歩ける状態を支えるインソールの補助的な役割と選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

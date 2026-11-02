@@ -18,7 +18,7 @@ const structuredData = {
   headline: "インソールで足首すっきり？むくみケアと歩き方からのサポート",
   description:
     "インソールで足首はすっきりする？脂肪を落とすものではないが、歩行が安定してふくらはぎが働きやすくなるとむくみケアの助けに。部分痩せは断定せず現実的な範囲と選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

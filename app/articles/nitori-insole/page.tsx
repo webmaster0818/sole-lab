@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ニトリのインソールはダイエットに使える？取り扱いと専用品の違い",
   description:
     "ニトリにダイエットインソールはある？ニトリのインソールの特徴と、ダイエット目的の専用品との違い、目的別の選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

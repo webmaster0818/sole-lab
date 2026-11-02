@@ -17,7 +17,7 @@ const structuredData = {
   headline: "インソールのサポート強度の選び方｜ソフト・ミディアム・ハードの違い",
   description:
     "インソールのサポート強度（硬さ・アーチの支え）はどう選ぶ？強いほど良いわけではない理由、初心者・立ち仕事・スポーツ別の目安、強すぎるサインと弱すぎるサインを解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

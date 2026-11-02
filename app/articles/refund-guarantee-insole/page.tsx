@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ダイエットインソールの返金保証・解約の注意点｜定期購入で損しないコツ",
   description:
     "ダイエットインソールの返金保証や定期購入の解約で損しないために。保証の条件・解約のタイミング・注意点をわかりやすく解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-02",

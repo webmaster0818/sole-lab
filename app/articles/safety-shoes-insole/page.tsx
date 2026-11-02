@@ -17,7 +17,7 @@ const structuredData = {
   headline: "安全靴のインソールの選び方｜薄型で足の疲れ・痛みを軽くする",
   description:
     "安全靴で足が疲れる・痛い方へ。中が狭い安全靴に入る薄型インソールの選び方、衝撃吸収・耐久性のポイント、おすすめ3選を解説。工場・建設・物流に。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

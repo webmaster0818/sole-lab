@@ -29,7 +29,7 @@ const structuredData = {
     "ピットソールの口コミ・評判を検証｜悪い口コミと効果の実態【2026年10月】",
   description:
     "ピットソール(Pitsole)の口コミ・評判を調査。悪い口コミ・良い口コミの両面から効果を検証し、最安値情報や偽物の見分け方まで解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

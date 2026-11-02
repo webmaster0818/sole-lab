@@ -17,7 +17,7 @@ const structuredData = {
   headline: "看護師の足の疲れにおすすめのインソール｜ナースシューズ対応の選び方",
   description:
     "院内を歩き回り立ちっぱなしの看護師さんへ。夜勤・長時間勤務の足の疲れ・むくみをやわらげるインソールの選び方、ナースシューズに合う薄型、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

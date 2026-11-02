@@ -18,7 +18,7 @@ const structuredData = {
   headline: "スーパーフィートのインソールはどんな人向け？ダイエット目的との使い分けガイド",
   description:
     "米国発のインソールブランド「スーパーフィート（Superfeet）」はどんな人向け？公式情報に基づくヒールカップ・足病医学由来の設計の特徴と、ダイエット・ボディメイク目的のインソールとの違いを中立に解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

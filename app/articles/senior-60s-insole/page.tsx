@@ -18,7 +18,7 @@ const structuredData = {
   headline: "60代からのインソールの選び方｜歩行の安定と毎日の外出をサポート",
   description:
     "60代以上の方のインソール選びを解説。加齢で扁平になりやすい足のアーチを支え、毎日のウォーキングや外出の歩行をサポート。バランスの補助や膝・腰への負担軽減の考え方も。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

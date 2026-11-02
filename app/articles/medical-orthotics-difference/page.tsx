@@ -17,7 +17,7 @@ const structuredData = {
   headline: "市販インソールと医療用足底板（足底装具）の違い｜どちらを選ぶべき？",
   description:
     "市販インソールと医療用の足底板（足底装具）は何が違う？医師の処方・義肢装具士による作製・健康保険の療養費支給制度の概要と、市販品でよい場合・受診すべき場合の線引きを解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

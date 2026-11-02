@@ -18,7 +18,7 @@ const structuredData = {
   headline: "薬剤師におすすめのインソール｜調剤室の立ちっぱなし・むくみ対策",
   description:
     "調剤台の前でほとんど動かず立ち続ける薬剤師・医療系スタッフへ。動きの少ない立ち仕事特有のむくみ・足裏の疲れをやわらげるインソールの選び方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

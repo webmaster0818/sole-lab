@@ -17,7 +17,7 @@ const structuredData = {
   headline: "室内・在宅ワークでのインソール活用法｜靴を履かない時間こそ足のケアを",
   description:
     "在宅ワークで靴を履かない時間が長い方へ。スリッパや素足の室内時間に足のアーチをケアする方法、室内で使いやすいソックス型インソールという選択肢、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

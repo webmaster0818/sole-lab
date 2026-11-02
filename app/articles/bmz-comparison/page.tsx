@@ -18,7 +18,7 @@ const structuredData = {
   headline: "BMZのインソールはどんな人向け？ピットソールとの関係と使い分けガイド",
   description:
     "キュボイドバランス理論で知られるBMZのインソールはどんな人向け？公式情報に基づく立方骨サポートの特徴、ピットソールとの関係（特許技術の採用）、ダイエット目的との使い分けを中立に解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

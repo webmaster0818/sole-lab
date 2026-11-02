@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ワークマンのインソールはダイエットに使える？特徴と専用品との違い",
   description:
     "ワークマンのインソールはコスパ抜群？立ち仕事・作業向けの特徴と、ダイエット目的のインソールとの違いを比較。目的別の選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-07",

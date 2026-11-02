@@ -23,7 +23,7 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "ダイエットインソールの効果的な歩き方｜消費カロリーを最大化する方法",
   description: "ダイエットインソールの効果を最大化する歩き方を解説。消費カロリーを向上させる方法を紹介。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",

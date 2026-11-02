@@ -21,7 +21,7 @@ const structuredData = {
     "猫背を改善するインソールの選び方【姿勢矯正ガイド】",
   description:
     "猫背の原因と足元の関係を解説し、姿勢矯正インソールの選び方・おすすめ商品を紹介。猫背改善の総合ガイド。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

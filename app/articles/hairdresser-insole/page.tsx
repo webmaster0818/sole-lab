@@ -18,7 +18,7 @@ const structuredData = {
   headline: "美容師の足の疲れにおすすめのインソール｜立ちっぱなしの負担対策",
   description:
     "一日中立ちっぱなしの美容師・理容師さんへ。硬い床での足の疲れ・むくみをやわらげるインソールの選び方、見た目に響かない薄型、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

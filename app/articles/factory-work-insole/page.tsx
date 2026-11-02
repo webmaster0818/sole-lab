@@ -18,7 +18,7 @@ const structuredData = {
   headline: "工場の立ち仕事の足の疲れにおすすめのインソール｜安全靴対応の選び方",
   description:
     "コンクリート床で立ちっぱなしの工場勤務・ライン作業の方へ。硬い床の衝撃と足の疲れをやわらげるインソールの選び方、安全靴対応、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-10-23",

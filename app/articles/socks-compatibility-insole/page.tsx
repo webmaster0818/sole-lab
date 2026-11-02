@@ -18,7 +18,7 @@ const structuredData = {
   headline: "インソールと靴下の相性ガイド｜5本指ソックス・厚手・ストッキング別の注意点",
   description:
     "インソールの効果は靴下で変わる？厚手靴下・5本指ソックス・ストッキング・素足それぞれの相性と注意点、ソックス型インソールと靴下の関係まで解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

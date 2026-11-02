@@ -21,7 +21,7 @@ const structuredData = {
     "ピットソール vs スリムアップインソール比較！違いと選び方",
   description:
     "ピットソールとスリムアップインソールを価格・効果・技術・サイズ・口コミの5項目で比較。あなたに合ったダイエットインソールの選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

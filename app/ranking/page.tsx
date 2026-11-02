@@ -22,7 +22,7 @@ const structuredData = {
     "ダイエットインソールおすすめランキング3選【2026年10月更新】効果・口コミ・類似品比較まで解説",
   description:
     "ピットソール・ランウェイキュアソール・スリムアップインソールをランキング形式で比較。料金・特許技術・口コミ・市販の取扱状況まで詳しく解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

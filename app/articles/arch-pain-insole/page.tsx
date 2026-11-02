@@ -19,7 +19,7 @@ const structuredData = {
   headline: "土踏まずが痛い時のインソールの選び方｜張り・疲労の原因と対策",
   description:
     "歩くと土踏まずが痛い・張る・つりそうになる方へ。アーチを支える筋肉や腱の使いすぎとの関係、土踏まずの負担を減らすインソールの選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

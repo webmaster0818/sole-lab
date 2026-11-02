@@ -45,7 +45,7 @@ const articleStructuredData = {
     "スリムアップインソールの最安値・販売店情報【2026年】",
   description:
     "スリムアップインソールの最安値・販売店情報を調査。公式サイト・楽天・Amazon・Yahooの価格比較を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

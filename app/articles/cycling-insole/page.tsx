@@ -18,7 +18,7 @@ const structuredData = {
   headline: "ロードバイク・自転車のインソールの選び方｜ペダリング効率と足裏のしびれ対策",
   description:
     "ロードバイク・自転車で疲れにくく・効率よく漕ぎたい方へ。ペダリングの力の伝達を高め、足裏のしびれを防ぐインソールの選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

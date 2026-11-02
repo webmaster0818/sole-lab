@@ -19,7 +19,7 @@ const structuredData = {
   headline: "ハイアーチ（凹足）に向くインソールの選び方｜衝撃集中をやわらげる",
   description:
     "土踏まずが高いハイアーチ・凹足の方へ。扁平足とは逆に衝撃が一点に集中しやすい足の特徴と、クッション重視のインソールの選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-10",

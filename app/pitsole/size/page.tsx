@@ -21,7 +21,7 @@ const structuredData = {
     "ピットソールのサイズ選びガイド【失敗しない切り方も解説】",
   description:
     "ピットソール(Pitsole)のサイズ選び・切り方を解説。XS〜XLの全サイズ一覧、靴別のフィッティング、正しいカット手順、サイズが合わない場合の交換方法まで。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

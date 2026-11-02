@@ -26,7 +26,7 @@ const structuredData = {
   headline: "インソールと膝痛の関係｜歩行姿勢の改善で膝への負担を軽減",
   description:
     "インソールで膝痛を軽減する方法を解説。歩行姿勢の改善で膝への負担を軽減するメカニズムを紹介。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
   dateModified: "2026-05-17",

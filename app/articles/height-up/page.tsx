@@ -24,7 +24,7 @@ const structuredData = {
   headline: "インソールで身長アップ？シークレットインソールの効果と注意点",
   description:
     "シークレットインソールの効果と注意点を解説。身長アップの仕組み、バレないための選び方、姿勢改善との関係まで。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

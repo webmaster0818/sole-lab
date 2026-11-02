@@ -17,7 +17,7 @@ const structuredData = {
   headline: "体幹を意識するインソールとは？バランス・姿勢への効果",
   description:
     "体幹を意識したい方へ。不安定な足元と体幹の関係、バランス・姿勢を整えるインソールの考え方と使い方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

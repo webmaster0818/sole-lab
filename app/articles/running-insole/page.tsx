@@ -24,7 +24,7 @@ const structuredData = {
   headline: "ランニング用インソールおすすめ5選｜走る人向けの選び方ガイド",
   description:
     "ランニング用インソールのおすすめ5選を紹介。走行時の衝撃吸収・膝や足裏の負担軽減に最適なインソールの選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

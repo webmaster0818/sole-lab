@@ -25,7 +25,7 @@ const structuredData = {
   headline: "100均インソール vs 高機能インソール｜比較テスト",
   description:
     "100均インソールと高機能インソールを比較。クッション性・耐久性・ダイエット効果・コスパを検証します。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

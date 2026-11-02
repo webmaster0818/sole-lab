@@ -17,7 +17,7 @@ const structuredData = {
   headline: "足がだるい・疲れやすい人のインソールの選び方｜夕方の重だるさをやわらげる",
   description:
     "夕方になると足がだるい・重い・疲れが抜けない方へ。アーチの沈み込みと筋疲労の関係、疲労感をやわらげるインソールの選び方、おすすめ3選を解説。立ち仕事・歩き仕事の方に。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

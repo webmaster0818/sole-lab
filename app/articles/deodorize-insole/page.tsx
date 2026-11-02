@@ -17,7 +17,7 @@ const structuredData = {
   headline: "インソールの防臭・消臭ケア｜臭くなる原因と毎日できるニオイ対策",
   description:
     "インソールが臭くなる原因は雑菌と湿気。毎日の陰干し・ローテーション・靴下選び・消臭スプレーの使い方など、洗わずにできる防臭ケアの習慣と、ニオイにくいインソールの選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

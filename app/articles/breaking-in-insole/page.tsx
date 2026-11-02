@@ -17,7 +17,7 @@ const structuredData = {
   headline: "インソールに慣れるまで痛い・違和感がある時の対処法",
   description:
     "インソールを入れたら痛い・違和感がある——慣らし期間の目安と対処法、無理せず使うコツ、合わない場合の見極めを解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-10",

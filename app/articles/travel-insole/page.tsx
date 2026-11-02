@@ -17,7 +17,7 @@ const structuredData = {
   headline: "旅行・観光の歩き疲れに向くインソールの選び方｜普段の何倍も歩く日に備える",
   description:
     "観光の日は気づけば普段の何倍も歩いています。旅行先での足の疲れ・むくみを軽くするインソールの選び方、旅行前の慣らし方、荷物にならない携行のコツ、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-07-12",

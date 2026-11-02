@@ -18,7 +18,7 @@ const structuredData = {
   headline: "バスケのインソールの選び方｜ジャンプの着地衝撃と足首保護",
   description:
     "バスケットボールでパフォーマンスを上げたい・足を守りたい方へ。ジャンプの着地衝撃を吸収し足首を安定させるインソールの選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-12",

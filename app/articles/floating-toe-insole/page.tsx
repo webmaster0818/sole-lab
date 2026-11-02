@@ -17,7 +17,7 @@ const structuredData = {
   headline: "浮き指に向くインソールの選び方｜足指が接地する歩きを取り戻す",
   description:
     "立っているとき・歩くときに足指が地面に着かない『浮き指』の方へ。指の付け根とかかとに負担が集中する仕組みと、足指を使える状態を支えるインソールの選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

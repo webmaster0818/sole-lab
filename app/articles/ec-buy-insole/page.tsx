@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ダイエットインソールはAmazon・楽天どっちで買う？比較と注意点",
   description:
     "ダイエットインソールをAmazonと楽天で買うときの違いは？価格・ポイント・正規品保証・返金保証の比較と、安全に買うための注意点を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

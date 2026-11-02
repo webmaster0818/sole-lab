@@ -28,7 +28,7 @@ const structuredData = {
     "産後ダイエットにインソールは効果ある？骨盤ケア×歩行で痩せる方法",
   description:
     "産後の体型変化を解説し、インソールが産後ダイエットに効く理由とおすすめ商品・ウォーキング法をまとめたガイド。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

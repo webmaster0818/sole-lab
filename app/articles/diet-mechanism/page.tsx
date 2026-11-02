@@ -20,7 +20,7 @@ const structuredData = {
     "インソール（中敷き）で痩せるのは本当？ダイエットインソールの効果と仕組みを客観的に検証",
   description:
     "結論、インソール（中敷き）だけで痩せるわけではありません。「履くだけで痩せる」と言われる仕組みと限界、期待できる効果を客観的に検証します。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

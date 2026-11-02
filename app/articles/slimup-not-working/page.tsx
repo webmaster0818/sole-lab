@@ -28,7 +28,7 @@ const structuredData = {
     "スリムアップインソールは痩せない？口コミから効果を検証",
   description:
     "スリムアップインソールは本当に痩せないのか？口コミを徹底分析し、効果が出ない原因と正しい使い方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

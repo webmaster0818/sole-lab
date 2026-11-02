@@ -18,7 +18,7 @@ const structuredData = {
   headline: "筋トレとインソールの併用｜姿勢を整えて運動の質を高める考え方",
   description:
     "ダイエットの筋トレとインソールを併用するとどうなる？インソールは痩せる道具ではなく、立ち方・歩き方を整えて日常活動と運動を支える補助。併用の考え方と選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

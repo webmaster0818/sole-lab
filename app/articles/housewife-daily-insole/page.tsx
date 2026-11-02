@@ -18,7 +18,7 @@ const structuredData = {
   headline: "家事・買い物の足の疲れにおすすめのインソール｜毎日使いの選び方",
   description:
     "キッチンでの立ち仕事、掃除に洗濯、買い物の往復。家事の一日は意外なほど足を使います。毎日の家事・買い物の疲れをやわらげるインソールの選び方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

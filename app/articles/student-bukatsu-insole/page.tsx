@@ -17,7 +17,7 @@ const structuredData = {
   headline: "中高生の部活にインソールは必要？成長期の足を守る選び方",
   description:
     "毎日の部活で足を酷使する中高生へ。成長期の足の特徴と注意点、練習量との付き合い方、サイズ対応の検証にもとづく情報（21cm〜）を踏まえたインソールの選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

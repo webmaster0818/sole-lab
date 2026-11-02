@@ -18,7 +18,7 @@ const structuredData = {
   headline: "内反小趾に向くインソールの選び方｜小指の付け根の痛みと変形対策",
   description:
     "足の小指が内側（親指側）に曲がり、小指の付け根が靴に当たって痛む内反小趾の方へ。横アーチの低下との関係と、進行を抑えるインソールの選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

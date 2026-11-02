@@ -18,7 +18,7 @@ const structuredData = {
   headline: "かかとの角質・ガサガサにインソールは関係ある？摩擦と荷重から考える対策",
   description:
     "かかとの角質が硬くなる・ガサガサ・ひび割れに悩む方へ。乾燥だけでなく摩擦と荷重の偏りも角質を厚くする原因。保湿ケアとあわせたインソールの補助的な使い方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

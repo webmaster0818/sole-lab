@@ -19,7 +19,7 @@ const structuredData = {
   headline: "シンスプリントに向くインソールの選び方｜過回内を抑えてすねの痛みを軽減",
   description:
     "すねの内側が痛むシンスプリントにインソールは有効？オーバープロネーション（過回内）を抑えるアーチサポートの役割と選び方、おすすめ3選を解説。ランナー・部活生に。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-10",

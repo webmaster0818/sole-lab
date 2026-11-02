@@ -17,7 +17,7 @@ const structuredData = {
   headline: "開張足に向くインソールの選び方｜横アーチを支えて足幅の広がりを抑える",
   description:
     "足の幅が広がる・足裏の前方にタコができる開張足の方へ。低下した横アーチを支えるインソールの選び方と、外反母趾やモートン病との関係、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-09",

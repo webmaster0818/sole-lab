@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ダイエットインソールの効果的な使い方｜正しい歩き方と続け方",
   description:
     "ダイエットインソールの効果を最大化する使い方を解説。入れ方・慣らし方・正しい歩き方・続け方のコツと、やりがちなNGをまとめました。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-12",

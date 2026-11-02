@@ -18,7 +18,7 @@ const structuredData = {
   headline: "シダスのインソールはどんな人向け？ダイエット目的との使い分けガイド",
   description:
     "フランス発のインソールブランド「シダス（SIDAS）」はどんな人向け？公式情報に基づく熱成型カスタムやスポーツ別ラインの特徴と、ダイエット・ボディメイク目的のインソールとの目的の違いを中立に解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

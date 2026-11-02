@@ -19,7 +19,7 @@ const structuredData = {
   headline: "モートン病に向くインソールの選び方｜横アーチを支えてしびれを和らげる",
   description:
     "モートン病の足指の付け根のしびれ・痛みにインソールは使える？横アーチを支える中足骨パッドの役割と選び方、おすすめ3選を解説。ハイヒールや幅の狭い靴が多い方に。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-09",

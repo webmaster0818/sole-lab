@@ -17,7 +17,7 @@ const structuredData = {
   headline: "長靴・レインブーツのインソールの選び方｜蒸れ・疲れ・滑り対策",
   description:
     "長靴・レインブーツで足が疲れる・蒸れる・滑る方へ。防水靴に合うインソールの選び方、衝撃吸収・消臭のポイント、おすすめ3選を解説。農作業・アウトドアにも。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

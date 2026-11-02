@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: { images: ["/og-default.png"], title: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", url: "https://sole-laboratory.com/articles/hallux-valgus-prevention/", type: "article" },
 };
 
-const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
+const structuredData = { "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png", headline: "外反母趾の原因と予防法｜インソール以外の対策も紹介", description: "外反母趾の原因と予防法を解説。靴選びのポイント、インソールによるケア、足指トレーニングを紹介。", author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" }, publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" }, datePublished: "2026-05-17", dateModified: "2026-05-17" };
 
 const faqStructuredData = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [
   { "@type": "Question", name: "外反母趾はなぜ女性に多いのですか？", acceptedAnswer: { "@type": "Answer", text: "女性に多い主な理由は、ヒールやパンプスなど先の細い靴の着用頻度が高いこと、女性ホルモンの影響で靭帯が柔らかく伸びやすいこと、男性に比べて筋力が弱く足のアーチを維持しにくいことの3点です。ただし近年は男性の外反母趾も増加傾向にあります。" } },

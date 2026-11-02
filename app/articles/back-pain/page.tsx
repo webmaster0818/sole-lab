@@ -26,7 +26,7 @@ const structuredData = {
   headline: "インソールと腰痛の関係｜足元から腰痛を改善する方法",
   description:
     "インソールで腰痛を改善する方法を解説。足元の歪みが腰痛を引き起こすメカニズムと改善効果を紹介。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

@@ -20,7 +20,7 @@ const structuredData = {
     "ダイエットインソールの選び方5つのポイント【失敗しない】",
   description:
     "ダイエットインソールの選び方を5つのポイントで解説。サイズ・アーチサポート・靴との相性・価格・口コミの観点から失敗しない選び方を紹介。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

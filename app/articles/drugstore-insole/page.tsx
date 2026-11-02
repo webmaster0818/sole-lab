@@ -18,7 +18,7 @@ const structuredData = {
   headline: "ドラッグストア・薬局のインソールはダイエットに使える？市販品の限界",
   description:
     "ドラッグストアや薬局でダイエットインソールは買える？市販品の特徴と限界、専用ダイエットインソールとの違い、目的別の選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

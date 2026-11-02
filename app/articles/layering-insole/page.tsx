@@ -18,7 +18,7 @@ const structuredData = {
   headline: "インソールの重ね使いはアリ？2枚重ねのリスクと正しい代替案",
   description:
     "インソールの2枚重ねはOK？元の中敷きの上に置く場合と重ね使いの違い、靴がきつくなる・かかとが浮くなどのリスク、重ねずに目的を達成する選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

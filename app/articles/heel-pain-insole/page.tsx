@@ -19,7 +19,7 @@ const structuredData = {
   headline: "かかとが痛い時のインソールの選び方｜原因別の対策とおすすめ3選",
   description:
     "かかとの痛みにインソールは効果がある？足底腱膜炎・踵骨棘など原因別の特徴と、ヒールカップ付きインソールの選び方、おすすめ3選を解説。朝起きた最初の一歩が痛い方必見。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-09",

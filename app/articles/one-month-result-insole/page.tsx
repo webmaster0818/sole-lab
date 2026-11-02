@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ダイエットインソールは1ヶ月でどこまで変わる？現実的な期待値",
   description:
     "ダイエットインソールを1ヶ月使うと体型は変わる？結論は「インソール単体で短期に体型が劇的に変わるものではない」。1ヶ月で期待できる現実的な変化と、効果を高める使い方を客観的に解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

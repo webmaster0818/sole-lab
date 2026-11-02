@@ -17,7 +17,7 @@ const structuredData = {
   headline: "通勤ウォーキングに向くインソールの選び方｜毎日の移動を運動習慣に変える",
   description:
     "運動の時間が取れない人こそ、毎日必ず歩く通勤時間が味方になります。通勤の歩きを快適に続けるためのインソールの選び方、革靴・スニーカー通勤それぞれの工夫、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

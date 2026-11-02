@@ -18,7 +18,7 @@ const structuredData = {
   headline: "食事管理とインソールの併用｜痩せる主役は食事、足元は活動を支える脇役",
   description:
     "ダイエットの食事管理とインソールはどう関係する？体重を左右するのは食事、インソールは歩行や日常活動を支える補助。両者の役割分担と現実的な活用法、選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

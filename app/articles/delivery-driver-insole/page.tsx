@@ -18,7 +18,7 @@ const structuredData = {
   headline: "配達員・ドライバーにおすすめのインソール｜乗り降りと階段の負担対策",
   description:
     "車の乗り降りの繰り返し、荷物を持っての階段、運転中のペダル操作。配達員・ドライバー特有の足の負担をやわらげるインソールの選び方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

@@ -27,7 +27,7 @@ const structuredData = {
     "ウォーキング用インソールおすすめ3選｜歩きやすさと痩せ効果",
   description:
     "ウォーキング用ダイエットインソールのおすすめ3選。歩きやすさと痩せ効果を両立する選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

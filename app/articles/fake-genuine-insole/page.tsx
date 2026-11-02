@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ダイエットインソールの偽物・正規品の見分け方｜安全に買うコツ",
   description:
     "ダイエットインソールの偽物・模倣品を避けたい方へ。正規品の見分け方、非正規の格安品・フリマのリスク、安全に購入するためのチェックポイントを解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

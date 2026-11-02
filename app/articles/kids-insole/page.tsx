@@ -21,7 +21,7 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "子供用インソールおすすめ5選｜成長期の足をサポートする選び方",
   description: "子供用インソールのおすすめ5選を紹介。成長期の足のアーチ形成をサポートする選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
   dateModified: "2026-07-10",

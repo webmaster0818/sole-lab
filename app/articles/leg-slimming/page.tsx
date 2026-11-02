@@ -25,7 +25,7 @@ const structuredData = {
   headline: "脚痩せしたい人のインソール選びガイド",
   description:
     "脚痩せ・下半身痩せにインソールが効果的な理由を解説。脚が太くなる原因からインソールの選び方、おすすめ商品3選、脚痩せ習慣まで。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

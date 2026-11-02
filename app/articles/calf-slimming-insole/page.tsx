@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ふくらはぎ痩せにインソールは効く？むくみと歩き方から考える方法",
   description:
     "ふくらはぎが太い・むくむ方へ。ふくらはぎの張りやむくみとインソールの関係、筋ポンプを促す歩き方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-25",

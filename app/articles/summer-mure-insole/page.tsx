@@ -17,7 +17,7 @@ const structuredData = {
   headline: "夏のインソールの蒸れ対策｜ニオイ・雑菌を防ぐ選び方とケア習慣",
   description:
     "夏の靴の中は高温多湿。インソールの蒸れ・ニオイが気になる季節の対策を解説。抗菌防臭素材の選び方、乾燥・ローテーションのケア習慣、サンダル時期の使い方、おすすめ3選も紹介。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

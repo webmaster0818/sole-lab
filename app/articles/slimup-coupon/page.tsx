@@ -27,7 +27,7 @@ const structuredData = {
     "スリムアップインソールの最安値・キャンペーン情報【2026年最新】",
   description:
     "スリムアップインソールを最安値で購入する方法。公式価格・ポイント活用法を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

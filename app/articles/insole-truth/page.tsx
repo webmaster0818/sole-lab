@@ -19,7 +19,7 @@ const structuredData = {
     "ダイエットインソールは嘘？効果の科学的根拠を検証",
   description:
     "「履くだけで痩せる」ダイエットインソールは本当に効果があるのか？科学的根拠をもとに期待できる効果とできない効果を客観的に検証。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

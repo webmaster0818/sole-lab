@@ -21,7 +21,7 @@ const structuredData = {
   "@context": "https://schema.org", "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "足のアーチとは？崩れる原因と対策｜インソールで矯正できる？",
   description: "足のアーチの役割、崩れる原因、対策を解説。インソールによる矯正効果も紹介。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17", dateModified: "2026-05-17",
 };

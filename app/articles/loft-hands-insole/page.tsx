@@ -18,7 +18,7 @@ const structuredData = {
   headline: "ロフト・ハンズ等バラエティショップのインソールはダイエットに使える？雑貨系との違い",
   description:
     "ロフトや東急ハンズなどバラエティショップのインソールはダイエットに使える？フットケア雑貨が中心という売り場の一般的な特徴と、ダイエット専用設計との目的の違い、選び分けを解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

@@ -17,7 +17,7 @@ const structuredData = {
   headline: "インソールの厚みの選び方｜靴のタイプ別の目安と注意点",
   description:
     "インソールの厚みはどう選ぶ？薄型・標準・厚型の違いと、革靴・スニーカー・ブーツなど靴タイプ別の目安、選び方のコツを解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-10",

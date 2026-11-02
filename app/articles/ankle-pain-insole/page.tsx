@@ -17,7 +17,7 @@ const structuredData = {
   headline: "足首が痛い時のインソールの選び方｜ぐらつき・捻挫ぐせの対策",
   description:
     "足首が痛い・捻挫を繰り返す方へ。足首の不安定さとインソールの関係、後足部を安定させるヒールカップの選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

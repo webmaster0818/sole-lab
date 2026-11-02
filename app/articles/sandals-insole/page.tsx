@@ -17,7 +17,7 @@ const structuredData = {
   headline: "サンダルのインソールの選び方｜夏の足の疲れ・前すべり対策",
   description:
     "夏のサンダルで足が疲れる・滑る方へ。サンダルに使えるインソールの選び方、滑り止め・衝撃吸収のポイント、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

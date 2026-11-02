@@ -17,7 +17,7 @@ const structuredData = {
   headline: "通学靴・上履きに合うインソールの選び方｜成長期の足への配慮とサイズの注意",
   description:
     "毎日の通学と一日中履く上履きは、成長期の足に意外と大きな負担。薄い上履きの底を補い、通学の歩き疲れをやわらげるインソールの選び方とサイズの注意点を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

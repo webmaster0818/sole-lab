@@ -18,7 +18,7 @@ const structuredData = {
   headline: "フリマ・中古のインソールは大丈夫？衛生面・保証・偽造品リスクの注意点",
   description:
     "メルカリなどフリマアプリでインソールを買うのは大丈夫？中敷きならではの衛生面の注意、正規品保証・返金保証が受けられない問題、偽造品リスクと見分けの考え方を冷静に解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

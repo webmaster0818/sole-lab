@@ -17,7 +17,7 @@ const structuredData = {
   headline: "インソールの2足持ち・ローテーション活用術｜寿命と衛生面のメリット",
   description:
     "インソールは2足持ちでローテーションすると長持ちする？乾燥時間の確保による衛生面のメリット、複数の靴で使い回す場合の注意点、ローテーション向きインソールの選び方を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

@@ -18,7 +18,7 @@ const structuredData = {
   headline: "野球のインソールの選び方｜スパイク対応で走塁・守備・打撃の安定に",
   description:
     "野球でパフォーマンスを上げたい・足を守りたい方へ。スパイクに合うインソールの選び方、走塁・守備・打撃の踏ん張りを支えるポイント、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

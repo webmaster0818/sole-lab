@@ -25,7 +25,7 @@ const structuredData = {
   headline: "ピットソール vs TENTIAL｜機能性インソール2強を比較",
   description:
     "ピットソールとTENTIALインソールを比較。価格・機能・フィット感・口コミ評価などあらゆる角度から2つの高機能インソールを分析します。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

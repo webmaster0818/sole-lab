@@ -17,7 +17,7 @@ const structuredData = {
   headline: "スポーツ用品店のインソールはダイエットに使える？競技用との目的の違い",
   description:
     "スポーツ用品店のインソールはダイエット目的に合う？競技パフォーマンス向け機能性インソールが中心という量販スポーツ店の一般的な特徴と、ダイエット専用設計との違い、選び分けを解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

@@ -21,7 +21,7 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "靴の中敷き（インソール）の洗い方｜洗濯機はNG？手洗い手順・乾かし方・洗う頻度",
   description: "靴の中敷き（インソール）は、ぬるま湯と中性洗剤で手洗いし、日陰で陰干しするのが基本です。洗濯機・乾燥機を避ける理由、素材別（EVA・ジェル・革）の洗い方、洗う頻度の目安、取れない臭いの対処まで解説します。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
   dateModified: "2026-11-01",

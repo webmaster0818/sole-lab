@@ -21,7 +21,7 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールのプレゼントおすすめ｜クリスマス・誕生日に贈る前のサイズ・返品・ラッピング確認",
   description: "インソールをクリスマス・誕生日・父の日に贈るときの選び方と、公式ショップの返品・交換条件・ラッピング対応（2026年11月2日確認）。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-05-17",
   dateModified: "2026-11-02",

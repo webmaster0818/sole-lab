@@ -28,7 +28,7 @@ const structuredData = {
     "ダイエットインソールの安いおすすめ比較｜コスパ重視で選ぶ",
   description:
     "ダイエットインソールを安く買いたい方向けに、コスパ最強の製品を比較。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

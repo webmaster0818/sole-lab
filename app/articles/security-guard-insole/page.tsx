@@ -17,7 +17,7 @@ const structuredData = {
   headline: "警備員の足の疲れにおすすめのインソール｜長時間の立哨・巡回対策",
   description:
     "長時間の立哨・巡回で足に負担がかかる警備員さんへ。立ちっぱなし・夜勤の足の疲れをやわらげるインソールの選び方、安全靴対応、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-12",

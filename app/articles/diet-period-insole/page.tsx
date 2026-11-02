@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ダイエットインソールは何日で効果が出る？期間の目安と続け方",
   description:
     "ダイエットインソールはどのくらいで効果が出る？姿勢・歩き方の変化と痩せ実感までの期間の目安、続け方のコツ、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-12",

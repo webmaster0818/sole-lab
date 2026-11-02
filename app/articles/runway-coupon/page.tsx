@@ -27,7 +27,7 @@ const structuredData = {
     "ランウェイキュアソールのクーポン・キャンペーン情報【2026年最新】",
   description:
     "ランウェイキュアソールを最安値で購入する方法。クーポン・キャンペーン・セット割引・ポイント活用法を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

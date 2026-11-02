@@ -17,7 +17,7 @@ const structuredData = {
   headline: "テニスのインソールの選び方｜横の動き・急停止の安定性アップ",
   description:
     "テニスでパフォーマンスを上げたい・足を守りたい方へ。左右の急な動きと急停止を支えるインソールの選び方、衝撃吸収・横ブレ抑制のポイント、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-07-12",

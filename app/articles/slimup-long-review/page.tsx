@@ -25,7 +25,7 @@ const structuredData = {
   headline: "スリムアップインソール 長期レビュー検証｜3ヶ月使うとどうなる？",
   description:
     "スリムアップインソールを3ヶ月使うとどうなるかを、公式情報と確認できる実レビューをもとに期間別に検証します。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

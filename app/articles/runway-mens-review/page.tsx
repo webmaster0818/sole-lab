@@ -24,7 +24,7 @@ const structuredData = {
   headline: "ランウェイキュアソールは男性でも使える？サイズ対応の真実と代替案",
   description:
     "ランウェイキュアソールの公式サイズはM（22.5〜23.5cm）/L（24.0〜25.0cm）の女性向け2サイズのみ。25cmを超える男性は対応外です。足サイズ別の判断基準と男性向けの代替案を公式確認情報に基づいて解説します。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

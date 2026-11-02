@@ -28,7 +28,7 @@ const structuredData = {
     "ランウェイキュアソールのサイズ選び｜M・Lどっち？対応表つき解説",
   description:
     "ランウェイキュアソールのサイズ展開（M/Lの2サイズ・女性向けソックス型）と選び方、対応外サイズの方向けの代替案を公式情報ベースで解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

@@ -18,7 +18,7 @@ const structuredData = {
   headline: "有酸素運動とインソールの併用｜歩行・ジョグの負担を軽くして続けやすく",
   description:
     "ダイエットの有酸素運動とインソールを併用するとどうなる？インソールは脂肪を燃やす道具ではなく、ウォーキングやジョギングの足の負担を和らげて続けやすくする補助。選び方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

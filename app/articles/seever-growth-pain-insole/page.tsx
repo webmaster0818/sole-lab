@@ -17,7 +17,7 @@ const structuredData = {
   headline: "子供の成長期のかかと痛（セーバー病）とインソール｜まず整形外科へ、補助としての使い方",
   description:
     "運動後に子供がかかとの痛みを訴える——成長期に多いセーバー病（踵骨骨端症）は、まず整形外科の受診と運動量の調整が第一選択です。インソールができる負担軽減の補助と、市販品のサイズの注意点を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

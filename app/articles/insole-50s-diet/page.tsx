@@ -17,7 +17,7 @@ const structuredData = {
   headline: "50代のダイエットにインソールは効く？代謝低下と関節への配慮",
   description:
     "50代で痩せにくくなった方へ。加齢による代謝低下・筋力低下とインソールの関係、関節に優しく日常から取り組む方法、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

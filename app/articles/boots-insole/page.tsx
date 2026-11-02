@@ -17,7 +17,7 @@ const structuredData = {
   headline: "ブーツのインソールの選び方｜冬の冷え・足の疲れ・ぶかぶか対策",
   description:
     "ロングブーツ・ショートブーツの足の疲れや冷えが気になる方へ。ブーツに合うインソールの選び方、防寒・衝撃吸収・サイズ調整のポイント、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

@@ -18,7 +18,7 @@ const structuredData = {
   headline: "介護士の足腰の負担におすすめのインソール｜中腰・移乗の負担対策",
   description:
     "立ち仕事に加え中腰や移乗介助で足腰に負担がかかる介護士さんへ。腰・足の負担をやわらげるインソールの選び方、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

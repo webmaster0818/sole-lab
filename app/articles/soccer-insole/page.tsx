@@ -17,7 +17,7 @@ const structuredData = {
   headline: "サッカーのインソールの選び方｜スパイク対応でアジリティと安定性アップ",
   description:
     "サッカーでパフォーマンスを上げたい・足を守りたい方へ。スパイクに合う薄型でアーチを支えるインソールの選び方、アジリティ・衝撃吸収のポイント、おすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

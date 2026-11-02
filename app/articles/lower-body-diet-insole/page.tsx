@@ -17,7 +17,7 @@ const structuredData = {
   headline: "下半身痩せにインソールは効く？骨盤と歩行フォームから考える方法",
   description:
     "下半身が痩せにくい方へ。骨盤の傾き・歩行フォームと下半身太りの関係、姿勢を整えるインソールの使い方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
   dateModified: "2026-06-05",

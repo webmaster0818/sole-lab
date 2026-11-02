@@ -17,7 +17,7 @@ const structuredData = {
   headline: "保育士におすすめのインソール｜抱っこと中腰の足腰負担対策",
   description:
     "子どもの抱っこ、しゃがむ・立つの繰り返し、外遊びの追いかけっこ。保育士特有の足腰の負担をやわらげるインソールの選び方とおすすめ3選を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

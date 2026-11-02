@@ -18,7 +18,7 @@ const structuredData = {
   headline: "ソルボのインソールはどんな人向け？ダイエット目的との使い分けガイド",
   description:
     "衝撃吸収素材ソルボセインで知られるソルボのインソールはどんな人向け？公式情報に基づくブランドの特徴と、ダイエット・ボディメイク目的のインソールとの目的の違い・使い分けを中立に解説します。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

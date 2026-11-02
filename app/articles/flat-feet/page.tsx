@@ -23,7 +23,7 @@ const structuredData = {
     "扁平足・浮き指にインソールは効果ある？おすすめ3選",
   description:
     "扁平足や浮き指の原因と症状を解説し、インソールの改善効果・選び方・おすすめ商品を紹介するガイド。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

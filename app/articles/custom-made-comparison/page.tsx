@@ -17,7 +17,7 @@ const structuredData = {
   headline: "オーダーメイドインソールと既製品の違い｜費用感と選び分けの基準",
   description:
     "オーダーメイドインソールと市販の既製インソールはどう違う？計測・作製の流れ、店舗により数千円〜数万円と幅がある費用感、既製品で十分なケースと使い分けの基準を解説。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

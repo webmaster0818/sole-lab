@@ -18,7 +18,7 @@ const structuredData = {
   headline: "妊娠中にインソールは使える？使用前に知っておきたい注意点",
   description:
     "妊娠中の足の疲れ・むくみにインソールは使える？体の変化と足への負担の関係、使用前に主治医・助産師へ相談すべき理由、転倒リスクへの注意点を慎重に解説。ダイエット目的の使用は産後に。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

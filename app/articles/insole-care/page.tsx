@@ -20,7 +20,7 @@ const structuredData = {
     "インソールの正しい使い方・洗い方・寿命まとめ【長持ちさせるコツ】",
   description:
     "インソールの正しい使い方・装着方法から素材別の洗い方、寿命の目安・交換サインまで解説。ダイエットインソールを長持ちさせるお手入れのコツも紹介。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",

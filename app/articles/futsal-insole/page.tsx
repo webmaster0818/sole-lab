@@ -18,7 +18,7 @@ const structuredData = {
   headline: "フットサルに向くインソールの選び方｜細かい切り返しと足裏の負担対策",
   description:
     "狭いコートでストップとターンを繰り返すフットサル。薄くフラットなフットサルシューズに合うインソールの選び方、母趾球の負担対策、おすすめ3選を解説。足裏が痛くなりやすい方に。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",

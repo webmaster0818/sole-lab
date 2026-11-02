@@ -24,7 +24,7 @@ const structuredData = {
   headline: "パンプス用インソール（中敷き）おすすめ5選｜ヒールで疲れにくくする選び方",
   description:
     "パンプス・ヒール用インソール（中敷き）のおすすめ5選。前滑り・つま先の痛み・足裏の疲れの原因別に選び方と使い方を解説します。",
-  author: { "@type": "Person", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
+  author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
     name: "ソールラボ",
