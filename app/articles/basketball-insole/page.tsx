@@ -4,9 +4,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
-  title: "バスケのインソールの選び方【2026年】ジャンプ衝撃・足首保護に",
+  title: "バスケのインソールおすすめと選び方【2026年】ジャンプの着地衝撃・足首保護",
   description:
-    "バスケットボールでパフォーマンスを上げたい・足を守りたい方へ。ジャンプの着地衝撃を吸収し足首を安定させるインソールの選び方、おすすめ3選を解説。",
+    "バスケのインソールは「衝撃吸収」「後足部の安定」「バッシュへのフィット」の3点で選びます。ポジション・コート別の考え方、バッシュでのサイズ調整、当サイトで紹介している3商品の公式情報（価格・設計）をまとめました。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/basketball-insole/",
   },
@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "バスケのインソールの選び方｜ジャンプの着地衝撃と足首保護",
+  headline: "バスケのインソールおすすめと選び方｜ジャンプの着地衝撃と足首保護",
   description:
-    "バスケットボールでパフォーマンスを上げたい・足を守りたい方へ。ジャンプの着地衝撃を吸収し足首を安定させるインソールの選び方、おすすめ3選を解説。",
+    "バスケのインソールは「衝撃吸収」「後足部の安定」「バッシュへのフィット」の3点で選びます。ポジション・コート別の考え方、バッシュでのサイズ調整、当サイトで紹介している3商品の公式情報（価格・設計）をまとめました。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-07-12",
+  dateModified: "2026-11-03",
 };
 
 const faqs = [{"q": "バスケでインソールを使うと足首の捻挫を予防できますか？", "a": "後足部を安定させるインソールは足のブレを抑え、捻挫予防の補助になります。あわせて足首の筋力・バランストレーニングを行うとより効果的です。効果の感じ方には個人差があります。"}, {"q": "バッシュの元の中敷きは外すべきですか？", "a": "フィットと効果を保つため、元の中敷きを外してインソールと入れ替えるのがおすすめです。重ねて入れると窮屈になりやすいため、厚みが合わない場合は調整してください。"}, {"q": "ジャンプ力に影響しますか？", "a": "アーチを支えると踏み込みの力が伝わりやすくなり、安定した着地で次の動作に移りやすくなります。過度な期待は禁物ですが、安定感の向上が見込めます。"}, {"q": "サイズが合わないインソールはカットして使えますか？", "a": "つま先側をカットして調整できるタイプもあります。元の中敷きを型紙にして少しずつ切るのがコツで、切りすぎると戻せないため慎重に行ってください。指先が当たったり余りすぎたりしないか、履いて確認してください。"}, {"q": "厚みのあるインソールに替えると靴がきつくなりませんか？", "a": "厚みが増すと靴内のスペースが減り、足首まわりの締め付けやかかとの収まりが変わることがあります。薄型を選ぶか、シューレースで調整し、必ず履いてフィット感を確かめてください。"}, {"q": "新しいインソールはすぐに試合で使って大丈夫ですか？", "a": "替えた直後は違和感が出ることもあるため、まずは練習で慣らしてから試合に使うのがおすすめです。足や動きに合うかを確かめてから本番に臨むと安心です。"}, {"q": "ポジションによってインソールの選び方は変わりますか？", "a": "一般に、ゴール下でジャンプや接触が多いプレーヤーは着地の衝撃吸収を、ドライブや素早い切り返しが多いガード系のプレーヤーは後足部の安定性を、それぞれ優先して考えると選びやすくなります。どのポジションでも衝撃吸収と安定性の両方が基本で、比重の置き方が変わるだけと捉えてください。"}, {"q": "体育館と屋外コートで選び方は変わりますか？", "a": "屋外のアスファルトやコンクリートのコートは一般に着地衝撃が大きいため、クッション性をより重視すると負担を抑えやすくなります。体育館はグリップが効きやすいぶん急停止時の負荷が足に伝わりやすく、後足部の安定が重要です。屋外中心の方はインソールの消耗も早くなりがちなので、へたりを感じたら早めに交換してください。"}];
@@ -64,7 +64,7 @@ export default function BasketballPage() {
             <span className="inline-block bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">スポーツ別</span>
             <time dateTime="2026-06-05" className="text-xs text-gray-500">2026年6月5日</time>
           </div>
-          <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">バスケのインソールの選び方｜ジャンプの着地衝撃と足首保護</h1>
+          <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">バスケのインソールおすすめと選び方｜ジャンプの着地衝撃と足首保護</h1>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">ジャンプ・着地・急な切り返しを繰り返すバスケットボールは、足首や膝、足裏への負担が大きい競技です。着地衝撃を吸収し足元を安定させるインソールは、パフォーマンス向上とケガ予防の両面で役立ちます。</p>
         </header>
 
@@ -82,7 +82,7 @@ export default function BasketballPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バスケットボールの選び方3つのポイント</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バスケ用インソールの選び方3つのポイント</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">バスケ用にインソールを選ぶときは、「衝撃吸収」「安定性」「フィット」の3つを軸に考えると迷いにくくなります。ジャンプの多いプレーなら衝撃吸収を、切り返しやストップが多いなら安定性を優先するなど、自分のプレースタイルに合わせて重視するポイントを決めてください。どれか一つに偏りすぎず、バランスのとれた一枚を選ぶのが基本です。</p>
           {points.map((p, i) => (
             <div key={p.t} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 mb-4 shadow-sm">
@@ -96,8 +96,8 @@ export default function BasketballPage() {
         </section>
 
         <section id="recommend" className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バスケットボールにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">着地衝撃の吸収と後足部の安定を両立したインソールがバスケに向いています。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">バスケで使うインソールの候補3つ</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">着地衝撃の吸収と後足部の安定を両立したインソールがバスケに向いています。下の3商品は日常の歩行向けに作られた商品で、バスケ専用品ではありません。バッシュに入るか・プレー中にずれないかを練習で確かめてから試合に使ってください。詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -108,9 +108,9 @@ export default function BasketballPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
-                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">クッション性重視。コスパよく初めての方に。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">BMZ社の特許技術で立方骨を支え、横アーチと縦アーチを同時にサポートする設計。単品6,578円（税込・公式）。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">足裏の3点アーチをサポートする設計（公式説明）。歩行姿勢のサポートが目的。</td></tr>
+                <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">土踏まずをサポートする設計。素材はEVA・ポリエチレン。単品6,980円（税込・公式）。</td></tr>
               </tbody>
             </table>
           </div>
