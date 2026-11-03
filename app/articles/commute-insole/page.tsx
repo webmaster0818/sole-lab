@@ -69,7 +69,7 @@ export default function CommutePage() {
 
         <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">通勤ウォーキングには、毎日履く通勤靴に入れっぱなしにできて、長めに歩いてもアーチが疲れにくいサポート力のあるインソールが向いています。特別な準備なしで「いつもの通勤」がそのまま歩く習慣になることが最大のメリットです。歩き方や時間を急に増やさず、少しずつ伸ばしていいてください。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">通勤ウォーキングには、毎日履く通勤靴に入れっぱなしにできて、長めに歩いてもアーチが疲れにくいサポート力のあるインソールが向いています。特別な準備なしで「いつもの通勤」がそのまま歩く習慣になることが最大のメリットです。歩き方や時間を急に増やさず、少しずつ伸ばしていってください。</p>
         </div>
 
         <section className="mb-12">
@@ -132,7 +132,7 @@ export default function CommutePage() {
 
         <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">毎日の通勤をそのまま歩く習慣に。疲れにくい足元をつくるインソールを比較してんでください。</p>
+          <p className="text-white/90 text-sm mb-5">毎日の通勤をそのまま歩く習慣に。疲れにくい足元をつくるインソールを比較してみてください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 

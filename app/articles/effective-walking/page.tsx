@@ -62,7 +62,7 @@ const faqStructuredData = {
       name: "ダイエットインソールでの歩き方は速歩きの方が良いですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "必ずしも速く歩く必要はありません。大切なのは正しいフォームを維持することです。ただし、通常の歩行速度（時速4km）よりやや速い時速5〜6km程度で歩くと、心拍数が適度に上がり脂肪燃焼効率が向上します。フォームが崩れない範囲で少しずつスピードを上げていいてください。",
+        text: "必ずしも速く歩く必要はありません。大切なのは正しいフォームを維持することです。ただし、通常の歩行速度（時速4km）よりやや速い時速5〜6km程度で歩くと、心拍数が適度に上がり脂肪燃焼効率が向上します。フォームが崩れない範囲で少しずつスピードを上げていってください。",
       },
     },
     {
@@ -70,7 +70,7 @@ const faqStructuredData = {
       name: "インソールを入れて歩くと筋肉痛になることがありますが大丈夫ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "使い始めの1〜2週間は軽い筋肉痛を感じることがあります。これはインソールによって正しい筋肉の使い方に変わった証拠で、それまで使っていなかった筋肉が刺激されているためです。通常は数日で慣れますが、強い痛みが続く場合は使用時間を短くして徐々に慣らしていいてください。",
+        text: "使い始めの1〜2週間は軽い筋肉痛を感じることがあります。これはインソールによって正しい筋肉の使い方に変わった証拠で、それまで使っていなかった筋肉が刺激されているためです。通常は数日で慣れますが、強い痛みが続く場合は使用時間を短くして徐々に慣らしていってください。",
       },
     },
   ],
@@ -307,11 +307,11 @@ export default function EffectiveWalkingPage() {
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">ダイエットインソールでの歩き方は速歩きの方が良いですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">必ずしも速く歩く必要はありません。大切なのは正しいフォームを維持することです。ただし、通常の歩行速度（時速4km）よりやや速い時速5〜6km程度で歩くと、心拍数が適度に上がり脂肪燃焼効率が向上します。フォームが崩れない範囲で少しずつスピードを上げていいてください。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">必ずしも速く歩く必要はありません。大切なのは正しいフォームを維持することです。ただし、通常の歩行速度（時速4km）よりやや速い時速5〜6km程度で歩くと、心拍数が適度に上がり脂肪燃焼効率が向上します。フォームが崩れない範囲で少しずつスピードを上げていってください。</div>
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールを入れて歩くと筋肉痛になることがありますが大丈夫ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">使い始めの1〜2週間は軽い筋肉痛を感じることがあります。これはインソールによって正しい筋肉の使い方に変わった証拠で、それまで使っていなかった筋肉が刺激されているためです。通常は数日で慣れますが、強い痛みが続く場合は使用時間を短くして徐々に慣らしていいてください。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">使い始めの1〜2週間は軽い筋肉痛を感じることがあります。これはインソールによって正しい筋肉の使い方に変わった証拠で、それまで使っていなかった筋肉が刺激されているためです。通常は数日で慣れますが、強い痛みが続く場合は使用時間を短くして徐々に慣らしていってください。</div>
             </details>
           </div>
         </section>

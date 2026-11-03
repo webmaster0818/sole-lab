@@ -301,7 +301,7 @@ export default function WashingGuidePage() {
 
         <section id="odor" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">洗っても取れない臭いの段階的対処</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">きちんと洗っているのに臭いが残る場合は、いきなり買い替える前に、次の段階を順番に試してんでください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">きちんと洗っているのに臭いが残る場合は、いきなり買い替える前に、次の段階を順番に試してみてください。</p>
 
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6 shadow-sm">

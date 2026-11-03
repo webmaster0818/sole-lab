@@ -247,7 +247,7 @@ export default function RunwayVsSlimupPage() {
           </p>
           <p>
             一方でスリムアップインソールは抗菌防臭機能やS/Mの2サイズ展開（最大26.5cm・公式サイトにて2026年7月確認）など、日常的な使いやすさに強みがあります。
-            以下でそれぞれの項目を詳しく掘り下げていいてください。
+            以下でそれぞれの項目を詳しく掘り下げていってください。
           </p>
         </div>
       </section>
@@ -261,7 +261,7 @@ export default function RunwayVsSlimupPage() {
 
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
             ダイエットインソールは継続使用が前提のため、長期的なコストパフォーマンスが重要です。
-            両商品の価格体系を詳しく比較してんでください。
+            両商品の価格体系を詳しく比較してみてください。
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">

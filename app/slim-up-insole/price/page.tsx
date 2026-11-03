@@ -384,7 +384,7 @@ export default function SlimUpInsolePricePage() {
 
         <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
           公式サイト以外の大手ECモールでも購入できます。
-          それぞれの特徴を比較してんでください。
+          それぞれの特徴を比較してみてください。
         </p>
 
         <div className="space-y-4 mb-6">

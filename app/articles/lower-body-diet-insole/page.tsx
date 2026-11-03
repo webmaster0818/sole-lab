@@ -128,7 +128,7 @@ export default function LowerBodyDietPage() {
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">下半身痩せのための使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールを入れたら、骨盤を立てた姿勢で、かかと着地→足裏全体→蹴り出しの歩き方を意識してください。視線をやや遠くに置き、歩幅を少し広げると、お尻や裏ももを使いやすくなります。通勤や買い物などの日常歩行も、フォームを意識すれば下半身を使うトレーニングの機会になります。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">日常での歩行習慣との併用が大切です。エレベーターより階段を選ぶ、一駅分歩く、こまめに立って歩くなど、歩く量を無理のない範囲で増やすと、足の筋ポンプが働いてむくみのケアにもつながると考えられます。長時間座りっぱなし・立ちっぱなしを避け、ときどき足首を回す・ふくらはぎを動かすことも習慣にしてください。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">下半身痩せには食事管理と下半身・体幹の運動が基本です。インソールは姿勢・歩行を整える補助として活用し、スクワットやヒップリフト、ウォーキングなどと組み合わせていいてください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">下半身痩せには食事管理と下半身・体幹の運動が基本です。インソールは姿勢・歩行を整える補助として活用し、スクワットやヒップリフト、ウォーキングなどと組み合わせていってください。</p>
         </section>
 
         <section className="mb-12">

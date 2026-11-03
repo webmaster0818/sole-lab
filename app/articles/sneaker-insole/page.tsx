@@ -387,7 +387,7 @@ export default function SneakerInsolePage() {
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">手順3：靴に入れて履き心地を確認</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                インソールを靴に入れたら、実際に履いて歩いてんでください。かかとがしっかり収まり、足指に余裕があるかを確認します。つま先が窮屈に感じる場合はインソールをさらにカットするか、シューレースを少し緩めて調整してください。
+                インソールを靴に入れたら、実際に履いて歩いてみてください。かかとがしっかり収まり、足指に余裕があるかを確認します。つま先が窮屈に感じる場合はインソールをさらにカットするか、シューレースを少し緩めて調整してください。
               </p>
             </div>
 

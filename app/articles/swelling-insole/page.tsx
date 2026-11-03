@@ -579,7 +579,7 @@ export default function SwellingInsolePage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              むくみ対策を頑張っていても、知らず知らずのうちにむくみを悪化させる行動をしている場合があります。以下のNG行動に心当たりがないかチェックしてんでください。
+              むくみ対策を頑張っていても、知らず知らずのうちにむくみを悪化させる行動をしている場合があります。以下のNG行動に心当たりがないかチェックしてみてください。
             </p>
           </div>
 

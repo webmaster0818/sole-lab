@@ -574,7 +574,7 @@ export default function PitsolePricePage() {
             セット購入がお得！価格シミュレーション
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
-            「何足買えばどれくらいお得なのか？」を具体的な数字でシミュレーションしてんでください。
+            「何足買えばどれくらいお得なのか？」を具体的な数字でシミュレーションしてみてください。
           </p>
           <div className="space-y-4 mb-6">
             {/* 単品 */}

@@ -232,7 +232,7 @@ export default function PitsoleVsRunwayPage() {
             料金・コスパ比較
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            ダイエットインソールは数ヶ月単位で継続するものだからこそ、料金とコスパは重要なポイントです。両商品の料金体系を詳しく見てんでください。
+            ダイエットインソールは数ヶ月単位で継続するものだからこそ、料金とコスパは重要なポイントです。両商品の料金体系を詳しく見てみてください。
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -365,7 +365,7 @@ export default function PitsoleVsRunwayPage() {
             技術・特許比較
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
-            ダイエットインソールの効果を左右するのは、足裏をどのようにサポートするかという技術です。両商品のアプローチの違いを見てんでください。
+            ダイエットインソールの効果を左右するのは、足裏をどのようにサポートするかという技術です。両商品のアプローチの違いを見てみてください。
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">

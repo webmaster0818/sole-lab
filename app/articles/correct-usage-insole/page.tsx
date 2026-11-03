@@ -132,7 +132,7 @@ export default function CorrectUsagePage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">入れ方の失敗例と直し方</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは入れ方ひとつでフィット感が大きく変わります。「なんだか合わない」と感じるときは、まず次の4つの失敗パターンに当てはまっていないか確認してんでください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは入れ方ひとつでフィット感が大きく変わります。「なんだか合わない」と感じるときは、まず次の4つの失敗パターンに当てはまっていないか確認してみてください。</p>
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">失敗例1：前後を逆に入れている</h3>

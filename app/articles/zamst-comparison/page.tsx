@@ -134,7 +134,7 @@ export default function ZamstComparisonPage() {
 
         <div className="bg-[#8a6a4f] rounded-xl p-6 md:p-8 text-center mb-12">
           <p className="text-white font-bold text-lg mb-2">自分に合うインソールを見つけよう</p>
-          <p className="text-white/90 text-sm mb-5">日常の歩行からボディメイクを狙うインソールを、目的別に比較してんでください。</p>
+          <p className="text-white/90 text-sm mb-5">日常の歩行からボディメイクを狙うインソールを、目的別に比較してみてください。</p>
           <Link href="/ranking/" className="inline-block bg-white text-[#8a6a4f] font-bold px-6 py-3 rounded-lg hover:bg-[#faf7f3] transition-colors">おすすめインソールランキングを見る</Link>
         </div>
 
