@@ -1203,7 +1203,7 @@ export default function PitsolePage() {
               <p className="text-xs text-gray-500 mt-1">お得に購入する方法</p>
             </Link>
             <Link href="/articles/pitsole-all-sizes/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
-              <p className="text-sm font-semibold text-gray-900">ピットソールのサイズ展開・実寸レビュー</p>
+              <p className="text-sm font-semibold text-gray-900">ピットソールのサイズ展開と選び方</p>
               <p className="text-xs text-gray-500 mt-1">サイズ選びの参考に</p>
             </Link>
             <Link href="/articles/pitsole-mens/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">

@@ -455,7 +455,7 @@ export default function InsoleTruthPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              「嘘」にならないインソール選びのポイントは、過剰な宣伝文句ではなく、設計の根拠と実績で選ぶことです。当サイトで検証したおすすめの3製品をご紹介します。
+              「嘘」にならないインソール選びのポイントは、過剰な宣伝文句ではなく、設計の根拠と実績で選ぶことです。当サイトが公式サイトの情報を確認している3製品をご紹介します。
             </p>
           </div>
 

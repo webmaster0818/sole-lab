@@ -671,7 +671,7 @@ export default function PatentTechnologyPage() {
             <div className="card mt-6 border-l-4 border-l-[#c9a76c]">
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                 <span className="font-bold text-gray-900">ポイント：</span>
-                ランウェイキュアソールの3点アーチサポートは、「足裏」から「姿勢全体」へと効果が波及するボトムアップ型のアプローチです。整体師の監修により、人体の連動性（運動連鎖）を踏まえた設計となっています。
+                ランウェイキュアソールの3点アーチサポートは、「足裏」から「姿勢全体」へと働きかけるボトムアップ型のアプローチです。内側縦アーチ・外側縦アーチ・横アーチの3点を同時に支える設計になっています。
               </p>
             </div>
           </div>

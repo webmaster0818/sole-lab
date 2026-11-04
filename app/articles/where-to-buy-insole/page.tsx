@@ -75,7 +75,7 @@ export default function WhereToBuyPage() {
 
         <section id="hikaku" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">主要3製品の最安値・販売店 横断比較</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">当サイトで検証している本格派ダイエットインソール3製品（<Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link>／<Link href="/runway-cure-sole/#donki" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link>／<Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link>）について、「どこで買えるか（販売チャネル）」と「いくらで買えるか（単品・セット最安値・返金保証）」を各製品ページの公式確認値をもとに一覧にまとめました。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">当サイトが公式サイトの情報を確認している本格派ダイエットインソール3製品（<Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link>／<Link href="/runway-cure-sole/#donki" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link>／<Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link>）について、「どこで買えるか（販売チャネル）」と「いくらで買えるか（単品・セット最安値・返金保証）」を各製品ページの公式確認値をもとに一覧にまとめました。</p>
 
           {/* 表A：販売チャネル別の取扱可否 */}
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">表A：3製品 × 販売チャネルの取扱可否</h3>

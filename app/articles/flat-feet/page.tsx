@@ -474,7 +474,7 @@ export default function FlatFeetPage() {
               <p className="font-bold text-gray-900 mb-2">スペック</p>
               <ul className="space-y-1">
                 <li>特許技術：キュボイドバランス理論</li>
-                <li>サイズ展開：XS〜XL（21〜28cm）</li>
+                <li>サイズ展開：XS〜XL（21〜29cm）</li>
                 <li>アーチ対応：3点（縦2＋横1）</li>
                 <li>ヒールカップ：あり</li>
                 <li>厚さ：約2.5mm（つま先部）</li>
@@ -497,7 +497,7 @@ export default function FlatFeetPage() {
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <div>
               <p className="text-sm text-gray-700 leading-relaxed mb-3">
-                美容整体師が監修したインソールで、足裏のアーチ補整に加えて<strong>骨盤矯正</strong>にも注力した設計が特徴です。扁平足によって崩れた足→膝→骨盤の連鎖を意識した構造で、足元だけでなく姿勢全体の改善をサポートします。
+                足裏の3つのアーチ（内側縦アーチ・外側縦アーチ・横アーチ）を同時に支える設計で、<strong>美姿勢のサポート</strong>に重点を置いたインソールです。扁平足で崩れやすい縦アーチを支えることで、足元から姿勢を整えることを目指した構造になっています。
               </p>
               <p className="text-sm text-gray-700 leading-relaxed">
                 かかとから土踏まずにかけてのサポートが手厚く、扁平足で土踏まずの痛みが出やすい方に向いています。やや柔らかめの素材で履き心地がよく、インソール初心者にも取り入れやすい商品です。
@@ -506,11 +506,9 @@ export default function FlatFeetPage() {
             <div className="bg-gray-50 rounded-lg p-4 text-sm text-gray-700">
               <p className="font-bold text-gray-900 mb-2">スペック</p>
               <ul className="space-y-1">
-                <li>監修：美容整体師</li>
-                <li>サイズ展開：S〜L（22〜27cm）</li>
-                <li>アーチ対応：縦アーチ重視</li>
-                <li>ヒールカップ：あり</li>
-                <li>特徴：骨盤矯正サポート</li>
+                <li>サイズ展開：M（22.5〜23.5cm）／L（24.0〜25.0cm）の2サイズ（女性向け）</li>
+                <li>アーチ対応：3点アーチ（内側縦・外側縦・横）</li>
+                <li>特徴：美姿勢サポート</li>
               </ul>
             </div>
           </div>
@@ -539,11 +537,10 @@ export default function FlatFeetPage() {
             <div className="bg-gray-50 rounded-lg p-4 text-sm text-gray-700">
               <p className="font-bold text-gray-900 mb-2">スペック</p>
               <ul className="space-y-1">
-                <li>価格帯：お手頃</li>
-                <li>サイズ展開：S〜L（22〜27cm）</li>
-                <li>アーチ対応：軽めのサポート</li>
-                <li>ヒールカップ：浅め</li>
-                <li>特徴：超薄型設計</li>
+                <li>監修：美容整体師（井上剛志氏）</li>
+                <li>サイズ展開：S（23.0〜24.5cm）／M（25.0〜26.5cm）の2サイズ</li>
+                <li>アーチ対応：傾斜設計による重心移動のサポート</li>
+                <li>特徴：抗菌防臭機能あり</li>
               </ul>
             </div>
           </div>

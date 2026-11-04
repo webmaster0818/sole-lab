@@ -3,16 +3,16 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "ピットソール サイズ別実寸レビュー｜フィット感を検証",
+  title: "ピットソールのサイズ選び｜XS〜XLの対応足長とカット調整の考え方",
   description:
-    "ピットソールのXS・S・M・L 4サイズの実寸を計測し、フィット感を徹底レビュー。足のサイズ別おすすめや、靴との相性、カット方法まで詳しく解説。サイズ選びで失敗したくない方必見です。",
+    "ピットソールのXS〜XL 5サイズの公式の対応足長（2026年7月に公式サイトで確認）をもとに、サイズの選び方・境界にいる場合の考え方・カットラインでの調整方法・靴のタイプ別の注意点を整理しました。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "ピットソール サイズ別実寸レビュー｜フィット感を検証",
+    title: "ピットソールのサイズ選び｜XS〜XLの対応足長とカット調整の考え方",
     description:
-      "ピットソールのXS〜L 4サイズの実寸を計測し、フィット感を徹底レビュー。サイズ選びのコツを解説。",
+      "ピットソールの公式の対応足長をもとに、サイズの選び方とカット調整の考え方を整理しました。",
     url: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
     type: "article",
   },
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "ピットソール サイズ別実寸レビュー｜フィット感を検証",
+  headline: "ピットソールのサイズ選び｜XS〜XLの対応足長とカット調整の考え方",
   description:
-    "ピットソールのXS〜L 4サイズの実寸を計測し、フィット感を徹底レビューします。",
+    "ピットソールの公式の対応足長をもとに、サイズの選び方とカット調整の考え方を整理します。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -75,7 +75,7 @@ const faqStructuredData = {
       name: "同じサイズでもモデルによって大きさは変わりますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ピットソールは基本的に1モデルの展開のため、同じサイズ表記であれば実寸は同じです。ただし製造ロットによって数ミリ程度の個体差がある場合があります。カットラインで微調整できるため、実用上の問題にはなりません。",
+        text: "ピットソールは基本的に1モデルの展開のため、同じサイズ表記であれば仕様は同じです。カットラインで微調整できるため、足長が範囲内であれば調整して使えます。",
       },
     },
   ],
@@ -100,7 +100,7 @@ const breadcrumbStructuredData = {
     {
       "@type": "ListItem",
       position: 3,
-      name: "ピットソール サイズ別実寸レビュー",
+      name: "ピットソールのサイズ選び",
       item: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
     },
   ],
@@ -127,21 +127,21 @@ export default function PitsoleAllSizesPage() {
       />
 
       {/* Breadcrumb */}
-      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ピットソール サイズ別実寸レビュー" }]} />
+      <Breadcrumb items={[{ label: "知識・コラム", href: "/articles/" }, { label: "ピットソールのサイズ選び" }]} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-[#faf7f3] to-white pt-8 pb-12 md:pt-12 md:pb-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">
-            2026年最新版 サイズ実寸レビュー
+            2026年最新版 サイズの選び方
           </p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソール
             <br className="md:hidden" />
-            <span className="text-[#8a6a4f]">サイズ別実寸</span>レビュー
+            <span className="text-[#8a6a4f]">サイズの選び方</span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            XS・S・M・Lの4サイズの実寸を計測し、フィット感を検証。
+            公式の対応足長をもとに、サイズの選び方とカット調整の考え方を整理。
             <br className="hidden md:block" />
             あなたの足に最適なサイズの選び方を分かりやすく解説します。
           </p>
@@ -162,22 +162,22 @@ export default function PitsoleAllSizesPage() {
             </li>
             <li>
               <a href="#xs-review" className="hover:text-[#8a6a4f] transition-colors">
-                2. XSサイズ（21〜22.5cm）実寸レビュー
+                2. XSサイズ（21〜22.5cm）はどんな人向けか
               </a>
             </li>
             <li>
               <a href="#s-review" className="hover:text-[#8a6a4f] transition-colors">
-                3. Sサイズ（23〜24.5cm）実寸レビュー
+                3. Sサイズ（23〜24.5cm）はどんな人向けか
               </a>
             </li>
             <li>
               <a href="#m-review" className="hover:text-[#8a6a4f] transition-colors">
-                4. Mサイズ（25〜26cm）実寸レビュー
+                4. Mサイズ（25〜26cm）はどんな人向けか
               </a>
             </li>
             <li>
               <a href="#l-review" className="hover:text-[#8a6a4f] transition-colors">
-                5. Lサイズ（26.5〜27.5cm）実寸レビュー
+                5. Lサイズ（26.5〜27.5cm）はどんな人向けか
               </a>
             </li>
             <li>
@@ -218,7 +218,7 @@ export default function PitsoleAllSizesPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            ピットソールはXS〜XLの5サイズ展開で、21cm〜29cmまでの幅広い足サイズに対応しています（XLはブラック・ピンク限定、公式サイトにて2026年7月確認）。本記事ではXS〜Lの4サイズを実寸計測しています。各サイズの公式対応範囲と実寸の概要を一覧でご確認ください。
+            ピットソールはXS〜XLの5サイズ展開で、21cm〜29cmまでの幅広い足サイズに対応しています（XLはブラック・ピンク限定、公式サイトにて2026年7月確認）。各サイズの公式の対応足長を一覧にしました。なお全長・幅・厚みといった寸法は公式サイトに掲載がないため、当サイトでは掲載していません（当サイトは商品を実測していません）。
           </p>
 
           <div className="overflow-x-auto mb-6">
@@ -227,45 +227,35 @@ export default function PitsoleAllSizesPage() {
                 <tr className="bg-gray-50">
                   <th className="border border-gray-200 px-4 py-3 text-left font-bold">サイズ</th>
                   <th className="border border-gray-200 px-4 py-3 text-left font-bold">対応cm（公式）</th>
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">実寸（全長）</th>
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">実寸（最大幅）</th>
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">おすすめの足長</th>
+                                                      <th className="border border-gray-200 px-4 py-3 text-left font-bold">おすすめの足長</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">XS</td>
                   <td className="border border-gray-200 px-4 py-3">21〜22.5cm</td>
-                  <td className="border border-gray-200 px-4 py-3">約23.0cm</td>
-                  <td className="border border-gray-200 px-4 py-3">約7.8cm</td>
                   <td className="border border-gray-200 px-4 py-3">21.0〜22.5cm</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">S</td>
                   <td className="border border-gray-200 px-4 py-3">23〜24.5cm</td>
-                  <td className="border border-gray-200 px-4 py-3">約25.0cm</td>
-                  <td className="border border-gray-200 px-4 py-3">約8.3cm</td>
                   <td className="border border-gray-200 px-4 py-3">23.0〜24.5cm</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">M</td>
                   <td className="border border-gray-200 px-4 py-3">25〜26cm</td>
-                  <td className="border border-gray-200 px-4 py-3">約26.5cm</td>
-                  <td className="border border-gray-200 px-4 py-3">約8.8cm</td>
                   <td className="border border-gray-200 px-4 py-3">25.0〜26.0cm</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">L</td>
                   <td className="border border-gray-200 px-4 py-3">26.5〜27.5cm</td>
-                  <td className="border border-gray-200 px-4 py-3">約28.0cm</td>
-                  <td className="border border-gray-200 px-4 py-3">約9.3cm</td>
                   <td className="border border-gray-200 px-4 py-3">26.5〜27.5cm</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">XL</td>
                   <td className="border border-gray-200 px-4 py-3">28〜29cm</td>
-                  <td className="border border-gray-200 px-4 py-3">—（実寸未検証）</td>
-                  <td className="border border-gray-200 px-4 py-3">—（実寸未検証）</td>
+                  <td className="border border-gray-200 px-4 py-3">—</td>
+                  <td className="border border-gray-200 px-4 py-3">—</td>
                   <td className="border border-gray-200 px-4 py-3">28.0〜29.0cm（ブラック・ピンク限定）</td>
                 </tr>
               </tbody>
@@ -275,7 +265,7 @@ export default function PitsoleAllSizesPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-amber-700">ポイント：</span>
-              実寸は公式対応サイズより約0.5〜1cm長めに作られています。これはカットによる微調整を前提とした設計のためです。つま先のカットラインに沿って調整することで、ぴったりのフィット感が得られます。
+              つま先部分にカットラインが印刷されており、ハサミで調整できます（公式サイトにて2026年7月確認）。少しずつ切って合わせる前提の設計のため、サイズの境界にいる場合は大きめを選ぶほうが調整しやすくなります。
             </p>
           </div>
         </section>
@@ -283,7 +273,7 @@ export default function PitsoleAllSizesPage() {
         {/* Section 2 */}
         <section id="xs-review" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
-            XSサイズ（21〜22.5cm）実寸レビュー
+            XSサイズ（21〜22.5cm）はどんな人向けか
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -291,23 +281,21 @@ export default function PitsoleAllSizesPage() {
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            実寸の計測結果
+            公式の対応足長
           </h3>
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
-            <ul className="text-sm text-gray-700 space-y-1">
-              <li><span className="font-bold">全長：</span>約23.0cm（カットライン最小時：約21.5cm）</li>
-              <li><span className="font-bold">最大幅（母趾球付近）：</span>約7.8cm</li>
-              <li><span className="font-bold">かかと幅：</span>約5.5cm</li>
-              <li><span className="font-bold">アーチ部分の高さ：</span>約2.0cm</li>
-              <li><span className="font-bold">かかと部分の厚み：</span>約1.5cm</li>
-            </ul>
-          </div>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li><span className="font-bold">対応足長：</span>21〜22.5cm（公式サイトにて2026年7月確認）</li>
+                <li><span className="font-bold">つま先のカット：</span>可（カットラインに沿ってハサミで調整）</li>
+                <li className="text-xs text-gray-500">全長・幅・厚みなどの寸法は公式サイトに掲載がないため記載していません。当サイトは商品を実測していません。</li>
+              </ul>
+            </div>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            フィット感レビュー
+            このサイズを選ぶときの考え方
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            22cmの足で試した場合、カットラインの2番目まで切ることでジャストフィットします。アーチサポート部分がちょうど土踏まずの中心に来る位置関係で、3点サポートがしっかり機能しています。22.5cmの場合はカットラインの1番目で十分です。
+            足長が21〜22.5cmの範囲に収まっていればこのサイズです。22.5cmに近い方は、上のSサイズを選んでカットで詰めるという選び方もできます（小さいサイズは広げられないため、迷う場合は大きめのほうが調整しやすくなります）。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
@@ -318,7 +306,7 @@ export default function PitsoleAllSizesPage() {
         {/* Section 3 */}
         <section id="s-review" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
-            Sサイズ（23〜24.5cm）実寸レビュー
+            Sサイズ（23〜24.5cm）はどんな人向けか
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -326,23 +314,21 @@ export default function PitsoleAllSizesPage() {
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            実寸の計測結果
+            公式の対応足長
           </h3>
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
-            <ul className="text-sm text-gray-700 space-y-1">
-              <li><span className="font-bold">全長：</span>約25.0cm（カットライン最小時：約23.5cm）</li>
-              <li><span className="font-bold">最大幅（母趾球付近）：</span>約8.3cm</li>
-              <li><span className="font-bold">かかと幅：</span>約5.8cm</li>
-              <li><span className="font-bold">アーチ部分の高さ：</span>約2.2cm</li>
-              <li><span className="font-bold">かかと部分の厚み：</span>約1.5cm</li>
-            </ul>
-          </div>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li><span className="font-bold">対応足長：</span>23〜24.5cm（公式サイトにて2026年7月確認）</li>
+                <li><span className="font-bold">つま先のカット：</span>可（カットラインに沿ってハサミで調整）</li>
+                <li className="text-xs text-gray-500">全長・幅・厚みなどの寸法は公式サイトに掲載がないため記載していません。当サイトは商品を実測していません。</li>
+              </ul>
+            </div>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            フィット感レビュー
+            このサイズを選ぶときの考え方
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            23.5cmの足で試した場合、カットラインの3番目でちょうどよいフィット感です。24cmの足ではカットラインの2番目がベスト。アーチサポートの位置が足裏の中心にしっかり対応し、歩行時の安定感が高い傾向があります。
+            足長が23〜24.5cmの範囲ならこのサイズです。公式の対応範囲が最も一般的な足長に重なるサイズで、24.5cmに近い方は上のMサイズでも調整できます。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
@@ -353,7 +339,7 @@ export default function PitsoleAllSizesPage() {
         {/* Section 4 */}
         <section id="m-review" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
-            Mサイズ（25〜26cm）実寸レビュー
+            Mサイズ（25〜26cm）はどんな人向けか
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -361,23 +347,21 @@ export default function PitsoleAllSizesPage() {
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            実寸の計測結果
+            公式の対応足長
           </h3>
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
-            <ul className="text-sm text-gray-700 space-y-1">
-              <li><span className="font-bold">全長：</span>約26.5cm（カットライン最小時：約25.5cm）</li>
-              <li><span className="font-bold">最大幅（母趾球付近）：</span>約8.8cm</li>
-              <li><span className="font-bold">かかと幅：</span>約6.2cm</li>
-              <li><span className="font-bold">アーチ部分の高さ：</span>約2.3cm</li>
-              <li><span className="font-bold">かかと部分の厚み：</span>約1.6cm</li>
-            </ul>
-          </div>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li><span className="font-bold">対応足長：</span>25〜26cm（公式サイトにて2026年7月確認）</li>
+                <li><span className="font-bold">つま先のカット：</span>可（カットラインに沿ってハサミで調整）</li>
+                <li className="text-xs text-gray-500">全長・幅・厚みなどの寸法は公式サイトに掲載がないため記載していません。当サイトは商品を実測していません。</li>
+              </ul>
+            </div>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            フィット感レビュー
+            このサイズを選ぶときの考え方
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            25.5cmの足で試した場合、カットラインの2番目で快適にフィットします。26cmの場合はカットラインの1番目またはカットなしでも使用可能です。男性の小さめの足（25cm）にも対応し、カットラインの最大までカットすればぴったりです。
+            足長が25〜26cmの範囲ならこのサイズです。男性で足長が小さめの方もこの範囲に入ることが多く、26cmに近い方は上のLサイズでも調整できます。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
@@ -388,7 +372,7 @@ export default function PitsoleAllSizesPage() {
         {/* Section 5 */}
         <section id="l-review" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
-            Lサイズ（26.5〜27.5cm）実寸レビュー
+            Lサイズ（26.5〜27.5cm）はどんな人向けか
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -396,23 +380,21 @@ export default function PitsoleAllSizesPage() {
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            実寸の計測結果
+            公式の対応足長
           </h3>
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
-            <ul className="text-sm text-gray-700 space-y-1">
-              <li><span className="font-bold">全長：</span>約28.0cm（カットライン最小時：約27.0cm）</li>
-              <li><span className="font-bold">最大幅（母趾球付近）：</span>約9.3cm</li>
-              <li><span className="font-bold">かかと幅：</span>約6.5cm</li>
-              <li><span className="font-bold">アーチ部分の高さ：</span>約2.5cm</li>
-              <li><span className="font-bold">かかと部分の厚み：</span>約1.7cm</li>
-            </ul>
-          </div>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li><span className="font-bold">対応足長：</span>26.5〜27.5cm（公式サイトにて2026年7月確認）</li>
+                <li><span className="font-bold">つま先のカット：</span>可（カットラインに沿ってハサミで調整）</li>
+                <li className="text-xs text-gray-500">全長・幅・厚みなどの寸法は公式サイトに掲載がないため記載していません。当サイトは商品を実測していません。</li>
+              </ul>
+            </div>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            フィット感レビュー
+            このサイズを選ぶときの考え方
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            27cmの足で試した場合、カットラインの2番目でジャストフィットします。27.5cmの場合はカットなしまたは最小限のカットで使用可能です。アーチサポートの位置が男性の足にも適切に対応し、大きめの足でも3点サポートがしっかり機能します。
+            足長が26.5〜27.5cmの範囲ならこのサイズです。27.5cmを超える方は、ブラック・ピンク限定のXL（28〜29cm）が公式の対応範囲になります。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
@@ -632,7 +614,7 @@ export default function PitsoleAllSizesPage() {
                 Q. 同じサイズでもモデルによって大きさは変わりますか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. ピットソールは基本的に1モデルの展開のため、同じサイズ表記であれば実寸は同じです。ただし製造ロットによって数ミリ程度の個体差がある場合があります。カットラインで微調整できるため、実用上の問題にはなりません。
+                A. ピットソールは基本的に1モデルの展開のため、同じサイズ表記であれば仕様は同じです。カットラインで微調整できるため、足長が範囲内であれば調整して使えます。
               </p>
             </div>
           </div>
@@ -645,7 +627,7 @@ export default function PitsoleAllSizesPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ピットソールXS〜Lの4サイズの実寸レビューをまとめます。適切なサイズ選びができれば、世界特許の3点サポート構造の効果を最大限に発揮できます。
+            ピットソールのサイズ選びをまとめます。公式の対応足長に自分の足長を当てはめ、境界にいる場合は大きめを選んでカットで詰めるのが基本です。
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
@@ -657,7 +639,7 @@ export default function PitsoleAllSizesPage() {
               <li><span className="font-bold">S（23〜24.5cm）：</span>標準的な女性向け。最も売れているサイズ。</li>
               <li><span className="font-bold">M（25〜26cm）：</span>大きめ女性・小さめ男性向け。男女兼用。</li>
               <li><span className="font-bold">L（26.5〜27.5cm）：</span>標準的な男性向け。スニーカーに最適。</li>
-              <li><span className="font-bold">XL（28〜29cm）：</span>ブラック・ピンク限定。28cm以上の方向け（公式対応範囲・本記事では実寸未検証）。</li>
+              <li><span className="font-bold">XL（28〜29cm）：</span>ブラック・ピンク限定。28cm以上の方向け（公式対応範囲）。</li>
               <li><span className="font-bold">共通ルール：</span>迷ったら大きめを選び、カットラインで微調整。</li>
             </ul>
           </div>

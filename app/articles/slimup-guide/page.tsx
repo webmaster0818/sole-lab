@@ -531,7 +531,7 @@ export default function SlimupGuidePage() {
                       item: "設計の特徴",
                       slimup: "傾斜設計",
                       pitsole: "キュボイドサポート",
-                      runway: "骨盤補整（整体師監修）",
+                      runway: "3点アーチサポート",
                     },
                     {
                       item: "臨床試験",

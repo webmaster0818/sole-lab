@@ -1049,7 +1049,7 @@ export default function InsoleCare() {
             </h3>
             <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
               <p>
-                ランウェイキュアソールは整体師監修の骨盤補整設計を採用した薄型インソールです。パンプスやローファーなど薄い靴にも対応できる設計が特徴ですが、薄型ゆえにお手入れの際はより丁寧な取り扱いが求められます。
+                ランウェイキュアソールは3点アーチサポート設計を採用した薄型インソールです。パンプスやローファーなど薄い靴にも対応できる設計が特徴ですが、薄型ゆえにお手入れの際はより丁寧な取り扱いが求められます。
               </p>
               <ul className="space-y-2 ml-1">
                 <li className="flex items-start gap-2">
