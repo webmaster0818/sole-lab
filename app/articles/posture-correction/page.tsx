@@ -370,7 +370,7 @@ export default function PostureCorrectionPage() {
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>-- 世界特許取得のアーチサポート技術</li>
                 <li>-- サイズ展開：XS〜XL（21〜29cm・XLはブラック/ピンク限定）</li>
-                <li>-- 体幹安定・骨盤矯正にも効果的</li>
+                <li>-- 3点アーチサポートで立ち方・歩き方を安定させる設計</li>
               </ul>
             </div>
             <div className="bg-gray-50 rounded-lg p-4">

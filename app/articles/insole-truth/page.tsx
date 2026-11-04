@@ -478,7 +478,7 @@ export default function InsoleTruthPage() {
                 name: "ランウェイキュアソール",
                 href: "/runway-cure-sole/",
                 points: [
-                  "整体師監修の骨盤補整設計",
+                  "3点アーチサポート設計",
                   "美姿勢サポートに特化した構造",
                   "ヒール靴にも対応する薄型タイプあり",
                 ],

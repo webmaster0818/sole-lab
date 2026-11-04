@@ -405,7 +405,7 @@ export default function HyakkinVsProPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ランウェイキュアソールは美姿勢を重視したアーチサポート設計で、骨盤周りの筋肉を活性化させることを目的としています。スリムアップインソールは美容整体師の監修による重心移動の最適化を主眼に置いたサポート構造です。
+            ランウェイキュアソールは、足裏の3つのアーチを同時に支えることで美姿勢をサポートする設計です。スリムアップインソールは美容整体師の監修による重心移動の最適化を主眼に置いたサポート構造です。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">

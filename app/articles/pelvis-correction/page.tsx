@@ -425,7 +425,7 @@ export default function PelvisCorrectionPage() {
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>-- 世界特許取得のアーチサポート技術</li>
                 <li>-- サイズ展開：XS〜XL（21〜29cm・XLはブラック/ピンク限定）</li>
-                <li>-- 骨盤矯正・体幹安定に高い効果</li>
+                <li>-- 3点アーチサポートで立ち方・歩き方を安定させる設計</li>
               </ul>
             </div>
             <div className="bg-gray-50 rounded-lg p-4">
@@ -459,7 +459,7 @@ export default function PelvisCorrectionPage() {
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <div>
               <p className="text-sm text-gray-700 leading-relaxed mb-3">
-                <strong>3点アーチサポート</strong>で足裏全体のバランスを整え、骨盤を正しい位置に導く設計。美姿勢にフォーカスした商品コンセプトで、骨盤から美しいボディラインを目指す女性に人気です。
+                <strong>3点アーチサポート</strong>で足裏全体のバランスを整え、立ち方・歩き方を安定させる設計。美姿勢にフォーカスした商品コンセプトで、骨盤から美しいボディラインを目指す女性に人気です。
               </p>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>-- 3点アーチサポート構造</li>
