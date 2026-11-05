@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "ダイエットインソールおすすめランキング3選【2026年10月更新】効果・口コミ・類似品比較まで解説",
   description:
-    "2026年最新のダイエットインソールおすすめランキング。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で比較。ランウェイキュアソールの類似品・代わりを探している方向けの比較、市販（ドンキ・ニトリ・100均・薬局）の取扱状況も解説します。",
+    "2026年最新のダイエットインソールおすすめランキング。ピットソール・ランウェイキュアソール・スリムアップインソールを6つの基準で比較。ランウェイキュアソール・ピットソールの類似品・代用を探している方向けの比較、市販（ドンキ・ニトリ・100均・薬局）の取扱状況も解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/ranking/",
   },
@@ -29,7 +29,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-10-15",
+  dateModified: "2026-11-05",
 };
 
 const faqStructuredData = {
@@ -50,6 +50,14 @@ const faqStructuredData = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "低評価の理由を見てから判断してください。3商品の低評価は「体重が変わらなかった」「サイズが合わなかった」が中心で、製品不良よりも期待値とサイズ選びのミスマッチに由来します。姿勢サポートを目的にし、サイズ表と靴との相性を先に確認すれば、低評価の多くは避けられます。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "ピットソールの代用になるインソールはありますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "同じく姿勢・歩行サポートをうたう専用インソールとしては、本記事で比較しているランウェイキュアソール（公式通販で1足6,980円・2026年6月12日参照）とスリムアップインソール（公式通販で1足6,980円・2026年11月2日確認）が比較対象になります。ピットソール（単品6,578円）と価格帯はほぼ同じなので、安く済ませる手段にはなりにくい点に注意してください。100均・ワークマン・無印良品などの汎用インソールはクッション性や衝撃吸収が主な目的で、姿勢サポートをうたう専用品とは目的が違います。",
       },
     },
     {
@@ -308,12 +316,12 @@ export default function RankingPage() {
             </li>
             <li>
               <a href="#ruiji" className="hover:text-[#8a6a4f] transition-colors">
-                10. ランウェイキュアソールの類似品・代わりを探している方へ
+                10. ランウェイキュアソール・ピットソールの類似品・代用を探している方へ
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:text-[#8a6a4f] transition-colors">
-                11. よくある質問（FAQ）14選
+                11. よくある質問（FAQ）15選
               </a>
             </li>
             <li>
@@ -1548,7 +1556,7 @@ export default function RankingPage() {
       <section id="ruiji" className="section-light py-12 md:py-16 mb-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
-            ランウェイキュアソールの類似品・代わりを探している方へ
+            ランウェイキュアソール・ピットソールの類似品・代用を探している方へ
           </h2>
           <p className="text-sm text-gray-600 leading-relaxed mb-4">
             「ランウェイキュアソール 類似品」という検索が増えています。背景には、ドン・キホーテや薬局などの実店舗での取り扱いが確認されておらず、
@@ -1566,6 +1574,35 @@ export default function RankingPage() {
               サイズ展開や素材・サポート設計が正規品と異なる場合があります。購入前に正規の販売ルートかどうかの確認をおすすめします。
             </p>
           </div>
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mt-8 mb-3">ピットソールの代用・類似品を探している場合</h3>
+          <p className="text-sm text-gray-600 leading-relaxed mb-4">
+            「ピットソール 代用」で比較されるのも、同じく姿勢・歩行サポートをうたう専用インソールです。本記事の3商品では、
+            <strong>ランウェイキュアソール</strong>（公式通販で1足6,980円・2026年6月12日参照）と
+            <strong>スリムアップインソール</strong>（公式通販で1足6,980円・2026年11月2日確認）が比較対象になります。
+            ピットソールは単品6,578円なので、<strong>代用品に替えても価格はほぼ変わりません</strong>。安く済ませる手段にはなりにくい点に注意してください。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-200 bg-white">
+              <thead>
+                <tr className="bg-[#faf7f3] text-gray-900">
+                  <th className="p-3 text-left border-b border-gray-200">代用として検討されるもの</th>
+                  <th className="p-3 text-left border-b border-gray-200">主な目的</th>
+                  <th className="p-3 text-left border-b border-gray-200">価格の目安</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                <tr><td className="p-3">ランウェイキュアソール／スリムアップインソール</td><td className="p-3">姿勢・歩行サポート（専用品）</td><td className="p-3">1足6,980円（公式通販）</td></tr>
+                <tr><td className="p-3">100均・ワークマン・無印良品の汎用インソール</td><td className="p-3">クッション性・衝撃吸収・消臭</td><td className="p-3">専用品より安価</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-600 leading-relaxed mb-4">
+            汎用インソールは目的が違う商品で、ピットソールの代わりになるかは用途次第です。違いは
+            <Link href="/articles/100kin-comparison/" className="text-[#8a6a4f] underline">100均インソールとの比較</Link>・
+            <Link href="/articles/workman-insole/" className="text-[#8a6a4f] underline">ワークマンのインソール</Link>・
+            <Link href="/articles/muji-insole/" className="text-[#8a6a4f] underline">無印良品のインソール</Link>
+            で整理しています。
+          </p>
           <div className="grid md:grid-cols-2 gap-3">
             <Link href="/compare/runway-vs-slimup/" className="block p-3 border border-gray-200 rounded-xl bg-white hover:bg-gray-50 transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイキュアソール vs スリムアップインソール</p>
@@ -1585,7 +1622,7 @@ export default function RankingPage() {
 
       <section id="faq" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-[#8a6a4f]">
-          よくある質問（FAQ）14選
+          よくある質問（FAQ）15選
         </h2>
 
         <div className="space-y-3">
@@ -1645,6 +1682,10 @@ export default function RankingPage() {
             {
               q: "Q14. 悪い口コミが多い商品は避けたほうがいいですか？",
               a: "低評価の理由を見てから判断してください。3商品の低評価は「体重が変わらなかった」「サイズが合わなかった」が中心で、製品不良よりも期待値とサイズ選びのミスマッチに由来します。姿勢サポートを目的にし、サイズ表と靴との相性を先に確認すれば、低評価の多くは避けられます。",
+            },
+            {
+              q: "Q15. ピットソールの代用になるインソールはありますか？",
+              a: "同じく姿勢・歩行サポートをうたう専用インソールとしては、本記事で比較しているランウェイキュアソール（公式通販で1足6,980円・2026年6月12日参照）とスリムアップインソール（公式通販で1足6,980円・2026年11月2日確認）が比較対象になります。ピットソール（単品6,578円）と価格帯はほぼ同じなので、安く済ませる手段にはなりにくい点に注意してください。100均・ワークマン・無印良品などの汎用インソールはクッション性や衝撃吸収が主な目的で、姿勢サポートをうたう専用品とは目的が違います。",
             },
           ].map((item) => (
             <details
