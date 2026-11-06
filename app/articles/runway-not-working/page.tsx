@@ -685,52 +685,25 @@ export default function RunwayNotWorkingPage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              ランウェイキュアソールの口コミを、ポジティブ・ネガティブ両面から客観的に検証します。PR投稿ではなく、実際の購入者によるレビューを中心に分析しました。
+              当サイトは、出典を示せない口コミの本文を掲載していません。職業や使用期間を付けた体験談も作成していません。ここに載せるのは、出典を示せるレビューの実数だけです。
             </p>
           </div>
 
-          <div className="space-y-4">
-            <div className="bg-white rounded-xl p-5 border border-emerald-200">
-              <h3 className="font-bold text-emerald-700 mb-3">ポジティブな口コミの傾向</h3>
-              <ul className="space-y-2">
-                {[
-                  "「姿勢が良くなったと言われた」（3ヶ月使用者）",
-                  "「足の疲れが明らかに減った」（通勤で毎日使用）",
-                  "「薄いから普段の靴にそのまま入るのが良い」",
-                  "「猫背が改善されて肩こりも楽になった」",
-                  "「体重は大きく変わらないが、脚のラインが変わった気がする」",
-                ].map((item) => (
-                  <li key={item} className="text-sm text-gray-600 flex items-start gap-2">
-                    <span className="text-emerald-500 shrink-0">&#9679;</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl p-5 border border-red-200">
-              <h3 className="font-bold text-red-600 mb-3">ネガティブな口コミの傾向</h3>
-              <ul className="space-y-2">
-                {[
-                  "「1ヶ月使ったけど体重が変わらない」→ 使用期間不足",
-                  "「デスクワークだからあまり歩かない」→ 歩行量不足",
-                  "「期待したほど劇的な変化はない」→ 期待値のギャップ",
-                  "「サイズが微妙に合わない」→ M・L2サイズの限界",
-                  "「値段が高いのに効果がわからない」→ 短期評価の問題",
-                ].map((item) => (
-                  <li key={item} className="text-sm text-gray-600 flex items-start gap-2">
-                    <span className="text-red-400 shrink-0">&#9679;</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <div className="bg-white rounded-xl p-5 border border-[#e8ded6] mb-6">
+            <p className="text-sm font-bold text-gray-900 mb-2">楽天公式店の商品レビュー（実数）</p>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              総合 <strong>3.98</strong> / 5.0（<strong>865件</strong>）。内訳は ★5：233件／★4：435件／★3：160件／★2：19件／★1：18件です。
+              <span className="block text-xs text-gray-500 mt-1">出典：FLORe公式ショップ 楽天市場店（ランウェイキュアソール商品レビュー・2026年10月14日参照）</span>
+            </p>
+            <p className="text-sm text-gray-700 leading-relaxed mt-3">
+              ★2以下は37件で、全体の約4%です。レビューの本文は投稿者に著作権があるため転載していません。内容は出典リンク先でご確認ください。
+            </p>
           </div>
 
-          <div className="mt-6 bg-amber-50 border border-amber-200 rounded-xl p-5">
+          <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <span className="font-bold text-[#c9a76c]">分析結果：</span>
-              ポジティブな口コミは3ヶ月以上使用し、毎日歩行している方に集中しています。一方、ネガティブな口コミの多くは使用期間1ヶ月未満、または歩行量が少ない方からのものです。インソール自体の品質問題ではなく、使い方と期待値の問題が大半を占めています。
+              <span className="font-bold text-[#c9a76c]">効果が出ないときに確認したいこと：</span>
+              公式サイトに掲載されている臨床試験（ピットソール）の条件は「週5日以上・3か月装着」です。インソールは歩くことで働く仕組みなので、<strong>使用期間が短い場合や、1日の歩行量が少ない場合は変化が分かりにくくなります</strong>。これは製品の品質とは別の問題です。なお、使用期間や歩行量ごとの結果を示した公表データは確認できていません。
             </p>
           </div>
         </div>

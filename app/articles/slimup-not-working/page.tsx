@@ -618,42 +618,28 @@ export default function SlimupNotWorkingPage() {
             実際の口コミを客観的に検証
           </h2>
 
-          <div className="space-y-4">
-            <div className="bg-white rounded-xl p-5 border border-emerald-200">
-              <h3 className="font-bold text-emerald-700 mb-3">ポジティブな口コミの傾向</h3>
-              <ul className="space-y-2">
-                {[
-                  "「立ち仕事でも足が疲れにくくなった」（販売職・3ヶ月使用）",
-                  "「姿勢を意識できるようになった」（事務職・2ヶ月使用）",
-                  "「夕方のむくみが軽減された」（看護師・4ヶ月使用）",
-                  "「主人と一緒に使えるのが良い」（夫婦での使用）",
-                  "「井上先生の動画を見て信頼できた」（監修者への信頼）",
-                ].map((item) => (
-                  <li key={item} className="text-sm text-gray-600 flex items-start gap-2">
-                    <span className="text-emerald-500 shrink-0">&#9679;</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-6">
+            <p>
+              当サイトは、出典を示せない口コミの本文を掲載していません。職業や使用期間を付けた体験談も作成していません。ここに載せるのは、出典を示せるレビューの実数だけです。
+            </p>
+          </div>
 
-            <div className="bg-white rounded-xl p-5 border border-red-200">
-              <h3 className="font-bold text-red-600 mb-3">ネガティブな口コミの傾向</h3>
-              <ul className="space-y-2">
-                {[
-                  "「2週間使ったけど体重変わらない」→ 使用期間不足",
-                  "「デスクワークだから意味ないかも」→ 歩行量不足",
-                  "「カットしたら合わなくなった」→ カットはつま先・サイドの微調整用（公式案内）。サイズ自体はS/Mから実寸で選ぶ",
-                  "「思ったより硬くて最初痛い」→ 慣らし期間の不足",
-                  "「パンプスに入れたら窮屈」→ 靴との相性問題",
-                ].map((item) => (
-                  <li key={item} className="text-sm text-gray-600 flex items-start gap-2">
-                    <span className="text-red-400 shrink-0">&#9679;</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <div className="bg-white rounded-xl p-5 border border-[#e8ded6]">
+            <p className="text-sm font-bold text-gray-900 mb-2">楽天公式店の商品レビュー（実数）</p>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              総合 <strong>3.6</strong> / 5.0（<strong>5件</strong>）。内訳は ★5：2件／★4：1件／★3：1件／★1：1件です。
+              <span className="block text-xs text-gray-500 mt-1">出典：イッティ公式 楽天市場店（単品の商品レビュー・2026年10月14日参照）</span>
+            </p>
+            <p className="text-sm text-gray-700 leading-relaxed mt-3">
+              <strong>件数が5件と少ないため、傾向を断定できる段階ではありません。</strong>レビューの本文は投稿者に著作権があるため転載していません。内容は出典リンク先でご確認ください。
+            </p>
+          </div>
+
+          <div className="mt-6 bg-amber-50 border border-amber-200 rounded-xl p-5">
+            <p className="text-sm text-gray-700 leading-relaxed">
+              <span className="font-bold text-[#c9a76c]">効果が出ないときに確認したいこと：</span>
+              インソールは歩くことで働く仕組みなので、<strong>使用期間が短い場合や、1日の歩行量が少ない場合は変化が分かりにくくなります</strong>。サイズは公式サイトでS（23.0〜24.5cm）・M（25.0〜26.5cm）の2種類から実寸で選び、カットはつま先・サイドの微調整に使います（公式案内）。なお、使用期間や歩行量ごとの結果を示した公表データは確認できていません。
+            </p>
           </div>
         </div>
       </section>
