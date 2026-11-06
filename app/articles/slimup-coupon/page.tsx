@@ -34,7 +34,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-28",
-  dateModified: "2026-07-05",
+  dateModified: "2026-11-06",
 };
 
 const faqs = [
@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "スリムアップインソールを最安値で買うにはどうすればいいですか？",
     answer:
-      "公式通販「一番星」の価格はSサイズ・Mサイズとも1足6,980円（税込）で、セット販売の記載はありません（2026年11月2日確認）。楽天やAmazonはポイント還元があるため、ポイント還元率を含めた実質価格で比較することをおすすめします。",
+      "公式通販「一番星」の価格はSサイズ・Mサイズとも1足6,980円（税込）で、セット販売の記載はありません（2026年11月2日確認）。モールの価格はショップごとに違い、2026年11月6日の確認ではAmazon（販売元はメーカー公式の一番星）が1足2,792円で最も安い価格でした。",
   },
   {
     question: "スリムアップインソールはドラッグストアで買えますか？",
@@ -295,21 +295,21 @@ export default function SlimupCouponPage() {
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900">楽天市場</td>
-                    <td className="py-3 px-4 text-gray-900">6,980円</td>
+                    <td className="py-3 px-4 text-gray-900">6,980円（送料無料）</td>
                     <td className="py-3 px-4 text-gray-700">確認できず</td>
                     <td className="py-3 px-4 text-gray-700">1〜10%</td>
                     <td className="py-3 px-4 text-gray-700">○</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900">Amazon</td>
-                    <td className="py-3 px-4 text-gray-900">6,980円</td>
+                    <td className="py-3 px-4 text-gray-900">2,792円（2枚セット4,792円・Sサイズで確認）</td>
                     <td className="py-3 px-4 text-gray-700">確認できず</td>
                     <td className="py-3 px-4 text-gray-700">1〜3%</td>
                     <td className="py-3 px-4 text-gray-700">○</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900">Yahooショッピング</td>
-                    <td className="py-3 px-4 text-gray-900">6,980円</td>
+                    <td className="py-3 px-4 text-gray-900">6,980円（別途送料880円）</td>
                     <td className="py-3 px-4 text-gray-700">確認できず</td>
                     <td className="py-3 px-4 text-gray-700">1〜5%</td>
                     <td className="py-3 px-4 text-gray-700">○</td>
@@ -321,7 +321,7 @@ export default function SlimupCouponPage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              スリムアップインソールは公式サイト（イッティ）、楽天、Amazon、Yahooショッピングのいずれでも購入可能です。単品価格はいずれも6,980円で、<strong>公式通販にはセット販売の記載がありません</strong>（2026年11月2日確認）。
+              スリムアップインソールは公式サイト（イッティ）、楽天、Amazon、Yahooショッピングのいずれでも購入可能です。<strong>公式通販にはセット販売の記載がありません</strong>（2026年11月2日確認）。モールの価格はショップごとに違います。2026年11月6日の確認では、Amazon（販売元：＜メーカー公式＞株式会社ロッピングライフ（一番星））がSサイズ・Mサイズとも1足2,792円、楽天市場（イッティ公式 楽天市場店）が6,980円（送料無料）、Yahoo!ショッピング（一番星）が6,980円＋送料880円と表示されていました。価格は変わることがあるため、購入前に各ショップでご確認ください。
             </p>
             <p>
               楽天スーパーセールやAmazonプライムデーのタイミングでポイント大量還元が狙える場合は、ECサイト経由の方がお得になることもあります。セールの開催時期は不定期のため、購入時期とあわせてご検討ください。
@@ -341,31 +341,31 @@ export default function SlimupCouponPage() {
             {[
               {
                 rank: "1",
-                title: "楽天市場（ポイント10倍デー）",
-                desc: "楽天スーパーセールやお買い物マラソンでポイント10倍の時に購入すれば、実質6,000円前後に。楽天経済圏の方はこちらも検討。",
-                price: "6,980円（ポイント還元後 実質約6,000円）",
-                badge: "ポイント狙い",
+                title: "Amazon（販売元：メーカー公式の一番星）",
+                desc: "販売元は＜メーカー公式＞株式会社ロッピングライフ（一番星）。2026年11月6日の確認ではSサイズ・Mサイズとも1足2,792円、2枚セット4,792円（Sサイズで確認）と表示されていました。価格は変わることがあるため、購入前に商品ページでご確認ください。",
+                price: "1足2,792円（2026年11月6日確認）",
+                badge: "最安",
               },
               {
                 rank: "2",
-                title: "Amazon（プライムデー）",
-                desc: "プライムデーやタイムセール祭りで割引される場合あり。送料無料で翌日届く利便性が魅力。急いでいる方向け。",
-                price: "6,980円（セール時5,500〜6,500円）",
-                badge: "利便性重視",
+                title: "楽天市場（イッティ公式 楽天市場店）",
+                desc: "1足6,980円（税込）・送料無料（2026年11月6日確認）。楽天ポイントを使う方向けです。",
+                price: "6,980円（送料無料）",
+                badge: "楽天ポイント",
               },
               {
                 rank: "3",
-                title: "Yahooショッピング（5のつく日）",
-                desc: "5のつく日やPayPay祭りでポイント還元率がアップ。PayPayユーザーならこちらが有利な場合も。",
-                price: "6,980円（ポイント還元後 実質約6,200円）",
-                badge: "PayPay派",
-              },
-              {
-                rank: "4",
                 title: "公式サイト（一番星）",
                 desc: "SサイズとMサイズのどちらも1足6,980円（税込）です。公式通販にセット販売や特典の記載はありません（2026年11月2日確認）。",
                 price: "6,980円（税込）",
                 badge: "公式",
+              },
+              {
+                rank: "4",
+                title: "Yahooショッピング（一番星）",
+                desc: "1足6,980円（税込）に別途送料880円（2026年11月6日確認）。PayPayポイントを使う方向けです。",
+                price: "6,980円＋送料880円",
+                badge: "PayPay派",
               },
             ].map((item) => (
               <div key={item.rank} className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
@@ -595,7 +595,7 @@ export default function SlimupCouponPage() {
               スリムアップインソールの公式通販「一番星」の価格は、<strong>SサイズとMサイズのどちらも1足6,980円（税込）</strong>です。公式通販にセット販売の記載はありません（2026年11月2日確認）。
             </p>
             <p>
-              楽天・Amazon・Yahooショッピングでも購入でき、単品価格はいずれも6,980円です。ポイント還元を含めた実質価格で比較して選ぶ方法があります。
+              楽天・Amazon・Yahooショッピングでも購入できます。2026年11月6日の確認では、Amazon（販売元：＜メーカー公式＞株式会社ロッピングライフ（一番星））がSサイズ・Mサイズとも1足2,792円、楽天市場（イッティ公式 楽天市場店）が6,980円（送料無料）、Yahoo!ショッピング（一番星）が6,980円＋送料880円と表示されていました。価格は変わることがあるため、購入前に各ショップでご確認ください。
             </p>
             <p>
               サイズはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ選択式です（公式サイトにて2026年7月確認）。家族やパートナーと使う場合は、それぞれの足の実寸に合うサイズかを確認したうえでご購入ください。

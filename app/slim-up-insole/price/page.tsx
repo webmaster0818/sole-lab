@@ -52,7 +52,7 @@ const articleStructuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-11-02",
+  dateModified: "2026-11-06",
 };
 
 const faqStructuredData = {
@@ -64,7 +64,7 @@ const faqStructuredData = {
       name: "スリムアップインソールの最安値はどこですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "公式通販「一番星」の価格はSサイズ・Mサイズとも1足6,980円（税込）で、公式通販にセット販売の記載はありません（2026年11月2日確認）。単品購入の場合はどの販売チャネルでも6,980円（税込）です。",
+        text: "公式通販「一番星」の価格はSサイズ・Mサイズとも1足6,980円（税込）で、公式通販にセット販売の記載はありません（2026年11月2日確認）。モールの価格はショップごとに違い、2026年11月6日の確認ではAmazon（販売元はメーカー公式の一番星）が1足2,792円で最も安い価格でした。",
       },
     },
     {
@@ -235,8 +235,7 @@ export default function SlimUpInsolePricePage() {
             ドラッグストアやドンキホーテなど市販の実店舗では取り扱いがありません。
           </p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            単品価格はどのショップでも6,980円（税込）のため、
-            普段利用するショップのポイント還元などを比較して選ぶ方法があります。以下で詳しく比較していきます。
+            モールの価格はショップごとに違います。2026年11月6日の確認では、Amazon（販売元：＜メーカー公式＞株式会社ロッピングライフ（一番星））がSサイズ・Mサイズとも1足2,792円、楽天市場（イッティ公式 楽天市場店）が6,980円（送料無料）、Yahoo!ショッピング（一番星）が6,980円＋送料880円と表示されていました。価格は変わることがあるため、購入前に各ショップでご確認ください。以下で詳しく比較します。
           </p>
         </div>
           {/* 購買意図ページの成果導線(9/28追加・既存コード) */}
@@ -254,7 +253,7 @@ export default function SlimUpInsolePricePage() {
 
         <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
           スリムアップインソールを購入できる全チャネルの価格を一覧でまとめました。
-          すべて税込価格です。モールの単品価格は2026年4月時点、公式通販の価格とセット販売の有無は2026年11月2日に確認した情報です。
+          すべて税込価格です。モールの価格は2026年11月6日、公式通販の価格とセット販売の有無は2026年11月2日に確認した情報です。
         </p>
 
         <div className="overflow-x-auto mb-6">
@@ -284,21 +283,21 @@ export default function SlimUpInsolePricePage() {
                 <td className="py-3 px-4 font-semibold text-gray-700">
                   楽天市場
                 </td>
-                <td className="py-3 px-4 text-right">6,980円</td>
+                <td className="py-3 px-4 text-right">6,980円（送料無料）</td>
                 <td className="py-3 px-4 text-right text-gray-400">--</td>
               </tr>
               <tr className="bg-gray-50 border-b border-gray-200">
                 <td className="py-3 px-4 font-semibold text-gray-700">
                   Amazon
                 </td>
-                <td className="py-3 px-4 text-right">6,980円</td>
-                <td className="py-3 px-4 text-right text-gray-400">--</td>
+                <td className="py-3 px-4 text-right">2,792円</td>
+                <td className="py-3 px-4 text-right text-gray-400">2枚セット4,792円（Sサイズで確認）</td>
               </tr>
               <tr className="bg-white border-b border-gray-200">
                 <td className="py-3 px-4 font-semibold text-gray-700">
                   Yahoo!ショッピング
                 </td>
-                <td className="py-3 px-4 text-right">6,980円</td>
+                <td className="py-3 px-4 text-right">6,980円（別途送料880円）</td>
                 <td className="py-3 px-4 text-right text-gray-400">--</td>
               </tr>
               <tr className="bg-gray-100">
@@ -393,7 +392,7 @@ export default function SlimUpInsolePricePage() {
               楽天市場
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              単品6,980円（税込）で購入可能。楽天ポイントが貯まる・使えるのが最大のメリットです。
+              イッティ公式 楽天市場店で1足6,980円（税込・送料無料、2026年11月6日確認）。楽天ポイントが貯まる・使えるのが最大のメリットです。
               楽天スーパーSALEやお買い物マラソンのタイミングでポイント還元率がアップするため、
               楽天経済圏をよく利用する方は実質的にお得になる場合があります。
             </p>
@@ -404,9 +403,8 @@ export default function SlimUpInsolePricePage() {
               Amazon
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              単品6,980円（税込）で購入可能。Amazonプライム会員なら配送が早く、
-              翌日届く場合もあります。普段からAmazonをよく利用する方にはポイント還元や
-              配送スピードの面で便利です。ただし、在庫状況によっては一時的に品切れになることがあります。
+              販売元は＜メーカー公式＞株式会社ロッピングライフ（一番星）で、2026年11月6日の確認ではSサイズ・Mサイズとも1足2,792円、2枚セット4,792円（Sサイズで確認）と表示されていました。
+              確認した4つの販売先の中で最も安い価格です。価格は変わることがあるため、購入前に商品ページでご確認ください。
             </p>
           </div>
 
@@ -415,7 +413,7 @@ export default function SlimUpInsolePricePage() {
               Yahoo!ショッピング
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              単品6,980円（税込）で購入可能。PayPayポイントが貯まるため、
+              一番星のストアで1足6,980円（税込）、別途送料880円（2026年11月6日確認）。PayPayポイントが貯まるため、
               PayPayユーザーにはメリットがあります。5のつく日やゾロ目の日など
               ポイントアップキャンペーンを活用すると実質的な負担を抑えられます。
             </p>
@@ -425,8 +423,8 @@ export default function SlimUpInsolePricePage() {
         <div className="bg-gray-50 border border-gray-200 rounded-xl p-5">
           <p className="text-sm text-gray-700 leading-relaxed">
             <strong>ポイント：</strong>
-            どのECモールでも単品価格は同じ6,980円です。
-            普段よく使うショップのポイント還元を活用するのがスマートな選び方といえます。
+            モールの価格はショップごとに違い、2026年11月6日の確認ではAmazon（販売元はメーカー公式の一番星）の1足2,792円が最も安い価格でした。
+            Yahoo!ショッピングは別途送料880円がかかります。
             なお、<strong>公式通販にもセット販売の記載はありません</strong>（2026年11月2日確認）。
           </p>
         </div>
@@ -569,7 +567,7 @@ export default function SlimUpInsolePricePage() {
           {[
             {
               q: "スリムアップインソールの最安値はどこですか？",
-              a: "公式通販「一番星」の価格はSサイズ・Mサイズとも1足6,980円（税込）で、公式通販にセット販売の記載はありません（2026年11月2日確認）。単品購入の場合はどの販売チャネルでも6,980円（税込）で同一価格となっています。",
+              a: "公式通販「一番星」の価格はSサイズ・Mサイズとも1足6,980円（税込）で、公式通販にセット販売の記載はありません（2026年11月2日確認）。モールの価格はショップごとに違い、2026年11月6日の確認では、Amazon（販売元：＜メーカー公式＞株式会社ロッピングライフ（一番星））がSサイズ・Mサイズとも1足2,792円、楽天市場（イッティ公式 楽天市場店）が6,980円（送料無料）、Yahoo!ショッピング（一番星）が6,980円＋送料880円と表示されていました。価格は変わることがあるため、購入前に各ショップでご確認ください。",
             },
             {
               q: "スリムアップインソールはドラッグストアで買えますか？",
@@ -577,7 +575,7 @@ export default function SlimUpInsolePricePage() {
             },
             {
               q: "公式サイトで購入するメリットは何ですか？",
-              a: "公式サイトでは正規品の保証、在庫の安定供給といったメリットがあります。なお、公式通販にセット販売や特典の記載はありません（2026年11月2日確認）。単品であればどのショップでも同価格のため、ポイント還元の高いショップを選ぶのもありです。",
+              a: "公式サイトでは正規品の保証、在庫の安定供給といったメリットがあります。なお、公式通販にセット販売や特典の記載はありません（2026年11月2日確認）。モールの価格はショップごとに違い、2026年11月6日の確認ではAmazon（販売元はメーカー公式の一番星）が1足2,792円で最も安い価格でした。",
             },
             {
               q: "楽天やAmazonでも正規品を購入できますか？",
@@ -628,7 +626,7 @@ export default function SlimUpInsolePricePage() {
             <li className="flex items-start gap-2">
               <span className="text-emerald-500 mt-0.5 shrink-0" aria-hidden="true">&#10003;</span>
               <span>
-                <strong>単品価格</strong>はどのショップでも6,980円（税込）で同一
+                <strong>モールの価格</strong>はショップごとに違う（2026年11月6日の確認ではAmazonの1足2,792円が最安）
               </span>
             </li>
             <li className="flex items-start gap-2">
