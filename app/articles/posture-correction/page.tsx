@@ -365,7 +365,7 @@ export default function PostureCorrectionPage() {
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <div>
               <p className="text-sm text-gray-700 leading-relaxed mb-3">
-                BMZ社の<strong>世界特許技術</strong>を搭載した高機能インソール。足裏の立方骨（キュボイド）を的確にサポートすることで、骨格レベルから姿勢を矯正します。累計200万足の販売実績が効果の証明です。
+                BMZ社の<strong>世界特許技術</strong>を搭載した高機能インソール。足裏の立方骨（キュボイド）を的確にサポートすることで、骨格レベルから姿勢を矯正します。累計200万足（2025年4月時点）の販売実績が効果の証明です。
               </p>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>-- 世界特許取得のアーチサポート技術</li>

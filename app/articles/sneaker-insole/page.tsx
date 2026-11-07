@@ -282,7 +282,7 @@ export default function SneakerInsolePage() {
             <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              世界特許取得のBMZ社の技術を採用した、スニーカーとの相性が抜群のインソールです。薄型ながら3点サポート構造で足裏のアーチをしっかり支え、普段の歩行を快適にします。累計200万足の販売実績があり、幅広いユーザーから支持されています。カットして調整できるためあらゆるスニーカーに対応可能です。
+              世界特許取得のBMZ社の技術を採用した、スニーカーとの相性が抜群のインソールです。薄型ながら3点サポート構造で足裏のアーチをしっかり支え、普段の歩行を快適にします。累計200万足（2025年4月時点）の販売実績があり、幅広いユーザーから支持されています。カットして調整できるためあらゆるスニーカーに対応可能です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界特許の3点サポートで普段歩きが快適に</span></li>

@@ -422,7 +422,7 @@ export default function BackPainPage() {
             <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">腰痛対策に最適</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              世界特許の3点サポート構造が足裏のアライメントを最適化し、骨盤の傾きを改善します。足元から腰椎までの運動連鎖を整えることで、腰への負担を根本的に軽減。累計200万足の販売実績が効果の高さを裏付けています。
+              世界特許の3点サポート構造が足裏のアライメントを最適化し、骨盤の傾きを改善します。足元から腰椎までの運動連鎖を整えることで、腰への負担を根本的に軽減。累計200万足（2025年4月時点）の販売実績が効果の高さを裏付けています。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3つのアーチを全てサポートし骨盤アライメントを改善</span></li>

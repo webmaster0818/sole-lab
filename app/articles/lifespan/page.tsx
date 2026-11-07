@@ -572,7 +572,7 @@ export default function LifespanPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
-                <span>累計200万足の販売実績で品質の安定性が証明済み</span>
+                <span>累計200万足（2025年4月時点）の販売実績で品質の安定性が証明済み</span>
               </li>
             </ul>
             <Link

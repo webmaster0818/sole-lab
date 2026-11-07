@@ -184,7 +184,7 @@ export default function RankingPage() {
             を比較！
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            累計200万足のピットソール、美姿勢サポートのランウェイキュアソール、美容整体師監修のスリムアップインソール。
+            累計200万足（2025年4月時点）のピットソール、美姿勢サポートのランウェイキュアソール、美容整体師監修のスリムアップインソール。
             <br className="hidden md:block" />
             効果・口コミ・料金まで、6つの基準で比較しました。
           </p>
@@ -526,7 +526,7 @@ export default function RankingPage() {
             <div className="card">
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="inline-block bg-[#f3ece4] text-[#8a6a4f] text-xs font-semibold px-2.5 py-1 rounded-full">
-                  累計200万足突破
+                  累計200万足突破（2025年4月時点）
                 </span>
                 <span className="inline-block bg-[#f3ece4] text-[#8a6a4f] text-xs font-semibold px-2.5 py-1 rounded-full">
                   世界特許取得
@@ -558,7 +558,7 @@ export default function RankingPage() {
                       <span className="text-green-500 mt-0.5 shrink-0">
                         &#9675;
                       </span>
-                      累計200万足の販売実績
+                      累計200万足（2025年4月時点）の販売実績
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-green-500 mt-0.5 shrink-0">
@@ -1275,7 +1275,7 @@ export default function RankingPage() {
                 ピットソール
               </p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                4足・6足セット（1足あたり4,530円/4,026円）のコスパの良さに加え、世界特許取得の信頼性、累計200万足の販売実績。
+                4足・6足セット（1足あたり4,530円/4,026円）のコスパの良さに加え、世界特許取得の信頼性、累計200万足（2025年4月時点）の販売実績。
                 サイズ展開も豊富で、迷ったらまずピットソールを選べば間違いありません。
               </p>
               <Link href="/pitsole/" className="btn-outline text-sm w-full">
@@ -1737,7 +1737,7 @@ export default function RankingPage() {
                 </span>
                 <span>
                   <strong>ピットソール</strong> -
-                  世界特許・累計200万足・サイズ展開の豊富さで総合力No.1。迷ったらコレ。
+                  世界特許・累計200万足（2025年4月時点）・サイズ展開の豊富さで総合力No.1。迷ったらコレ。
                 </span>
               </li>
               <li className="flex items-start gap-3">

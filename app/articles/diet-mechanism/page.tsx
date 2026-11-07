@@ -756,7 +756,7 @@ export default function DietMechanismPage() {
                   ピットソールは世界特許取得のキュボイドサポート技術を核に、足裏の骨格構造そのものにアプローチします。立方骨を支点として3つのアーチを同時に補整する設計で、足の土台から姿勢・骨盤を整えることを目指しています。
                 </p>
                 <p>
-                  販売実績は累計200万足（2025年4月時点の公式発表）です。
+                  販売実績は累計200万足（2025年4月時点）（2025年4月時点の公式発表）です。
                 </p>
                 <div className="flex flex-wrap gap-2 mt-3">
                   <span className="text-xs bg-[#faf7f3] text-[#8a6a4f] px-2 py-1 rounded">
@@ -766,7 +766,7 @@ export default function DietMechanismPage() {
                     3アーチ同時サポート
                   </span>
                   <span className="text-xs bg-[#faf7f3] text-[#8a6a4f] px-2 py-1 rounded">
-                    累計200万足
+                    累計200万足（2025年4月時点）
                   </span>
                 </div>
               </div>

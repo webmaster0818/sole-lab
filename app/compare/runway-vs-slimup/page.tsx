@@ -815,7 +815,7 @@ export default function RunwayVsSlimupPage() {
         <div className="bg-white border border-gray-200 rounded-xl p-5 md:p-6">
           <p className="text-sm text-gray-600 leading-relaxed mb-4">
             技術的な裏付けや販売実績を重視するなら、BMZ社の世界特許技術を採用した「ピットソール」も選択肢に入れてみてください。
-            単品6,578円、XS〜XL（21〜29cm）の幅広いサイズ展開、累計200万足の販売実績がある定番インソールです。
+            単品6,578円、XS〜XL（21〜29cm）の幅広いサイズ展開、累計200万足（2025年4月時点）の販売実績がある定番インソールです。
           </p>
           <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <Link

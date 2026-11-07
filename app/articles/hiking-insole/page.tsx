@@ -194,7 +194,7 @@ export default function HikingInsolePage() {
           <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">世界特許取得の3点サポート構造が、重荷を背負った状態でも足裏のアーチを確実にサポートします。適度な硬さと衝撃吸収のバランスが登山に最適で、長時間の山行でも疲れにくい設計です。累計200万足の販売実績が品質の高さを証明しています。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">世界特許取得の3点サポート構造が、重荷を背負った状態でも足裏のアーチを確実にサポートします。適度な硬さと衝撃吸収のバランスが登山に最適で、長時間の山行でも疲れにくい設計です。累計200万足（2025年4月時点）の販売実績が品質の高さを証明しています。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界特許の3点サポートで重荷にも負けない安定性</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>適度な硬さで登山に必要な踏ん張りが効く</span></li>

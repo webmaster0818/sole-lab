@@ -332,7 +332,7 @@ export default function RunningInsolePage() {
               ピットソール（Pitsole）
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              世界特許取得のBMZ社「足の骨格アライメント理論」に基づく設計で、ランニング時の足裏安定性に優れたインソールです。3点サポート構造が着地から蹴り出しまでの重心移動をスムーズにし、走行効率を高めます。累計200万足の販売実績が信頼性の高さを証明しています。
+              世界特許取得のBMZ社「足の骨格アライメント理論」に基づく設計で、ランニング時の足裏安定性に優れたインソールです。3点サポート構造が着地から蹴り出しまでの重心移動をスムーズにし、走行効率を高めます。累計200万足（2025年4月時点）の販売実績が信頼性の高さを証明しています。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">

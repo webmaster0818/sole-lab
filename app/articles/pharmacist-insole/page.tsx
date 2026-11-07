@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "沈み込みを防ぐアーチサポート", "b": "静止立位の持続荷重には、土踏まずをしっかり支えて荷重を足裏全体に分散する設計が第一です。柔らかいだけのクッションは沈み込みを止められません。"}, {"t": "立ち姿勢を保ちやすい安定性", "b": "かかとが安定すると重心のブレが減り、長時間の立位でも姿勢を保ちやすくなります。腰や肩への波及的な負担を抑える助けにもなります。"}, {"t": "勤務用の靴に合わせやすい薄型", "b": "薬局やクリニックではナースサンダルやコンフォートシューズなど中の浅い靴も多いため、薄型で靴を選びにくいものが使いやすい傾向があります。"}];
+const points = [{"t": "沈み込みを防ぐアーチサポート", "b": "静止立位の持続荷重には、土踏まずをしっかり支えて荷重を足裏全体に分散する設計が第一です。柔らかいだけのクッションは沈み込みを止められません。"}, {"t": "立ち姿勢を保ちやすい安定性", "b": "かかとが安定すると重心のブレが減り、長時間の立位でも姿勢を保ちやすくなります。腰や肩への波及的な負担を抑える助けにもなります。"}, {"t": "勤務用の靴に合わせやすい薄型", "b": "薬局やクリニックではナースサンダルやコンフォートシューズなど中の浅い靴も多いため、薄型で靴を選ばないものが使いやすい傾向があります。"}];
 const related = [{"href": "/articles/nurse-insole/", "label": "看護師のインソール"}, {"href": "/articles/standing-work/", "label": "立ち仕事のインソール"}, {"href": "/articles/swelling-insole/", "label": "むくみ対策インソール"}, {"href": "/articles/how-to-choose/", "label": "インソールの選び方"}];
 
 export default function PharmacistPage() {
@@ -105,8 +105,8 @@ export default function PharmacistPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足（2025年4月時点）の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。女性向けのM・L2サイズ展開。</td></tr>
                 <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">土踏まずをサポートする設計。素材はEVA・ポリエチレン。単品6,980円（税込・公式）。</td></tr>
               </tbody>
             </table>

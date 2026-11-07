@@ -660,7 +660,7 @@ export default function PitsoleTimelinePage() {
               className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors"
             >
               <p className="text-sm font-semibold text-gray-900">
-                ピットソールの口コミ・効果を検証【累計200万足の実力】
+                ピットソールの口コミ・効果を検証【累計200万足（2025年4月時点）の実力】
               </p>
             </Link>
             <Link

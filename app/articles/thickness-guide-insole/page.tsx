@@ -104,7 +104,7 @@ export default function ThicknessGuidePage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium">薄型</td><td className="p-3 border-b border-gray-200">かさばらず靴を選びにくい。クッションやサイズ調整の効果は控えめ。</td><td className="p-3 border-b border-gray-200">革靴・パンプス・安全靴・スパイクなど中が浅い靴。サポートだけ加えたいとき。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium">薄型</td><td className="p-3 border-b border-gray-200">かさばらず靴を選ばない。クッションやサイズ調整の効果は控えめ。</td><td className="p-3 border-b border-gray-200">革靴・パンプス・安全靴・スパイクなど中が浅い靴。サポートだけ加えたいとき。</td></tr>
                 <tr><td className="p-3 border-b border-gray-200 font-medium">標準</td><td className="p-3 border-b border-gray-200">サポートとクッションのバランスが取りやすい中間的な厚み。</td><td className="p-3 border-b border-gray-200">余裕のあるスニーカー・運動靴。日常使い全般。</td></tr>
                 <tr><td className="p-3 font-medium">厚手</td><td className="p-3">クッション性・サイズ調整効果が高い。靴の中が狭くなりやすい。</td><td className="p-3">ぶかぶかの靴のサイズ調整、衝撃をやわらげたい用途。元の中敷きを外して使うことが多い。</td></tr>
               </tbody>
@@ -162,8 +162,8 @@ export default function ThicknessGuidePage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足の実績で安定感。</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。薄型で靴を選びにくい。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">特許取得のアーチサポート。累計200万足（2025年4月時点）の実績で安定感。</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">3点アーチ設計で姿勢サポート。女性向けのM・L2サイズ展開。</td></tr>
                 <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">土踏まずをサポートする設計。素材はEVA・ポリエチレン。単品6,980円（税込・公式）。</td></tr>
               </tbody>
             </table>

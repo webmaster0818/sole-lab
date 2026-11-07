@@ -64,7 +64,7 @@ const faqStructuredData = {
       name: "両方とも普段のスニーカーに入れられますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、どちらも手持ちの靴と合わせて使用できます。ピットソールは靴に入れる中敷きタイプで、スニーカー・ビジネスシューズ・ウォーキングシューズに幅広く対応。ランウェイキュアソールは足に直接装着するソックス型のため、靴の形状を選びにくいのが特徴です。",
+        text: "はい、どちらも手持ちの靴と合わせて使用できます。ピットソールは靴に入れる中敷きタイプで、スニーカー・ビジネスシューズ・ウォーキングシューズに幅広く対応。ランウェイキュアソールは女性向けのM・L2サイズ展開です。",
       },
     },
     {
@@ -97,7 +97,7 @@ const faqs = [
   {
     question: "両方とも普段のスニーカーに入れられますか？",
     answer:
-      "はい、どちらも手持ちの靴と合わせて使用できます。ピットソールは靴に入れる中敷きタイプで、スニーカー・ビジネスシューズ・ウォーキングシューズに幅広く対応。ランウェイキュアソールは足に直接装着するソックス型のため、靴の形状を選びにくいのが特徴です。",
+      "はい、どちらも手持ちの靴と合わせて使用できます。ピットソールは靴に入れる中敷きタイプで、スニーカー・ビジネスシューズ・ウォーキングシューズに幅広く対応。ランウェイキュアソールは女性向けのM・L2サイズ展開です。",
   },
   {
     question: "効果を実感するまでの期間に違いはありますか？",
@@ -205,7 +205,7 @@ export default function PitsoleVsRunwayPage() {
                 </tr>
                 <tr className="bg-gray-50/50">
                   <td className="px-4 py-3 border border-gray-200 font-medium text-gray-700">販売実績</td>
-                  <td className="px-4 py-3 border border-gray-200 text-gray-600">累計200万足・楽天1位</td>
+                  <td className="px-4 py-3 border border-gray-200 text-gray-600">累計200万足（2025年4月時点）・楽天1位</td>
                   <td className="px-4 py-3 border border-gray-200 text-gray-600">雑誌掲載あり</td>
                 </tr>
                 <tr>
@@ -219,7 +219,7 @@ export default function PitsoleVsRunwayPage() {
           <div className="mt-6 card bg-[#faf7f3] border-[#e8ded6]">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-[#8a6a4f]">ざっくりまとめると：</span>
-              ピットソールは世界特許の技術力・サイズ展開の広さ・販売実績で優位。ランウェイキュアソールはセット割引と、足に直接装着するソックス型で靴を選びにくい点が強みです。
+              ピットソールは世界特許の技術力・サイズ展開の広さ・販売実績で優位。ランウェイキュアソールはセット割引が強みです。
             </p>
           </div>
         </div>
@@ -409,7 +409,7 @@ export default function PitsoleVsRunwayPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
-                  <span>ソックス型で靴を選びにくい</span>
+                  <span>女性向けのM・L2サイズ展開</span>
                 </li>
               </ul>
             </div>
@@ -419,7 +419,7 @@ export default function PitsoleVsRunwayPage() {
             <h3 className="text-base font-bold text-gray-900 mb-3">技術力の判定</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               技術面ではピットソールに明確なアドバンテージがあります。BMZ社が取得した世界特許は、足裏の立方骨（キュボイド）を支えるという独自のアプローチで、国際的にその技術が認められたものです。
-              累計200万足という販売実績と楽天ランキング1位の獲得は、この特許技術の裏付けと言えるでしょう。
+              累計200万足（2025年4月時点）という販売実績と楽天ランキング1位の獲得は、この特許技術の裏付けと言えるでしょう。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mt-3">
               ランウェイキュアソールの3点アーチサポートも理にかなったアプローチです。足裏には内側縦アーチ・外側縦アーチ・横アーチの3つのアーチがあり、これらをバランスよく支えることで正しい重心移動を促します。
@@ -534,7 +534,7 @@ export default function PitsoleVsRunwayPage() {
           <div className="card">
             <h3 className="text-base font-bold text-gray-900 mb-3">口コミの判定</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              口コミの量と信頼性ではピットソールが上回ります。累計200万足の販売実績があるため、楽天・Amazon・ダイエットカフェなど複数のプラットフォームに豊富な口コミが蓄積されています。
+              口コミの量と信頼性ではピットソールが上回ります。累計200万足（2025年4月時点）の販売実績があるため、楽天・Amazon・ダイエットカフェなど複数のプラットフォームに豊富な口コミが蓄積されています。
               ダイエットカフェの評価が2.6/5と低めに見えますが、これはダイエット効果に特化した厳しい評価基準のため。
               姿勢改善や腰痛軽減については高評価の口コミが多い点に注目すべきです。
             </p>
@@ -565,7 +565,7 @@ export default function PitsoleVsRunwayPage() {
                 },
                 {
                   title: "口コミや実績を確認してから買いたい方",
-                  desc: "累計200万足の販売実績、楽天ランキング1位獲得。楽天・Amazon・ダイエットカフェに豊富な口コミがあるため、購入前に十分な情報収集が可能です。",
+                  desc: "累計200万足（2025年4月時点）の販売実績、楽天ランキング1位獲得。楽天・Amazon・ダイエットカフェに豊富な口コミがあるため、購入前に十分な情報収集が可能です。",
                 },
                 {
                   title: "家族やカップルで使いたい方",
@@ -651,7 +651,7 @@ export default function PitsoleVsRunwayPage() {
           <div className="card mb-6">
             <p className="text-sm text-gray-600 leading-relaxed">
               総合的に見ると、<span className="font-bold text-[#8a6a4f]">多くの方にはピットソールがおすすめ</span>です。
-              世界特許の技術力、XS〜XLの幅広いサイズ展開、累計200万足の販売実績、楽天ランキング1位という圧倒的な実績は、初めてのダイエットインソール選びにおいて大きな安心材料になります。
+              世界特許の技術力、XS〜XLの幅広いサイズ展開、累計200万足（2025年4月時点）の販売実績、楽天ランキング1位という圧倒的な実績は、初めてのダイエットインソール選びにおいて大きな安心材料になります。
               男女兼用でサイズの心配が少なく、口コミも豊富なため、購入前に十分な情報を集めた上で判断できる点も強みです。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mt-4">

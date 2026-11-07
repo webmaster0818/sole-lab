@@ -40,7 +40,7 @@ const faqStructuredData = {
       name: "ピットソールとスリムアップインソールはどっちがおすすめ？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "技術力・特許の信頼性を重視するならピットソール、整体師監修や抗菌防臭加工を重視するならスリムアップインソールがおすすめです。ピットソールはBMZ社の世界特許技術を搭載し累計200万足の実績があります。スリムアップインソールは整体師監修で、抗菌防臭加工が施されています。",
+        text: "技術力・特許の信頼性を重視するならピットソール、整体師監修や抗菌防臭加工を重視するならスリムアップインソールがおすすめです。ピットソールはBMZ社の世界特許技術を搭載し累計200万足（2025年4月時点）の実績があります。スリムアップインソールは整体師監修で、抗菌防臭加工が施されています。",
       },
     },
     {
@@ -224,7 +224,7 @@ export default function PitsoleVsSlimupPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
-                    累計200万足の実績に安心感を感じる
+                    累計200万足（2025年4月時点）の実績に安心感を感じる
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
@@ -532,7 +532,7 @@ export default function PitsoleVsSlimupPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
-                    累計200万足の販売実績
+                    累計200万足（2025年4月時点）の販売実績
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
@@ -632,7 +632,7 @@ export default function PitsoleVsSlimupPage() {
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 BMZ社の世界特許技術は、ダイエットインソール業界の中でも群を抜いた信頼性があります。
-                累計200万足の販売実績と楽天ランキング1位の獲得は、多くのユーザーから支持されている証拠です。
+                累計200万足（2025年4月時点）の販売実績と楽天ランキング1位の獲得は、多くのユーザーから支持されている証拠です。
                 「しっかりとしたエビデンスのある商品を選びたい」「実績がある商品のほうが安心」という方にはピットソールが最適です。
               </p>
             </div>

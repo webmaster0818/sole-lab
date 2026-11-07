@@ -351,7 +351,7 @@ export default function WalkingDietPage() {
                 name: "ピットソール（Pitsole）",
                 points: [
                   "世界特許取得のキュボイドサポート技術",
-                  "累計200万足突破の実績",
+                  "累計200万足突破（2025年4月時点）の実績",
                   "足裏の3つのアーチを同時にサポート",
                 ],
                 price: "6,578円（税込）〜",

@@ -760,7 +760,7 @@ export default function PitsolePricePage() {
                 href="/pitsole"
                 className="text-[#8a6a4f] hover:underline"
               >
-                ピットソールの口コミ・効果を検証【累計200万足の実力】
+                ピットソールの口コミ・効果を検証【累計200万足（2025年4月時点）の実力】
               </Link>
             </li>
           </ul>

@@ -272,7 +272,7 @@ export default function PitsolePage() {
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             ピットソールの口コミ・効果を検証
             <br />
-            <span className="text-[#8a6a4f]">累計200万足</span>の実力とは？
+            <span className="text-[#8a6a4f]">累計200万足（2025年4月時点）</span>の実力とは？
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             世界特許取得のインソール「Pitsole（ピットソール）」の口コミ・評判を調査。
@@ -283,7 +283,7 @@ export default function PitsolePage() {
               世界特許技術
             </span>
             <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
-              累計200万足突破
+              累計200万足突破（2025年4月時点）
             </span>
             <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
               楽天ランキング1位
@@ -301,6 +301,15 @@ export default function PitsolePage() {
       <div className="max-w-3xl mx-auto px-4">
         <VerificationNote />
       </div>
+      <div className="max-w-3xl mx-auto px-4 mt-4">
+        <p className="text-xs text-gray-600 leading-relaxed bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-3">
+          <strong>「累計200万足」の出典：</strong>株式会社セレスのプレスリリース「『Pitsole（ピットソール）』が累計販売個数200万足突破！」（2025年4月18日・
+          <a href="https://prtimes.jp/main/html/rd/p/000000218.000021504.html" target="_blank" rel="noopener noreferrer" className="text-[#8a6a4f] underline">PR TIMES</a>
+          ／2026年11月7日に当サイトで確認）。同リリースには、セレスの子会社である株式会社バッカスが販売する製品として記載されています。数値は2025年4月時点のもので、以降の累計は公表されていません。
+        </p>
+      </div>
+
+
 
       {/* AI Overviews 結論ボックス */}
       <div className="max-w-4xl mx-auto px-4 mt-4">
@@ -1150,7 +1159,7 @@ export default function PitsolePage() {
           <div className="card">
             <p className="text-sm text-gray-600 leading-relaxed mb-4">
               ピットソールは、BMZ社の世界特許技術を採用した本格的な足裏アーチサポートインソールです。
-              累計200万足の販売実績と楽天ランキング1位獲得は、一定の品質と信頼性を示しています。
+              累計200万足（2025年4月時点）の販売実績と楽天ランキング1位獲得は、一定の品質と信頼性を示しています。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mb-4">
               一方で、ダイエットカフェの評価が2.6/5と低めなのも事実です。
