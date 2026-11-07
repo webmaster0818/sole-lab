@@ -1217,7 +1217,7 @@ export default function PitsolePage() {
             </Link>
             <Link href="/articles/pitsole-mens/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールはメンズに使える？</p>
-              <p className="text-xs text-gray-500 mt-1">男性の使用感を解説</p>
+              <p className="text-xs text-gray-500 mt-1">サイズと公開レビューから解説</p>
             </Link>
             <Link href="/articles/pitsole-timeline/" className="block p-4 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ピットソールの効果はいつから？</p>

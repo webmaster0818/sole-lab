@@ -1069,7 +1069,7 @@ export default function RunwayCureSolePage() {
             </Link>
             <Link href="/articles/runway-mens-review/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ランウェイ メンズ向けレビュー</p>
-              <p className="text-xs text-gray-500 mt-1">男性の使用感を検証</p>
+              <p className="text-xs text-gray-500 mt-1">対応サイズから男性が使えるかを検証</p>
             </Link>
             <Link href="/ranking/" className="block p-3 border border-[#e8ded6] rounded-xl hover:bg-[#faf7f3] transition-colors">
               <p className="text-sm font-semibold text-gray-900">ダイエットインソールおすすめ3選を比較</p>
