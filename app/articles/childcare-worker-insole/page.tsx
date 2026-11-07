@@ -93,7 +93,7 @@ export default function ChildcareWorkerPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">保育士におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">抱っこで増えた荷重と踏ん張りの多い動きを支えるインソールが保育士に向いています。履き替えの多い方は、ランウェイキュアソール（M/L・22.5〜25cmの女性向け）なら靴を替えても効果が続きます。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">抱っこで増えた荷重と踏ん張りの多い動きを支えるインソールが保育士に向いています。ランウェイキュアソールはM／L（22.5〜25.0cm）の女性向け2サイズ展開です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
