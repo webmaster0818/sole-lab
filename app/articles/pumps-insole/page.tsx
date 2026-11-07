@@ -3,14 +3,14 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "パンプス用インソール（中敷き）おすすめ5選｜ヒールで疲れにくくする選び方",
+  title: "パンプス用インソールおすすめ5選｜ヒール靴の疲れ対策",
   description:
     "パンプス・ヒール用インソール（中敷き）のおすすめ5選。前滑り・つま先の痛み・足裏の疲れの原因別に選び方と使い方を解説し、ピットソール・ランウェイキュアソール・スリムアップインソールも比較します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pumps-insole/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "パンプス用インソール（中敷き）おすすめ5選｜ヒールで疲れにくくする選び方",
+    title: "パンプス用インソールおすすめ5選｜ヒール靴の疲れ対策",
     description:
       "パンプス・ヒール用インソール（中敷き）のおすすめ5選。前滑り・つま先の痛み・足裏の疲れの原因別に選び方と使い方を解説します。",
     url: "https://sole-laboratory.com/articles/pumps-insole/",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "パンプス用インソール（中敷き）おすすめ5選｜ヒールで疲れにくくする選び方",
+  headline: "パンプス用インソールおすすめ5選｜ヒール靴の疲れ対策",
   description:
     "パンプス・ヒール用インソール（中敷き）のおすすめ5選。前滑り・つま先の痛み・足裏の疲れの原因別に選び方と使い方を解説します。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
@@ -129,7 +129,7 @@ export default function PumpsInsolePage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-xs md:text-sm text-[#8a6a4f] font-semibold mb-3">2026年最新版</p>
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            パンプス用インソール（中敷き）
+            パンプス用インソール
             <br className="md:hidden" />
             おすすめ<span className="text-[#8a6a4f]">5選</span>
           </h1>
