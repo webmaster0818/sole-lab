@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-13",
 };
 
-const faqs = [{"q": "上履きにインソールは入りますか？", "a": "薄型のインソールなら多くの上履きに入ります。中が浅い場合は元の中敷きを外して入れ替えると窮屈になりにくい傾向があります。カットできるタイプならサイズの微調整もしやすい傾向があります。"}, {"q": "教壇に立ちっぱなしの疲れにも効きますか？", "a": "アーチサポートで土踏まずの沈み込みを防ぐと、立ち続けたときの足裏の疲れを軽減する補助になります。合間のかかと上げなど、足を動かす工夫と併用するとより効果的です。"}, {"q": "通勤靴と上履き、どちらに入れるべきですか？", "a": "校内で過ごす時間が長いため、まずは上履きがおすすめです。両方で使いたい場合は入れ替えの手間を考えて2枚用意するか、足に直接装着するソックス型をご検討ください。"}];
+const faqs = [{"q": "上履きにインソールは入りますか？", "a": "薄型のインソールなら多くの上履きに入ります。中が浅い場合は元の中敷きを外して入れ替えると窮屈になりにくい傾向があります。カットできるタイプならサイズの微調整もしやすい傾向があります。"}, {"q": "教壇に立ちっぱなしの疲れにも効きますか？", "a": "アーチサポートで土踏まずの沈み込みを防ぐと、立ち続けたときの足裏の疲れを軽減する補助になります。合間のかかと上げなど、足を動かす工夫と併用するとより効果的です。"}, {"q": "通勤靴と上履き、どちらに入れるべきですか？", "a": "校内で過ごす時間が長いため、まずは上履きがおすすめです。両方で使いたい場合は、入れ替えの手間を考えて2枚用意するのがおすすめです。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -93,7 +93,7 @@ export default function TeacherPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">教員・先生の立ち仕事におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">クッションの薄い上履きを補える薄型で、アーチサポートを備えたインソールが教員に向いています。ピットソールとスリムアップはカットしてサイズ調整できるため上履きにも合わせやすく、ソックス型のランウェイキュアソールは履き替えても効果が続くのが特徴です（M/L・22.5〜25cmの女性向け展開）。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">クッションの薄い上履きを補える薄型で、アーチサポートを備えたインソールが教員に向いています。ピットソールとスリムアップはカットしてサイズ調整できるため上履きにも合わせやすく、ランウェイキュアソールはM／L（22.5〜25.0cm）の女性向け2サイズ展開です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -114,7 +114,7 @@ export default function TeacherPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">通勤靴と上履きの使い分けのコツ</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">教員は通勤靴と上履きを毎日履き替えるため、インソールを上履きに入れっぱなしにするのが手軽です。通勤でも使いたい場合は2枚目を用意するか、足に直接装着するソックス型なら履き替えの影響を受けません。体育館での行事や部活指導が多い方は、体育館シューズ側にもクッションがあると安心です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">教員は通勤靴と上履きを毎日履き替えるため、インソールを上履きに入れっぱなしにするのが手軽です。通勤でも使いたい場合は2枚目を用意すると、履き替えの手間がかかりません。体育館での行事や部活指導が多い方は、体育館シューズ側にもクッションがあると安心です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">あわせて、授業の合間にかかとの上げ下げをするとふくらはぎの筋ポンプが働き、夕方のむくみがたまりにくくなります。足裏やかかとの痛みが続く場合は足底腱膜炎などの可能性もあるため、無理せず整形外科を受診してください。</p>
         </section>
 

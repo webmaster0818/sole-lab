@@ -6,7 +6,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "インソールのサイズ調整方法｜自分でカットするコツと失敗しない手順",
   description:
-    "インソールのサイズ調整方法を解説。自分でカットするコツ・失敗しない手順・カットラインの見方まで。ピットソール・ランウェイキュアソール・スリムアップインソールのカット方法も紹介。",
+    "インソールのサイズ調整方法を解説。自分でカットするコツ・失敗しない手順・カットラインの見方まで。ピットソール・スリムアップインソールのカット方法も紹介。",
   alternates: { canonical: "https://sole-laboratory.com/articles/size-adjustment/" },
   openGraph: { images: ["/og-default.png"],
     title: "インソールのサイズ調整方法｜自分でカットするコツと失敗しない手順",
@@ -218,8 +218,8 @@ export default function SizeAdjustmentPage() {
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm">
-            <h3 className="text-base md:text-xl font-bold text-gray-900 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）のカット方法</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">ランウェイキュアソールはM（22.5〜23.5cm）・L（24〜25cm）の2サイズ展開です。サイズレンジが狭いため、大幅なカットが不要なケースが多いですが、靴の形状に合わせた微調整は必要です。薄型設計のため、ハサミで簡単にカットでき、断面もきれいに仕上がります。</p>
+            <h3 className="text-base md:text-xl font-bold text-gray-900 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）のサイズ調整</h3>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">ランウェイキュアソールはM（22.5〜23.5cm）・L（24.0〜25.0cm）の2サイズ展開です（公式サイトにて2026年11月7日確認）。公式サイトには、カットして調整できるかどうかの記載がありません。足の実寸に合うサイズを選んでください。</p>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細を見る &rarr;</Link>
           </div>
 
@@ -309,10 +309,10 @@ export default function SizeAdjustmentPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールのサイズ調整は「純正中敷きをガイドにする」「大きめにカットして微調整する」「つま先側だけカットする」の3つを守れば、誰でも失敗なく行えます。正しいサイズにカットしたインソールは、靴の中でズレにくく、効果を最大限に発揮してくれます。</p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
-            <p className="text-sm font-bold text-gray-900 mb-3">カット対応の主要3商品</p>
+            <p className="text-sm font-bold text-gray-900 mb-3">当サイトで紹介する3製品のサイズ調整</p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：裏面に詳細なカットライン印刷あり。初心者でも簡単にサイズ調整可能。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型設計でカットしやすい。サイズレンジが狭く大幅カット不要。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：M・Lの2サイズ展開。公式サイトにカットの記載はないため、足の実寸でサイズを選ぶ。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：男女兼用の幅広いサイズ対応。カットラインで簡単調整。</li>
             </ul>
           </div>

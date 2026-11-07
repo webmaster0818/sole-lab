@@ -131,7 +131,7 @@ export default function WideShoesPage() {
               </thead>
               <tbody className="text-gray-700">
                 <tr><td className="p-3 border-b border-gray-200 font-medium">ピットソール</td><td className="p-3 border-b border-gray-200">XS〜XLの5サイズ・21〜29cm（XLはブラック/ピンク限定）</td><td className="p-3 border-b border-gray-200">サイズ幅が最も広く、大きめの足にも対応。カット調整可。しっかりしたアーチ構造のため薄すぎはしない</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium">ランウェイキュアソール</td><td className="p-3 border-b border-gray-200">M（22.5〜23.5cm）/ L（24.0〜25.0cm）の2サイズ・女性向け</td><td className="p-3 border-b border-gray-200">足に直接装着するソックス型。靴の中敷きを増やさないため、幅広・甲高で靴内がきつい方にも干渉しにくい</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium">ランウェイキュアソール</td><td className="p-3 border-b border-gray-200">M（22.5〜23.5cm）/ L（24.0〜25.0cm）の2サイズ・女性向け</td><td className="p-3 border-b border-gray-200">3点アーチサポート設計。靴の中敷きを増やさないため、幅広・甲高で靴内がきつい方にも干渉しにくい</td></tr>
                 <tr><td className="p-3 font-medium">スリムアップインソール</td><td className="p-3">S（23.0〜24.5cm）/ M（25.0〜26.5cm）の2サイズ</td><td className="p-3">EVA/PE素材でつま先側のカット調整が可能。厚みは控えめで靴内を圧迫しにくい</td></tr>
               </tbody>
             </table>

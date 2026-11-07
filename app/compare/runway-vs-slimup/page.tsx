@@ -350,7 +350,7 @@ export default function RunwayVsSlimupPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
-                薄型設計で靴を選ばない
+                M・Lの2サイズ（22.5〜25.0cm）・女性向け
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
@@ -755,7 +755,7 @@ export default function RunwayVsSlimupPage() {
           </p>
           <p>
             <strong>ランウェイキュアソール</strong>は、足裏3点アーチサポートによる美姿勢へのアプローチが特徴。
-            女性専用設計のソックス型（足に直接装着するタイプ）で、手持ちの靴と合わせて使えます。
+            女性向け設計で、M（22.5〜23.5cm）／L（24.0〜25.0cm）の2サイズから選べます。
             単品6,980円（税込）で、3足セットなら1足あたり約5,987円になります（2026年6月時点の公式表示）。
             雑誌掲載実績もあり、美容意識の高い女性に支持されている商品です。
           </p>

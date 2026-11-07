@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title:
     "ランウェイキュアソールのサイズ選び｜M・Lどっち？対応表つき解説",
   description:
-    "ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開・女性向けのソックス型。M/Lの選び方、境目サイズの考え方、対応外サイズの方向けの代替製品対応表、よくある質問まで公式情報ベースで解説します。",
+    "ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開・女性向け。M/Lの選び方、境目サイズの考え方、対応外サイズの方向けの代替製品対応表、よくある質問まで公式情報ベースで解説します。",
   openGraph: { images: ["/og-default.png"],
     title:
       "ランウェイキュアソールのサイズ選び｜M・Lどっち？対応表つき解説｜ソールラボ",
     description:
-      "ランウェイキュアソールのサイズ展開はM/Lの2サイズ（女性向け・ソックス型）。選び方と対応外サイズの代替案を公式情報ベースで解説。",
+      "ランウェイキュアソールのサイズ展開はM/Lの2サイズ（女性向け）。選び方と対応外サイズの代替案を公式情報ベースで解説。",
     url: "https://sole-laboratory.com/articles/runway-size-guide/",
     type: "article",
   },
@@ -27,7 +27,7 @@ const structuredData = {
   headline:
     "ランウェイキュアソールのサイズ選び｜M・Lどっち？対応表つき解説",
   description:
-    "ランウェイキュアソールのサイズ展開（M/Lの2サイズ・女性向けソックス型）と選び方、対応外サイズの方向けの代替案を公式情報ベースで解説。",
+    "ランウェイキュアソールのサイズ展開（M／Lの2サイズ・女性向け）と選び方、対応外サイズの方向けの代替案を公式情報ベースで解説。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "ランウェイキュアソールのサイズ展開を教えてください。",
     answer:
-      "M（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開です（公式サイトにて2026年7月確認）。女性向けの設計で、対応範囲は最大25.0cmまでです。靴に入れる中敷きタイプではなく、足に直接装着するソックス型のため、ご自身の足のサイズに合わせて選びます。",
+      "M（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開です（公式サイトにて2026年11月7日確認）。女性向けの設計で、対応範囲は最大25.0cmまでです。選ぶ基準は靴のサイズではなく、ご自身の足のサイズです。",
   },
   {
     question: "足のサイズが23.5〜24.0cmの場合、MとLどちらを選べばいいですか？",
@@ -52,7 +52,7 @@ const faqs = [
   {
     question: "ランウェイキュアソールはハサミでのカット調整ができますか？",
     answer:
-      "できません。ランウェイキュアソールは靴に入れる中敷き（インソール）ではなく、足に直接装着するソックス型のため、カットによる調整という概念自体がありません。M（22.5〜23.5cm）またはL（24.0〜25.0cm）の中から、ご自身の足のサイズに合うほうを選んでください。",
+      "公式サイトには、カットして調整できるかどうかの記載はありません。サイズはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2種類のため、ご自身の足のサイズに合うほうを選んでください。",
   },
   {
     question: "男性でもランウェイキュアソールを使えますか？",
@@ -147,7 +147,7 @@ export default function RunwaySizeGuidePage() {
             M・Lどっちを選ぶ？対応表つき解説
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開・女性向けのソックス型です。M/Lの選び方、境目サイズの考え方、対応外サイズの方向けの代替案まで、公式サイトの情報（2026年7月確認）をもとに解説します。
+            ランウェイキュアソールはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2サイズ展開・女性向けです。M/Lの選び方、境目サイズの考え方、対応外サイズの方向けの代替案まで、公式サイトの情報（2026年7月確認）をもとに解説します。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-[#f3ece4] text-[#8a6a4f] px-3 py-1 rounded-full font-medium">
@@ -167,17 +167,15 @@ export default function RunwaySizeGuidePage() {
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            まず知っておきたい：ソックス型＝「靴」ではなく「足」に合わせて選ぶ
+            まず知っておきたい：「靴」ではなく「足」のサイズに合わせて選ぶ
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              ランウェイキュアソールは、靴の中に入れて使う中敷き（インソール）ではなく、
-              <strong>足に直接装着するソックス型</strong>のアイテムです（公式サイトにて2026年7月確認）。
-              そのため、サイズ選びの基準は「靴の大きさ」ではなく「ご自身の足のサイズ」になります。
+              ランウェイキュアソールのサイズは<strong>M（22.5〜23.5cm）とL（24.0〜25.0cm）の2種類</strong>です（公式サイトにて2026年11月7日確認）。
+              サイズ区分が足のサイズで示されているため、選ぶ基準は「靴の大きさ」ではなく「ご自身の足のサイズ」になります。
             </p>
             <p>
-              また、中敷きタイプのようにハサミで形を整えて合わせるという発想は、ソックス型のランウェイキュアソールには当てはまりません。
-              <strong>M・Lの2サイズの中から足に合うサイズを選ぶ</strong>のが唯一の調整方法です。この記事では、その選び方を順に整理します。
+              <strong>M・Lの2サイズの中から足に合うサイズを選ぶ</strong>のが基本です。この記事では、その選び方を順に整理します。
             </p>
           </div>
         </div>
@@ -230,7 +228,7 @@ export default function RunwaySizeGuidePage() {
               </table>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 公式サイトにて2026年7月確認。女性向けのサイズ展開で、対応範囲は最大25.0cmです。仕様は変更される場合があるため、購入前に公式サイトの最新情報をご確認ください。
+              ※ 公式サイトにて2026年11月7日確認。女性向けのサイズ展開で、対応範囲は最大25.0cmです。仕様は変更される場合があるため、購入前に公式サイトの最新情報をご確認ください。
             </p>
           </div>
 
@@ -259,7 +257,7 @@ export default function RunwaySizeGuidePage() {
               {
                 num: "01",
                 title: "足のサイズ（実寸）を基準に選ぶ",
-                desc: "ソックス型のため、選ぶ基準は靴のサイズではなくご自身の足のサイズです。足のサイズが22.5〜23.5cmならM、24.0〜25.0cmならLが対応範囲です。普段の靴のサイズと足の実寸が異なる方もいるため、足のサイズが曖昧な場合は一度測ってから選ぶと確実です。",
+                desc: "選ぶ基準は靴のサイズではなく、ご自身の足のサイズです。足のサイズが22.5〜23.5cmならM、24.0〜25.0cmならLが対応範囲です。普段の靴のサイズと足の実寸が異なる方もいるため、足のサイズが曖昧な場合は一度測ってから選ぶと確実です。",
               },
               {
                 num: "02",
@@ -288,76 +286,6 @@ export default function RunwaySizeGuidePage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ソックス型と靴の相性 */}
-      <section className="py-12 md:py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            ソックス型ならではの靴との相性
-          </h2>
-          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
-            <p>
-              ランウェイキュアソールは足に直接装着するソックス型のため、中敷きの入れ替えが必要なインソールと違い、
-              <strong>靴の形状を選びにくい</strong>のが特徴です（公式サイトにて2026年7月確認）。
-              ただし公式サイトでは、靴のタイプによって向き不向きがあることも案内されています。
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="card bg-emerald-50 border-emerald-200">
-              <h3 className="text-sm font-bold text-emerald-700 mb-3">
-                相性が良いとされる靴
-              </h3>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-start gap-2">
-                  <span className="text-emerald-500 shrink-0 mt-0.5">
-                    &#10003;
-                  </span>
-                  スニーカー
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-emerald-500 shrink-0 mt-0.5">
-                    &#10003;
-                  </span>
-                  ローヒールの靴
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-emerald-500 shrink-0 mt-0.5">
-                    &#10003;
-                  </span>
-                  手持ちの靴をそのまま使える（中敷きの入れ替え不要）
-                </li>
-              </ul>
-            </div>
-
-            <div className="card bg-amber-50 border-[#c9a76c]">
-              <h3 className="text-sm font-bold text-[#c9a76c] mb-3">
-                窮屈になる場合がある靴
-              </h3>
-              <ul className="space-y-2 text-sm text-gray-600">
-                <li className="flex items-start gap-2">
-                  <span className="text-[#c9a76c] shrink-0 mt-0.5">!</span>
-                  つま先が極端に細いデザインの靴
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#c9a76c] shrink-0 mt-0.5">!</span>
-                  ヒールが高すぎる靴
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#c9a76c] shrink-0 mt-0.5">!</span>
-                  タイトなサイズ感の靴（足＋装着分のゆとりが必要になる場合）
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-8">
-            <p>
-              公式サイトでは、スニーカーやローヒールの靴での使用が最も効果的とされています。パンプスなどつま先が細い靴やハイヒールを日常的に履く方は、装着した状態で窮屈にならないかを考慮したうえで検討してください。
-            </p>
           </div>
         </div>
       </section>
@@ -549,7 +477,7 @@ export default function RunwaySizeGuidePage() {
 
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-6">
             <p>
-              公式サイトには、<strong>90日間使用して実感がない場合の全額返金保証</strong>の記載があります（2026年7月確認時点）。ソックス型でカットによる微調整ができない分、サイズ選びに不安がある方は、購入前に保証の適用条件（対象となる購入形態・申請方法など）を公式サイトで確認しておくと安心です。
+              公式サイトには、<strong>90日間使用して実感がない場合の全額返金保証</strong>の記載があります（2026年7月確認時点）。サイズ選びに不安がある方は、購入前に保証の適用条件（対象となる購入形態・申請方法など）を公式サイトで確認しておくと安心です。
             </p>
             <p>
               なお、3足以上のセット購入でM/Lを混ぜられる場合がある点（公式サイト記載）も、境目サイズの方にとっては失敗リスクを下げる選択肢になります。
@@ -623,7 +551,7 @@ export default function RunwaySizeGuidePage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              ランウェイキュアソールは足に直接装着するソックス型で、サイズはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2種類・女性向けです（公式サイトにて2026年7月確認）。中敷きタイプと違いカットによる調整はできないため、ご自身の足のサイズを基準にM/Lを選ぶことがすべてです。
+              ランウェイキュアソールのサイズはM（22.5〜23.5cm）とL（24.0〜25.0cm）の2種類・女性向けです（公式サイトにて2026年11月7日確認）。ご自身の足のサイズを基準にM/Lを選ぶことが基本です。
             </p>
             <p>
               23.5〜24.0cmの境目にあたる方は、購入前に公式サイトのサイズ案内を確認してください。公式FAQでは23.5cmの方にはMが案内されており、迷った場合は大きめを選ぶ・3足以上のセットでM/Lを混ぜて注文できる場合がある、といった案内もあります。

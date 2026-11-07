@@ -114,7 +114,7 @@ export default function RotationPage() {
 
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ローテーション運用のコツと交換時期</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使い終わったインソールは靴から取り出し（ソックス型は脱いで）、風通しのよい日陰で干すのが基本です。手入れ方法は製品ごとに異なり、ピットソールは中性洗剤での手洗い（洗濯機は厳禁）、ランウェイキュアソールは水洗い非推奨で布拭き＋陰干しが公式の案内です。詳しくは各製品の説明に従ってください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">使い終わったインソールは靴から取り出し、風通しのよい日陰で干すのが基本です。手入れ方法は製品ごとに異なり、ピットソールは中性洗剤での手洗い（洗濯機は厳禁）、ランウェイキュアソールは水洗い非推奨で布拭き＋陰干しが公式の案内です。詳しくは各製品の説明に従ってください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ローテーションしていても、アーチ部分のへたり・表面の剥がれ・クッションの薄れを感じたら交換のサインです。また、足の痛みや変形など気になる症状がある場合は、インソールの使い回しで様子を見るのではなく、整形外科など医療機関への相談を優先してください。</p>
         </section>
 

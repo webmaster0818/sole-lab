@@ -161,7 +161,7 @@ export default function WorkmanPage() {
               </thead>
               <tbody className="text-gray-700">
                 <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/pitsole/" className="text-[#8a6a4f] underline">ピットソール</Link></td><td className="p-3 border-b border-gray-200">6,578円</td><td className="p-3 border-b border-gray-200">XS〜XL</td></tr>
-                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">6,980円</td><td className="p-3 border-b border-gray-200">M／L（足に直接履くソックス型）</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium"><Link href="/runway-cure-sole/" className="text-[#8a6a4f] underline">ランウェイキュアソール</Link></td><td className="p-3 border-b border-gray-200">6,980円</td><td className="p-3 border-b border-gray-200">M／L（22.5〜25.0cm・女性向け）</td></tr>
                 <tr><td className="p-3 font-medium"><Link href="/slim-up-insole/" className="text-[#8a6a4f] underline">スリムアップインソール</Link></td><td className="p-3">6,980円</td><td className="p-3">S／M</td></tr>
               </tbody>
             </table>

@@ -31,7 +31,7 @@ export default function DiagnosisResultPage() {
           <p className="mt-3 text-xs text-gray-400">この診断結果と相性が良いのは</p>
           <h1 className="mt-1 text-3xl font-bold" style={{ color: "#c9a76c" }}>ランウェイキュアソール</h1>
           <p className="mt-1 text-sm text-gray-500">美姿勢サポートインソール</p>
-          <p className="mt-5 text-sm text-gray-700 leading-relaxed text-left">美姿勢・薄さを重視する方に向いた結果です。3つのアーチをサポートするランウェイキュアソールはソックス型で靴を選ばず、パンプスやブーツでも使いたい方と相性が良い製品です。</p>
+          <p className="mt-5 text-sm text-gray-700 leading-relaxed text-left">美姿勢・薄さを重視する方に向いた結果です。3つのアーチをサポートするランウェイキュアソールは、M／L（22.5〜25.0cm）の女性向け2サイズ展開の製品です。</p>
           <div className="mt-5 rounded-xl bg-gray-50 p-4 text-left">
             <p className="text-xs font-bold text-gray-500 mb-2">こんな回答傾向の方に出る結果です</p>
             <ul className="space-y-1.5 text-sm text-gray-700">

@@ -352,7 +352,7 @@ export default function PitsoleVsRunwayPage() {
             <p className="text-sm text-gray-600 leading-relaxed mt-3">
               ランウェイキュアソールはM/Lの2サイズ（22.5〜25cm）で、女性の標準サイズに特化しています。
               足のサイズが21cm台の小さめの方や、25cm以上の方、そして男性は対象外となります。
-              ただし、女性向けに特化しており、足に直接装着するソックス型で手持ちの靴と合わせやすい点はメリットです。
+              ただし、女性向けに特化しており、M／L（22.5〜25.0cm）の2サイズから足のサイズに合わせて選べる点はメリットです。
             </p>
           </div>
         </div>
@@ -656,7 +656,7 @@ export default function PitsoleVsRunwayPage() {
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mt-4">
               一方、<span className="font-bold text-[#8a6a4f]">パンプスに入れたい女性にはランウェイキュアソールも有力な選択肢</span>です。
-              薄型設計で靴を選ばない使いやすさは、通勤時にパンプスを履く女性にとって大きなメリット。
+              3点アーチサポート設計で姿勢面を支える点が、ランウェイキュアソールの特徴です。
               22.5〜25cmのサイズに該当する女性で、日常の靴にさりげなく入れたいなら検討の価値があります。
             </p>
           </div>

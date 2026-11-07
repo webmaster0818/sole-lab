@@ -23,7 +23,7 @@ const structuredData = {
   dateModified: "2026-06-13",
 };
 
-const faqs = [{"q": "園内の上履きにも入れられますか？", "a": "薄型のインソールなら多くの上履きに入ります。中が浅い場合は元の中敷きを外す、カットできるタイプでサイズを合わせるなどの工夫をすると窮屈になりにくい傾向があります。"}, {"q": "抱っこで腰がつらいのですが、インソールで楽になりますか？", "a": "インソールは足元を安定させて姿勢のブレを減らすことで、腰への負担を間接的に減らす補助になります。膝を使った抱き上げ方との併用が大切で、痛みが強い場合は受診を優先してください。"}, {"q": "外遊びで走ることが多くてもズレませんか？", "a": "フィット感のあるインソールを正しいサイズで入れればズレにくい傾向があります。靴の中で動く場合はカットで調整するか、足に直接装着するソックス型をご検討ください。"}];
+const faqs = [{"q": "園内の上履きにも入れられますか？", "a": "薄型のインソールなら多くの上履きに入ります。中が浅い場合は元の中敷きを外す、カットできるタイプでサイズを合わせるなどの工夫をすると窮屈になりにくい傾向があります。"}, {"q": "抱っこで腰がつらいのですが、インソールで楽になりますか？", "a": "インソールは足元を安定させて姿勢のブレを減らすことで、腰への負担を間接的に減らす補助になります。膝を使った抱き上げ方との併用が大切で、痛みが強い場合は受診を優先してください。"}, {"q": "外遊びで走ることが多くてもズレませんか？", "a": "フィット感のあるインソールを正しいサイズで入れればズレにくい傾向があります。靴の中で動く場合は、カットで調整してサイズを合わせてください。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -93,7 +93,7 @@ export default function ChildcareWorkerPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">保育士におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">抱っこで増えた荷重と踏ん張りの多い動きを支えるインソールが保育士に向いています。履き替えの多い方は、足に直接装着するソックス型のランウェイキュアソール（M/L・22.5〜25cmの女性向け）なら靴を替えても効果が続きます。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">抱っこで増えた荷重と踏ん張りの多い動きを支えるインソールが保育士に向いています。履き替えの多い方は、ランウェイキュアソール（M/L・22.5〜25cmの女性向け）なら靴を替えても効果が続きます。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

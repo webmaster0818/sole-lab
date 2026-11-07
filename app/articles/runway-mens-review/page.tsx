@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "ランウェイキュアソールは男性でも使える？サイズ対応の真実と代替案",
   description:
-    "ランウェイキュアソールの公式サイズはM（22.5〜23.5cm）/L（24.0〜25.0cm）の女性向け2サイズのみ（公式サイトにて2026年7月確認）。25cmを超える男性は対応外です。足サイズ別の判断基準と、ピットソール・スリムアップインソールなど男性が選べる代替案を公式確認情報のみで解説します。",
+    "ランウェイキュアソールの公式サイズはM（22.5〜23.5cm）/L（24.0〜25.0cm）の女性向け2サイズのみ（公式サイトにて2026年11月7日確認）。25cmを超える男性は対応外です。足サイズ別の判断基準と、ピットソール・スリムアップインソールなど男性が選べる代替案を公式確認情報のみで解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/runway-mens-review/",
   },
@@ -43,7 +43,7 @@ const faqStructuredData = {
       name: "ランウェイキュアソールは男性でも使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "公式のサイズ展開はM（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向け2サイズのみで、対応最大は25.0cmです（公式サイトにて2026年7月確認）。足の実寸が25.0cmを超える男性は対応外となります。実寸が25.0cm以内の男性であれば物理的には装着できますが、公式は女性向け商品として案内しており、男性向けの使用案内はありません。",
+        text: "公式のサイズ展開はM（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向け2サイズのみで、対応最大は25.0cmです（公式サイトにて2026年11月7日確認）。足の実寸が25.0cmを超える男性は対応外となります。実寸が25.0cm以内の男性であれば物理的には装着できますが、公式は女性向け商品として案内しており、男性向けの使用案内はありません。",
       },
     },
     {
@@ -59,7 +59,7 @@ const faqStructuredData = {
       name: "足のサイズが26cm・27cmの男性が使う方法はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ありません。ランウェイキュアソールは足に直接履くソックス型で、対応最大サイズは25.0cmです（公式サイトにて2026年7月確認）。靴の中敷き型と違いカットなどでの調整もできないため、サイズを超える足に無理に合わせる方法はなく、対応サイズの合う別製品を選ぶのが現実的です。",
+        text: "ありません。ランウェイキュアソールの対応最大サイズは25.0cm（Lサイズ 24.0〜25.0cm）です（公式サイトにて2026年11月7日確認）。公式サイトには、これより大きい足に合わせる方法やカットによる調整についての記載はないため、対応サイズの合う別製品を選ぶのが現実的です。",
       },
     },
     {
@@ -220,7 +220,7 @@ export default function RunwayMensReviewPage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            「ランウェイキュアソール メンズ」「男性でも使える？」と検索される方は多いのですが、まずこの事実を押さえてください。ランウェイキュアソールは靴に入れる中敷き型のインソールではなく、<span className="font-bold">足に直接履くソックス型</span>の製品です。ソックス型である以上、足の実寸がサイズ範囲に収まらなければ正しく装着できず、中敷き型のようにカットして調整する余地もありません。
+            「ランウェイキュアソール メンズ」「男性でも使える？」と検索される方は多いのですが、まずこの事実を押さえてください。ランウェイキュアソールのサイズはM（22.5〜23.5cm）とLの2種類だけで、<span className="font-bold">上限が25.0cm</span>です。公式サイトには、これを超える足に合わせる方法についての記載はありません。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -246,7 +246,7 @@ export default function RunwayMensReviewPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            公式サイトに掲載されているサイズ展開は次の2つだけです（公式サイトにて2026年7月確認）。
+            公式サイトに掲載されているサイズ展開は次の2つだけです（公式サイトにて2026年11月7日確認）。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
@@ -276,14 +276,14 @@ export default function RunwayMensReviewPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mb-6">
-            出典：ランウェイキュアソール公式サイト（2026年7月確認）。S・XLなどのサイズや、メンズ用モデルの案内はありません。
+            出典：ランウェイキュアソール公式サイト（2026年11月7日確認）。S・XLなどのサイズや、メンズ用モデルの案内はありません。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            なぜ「サイズ超えでも無理に使う」ができないのか
+            サイズを超える場合に公式が案内していること
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ランウェイキュアソールはソックスのように足へ直接履くタイプです。中敷き型インソールであれば「大きめを買ってカットする」「かかとを合わせて余りを許容する」といった調整の余地がありますが、ソックス型は足全体を包む構造のため、対応サイズを超える足に合わせる手段がありません。
+            公式サイトのサイズ案内はM・Lの2区分のみで、上限の25.0cmを超える足に向けた案内や、カットによる調整についての記載はありません。そのため、対応範囲を超える場合は別製品を検討することになります。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
@@ -323,7 +323,7 @@ export default function RunwayMensReviewPage() {
                 足囲（ワイズ）・甲の高さは実寸と別問題
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                足長が範囲内でも、一般に男性は女性より足囲や甲の高さが大きい傾向があります。女性の足を想定したソックス型製品では、足長が合っても圧迫感が生じる可能性は否定できません。この点についても公式の男性向け情報はないため、確実なことは言えません。
+                足長が範囲内でも、一般に男性は女性より足囲や甲の高さが大きい傾向があります。女性向けとして案内されている製品のため、足長が合っても圧迫感が生じる可能性は否定できません。この点についても公式の男性向け情報はないため、確実なことは言えません。
               </p>
             </div>
 
@@ -338,7 +338,7 @@ export default function RunwayMensReviewPage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            サイズ選び全般の考え方は<Link href="/articles/size-adjustment/" className="text-[#8a6a4f] hover:underline">インソールサイズ調整の記事</Link>も参考になります（カット調整の話は中敷き型が対象で、ソックス型のランウェイキュアソールには適用できません）。
+            サイズ選び全般の考え方は<Link href="/articles/size-adjustment/" className="text-[#8a6a4f] hover:underline">インソールサイズ調整の記事</Link>も参考になります。
           </p>
         </section>
 
@@ -465,7 +465,7 @@ export default function RunwayMensReviewPage() {
           </div>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            境界値（各範囲の区切り）付近の方は、必ず各製品の公式サイズ表の刻みで判断してください。製品タイプも異なる点に注意が必要です（ランウェイキュアソール＝足に履くソックス型、ピットソール・スリムアップインソール＝靴に入れる中敷き型）。
+            境界値（各範囲の区切り）付近の方は、必ず各製品の公式サイズ表の刻みで判断してください。ピットソールとスリムアップインソールはカットでの調整に対応している点も、選ぶときの違いになります。
           </p>
         </section>
 
@@ -525,7 +525,7 @@ export default function RunwayMensReviewPage() {
                 Q. ランウェイキュアソールは男性でも使えますか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. 公式のサイズ展開はM（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向け2サイズのみで、対応最大は25.0cmです（公式サイトにて2026年7月確認）。足の実寸が25.0cmを超える男性は対応外となります。実寸が25.0cm以内の男性であれば物理的には装着できますが、公式は女性向け商品として案内しており、男性向けの使用案内はありません。
+                A. 公式のサイズ展開はM（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向け2サイズのみで、対応最大は25.0cmです（公式サイトにて2026年11月7日確認）。足の実寸が25.0cmを超える男性は対応外となります。実寸が25.0cm以内の男性であれば物理的には装着できますが、公式は女性向け商品として案内しており、男性向けの使用案内はありません。
               </p>
             </div>
 
@@ -543,7 +543,7 @@ export default function RunwayMensReviewPage() {
                 Q. 足のサイズが26cm・27cmの男性が使う方法はありますか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. ありません。ランウェイキュアソールは足に直接履くソックス型で、対応最大サイズは25.0cmです（公式サイトにて2026年7月確認）。靴の中敷き型と違いカットなどでの調整もできないため、サイズを超える足に無理に合わせる方法はなく、対応サイズの合う別製品を選ぶのが現実的です。
+                A. ありません。ランウェイキュアソールの対応最大サイズは25.0cm（Lサイズ 24.0〜25.0cm）です（公式サイトにて2026年11月7日確認）。公式サイトには、これより大きい足に合わせる方法やカットによる調整についての記載はないため、対応サイズの合う別製品を選ぶのが現実的です。
               </p>
             </div>
 
@@ -583,7 +583,7 @@ export default function RunwayMensReviewPage() {
             </h3>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><span className="font-bold">サイズ展開：</span>M（22.5〜23.5cm）/L（24.0〜25.0cm）の女性向け2サイズのみ。メンズ用モデルはない。</li>
-              <li><span className="font-bold">25cm超の男性：</span>対応外。ソックス型のためカット等での調整も不可。</li>
+              <li><span className="font-bold">25cm超の男性：</span>対応外。公式サイトにカット等での調整の記載はない。</li>
               <li><span className="font-bold">実寸25.0cm以内の男性：</span>物理的には装着できるが、公式は女性向けとして案内しており男性向けの使用案内はない。</li>
               <li><span className="font-bold">代替案：</span>ピットソール（5サイズ・21.0〜29.0cm、XLはブラック/ピンク限定）。実寸26.5cm以内ならスリムアップインソールMも選択肢。</li>
               <li><span className="font-bold">価格：</span>ランウェイ単品6,980円/2足11,980円/3足17,960円。</li>

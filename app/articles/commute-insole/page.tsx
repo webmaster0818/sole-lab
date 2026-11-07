@@ -45,7 +45,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "通勤靴に入れっぱなしにできること", "b": "通勤ウォーキングの鍵は「準備ゼロ」で始められることです。毎日履く靴に入れたままにできる耐久性と、革靴・スニーカーどちらにも収まる厚みのものを選ぶことをおすすめします。入れ替えの手間があると結局使わなくなります。"}, {"t": "長めに歩いてもアーチが沈まないサポート", "b": "歩数を増やすと、足裏のアーチは後半ほど疲労で沈み込みます。柔らかいだけのクッションではなく、土踏まずをしっかり支え続けられるアーチサポート設計が、距離を伸ばしても疲れにくい土台になります。"}, {"t": "通勤スタイルに合わせた選び分け", "b": "スニーカー通勤なら中敷きと入れ替える標準的なタイプ、革靴なら薄型やカットで調整できるタイプ、職場で履き替える方なら靴を選ばないソックス型と、自分の通勤スタイルに合う形を選ぶことをおすすめします。"}];
+const points = [{"t": "通勤靴に入れっぱなしにできること", "b": "通勤ウォーキングの鍵は「準備ゼロ」で始められることです。毎日履く靴に入れたままにできる耐久性と、革靴・スニーカーどちらにも収まる厚みのものを選ぶことをおすすめします。入れ替えの手間があると結局使わなくなります。"}, {"t": "長めに歩いてもアーチが沈まないサポート", "b": "歩数を増やすと、足裏のアーチは後半ほど疲労で沈み込みます。柔らかいだけのクッションではなく、土踏まずをしっかり支え続けられるアーチサポート設計が、距離を伸ばしても疲れにくい土台になります。"}, {"t": "通勤スタイルに合わせた選び分け", "b": "スニーカー通勤なら中敷きと入れ替える標準的なタイプ、革靴なら薄型やカットで調整できるタイプと、自分の通勤スタイルに合う形を選ぶことをおすすめします。"}];
 const related = [{"href": "/articles/walking-diet/", "label": "ウォーキングダイエットとインソール"}, {"href": "/articles/business-shoes-insole/", "label": "ビジネスシューズ用インソール"}, {"href": "/articles/effective-walking/", "label": "効果的な歩き方のコツ"}, {"href": "/articles/travel-insole/", "label": "旅行の歩き疲れ対策インソール"}];
 
 export default function CommutePage() {
@@ -93,7 +93,7 @@ export default function CommutePage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">通勤ウォーキングにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、いずれも日常の歩行をサポートする目的のインソールです。ピットソールはXS〜XL（21〜29cm）対応でカット調整でき、特許取得のアーチサポートで通勤靴に入れっぱなしの運用に向きます。ランウェイキュアソールは靴ではなく足に直接装着するソックス型なので、通勤靴と社内履きを行き来する方でも装着し直す必要がありません。スリムアップインソールはカットできるEVA/PE素材で手に取りやすい価格帯です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、いずれも日常の歩行をサポートする目的のインソールです。ピットソールはXS〜XL（21〜29cm）対応でカット調整でき、特許取得のアーチサポートで通勤靴に入れっぱなしの運用に向きます。ランウェイキュアソールはM／Lの2サイズ展開で、女性向けの対応サイズ（22.5〜25.0cm）です。スリムアップインソールはカットできるEVA/PE素材で手に取りやすい価格帯です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

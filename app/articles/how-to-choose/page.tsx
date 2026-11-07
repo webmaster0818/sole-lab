@@ -497,9 +497,9 @@ export default function HowToChoosePage() {
               <ul className="space-y-1 mb-3">
                 {[
                   "整体師監修の骨盤補整設計",
-                  "足に直接装着するソックス型（M/L・22.5〜25cmの女性向けサイズ）",
+                  "M／Lの2サイズ・22.5〜25.0cmの女性向けサイズ",
                   "美姿勢サポートに特化した設計",
-                  "靴を選ばない汎用性の高さ",
+                  "整体師監修の骨盤補整設計",
                 ].map((point) => (
                   <li
                     key={point}

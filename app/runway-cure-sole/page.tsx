@@ -113,7 +113,7 @@ const faqStructuredData = {
       name: "パンプスやヒールにも使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "足に直接装着するソックス型のため、靴の形状を選びにくいのが特徴です。ただし、つま先が極端に細いデザインやヒールが高すぎる靴では窮屈になる場合があります。スニーカーやローヒールの靴での使用が最も効果的です。",
+        text: "公式サイトには、対応する靴の種類についての記載はありません。靴の中敷きと入れ替えて使うインソールのため、中敷きを外して入れ替えられる靴でお使いください。つま先が極端に細い靴やヒールの高い靴では窮屈になる場合があるため、実際に履いて確認してください。",
       },
     },
     {
@@ -410,7 +410,7 @@ export default function RunwayCureSolePage() {
             <p>
               ドンキのインソール売場には「履くだけ」「姿勢サポート」をうたうダイエット系インソールが複数並んでいるため、
               店頭で似た商品を見て「ドンキで売ってる？」と検索される方が多いようです。
-              ただしそれらは別商品で、ランウェイキュアソールの3点アーチサポート設計・ソックス型の仕様とは異なります。
+              ただしそれらは別商品で、ランウェイキュアソールの3点アーチサポート設計とは異なります。
             </p>
             <p>
               セット割引が適用されるのは公式サイト限定です。ドンキで買えるインソール全般について知りたい方は
@@ -472,16 +472,12 @@ export default function RunwayCureSolePage() {
               購入前に知っておきたい注意点（編集部の整理）
             </p>
             <p className="text-xs text-gray-500 mb-3">
-              公式サイトで確認できる製品仕様（ソックス型・M/L 2サイズ）から導ける注意点です。
+              公式サイトで確認できる製品仕様（M／Lの2サイズ）から導ける注意点です。
             </p>
             <ul className="space-y-1.5 text-sm text-gray-600">
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-0.5 shrink-0">&#9650;</span>
                 外反母趾の方はクロス部分の食い込みに注意（症状が重い方は医師に相談を）
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-red-400 mt-0.5 shrink-0">&#9650;</span>
-                足に直接装着するソックス型のため、夏場は蒸れ・締め付けが気になる場合がある
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-0.5 shrink-0">&#9650;</span>
@@ -600,7 +596,7 @@ export default function RunwayCureSolePage() {
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
                 ランウェイキュアソールは、この3つのアーチを同時にサポートする設計になっています。
-                足に直接装着するソックス型で、履くだけで崩れたアーチを本来の位置に近づけ、自然と正しい姿勢を促します。
+                履くだけで崩れたアーチを本来の位置に近づけ、自然と正しい姿勢を促すと公式サイトで説明されています。
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
@@ -645,7 +641,7 @@ export default function RunwayCureSolePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
-                足に装着するソックス型で手持ちの靴をそのまま使える
+                M（22.5〜23.5cm）／L（24.0〜25.0cm）の2サイズから足のサイズで選べる
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#9675;</span>
@@ -670,7 +666,7 @@ export default function RunwayCureSolePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
-                夏場は締め付け・蒸れが気になることがある
+                素材・お手入れ方法が公式サイトに記載されていない
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
@@ -827,7 +823,7 @@ export default function RunwayCureSolePage() {
           <table className="w-full text-sm">
             <tbody className="divide-y divide-gray-100 text-gray-600">
               <tr><td className="px-4 py-3 font-medium text-gray-900 w-40">販売元</td><td className="px-4 py-3">株式会社FLORe（FLOReショップ／FLORe公式ショップ 楽天市場店）</td></tr>
-              <tr><td className="px-4 py-3 font-medium text-gray-900">タイプ</td><td className="px-4 py-3">ソックス型（足に直接装着するタイプ。靴の中敷きとして挿入する形状ではありません）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">タイプ</td><td className="px-4 py-3">インソール（中敷き）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td><td className="px-4 py-3">M（22.5〜23.5cm）/ L（24.0〜25.0cm）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">素材</td><td className="px-4 py-3">公式表記なし</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">構造</td><td className="px-4 py-3">3点アーチサポート設計（特許表記なし）</td></tr>
@@ -964,7 +960,7 @@ export default function RunwayCureSolePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-red-400 mt-0.5 shrink-0">&#9651;</span>
-                  夏場に素足でサンダルを多用する方
+                  中敷きを入れ替えられない靴を主に履く方
                 </li>
               </ul>
             </div>

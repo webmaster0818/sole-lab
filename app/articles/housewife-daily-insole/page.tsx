@@ -46,7 +46,7 @@ const breadcrumbStructuredData = {
   ],
 };
 
-const points = [{"t": "買い物用スニーカーへのアーチサポートを基本に", "b": "一日のうち足への負担が大きいのが、荷物を持って歩く買い物の時間です。よく履くスニーカーに、土踏まずを支えるインソールを入れるのが最も効果を感じやすい使い方です。"}, {"t": "キッチンの立ち時間にはクッション性を", "b": "硬いフローリングでの立ち仕事には、足裏への圧力をやわらげるクッション性が役立ちます。室内履きを使う方は、入れられる薄型タイプを選ぶことをおすすめします。"}, {"t": "履き替えの多い生活にはカット調整やソックス型", "b": "家の中はスリッパ、ゴミ出しはサンダル、買い物はスニーカーと、家事は履き替えの連続です。カットできるタイプなら複数の靴に合わせやすく、足に直接装着するソックス型なら履き替えても効果が続きます。"}];
+const points = [{"t": "買い物用スニーカーへのアーチサポートを基本に", "b": "一日のうち足への負担が大きいのが、荷物を持って歩く買い物の時間です。よく履くスニーカーに、土踏まずを支えるインソールを入れるのが最も効果を感じやすい使い方です。"}, {"t": "キッチンの立ち時間にはクッション性を", "b": "硬いフローリングでの立ち仕事には、足裏への圧力をやわらげるクッション性が役立ちます。室内履きを使う方は、入れられる薄型タイプを選ぶことをおすすめします。"}, {"t": "履き替えの多い生活にはカットで調整できるタイプ", "b": "家の中はスリッパ、ゴミ出しはサンダル、買い物はスニーカーと、家事は履き替えの連続です。カットできるタイプなら、よく履く靴の形に合わせて調整できます。"}];
 const related = [{"href": "/articles/standing-work/", "label": "立ち仕事で疲れないインソール"}, {"href": "/articles/walking-insole/", "label": "ウォーキング用インソール"}, {"href": "/articles/swelling-insole/", "label": "むくみ対策インソール"}, {"href": "/articles/indoor-slippers-insole/", "label": "室内・スリッパのインソール"}];
 
 export default function HousewifeDailyPage() {
@@ -70,7 +70,7 @@ export default function HousewifeDailyPage() {
 
         <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">家事・買い物には、買い物用のスニーカーに入れるアーチサポート付きインソールが基本です。キッチンの硬い床対策にはクッション性も重視してください。室内と屋外で靴を履き替える生活なら、カットして複数の靴に合わせやすいタイプや、足に直接装着するソックス型も便利です。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">家事・買い物には、買い物用のスニーカーに入れるアーチサポート付きインソールが基本です。キッチンの硬い床対策にはクッション性も重視してください。室内と屋外で靴を履き替える生活なら、カットして靴の形に合わせやすいタイプが便利です。</p>
         </div>
 
         <section className="mb-12">
@@ -94,7 +94,7 @@ export default function HousewifeDailyPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">家事・買い物の毎日使いにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">毎日の家事・買い物には、扱いやすくて続けやすいインソールが一番です。履き替えの多い方には、足に直接装着するソックス型のランウェイキュアソール（女性向けM/L・22.5〜25cm）も便利です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">毎日の家事・買い物には、扱いやすくて続けやすいインソールが一番です。履き替えの多い方には、ランウェイキュアソール（女性向けM/L・22.5〜25cm）も便利です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

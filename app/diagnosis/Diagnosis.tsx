@@ -23,7 +23,7 @@ const PRODUCTS: Record<
     tagline: "美姿勢サポートインソール",
     href: "/runway-cure-sole/",
     reason:
-      "姿勢・バランスや、薄型で靴を選ばない使い心地を重視するあなたには、3つのアーチをサポートするランウェイキュアソールが向いています。",
+      "姿勢・バランスを重視するあなたには、3つのアーチをサポートするランウェイキュアソールが向いています。",
     accent: "#c9a76c",
   },
   slimup: {
@@ -43,7 +43,7 @@ const RELATED: Record<Key, { href: string; label: string }[]> = {
     { href: "/pitsole/size/", label: "ピットソールのサイズ選び・XS〜XL全サイズ" },
   ],
   runway: [
-    { href: "/articles/runway-size-guide/", label: "ランウェイのサイズ選び（M/L・ソックス型）" },
+    { href: "/articles/runway-size-guide/", label: "ランウェイのサイズ選び（M／L・22.5〜25.0cm）" },
     { href: "/articles/runway-coupon/", label: "ランウェイの料金・お得な買い方" },
   ],
   slimup: [
@@ -61,7 +61,7 @@ const COMPARE: Record<string, { href: string; label: string }> = {
 
 const SECOND_REASON: Record<Key, string> = {
   pitsole: "効果・実績を最優先するなら、次の比較候補としてピットソールも検討する価値があります。",
-  runway: "薄型で靴を選ばない使い心地や美姿勢サポートを求めるなら、ランウェイキュアソールも候補になります。",
+  runway: "美姿勢サポートを求めるなら、ランウェイキュアソールも候補になります。",
   slimup: "まず手頃に始めたい・コスパを重視するなら、スリムアップインソールも候補になります。",
 };
 

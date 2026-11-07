@@ -115,7 +115,7 @@ export default function ShockVsArchPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">タイプ選びで失敗しないための注意点</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">アーチサポート型は、使い始めに土踏まずへの当たりや違和感が出ることがあります。短時間から慣らし、数週間しても痛みが続く場合はサイズやアーチ高が合っていない可能性があるため使用を見直してください。足底の強い痛み・しびれ・明らかな変形がある場合は、市販品のタイプ選び以前に整形外科での診断を優先してください。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">衝撃吸収型を選ぶ場合も、かかと部分だけのパッドか全面タイプかで靴内の容積への影響が変わります。どちらのタイプでも「靴とのセットで機能する」のがインソールです。普段履く靴に入れた状態（ソックス型は装着した状態）で、かかとの安定感とつま先の余裕を確認してから本格使用に移ってください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">衝撃吸収型を選ぶ場合も、かかと部分だけのパッドか全面タイプかで靴内の容積への影響が変わります。どちらのタイプでも「靴とのセットで機能する」のがインソールです。普段履く靴に入れた状態で、かかとの安定感とつま先の余裕を確認してから本格使用に移ってください。</p>
         </section>
 
         <section className="mb-12">

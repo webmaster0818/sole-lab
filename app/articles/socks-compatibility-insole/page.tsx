@@ -6,7 +6,7 @@ import ThemeArticles from "../../components/ThemeArticles";
 export const metadata: Metadata = {
   title: "インソールと靴下の相性ガイド【2026年】5本指ソックス・厚手・ストッキング別",
   description:
-    "インソールの効果は靴下で変わる？厚手靴下・5本指ソックス・ストッキング・素足それぞれの相性と注意点、ソックス型インソールと靴下の関係まで解説。",
+    "インソールの効果は靴下で変わる？厚手靴下・5本指ソックス・ストッキング・素足それぞれの相性と注意点、靴下に合わせたサイズ確認の方法まで解説。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/socks-compatibility-insole/",
   },
@@ -17,14 +17,14 @@ const structuredData = {
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline: "インソールと靴下の相性ガイド｜5本指ソックス・厚手・ストッキング別の注意点",
   description:
-    "インソールの効果は靴下で変わる？厚手靴下・5本指ソックス・ストッキング・素足それぞれの相性と注意点、ソックス型インソールと靴下の関係まで解説。",
+    "インソールの効果は靴下で変わる？厚手靴下・5本指ソックス・ストッキング・素足それぞれの相性と注意点、靴下に合わせたサイズ確認の方法まで解説。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-13",
   dateModified: "2026-06-13",
 };
 
-const faqs = [{"q": "インソールは素足と靴下、どちらで使うのが正解ですか？", "a": "中敷きタイプは靴下着用での使用が一般的です。素足だと汗や皮脂が直接付着して劣化やニオイが進みやすくなります。フィット確認は実際に合わせる靴下で行ってください。"}, {"q": "厚手の靴下だとインソールの効果は落ちますか？", "a": "アーチサポートの感触は厚みの分マイルドになり、靴内の容積も圧迫されます。効果がゼロになるわけではありませんが、きつさを感じるなら靴下を薄手にするか、靴に余裕を持たせてください。"}, {"q": "5本指ソックスとインソールは併用できますか？", "a": "併用できます。足指が独立して動かしやすい5本指ソックスは、アーチサポート系インソールと相性が良い組み合わせです。つま先の生地が増える分、靴の余裕だけご確認ください。"}, {"q": "ストッキングでもインソールを使えますか？", "a": "使えますが、滑りやすい素材のため足がインソール上でずれやすくなります。パンプス用の薄型を選ぶ、滑り止め付きのフットカバーを併用するなど、ずれ対策をすると快適です。"}, {"q": "ソックス型インソールの上に靴下を履いてもいいですか？", "a": "製品によって推奨される着用方法が異なるため、公式の案内に従ってください。重ね方によっては圧迫やずれの原因になります。購入前に装着方法を確認しておくと安心です。"}];
+const faqs = [{"q": "インソールは素足と靴下、どちらで使うのが正解ですか？", "a": "中敷きタイプは靴下着用での使用が一般的です。素足だと汗や皮脂が直接付着して劣化やニオイが進みやすくなります。フィット確認は実際に合わせる靴下で行ってください。"}, {"q": "厚手の靴下だとインソールの効果は落ちますか？", "a": "アーチサポートの感触は厚みの分マイルドになり、靴内の容積も圧迫されます。効果がゼロになるわけではありませんが、きつさを感じるなら靴下を薄手にするか、靴に余裕を持たせてください。"}, {"q": "5本指ソックスとインソールは併用できますか？", "a": "併用できます。足指が独立して動かしやすい5本指ソックスは、アーチサポート系インソールと相性が良い組み合わせです。つま先の生地が増える分、靴の余裕だけご確認ください。"}, {"q": "ストッキングでもインソールを使えますか？", "a": "使えますが、滑りやすい素材のため足がインソール上でずれやすくなります。パンプス用の薄型を選ぶ、滑り止め付きのフットカバーを併用するなど、ずれ対策をすると快適です。"}];
 
 const faqStructuredData = {
   "@context": "https://schema.org",
@@ -70,7 +70,7 @@ export default function SocksCompatPage() {
 
         <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
-          <p className="text-sm md:text-base text-gray-800 leading-relaxed">インソールは「いつも履く靴下」とセットでフィットを確認するのが基本です。厚手靴下は容積を圧迫しサポートの感触を弱め、滑りやすい素材は足のずれの原因になります。5本指ソックスは足指を使いやすくインソールとの相性は良好ですが、つま先の厚みが増す分、靴の余裕は確認を。ソックス型インソールの場合は装着方法が中敷きタイプと異なるため、公式の案内に従ってください。</p>
+          <p className="text-sm md:text-base text-gray-800 leading-relaxed">インソールは「いつも履く靴下」とセットでフィットを確認するのが基本です。厚手靴下は容積を圧迫しサポートの感触を弱め、滑りやすい素材は足のずれの原因になります。5本指ソックスは足指を使いやすくインソールとの相性は良好ですが、つま先の厚みが増す分、靴の余裕は確認を。</p>
         </div>
 
         <section className="mb-12">
@@ -94,7 +94,7 @@ export default function SocksCompatPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">靴下派・5本指ソックス派におすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">中敷きタイプは靴下の厚みごとのフィット確認を。ソックス型は装着方法そのものが異なる点にご注意ください。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">靴下の厚みごとに、実際に履く組み合わせでフィットを確認してください。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>
@@ -114,8 +114,8 @@ export default function SocksCompatPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">ソックス型インソールと靴下の関係｜注意点</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">ランウェイキュアソールのようなソックス型インソールは、中敷きとして靴に入れるのではなく足に直接装着するタイプです。靴下のように足に履いて使う設計のため、「インソールと靴下の相性」の前提がそもそも中敷きタイプと異なります。靴下と重ねる場合の着用順序や組み合わせは自己流にせず、製品公式の案内に従ってください。重ね方によっては圧迫感やずれ、蒸れの原因になることがあります。</p>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">インソールを使うときの靴下選びの注意点</h2>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">インソールは靴の中敷きと入れ替えて使うため、靴下の厚みが変わるとフィット感も変わります。普段と違う厚さの靴下を履く日は、つま先の余裕とかかとの収まりを確認してください。靴下・インソール・靴の3つが重なって窮屈になると、かえって足を圧迫したりずれの原因になることがあります。お手入れや使用方法は製品公式の案内に従ってください。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">中敷きタイプ（ピットソール・スリムアップインソールなど）は、靴下を替えてもインソール自体の位置は安定しているのが利点です。いずれのタイプでも、しびれ・強い圧迫感・皮膚トラブルなどが出た場合は使用を中止し、症状が続くようなら皮膚科や整形外科など医療機関に相談してください。</p>
         </section>
 

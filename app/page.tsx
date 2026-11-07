@@ -32,7 +32,7 @@ const products = [
     shot: "/images/official-runway.jpg",
     tagline: "美姿勢サポートインソール",
     price: "1,650円〜/月",
-    points: ["3つのアーチをサポート", "美姿勢で歩行をサポート", "薄型で靴を選ばない"],
+    points: ["3つのアーチをサポート", "美姿勢で歩行をサポート", "M・Lの2サイズ・女性向け"],
     review: "総合3.98（865件）",
     reviewNote: "FLORe公式ショップ 楽天市場店・2026年10月14日参照",
     href: "/runway-cure-sole/",

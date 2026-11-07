@@ -853,7 +853,7 @@ export default function PitsoleVsSlimupPage() {
           <div className="card">
             <p className="text-sm text-gray-600 leading-relaxed mb-4">
               女性で美姿勢を重視するなら、3点アーチサポートの「ランウェイキュアソール」も選択肢になります。
-              足に直接装着するソックス型で手持ちの靴と合わせやすく、M/L（22.5〜25cm）の女性向けサイズ展開が特徴です。
+              M（22.5〜23.5cm）／L（24.0〜25.0cm）の女性向け2サイズ展開が特徴です。
             </p>
             <div className="flex flex-col sm:flex-row sm:items-center gap-4">
               <Link href="/runway-cure-sole/" className="btn-outline text-sm inline-block">
