@@ -52,7 +52,7 @@ const articleStructuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-11-06",
+  dateModified: "2026-11-08",
 };
 
 const faqStructuredData = {
@@ -487,7 +487,7 @@ export default function SlimUpInsolePricePage() {
         </h2>
 
         <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
-          スリムアップインソールは毎日使用するものです。インソールの寿命（3〜6ヶ月）を考えて、交換用を含めた足数を検討する場合の参考として、公式通販の単品価格をもとに合計額を整理しました。
+          スリムアップインソールは毎日使用するものです。交換用を含めた足数を検討する場合の参考として、公式通販の単品価格をもとに合計額を整理しました。
           公式通販にセット販売の記載はないため（2026年11月2日確認）、複数購入しても1足あたりの価格は変わりません。
         </p>
 
@@ -658,7 +658,7 @@ export default function SlimUpInsolePricePage() {
 
         <p className="text-sm md:text-base text-gray-600 leading-relaxed">
           インソールの効果を実感するには2〜3ヶ月の継続使用が推奨されています。
-          交換の目安（3〜6ヶ月）とあわせて、必要な足数をご検討ください。
+          交換時期の目安は公式通販に記載がないため（2026年11月8日確認）、へたり具合を見ながら必要な足数をご検討ください。
         </p>
 
         {/* Internal link */}
