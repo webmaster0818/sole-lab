@@ -29,7 +29,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-11-05",
+  dateModified: "2026-11-10",
 };
 
 const faqStructuredData = {
@@ -449,7 +449,7 @@ export default function RankingPage() {
                     6,578円（税込）
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
-                    セット割引あり
+                    6,980円（税込）
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
                     6,980円（税込）
@@ -463,7 +463,7 @@ export default function RankingPage() {
                     4足18,120円 / 6足24,156円
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
-                    セット割引あり
+                    2足11,980円 / 3足17,960円（2026年11月10日確認）
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
                     公式通販にセット販売の記載なし（2026年11月2日確認）
@@ -934,10 +934,10 @@ export default function RankingPage() {
                       ランウェイキュアソール
                     </td>
                     <td className="px-3 py-2.5 text-center text-gray-700">
-                      セット割引あり
+                      6,980円
                     </td>
                     <td className="px-3 py-2.5 text-center text-gray-700">
-                      セット購入がお得
+                      約5,987円（3足セット17,960円時・FLORe公式ショップ楽天市場店にて2026年11月10日確認）
                     </td>
                   </tr>
                   <tr>

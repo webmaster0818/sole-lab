@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "ランウェイキュアソールの口コミ・評判を検証｜どこで売ってる？ドンキ・販売店・最安値【2026年10月】",
   description:
-    "ランウェイキュアソールの口コミ・評判を楽天公式店の実レビュー（総合3.98・865件）で検証。結論、ドン・キホーテや薬局など実店舗での取り扱いは確認されていません。購入は公式サイト中心でセット割引は公式限定。悪い口コミの傾向・最安値・外反母趾の注意点まで解説。",
+    "ランウェイキュアソールの口コミ・評判を楽天公式店の実レビュー（総合3.98・865件）で検証。結論、ドン・キホーテや薬局など実店舗での取り扱いは確認されていません。購入は公式店（FLORe公式ショップ楽天市場店）が中心で、2足・3足セットあり。悪い口コミの傾向・最安値・外反母趾の注意点まで解説。",
   alternates: {
     canonical: "https://sole-laboratory.com/runway-cure-sole/",
   },
@@ -37,7 +37,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-10-14",
+  dateModified: "2026-11-10",
 };
 
 const faqStructuredData = {
@@ -121,7 +121,7 @@ const faqStructuredData = {
       name: "公式サイト以外でも購入できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "公式サイト（FLOReショップ）での購入が最もお得です。セット割引は公式サイト限定となっており、正規品の保証も受けられます。非正規ルートでの購入は類似品のリスクがあるためご注意ください。",
+        text: "メーカーの公式店はFLORe公式ショップ楽天市場店で、1足6,980円・2足セット11,980円・3足セット17,960円（税込・2026年11月10日確認）で販売されています。非正規ルートでの購入は類似品のリスクがあるためご注意ください。",
       },
     },
     {
@@ -129,7 +129,7 @@ const faqStructuredData = {
       name: "最安値で買う方法はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "2026年7月時点の確認では、ドン・キホーテなど実店舗での取り扱いは確認できていません。単品6,980円に対し、2足セット11,980円・3足セット17,960円のセット割引が適用されるのは公式サイト限定のため、複数足を検討している場合は公式サイトのセット購入が最も割安です（価格は購入前に公式サイトでご確認ください）。",
+        text: "2026年7月時点の確認では、ドン・キホーテなど実店舗での取り扱いは確認できていません。FLORe公式ショップ楽天市場店では単品6,980円・2足セット11,980円・3足セット17,960円（税込・2026年11月10日確認）で販売されています。他の出品者の価格は時期により変わるため、購入前に販売元と価格をご確認ください。",
       },
     },
     {
@@ -137,7 +137,7 @@ const faqStructuredData = {
       name: "ドンキや薬局などの実店舗で売っていますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ドン・キホーテや一般的なドラッグストア・靴店での取り扱いは確認されていません。購入は公式サイト（FLOReショップ）が中心で、Amazon・楽天の出品状況は時期により変動します。セット割引は公式サイト限定です。",
+        text: "ドン・キホーテや一般的なドラッグストア・靴店での取り扱いは確認されていません。購入はメーカーの公式店（FLORe公式ショップ楽天市場店）が中心で、2足・3足セットもここで販売されています（2026年11月10日確認）。他の出品者の出品状況は時期により変わります。",
       },
     },
   ],
@@ -225,7 +225,7 @@ export default function RunwayCureSolePage() {
       <div className="max-w-4xl mx-auto px-4 mt-4">
         <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
-          <p className="mb-2"><strong>どこで売ってる？：</strong>購入は公式サイト（FLOReショップ）が中心で、ドン・キホーテ・薬局・靴店など実店舗での取り扱いは確認されていません。Amazon・楽天の出品は時期により変動し、セット割引・最安値は公式サイト限定です（<a href="#where-to-buy" className="text-[#8a6a4f] underline">販売店の詳細はこちら</a>）。</p>
+          <p className="mb-2"><strong>どこで売ってる？：</strong>購入はメーカーの公式店（FLORe公式ショップ楽天市場店）が中心で、ドン・キホーテ・薬局・靴店など実店舗での取り扱いは確認されていません。公式店では2足・3足セットも販売されています（2026年11月10日確認。<a href="#where-to-buy" className="text-[#8a6a4f] underline">販売店の詳細はこちら</a>）。</p>
           <p>ランウェイキュアソールは3点アーチサポートで美姿勢を促すインソールです。即効的なダイエット効果は期待できませんが、楽天公式店の実レビュー（総合3.98・865件、2026年10月14日参照）では姿勢面の変化を挙げる声が見られます。</p>
         </div>
         <div className="text-center my-8">
@@ -362,12 +362,12 @@ export default function RunwayCureSolePage() {
               <tr className="bg-[#faf7f3]">
                 <td className="px-4 py-3 font-medium text-gray-900">公式サイト（FLOReショップ）</td>
                 <td className="px-4 py-3 text-[#8a6a4f] font-bold">◎ 取扱あり</td>
-                <td className="px-4 py-3 text-gray-600">セット割引・正規品保証あり</td>
+                <td className="px-4 py-3 text-gray-600">FLORe公式ショップ楽天市場店で2足・3足セットあり（2026年11月10日確認）</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">Amazon・楽天</td>
                 <td className="px-4 py-3 text-gray-600">△ 時期により変動</td>
-                <td className="px-4 py-3 text-gray-600">セット割引は公式サイト限定</td>
+                <td className="px-4 py-3 text-gray-600">出品者により価格・セット内容が異なる</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">ドン・キホーテ</td>
@@ -413,7 +413,7 @@ export default function RunwayCureSolePage() {
               ただしそれらは別商品で、ランウェイキュアソールの3点アーチサポート設計とは異なります。
             </p>
             <p>
-              セット割引が適用されるのは公式サイト限定です。ドンキで買えるインソール全般について知りたい方は
+              2足・3足セットはメーカーの公式店（FLORe公式ショップ楽天市場店）で販売されています。ドンキで買えるインソール全般について知りたい方は
               「<a href="/articles/donki-insole/" className="text-[#8a6a4f] underline font-medium">ドンキのインソールはダイエットに使える？</a>」で、
               市販品と専用品の違いを解説しています。
             </p>
@@ -727,7 +727,7 @@ export default function RunwayCureSolePage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 leading-relaxed mb-6">
-            出典: キレイplus公式ショップ楽天市場店・Amazon公式出品（FLOReショップ）の表示価格（2026年6月12日参照）。価格は変更される場合があるため、購入前に必ず公式サイトの最新表示をご確認ください。
+            出典: キレイplus公式ショップ楽天市場店・Amazon公式出品（FLOReショップ）の表示価格（2026年6月12日参照）。FLORe公式ショップ楽天市場店では2026年11月10日にも同じ価格（1足6,980円・2足11,980円・3足17,960円）を確認しています。価格は変更される場合があるため、購入前に必ず公式サイトの最新表示をご確認ください。
           </p>
 
           <div className="bg-white border border-gray-200 rounded-lg p-4 md:p-5">
@@ -735,11 +735,11 @@ export default function RunwayCureSolePage() {
             <ul className="space-y-1.5 text-sm text-gray-600">
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
-                公式サイト（FLOReショップ）：セット割引あり・正規品保証
+                FLORe公式ショップ楽天市場店：1足6,980円・2足セット11,980円・3足セット17,960円（税込・FLORe公式ショップ楽天市場店にて2026年11月10日確認）
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-gray-400 mt-0.5 shrink-0">-</span>
-                Amazon・楽天：出品状況は時期により変動。セット割引は公式サイト限定
+                そのほかの出品者：出品状況・価格は時期により変わります。購入前に販売元をご確認ください
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-gray-400 mt-0.5 shrink-0">-</span>

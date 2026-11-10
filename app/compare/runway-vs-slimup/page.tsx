@@ -36,7 +36,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-07-19",
+  dateModified: "2026-11-10",
 };
 
 const faqStructuredData = {
@@ -700,7 +700,7 @@ export default function RunwayVsSlimupPage() {
           </p>
           <p>
             なお、どちらも公式サイトでの購入が最もお得です。
-            特にセット割引は公式サイト限定の場合が多いため、まずは公式サイトで最新の価格とキャンペーン情報をご確認ください。
+            セット販売の有無や価格は販売店ごとに異なるため、まずは公式サイトで最新の価格とキャンペーン情報をご確認ください。
           </p>
         </div>
       </section>

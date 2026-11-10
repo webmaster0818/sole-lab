@@ -28,7 +28,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-07-19",
+  dateModified: "2026-11-10",
 };
 
 const faqStructuredData = {
@@ -181,7 +181,7 @@ export default function PitsoleVsRunwayPage() {
                 <tr>
                   <td className="px-4 py-3 border border-gray-200 font-medium text-gray-700">単品価格</td>
                   <td className="px-4 py-3 border border-gray-200 text-gray-600">6,578円（税込）</td>
-                  <td className="px-4 py-3 border border-gray-200 text-gray-600">セット割引あり</td>
+                  <td className="px-4 py-3 border border-gray-200 text-gray-600">6,980円（税込）</td>
                 </tr>
                 <tr className="bg-gray-50/50">
                   <td className="px-4 py-3 border border-gray-200 font-medium text-gray-700">サイズ展開</td>
@@ -218,8 +218,8 @@ export default function PitsoleVsRunwayPage() {
           </div>
           <div className="mt-6 card bg-[#faf7f3] border-[#e8ded6]">
             <p className="text-sm text-gray-700 leading-relaxed">
-              <span className="font-bold text-[#8a6a4f]">ざっくりまとめると：</span>
-              ピットソールは世界特許の技術力・サイズ展開の広さ・販売実績で優位。ランウェイキュアソールはセット割引が強みです。
+              <span className="font-bold text-[#8a6a4f]">まとめ：</span>
+              ピットソールは世界特許の技術力・サイズ展開の広さ・販売実績で優位。ランウェイキュアソールはM・Lの2サイズで、2足・3足のセット販売があります。
             </p>
           </div>
         </div>
@@ -266,8 +266,8 @@ export default function PitsoleVsRunwayPage() {
               <h3 className="text-lg font-bold text-gray-900 mb-3">ランウェイキュアソールの料金</h3>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex justify-between">
-                  <span>セット割引</span>
-                  <span className="font-semibold text-gray-900">あり</span>
+                  <span>セット販売</span>
+                  <span className="font-semibold text-gray-900">2足11,980円・3足17,960円</span>
                 </li>
                 <li className="flex justify-between">
                   <span>販売元</span>
@@ -275,7 +275,7 @@ export default function PitsoleVsRunwayPage() {
                 </li>
               </ul>
               <p className="text-xs text-gray-500 mt-3">
-                ※セット割引を活用することでお得に購入可能。公式ショップでの購入推奨。
+                ※1足6,980円（税込・FLORe公式ショップ楽天市場店にて2026年11月10日確認）。3足セットは1足あたり約5,987円です。
               </p>
             </div>
           </div>
@@ -284,7 +284,7 @@ export default function PitsoleVsRunwayPage() {
             <h3 className="text-base font-bold text-gray-900 mb-3">コスパの判定</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               ピットソールは単品6,578円と一見高めですが、まとめ買いセットを利用すれば1足あたりの単価を大幅に下げられます。家族で使いたい場合や、靴ごとに入れ替えたい場合はまとめ買いが断然お得です。
-              ランウェイキュアソールもセット割引が用意されており、単品よりお得に購入できます。
+              ランウェイキュアソールは2足セット11,980円・3足セット17,960円で、単品（6,980円）より1足あたりの価格が下がります（FLORe公式ショップ楽天市場店・2026年11月10日確認）。
               どちらもインソールの耐久目安は3〜6ヶ月。月額換算で1,000〜2,000円程度と考えれば、ジム通いなどと比較してコスパは良好です。
               長期的に継続利用するなら、まとめ買い割引が充実しているピットソールがコスパ面では有利になる場合が多いでしょう。
             </p>
