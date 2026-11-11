@@ -31,7 +31,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-09-17",
+  dateModified: "2026-11-11",
 };
 
 const faqStructuredData = {
@@ -592,7 +592,7 @@ export default function LifespanPage() {
               ランウェイキュアソール（RUNWAY CURE SOLE）
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              薄型設計のランウェイキュアソールは、素材への圧縮負荷が分散されるよう設計されており、薄さの割に耐久性に優れます。ヒールやパンプスなど狭い靴内で使用しても形崩れしにくく、3〜5ヶ月程度の使用が可能です。定期購入コースを利用すれば、交換タイミングに合わせて届くため管理も楽になります。
+              薄型設計のランウェイキュアソールは、素材への圧縮負荷が分散されるよう設計されており、薄さの割に耐久性に優れます。ヒールやパンプスなど狭い靴内で使用しても形崩れしにくく、3〜5ヶ月程度の使用が可能です。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
@@ -602,10 +602,6 @@ export default function LifespanPage() {
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>パンプスなど狭い靴内でも安定した耐久性</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
-                <span>定期購入コースで交換管理が容易</span>
               </li>
             </ul>
             <Link
@@ -771,7 +767,7 @@ export default function LifespanPage() {
                 >
                   ランウェイキュアソール
                 </Link>
-                ：薄型でも荷重分散設計により形崩れしにくい。定期購入で管理も楽。
+                ：薄型でも荷重分散設計により形崩れしにくい。
               </li>
               <li>
                 <Link
