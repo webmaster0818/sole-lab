@@ -285,12 +285,12 @@ export default function GolfInsolePage() {
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 3</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              美姿勢サポート機能がゴルフのアドレス姿勢の改善に貢献します。骨盤周りの筋肉を正しく使えるよう設計されているため、スイング軸の安定とパワーの効率的な伝達をサポート。薄型設計でゴルフシューズの中でも窮屈になりません。
+              美姿勢サポート機能がゴルフのアドレス姿勢の改善に貢献します。骨盤周りの筋肉を正しく使えるよう設計されているため、スイング軸の安定とパワーの効率的な伝達をサポート。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートでアドレス姿勢が安定</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>骨盤周りの筋肉活性化でスイング軸が安定</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でゴルフシューズとの相性が良い</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>M（22.5〜23.5cm）・L（24.0〜25.0cm）の2サイズ展開</span></li>
             </ul>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
@@ -488,7 +488,7 @@ export default function GolfInsolePage() {
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートでスイング安定性が抜群。適度な硬さとクッションのバランスが良い。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：正しい重心移動を促し、体重移動がスムーズに。男女兼用。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートでアドレス姿勢を改善。薄型でシューズ内が窮屈にならない。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートでアドレス姿勢を改善。</li>
             </ul>
           </div>
 

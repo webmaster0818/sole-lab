@@ -542,7 +542,7 @@ export default function PitsoleAllSizesPage() {
                 ビジネスシューズとの相性（相性：やや注意が必要）
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                ビジネスシューズは靴内の空間が狭いため、ピットソールの厚み（かかと部約1.5〜1.7cm）がフィット感に影響する場合があります。中敷きが取り外せるタイプの靴であれば問題ありませんが、中敷きが接着されている靴では窮屈に感じることがあります。その場合は0.5cm大きめの靴を選ぶか、<Link href="/runway-cure-sole/" className="text-[#8a6a4f] hover:underline">薄型のランウェイキュアソール</Link>を検討してみてください。
+                ビジネスシューズは靴内の空間が狭いため、ピットソールの厚み（かかと部約1.5〜1.7cm）がフィット感に影響する場合があります。中敷きが取り外せるタイプの靴であれば問題ありませんが、中敷きが接着されている靴では窮屈に感じることがあります。その場合は0.5cm大きめの靴を選ぶか、<Link href="/runway-cure-sole/" className="text-[#8a6a4f] hover:underline">ランウェイキュアソール</Link>を検討してみてください。
               </p>
             </div>
 

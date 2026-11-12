@@ -365,7 +365,7 @@ export default function RunningInsolePage() {
               ランウェイキュアソール（RUNWAY CURE SOLE）
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              美姿勢サポートに特化したインソールで、ランニング中のフォーム改善に効果を発揮します。足裏のアーチサポートと骨盤周りの筋肉活性化を促す設計により、正しいランニングフォームの維持をサポートします。薄型設計のため、ランニングシューズ内の空間を圧迫しません。
+              美姿勢サポートに特化したインソールで、ランニング中のフォーム改善に効果を発揮します。足裏のアーチサポートと骨盤周りの筋肉活性化を促す設計により、正しいランニングフォームの維持をサポートします。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
@@ -374,7 +374,7 @@ export default function RunningInsolePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
-                <span>薄型設計でシューズ内の快適性を損なわない</span>
+                <span>3点アーチサポート設計で足裏を支える</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
@@ -694,7 +694,7 @@ export default function RunningInsolePage() {
                 >
                   ランウェイキュアソール
                 </Link>
-                ：美姿勢サポートでフォーム改善。薄型設計でシューズ内の快適性を維持。
+                ：美姿勢サポートでフォーム改善。
               </li>
               <li>
                 <Link

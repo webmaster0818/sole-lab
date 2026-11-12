@@ -363,7 +363,7 @@ export default function WalkingDietPage() {
                 points: [
                   "3点アーチサポート設計",
                   "美姿勢サポートに特化",
-                  "ヒール靴にも対応する薄型設計",
+                  "M・Lの2サイズ展開（女性向け）",
                 ],
                 price: "6,980円（税込）〜",
                 best: "姿勢改善も同時に目指す方",

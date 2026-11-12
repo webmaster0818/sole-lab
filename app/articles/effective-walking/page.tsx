@@ -265,7 +265,7 @@ export default function EffectiveWalkingPage() {
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートで歩く姿が美しく変わる</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>骨盤周りの筋肉活性化でヒップアップ効果</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でパンプスにも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点アーチサポート設計で足裏を支える</span></li>
             </ul>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>

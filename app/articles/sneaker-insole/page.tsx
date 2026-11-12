@@ -297,10 +297,10 @@ export default function SneakerInsolePage() {
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 2</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              美姿勢サポートに特化したインソールで、スニーカーでの歩行姿勢を美しく整えます。薄型設計のため靴内の空間を圧迫せず、見た目のシルエットも崩しません。骨盤周りの筋肉を正しく使えるよう設計されており、普段の歩行がエクササイズ効果を持つようになります。
+              美姿勢サポートに特化したインソールで、スニーカーでの歩行姿勢を美しく整えます。骨盤周りの筋肉を正しく使えるよう設計されており、普段の歩行がエクササイズ効果を持つようになります。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でスニーカーのシルエットを崩さない</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点アーチサポート設計で足裏を支える</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートで見た目の印象もアップ</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>普段の歩行がエクササイズに変わる設計</span></li>
             </ul>
@@ -514,7 +514,7 @@ export default function SneakerInsolePage() {
             <p className="text-sm font-bold text-gray-900 mb-3">今回紹介した主要3商品</p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートで安定感抜群。カット調整でどのスニーカーにも対応。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型で姿勢改善。スニーカーのシルエットを崩さない設計。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：3点アーチサポート設計で姿勢改善。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：美容整体師監修。日常歩行をダイエットに変える設計。</li>
             </ul>
           </div>

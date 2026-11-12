@@ -153,9 +153,9 @@ export default function HalluxValgusPreventionPage() {
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">パンプスにも対応</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">薄型設計でパンプスにも使えるランウェイキュアソールは、ヒールを履く機会が多い女性の外反母趾予防に最適です。姿勢改善効果により前足部への荷重集中を軽減し、母趾への圧迫を和らげます。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">ランウェイキュアソールは3点アーチサポート設計のインソールです。姿勢改善効果により前足部への荷重集中を軽減し、母趾への圧迫を和らげます。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型でパンプスやヒールにも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点アーチサポート設計で足裏を支える</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>姿勢改善で前足部への荷重集中を軽減</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>女性の外反母趾予防に特に効果的</span></li>
             </ul>
@@ -196,7 +196,7 @@ export default function HalluxValgusPreventionPage() {
             <p className="text-sm font-bold text-gray-900 mb-3">外反母趾予防におすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：3点サポートで横アーチを含む全アーチをケア。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型でパンプスにも対応。女性の外反母趾予防に最適。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：3点アーチサポート設計。M・Lの2サイズ展開。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：重心改善で母趾への過度な負担を防止。</li>
             </ul>
           </div>

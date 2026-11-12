@@ -491,7 +491,7 @@ export default function HeightUpPage() {
               ランウェイキュアソール（RUNWAY CURE SOLE）
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              「ランウェイを歩くような美しい姿勢」をコンセプトに設計されたインソールです。骨盤周りの筋肉を効率的に使えるよう設計されており、歩行姿勢の改善を通じて脚長効果とスタイルアップを実現します。薄型設計のためパンプスやローファーなど、さまざまな靴に対応しています。
+              「ランウェイを歩くような美しい姿勢」をコンセプトに設計されたインソールです。骨盤周りの筋肉を効率的に使えるよう設計されており、歩行姿勢の改善を通じて脚長効果とスタイルアップを実現します。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
@@ -500,7 +500,7 @@ export default function HeightUpPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
-                <span>薄型設計でパンプスにも対応</span>
+                <span>3点アーチサポート設計で足裏を支える</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
@@ -666,7 +666,7 @@ export default function HeightUpPage() {
                 >
                   ランウェイキュアソール
                 </Link>
-                ：美姿勢サポートで脚長効果。薄型設計でパンプスにも対応。
+                ：美姿勢サポートで脚長効果。
               </li>
               <li>
                 <Link

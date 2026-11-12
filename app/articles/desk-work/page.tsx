@@ -399,7 +399,7 @@ export default function DeskWorkPage() {
                 </h3>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed mb-3">
-                薄型で履き心地が良く、長時間の着用でも快適。3点アーチサポートによる美姿勢効果が期待できます。ただし女性向け（22.5〜25.0cm）のため、男性デスクワーカーには対応していません。
+                3点アーチサポート設計による美姿勢サポートが特徴です。ただし女性向け（22.5〜25.0cm）のため、男性デスクワーカーには対応していません。
               </p>
               <div className="flex items-center gap-4 text-sm">
                 <span className="text-gray-500">単品：6,980円</span>

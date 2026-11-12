@@ -583,7 +583,7 @@ export default function SlimupNotWorkingPage() {
                       item: "おすすめな人",
                       slimup: "整体アプローチ重視",
                       pitsole: "エビデンス重視",
-                      runway: "薄型・履き心地重視",
+                      runway: "姿勢サポート重視",
                     },
                   ].map((row) => (
                     <tr key={row.item} className="border-b border-gray-100">

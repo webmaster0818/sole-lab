@@ -277,14 +277,14 @@ export default function MaterialComparisonPage() {
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">薄型高機能</span>
+            <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">3点アーチサポート</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              薄型でありながら高い機能性を実現した素材設計です。限られた厚みの中で最大限のサポート力を発揮するため、高密度の素材を採用。パンプスやビジネスシューズなど、靴内空間が限られる場面でも快適に使用できます。
+              3点アーチサポート設計のインソールです。素材の厚み・密度は公式サイトに記載がないため、当サイトでは具体的な数値を示しません（2026年11月12日確認）。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型でも高密度素材で十分なサポート力</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>パンプスやビジネスシューズに最適な厚み設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点アーチサポート設計で足裏を支える</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>M・Lの2サイズ展開（女性向け）</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>荷重分散設計で素材の劣化を最小化</span></li>
             </ul>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
@@ -334,7 +334,7 @@ export default function MaterialComparisonPage() {
             <p className="text-sm font-bold text-gray-900 mb-3">素材設計に優れたおすすめインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：TPU+EVA複合設計。サポート力と快適性を高次元で両立。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型でも高密度素材で十分なサポート力を発揮。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：3点アーチサポート設計で足裏を支えるを発揮。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：部位別の硬度調整で重心移動を最適化。</li>
             </ul>
           </div>

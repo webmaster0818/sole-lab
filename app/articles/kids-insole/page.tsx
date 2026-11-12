@@ -222,10 +222,10 @@ export default function KidsInsolePage() {
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 3</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）Mサイズ</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">Mサイズ（22.5〜23.5cm）が小学校高学年〜中学生の女の子に対応しています。美姿勢サポート機能で、成長期の姿勢改善を助けます。薄型設計のため、学校の上履きや通学靴にも入れやすいのが特徴です。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">Mサイズ（22.5〜23.5cm）が小学校高学年〜中学生の女の子に対応しています。美姿勢サポート機能で、成長期の姿勢改善を助けます。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートで成長期の姿勢改善</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型で上履きや通学靴にも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点アーチサポート設計で足裏を支える</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>Mサイズが小学生高学年〜中学生の女子に対応</span></li>
             </ul>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
@@ -353,7 +353,7 @@ export default function KidsInsolePage() {
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：XSサイズ（21cm〜）対応。世界特許3点サポートで成長期の足を的確にサポート。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：正しい重心移動を促し、子供の歩き方改善に効果的。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートで成長期の姿勢改善。薄型で上履きにも対応。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートで成長期の姿勢改善。</li>
             </ul>
           </div>
 

@@ -586,22 +586,22 @@ export default function LifespanPage() {
           {/* Product 2: Runway Cure Sole */}
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">
-              薄型で長持ち
+              3点アーチサポート
             </span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">
               ランウェイキュアソール（RUNWAY CURE SOLE）
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              薄型設計のランウェイキュアソールは、素材への圧縮負荷が分散されるよう設計されており、薄さの割に耐久性に優れます。ヒールやパンプスなど狭い靴内で使用しても形崩れしにくく、3〜5ヶ月程度の使用が可能です。
+              ランウェイキュアソールは3点アーチサポート設計のインソールです。厚みや耐久性、交換の目安は公式サイトに記載がないため、当サイトでは具体的な使用月数を示しません（2026年11月12日確認）。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
-                <span>薄型でも荷重分散設計で形崩れしにくい</span>
+                <span>3点アーチサポート設計</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
-                <span>パンプスなど狭い靴内でも安定した耐久性</span>
+                <span>M（22.5〜23.5cm）・L（24.0〜25.0cm）の2サイズ展開</span>
               </li>
             </ul>
             <Link
@@ -767,7 +767,7 @@ export default function LifespanPage() {
                 >
                   ランウェイキュアソール
                 </Link>
-                ：薄型でも荷重分散設計により形崩れしにくい。
+                ：3点アーチサポート設計。耐久性・交換目安は公式サイトに記載なし。
               </li>
               <li>
                 <Link

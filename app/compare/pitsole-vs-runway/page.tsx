@@ -604,8 +604,8 @@ export default function PitsoleVsRunwayPage() {
             <ul className="space-y-4">
               {[
                 {
-                  title: "パンプスやヒールにも使いたい女性",
-                  desc: "薄型設計が最大の特徴。パンプスやローヒールなど、靴内のスペースが限られる靴でも窮屈になりにくい設計です。通勤靴にインソールを入れたい方に向いています。",
+                  title: "姿勢サポートを重視したい女性",
+                  desc: "3点アーチサポート設計で、M（22.5〜23.5cm）・L（24.0〜25.0cm）の2サイズ展開です。厚みや対応する靴の種類は公式サイトに記載がないため、お使いの靴に入るかは実際にご確認ください（2026年11月12日確認）。",
                 },
                 {
                   title: "足のサイズが22.5〜25cmの女性",
@@ -655,7 +655,7 @@ export default function PitsoleVsRunwayPage() {
               男女兼用でサイズの心配が少なく、口コミも豊富なため、購入前に十分な情報を集めた上で判断できる点も強みです。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mt-4">
-              一方、<span className="font-bold text-[#8a6a4f]">パンプスに入れたい女性にはランウェイキュアソールも有力な選択肢</span>です。
+              一方、<span className="font-bold text-[#8a6a4f]">姿勢サポートを重視する方にはランウェイキュアソールも有力な選択肢</span>です。
               3点アーチサポート設計で姿勢面を支える点が、ランウェイキュアソールの特徴です。
               22.5〜25cmのサイズに該当する女性で、日常の靴にさりげなく入れたいなら検討の価値があります。
             </p>
@@ -674,7 +674,7 @@ export default function PitsoleVsRunwayPage() {
             <div className="card text-center">
               <p className="text-xs text-gray-500 mb-1">パンプス派の女性に</p>
               <p className="text-lg font-bold text-[#8a6a4f] mb-2">ランウェイキュアソール</p>
-              <p className="text-xs text-gray-500 mb-4">薄型設計・女性特化で選ぶなら</p>
+              <p className="text-xs text-gray-500 mb-4">美姿勢サポート・女性向けサイズで選ぶなら</p>
               <Link href="/runway-cure-sole/" className="btn-outline text-sm inline-block w-full mb-3">
                 ランウェイキュアソールの詳細を見る
               </Link>

@@ -232,11 +232,11 @@ export default function FootArchPage() {
           </div>
 
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
-            <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">薄型アーチサポート</span>
+            <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">3点アーチサポート</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">薄型でありながら効果的なアーチサポートを実現。パンプスやローファーなど靴内空間が限られる靴でもアーチをしっかり支えます。歩行姿勢の改善を通じて、アーチに適切な刺激を与え、足裏の筋力活性化にも寄与します。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">3点アーチサポート設計で足裏のアーチを支えます。歩行姿勢の改善を通じて、アーチに適切な刺激を与え、足裏の筋力活性化にも寄与します。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でも効果的なアーチサポートを実現</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点アーチサポート設計で足裏のアーチを支える</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>歩行姿勢改善で足裏筋力の活性化を促す</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>パンプスやビジネスシューズにも対応</span></li>
             </ul>
@@ -279,7 +279,7 @@ export default function FootArchPage() {
             <p className="text-sm font-bold text-gray-900 mb-3">アーチケアにおすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートで3つのアーチを同時にケア。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型でも効果的なアーチサポート。パンプスにも対応。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：3点アーチサポートで足裏のアーチを支える。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：重心改善でアーチへの負担を均等化。</li>
             </ul>
           </div>

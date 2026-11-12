@@ -189,10 +189,10 @@ export default function PlantarFasciitisPage() {
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">姿勢改善でケア</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">歩行姿勢の改善により足裏への荷重パターンを最適化し、足底筋膜の特定部位に集中するストレスを分散します。薄型設計のため、仕事用の靴にも入れやすく、日中のケアに最適です。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">歩行姿勢の改善により足裏への荷重パターンを最適化し、足底筋膜の特定部位に集中するストレスを分散します。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>歩行姿勢改善で足底への荷重パターンを最適化</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型で仕事用の靴にも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>M（22.5〜23.5cm）・L（24.0〜25.0cm）の2サイズ展開</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>日中の長時間使用でも快適</span></li>
             </ul>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
@@ -232,7 +232,7 @@ export default function PlantarFasciitisPage() {
             <p className="text-sm font-bold text-gray-900 mb-3">足底筋膜炎ケアにおすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：3点サポートでアーチ崩れの根本原因にアプローチ。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：歩行姿勢改善で足底への荷重を最適化。薄型で仕事用にも。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：歩行姿勢改善で足底への荷重を最適化。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：重心改善とダイエット効果で複合的にケア。</li>
             </ul>
           </div>

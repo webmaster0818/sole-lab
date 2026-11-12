@@ -1049,14 +1049,14 @@ export default function InsoleCare() {
             </h3>
             <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
               <p>
-                ランウェイキュアソールは3点アーチサポート設計を採用した薄型インソールです。パンプスやローファーなど薄い靴にも対応できる設計が特徴ですが、薄型ゆえにお手入れの際はより丁寧な取り扱いが求められます。
+                ランウェイキュアソールは3点アーチサポート設計のインソールです。お手入れの際は、素材を傷めないよう丁寧に取り扱ってください。
               </p>
               <ul className="space-y-2 ml-1">
                 <li className="flex items-start gap-2">
                   <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
-                  薄型設計のため、洗う際に曲げたり折ったりしないよう注意してください
+                  洗う際に曲げたり折ったりしないよう注意してください
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#a67a56] shrink-0 mt-0.5">
@@ -1068,7 +1068,7 @@ export default function InsoleCare() {
                   <span className="text-[#a67a56] shrink-0 mt-0.5">
                     &#10003;
                   </span>
-                  乾燥時は平らな場所に置いて自然乾燥させてください。吊るすと薄型素材が変形する可能性があります
+                  乾燥時は平らな場所に置いて自然乾燥させてください。吊るすと変形する可能性があります
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#a67a56] shrink-0 mt-0.5">

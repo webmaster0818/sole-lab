@@ -800,14 +800,14 @@ export default function DietMechanismPage() {
                   ランウェイキュアソールは、足裏の3つのアーチを同時に支える設計で、美しい姿勢づくりにフォーカスしたダイエットインソールです。足元からの姿勢を整えることを目指した構造になっています。
                 </p>
                 <p>
-                  薄型設計でヒール靴にも対応しているため、通勤やオフィスでの使用にも適しています。姿勢改善を通じた「見た目の変化」を重視する方に向いています。
+                  姿勢改善を通じた「見た目の変化」を重視する方に向いています。
                 </p>
                 <div className="flex flex-wrap gap-2 mt-3">
                   <span className="text-xs bg-[#faf7f3] text-[#c9a76c] px-2 py-1 rounded">
                     整体師監修
                   </span>
                   <span className="text-xs bg-[#faf7f3] text-[#c9a76c] px-2 py-1 rounded">
-                    薄型・ヒール対応
+                    美姿勢サポート
                   </span>
                   <span className="text-xs bg-[#faf7f3] text-[#c9a76c] px-2 py-1 rounded">
                     美姿勢特化

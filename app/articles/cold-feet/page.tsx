@@ -168,7 +168,7 @@ export default function ColdFeetPage() {
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">姿勢から改善</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美姿勢サポートにより歩行時の筋肉の使い方を最適化し、血行促進効果が期待できます。骨盤周りの筋肉を活性化することで下半身全体の血流が改善し、足先の冷え解消に寄与します。薄型設計で靴を選びません。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美姿勢サポートにより歩行時の筋肉の使い方を最適化し、血行促進効果が期待できます。骨盤周りの筋肉を活性化することで下半身全体の血流が改善し、足先の冷え解消に寄与します。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートで下半身の血流を改善</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>骨盤周りの筋肉活性化で冷えにアプローチ</span></li>

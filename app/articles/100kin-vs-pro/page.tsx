@@ -76,7 +76,7 @@ const faqStructuredData = {
       name: "高機能インソールの中でどれを選べばいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ダイエット効果と骨格矯正を重視するならピットソール、姿勢改善と薄型設計を重視するならランウェイキュアソール、整体的アプローチと重心移動の最適化を重視するならスリムアップインソールがおすすめです。3商品の詳しい比較はおすすめランキングページで確認できます。",
+        text: "ダイエット効果と骨格矯正を重視するならピットソール、姿勢サポートを重視するならランウェイキュアソール、整体的アプローチと重心移動の最適化を重視するならスリムアップインソールがおすすめです。3商品の詳しい比較はおすすめランキングページで確認できます。",
       },
     },
   ],
@@ -640,7 +640,7 @@ export default function HyakkinVsProPage() {
 
           <ul className="text-sm md:text-base text-gray-700 space-y-2 mb-6 list-disc list-inside">
             <li><span className="font-bold">ピットソール：</span>ダイエット効果を最重視。臨床データあり。まとめ買い割引でコスパも良い。<Link href="/pitsole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
-            <li><span className="font-bold">ランウェイキュアソール：</span>美姿勢サポートと薄型設計。ビジネスシューズにも対応。<Link href="/runway-cure-sole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
+            <li><span className="font-bold">ランウェイキュアソール：</span>美姿勢サポートと3点アーチサポート設計。<Link href="/runway-cure-sole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
             <li><span className="font-bold">スリムアップインソール：</span>美容整体師監修。重心移動の最適化で自然に痩せる設計。<Link href="/slim-up-insole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
           </ul>
 
@@ -697,7 +697,7 @@ export default function HyakkinVsProPage() {
                 Q. 高機能インソールの中でどれを選べばいいですか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. ダイエット効果と骨格矯正を重視するならピットソール、姿勢改善と薄型設計を重視するならランウェイキュアソール、整体的アプローチと重心移動の最適化を重視するならスリムアップインソールがおすすめです。3商品の詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] hover:underline">おすすめランキングページ</Link>で確認できます。
+                A. ダイエット効果と骨格矯正を重視するならピットソール、姿勢サポートを重視するならランウェイキュアソール、整体的アプローチと重心移動の最適化を重視するならスリムアップインソールがおすすめです。3商品の詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] hover:underline">おすすめランキングページ</Link>で確認できます。
               </p>
             </div>
           </div>

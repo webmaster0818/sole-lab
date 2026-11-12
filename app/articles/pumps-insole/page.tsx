@@ -263,10 +263,10 @@ export default function PumpsInsolePage() {
             <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              パンプスとの相性が最も良いのがランウェイキュアソールです。薄型設計でパンプスの空間を圧迫せず、美姿勢サポート機能でヒールによる骨盤の前傾を補正します。M（22.5〜23.5cm）・L（24〜25cm）の2サイズ展開で、多くのパンプスに対応可能です。
+              ランウェイキュアソールは3点アーチサポート設計で、M（22.5〜23.5cm）・L（24.0〜25.0cm）の2サイズ展開です。厚みや対応する靴の種類は公式サイトに記載がないため、お使いのパンプスに入るかは実際にご確認ください（2026年11月12日確認）。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でパンプスの空間にフィット</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点アーチサポート設計で足裏を支える</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートでヒールによる骨盤前傾を補正</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>女性向けサイズ展開で選びやすい</span></li>
             </ul>
@@ -487,7 +487,7 @@ export default function PumpsInsolePage() {
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">今回紹介した主要3商品</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型で美姿勢サポート。パンプスとの相性が最も良い。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポート。M・Lの2サイズ展開。</li>
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：世界特許の3点サポートで前方荷重を分散。カット調整可能。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：美容整体師監修。ヒールでの歩き方を美しく変える。</li>
             </ul>

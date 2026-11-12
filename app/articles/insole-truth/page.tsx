@@ -480,7 +480,7 @@ export default function InsoleTruthPage() {
                 points: [
                   "3点アーチサポート設計",
                   "美姿勢サポートに特化した構造",
-                  "ヒール靴にも対応する薄型タイプあり",
+                  "M・Lの2サイズ展開（女性向け）",
                 ],
                 price: "6,980円（税込）〜",
                 best: "姿勢改善を重視する方",

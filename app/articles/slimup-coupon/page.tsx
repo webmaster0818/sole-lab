@@ -469,7 +469,7 @@ export default function SlimupCouponPage() {
                     </td>
                     <td className="py-3 px-4 text-gray-900">6,980円</td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">約5,987円/足</td>
-                    <td className="py-3 px-4 text-gray-700">薄型・女性向け</td>
+                    <td className="py-3 px-4 text-gray-700">女性向け（M・L）</td>
                   </tr>
                 </tbody>
               </table>

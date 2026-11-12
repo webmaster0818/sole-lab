@@ -163,10 +163,10 @@ export default function SportsVsDietPage() {
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">ダイエット特化</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美姿勢サポートに特化したダイエットインソールです。骨盤周りの筋肉を効率的に使えるよう設計されており、日常歩行でのカロリー消費向上と美脚効果を追求。薄型設計でパンプスやローファーにも対応し、仕事中もダイエットをサポートします。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">美姿勢サポートに特化したダイエットインソールです。骨盤周りの筋肉を効率的に使えるよう設計されており、日常歩行でのカロリー消費向上と美脚効果を追求。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートでカロリー消費を向上</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型でパンプスにも対応（仕事中も使える）</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>M・Lの2サイズ展開（女性向け）</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美脚効果とダイエット効果を同時に追求</span></li>
             </ul>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
@@ -206,7 +206,7 @@ export default function SportsVsDietPage() {
             <p className="text-sm font-bold text-gray-900 mb-3">目的別おすすめインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：ダイエットとスポーツを高次元で両立。万能タイプ。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：ダイエット特化。美姿勢と美脚効果。薄型。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：ダイエット特化。美姿勢と美脚効果。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：重心改善で日常歩行をダイエットに。</li>
             </ul>
           </div>

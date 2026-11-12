@@ -305,12 +305,12 @@ export default function KneePainPage() {
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">歩行姿勢から改善</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              歩行姿勢の改善に特化した設計で、膝が内側に入るニーインを防止します。骨盤周りの筋肉を正しく使えるようサポートし、股関節から膝にかけてのアライメントを最適化。薄型設計のため、さまざまな靴に対応可能です。
+              歩行姿勢の改善に特化した設計で、膝が内側に入るニーインを防止します。骨盤周りの筋肉を正しく使えるようサポートし、股関節から膝にかけてのアライメントを最適化。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>歩行姿勢改善でニーインを防止</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>骨盤〜膝のアライメントを最適化</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でさまざまな靴に対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点アーチサポート設計で足裏を支える</span></li>
             </ul>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
@@ -379,7 +379,7 @@ export default function KneePainPage() {
             <p className="text-sm font-bold text-gray-900 mb-3">膝痛対策におすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：3点サポートでアライメントを矯正。膝への不均等荷重を解消。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：歩行姿勢改善でニーインを防止。薄型で使いやすい。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：歩行姿勢改善でニーインを防止。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：正しい重心移動で膝への負担を最小化。</li>
             </ul>
           </div>

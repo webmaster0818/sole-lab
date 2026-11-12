@@ -131,7 +131,7 @@ export default function GiftInsolePage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">母の日（5月第2日曜日）</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">お母さんへのプレゼントには、姿勢改善や美脚効果が期待できるインソールが喜ばれます。パンプスでの使用を想定するなら薄型のランウェイキュアソール、スニーカーでの日常使いならピットソールがおすすめです。「いつまでもきれいに歩いてほしい」という思いが伝わるギフトです。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">お母さんへのプレゼントには、姿勢改善や美脚効果が期待できるインソールが喜ばれます。姿勢サポートを重視するならランウェイキュアソール、スニーカーでの日常使いならピットソールがおすすめです。「いつまでもきれいに歩いてほしい」という思いが伝わるギフトです。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">敬老の日（9月第3月曜日）</h3>
@@ -163,10 +163,10 @@ export default function GiftInsolePage() {
           <div className="bg-white border-2 border-gray-200 rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 2</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">女性への贈り物に最適なのがランウェイキュアソールです。美姿勢サポートに特化した設計で、「きれいに歩きたい」という女性の願いに応えます。薄型設計でパンプスにも使えるため、オフィスワークのお母さんや奥様へのプレゼントとして人気です。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">女性への贈り物に最適なのがランウェイキュアソールです。美姿勢サポートに特化した設計で、「きれいに歩きたい」という女性の願いに応えます。M・Lの2サイズ展開のため、オフィスワークのお母さんや奥様へのプレゼントとして人気です。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>女性向けの美姿勢サポート設計</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>パンプス対応の薄型設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>M・Lの2サイズ展開（女性向け）</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>「きれいに歩く」というポジティブなメッセージ性</span></li>
             </ul>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>

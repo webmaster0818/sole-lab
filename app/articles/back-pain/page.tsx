@@ -436,12 +436,12 @@ export default function BackPainPage() {
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">姿勢改善で腰をケア</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ランウェイキュアソール（RUNWAY CURE SOLE）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              美姿勢サポート機能により、歩行時の姿勢を改善し、腰への負担を軽減します。骨盤周りの筋肉を効率的に使えるよう設計されているため、腰を支える筋力の活性化にも寄与。薄型設計でビジネスシューズにも対応可能です。
+              美姿勢サポート機能により、歩行時の姿勢を改善し、腰への負担を軽減します。骨盤周りの筋肉を効率的に使えるよう設計されているため、腰を支える筋力の活性化にも寄与。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>姿勢改善機能で腰への代償負担を軽減</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>骨盤周りの筋肉を活性化し腰のサポート力を向上</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型でビジネスシューズにも対応</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>M（22.5〜23.5cm）・L（24.0〜25.0cm）の2サイズ展開</span></li>
             </ul>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
           </div>
@@ -515,7 +515,7 @@ export default function BackPainPage() {
             <p className="text-sm font-bold text-gray-900 mb-3">腰痛改善におすすめのインソール</p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：3点サポート構造で骨盤アライメントを最適化。腰痛の根本改善に。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートで歩行姿勢を改善。薄型でビジネスにも。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：美姿勢サポートで歩行姿勢を改善。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：重心改善で不良姿勢を矯正。腰椎への負担を軽減。</li>
             </ul>
           </div>

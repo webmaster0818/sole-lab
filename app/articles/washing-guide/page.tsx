@@ -381,7 +381,7 @@ export default function WashingGuidePage() {
             <p className="text-sm font-bold text-gray-900 mb-3">主要3商品のお手入れポイント</p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：EVA素材で水洗いOK。ぬるま湯と中性洗剤で手洗い。浸け置きは10分以内。</li>
-              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：薄型設計で乾きが早い。週1回のケアで清潔を維持。</li>
+              <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：週1回のケアで清潔を維持。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：公式通販の案内は「汚れが酷い場合は、中性洗剤等で洗い、しっかりと水でゆすいだ後、影干ししてください。」「（頻繁な水洗いは推奨しておりません。）」（2026年11月2日確認）。</li>
             </ul>
           </div>

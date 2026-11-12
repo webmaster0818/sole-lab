@@ -398,7 +398,7 @@ export default function StandingWorkPage() {
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
                 <span>
-                  薄型設計のためナースシューズやパンプスにも入れやすい
+                  3点アーチサポート設計で足裏を支える
                 </span>
               </li>
             </ul>
@@ -610,7 +610,7 @@ export default function StandingWorkPage() {
                 >
                   ランウェイキュアソール
                 </Link>
-                ：美姿勢サポート設計で腰への負担も軽減。薄型でナースシューズにも対応。
+                ：美姿勢サポート設計で腰への負担も軽減。
               </li>
               <li>
                 <Link
