@@ -307,7 +307,7 @@ export default function CheapInsolePage() {
                     { item: "姿勢矯正効果", diet: "◎ 骨盤・歩行改善", cheap: "× なし" },
                     { item: "筋肉活性化", diet: "○ 筋活動量増加", cheap: "× なし" },
                     { item: "クッション性", diet: "○ 衝撃吸収", cheap: "△ 薄いクッションのみ" },
-                    { item: "耐久性", diet: "○ 3〜6ヶ月", cheap: "× 1〜2週間" },
+                    { item: "耐久性", diet: "○ 商品ごとに異なる（ピットソール公式は3〜6か月）", cheap: "× 1〜2週間" },
                     { item: "素材品質", diet: "◎ 高品質素材", cheap: "△ 廉価素材" },
                     { item: "抗菌防臭", diet: "○ 機能付き", cheap: "× なし" },
                     { item: "価格", diet: "4,000〜6,000円/足", cheap: "110円" },

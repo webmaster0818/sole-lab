@@ -125,7 +125,7 @@ export default function HairdresserPage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">立ち仕事の疲れをためないコツ</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">施術の合間に足踏みやかかと上げをすると、ふくらはぎの筋ポンプが働いてむくみがたまりにくくなります。インソールと組み合わせると効果的です。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">毎日長時間使うとインソールはへたりやすいので、3〜6ヶ月を目安に交換すると効果を保てます。クッションが薄くつぶれてきた、土踏まずの支えが弱く感じる、といったサインが交換の目安です。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">毎日長時間使うとインソールはへたりやすいので、商品ごとの交換目安（ピットソールの公式ショップは3〜6か月）を参考に交換すると効果を保てます。クッションが薄くつぶれてきた、土踏まずの支えが弱く感じる、といったサインが交換の目安です。</p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">仕事中は水分をこまめにとり、休憩時に足首を回したりつま先立ちをしたりして血流を促すのも有効です。帰宅後に足を少し高くして休めると、むくみのリセットに役立つとされています。インソールはあくまで疲れをやわらげる補助であり、無理のない範囲で休息や姿勢の見直しと組み合わせることが大切です。</p>
         </section>
 

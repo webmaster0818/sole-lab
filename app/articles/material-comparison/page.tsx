@@ -30,7 +30,7 @@ const faqStructuredData = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "インソールの素材で最も一般的なのは何ですか？", acceptedAnswer: { "@type": "Answer", text: "最も一般的なインソール素材はEVA（エチレン酢酸ビニル）です。軽量で衝撃吸収性に優れ、コストも抑えられるため、市販インソールの多くに採用されています。ただし耐久性はTPUやコルクに劣り、3〜6ヶ月程度で交換が必要になります。" } },
+    { "@type": "Question", name: "インソールの素材で最も一般的なのは何ですか？", acceptedAnswer: { "@type": "Answer", text: "最も一般的なインソール素材はEVA（エチレン酢酸ビニル）です。軽量で衝撃吸収性に優れ、コストも抑えられるため、市販インソールの多くに採用されています。ただし耐久性はTPUやコルクに劣り、早めの交換が必要になります。" } },
     { "@type": "Question", name: "TPU素材のインソールのメリットは何ですか？", acceptedAnswer: { "@type": "Answer", text: "TPU（熱可塑性ポリウレタン）は形状保持力と復元力に優れた素材です。長期間使用してもアーチサポートの形状が崩れにくく、EVAの2〜3倍の耐久性があります。やや硬めの素材感で安定性が高いため、アーチサポート部に使用されることが多く見られます。" } },
     { "@type": "Question", name: "ジェル素材のインソールはどんな人に向いていますか？", acceptedAnswer: { "@type": "Answer", text: "ジェル（シリコン）素材は衝撃吸収に最も優れた素材であり、かかとや前足部に痛みがある方、コンクリートなど硬い路面で長時間歩く方に向いています。ただし重量があり通気性に劣るため、スポーツ用には不向きです。" } },
     { "@type": "Question", name: "コルク素材のインソールの特徴は？", acceptedAnswer: { "@type": "Answer", text: "コルクは天然素材で通気性と耐久性に優れます。使い込むほど足の形に馴染むフィッティング性が最大の特徴です。12〜24ヶ月と長寿命ですが、水に弱い点と初期のなじみ期間が必要な点がデメリットです。" } },
@@ -124,7 +124,7 @@ export default function MaterialComparisonPage() {
           </ul>
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">EVAのデメリット</h3>
           <ul className="text-sm md:text-base text-gray-700 space-y-2 mb-4 ml-4">
-            <li className="flex items-start gap-2"><span className="text-red-600 font-bold">-</span><span>圧縮永久歪みが大きく、ヘタりやすい（寿命3〜6ヶ月）</span></li>
+            <li className="flex items-start gap-2"><span className="text-red-600 font-bold">-</span><span>圧縮永久歪みが大きく、ヘタりやすい</span></li>
             <li className="flex items-start gap-2"><span className="text-red-600 font-bold">-</span><span>高温環境で変形しやすい（車内放置は厳禁）</span></li>
             <li className="flex items-start gap-2"><span className="text-red-600 font-bold">-</span><span>形状保持力が低く、アーチサポートが崩れやすい</span></li>
             <li className="flex items-start gap-2"><span className="text-red-600 font-bold">-</span><span>体重の重い方は特に劣化が早い</span></li>
@@ -314,7 +314,7 @@ export default function MaterialComparisonPage() {
         <section id="faq" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">よくある質問（FAQ）</h2>
           <div className="space-y-4">
-            <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールの素材で最も一般的なのは何ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">最も一般的なインソール素材はEVAです。軽量で衝撃吸収性に優れ、コストも抑えられるため市販インソールの多くに採用されています。ただし耐久性はTPUやコルクに劣り、3〜6ヶ月程度で交換が必要になります。</div></details>
+            <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールの素材で最も一般的なのは何ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">最も一般的なインソール素材はEVAです。軽量で衝撃吸収性に優れ、コストも抑えられるため市販インソールの多くに採用されています。ただし耐久性はTPUやコルクに劣り、早めの交換が必要になります。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">TPU素材のインソールのメリットは何ですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">TPUは形状保持力と復元力に優れた素材です。長期間使用してもアーチサポートの形状が崩れにくく、EVAの2〜3倍の耐久性があります。アーチサポート部に使用されることが多い高機能素材です。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">ジェル素材のインソールはどんな人に向いていますか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">ジェル素材は衝撃吸収に最も優れており、かかとや前足部に痛みがある方、コンクリートなど硬い路面で長時間歩く方に向いています。ただし重量があり通気性に劣るため、スポーツ用には不向きです。</div></details>
             <details className="group bg-white border border-gray-200 rounded-lg"><summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">コルク素材のインソールの特徴は？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary><div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">コルクは天然素材で通気性と耐久性に優れます。使い込むほど足の形に馴染むフィッティング性が最大の特徴で、12〜24ヶ月と長寿命です。水に弱い点が注意点です。</div></details>

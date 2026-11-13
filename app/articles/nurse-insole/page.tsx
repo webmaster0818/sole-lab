@@ -115,7 +115,7 @@ export default function NursePage() {
         <section className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">夜勤・長時間勤務での使い方</h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">夜勤など長時間勤務では、休憩時に靴を脱いで足を休める・ふくらはぎを伸ばすと、インソールの効果と相まって疲れがたまりにくくなります。むくみが強い方は着圧ソックスの併用も有効です。</p>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">へたってくると効果が落ちるため、毎日長時間使う看護師さんは交換時期（3〜6ヶ月目安）を意識してください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">へたってくると効果が落ちるため、毎日長時間使う看護師さんは交換時期（商品ごとに異なり、ピットソールの公式ショップは3〜6か月が目安）を意識してください。</p>
         </section>
 
         <section className="mb-12">

@@ -52,7 +52,7 @@ const faqStructuredData = {
       name: "100均インソールの寿命はどのくらいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "100均インソールの寿命は使用状況によりますが、一般的に2週間〜1ヶ月程度でクッション性が著しく低下します。毎日使用する場合は2週間でヘタリを感じる方が多く見られます。高機能インソールが3〜6ヶ月持つのに対して、交換頻度は3〜6倍以上になります。",
+        text: "100均インソールの寿命は使用状況によりますが、一般的に2週間〜1ヶ月程度でクッション性が著しく低下します。毎日使用する場合は2週間でヘタリを感じる方が多く見られます。高機能インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。100均のほうが交換の回数は多くなります。",
       },
     },
     {
@@ -438,7 +438,7 @@ export default function HyakkinVsProPage() {
             高機能インソールの耐久性
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            高機能インソールは高密度素材と多層構造により、3〜6ヶ月の使用が可能です。ピットソールの場合、3ヶ月時点でアーチサポートの機能は90%以上維持されています。表面に使用感は出ますが、性能面での劣化は緩やかです。
+            高機能インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。ピットソールの場合、3ヶ月時点でアーチサポートの機能は90%以上維持されています。表面に使用感は出ますが、性能面での劣化は緩やかです。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
@@ -458,7 +458,7 @@ export default function HyakkinVsProPage() {
                 <tr>
                   <td className="border border-gray-200 px-4 py-3">実用寿命</td>
                   <td className="border border-gray-200 px-4 py-3">2週間〜1ヶ月</td>
-                  <td className="border border-gray-200 px-4 py-3">3〜6ヶ月</td>
+                  <td className="border border-gray-200 px-4 py-3">商品ごとに異なる（ピットソール公式は3〜6か月）</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-200 px-4 py-3">年間交換回数</td>
@@ -670,7 +670,7 @@ export default function HyakkinVsProPage() {
                 Q. 100均インソールの寿命はどのくらいですか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. 100均インソールの寿命は使用状況によりますが、一般的に2週間〜1ヶ月程度でクッション性が著しく低下します。毎日使用する場合は2週間でヘタリを感じる方が多く見られます。高機能インソールが3〜6ヶ月持つのに対して、交換頻度は3〜6倍以上になります。
+                A. 100均インソールの寿命は使用状況によりますが、一般的に2週間〜1ヶ月程度でクッション性が著しく低下します。毎日使用する場合は2週間でヘタリを感じる方が多く見られます。高機能インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。100均のほうが交換の回数は多くなります。
               </p>
             </div>
 
@@ -721,7 +721,7 @@ export default function HyakkinVsProPage() {
               <li><span className="font-bold">素材・構造：</span>100均は単層フラット、高機能は多層立体構造。圧倒的な差。</li>
               <li><span className="font-bold">クッション性：</span>高機能インソールは100均の約2倍の衝撃吸収率。</li>
               <li><span className="font-bold">アーチサポート：</span>100均は実質ゼロ。高機能は特許技術による本格的サポート。</li>
-              <li><span className="font-bold">耐久性：</span>100均は2週間〜1ヶ月。高機能は3〜6ヶ月。</li>
+              <li><span className="font-bold">耐久性：</span>100均は2週間〜1ヶ月。高機能は商品ごとに異なる（ピットソール公式は3〜6か月）。</li>
               <li><span className="font-bold">ダイエット効果：</span>100均はなし。高機能は臨床データで実証済み（ピットソール）。</li>
               <li><span className="font-bold">年間コスト：</span>100均1,320円 vs 高機能12,000円。差額10,680円で大きな効果差。</li>
             </ul>

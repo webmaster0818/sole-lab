@@ -506,7 +506,7 @@ export default function LegSlimmingArticlePage() {
                   5. コストパフォーマンス
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  インソールの耐久性は一般的に3〜6ヶ月です。月額に換算して無理のない価格帯の商品を選ぶことをおすすめします。まとめ買い割引がある商品は長期的にお得です。
+                  インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。月額に換算して無理のない価格帯の商品を選ぶことをおすすめします。まとめ買い割引がある商品は長期的にお得です。
                   <Link
                     href="/ranking/"
                     className="text-[#8a6a4f] hover:underline ml-1"

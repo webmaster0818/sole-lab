@@ -53,7 +53,7 @@ const faqs = [
   {
     question: "100均インソールの寿命はどれくらいですか？",
     answer:
-      "使用頻度にもよりますが、100均インソールは1〜2ヶ月程度でクッション性が低下し、交換が必要になることが多く見られます。ダイエットインソールは高耐久素材を使用しており、3〜6ヶ月以上持つ製品がほとんどです。長期的なコストパフォーマンスで見ると差が縮まる場合もあります。",
+      "使用頻度にもよりますが、100均インソールは1〜2ヶ月程度でクッション性が低下し、交換が必要になることが多く見られます。ダイエットインソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。長期的なコストパフォーマンスで見ると差が縮まる場合もあります。",
   },
   {
     question:
@@ -278,7 +278,7 @@ export default function HyakkinComparisonPage() {
                 title: "耐久性の違い",
                 hyakkin:
                   "100均インソールの寿命は使用頻度にもよりますが、一般的に1〜2ヶ月です。安価な素材は繰り返しの荷重で早くへたり、クッション性の低下やアーチ形状の崩壊が比較的早く起こります。毎日使用する場合は月1回程度の交換が推奨されます。",
-                diet: "ダイエットインソールは高耐久素材を使用しているため、3〜6ヶ月以上の使用に耐えます。TPUやナイロン素材のアーチサポート部分は数万回の荷重テストをクリアした製品も多く、長期間にわたってサポート力が維持されます。初期コストは高いですが、月あたりのコストで比較すると差が縮まるケースも少なくありません。",
+                diet: "ダイエットインソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。TPUやナイロン素材のアーチサポート部分は数万回の荷重テストをクリアした製品も多く、長期間にわたってサポート力が維持されます。初期コストは高いですが、月あたりのコストで比較すると差が縮まるケースも少なくありません。",
               },
               {
                 num: "05",
@@ -383,7 +383,7 @@ export default function HyakkinComparisonPage() {
                   {
                     item: "耐久性",
                     hyakkin: "1〜2ヶ月",
-                    diet: "3〜6ヶ月以上",
+                    diet: "商品ごとに異なる（ピットソール公式は3〜6か月）",
                   },
                   {
                     item: "月あたりコスト",
@@ -567,7 +567,7 @@ export default function HyakkinComparisonPage() {
                   <tr className="border-b border-gray-100">
                     <td className="py-2 text-gray-900">交換頻度</td>
                     <td className="py-2 text-gray-600">月1〜2回</td>
-                    <td className="py-2 text-gray-900">3〜6ヶ月に1回</td>
+                    <td className="py-2 text-gray-900">商品ごとに異なる（ピットソール公式は3〜6か月）</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-2 text-gray-900">年間コスト</td>
@@ -772,7 +772,7 @@ export default function HyakkinComparisonPage() {
           <ul className="space-y-3 text-gray-700 mb-4">
             <li className="flex items-start">
               <span className="text-red-500 mr-2 mt-1 flex-shrink-0">✕</span>
-              <span><strong>素材がEVAフォーム→数週間でへたる：</strong>ダイエット用インソールは3〜6ヶ月の持続力が求められますが、100均の素材は早期に弾力を失い、サポート機能が低下します。</span>
+              <span><strong>素材がEVAフォーム→数週間でへたる：</strong>ダイエット用インソールは数か月単位で使い続けるものですが、100均の素材は早期に弾力を失い、サポート機能が低下します。</span>
             </li>
             <li className="flex items-start">
               <span className="text-red-500 mr-2 mt-1 flex-shrink-0">✕</span>

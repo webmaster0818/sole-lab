@@ -375,7 +375,7 @@ export default function PitsoleVsTentialPage() {
             耐久性
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            両製品ともに耐久性は高いレベルです。日常使用で3〜6ヶ月程度が交換目安となります。ピットソールはまとめ買い割引があるため、定期的な交換を前提とした場合のランニングコストが抑えられます。TENTIALは単品購入のみのため、交換コストが割高になる傾向があります。
+            交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。ピットソールはまとめ買い割引があるため、定期的な交換を前提とした場合のランニングコストが抑えられます。TENTIALは単品購入のみのため、交換コストが割高になる傾向があります。
           </p>
 
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">

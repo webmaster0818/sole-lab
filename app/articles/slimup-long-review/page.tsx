@@ -52,7 +52,7 @@ const faqStructuredData = {
       name: "3ヶ月使用するとインソールはどのくらい劣化しますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "劣化の程度は体重・歩行距離・使用環境によって大きく異なります。素材はEVA・ポリエチレン（公式表記）で、インソール全般の交換目安は一般的に3〜6ヶ月程度とされています。アーチ部分のヘタリやクッション性の低下を感じたら交換を検討してください。",
+        text: "劣化の程度は体重・歩行距離・使用環境によって大きく異なります。素材はEVA・ポリエチレン（公式表記）で、スリムアップの公式には交換目安の記載がありません（ピットソールの公式ショップは3〜6か月を目安としています）。アーチ部分のヘタリやクッション性の低下を感じたら交換を検討してください。",
       },
     },
     {
@@ -76,7 +76,7 @@ const faqStructuredData = {
       name: "3ヶ月後も同じインソールを使い続けて大丈夫ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "状態が良好であれば継続使用できます。かかと部分のヘタリやアーチの潰れが見られる場合は交換を推奨します。一般的には3〜6ヶ月が交換目安とされるため、定期的に状態をチェックしてください。",
+        text: "状態が良好であれば継続使用できます。かかと部分のヘタリやアーチの潰れが見られる場合は交換を推奨します。交換の目安は商品ごとに異なるため（スリムアップの公式には記載なし）、定期的に状態をチェックしてください。",
       },
     },
   ],
@@ -419,7 +419,7 @@ export default function SlimupLongReviewPage() {
                 チェックポイント3：クッション性の低下
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                EVA素材は使用とともに徐々に潰れてクッション性が低下します。インソール全般の交換目安は一般的に3〜6ヶ月程度とされています。詳しくは<Link href="/articles/lifespan/" className="text-[#8a6a4f] hover:underline">インソールの寿命・交換目安の記事</Link>を参考にしてください。
+                EVA素材は使用とともに徐々に潰れてクッション性が低下します。スリムアップの公式には交換目安の記載がありません（ピットソールの公式ショップは3〜6か月を目安としています）。詳しくは<Link href="/articles/lifespan/" className="text-[#8a6a4f] hover:underline">インソールの寿命・交換目安の記事</Link>を参考にしてください。
               </p>
             </div>
           </div>
@@ -516,7 +516,7 @@ export default function SlimupLongReviewPage() {
                 交換時期を見逃さない
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                ヘタったインソールを使い続けると本来のサポートが得られません。3〜6ヶ月を目安に状態をチェックし、アーチのヘタリやクッション性の低下が見られたら交換してください。価格・購入方法は<Link href="/slim-up-insole/price/" className="text-[#8a6a4f] hover:underline">料金ページ</Link>で確認できます。
+                ヘタったインソールを使い続けると本来のサポートが得られません。商品ごとの交換目安（ピットソールの公式ショップは3〜6か月）を参考に状態をチェックし、アーチのヘタリやクッション性の低下が見られたら交換してください。価格・購入方法は<Link href="/slim-up-insole/price/" className="text-[#8a6a4f] hover:underline">料金ページ</Link>で確認できます。
               </p>
             </div>
           </div>
@@ -560,7 +560,7 @@ export default function SlimupLongReviewPage() {
               <li><span className="font-bold">1週目：</span>慣らし期間。フィット感と違和感の有無を確認</li>
               <li><span className="font-bold">1ヶ月目：</span>歩行量・姿勢への意識など「習慣の変化」を確認</li>
               <li><span className="font-bold">2〜3ヶ月：</span>体型変化は食事・運動との併用が前提。履くだけで痩せると断定できるデータは確認できない</li>
-              <li><span className="font-bold">耐久性：</span>交換目安は一般的に3〜6ヶ月。アーチのヘタリがサイン</li>
+              <li><span className="font-bold">耐久性：</span>交換目安はスリムアップの公式に記載なし。アーチのヘタリがサイン</li>
               <li><span className="font-bold">口コミ：</span>第三者レビューはまだ少なく、傾向を断定できる段階ではない</li>
             </ul>
           </div>
