@@ -35,7 +35,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-28",
-  dateModified: "2026-07-05",
+  dateModified: "2026-11-14",
 };
 
 const faqs = [
@@ -214,7 +214,7 @@ export default function CheapInsolePage() {
               セット購入時の1足あたり最安値は<strong>ピットソール（4,026円/足・6足セット）</strong>です。ピットソールのセット構成は2足12,364円・4足18,120円・6足24,156円の3種類です。ランウェイキュアソールはセット時約5,987円/足とやや高めです（女性向けサイズ22.5〜25.0cm）。価格はいずれも各公式サイトにて2026年7月確認の税込表示です。スリムアップインソールは公式通販の価格が1足6,980円（税込）で、セット販売の記載はありません（2026年11月2日確認）。
             </p>
             <p>
-              ピットソールとランウェイキュアソールはセット購入で割引が受けられるため、購入を決めたらセットで購入すると1足あたりの価格を抑えられます。なお、3製品とも実店舗（ドンキ・薬局など）での取り扱いは確認されておらず、2製品のセット割引は公式サイト限定です。取扱状況の詳細は<Link href="/articles/where-to-buy-insole/" className="text-[#8a6a4f] underline">3製品の販売店・最安値比較</Link>と<Link href="/runway-cure-sole/#where-to-buy" className="text-[#8a6a4f] underline">ランウェイキュアソールの販売店情報</Link>で確認できます。
+              ピットソールとランウェイキュアソールはセット購入で割引が受けられるため、購入を決めたらセットで購入すると1足あたりの価格を抑えられます。なお、3製品とも実店舗（ドンキ・薬局など）での取り扱いは確認されておらず、2製品のセットはいずれも楽天市場のメーカー公式店（ピットソール＝BACCHUS ONLINE SHOP 楽天市場店・2026年11月13日確認／ランウェイキュアソール＝FLORe公式ショップ楽天市場店・2026年11月10日確認）で販売されています。取扱状況の詳細は<Link href="/articles/where-to-buy-insole/" className="text-[#8a6a4f] underline">3製品の販売店・最安値比較</Link>と<Link href="/runway-cure-sole/#where-to-buy" className="text-[#8a6a4f] underline">ランウェイキュアソールの販売店情報</Link>で確認できます。
             </p>
           </div>
         </div>
