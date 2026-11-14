@@ -28,7 +28,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-10-26",
+  dateModified: "2026-11-14",
 };
 
 const faqStructuredData = {
@@ -236,7 +236,7 @@ export default function PitsolePricePage() {
             <p className="text-gray-700 text-sm leading-relaxed mb-4">
               ピットソールの最安値は、公式サイトまたは楽天公式ショップの<strong>セット購入</strong>です。
               セットは2足・4足・6足の3種類で、6足セット（24,156円）なら
-              <strong>1足あたり4,026円</strong>と単品比で約39%もお得になります（公式サイトにて2026年7月確認）。
+              <strong>1足あたり4,026円</strong>と単品比で約39%もお得になります（楽天市場の公式店にて2026年11月13日確認）。
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
               <div className="bg-white rounded-lg p-4 text-center">
@@ -652,7 +652,7 @@ export default function PitsolePricePage() {
             1足あたりの単価が最も安いのは<strong>6足セット（4,026円/足）</strong>です。
             家族で使いたい方や、靴ごとに入れ替えたい方は6足セットが便利ですが、
             まずは4足セットで試すのが無難でしょう。ピットソールの公式ショップは3〜6か月を交換の目安としているので、
-            セット購入なら交換用のストックとしても活用できます（価格は公式サイトにて2026年7月確認）。
+            セット購入なら交換用のストックとしても活用できます（価格は楽天市場の公式店にて2026年11月13日確認）。
           </p>
         </section>
 

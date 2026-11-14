@@ -36,7 +36,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-01",
-  dateModified: "2026-10-26",
+  dateModified: "2026-11-14",
 };
 
 const faqStructuredData = {
@@ -760,13 +760,13 @@ export default function PitsolePage() {
                   <span className="font-bold text-gray-900 w-20 shrink-0">
                     公式サイト
                   </span>
-                  2足・4足・6足のセット割引が最もお得。正規品保証あり。
+                  単品6,578円（2026年11月12日確認）。2足・4足・6足のセットは、11月12日時点の公式ショップの商品一覧には見当たりませんでした。
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-gray-900 w-20 shrink-0">
                     楽天
                   </span>
-                  公式ショップあり。ポイント還元を考慮するとお得な場合も。
+                  公式店（BACCHUS ONLINE SHOP 楽天市場店）で2足・4足・6足のセットを表の価格で確認（2026年11月13日）。ポイント還元を考慮するとお得な場合も。
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-gray-900 w-20 shrink-0">
@@ -783,7 +783,7 @@ export default function PitsolePage() {
               </ul>
             </div>
             <p className="text-xs text-gray-500">
-              ※ 価格は公式サイトにて2026年7月確認時点の情報です。最新の価格は各販売サイトでご確認ください。
+              ※ 表の価格は2026年11月13日に楽天市場の公式店（BACCHUS ONLINE SHOP 楽天市場店）で確認した税込価格です（商品名に「今だけ＋1足」などの表記があり、内容は変わる場合があります）。最新の価格は各販売サイトでご確認ください。
             </p>
           </div>
         </div>

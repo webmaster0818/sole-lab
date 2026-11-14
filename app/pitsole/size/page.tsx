@@ -28,7 +28,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-15",
-  dateModified: "2026-04-15",
+  dateModified: "2026-11-14",
 };
 
 const faqStructuredData = {
@@ -1543,7 +1543,7 @@ export default function PitsoleSizePage() {
               ピットソールの最安値をチェック
             </p>
             <p className="text-sm opacity-90 mb-4">
-              まとめ買いセットなら1足あたり4,026円〜（6足セット時・公式サイトにて2026年7月確認）で始められます。
+              まとめ買いセットなら1足あたり4,026円〜（6足セット時・楽天市場の公式店にて2026年11月13日確認）で始められます。
             </p>
             <Link
               href="/pitsole/price/"
