@@ -393,7 +393,7 @@ export default function PitsoleVsTentialPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            実際に使用した際の履き心地やフィット感について、複数の観点から比較します。
+            履き心地やフィット感について、公式サイトの仕様と公開レビューをもとに複数の観点から比較します（当サイトは商品を使用していません）。
           </p>
 
           <div className="space-y-4 mb-6">

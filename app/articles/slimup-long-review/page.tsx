@@ -6,7 +6,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "スリムアップインソール 長期レビュー検証｜3ヶ月使うとどうなる？",
   description:
-    "スリムアップインソールを3ヶ月使うとどうなる？公式情報と確認できる実レビューをもとに、1週目〜3ヶ月目に起こりやすい変化・耐久性・交換目安を編集部が検証。架空の体験談は掲載せず、期待できること・できないことを客観的に解説します。",
+    "スリムアップインソールを3ヶ月使うとどうなる？公式情報と確認できる実レビューをもとに、1週目〜3ヶ月目に起こりやすい変化・耐久性・交換目安を整理しました。当サイトは商品を使用しておらず、架空の体験談も掲載しません。期待できること・できないことを客観的に解説します。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/slimup-long-review/",
   },
@@ -144,7 +144,7 @@ export default function SlimupLongReviewPage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             美容整体師監修のスリムアップインソールを長期間使うと何が起こるのか。
             <br className="hidden md:block" />
-            公式情報と確認できる実レビューをもとに、期間別の変化の目安と確認ポイントを編集部が検証します。
+            公式情報と確認できる実レビューをもとに、期間別の変化の目安と確認ポイントを整理しました。当サイトは商品を使用していません。
           </p>
         </div>
       </section>
