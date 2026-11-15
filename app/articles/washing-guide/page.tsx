@@ -179,7 +179,7 @@ export default function WashingGuidePage() {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">EVA（エチレン酢酸ビニル）素材</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">ピットソールなどに使われることが多いEVA素材は、水洗いが可能です。ぬるま湯と中性洗剤で優しく手洗いし、自然乾燥させてください。ただし長時間水に浸けすぎると膨張する恐れがあるため、浸け置きは10分以内に留めてください。</p>
+              <p className="text-sm text-gray-700 leading-relaxed">EVA素材は一般に水洗いが可能です（ただしピットソールは公式ショップが水洗いを推奨していません。商品ごとの案内を優先してください）。ぬるま湯と中性洗剤で優しく手洗いし、自然乾燥させてください。ただし長時間水に浸けすぎると膨張する恐れがあるため、浸け置きは10分以内に留めてください。</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">ポリウレタン素材</h3>
@@ -380,7 +380,7 @@ export default function WashingGuidePage() {
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">主要3商品のお手入れポイント</p>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：EVA素材で水洗いOK。ぬるま湯と中性洗剤で手洗い。浸け置きは10分以内。</li>
+              <li><Link href="/pitsole/" className="text-[#8a6a4f] font-bold hover:underline">ピットソール</Link>：公式ショップの案内は「水洗いは推奨しておりません。固く絞った布で表面を拭き、風通しのよい場所で陰干ししてください。」（2026年11月15日確認）。乾燥機・直射日光での乾燥は変形の原因になると案内されています。</li>
               <li><Link href="/runway-cure-sole/" className="text-[#8a6a4f] font-bold hover:underline">ランウェイキュアソール</Link>：週1回のケアで清潔を維持。</li>
               <li><Link href="/slim-up-insole/" className="text-[#8a6a4f] font-bold hover:underline">スリムアップインソール</Link>：公式通販の案内は「汚れが酷い場合は、中性洗剤等で洗い、しっかりと水でゆすいだ後、影干ししてください。」「（頻繁な水洗いは推奨しておりません。）」（2026年11月2日確認）。</li>
             </ul>
