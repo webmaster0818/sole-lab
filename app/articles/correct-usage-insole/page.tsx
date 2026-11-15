@@ -70,6 +70,7 @@ export default function CorrectUsagePage() {
         <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 mb-10">
           <p className="font-bold text-[#8a6a4f] text-sm mb-2">この記事の結論</p>
           <p className="text-sm md:text-base text-gray-800 leading-relaxed">ダイエットインソールは、①靴に正しくフィットさせ、②かかと着地→蹴り出しの歩き方を意識し、③毎日続けることで効果が高まります。履くだけで痩せる魔法ではなく、正しい使い方と継続がカギです。</p>
+          <p className="text-sm text-gray-700 leading-relaxed mt-3">使い方より先に「そもそも効果はあるのか」を確かめたい方は、メーカーが公式サイトに掲載している臨床試験の内容と個人差について整理した<Link href="/articles/diet-mechanism/" className="text-[#8a6a4f] underline font-medium">ダイエットインソールの仕組みと効果の根拠</Link>をご覧ください。</p>
         </div>
 
         <section className="mb-12">
