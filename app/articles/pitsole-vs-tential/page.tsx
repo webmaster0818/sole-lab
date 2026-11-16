@@ -44,7 +44,7 @@ const faqStructuredData = {
       name: "ピットソールとTENTIALはどちらがダイエット向きですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ダイエット目的であればピットソールが適しています。世界特許取得の骨格アライメント理論に基づき、歩行時の筋肉活動量を増加させる設計で、臨床試験でもダイエット効果が確認されています。TENTIALは疲労軽減に特化した設計のため、長時間歩行の快適性を重視する方に向いています。",
+        text: "ダイエット目的であればピットソールが適しています。世界特許取得の骨格アライメント理論に基づき、歩行時の筋肉の使われ方に着目した設計です。TENTIALは疲労軽減に特化した設計のため、長時間歩行の快適性を重視する方に向いています。",
       },
     },
     {
@@ -225,7 +225,7 @@ export default function PitsoleVsTentialPage() {
             ピットソール（Pitsole）とは
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ピットソールは、BMZ社の世界特許「足の骨格アライメント理論」に基づいて開発されたインソールです。累計販売数200万足を突破し、臨床試験でダイエット効果が確認されている点が最大の特徴です。3点サポート構造により、内側縦アーチ・外側縦アーチ・横アーチをバランスよく支え、歩行時の重心移動を最適化します。
+            ピットソールは、BMZ社の世界特許「足の骨格アライメント理論」に基づいて開発されたインソールです。累計販売数200万足を突破しています（2025年4月時点）。3点サポート構造により、内側縦アーチ・外側縦アーチ・横アーチをバランスよく支え、歩行時の重心移動を最適化します。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
@@ -277,8 +277,8 @@ export default function PitsoleVsTentialPage() {
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-200 px-4 py-3 font-medium">サイズ展開</td>
-                  <td className="border border-gray-200 px-4 py-3">XS〜XL（21〜29cm・XLはブラック/ピンク限定）</td>
-                  <td className="border border-gray-200 px-4 py-3">S〜XL（22〜29cm）</td>
+                  <td className="border border-gray-200 px-4 py-3">XS〜L（21.0〜27.5cm）</td>
+                  <td className="border border-gray-200 px-4 py-3">S〜L（23.0〜27.5cm）</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-200 px-4 py-3 font-medium">主な技術</td>
@@ -300,11 +300,6 @@ export default function PitsoleVsTentialPage() {
                   <td className="border border-gray-200 px-4 py-3">あり（最大38%OFF）</td>
                   <td className="border border-gray-200 px-4 py-3">なし</td>
                 </tr>
-                <tr>
-                  <td className="border border-gray-200 px-4 py-3 font-medium">臨床データ</td>
-                  <td className="border border-gray-200 px-4 py-3">あり（ダイエット効果実証）</td>
-                  <td className="border border-gray-200 px-4 py-3">なし（自社テストのみ）</td>
-                </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-200 px-4 py-3 font-medium">累計販売数</td>
                   <td className="border border-gray-200 px-4 py-3">200万足以上</td>
@@ -316,7 +311,7 @@ export default function PitsoleVsTentialPage() {
 
           <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              スペック面では、ピットソールの方がまとめ買い割引や臨床データの面で優位です。一方TENTIALはサイズ展開が広く、大きめの足にも対応している点が強みです。
+              スペック面では、ピットソールの方がまとめ買い割引とサイズ展開の面で優位です。一方TENTIALはサイズ展開が広く、大きめの足にも対応している点が強みです。
             </p>
           </div>
         </section>
@@ -355,7 +350,7 @@ export default function PitsoleVsTentialPage() {
             ダイエット効果
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            ダイエット効果に関しては、ピットソールが圧倒的に優位です。公式サイトには「臨床試験で実証済み」として「82% 脚部骨格筋上昇」「87% 体重減少」が掲載されています（週5日以上・3か月装着した被験者39名に、フットスキャナと体組成計で経過観察を行った臨床試験の結果）。骨格アライメントを整えることで、歩行時に体幹部や下半身の筋肉が効率的に使われ、基礎代謝の向上と消費カロリーの増加につながります。
+            ダイエット効果に関しては、ピットソールが圧倒的に優位です。骨格アライメントを整えることで、歩行時に体幹部や下半身の筋肉が効率的に使われ、基礎代謝の向上と消費カロリーの増加につながります。
           </p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
             TENTIALにはダイエットを目的とした設計は含まれておらず、公式サイトでもダイエット効果を謳っていません。疲労軽減によって活動量が増え、結果としてカロリー消費が増える可能性はありますが、直接的なダイエット効果は期待できません。
@@ -555,7 +550,7 @@ export default function PitsoleVsTentialPage() {
                 <li>姿勢を改善して腰痛や膝痛を軽減したい</li>
                 <li>ランニングやウォーキングを習慣にしている</li>
                 <li>コスパ重視で長期的に使い続けたい</li>
-                <li>臨床データに裏打ちされた効果を求める</li>
+                <li>公式に確認できる根拠を重視する</li>
                 <li>骨盤矯正や体幹強化に興味がある</li>
               </ul>
               <div className="mt-4">
@@ -603,7 +598,7 @@ export default function PitsoleVsTentialPage() {
                 Q. ピットソールとTENTIALはどちらがダイエット向きですか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. ダイエット目的であればピットソールが適しています。世界特許取得の骨格アライメント理論に基づき、歩行時の筋肉活動量を増加させる設計で、臨床試験でもダイエット効果が確認されています。TENTIALは疲労軽減に特化した設計のため、長時間歩行の快適性を重視する方に向いています。
+                A. ダイエット目的であればピットソールが適しています。世界特許取得の骨格アライメント理論に基づき、歩行時の筋肉の使われ方に着目した設計です。TENTIALは疲労軽減に特化した設計のため、長時間歩行の快適性を重視する方に向いています。
               </p>
             </div>
 
@@ -660,7 +655,7 @@ export default function PitsoleVsTentialPage() {
               比較結果まとめ
             </h3>
             <ul className="text-sm text-gray-700 space-y-2">
-              <li><span className="font-bold">ダイエット効果：</span>ピットソールが圧倒的に優位（臨床データあり）</li>
+              <li><span className="font-bold">ダイエット効果：</span>ピットソールが優位（世界特許あり）</li>
               <li><span className="font-bold">衝撃吸収：</span>TENTIALがやや優位（高反発素材）</li>
               <li><span className="font-bold">姿勢改善：</span>ピットソールが優位（3点サポート構造）</li>
               <li><span className="font-bold">コスパ：</span>ピットソールが優位（まとめ買い割引あり）</li>

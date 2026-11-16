@@ -44,7 +44,7 @@ const faqStructuredData = {
       name: "100均インソールでもダイエット効果はありますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "100均インソールにダイエット効果を期待するのは難しくなります。100均インソールはクッション性の向上が主目的で、骨格アライメントの矯正や筋肉活性化といったダイエットに必要な機能は搭載されていません。ダイエット効果を求めるなら、臨床データのある高機能インソール（ピットソールなど）を選ぶことを推奨します。",
+        text: "100均インソールにダイエット効果を期待するのは難しくなります。100均インソールはクッション性の向上が主目的で、骨格アライメントの矯正や筋肉活性化といったダイエットに必要な機能は搭載されていません。ダイエット効果を求めるなら、世界特許のある高機能インソール（ピットソールなど）を選ぶことを推奨します。",
       },
     },
     {
@@ -496,7 +496,7 @@ export default function HyakkinVsProPage() {
             高機能インソールのダイエット効果
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            高機能インソールは、設計段階からダイエット効果を意図して開発されています。ピットソールは、公式サイトに臨床試験の結果（被験者39名・3か月）として「82% 脚部骨格筋上昇」「87% 体重減少」を掲載しています。
+            高機能インソールは、設計段階からダイエット効果を意図して開発されています。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
@@ -639,7 +639,7 @@ export default function HyakkinVsProPage() {
           </p>
 
           <ul className="text-sm md:text-base text-gray-700 space-y-2 mb-6 list-disc list-inside">
-            <li><span className="font-bold">ピットソール：</span>ダイエット効果を最重視。臨床データあり。まとめ買い割引でコスパも良い。<Link href="/pitsole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
+            <li><span className="font-bold">ピットソール：</span>ダイエット効果を最重視。世界特許あり。まとめ買い割引でコスパも良い。<Link href="/pitsole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
             <li><span className="font-bold">ランウェイキュアソール：</span>美姿勢サポートと3点アーチサポート設計。<Link href="/runway-cure-sole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
             <li><span className="font-bold">スリムアップインソール：</span>美容整体師監修。重心移動の最適化で自然に痩せる設計。<Link href="/slim-up-insole/" className="text-[#8a6a4f] hover:underline">詳細を見る</Link></li>
           </ul>
@@ -661,7 +661,7 @@ export default function HyakkinVsProPage() {
                 Q. 100均インソールでもダイエット効果はありますか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. 100均インソールにダイエット効果を期待するのは難しくなります。100均インソールはクッション性の向上が主目的で、骨格アライメントの矯正や筋肉活性化といったダイエットに必要な機能は搭載されていません。ダイエット効果を求めるなら、臨床データのある高機能インソール（ピットソールなど）を選ぶことを推奨します。
+                A. 100均インソールにダイエット効果を期待するのは難しくなります。100均インソールはクッション性の向上が主目的で、骨格アライメントの矯正や筋肉活性化といったダイエットに必要な機能は搭載されていません。ダイエット効果を求めるなら、世界特許のある高機能インソール（ピットソールなど）を選ぶことを推奨します。
               </p>
             </div>
 
@@ -722,7 +722,7 @@ export default function HyakkinVsProPage() {
               <li><span className="font-bold">クッション性：</span>高機能インソールは100均の約2倍の衝撃吸収率。</li>
               <li><span className="font-bold">アーチサポート：</span>100均は実質ゼロ。高機能は特許技術による本格的サポート。</li>
               <li><span className="font-bold">耐久性：</span>100均は2週間〜1ヶ月。高機能は商品ごとに異なる（ピットソール公式は3〜6か月）。</li>
-              <li><span className="font-bold">ダイエット効果：</span>100均はなし。高機能は臨床データで実証済み（ピットソール）。</li>
+              <li><span className="font-bold">ダイエット効果：</span>100均はなし。高機能は世界特許を取得（ピットソール）。</li>
               <li><span className="font-bold">年間コスト：</span>100均1,320円 vs 高機能12,000円。差額10,680円で大きな効果差。</li>
             </ul>
           </div>

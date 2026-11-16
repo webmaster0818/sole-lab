@@ -3,14 +3,14 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "ピットソールのサイズ選び｜XS〜XLの対応足長とカット調整の考え方",
+  title: "ピットソールのサイズ選び｜XS〜Lの対応足長とカット調整の考え方",
   description:
-    "ピットソールのXS〜XL 5サイズの公式の対応足長（2026年7月に公式サイトで確認）をもとに、サイズの選び方・境界にいる場合の考え方・カットラインでの調整方法・靴のタイプ別の注意点を整理しました。",
+    "ピットソールのXS〜Lの4サイズの公式の対応足長（2026年11月16日に公式サイトで確認）をもとに、サイズの選び方・境界にいる場合の考え方・カットラインでの調整方法・靴のタイプ別の注意点を整理しました。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
   },
   openGraph: { images: ["/og-default.png"],
-    title: "ピットソールのサイズ選び｜XS〜XLの対応足長とカット調整の考え方",
+    title: "ピットソールのサイズ選び｜XS〜Lの対応足長とカット調整の考え方",
     description:
       "ピットソールの公式の対応足長をもとに、サイズの選び方とカット調整の考え方を整理しました。",
     url: "https://sole-laboratory.com/articles/pitsole-all-sizes/",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
-  headline: "ピットソールのサイズ選び｜XS〜XLの対応足長とカット調整の考え方",
+  headline: "ピットソールのサイズ選び｜XS〜Lの対応足長とカット調整の考え方",
   description:
     "ピットソールの公式の対応足長をもとに、サイズの選び方とカット調整の考え方を整理します。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
@@ -218,7 +218,7 @@ export default function PitsoleAllSizesPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            ピットソールはXS〜XLの5サイズ展開で、21cm〜29cmまでの幅広い足サイズに対応しています（XLはブラック・ピンク限定、公式サイトにて2026年7月確認）。各サイズの公式の対応足長を一覧にしました。なお全長・幅・厚みといった寸法は公式サイトに掲載がないため、当サイトでは掲載していません（当サイトは商品を実測していません）。
+            ピットソールはXS〜Lの4サイズ展開で、21.0cm〜27.5cmの足サイズに対応しています（公式サイトにて2026年11月16日確認）。各サイズの公式の対応足長を一覧にしました。なお全長・幅・厚みといった寸法は公式サイトに掲載がないため、当サイトでは掲載していません（当サイトは商品を実測していません）。
           </p>
 
           <div className="overflow-x-auto mb-6">
@@ -250,13 +250,6 @@ export default function PitsoleAllSizesPage() {
                   <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">L</td>
                   <td className="border border-gray-200 px-4 py-3">26.5〜27.5cm</td>
                   <td className="border border-gray-200 px-4 py-3">26.5〜27.5cm</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-200 px-4 py-3 font-bold text-[#8a6a4f]">XL</td>
-                  <td className="border border-gray-200 px-4 py-3">28〜29cm</td>
-                  <td className="border border-gray-200 px-4 py-3">—</td>
-                  <td className="border border-gray-200 px-4 py-3">—</td>
-                  <td className="border border-gray-200 px-4 py-3">28.0〜29.0cm（ブラック・ピンク限定）</td>
                 </tr>
               </tbody>
             </table>
@@ -394,11 +387,11 @@ export default function PitsoleAllSizesPage() {
             このサイズを選ぶときの考え方
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            足長が26.5〜27.5cmの範囲ならこのサイズです。27.5cmを超える方は、ブラック・ピンク限定のXL（28〜29cm）が公式の対応範囲になります。
+            足長が26.5〜27.5cmの範囲ならこのサイズです。27.5cmを超える方は、ブラック・ピンク限定のが公式の対応範囲になります。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            Lサイズはメンズのスニーカー（26.5〜27.5cm）に最適です。ランニングシューズやウォーキングシューズとの相性は抜群で、かかと部分のフィット感が安定感をもたらします。なお28cm以上の方には、ブラック・ピンク限定でXLサイズ（28〜29cm）が公式に用意されています（2026年7月確認）。ピットソールのサイズ情報の詳細は<Link href="/pitsole/size/" className="text-[#8a6a4f] hover:underline">ピットソールサイズページ</Link>でも確認できます。
+            Lサイズはメンズのスニーカー（26.5〜27.5cm）に最適です。ランニングシューズやウォーキングシューズとの相性は抜群で、かかと部分のフィット感が安定感をもたらします。なお公式サイトの対応足長は最大27.5cm（Lサイズ）までです（2026年11月16日確認）。ピットソールのサイズ情報の詳細は<Link href="/pitsole/size/" className="text-[#8a6a4f] hover:underline">ピットソールサイズページ</Link>でも確認できます。
           </p>
         </section>
 
@@ -639,7 +632,7 @@ export default function PitsoleAllSizesPage() {
               <li><span className="font-bold">S（23〜24.5cm）：</span>標準的な女性向け。最も売れているサイズ。</li>
               <li><span className="font-bold">M（25〜26cm）：</span>大きめ女性・小さめ男性向け。男女兼用。</li>
               <li><span className="font-bold">L（26.5〜27.5cm）：</span>標準的な男性向け。スニーカーに最適。</li>
-              <li><span className="font-bold">XL（28〜29cm）：</span>ブラック・ピンク限定。28cm以上の方向け（公式対応範囲）。</li>
+              <li><span className="font-bold">：</span></li>
               <li><span className="font-bold">共通ルール：</span>迷ったら大きめを選び、カットラインで微調整。</li>
             </ul>
           </div>

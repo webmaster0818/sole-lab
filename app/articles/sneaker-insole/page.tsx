@@ -286,7 +286,7 @@ export default function SneakerInsolePage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界特許の3点サポートで普段歩きが快適に</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>XS〜XLの5サイズ展開（21〜29cm）・カット調整可能</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>XS〜Lの4サイズ展開（21.0〜27.5cm）・カット調整可能</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>まとめ買い割引で2足目以降がお得</span></li>
             </ul>
             <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
@@ -346,7 +346,7 @@ export default function SneakerInsolePage() {
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>薄型設計でどのスニーカーにも対応</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>ヒールカップで安定性が高い</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>耐久性に優れた長寿命設計</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>ヒールカップで安定性を高める設計</span></li>
             </ul>
           </div>
 
@@ -414,7 +414,7 @@ export default function SneakerInsolePage() {
             <div className="bg-white border border-gray-200 rounded-lg p-4">
               <h3 className="text-sm md:text-base font-bold text-gray-900 mb-2">通勤・通学（毎日の長時間歩行）</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                毎日の通勤・通学で長時間歩く方は、アーチサポートとクッション性のバランスが良いインソールを選ぶことをおすすめします。耐久性も重要で、毎日使っても3ヶ月以上は性能を維持する製品が理想的です。ピットソールやスリムアップインソールは耐久性にも定評があり、日常使いに最適です。
+                毎日の通勤・通学で長時間歩く方は、アーチサポートとクッション性のバランスが良いインソールを選ぶことをおすすめします。交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。
               </p>
             </div>
 

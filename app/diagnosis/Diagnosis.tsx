@@ -40,7 +40,7 @@ const PRODUCTS: Record<
 const RELATED: Record<Key, { href: string; label: string }[]> = {
   pitsole: [
     { href: "/pitsole/price/", label: "ピットソールの料金・セット構成（公式現行）" },
-    { href: "/pitsole/size/", label: "ピットソールのサイズ選び・XS〜XL全サイズ" },
+    { href: "/pitsole/size/", label: "ピットソールのサイズ選び・XS〜L全サイズ" },
   ],
   runway: [
     { href: "/articles/runway-size-guide/", label: "ランウェイのサイズ選び（M／L・22.5〜25.0cm）" },

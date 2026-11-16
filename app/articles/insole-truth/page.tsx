@@ -467,7 +467,7 @@ export default function InsoleTruthPage() {
                 href: "/pitsole/",
                 points: [
                   "世界特許取得のキュボイドサポート設計",
-                  "公式サイトに臨床試験の結果を掲載",
+                  "公式の記載範囲で確認",
                   "累計200万足突破（2025年4月時点）の販売実績",
                 ],
                 price: "6,578円（税込）〜",

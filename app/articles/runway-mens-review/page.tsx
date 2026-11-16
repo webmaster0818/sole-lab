@@ -67,7 +67,7 @@ const faqStructuredData = {
       name: "25cmを超える男性はどのインソールを選べばよいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "靴に入れる中敷き型のピットソールはXS/S/M/L/XLの5サイズ展開で、21.0〜29.0cmまで対応します（XLはブラック/ピンク限定・公式サイトにて2026年7月確認）。25cm超の男性はM以上が候補です。また、足の実寸が26.5cm以内であればスリムアップインソールのM（25.0〜26.5cm）も選択肢になります。",
+        text: "靴に入れる中敷き型のピットソールはXS/S/M/Lの4サイズ展開で、21.0〜27.5cmまで対応します（公式サイトにて2026年11月16日確認）。25cm超の男性はM以上が候補です。また、足の実寸が26.5cm以内であればスリムアップインソールのM（25.0〜26.5cm）も選択肢になります。",
       },
     },
     {
@@ -276,7 +276,7 @@ export default function RunwayMensReviewPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mb-6">
-            出典：ランウェイキュアソール公式サイト（2026年11月7日確認）。S・XLなどのサイズや、メンズ用モデルの案内はありません。
+            出典：ランウェイキュアソール公式サイト（2026年11月7日確認）。S などのサイズや、メンズ用モデルの案内はありません。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
@@ -353,10 +353,10 @@ export default function RunwayMensReviewPage() {
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            ピットソール：21.0〜29.0cmの5サイズ展開
+            ピットソール：21.0〜27.5cmの4サイズ展開
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            <Link href="/pitsole/" className="text-[#8a6a4f] hover:underline">ピットソール</Link>は靴に入れる中敷き型のインソールで、公式サイズ展開はXS/S/M/L/XLの5サイズ。男性の一般的な足サイズを含む広い範囲をカバーしています。
+            <Link href="/pitsole/" className="text-[#8a6a4f] hover:underline">ピットソール</Link>は靴に入れる中敷き型のインソールで、公式サイズ展開はXS/S/M/Lの4サイズ。男性の一般的な足サイズを含む広い範囲をカバーしています。
           </p>
 
           <div className="overflow-x-auto mb-4">
@@ -389,11 +389,6 @@ export default function RunwayMensReviewPage() {
                   <td className="border border-gray-200 px-4 py-3">26.5〜27.5</td>
                   <td className="border border-gray-200 px-4 py-3">—</td>
                 </tr>
-                <tr>
-                  <td className="border border-gray-200 px-4 py-3">XL</td>
-                  <td className="border border-gray-200 px-4 py-3">28.0〜29.0</td>
-                  <td className="border border-gray-200 px-4 py-3">カラーはブラック/ピンクのみ</td>
-                </tr>
               </tbody>
             </table>
           </div>
@@ -410,7 +405,7 @@ export default function RunwayMensReviewPage() {
 
           <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              足の実寸が26.5cmを超える男性の場合、当サイトで公式サイズを確認済みの3製品のうち対応するのは<span className="font-bold">ピットソール（L/XL）のみ</span>です。3製品の詳しい比較は<Link href="/compare/pitsole-vs-runway/" className="text-[#8a6a4f] hover:underline">ピットソール vs ランウェイキュアソール比較</Link>や<Link href="/ranking/" className="text-[#8a6a4f] hover:underline">おすすめランキングページ</Link>をご覧ください。
+              足の実寸が26.5cmを超える男性の場合、当サイトで公式サイズを確認済みの3製品のうち対応するのは<span className="font-bold">ピットソール（L）のみ</span>です。3製品の詳しい比較は<Link href="/compare/pitsole-vs-runway/" className="text-[#8a6a4f] hover:underline">ピットソール vs ランウェイキュアソール比較</Link>や<Link href="/ranking/" className="text-[#8a6a4f] hover:underline">おすすめランキングページ</Link>をご覧ください。
             </p>
           </div>
         </section>
@@ -449,13 +444,13 @@ export default function RunwayMensReviewPage() {
                   <td className="border border-gray-200 px-4 py-3">対応（M）</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-200 px-4 py-3 font-medium">26.5cm超〜29.0cm</td>
+                  <td className="border border-gray-200 px-4 py-3 font-medium">26.5〜27.5cm</td>
                   <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
-                  <td className="border border-gray-200 px-4 py-3">対応（L〜XL ※XLはブラック/ピンクのみ）</td>
+                  <td className="border border-gray-200 px-4 py-3">対応（L）</td>
                   <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-4 py-3 font-medium">29.0cm超</td>
+                  <td className="border border-gray-200 px-4 py-3 font-medium">27.5cm超</td>
                   <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
                   <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
                   <td className="border border-gray-200 px-4 py-3 text-red-600 font-medium">対応外</td>
@@ -552,7 +547,7 @@ export default function RunwayMensReviewPage() {
                 Q. 25cmを超える男性はどのインソールを選べばよいですか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. 靴に入れる中敷き型のピットソールはXS/S/M/L/XLの5サイズ展開で、21.0〜29.0cmまで対応します（XLはブラック/ピンク限定・公式サイトにて2026年7月確認）。25cm超の男性はM以上が候補です。また、足の実寸が26.5cm以内であればスリムアップインソールのM（25.0〜26.5cm）も選択肢になります。
+                A. 靴に入れる中敷き型のピットソールはXS/S/M/Lの4サイズ展開で、21.0〜27.5cmまで対応します（公式サイトにて2026年11月16日確認）。25cm超の男性はM以上が候補です。また、足の実寸が26.5cm以内であればスリムアップインソールのM（25.0〜26.5cm）も選択肢になります。
               </p>
             </div>
 
@@ -585,7 +580,7 @@ export default function RunwayMensReviewPage() {
               <li><span className="font-bold">サイズ展開：</span>M（22.5〜23.5cm）/L（24.0〜25.0cm）の女性向け2サイズのみ。メンズ用モデルはない。</li>
               <li><span className="font-bold">25cm超の男性：</span>対応外。公式サイトにカット等での調整の記載はない。</li>
               <li><span className="font-bold">実寸25.0cm以内の男性：</span>物理的には装着できるが、公式は女性向けとして案内しており男性向けの使用案内はない。</li>
-              <li><span className="font-bold">代替案：</span>ピットソール（5サイズ・21.0〜29.0cm、XLはブラック/ピンク限定）。実寸26.5cm以内ならスリムアップインソールMも選択肢。</li>
+              <li><span className="font-bold">代替案：</span>ピットソール（4サイズ・21.0〜27.5cm）。実寸26.5cm以内ならスリムアップインソールMも選択肢。</li>
               <li><span className="font-bold">価格：</span>ランウェイ単品6,980円/2足11,980円/3足17,960円。</li>
             </ul>
           </div>

@@ -52,7 +52,7 @@ const faqs = [
   {
     question: "男性向けのダイエットインソールでサイズが合わない場合はどうすればいいですか？",
     answer:
-      "ピットソールはXS〜XLの5サイズ展開で最大29cmまで対応しています（XLはブラック・ピンク限定。公式サイトにて2026年7月確認）。スリムアップインソールはS（23.0〜24.5cm）/M（25.0〜26.5cm）の2サイズで、28cm以上には対応していません。28cm以上の方はピットソールのXL（28〜29cm）が選択肢になります。なお、ランウェイキュアソールは22.5〜25.0cmの女性向けのため、男性には対応していません。",
+      "ピットソールはXS〜Lの4サイズ展開で最大27.5cmまで対応しています（公式サイトにて2026年11月16日確認）。スリムアップインソールはS（23.0〜24.5cm）/M（25.0〜26.5cm）の2サイズで、28cm以上には対応していません。28cm以上に対応するサイズは、当サイトで扱う3製品にはありません。なお、ランウェイキュアソールは22.5〜25.0cmの女性向けのため、男性には対応していません。",
   },
   {
     question: "男性がダイエットインソールで痩せるにはどのくらいかかりますか？",
@@ -218,15 +218,15 @@ export default function MensDietInsolePage() {
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-medium">ピットソール</td>
                     <td className="py-3 px-4 text-emerald-600 font-bold">&#10003; 対応</td>
-                    <td className="py-3 px-4 text-gray-700">XS〜XL（5サイズ）</td>
-                    <td className="py-3 px-4 text-gray-700">21.0〜29.0cm ※XLはブラック・ピンク限定</td>
+                    <td className="py-3 px-4 text-gray-700">XS〜L（4サイズ）</td>
+                    <td className="py-3 px-4 text-gray-700">21.0〜27.5cm </td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">◎</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 text-gray-900 font-medium">スリムアップインソール</td>
                     <td className="py-3 px-4 text-emerald-600 font-bold">&#10003; 対応</td>
                     <td className="py-3 px-4 text-gray-700">S・M（2サイズ）</td>
-                    <td className="py-3 px-4 text-gray-700">23.0〜26.5cm ※28cm以上は非対応</td>
+                    <td className="py-3 px-4 text-gray-700">23.0〜26.5cm</td>
                     <td className="py-3 px-4 text-[#c9a76c] font-bold">◎</td>
                   </tr>
                   <tr className="border-b border-gray-100">
@@ -271,7 +271,7 @@ export default function MensDietInsolePage() {
                 </span>
               </div>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                男性向けにも最もおすすめなのがピットソールです。世界特許取得の3つのアーチサポートに加え、公式サイトに臨床試験の結果（被験者39名・3か月）を掲載しています。XS〜XLの5サイズ展開で最大29cmまで対応しており（XLはブラック・ピンク限定、公式サイトにて2026年7月確認）、ビジネスシューズにもフィットします。
+                男性向けにも最もおすすめなのがピットソールです。世界特許取得の3つのアーチサポートが特徴です。XS〜Lの4サイズ展開で最大27.5cmまで対応しており（公式サイトにて2026年11月16日確認）、ビジネスシューズにもフィットします。
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4">
                 <div>
@@ -284,7 +284,7 @@ export default function MensDietInsolePage() {
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">サイズ</span>
-                  <span className="text-gray-900 font-medium">21.0〜29.0cm</span>
+                  <span className="text-gray-900 font-medium">21.0〜27.5cm</span>
                 </div>
                 <div>
                   <span className="text-gray-500 block text-xs">ビジネス靴</span>
@@ -471,7 +471,7 @@ export default function MensDietInsolePage() {
               },
               {
                 title: "サイズが大きい場合の対処法",
-                desc: "28cm以上の方はピットソールのXLサイズ（28.0〜29.0cm・ブラック/ピンク限定）が選択肢になります（公式サイトにて2026年7月確認）。スリムアップインソールは最大26.5cmのため28cm以上には対応していません。29cmを超える方は、大きめサイズに対応した市販インソールをご検討ください。",
+                desc: "ピットソールは最大27.5cm、スリムアップインソールは最大26.5cmのため、28cm以上には対応していません（公式サイトにて2026年11月16日確認）。28cm以上の方は、大きめサイズに対応した市販インソールをご検討ください。",
               },
             ].map((item) => (
               <div key={item.title} className="bg-white border border-gray-200 rounded-xl p-5">
@@ -506,12 +506,11 @@ export default function MensDietInsolePage() {
                 </thead>
                 <tbody>
                   {[
-                    { item: "科学的根拠", p: "◎ 世界特許+臨床データ", s: "○ 整体師監修" },
-                    { item: "サイズ対応", p: "◎ 29.0cmまで（XLは色限定）", s: "○ 26.5cmまで" },
+                    { item: "科学的根拠", p: "◎ 世界特許", s: "○ 整体師監修" },
+                    { item: "サイズ対応", p: "◎ 27.5cmまで（4サイズ）", s: "○ 26.5cmまで" },
                     { item: "ビジネス靴対応", p: "◎", s: "◎" },
                     { item: "コスパ（セット）", p: "○ 4,026円/足（6足セット）", s: "○ 4,480円/足" },
                     { item: "抗菌防臭", p: "○", s: "◎ 抗菌防臭加工" },
-                    { item: "耐久性", p: "○", s: "○" },
                     { item: "おすすめタイプ", p: "エビデンス・サイズ重視", s: "コスパ重視（26.5cmまで）" },
                   ].map((row) => (
                     <tr key={row.item} className="border-b border-gray-100">

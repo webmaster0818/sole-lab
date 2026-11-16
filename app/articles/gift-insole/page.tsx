@@ -31,7 +31,7 @@ const faqStructuredData = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "インソールをプレゼントする場合、サイズはどう選べば良いですか？", acceptedAnswer: { "@type": "Answer", text: "カットしてサイズ調整できるインソールを選ぶのがベストです。相手の靴のサイズがわかれば該当するサイズを、わからない場合は大きめのサイズを選んでおけば、相手自身でカット調整できます。ピットソールはXS〜XLの5サイズ展開（21〜29cm・XLはブラック/ピンク限定）で、カットラインも印刷されているためプレゼントに最適です。" } },
+    { "@type": "Question", name: "インソールをプレゼントする場合、サイズはどう選べば良いですか？", acceptedAnswer: { "@type": "Answer", text: "カットしてサイズ調整できるインソールを選ぶのがベストです。相手の靴のサイズがわかれば該当するサイズを、わからない場合は大きめのサイズを選んでおけば、相手自身でカット調整できます。ピットソールはXS〜Lの4サイズ展開（21.0〜27.5cm）で、カットラインも印刷されているためプレゼントに最適です。" } },
     { "@type": "Question", name: "インソールのプレゼントは失礼にあたりませんか？", acceptedAnswer: { "@type": "Answer", text: "健康や快適さへの気遣いとして贈れば、失礼にはあたりません。「足の疲れが気になると言っていたので」「健康のためにぜひ使ってみて」など、相手を思いやるメッセージを添えると好印象です。ただし、体型に関する指摘と受け取られないよう、ダイエット効果を前面に出すのは避けてください。" } },
     { "@type": "Question", name: "予算はどのくらいが適切ですか？", acceptedAnswer: { "@type": "Answer", text: "この記事で紹介している3商品は、公式価格で1足6,578〜6,980円（税込）です（ピットソール6,578円・ランウェイキュアソール6,980円・スリムアップインソール6,980円。各商品ページに記載の確認日時点）。ピットソールにはまとめ買いセットがあり、スリムアップインソールの公式通販にはセット販売の記載がありません。価格は変わることがあるため、購入前に公式ショップでご確認ください。" } },
     { "@type": "Question", name: "どんな方にインソールのプレゼントが喜ばれますか？", acceptedAnswer: { "@type": "Answer", text: "立ち仕事をしている方、よく歩く方、足腰の疲れを訴えている方、健康意識の高い方に特に喜ばれます。また、ゴルフや登山などのスポーツを趣味にしている方への贈り物としても最適です。40代以上の方は足のトラブルが増える年代のため、予防的なプレゼントとして好評です。" } },
@@ -151,7 +151,7 @@ export default function GiftInsolePage() {
           <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">プレゼントに最も適しているのがピットソールです。XS〜XLの5サイズ展開（21〜29cm、公式サイトにて2026年7月確認）のため、相手の性別を問わず贈れます。カットラインが印刷されており、もらった方が自分でサイズ調整できるのもギフトとして安心なポイント。まとめ買い割引を活用すれば、2足セットでお得に贈れます。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">プレゼントに最も適しているのがピットソールです。XS〜Lの4サイズ展開（21.0〜27.5cm、公式サイトにて2026年11月16日確認）のため、相手の性別を問わず贈れます。カットラインが印刷されており、もらった方が自分でサイズ調整できるのもギフトとして安心なポイント。まとめ買い割引を活用すれば、2足セットでお得に贈れます。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>男女兼用で誰にでも贈りやすい</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>カットライン付きでサイズ調整が簡単</span></li>
@@ -278,7 +278,7 @@ export default function GiftInsolePage() {
           <div className="space-y-4">
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールをプレゼントする場合、サイズはどう選べば良いですか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>
-              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">カットしてサイズ調整できるインソールを選ぶのがベストです。相手の靴のサイズがわかれば該当するサイズを、わからない場合は大きめのサイズを選んでおけば、相手自身でカット調整できます。ピットソールはXS〜XLの5サイズ展開（21〜29cm・XLはブラック/ピンク限定）で、カットラインも印刷されているためプレゼントに最適です。</div>
+              <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">カットしてサイズ調整できるインソールを選ぶのがベストです。相手の靴のサイズがわかれば該当するサイズを、わからない場合は大きめのサイズを選んでおけば、相手自身でカット調整できます。ピットソールはXS〜Lの4サイズ展開（21.0〜27.5cm）で、カットラインも印刷されているためプレゼントに最適です。</div>
             </details>
             <details className="group bg-white border border-gray-200 rounded-lg">
               <summary className="cursor-pointer p-4 text-sm md:text-base font-bold text-gray-900 flex items-center justify-between">インソールのプレゼントは失礼にあたりませんか？<span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span></summary>

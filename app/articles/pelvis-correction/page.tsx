@@ -56,7 +56,7 @@ const faqStructuredData = {
       name: "骨盤矯正インソールは男性でも使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、男女問わず使用できます。骨盤の歪みは性別に関係なく起こります。ピットソールはXS〜XLサイズ（21〜29cm・XLはブラック/ピンク限定）で、ビジネスシューズにも対応しています。",
+        text: "はい、男女問わず使用できます。骨盤の歪みは性別に関係なく起こります。ピットソールはXS〜Lサイズ（21.0〜27.5cm）で、ビジネスシューズにも対応しています。",
       },
     },
     {
@@ -377,7 +377,7 @@ export default function PelvisCorrectionPage() {
               <span className="text-[#8a6a4f] mr-2">3</span>特許技術・科学的根拠
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              骨盤矯正効果を裏付ける特許技術や臨床データがあるかは重要な判断基準です。特許は第三者機関が技術の新規性・有用性を認めた証拠であり、「なんとなく効きそう」な製品との差が明確に出るポイントです。
+              骨盤矯正をうたう根拠として特許技術があるかは重要な判断基準です。特許は第三者機関が技術の新規性・有用性を認めた証拠であり、「なんとなく効きそう」な製品との差が明確に出るポイントです。
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
@@ -393,7 +393,7 @@ export default function PelvisCorrectionPage() {
               <span className="text-[#8a6a4f] mr-2">5</span>サイズ展開の豊富さ
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              骨盤矯正インソールは足にフィットして初めて効果を発揮します。サイズが合わないと重心がずれ、逆効果になることも。XS〜XLなど細かいサイズ展開がある製品ほど、自分の足に合ったものを選べます。
+              骨盤矯正インソールは足にフィットして初めて効果を発揮します。サイズが合わないと重心がずれ、逆効果になることも。XS〜Lなど細かいサイズ展開がある製品ほど、自分の足に合ったものを選べます。
             </p>
           </div>
         </div>
@@ -424,7 +424,7 @@ export default function PelvisCorrectionPage() {
               </p>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>-- 世界特許取得のアーチサポート技術</li>
-                <li>-- サイズ展開：XS〜XL（21〜29cm・XLはブラック/ピンク限定）</li>
+                <li>-- サイズ展開：XS〜L（21.0〜27.5cm）</li>
                 <li>-- 3点アーチサポートで立ち方・歩き方を安定させる設計</li>
               </ul>
             </div>
@@ -624,7 +624,7 @@ export default function PelvisCorrectionPage() {
               Q. 骨盤矯正インソールは男性でも使えますか？
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              A. はい、男女問わず使用できます。骨盤の歪みは性別に関係なく起こり、特にデスクワーク中心の男性は骨盤の後傾が起きやすい傾向があります。ピットソールはXS〜XLサイズ（21〜29cm・XLはブラック/ピンク限定）で、ビジネスシューズやスニーカーなど幅広い靴に対応しています。
+              A. はい、男女問わず使用できます。骨盤の歪みは性別に関係なく起こり、特にデスクワーク中心の男性は骨盤の後傾が起きやすい傾向があります。ピットソールはXS〜Lサイズ（21.0〜27.5cm）で、ビジネスシューズやスニーカーなど幅広い靴に対応しています。
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">

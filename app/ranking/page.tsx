@@ -89,7 +89,7 @@ const faqStructuredData = {
       name: "男性でも使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ピットソール（XS〜XLの5サイズ、21〜29cm対応。XLはブラック・ピンク限定、公式サイトにて2026年7月確認）とスリムアップインソールは男女兼用です。ランウェイキュアソールはM（22.5〜23.5cm）とL（24〜25cm）の展開で、主に女性向けの設計となっています。",
+        text: "ピットソール（XS〜Lの4サイズ、21.0〜27.5cm対応。公式サイトにて2026年11月16日確認）とスリムアップインソールは男女兼用です。ランウェイキュアソールはM（22.5〜23.5cm）とL（24〜25cm）の展開で、主に女性向けの設計となっています。",
       },
     },
     {
@@ -474,7 +474,7 @@ export default function RankingPage() {
                     サイズ展開
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
-                    XS〜XL（21〜29cm）
+                    XS〜L（21.0〜27.5cm）
                   </td>
                   <td className="px-3 py-3 text-center text-gray-700">
                     M/L（22.5〜25cm）
@@ -564,7 +564,7 @@ export default function RankingPage() {
                       <span className="text-green-500 mt-0.5 shrink-0">
                         &#9675;
                       </span>
-                      サイズ展開が豊富（XS〜XLの5サイズ・21〜29cm）
+                      サイズ展開が豊富（XS〜Lの4サイズ・21.0〜27.5cm）
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-green-500 mt-0.5 shrink-0">
@@ -987,10 +987,10 @@ export default function RankingPage() {
                       ピットソール
                     </td>
                     <td className="px-3 py-2.5 text-center text-gray-700">
-                      XS / S / M / L / XL
+                      XS / S / M / L
                     </td>
                     <td className="px-3 py-2.5 text-center text-gray-700">
-                      21〜29cm（XLはブラック・ピンク限定）
+                      21.0〜27.5cm
                     </td>
                   </tr>
                   <tr className="bg-gray-50">
@@ -1019,9 +1019,9 @@ export default function RankingPage() {
               </table>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
-              サイズ展開ではピットソールが最も充実しており、XS〜XLの5サイズ・21〜29cm（XLはブラック・ピンク限定）と男女問わず対応できます（公式サイトにて2026年7月確認）。
+              サイズ展開ではピットソールが最も充実しており、XS〜Lの4サイズ・21.0〜27.5cmと男女問わず対応できます（公式サイトにて2026年7月確認）。
               ランウェイキュアソールはM（22.5〜23.5cm）とL（24〜25cm）の2サイズで、主に女性向けの展開です。
-              男性や足のサイズが大きい方はピットソール（最大29cm）が適しています。
+              男性や足のサイズが大きい方はピットソール（最大27.5cm）が適しています。
             </p>
           </div>
 
@@ -1210,7 +1210,7 @@ export default function RankingPage() {
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td>
-                <td className="px-4 py-3">XS〜XL（21〜29cm）の5サイズ ※XLはブラック・ピンク限定</td>
+                <td className="px-4 py-3">XS〜L（21.0〜27.5cm）の4サイズ </td>
                 <td className="px-4 py-3">M（22.5〜23.5cm）/ L（24.0〜25.0cm）</td>
                 <td className="px-4 py-3">S（23.0〜24.5cm）/ M（25.0〜26.5cm）</td>
               </tr>
@@ -1372,7 +1372,7 @@ export default function RankingPage() {
                 技術的な裏付けを確認する
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                特許技術の有無、専門家の監修、臨床データの有無など、技術的な裏付けがある商品は信頼性が高いと言えます。
+                特許技術の有無や専門家の監修など、確認できる裏付けがある商品は信頼性が高いと言えます。
                 ただし、特許があるから必ず効果があるというわけではない点にも注意が必要です。
               </p>
             </div>
@@ -1641,7 +1641,7 @@ export default function RankingPage() {
             },
             {
               q: "Q4. 男性でも使えますか？",
-              a: "ピットソール（XS〜XLの5サイズ、21〜29cm対応。XLはブラック・ピンク限定、公式サイトにて2026年7月確認）とスリムアップインソールは男女兼用です。ランウェイキュアソールはM（22.5〜23.5cm）とL（24〜25cm）の展開で、主に女性向けの設計となっています。",
+              a: "ピットソール（XS〜Lの4サイズ、21.0〜27.5cm対応。公式サイトにて2026年11月16日確認）とスリムアップインソールは男女兼用です。ランウェイキュアソールはM（22.5〜23.5cm）とL（24〜25cm）の展開で、主に女性向けの設計となっています。",
             },
             {
               q: "Q5. パンプスやヒールにも使えますか？",

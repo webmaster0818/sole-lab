@@ -492,7 +492,7 @@ export default function BunionInsolePage() {
                 ピットソール
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                アーチをサポートする設計で、足裏全体で荷重を受ける構造です。靴に入れて使う中敷きタイプのため、外反母趾のある方は<span className="font-medium">つま先・母趾球まわりが窮屈にならないか</span>を装着後に必ず確認してください。サイズはXS〜XLで足長に合わせて選びます。外反母趾を治すものではなく、歩行時のサポートが役割です。
+                アーチをサポートする設計で、足裏全体で荷重を受ける構造です。靴に入れて使う中敷きタイプのため、外反母趾のある方は<span className="font-medium">つま先・母趾球まわりが窮屈にならないか</span>を装着後に必ず確認してください。サイズはXS〜Lで足長に合わせて選びます。外反母趾を治すものではなく、歩行時のサポートが役割です。
               </p>
             </div>
             <div className="card">

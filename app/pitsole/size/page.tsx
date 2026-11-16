@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "ピットソールのサイズ選びガイド【失敗しない切り方も解説】｜ソールラボ",
   description:
-    "ピットソール(Pitsole)のサイズ選び・切り方を解説。XS〜XLの全サイズ一覧、靴別のフィッティング、正しいカット手順、サイズが合わない場合の交換方法まで。迷ったら大きめを選べば失敗しません。",
+    "ピットソール(Pitsole)のサイズ選び・切り方を解説。XS〜Lの全サイズ一覧、靴別のフィッティング、正しいカット手順、サイズが合わない場合の交換方法まで。迷ったら大きめを選べば失敗しません。",
   alternates: {
     canonical: "https://sole-laboratory.com/pitsole/size/",
   },
@@ -20,7 +20,7 @@ const structuredData = {
   headline:
     "ピットソールのサイズ選びガイド【失敗しない切り方も解説】",
   description:
-    "ピットソール(Pitsole)のサイズ選び・切り方を解説。XS〜XLの全サイズ一覧、靴別のフィッティング、正しいカット手順、サイズが合わない場合の交換方法まで。",
+    "ピットソール(Pitsole)のサイズ選び・切り方を解説。XS〜Lの全サイズ一覧、靴別のフィッティング、正しいカット手順、サイズが合わない場合の交換方法まで。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -40,7 +40,7 @@ const faqStructuredData = {
       name: "ピットソールのサイズはどう選べばいいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "普段履いている靴のサイズを基準に、XS（21〜22.5cm）・S（23〜24.5cm）・M（25〜26cm）・L（26.5〜27.5cm）・XL（28〜29cm）の5サイズから選びます。迷った場合は大きめのサイズを選び、カットして調整するのがおすすめです。",
+        text: "普段履いている靴のサイズを基準に、XS（21〜22.5cm）・S（23〜24.5cm）・M（25〜26cm）・L（26.5〜27.5cm）の4サイズから選びます。迷った場合は大きめのサイズを選び、カットして調整するのがおすすめです。",
       },
     },
     {
@@ -128,12 +128,6 @@ const sizeChart = [
     target: "メンズ（標準）",
     note: "男性に最も人気のサイズ",
   },
-  {
-    size: "XL",
-    cm: "28〜29cm",
-    target: "メンズ（大きめ）",
-    note: "足の大きい男性向け",
-  },
 ];
 
 const shoeTypeSizing = [
@@ -203,7 +197,7 @@ export default function PitsoleSizePage() {
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
             ピットソール（Pitsole）のサイズ選びで迷っていませんか？
-            この記事では、全5サイズの一覧から靴別のフィッティング、
+            この記事では、全4サイズの一覧から靴別のフィッティング、
             正しいカット手順、サイズが合わない場合の交換方法まで、
             サイズに関する疑問をすべて解決します。
           </p>
@@ -276,7 +270,7 @@ export default function PitsoleSizePage() {
           </h2>
 
           <p className="text-gray-700 text-sm leading-relaxed mb-6">
-            ピットソールは<strong>XS・S・M・L・XLの全5サイズ</strong>
+            ピットソールは<strong>XS・S・M・Lの全4サイズ</strong>
             で展開されています。
             自分の足のサイズに合ったものを選び、必要に応じてカットして微調整する仕組みです。
             まずは全サイズの対応表をご確認ください。
@@ -286,7 +280,7 @@ export default function PitsoleSizePage() {
           <h3
             className="text-lg font-bold text-gray-900 mb-4 pl-3 border-l-4 border-[#8a6a4f]"
           >
-            全サイズ一覧（XS〜XL）
+            全サイズ一覧（XS〜L）
           </h3>
 
           <div className="overflow-x-auto mb-8">
@@ -347,7 +341,7 @@ export default function PitsoleSizePage() {
 
           <p className="text-gray-700 text-sm leading-relaxed mb-4">
             ピットソールは男女兼用の商品です。
-            サイズ表記がXS〜XLと靴のcm表記と異なるため、
+            サイズ表記がXS〜Lと靴のcm表記と異なるため、
             以下のように覚えておくと便利です。
           </p>
 
@@ -398,7 +392,6 @@ export default function PitsoleSizePage() {
                   <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     ・
                   </span>
-                  28〜29cm → XL
                 </li>
               </ul>
             </div>
@@ -1377,7 +1370,7 @@ export default function PitsoleSizePage() {
               <div className="px-5 pb-5">
                 <p className="text-sm text-gray-700 leading-relaxed">
                   普段履いている靴のサイズを基準に、XS（21〜22.5cm）・S（23〜24.5cm）・
-                  M（25〜26cm）・L（26.5〜27.5cm）・XL（28〜29cm）の5サイズから選びます。
+                  M（25〜26cm）・L（26.5〜27.5cm）の4サイズから選びます。
                   迷った場合は大きめのサイズを選び、カットして調整するのがおすすめです。
                   靴の種類によってサイズ感が変わるため、
                   複数の靴で使用したい場合はそれぞれに合わせたサイズが理想です。
@@ -1490,7 +1483,7 @@ export default function PitsoleSizePage() {
                   1.
                 </span>
                 <span>
-                  全5サイズ展開（XS〜XL）。普段の靴サイズで選ぶ
+                  全4サイズ展開（XS〜L）。普段の靴サイズで選ぶ
                 </span>
               </li>
               <li className="flex items-start gap-2">

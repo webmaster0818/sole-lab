@@ -57,7 +57,7 @@ const faqs = [
   {
     question: "ランウェイキュアソールとピットソール、どちらが痩せやすいですか？",
     answer:
-      "ピットソールは世界特許技術と臨床試験データがあり、エビデンスの強さではピットソールが上です。一方、ランウェイキュアソールは3点アーチサポート設計です。痩せるかどうかは継続使用が最大のポイントのため、自分が続けやすい方を選ぶのがおすすめです。",
+      "ピットソールは世界特許技術とがあり、エビデンスの強さではピットソールが上です。一方、ランウェイキュアソールは3点アーチサポート設計です。痩せるかどうかは継続使用が最大のポイントのため、自分が続けやすい方を選ぶのがおすすめです。",
   },
   {
     question: "ランウェイキュアソールの口コミでステマが多い気がしますが、本当に効果はありますか？",
@@ -559,12 +559,6 @@ export default function RunwayNotWorkingPage() {
                       slimup: "整体師監修",
                     },
                     {
-                      item: "臨床データ",
-                      runway: "限定的",
-                      pitsole: "公式に臨床試験の結果を掲載",
-                      slimup: "なし",
-                    },
-                    {
                       item: "薄さ・履き心地",
                       runway: "3点アーチサポート",
                       pitsole: "やや硬め",
@@ -579,7 +573,7 @@ export default function RunwayNotWorkingPage() {
                     {
                       item: "サイズ展開",
                       runway: "M・Lの2サイズ",
-                      pitsole: "XS〜XLの5サイズ",
+                      pitsole: "XS〜Lの4サイズ",
                       slimup: "S・Mの2サイズ（〜26.5cm）",
                     },
                     {
@@ -703,7 +697,7 @@ export default function RunwayNotWorkingPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-[#c9a76c]">効果が出ないときに確認したいこと：</span>
-              公式サイトに掲載されている臨床試験（ピットソール）の条件は「週5日以上・3か月装着」です。インソールは歩くことで働く仕組みなので、<strong>使用期間が短い場合や、1日の歩行量が少ない場合は変化が分かりにくくなります</strong>。これは製品の品質とは別の問題です。なお、使用期間や歩行量ごとの結果を示した公表データは確認できていません。
+              インソールは歩くことで働く仕組みなので、<strong>使用期間が短い場合や、1日の歩行量が少ない場合は変化が分かりにくくなります</strong>。これは製品の品質とは別の問題です。なお、使用期間や歩行量ごとの結果を示した公表データは確認できていません。
             </p>
           </div>
         </div>

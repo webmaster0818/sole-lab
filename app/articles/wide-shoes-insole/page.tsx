@@ -130,14 +130,14 @@ export default function WideShoesPage() {
                 </tr>
               </thead>
               <tbody className="text-gray-700">
-                <tr><td className="p-3 border-b border-gray-200 font-medium">ピットソール</td><td className="p-3 border-b border-gray-200">XS〜XLの5サイズ・21〜29cm（XLはブラック/ピンク限定）</td><td className="p-3 border-b border-gray-200">サイズ幅が最も広く、大きめの足にも対応。カット調整可。しっかりしたアーチ構造のため薄すぎはしない</td></tr>
+                <tr><td className="p-3 border-b border-gray-200 font-medium">ピットソール</td><td className="p-3 border-b border-gray-200">XS〜Lの4サイズ・21.0〜27.5cm</td><td className="p-3 border-b border-gray-200">サイズ幅が最も広く、大きめの足にも対応。カット調整可。しっかりしたアーチ構造のため薄すぎはしない</td></tr>
                 <tr><td className="p-3 border-b border-gray-200 font-medium">ランウェイキュアソール</td><td className="p-3 border-b border-gray-200">M（22.5〜23.5cm）/ L（24.0〜25.0cm）の2サイズ・女性向け</td><td className="p-3 border-b border-gray-200">3点アーチサポート設計。靴の中敷きを増やさないため、幅広・甲高で靴内がきつい方にも干渉しにくい</td></tr>
                 <tr><td className="p-3 font-medium">スリムアップインソール</td><td className="p-3">S（23.0〜24.5cm）/ M（25.0〜26.5cm）の2サイズ</td><td className="p-3">EVA/PE素材でつま先側のカット調整が可能。厚みは控えめで靴内を圧迫しにくい</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-2">
-            足長が26.5cmを超える方はスリムアップ（最大26.5cm）・ランウェイ（最大25.0cm）は対応外となるため、<strong>最大29cmまで対応するピットソール</strong>が選択肢になります。自分に合う1足は<Link href="/diagnosis/" className="text-[#8a6a4f] underline font-medium">無料診断</Link>でも確認できます。
+            足長が26.5cmを超える方はスリムアップ（最大26.5cm）・ランウェイ（最大25.0cm）は対応外となるため、<strong>最大27.5cmまで対応するピットソール</strong>が選択肢になります。自分に合う1足は<Link href="/diagnosis/" className="text-[#8a6a4f] underline font-medium">無料診断</Link>でも確認できます。
           </p>
           <p className="text-xs text-gray-500">※サイズは足長基準の公式表記です。幅（ワイズ）は靴側で調整し、インソールは薄さ・カットで合わせるのが基本です。</p>
         </section>

@@ -213,7 +213,7 @@ export default function SizeAdjustmentPage() {
 
           <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm">
             <h3 className="text-base md:text-xl font-bold text-gray-900 mb-3">ピットソール（Pitsole）のカット方法</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">ピットソールの裏面にはサイズ別のカットラインが印刷されています。XS（21〜22.5cm）、S（23〜24.5cm）、M（25〜26cm）、L（26.5〜27.5cm）、XL（28〜29cm・ブラック/ピンク限定）の5サイズ展開（公式サイトにて2026年7月確認）で、それぞれの中でさらに0.5cm刻みのカットラインがあります。自分の足のサイズに合ったラインに沿ってカットするだけなので、初心者でも簡単にサイズ調整ができます。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">ピットソールの裏面にはサイズ別のカットラインが印刷されています。XS（21〜22.5cm）、S（23〜24.5cm）、M（25〜26cm）、L（26.5〜27.5cm）の4サイズ展開（公式サイトにて2026年11月16日確認）で、それぞれの中でさらに0.5cm刻みのカットラインがあります。自分の足のサイズに合ったラインに沿ってカットするだけなので、初心者でも簡単にサイズ調整ができます。</p>
             <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細を見る &rarr;</Link>
           </div>
 

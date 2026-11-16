@@ -88,7 +88,7 @@ const faqStructuredData = {
       name: "男性でも使えますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい。XS〜XLサイズ（21〜29cm）の5サイズ展開があり、男女兼用です。Lサイズ（26.5〜27.5cm）が標準的な男性サイズに対応し、XLサイズ（28〜29cm）はブラック・ピンクのカラーのみの展開です。",
+        text: "はい。XS〜Lサイズ（21.0〜27.5cm）の4サイズ展開があり、男女兼用です。Lサイズ（26.5〜27.5cm）が標準的な男性サイズに対応します。27.5cmを超えるサイズはありません。",
       },
     },
     {
@@ -173,7 +173,6 @@ const sizes = [
   { label: "S", range: "23〜24.5cm", note: "標準的な女性サイズ" },
   { label: "M", range: "25〜26cm", note: "大きめ女性・小さめ男性" },
   { label: "L", range: "26.5〜27.5cm", note: "標準的な男性サイズ" },
-  { label: "XL", range: "28〜29cm", note: "大きめの男性サイズ（ブラック・ピンクのみ）" },
 ];
 
 const faqs = [
@@ -205,7 +204,7 @@ const faqs = [
   {
     question: "男性でも使えますか？",
     answer:
-      "はい。XS〜XLサイズ（21〜29cm）の5サイズ展開があり、男女兼用です。Lサイズ（26.5〜27.5cm）が標準的な男性サイズに対応し、XLサイズ（28〜29cm）はブラック・ピンクのカラーのみの展開です。",
+      "はい。XS〜Lサイズ（21.0〜27.5cm）の4サイズ展開があり、男女兼用です。Lサイズ（26.5〜27.5cm）が標準的な男性サイズに対応します。27.5cmを超えるサイズはありません。",
   },
   {
     question: "洗えますか？お手入れ方法は？",
@@ -315,7 +314,7 @@ export default function PitsolePage() {
       <div className="max-w-4xl mx-auto px-4 mt-4">
         <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">この記事の結論</p>
-          <p>ピットソールは「履くだけで劇的に痩せる」商品ではありませんが、足裏アーチサポートによる姿勢改善・歩行効率の向上を通じて、ダイエットをサポートするインソールです。臨床試験では3ヶ月使用で39人中35人が体重減少という結果が報告されています。</p>
+          <p>ピットソールは「履くだけで劇的に痩せる」商品ではありませんが、足裏アーチサポートによる姿勢改善・歩行効率の向上を通じて、ダイエットをサポートするインソールです。</p>
         </div>
         <div className="text-center my-8">
           <OfficialCTA product="pitsole" />
@@ -614,7 +613,7 @@ export default function PitsolePage() {
                   <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
-                  サイズ展開が広く男女兼用（21〜29cm・5サイズ）
+                  サイズ展開が広く男女兼用（21.0〜27.5cm・4サイズ）
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#8a6a4f] mt-0.5 shrink-0">
@@ -956,7 +955,7 @@ export default function PitsolePage() {
           </p>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-6">
             <p>
-              100円ショップやワークマン・ホームセンターの店頭にも、アーチサポートをうたうインソールは数多く並んでいます。これらは偽物ではなく別商品ですが、<strong>ピットソールの特徴である臨床データに基づく設計や、正規ルート購入時のサポートは類似品には適用されません</strong>。「安いから」と類似品を選ぶ場合は、何を根拠にした製品なのかを確認してから判断するのがおすすめです。
+              100円ショップやワークマン・ホームセンターの店頭にも、アーチサポートをうたうインソールは数多く並んでいます。これらは偽物ではなく別商品ですが、<strong>ピットソールの特徴である世界特許に基づく設計や、正規ルート購入時のサポートは類似品には適用されません</strong>。「安いから」と類似品を選ぶ場合は、何を根拠にした製品なのかを確認してから判断するのがおすすめです。
             </p>
             <p>
               類似品・代替品を比較検討したい方は、次の記事で違いを整理しています。
@@ -1095,11 +1094,11 @@ export default function PitsolePage() {
           <table className="w-full text-sm">
             <tbody className="divide-y divide-gray-100 text-gray-600">
               <tr><td className="px-4 py-3 font-medium text-gray-900 w-40">販売元</td><td className="px-4 py-3">株式会社バッカス（株式会社セレスのグループ会社）</td></tr>
-              <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td><td className="px-4 py-3">XS（21〜22.5cm）/ S（23〜24.5cm）/ M（25〜26cm）/ L（26.5〜27.5cm）（公式ショップ 2026年11月15日確認）。楽天市場の公式店（BACCHUS ONLINE SHOP）では、ブラックの商品名に「XL」の表記あり（2026年11月15日確認）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ展開</td><td className="px-4 py-3">XS（21〜22.5cm）/ S（23〜24.5cm）/ M（25〜26cm）/ L（26.5〜27.5cm）（公式ショップ 2026年11月16日確認）。公式サイトには「全シリーズ共通の4サイズです」と記載されています（2026年11月16日確認）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">サイズ調整</td><td className="px-4 py-3">カット可（つま先の余分をペンでなぞりハサミで切る手順を公式が案内）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">素材</td><td className="px-4 py-3">公式表記なし</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">特許</td><td className="px-4 py-3">特許第4733957号（キュボイドバランス理論）・特許第5498631号・特許第6799881号</td></tr>
-              <tr><td className="px-4 py-3 font-medium text-gray-900">お手入れ</td><td className="px-4 py-3">「水洗いは推奨しておりません。固く絞った布で表面を拭き、風通しのよい場所で陰干ししてください。乾燥機・直射日光での乾燥は変形の原因になります。」（公式ショップ 2026年11月15日確認）</td></tr>
+              <tr><td className="px-4 py-3 font-medium text-gray-900">お手入れ</td><td className="px-4 py-3">「水洗いは推奨しておりません。固く絞った布で表面を拭き、風通しのよい場所で陰干ししてください。乾燥機・直射日光での乾燥は変形の原因になります。」（公式ショップ 2026年11月16日確認）</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">生産国</td><td className="px-4 py-3">中国</td></tr>
               <tr><td className="px-4 py-3 font-medium text-gray-900">偽造品対策</td><td className="px-4 py-3">Amazon Transparency（正規品認証プログラム）登録済み</td></tr>
             </tbody>

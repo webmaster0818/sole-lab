@@ -56,7 +56,7 @@ const faqStructuredData = {
       name: "男性が使うならどっちが良い？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "サイズ展開で比較すると、ピットソールはXS〜XL（21〜29cm・XLはブラック/ピンク限定）、スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズで最大26.5cmです（公式サイトにて2026年7月確認）。足が小さめの方や26.5cmを超える方はピットソールが選べます。",
+        text: "サイズ展開で比較すると、ピットソールはXS〜L（21.0〜27.5cm）、スリムアップインソールはS（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズで最大26.5cmです（公式サイトにて2026年7月確認）。足が小さめの方や26.5cmを超える方はピットソールが選べます。",
       },
     },
     {
@@ -97,7 +97,7 @@ const comparisonItems = [
   },
   {
     label: "サイズ展開",
-    pitsole: "XS〜XL（21〜29cm）",
+    pitsole: "XS〜L（21.0〜27.5cm）",
     slimup: "S・M（23.0〜26.5cm）",
     winner: "pitsole" as const,
   },
@@ -304,7 +304,7 @@ export default function PitsoleVsSlimupPage() {
                 </tr>
                 <tr className="border-b border-gray-100">
                   <td className="py-3 px-2 text-gray-600">サイズ</td>
-                  <td className="py-3 px-2 text-center text-gray-900">XS〜XL（21〜29cm・XL色限定）</td>
+                  <td className="py-3 px-2 text-center text-gray-900">XS〜L（21.0〜27.5cm）</td>
                   <td className="py-3 px-2 text-center text-gray-900">S・M（23.0〜26.5cm）</td>
                 </tr>
                 <tr className="border-b border-gray-100">

@@ -341,7 +341,7 @@ export default function RunningInsolePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
-                <span>XS〜XLの5サイズ展開（21〜29cm対応・公式サイトにて2026年7月確認）</span>
+                <span>XS〜Lの4サイズ展開（21.0〜27.5cm対応・公式サイトにて2026年7月確認）</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>

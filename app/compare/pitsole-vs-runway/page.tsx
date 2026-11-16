@@ -48,7 +48,7 @@ const faqStructuredData = {
       name: "男性が使うならどちらがおすすめですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "男性にはピットソール一択です。ランウェイキュアソールはM/Lサイズ（22.5〜25cm）の女性向け展開のみで、男性サイズに対応していません。ピットソールはXS〜XL（21〜29cm・XLはブラック/ピンク限定）です。",
+        text: "男性にはピットソール一択です。ランウェイキュアソールはM/Lサイズ（22.5〜25cm）の女性向け展開のみで、男性サイズに対応していません。ピットソールはXS〜L（21.0〜27.5cm）です。",
       },
     },
     {
@@ -87,7 +87,7 @@ const faqs = [
   {
     question: "男性が使うならどちらがおすすめですか？",
     answer:
-      "男性にはピットソール一択です。ランウェイキュアソールはM/Lサイズ（22.5〜25cm）の女性向け展開のみで、男性サイズに対応していません。ピットソールはXS〜XL（21〜29cm・XLはブラック/ピンク限定）です。",
+      "男性にはピットソール一択です。ランウェイキュアソールはM/Lサイズ（22.5〜25cm）の女性向け展開のみで、男性サイズに対応していません。ピットソールはXS〜L（21.0〜27.5cm）です。",
   },
   {
     question: "コスパが良いのはどちらですか？",
@@ -185,7 +185,7 @@ export default function PitsoleVsRunwayPage() {
                 </tr>
                 <tr className="bg-gray-50/50">
                   <td className="px-4 py-3 border border-gray-200 font-medium text-gray-700">サイズ展開</td>
-                  <td className="px-4 py-3 border border-gray-200 text-gray-600">XS/S/M/L/XL（21〜29cm・XL色限定）</td>
+                  <td className="px-4 py-3 border border-gray-200 text-gray-600">XS/S/M/L（21.0〜27.5cm）</td>
                   <td className="px-4 py-3 border border-gray-200 text-gray-600">M/L（22.5〜25cm）</td>
                 </tr>
                 <tr>
@@ -324,7 +324,7 @@ export default function PitsoleVsRunwayPage() {
                   <span className="text-gray-600">26.5〜27.5cm</span>
                 </div>
               </div>
-              <p className="text-xs text-gray-500 mt-3">5サイズ展開（21〜29cm）</p>
+              <p className="text-xs text-gray-500 mt-3">4サイズ展開（21.0〜27.5cm）</p>
             </div>
             <div className="card">
               <div className="h-1 rounded-full mb-4 bg-[#8a6a4f]" />
@@ -346,7 +346,7 @@ export default function PitsoleVsRunwayPage() {
           <div className="card">
             <h3 className="text-base font-bold text-gray-900 mb-3">サイズ対応力の判定</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              サイズ展開ではピットソールが圧倒的に有利です。XS〜XLの5サイズで21〜29cmをカバーします（XLはブラック/ピンク限定・公式サイトにて2026年7月確認）。
+              サイズ展開ではピットソールが圧倒的に有利です。XS〜Lの4サイズで21.0〜27.5cmをカバーします（公式サイトにて2026年11月16日確認）。
               足の小さい女性から標準的な男性サイズまで幅広く対応しているため、「自分のサイズがない」という心配がほとんどありません。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mt-3">
@@ -561,7 +561,7 @@ export default function PitsoleVsRunwayPage() {
                 },
                 {
                   title: "男性や足の大きい方",
-                  desc: "XS〜XL（21〜29cm）の5サイズ展開。ランウェイキュアソールでは対応できない25cm超の方は、ピットソール一択です。",
+                  desc: "XS〜L（21.0〜27.5cm）の4サイズ展開。ランウェイキュアソールでは対応できない25cm超の方は、ピットソール一択です。",
                 },
                 {
                   title: "口コミや実績を確認してから買いたい方",
@@ -651,7 +651,7 @@ export default function PitsoleVsRunwayPage() {
           <div className="card mb-6">
             <p className="text-sm text-gray-600 leading-relaxed">
               総合的に見ると、<span className="font-bold text-[#8a6a4f]">多くの方にはピットソールがおすすめ</span>です。
-              世界特許の技術力、XS〜XLの幅広いサイズ展開、累計200万足（2025年4月時点）の販売実績、楽天ランキング1位という圧倒的な実績は、初めてのダイエットインソール選びにおいて大きな安心材料になります。
+              世界特許の技術力、XS〜Lの幅広いサイズ展開、累計200万足（2025年4月時点）の販売実績、楽天ランキング1位という圧倒的な実績は、初めてのダイエットインソール選びにおいて大きな安心材料になります。
               男女兼用でサイズの心配が少なく、口コミも豊富なため、購入前に十分な情報を集めた上で判断できる点も強みです。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed mt-4">

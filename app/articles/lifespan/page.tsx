@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "インソールの寿命と交換時期｜何ヶ月で替えるべき？劣化サインも解説",
   description:
-    "インソールの交換目安は約3〜6か月（毎日使用で3〜4か月、週3〜4回で5〜6か月）。素材別の寿命、へたり・におい・すり減りなど劣化サイン5つ、交換を怠るリスクと長持ちさせるコツまで解説。ピットソールなど3商品の耐久性も比較します。",
+    "インソールの交換目安は約3〜6か月（毎日使用で3〜4か月、週3〜4回で5〜6か月）。素材別の寿命、へたり・におい・すり減りなど劣化サイン5つ、交換を怠るリスクと長持ちさせるコツまで解説。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/lifespan/",
   },
@@ -190,7 +190,7 @@ export default function LifespanPage() {
             </li>
             <li>
               <a href="#product-durability" className="hover:text-[#8a6a4f] transition-colors">
-                6. おすすめインソールの耐久性比較
+                6. 3商品の交換目安（公式の記載）
               </a>
             </li>
             <li>
@@ -543,7 +543,7 @@ export default function LifespanPage() {
         {/* Section 6 */}
         <section id="product-durability" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
-            おすすめインソールの耐久性比較
+            3商品の交換目安（公式の記載）
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">

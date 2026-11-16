@@ -93,7 +93,7 @@ export default function CommutePage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">通勤ウォーキングにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、いずれも日常の歩行をサポートする目的のインソールです。ピットソールはXS〜XL（21〜29cm）対応でカット調整でき、特許取得のアーチサポートで通勤靴に入れっぱなしの運用に向きます。ランウェイキュアソールはM／Lの2サイズ展開で、女性向けの対応サイズ（22.5〜25.0cm）です。スリムアップインソールはカットできるEVA/PE素材で手に取りやすい価格帯です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">当サイトで紹介する3製品は、いずれも日常の歩行をサポートする目的のインソールです。ピットソールはXS〜L（21.0〜27.5cm）対応でカット調整でき、特許取得のアーチサポートで通勤靴に入れっぱなしの運用に向きます。ランウェイキュアソールはM／Lの2サイズ展開で、女性向けの対応サイズ（22.5〜25.0cm）です。スリムアップインソールはカットできるEVA/PE素材で手に取りやすい価格帯です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

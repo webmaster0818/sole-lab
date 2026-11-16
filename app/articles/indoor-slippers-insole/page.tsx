@@ -93,7 +93,7 @@ export default function IndoorSlippersPage() {
 
         <section id="recommend" className="mb-12">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">室内・在宅ワークにおすすめのインソール3選</h2>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">室内で使う場合は、中敷きを入れ替えられるルームシューズを用意したうえで、そこに入れるインソールを選びます。カットで形を合わせられるピットソール（XS〜XL・特許取得のアーチサポート）やスリムアップインソール（EVA/PE素材）は、室内履きにも合わせやすいタイプです。ランウェイキュアソールはM／L（22.5〜25.0cm）の女性向け2サイズ展開です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">室内で使う場合は、中敷きを入れ替えられるルームシューズを用意したうえで、そこに入れるインソールを選びます。カットで形を合わせられるピットソール（XS〜L・特許取得のアーチサポート）やスリムアップインソール（EVA/PE素材）は、室内履きにも合わせやすいタイプです。ランウェイキュアソールはM／L（22.5〜25.0cm）の女性向け2サイズ展開です。 詳しい比較は<Link href="/ranking/" className="text-[#8a6a4f] underline font-medium">おすすめランキング</Link>もご覧ください。</p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl">
               <thead>

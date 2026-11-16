@@ -57,7 +57,7 @@ const faqs = [
   {
     question: "男性でもランウェイキュアソールを使えますか？",
     answer:
-      "M（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向けサイズ展開のため、男性にはサイズが合わない場合が多く見られます。男性には、XS〜XLの5サイズで21〜29cmに対応するピットソール（XLはブラック/ピンク限定）が選択肢になります。",
+      "M（22.5〜23.5cm）とL（24.0〜25.0cm）の女性向けサイズ展開のため、男性にはサイズが合わない場合が多く見られます。男性には、XS〜Lの4サイズで21.0〜27.5cmに対応するピットソールが選択肢になります。",
   },
   {
     question: "ランウェイキュアソールは外反母趾でも使えますか？",
@@ -310,7 +310,7 @@ export default function RunwaySizeGuidePage() {
 
           <div className="card mb-6">
             <h3 className="text-base font-bold text-gray-900 mb-3">
-              ピットソール（中敷きタイプ・XS〜XLの5サイズ）
+              ピットソール（中敷きタイプ・XS〜Lの4サイズ）
             </h3>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
@@ -333,11 +333,6 @@ export default function RunwaySizeGuidePage() {
                     { size: "S", cm: "23〜24.5", note: "-" },
                     { size: "M", cm: "25〜26", note: "-" },
                     { size: "L", cm: "26.5〜27.5", note: "-" },
-                    {
-                      size: "XL",
-                      cm: "28〜29",
-                      note: "ブラック/ピンク限定",
-                    },
                   ].map((row) => (
                     <tr key={row.size} className="border-b border-gray-100">
                       <td className="py-3 text-gray-900 font-bold">
@@ -351,7 +346,7 @@ export default function RunwaySizeGuidePage() {
               </table>
             </div>
             <p className="text-xs text-gray-500 mt-4">
-              ※ 21〜29cmに対応するXS〜XLの5サイズ展開。男性や25.0cm超の方の選択肢になります。
+              ※ 21.0〜27.5cmに対応するXS〜Lの4サイズ展開。男性や25.0cm超の方の選択肢になります。
             </p>
           </div>
 
@@ -410,7 +405,7 @@ export default function RunwaySizeGuidePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] shrink-0 mt-0.5">&#10003;</span>
-                男性 → ランウェイキュアソールはサイズ非対応が多く、ピットソール（最大29cm）が候補
+                男性 → ランウェイキュアソールはサイズ非対応が多く、ピットソール（最大27.5cm）が候補
               </li>
             </ul>
           </div>
@@ -557,7 +552,7 @@ export default function RunwaySizeGuidePage() {
               23.5〜24.0cmの境目にあたる方は、購入前に公式サイトのサイズ案内を確認してください。公式FAQでは23.5cmの方にはMが案内されており、迷った場合は大きめを選ぶ・3足以上のセットでM/Lを混ぜて注文できる場合がある、といった案内もあります。
             </p>
             <p>
-              22.5cm未満・25.0cm超の方や男性は対応外となる場合が多いため、ピットソール（XS〜XL・21〜29cm）やスリムアップインソール（S/M・最大26.5cm）など、中敷きタイプの製品を検討するのが現実的です。仕様・価格・保証条件は変更される場合があるため、購入前に必ず公式サイトの最新情報をご確認ください。
+              22.5cm未満・25.0cm超の方や男性は対応外となる場合が多いため、ピットソール（XS〜L・21.0〜27.5cm）やスリムアップインソール（S/M・最大26.5cm）など、中敷きタイプの製品を検討するのが現実的です。仕様・価格・保証条件は変更される場合があるため、購入前に必ず公式サイトの最新情報をご確認ください。
             </p>
           </div>
 

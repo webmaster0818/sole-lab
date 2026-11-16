@@ -335,7 +335,7 @@ export default function PostureCorrectionPage() {
               <span className="text-[#8a6a4f] mr-2">5</span>エビデンスと実績
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              特許技術の有無、臨床データ、専門家の監修など、科学的な裏付けがある商品を選ぶことをおすすめします。「姿勢矯正」を謳うインソールは多いですが、根拠のあるものとそうでないものでは効果に大きな差があります。
+              特許技術の有無や専門家の監修など、確認できる裏付けがある商品を選ぶことをおすすめします。「姿勢矯正」を謳うインソールは多いですが、根拠のあるものとそうでないものでは効果に大きな差があります。
             </p>
           </div>
         </div>
@@ -369,7 +369,7 @@ export default function PostureCorrectionPage() {
               </p>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>-- 世界特許取得のアーチサポート技術</li>
-                <li>-- サイズ展開：XS〜XL（21〜29cm・XLはブラック/ピンク限定）</li>
+                <li>-- サイズ展開：XS〜L（21.0〜27.5cm）</li>
                 <li>-- 3点アーチサポートで立ち方・歩き方を安定させる設計</li>
               </ul>
             </div>

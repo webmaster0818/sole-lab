@@ -177,11 +177,11 @@ export default function PlantarFasciitisPage() {
           <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">足底筋膜炎ケアに</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">ピットソール（Pitsole）</h3>
-            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">世界特許の3点サポート構造が内側縦アーチを適切に支え、足底筋膜への過度な牽引力を軽減します。足底筋膜炎の根本原因であるアーチの崩れを包括的にケアし、痛みの軽減と再発予防の両方に貢献。耐久性の高い素材で長期間のケアに適しています。</p>
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">世界特許の3点サポート構造が内側縦アーチを適切に支え、足底筋膜への過度な牽引力を軽減します。足底筋膜炎の根本原因であるアーチの崩れを包括的にケアし、痛みの軽減と再発予防の両方に役立つ設計です。</p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点サポートで足底筋膜への牽引力を効果的に軽減</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>アーチ崩れの根本原因にアプローチ</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>高耐久素材で長期間の継続ケアが可能</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点サポートでアーチを支える設計</span></li>
             </ul>
             <Link href="/pitsole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ピットソールの詳細レビューを見る &rarr;</Link>
           </div>
