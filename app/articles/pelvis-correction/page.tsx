@@ -6,9 +6,9 @@ import MedicalDisclaimer from "../../components/MedicalDisclaimer";
 
 export const metadata: Metadata = {
   title:
-    "骨盤矯正インソールの効果を科学的に解説｜ソールラボ",
+    "骨盤矯正インソールの考え方と選び方｜効果の出典の有無も確認｜ソールラボ",
   description:
-    "骨盤の歪みは腰痛・冷え・下半身太りの原因に。骨盤矯正インソールの効果・仕組み・選び方を科学的根拠とともに解説。おすすめ3選や日常でできる骨盤ケア習慣まで網羅したガイド。",
+    "骨盤矯正をうたうインソールの考え方と選び方を整理。3商品の公式情報と、効果を示す出典が確認できていない点、日常でできる骨盤ケアの習慣をまとめました。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/pelvis-correction/",
   },
@@ -18,9 +18,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "骨盤矯正インソールの効果を科学的に解説",
+    "骨盤矯正インソールの考え方と選び方",
   description:
-    "骨盤の歪みの原因とインソールによる矯正メカニズムを科学的に解説。選び方・おすすめ商品・効果を高める習慣まで網羅。",
+    "骨盤の歪みの原因、インソールの考え方と選び方、3商品の公式情報、日常の習慣を整理。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -28,7 +28,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-04-08",
+  dateModified: "2026-11-17",
 };
 
 const faqStructuredData = {
@@ -40,7 +40,7 @@ const faqStructuredData = {
       name: "骨盤矯正インソールはどのくらいで効果を感じますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "個人差がありますが、歩行時の安定感は1〜2週間で実感する方が多く見られます。骨盤まわりの変化を感じるには2〜3ヶ月の継続使用が目安です。毎日の使用とストレッチの併用が効果を早めます。",
+        text: "感じ方や期間を示す公的なデータは見当たらず、当サイトも商品を使用していないため、期間の目安はお示しできません。メーカーの公式情報で確認できるのは、各商品の設計（アーチサポートの構造）やサイズまでです。",
       },
     },
     {
@@ -48,7 +48,7 @@ const faqStructuredData = {
       name: "インソールだけで骨盤の歪みは治りますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "インソール単体で完全に骨盤の歪みを治すことは難しいですが、足元のバランスを整えることで骨盤が正しい位置に戻りやすくなります。ストレッチや筋トレと併用することで、より高い矯正効果が期待できます。",
+        text: "インソールで骨盤の歪みが治ることを示す出典は確認できていません。痛みや違和感が続く場合は、整形外科などの医療機関に相談してください。",
       },
     },
     {
@@ -64,7 +64,7 @@ const faqStructuredData = {
       name: "骨盤矯正ベルトとインソールはどちらが効果的ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "骨盤矯正ベルトは装着中のみ骨盤を固定するのに対し、インソールは足元から自然に骨盤の位置を整えます。ベルトは筋力低下を招く恐れがありますが、インソールは体幹筋肉を活性化させるため、長期的な改善にはインソールが適しています。",
+        text: "骨盤ベルトは骨盤まわりに巻いて使う製品、インソールは靴の中に敷いて使う製品で、使い方が異なります。どちらが効果的かを比べた出典は確認できていないため、当サイトでは優劣を付けていません。",
       },
     },
     {
@@ -72,7 +72,7 @@ const faqStructuredData = {
       name: "産後の骨盤矯正にもインソールは有効ですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "産後の骨盤ケアにもインソールは有効です。出産で緩んだ骨盤周りの靭帯が戻る産後6ヶ月までの期間は、特にインソールによる足元からのサポートが効果的です。ただし、産後1ヶ月は安静が優先なので、医師に相談のうえ使用を開始してください。",
+        text: "産後の骨盤ケアにインソールが有効であることを示す出典は確認できていません。産後の体の状態には個人差があるため、使い始める前に医師に相談してください。",
       },
     },
   ],
@@ -104,14 +104,14 @@ export default function PelvisCorrectionPage() {
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             骨盤矯正
             <br className="md:hidden" />
-            <span className="text-[#8a6a4f]">インソール</span>の効果を
+            <span className="text-[#8a6a4f]">インソール</span>の
             <br className="md:hidden" />
-            科学的に解説
+            考え方と選び方
           </h1>
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             腰痛・冷え・下半身太り……その不調、骨盤の歪みが原因かもしれません。
             <br className="hidden md:block" />
-            骨盤矯正インソールの仕組みから選び方、効果を高める習慣まで解説します。
+            インソールの考え方と選び方、日常の習慣を整理します（効果を示す出典は確認できていません）。
           </p>
         </div>
       </section>
@@ -167,7 +167,7 @@ export default function PelvisCorrectionPage() {
             </li>
             <li>
               <a href="#habits" className="hover:text-[#8a6a4f] transition-colors">
-                6. 骨盤矯正の効果を高める習慣
+                6. 日常でできる骨盤ケアの習慣
               </a>
             </li>
             <li>
@@ -315,7 +315,7 @@ export default function PelvisCorrectionPage() {
             </div>
             <h3 className="font-bold text-gray-900 text-sm mb-2">下肢アライメントの改善</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
-              足裏が安定すると膝の内側への倒れ込み（ニーイン）が改善され、股関節が正しい角度に戻ります。下肢のアライメント（骨の配列）が整うことで、骨盤が自然とニュートラルポジションに導かれます。
+              足裏を支えることで、膝や股関節を含む下肢のアライメント（骨の配列）にも目を向ける、という考え方です。
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
@@ -330,18 +330,18 @@ export default function PelvisCorrectionPage() {
         </div>
 
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-          骨盤矯正ベルトやガードルは外部から骨盤を固定する「受動的」なアプローチですが、インソールは筋肉を活性化させて骨盤を安定させる「能動的」なアプローチです。ベルトは外すと元に戻りやすいのに対し、インソールは使い続けることで筋力がつき、根本的な改善が期待できます。
+          骨盤ベルトやガードルは骨盤まわりに着けて使う製品、インソールは靴の中に敷いて足裏を支える製品で、使い方が異なります。
         </p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
           <p className="text-sm font-bold text-gray-900 mb-2">科学的な裏付け</p>
           <p className="text-sm text-gray-700 leading-relaxed">
-            足裏のアーチサポートが骨盤の傾斜角度に影響を与えることは、スポーツ医学やリハビリテーション分野の研究で報告されています。特に<strong>足裏の立方骨を適切にサポートする設計</strong>は、骨盤の前傾・後傾を改善し、体幹の安定性を高めることが示されています。特許技術を持つ製品は、この点に科学的な根拠があります。
+            なお、インソールで骨盤の傾きが変わることを示す研究について、当サイトでは出典を確認できていません。この節の内容は一般的な考え方の説明で、効果を保証するものではありません。
           </p>
         </div>
 
         <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-          使い始めの1〜2週間は足裏に軽い違和感を覚えることがあります。これは今まで使われていなかった筋肉が目覚めている証拠です。最初は1日2〜3時間の使用から始め、徐々に時間を延ばしていくのがおすすめです。
+          使い始めに違和感がある場合は、短い時間から試し、痛みが続くときは使用を中止してください。
         </p>
       </section>
 
@@ -352,7 +352,7 @@ export default function PelvisCorrectionPage() {
         </h2>
 
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-          「骨盤矯正」を謳うインソールは多数ありますが、効果に差があるのも事実です。以下の5つのポイントを基準に、本当に骨盤矯正効果が期待できる製品を選ぶことをおすすめします。
+          「骨盤矯正」をうたうインソールは多数あります。比べるときは、以下の5つのポイントを公式の商品説明で確認してください。
         </p>
 
         <div className="space-y-4 mb-6">
@@ -361,7 +361,7 @@ export default function PelvisCorrectionPage() {
               <span className="text-[#8a6a4f] mr-2">1</span>3点アーチサポート構造
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              骨盤矯正に最も重要なのが、内側縦アーチ・外側縦アーチ・横アーチの3つを同時にサポートする構造です。1つのアーチだけをサポートしても効果は限定的。3点を適切に支えることで足裏全体のバランスが整い、骨盤への矯正力が生まれます。
+              骨盤矯正に最も重要なのが、内側縦アーチ・外側縦アーチ・横アーチの3つを同時にサポートする構造です。どのアーチを支える設計かは商品ごとに異なるため、公式の商品説明で確認してください。
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
@@ -369,7 +369,7 @@ export default function PelvisCorrectionPage() {
               <span className="text-[#8a6a4f] mr-2">2</span>ヒールカップの深さ
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              かかとは身体の重心の起点です。深いヒールカップでかかとを包み込むことで足全体の安定性が増し、骨盤矯正効果が高まります。平らなインソールではかかとが横ブレを起こし、アーチサポートの効果も半減してしまいます。
+              かかとは身体の重心の起点です。かかとを包む形状（ヒールカップ）があるかどうかも、商品を比べるときの確認項目の一つです。
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
@@ -406,7 +406,7 @@ export default function PelvisCorrectionPage() {
         </h2>
 
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-          当サイトで取り扱っている3商品を、骨盤矯正の観点から比較・解説します。いずれも足裏アーチを整える設計で骨盤矯正効果が期待できますが、技術的な裏付けや設計思想に違いがあります。
+          当サイトで取り扱っている3商品を、骨盤矯正の観点から比較・解説します。内容は各商品の公式サイトで確認できた範囲です。骨盤への効果を示す出典は、いずれの商品についても確認できていません。
         </p>
 
         {/* ピットソール */}
@@ -420,7 +420,7 @@ export default function PelvisCorrectionPage() {
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <div>
               <p className="text-sm text-gray-700 leading-relaxed mb-3">
-                BMZ社の<strong>世界特許技術</strong>を搭載した高機能インソール。足裏の立方骨（キュボイド）を的確にサポートすることで、骨格レベルから骨盤の位置を矯正します。累計200万足（2025年4月時点）の販売実績が効果の証明です。
+                BMZ社の<strong>世界特許技術</strong>を搭載した高機能インソール。累計販売数は200万足（2025年4月時点・販売元グループのプレスリリース）です。
               </p>
               <ul className="space-y-1 text-sm text-gray-600">
                 <li>-- 世界特許取得のアーチサポート技術</li>
@@ -545,11 +545,11 @@ export default function PelvisCorrectionPage() {
       {/* 骨盤矯正の効果を高める習慣 */}
       <section id="habits" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
-          骨盤矯正の効果を高める習慣
+          日常でできる骨盤ケアの習慣
         </h2>
 
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-          インソールによる足元からの骨盤矯正に加えて、日常生活に以下の習慣を取り入れることで効果を大幅にアップできます。取り入れやすいものから始めてみてください。
+          インソールとは別に、日常生活で意識しやすい習慣をまとめました。取り入れやすいものから始めてみてください。
         </p>
 
         <div className="space-y-4">
@@ -566,7 +566,7 @@ export default function PelvisCorrectionPage() {
               体幹・骨盤底筋トレーニング
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              骨盤を正しい位置にキープするための筋力を養ってください。ヒップリフト（仰向けでお尻を持ち上げる）を15回3セット、プランク30〜60秒を毎日続けるだけで骨盤の安定性が大きく改善します。特に骨盤底筋群のトレーニングは、骨盤を下から支える力を強化するため非常に効果的です。
+              骨盤を正しい位置にキープするための筋力を養ってください。ヒップリフト（仰向けでお尻を持ち上げる）やプランクなどが一般的です。持病や痛みがある場合は、医師や専門家に相談のうえ行ってください。
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5">
@@ -608,7 +608,7 @@ export default function PelvisCorrectionPage() {
               Q. 骨盤矯正インソールはどのくらいで効果を感じますか？
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              A. 個人差がありますが、歩行時の安定感や腰の軽さは1〜2週間で実感する方が多く見られます。骨盤まわりのシルエット変化を感じるには2〜3ヶ月の継続使用が目安です。最初の1週間は1日2〜3時間から始め、徐々に使用時間を延ばしていくのがおすすめです。ストレッチや筋トレとの併用で効果が早まります。
+              A. 感じ方や期間を示す公的なデータは見当たらず、当サイトも商品を使用していないため、期間の目安はお示しできません。メーカーの公式情報で確認できるのは、各商品の設計（アーチサポートの構造）やサイズまでです。
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
@@ -616,7 +616,7 @@ export default function PelvisCorrectionPage() {
               Q. インソールだけで骨盤の歪みは治りますか？
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              A. インソール単体で完全に骨盤の歪みを治すことは難しいですが、足元のバランスを整えることで骨盤が正しい位置に戻りやすくなります。骨盤矯正の「土台づくり」としてインソールは非常に有効です。ストレッチや筋トレと併用することで、より高い矯正効果が期待できます。
+              A. インソールで骨盤の歪みが治ることを示す出典は確認できていません。痛みや違和感が続く場合は、整形外科などの医療機関に相談してください。
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
@@ -632,7 +632,7 @@ export default function PelvisCorrectionPage() {
               Q. 骨盤矯正ベルトとインソールはどちらが効果的ですか？
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              A. アプローチが異なります。骨盤矯正ベルトは装着中のみ骨盤を外部から固定する「受動的」な矯正です。一方、インソールは足元から自然に骨盤の位置を整え、体幹筋肉を活性化させる「能動的」な矯正です。長期的な骨盤改善にはインソールの方が適しており、ベルトとの併用も効果的です。
+              A. 骨盤ベルトは骨盤まわりに巻いて使う製品、インソールは靴の中に敷いて使う製品で、使い方が異なります。どちらが効果的かを比べた出典は確認できていないため、当サイトでは優劣を付けていません。
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
@@ -640,7 +640,7 @@ export default function PelvisCorrectionPage() {
               Q. 産後の骨盤矯正にもインソールは有効ですか？
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              A. 産後の骨盤ケアにもインソールは有効です。出産で緩んだ骨盤周りの靭帯が戻る産後6ヶ月までの期間は、特にインソールによる足元からのサポートが効果的です。赤ちゃんの抱っこで崩れがちな姿勢もインソールが支えてくれます。ただし、産後1ヶ月は安静が優先ですので、医師に相談のうえ使用を開始してください。
+              A. 産後の骨盤ケアにインソールが有効であることを示す出典は確認できていません。産後の体の状態には個人差があるため、使い始める前に医師に相談してください。
             </p>
           </div>
         </div>
@@ -653,7 +653,7 @@ export default function PelvisCorrectionPage() {
         </h2>
 
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-          骨盤の歪みは腰痛・冷え・下半身太りなど、さまざまな不調の根本原因となります。この記事では、骨盤の歪みの原因から骨盤矯正インソールの仕組み・選び方・おすすめ商品・効果を高める習慣までを科学的根拠とともに詳しく解説してきました。
+          骨盤の歪みは腰痛・冷え・下半身太りなど、さまざまな不調の根本原因となります。この記事では、骨盤の歪みの原因から骨盤矯正インソールの考え方・選び方・商品の公式情報・日常の習慣までを整理しました。効果を示す出典は確認できていない点にご注意ください。
         </p>
 
         <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-xl p-5 md:p-6 mb-6">
@@ -669,7 +669,7 @@ export default function PelvisCorrectionPage() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
-              <span>インソールは足元から骨盤を「能動的」に矯正する科学的アプローチ</span>
+              <span>インソールで骨盤の歪みが治ることを示す出典は確認できていない</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
@@ -677,16 +677,16 @@ export default function PelvisCorrectionPage() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-[#8a6a4f] font-bold shrink-0">--</span>
-              <span>ストレッチや筋トレとの併用で骨盤矯正効果が大幅にアップ</span>
+              <span>痛みや違和感が続くときは医療機関に相談する</span>
             </li>
           </ul>
         </div>
 
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-          骨盤の歪みは放置すると加齢とともに悪化し、慢性的な腰痛や体型の崩れにつながります。しかし、足元からのアプローチは日常の靴にインソールを入れるだけで始められるため、特別な時間を確保する必要がありません。
+          インソールは日常の靴に入れるだけで使えるため、特別な時間を確保する必要はありません。
         </p>
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-          まずは足元から骨盤を整えてみませんか？インソールを使った骨盤矯正は、毎日の通勤や散歩が「骨盤ケアの時間」に変わる、最も手軽で継続しやすい方法です。正しい骨盤の位置を取り戻すことで、腰痛の軽減・姿勢の改善・スッキリしたボディラインなど、想像以上の変化を実感できるでしょう。
+          選ぶ際は、各商品の公式サイトでサイズ・設計・返品条件を確認してください。
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">

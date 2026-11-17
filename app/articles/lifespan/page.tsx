@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "インソールの寿命と交換時期｜何ヶ月で替えるべき？劣化サインも解説",
   description:
-    "インソールの交換目安は約3〜6か月（毎日使用で3〜4か月、週3〜4回で5〜6か月）。素材別の寿命、へたり・におい・すり減りなど劣化サイン5つ、交換を怠るリスクと長持ちさせるコツまで解説。",
+    "インソールの交換目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月）。素材別の特徴、へたり・におい・すり減りなど劣化サイン5つ、交換を怠るリスクと長持ちさせるコツまで解説。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/lifespan/",
   },
@@ -31,7 +31,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-11-11",
+  dateModified: "2026-11-17",
 };
 
 const faqStructuredData = {
@@ -43,7 +43,7 @@ const faqStructuredData = {
       name: "インソールの平均寿命はどのくらいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。ただし使用頻度や体重、活動内容によって大きく異なります。毎日使用する場合は3〜4ヶ月、週3〜4回の使用であれば6ヶ月程度が交換目安となります。",
+        text: "インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。ただし使用頻度や体重、活動内容によって大きく異なります。へたりやすり減りなどの劣化サインを目安に交換してください。",
       },
     },
     {
@@ -67,7 +67,7 @@ const faqStructuredData = {
       name: "高価なインソールは寿命が長いですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "必ずしも価格と寿命は比例しませんが、高品質な素材を使用した製品は耐久性に優れる傾向があります。例えばTPU素材のアーチサポートはEVA素材より形状保持力が高く、長期間にわたって機能を維持します。コストパフォーマンスを考慮して選ぶことが重要です。",
+        text: "必ずしも価格と寿命は比例しませんが、高品質な素材を使用した製品は耐久性に優れる傾向があります。コストパフォーマンスを考慮して選ぶことが重要です。",
       },
     },
     {
@@ -143,7 +143,7 @@ export default function LifespanPage() {
           <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             インソールは消耗品です。交換時期を見極めないと足のトラブルに直結します。
             <br className="hidden md:block" />
-            素材別の寿命目安と劣化のサインを知り、適切なタイミングで交換してください。
+            素材別の特徴と劣化のサインを知り、適切なタイミングで交換してください。
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function LifespanPage() {
       <div className="max-w-4xl mx-auto px-4 mt-4">
         <div className="bg-[#faf7f3] border-l-4 border-[#8a6a4f] p-4 rounded-r-lg text-sm text-gray-700">
           <p className="font-bold text-gray-900 mb-1">結論：交換時期の目安</p>
-          <p>インソールの寿命は素材・使用頻度で変わりますが、一般的な交換の目安は<strong>約3〜6か月</strong>です（毎日使用で3〜4か月、週3〜4回で5〜6か月）。「クッションのへたり」「におい・変色」「すり減り・かかとの傾き」などの劣化サインが出たら、足のトラブルを防ぐため早めの交換がおすすめです。</p>
+          <p>インソールの寿命は素材・使用頻度で変わり、交換の目安も商品ごとに異なります。たとえばピットソールの公式ショップは<strong>3〜6か月</strong>を目安としています。「クッションのへたり」「におい・変色」「すり減り・かかとの傾き」などの劣化サインが出たら、足のトラブルを防ぐため早めの交換がおすすめです。</p>
         </div>
       </div>
 
@@ -170,7 +170,7 @@ export default function LifespanPage() {
             </li>
             <li>
               <a href="#lifespan-by-material" className="hover:text-[#8a6a4f] transition-colors">
-                2. 素材別のインソール寿命目安
+                2. 素材別のインソールの特徴
               </a>
             </li>
             <li>
@@ -258,11 +258,11 @@ export default function LifespanPage() {
         {/* Section 2 */}
         <section id="lifespan-by-material" className="mb-14">
           <h2 className="text-lg md:text-2xl font-bold text-gray-900 border-l-4 border-[#8a6a4f] pl-3 mb-6">
-            素材別のインソール寿命目安
+            素材別のインソールの特徴
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            インソールの寿命は使用素材によって大きく異なります。以下に素材別の耐用期間と特徴をまとめました。
+            インソールに使われる主な素材の特徴をまとめました。素材ごとの耐用期間を示す公的なデータは見当たらないため、期間は載せていません。
           </p>
 
           <div className="overflow-x-auto mb-6">
@@ -270,39 +270,32 @@ export default function LifespanPage() {
               <thead>
                 <tr className="bg-gray-100">
                   <th className="border border-gray-200 px-4 py-2 text-left font-bold">素材</th>
-                  <th className="border border-gray-200 px-4 py-2 text-left font-bold">寿命目安</th>
-                  <th className="border border-gray-200 px-4 py-2 text-left font-bold">特徴</th>
+                                    <th className="border border-gray-200 px-4 py-2 text-left font-bold">特徴</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td className="border border-gray-200 px-4 py-2">EVA（エチレン酢酸ビニル）</td>
-                  <td className="border border-gray-200 px-4 py-2">3〜6ヶ月</td>
                   <td className="border border-gray-200 px-4 py-2">軽量で安価だがヘタリやすい。最も一般的な素材。</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-200 px-4 py-2">ポリウレタン（PU）</td>
-                  <td className="border border-gray-200 px-4 py-2">6〜12ヶ月</td>
                   <td className="border border-gray-200 px-4 py-2">耐久性が高いが加水分解に弱い。中〜上位製品に使用。</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-200 px-4 py-2">TPU（熱可塑性ポリウレタン）</td>
-                  <td className="border border-gray-200 px-4 py-2">8〜18ヶ月</td>
                   <td className="border border-gray-200 px-4 py-2">形状保持力が高く耐久性に優れる。アーチサポート部に多い。</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-200 px-4 py-2">コルク</td>
-                  <td className="border border-gray-200 px-4 py-2">12〜24ヶ月</td>
                   <td className="border border-gray-200 px-4 py-2">天然素材で耐久性に優れる。使い込むほど足に馴染む。</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-200 px-4 py-2">ジェル（シリコン）</td>
-                  <td className="border border-gray-200 px-4 py-2">4〜8ヶ月</td>
                   <td className="border border-gray-200 px-4 py-2">衝撃吸収に優れるが経年で硬化。部分使用が多い。</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-200 px-4 py-2">カーボン</td>
-                  <td className="border border-gray-200 px-4 py-2">18〜36ヶ月</td>
                   <td className="border border-gray-200 px-4 py-2">最も耐久性が高いがコストも高い。オーダーメイドに多い。</td>
                 </tr>
               </tbody>
@@ -310,17 +303,17 @@ export default function LifespanPage() {
           </div>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            EVA素材の寿命と特徴
+            EVA素材の特徴
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            EVA（エチレン酢酸ビニル）は最も広く使われているインソール素材です。軽量で衝撃吸収性に優れ、コストも抑えられるため、多くの既製品インソールに採用されています。しかし、圧縮永久歪みが大きく、使い込むとクッション性が急激に低下します。毎日使用で3〜4ヶ月、週3〜4回の使用で5〜6ヶ月が交換目安です。
+            EVA（エチレン酢酸ビニル）は最も広く使われているインソール素材です。軽量で衝撃吸収性に優れ、コストも抑えられるため、多くの既製品インソールに採用されています。使い込むとクッション性が落ちやすいとされています。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            TPU素材の寿命と特徴
+            TPU素材の特徴
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            TPU（熱可塑性ポリウレタン）は近年のハイエンドインソールで多く採用される素材です。形状記憶性と復元力に優れ、長期間にわたってアーチサポート機能を維持します。ピットソールのアーチサポート部にもTPU系素材が使用されており、通常のEVAインソールよりも長い耐用期間を実現しています。
+            TPU（熱可塑性ポリウレタン）は近年のハイエンドインソールで多く採用される素材です。形状記憶性と復元力に優れる素材とされています。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
@@ -547,24 +540,24 @@ export default function LifespanPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            当サイトで推奨する3つのインソールについて、耐久性とコストパフォーマンスの観点から比較します。
+            当サイトで推奨する3つのインソールについて、公式に記載されている交換の目安を中心に比較します。
           </p>
 
           {/* Product 1: Pitsole */}
           <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">
-              耐久性で選ぶなら
+              交換目安の記載あり
             </span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">
               ピットソール（Pitsole）
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              世界特許取得のBMZ社の技術を採用したピットソールは、アーチサポート部にTPU系素材を使用しており、形状保持力に優れています。毎日使用しても4〜6ヶ月は機能を維持する設計です。まとめ買い割引を利用すれば、1足あたりのコストを抑えて定期的な交換が可能になります。
+              世界特許取得のBMZ社の技術を採用したインソールです。公式ショップは交換の目安を3〜6か月としています（素材の内訳は公式に記載がありません）。まとめ買い割引を利用すれば、1足あたりのコストを抑えて定期的な交換が可能になります。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
-                <span>TPU系素材のアーチサポートで長期間形状を維持</span>
+                <span>公式ショップが交換目安（3〜6か月）を案内</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
@@ -621,12 +614,12 @@ export default function LifespanPage() {
               スリムアップインソール（Slim Up Insole）
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              美容整体師が監修したスリムアップインソールは、適度な硬さの素材を使用しており、クッション性と耐久性のバランスが良好です。3〜5ヶ月程度の使用が目安となりますが、価格を考慮するとコストパフォーマンスに優れた選択肢です。
+              スリムアップインソールは美容整体師が監修したインソールです。耐久性や交換の目安は公式サイトに記載がないため、当サイトでは具体的な使用月数を示しません。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
-                <span>クッション性と耐久性のバランスが良好</span>
+                <span>美容整体師が監修</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#8a6a4f] font-bold mt-0.5">+</span>
@@ -674,7 +667,7 @@ export default function LifespanPage() {
                 </span>
               </summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">
-                インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。ただし使用頻度や体重、活動内容によって大きく異なります。毎日使用する場合は3〜4ヶ月、週3〜4回の使用であれば6ヶ月程度が交換目安となります。高品質なTPU素材を使用した製品であれば、さらに長持ちする場合もあります。
+                インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。ただし使用頻度や体重、活動内容によって大きく異なります。へたりやすり減りなどの劣化サインを目安に交換してください。高品質なTPU素材を使用した製品であれば、さらに長持ちする場合もあります。
               </div>
             </details>
 
@@ -710,7 +703,7 @@ export default function LifespanPage() {
                 </span>
               </summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">
-                必ずしも価格と寿命は比例しませんが、高品質な素材を使用した製品は耐久性に優れる傾向があります。例えばTPU素材のアーチサポートはEVA素材より形状保持力が高く、長期間にわたって機能を維持します。重要なのは価格だけでなく、使用素材と設計を確認することです。
+                必ずしも価格と寿命は比例しませんが、高品質な素材を使用した製品は耐久性に優れる傾向があります。重要なのは価格だけでなく、使用素材と設計を確認することです。
               </div>
             </details>
 
@@ -748,7 +741,7 @@ export default function LifespanPage() {
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 md:p-6 mb-6">
             <p className="text-sm font-bold text-gray-900 mb-3">
-              耐久性に優れたおすすめインソール
+              交換目安を確認しやすいインソール
             </p>
             <ul className="text-sm text-gray-700 space-y-2">
               <li>
@@ -758,7 +751,7 @@ export default function LifespanPage() {
                 >
                   ピットソール
                 </Link>
-                ：TPU系素材のアーチサポートで長期間機能を維持。まとめ買い割引で交換コストも抑制。
+                ：公式ショップの交換目安は3〜6か月。
               </li>
               <li>
                 <Link
@@ -776,7 +769,7 @@ export default function LifespanPage() {
                 >
                   スリムアップインソール
                 </Link>
-                ：クッション性と耐久性のバランスが良好。コストパフォーマンスに優れた選択肢。
+                ：美容整体師が監修。耐久性・交換目安は公式サイトに記載なし。
               </li>
             </ul>
           </div>

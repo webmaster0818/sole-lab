@@ -35,7 +35,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-28",
-  dateModified: "2026-04-28",
+  dateModified: "2026-11-17",
 };
 
 const faqs = [
@@ -463,7 +463,7 @@ export default function MensDietInsolePage() {
             {[
               {
                 title: "体重が重い分、消耗が早い",
-                desc: "男性は一般的に体重が重いため、インソールの消耗が早くなります。女性が6ヶ月使えるところ、男性は3〜4ヶ月で交換が必要になる場合があります。セット購入で予備を確保しておいてください。",
+                desc: "体重がかかるほどインソールは消耗しやすいため、へたりやすり減りが見えたら交換してください。交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月）。",
               },
               {
                 title: "足の臭い対策を併用する",
