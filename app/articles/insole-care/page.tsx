@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "インソールの正しい使い方・洗い方・寿命まとめ【長持ちさせるコツ】",
   description:
-    "インソールの正しい使い方・装着方法・サイズ調整から、素材別の洗い方・乾燥方法、寿命の目安・交換サインまで解説。ダイエットインソールを長持ちさせるお手入れのコツや、ピットソール・ランウェイキュアソール・スリムアップインソールの製品別ケア方法も紹介。",
+    "インソールの正しい使い方・装着方法・サイズ調整から、素材別の洗い方・乾燥方法、交換のサインまで解説。ダイエットインソールを長持ちさせるお手入れのコツや、ピットソール・ランウェイキュアソール・スリムアップインソールの製品別ケア方法も紹介。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/insole-care/",
   },
@@ -19,7 +19,7 @@ const structuredData = {
   headline:
     "インソールの正しい使い方・洗い方・寿命まとめ【長持ちさせるコツ】",
   description:
-    "インソールの正しい使い方・装着方法から素材別の洗い方、寿命の目安・交換サインまで解説。ダイエットインソールを長持ちさせるお手入れのコツも紹介。",
+    "インソールの正しい使い方・装着方法から素材別の洗い方、交換のサインまで解説。ダイエットインソールを長持ちさせるお手入れのコツも紹介。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -27,7 +27,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-14",
-  dateModified: "2026-04-14",
+  dateModified: "2026-11-18",
 };
 
 const breadcrumbStructuredData = {
@@ -789,83 +789,6 @@ export default function InsoleCare() {
             </p>
           </div>
 
-          {/* 素材別の寿命目安 */}
-          <div className="card mb-6">
-            <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4">
-              素材別の寿命目安
-            </h3>
-            <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
-              <p>
-                インソールの寿命は素材や使用頻度によって大きく異なります。以下は一般的な目安です。
-              </p>
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="border-b border-gray-200">
-                      <th className="py-2 text-left text-gray-500 font-medium">
-                        素材
-                      </th>
-                      <th className="py-2 text-left text-gray-500 font-medium">
-                        毎日使用
-                      </th>
-                      <th className="py-2 text-left text-gray-500 font-medium">
-                        週3〜4回使用
-                      </th>
-                      <th className="py-2 text-left text-gray-500 font-medium">
-                        特徴
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className="text-gray-600">
-                    <tr className="border-b border-gray-100">
-                      <td className="py-3 font-medium text-gray-900">
-                        EVAフォーム
-                      </td>
-                      <td className="py-3">3〜4ヶ月</td>
-                      <td className="py-3">5〜6ヶ月</td>
-                      <td className="py-3">
-                        軽量で衝撃吸収に優れるが、ヘタリやすい
-                      </td>
-                    </tr>
-                    <tr className="border-b border-gray-100">
-                      <td className="py-3 font-medium text-gray-900">
-                        ポリウレタン
-                      </td>
-                      <td className="py-3">4〜6ヶ月</td>
-                      <td className="py-3">6〜8ヶ月</td>
-                      <td className="py-3">
-                        EVAより耐久性が高く、復元力に優れる
-                      </td>
-                    </tr>
-                    <tr className="border-b border-gray-100">
-                      <td className="py-3 font-medium text-gray-900">
-                        レザー
-                      </td>
-                      <td className="py-3">6〜12ヶ月</td>
-                      <td className="py-3">12ヶ月以上</td>
-                      <td className="py-3">
-                        耐久性が高いが水に弱い
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="py-3 font-medium text-gray-900">
-                        ジェル・シリコン
-                      </td>
-                      <td className="py-3">6〜8ヶ月</td>
-                      <td className="py-3">8〜12ヶ月</td>
-                      <td className="py-3">
-                        衝撃吸収に優れ長持ちだが重い
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <p>
-                上記はあくまで目安です。体重や歩行量、お手入れの頻度によっても寿命は変動します。体重が重い方や歩数が多い方は、上記より早めの交換を意識してください。
-              </p>
-            </div>
-          </div>
-
           {/* 交換すべき4つのサイン */}
           <div className="card mb-6">
             <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4">
@@ -930,51 +853,16 @@ export default function InsoleCare() {
             </h3>
             <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
               <p>
-                ダイエットインソールの場合、一般的なインソールよりも交換タイミングがシビアです。なぜなら、ダイエットインソールはアーチサポートの「高さ」と「硬さ」が効果のカギを握っているからです。
+                ダイエットインソールは、アーチサポート（土踏まずを支える部分）の形が設計の中心です。
               </p>
               <p>
-                アーチサポートがヘタると、足裏への刺激が弱まり、姿勢補整や筋肉活性化の効果が低下します。「最近インソールの効果を感じにくくなったな」と思ったら、それが交換のサインかもしれません。
+                アーチサポートがつぶれて形が戻らなくなったら、使用期間にかかわらず交換を検討してください。
               </p>
               <p>
-                ダイエットインソールの交換目安は以下の通りです。
+                交換の目安は商品ごとに異なります。ピットソールの公式ショップは3〜6か月を目安としています。スリムアップインソールとランウェイキュアソールは、公式サイトに交換時期の記載がありません（2026年11月確認）。
               </p>
-              <ul className="space-y-2 ml-1">
-                <li className="flex items-start gap-2">
-                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
-                    &#10003;
-                  </span>
-                  <span>
-                    <span className="font-medium text-gray-900">
-                      毎日使用の場合：
-                    </span>
-                    3〜4ヶ月を目安に交換
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
-                    &#10003;
-                  </span>
-                  <span>
-                    <span className="font-medium text-gray-900">
-                      2足ローテーションの場合：
-                    </span>
-                    5〜6ヶ月を目安に交換
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#8a6a4f] shrink-0 mt-0.5">
-                    &#10003;
-                  </span>
-                  <span>
-                    <span className="font-medium text-gray-900">
-                      立ち仕事で毎日使用の場合：
-                    </span>
-                    2〜3ヶ月と早めの交換が理想
-                  </span>
-                </li>
-              </ul>
               <p>
-                まとめ買いプランが用意されている製品なら、1足あたりのコストを抑えて定期的に交換できるため、効果を維持しながらお得に使い続けることができます。
+                セット販売がある商品は、交換用の予備をあわせて用意しておく方法もあります。
               </p>
             </div>
           </div>

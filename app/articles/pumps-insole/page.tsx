@@ -31,7 +31,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-10-25",
+  dateModified: "2026-11-18",
 };
 
 const faqStructuredData = {
@@ -75,7 +75,7 @@ const faqStructuredData = {
       name: "パンプス用インソールの交換頻度はどのくらいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "パンプス用インソールは3〜4ヶ月が交換の目安です。パンプスは足との摩擦が大きいため、スニーカー用よりも劣化が早い傾向があります。表面の滑り止め効果が薄れた、クッション性が低下した、と感じたら交換してください。",
+        text: "交換の目安は商品ごとに異なり、パンプス用に決まった期間はありません（ピットソールの公式ショップは3〜6か月を目安としています）。期間よりも状態で判断し、表面の滑り止めが効かなくなった、クッションがつぶれて戻らない、と感じたら交換してください。",
       },
     },
   ],
@@ -468,7 +468,7 @@ export default function PumpsInsolePage() {
                 <span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9662;</span>
               </summary>
               <div className="px-4 pb-4 text-sm text-gray-700 leading-relaxed">
-                パンプス用インソールは3〜4ヶ月が交換の目安です。パンプスは足との摩擦が大きいため、スニーカー用よりも劣化が早い傾向があります。表面の滑り止め効果が薄れた、クッション性が低下した、と感じたら交換してください。
+                交換の目安は商品ごとに異なり、パンプス用に決まった期間はありません（ピットソールの公式ショップは3〜6か月を目安としています）。期間よりも状態で判断し、表面の滑り止めが効かなくなった、クッションがつぶれて戻らない、と感じたら交換してください。
               </div>
             </details>
           </div>
