@@ -32,7 +32,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-05-17",
+  dateModified: "2026-11-19",
 };
 
 const faqStructuredData = {
@@ -52,7 +52,7 @@ const faqStructuredData = {
       name: "100均インソールの寿命はどのくらいですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "100均インソールの寿命は使用状況によりますが、一般的に2週間〜1ヶ月程度でクッション性が著しく低下します。毎日使用する場合は2週間でヘタリを感じる方が多く見られます。高機能インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。100均のほうが交換の回数は多くなります。",
+        text: "100均インソールの販売元が交換時期の目安を示した資料は、当サイトでは確認できていません（2026年11月19日時点）。使える期間は使う頻度・体重・靴によって変わるため、かかとのへたりや表面の破れ、形の崩れが見えたら交換してください。高機能インソールの交換の目安は商品ごとに異なり、ピットソールの公式ショップは3〜6か月を目安としています。",
       },
     },
     {
@@ -60,7 +60,7 @@ const faqStructuredData = {
       name: "高機能インソールは100均の何倍のコストですか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "単品価格だけ見ると高機能インソール（4,000〜8,000円）は100均の40〜80倍です。しかし耐久性を考慮すると話が変わります。100均インソールを毎月交換すると年間1,200〜1,320円、高機能インソール（まとめ買い）は年間8,000〜12,000円程度。価格差は6〜10倍ですが、機能面での差はそれ以上に大きくなります。",
+        text: "1足の価格は、100均インソールが110円、ピットソールが公式ショップの単品で6,578円です。年間のコストは交換の頻度で決まりますが、100均インソールには公表された交換の目安が無いため、当サイトでは年間コストの比較は掲載していません。",
       },
     },
     {
@@ -269,7 +269,7 @@ export default function HyakkinVsProPage() {
             検証項目
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            以下の6つの観点で比較検証を行いました。素材・クッション性・アーチサポート・耐久性・ダイエット効果・トータルコスト。それぞれの項目で100均と高機能インソールの差がどの程度あるのかを明らかにします。
+            以下の6つの観点で比較します。素材・クッション性・アーチサポート・耐久性・ダイエット効果・トータルコスト。それぞれの項目で100均と高機能インソールの差がどの程度あるのかを明らかにします。
           </p>
 
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
@@ -424,55 +424,18 @@ export default function HyakkinVsProPage() {
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            100均インソールの耐久性
+            100均インソールの交換時期
           </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            100均インソールの実用的な寿命は、毎日使用した場合で2週間〜1ヶ月程度です。使用開始1週間でクッション性の低下を感じ始め、2週間でかかと部分のヘタリが顕著になります。1ヶ月を超えると表面素材が破れたり、形状が大きく崩れたりすることが多く見られます。
-          </p>
-
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            素材密度が低いため、繰り返しの荷重に対する耐性が弱いのが根本的な原因です。特にかかと部分は体重の集中する箇所であり、最も早く劣化が進みます。
+            100均インソールの販売元が交換時期の目安を示した資料は、当サイトでは確認できていません（2026年11月19日時点）。使える期間は使う頻度・体重・靴によって変わります。かかとのへたりや表面の破れ、形の崩れが見えたら交換してください。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            高機能インソールの耐久性
+            高機能インソールの交換時期
           </h3>
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            高機能インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。ピットソールの場合、3ヶ月時点でアーチサポートの機能は90%以上維持されています。表面に使用感は出ますが、性能面での劣化は緩やかです。
-          </p>
-
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            この耐久性の差は、同じ期間（例えば6ヶ月）での交換回数の差に直結します。100均なら6〜12回の交換が必要なのに対し、高機能インソールは1〜2回の交換で済みます。
+            交換の目安は商品ごとに異なります。ピットソールの公式ショップは3〜6か月を目安としています。ランウェイキュアソールとスリムアップインソールは、公式サイトに交換時期の記載が見当たりません。どの商品も、へたりや破れが見えたら交換の時期です。
           </p>
-
-          <div className="overflow-x-auto mb-6">
-            <table className="w-full text-sm border-collapse border border-gray-200 rounded-lg">
-              <thead>
-                <tr className="bg-gray-50">
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">耐久性指標</th>
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">100均</th>
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">高機能</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="border border-gray-200 px-4 py-3">実用寿命</td>
-                  <td className="border border-gray-200 px-4 py-3">2週間〜1ヶ月</td>
-                  <td className="border border-gray-200 px-4 py-3">商品ごとに異なる（ピットソール公式は3〜6か月）</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-4 py-3">年間交換回数</td>
-                  <td className="border border-gray-200 px-4 py-3">12〜24回</td>
-                  <td className="border border-gray-200 px-4 py-3">2〜4回</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-200 px-4 py-3">ヘタリ開始時期</td>
-                  <td className="border border-gray-200 px-4 py-3">1週間</td>
-                  <td className="border border-gray-200 px-4 py-3">2〜3ヶ月</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
         </section>
 
         {/* Section 6 */}
@@ -522,67 +485,43 @@ export default function HyakkinVsProPage() {
           </h2>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            「100均の方が安い」は本当でしょうか。耐久性を考慮した年間コストで比較します。
+            1足あたりの価格と、交換時期の目安を比べます。
           </p>
 
           <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            年間コスト比較
+            1足あたりの価格
           </h3>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse border border-gray-200 rounded-lg">
               <thead>
                 <tr className="bg-gray-50">
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">コスト項目</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">項目</th>
                   <th className="border border-gray-200 px-4 py-3 text-left font-bold">100均</th>
-                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">ピットソール（まとめ買い）</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-bold">ピットソール（公式ショップ・単品）</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td className="border border-gray-200 px-4 py-3">1足あたりの価格</td>
                   <td className="border border-gray-200 px-4 py-3">110円</td>
-                  <td className="border border-gray-200 px-4 py-3">約4,000円</td>
+                  <td className="border border-gray-200 px-4 py-3">6,578円</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-4 py-3">使用可能期間</td>
-                  <td className="border border-gray-200 px-4 py-3">約1ヶ月</td>
-                  <td className="border border-gray-200 px-4 py-3">約4ヶ月</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-200 px-4 py-3">年間必要数</td>
-                  <td className="border border-gray-200 px-4 py-3">12足</td>
-                  <td className="border border-gray-200 px-4 py-3">3足</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-4 py-3 font-bold">年間コスト</td>
-                  <td className="border border-gray-200 px-4 py-3 font-bold">1,320円</td>
-                  <td className="border border-gray-200 px-4 py-3 font-bold">約12,000円</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-200 px-4 py-3">1日あたりコスト</td>
-                  <td className="border border-gray-200 px-4 py-3">約3.6円</td>
-                  <td className="border border-gray-200 px-4 py-3">約33円</td>
+                  <td className="border border-gray-200 px-4 py-3">交換時期の目安</td>
+                  <td className="border border-gray-200 px-4 py-3">公表された目安なし</td>
+                  <td className="border border-gray-200 px-4 py-3">3〜6か月（公式ショップ）</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">
-            コスパの正しい考え方
-          </h3>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            年間コストだけ見ると100均が圧倒的に安いです（1,320円 vs 12,000円）。しかし「コスパ」とは「コスト対パフォーマンス（効果）」です。100均インソールで得られるのはわずかなクッション性のみ。高機能インソールで得られるのは、ダイエット効果・姿勢改善・腰痛軽減・歩行効率向上です。
+            年間のコストは交換の頻度で決まります。100均インソールには公表された交換の目安が無いため、当サイトでは両者の年間コストを並べた試算は掲載していません。ピットソールを公式ショップの目安どおり3〜6か月で交換すると、年に2〜4足（単品価格で13,156〜26,312円）になります。
           </p>
 
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            年間12,000円で体重が3kg以上減り、姿勢が改善され、腰痛が軽減されるなら、その費用対効果は非常に高いと言えます。ジムの月会費（月7,000〜10,000円）と比較しても、はるかに経済的です。ピットソールの詳しい料金プランは<Link href="/pitsole/price/" className="text-[#8a6a4f] hover:underline">料金ページ</Link>で確認できます。
+            価格差をどう受け止めるかは目的によって変わります。まずクッションを足してみたいだけなら100均でも試せます。アーチサポートなど商品ごとの設計で選びたい場合は、各商品の公式の説明を確認したうえで選んでください。ピットソールの料金プランは<Link href="/pitsole/price/" className="text-[#8a6a4f] hover:underline">料金ページ</Link>で確認できます。
           </p>
-
-          <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
-            <p className="text-sm text-gray-700 leading-relaxed">
-              「安さ」だけで選ぶなら100均、「効果」を含めたコスパで選ぶなら高機能インソール。目的に応じた判断が重要です。ダイエットや健康改善が目的なら、1日33円の投資は十分に価値があります。
-            </p>
-          </div>
         </section>
 
         {/* Section 8 */}
@@ -670,7 +609,7 @@ export default function HyakkinVsProPage() {
                 Q. 100均インソールの寿命はどのくらいですか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. 100均インソールの寿命は使用状況によりますが、一般的に2週間〜1ヶ月程度でクッション性が著しく低下します。毎日使用する場合は2週間でヘタリを感じる方が多く見られます。高機能インソールの交換の目安は商品ごとに異なります（ピットソールの公式ショップは3〜6か月を目安としています）。100均のほうが交換の回数は多くなります。
+                A. 100均インソールの販売元が交換時期の目安を示した資料は、当サイトでは確認できていません（2026年11月19日時点）。使える期間は使う頻度・体重・靴によって変わるため、かかとのへたりや表面の破れ、形の崩れが見えたら交換してください。高機能インソールの交換の目安は商品ごとに異なり、ピットソールの公式ショップは3〜6か月を目安としています。
               </p>
             </div>
 
@@ -679,7 +618,7 @@ export default function HyakkinVsProPage() {
                 Q. 高機能インソールは100均の何倍のコストですか？
               </h3>
               <p className="text-sm text-gray-700 leading-relaxed">
-                A. 単品価格だけ見ると高機能インソール（4,000〜8,000円）は100均の40〜80倍です。しかし耐久性を考慮すると話が変わります。100均インソールを毎月交換すると年間1,200〜1,320円、高機能インソール（まとめ買い）は年間8,000〜12,000円程度。価格差は6〜10倍ですが、機能面での差はそれ以上に大きくなります。
+                A. 1足の価格は、100均インソールが110円、ピットソールが公式ショップの単品で6,578円です。年間のコストは交換の頻度で決まりますが、100均インソールには公表された交換の目安が無いため、当サイトでは年間コストの比較は掲載していません。
               </p>
             </div>
 
@@ -721,15 +660,11 @@ export default function HyakkinVsProPage() {
               <li><span className="font-bold">素材・構造：</span>100均は単層フラット、高機能は多層立体構造。圧倒的な差。</li>
               <li><span className="font-bold">クッション性：</span>高機能インソールは100均の約2倍の衝撃吸収率。</li>
               <li><span className="font-bold">アーチサポート：</span>100均は実質ゼロ。高機能は特許技術による本格的サポート。</li>
-              <li><span className="font-bold">耐久性：</span>100均は2週間〜1ヶ月。高機能は商品ごとに異なる（ピットソール公式は3〜6か月）。</li>
+              <li><span className="font-bold">交換時期：</span>100均は公表された目安なし。高機能は商品ごとに異なる（ピットソール公式は3〜6か月）。</li>
               <li><span className="font-bold">ダイエット効果：</span>100均はなし。高機能は世界特許を取得（ピットソール）。</li>
-              <li><span className="font-bold">年間コスト：</span>100均1,320円 vs 高機能12,000円。差額10,680円で大きな効果差。</li>
+              <li><span className="font-bold">価格：</span>1足あたり100均110円、ピットソール6,578円（公式ショップ・単品）。</li>
             </ul>
           </div>
-
-          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-            ダイエット・姿勢改善・健康維持を目的とするなら、高機能インソールへの投資は十分に元が取れます。1日あたり約33円で、体型改善と健康維持ができると考えれば、缶コーヒー1本以下の投資です。
-          </p>
 
           <div className="bg-[#faf7f3] border border-[#e8ded6] rounded-lg p-4">
             <p className="text-sm text-gray-700 leading-relaxed">
