@@ -414,6 +414,9 @@ export default function RunwayCureSolePage() {
             <p className="text-xs text-gray-500 mt-1">市販・通販の販売チャネルを総まとめ</p>
           </Link>
         </div>
+        <p className="text-sm text-gray-600 leading-relaxed mt-4">
+          1足・2足・3足セットの価格と購入時の確認点は、<Link href="/runway-cure-sole/price/" className="text-[#8a6a4f] underline">ランウェイキュアソールの最安値・販売店情報</Link>にまとめています。
+        </p>
       </section>
 
       {/* Section 2: Bad Reviews */}

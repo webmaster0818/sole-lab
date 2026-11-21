@@ -675,6 +675,9 @@ export default function SlimUpInsolePage() {
               スリムアップインソールは市販されていません。ドラッグストア・薬局・量販店では購入できないためご注意ください。公式通販の価格は1足6,980円（税込）で、セット販売の記載はありません（2026年11月2日確認）。
             </p>
           </div>
+          <p className="text-sm text-gray-600 leading-relaxed mt-4">
+            販売先ごとの価格と購入時の確認点は、<Link href="/slim-up-insole/price/" className="text-[#8a6a4f] underline">スリムアップインソールの最安値・販売店情報</Link>にまとめています。
+          </p>
         </div>
       </section>
 
