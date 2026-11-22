@@ -224,7 +224,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <th className="border-b border-[#e8ded6] bg-[#faf7f3] px-3 py-2 align-top text-xs font-medium text-[#6b5b5e]">
-                    楽天公式店のレビュー
+                    口コミの掲載状況<span className="block text-[0.65rem] font-normal">（楽天公式店のレビュー）</span>
                   </th>
                   {products.map((product) => (
                     <td key={product.name} className="border-b border-l border-[#e8ded6] px-3 py-2 text-sm text-[#3d2b2f]">
@@ -274,6 +274,9 @@ export default function Home() {
                 </tr>
               </tbody>
             </table>
+            <p className="mt-3 text-xs leading-relaxed text-[#8a7566]">
+              口コミの評価・件数は、各商品のメーカー公式ショップ（楽天市場店）に表示されている数値を2026年11月16日に確認したものです。<strong>口コミの本文は著作権が投稿者にあるため転載せず、評価と件数のみを掲載しています。</strong>当サイトは商品を使用しておらず、独自の点数評価は行っていません。数値は確認日時点のもので変動します。
+            </p>
           </div>
           <p className="mt-3 text-xs text-[#8a7b7e] leading-relaxed">
             表の画像は各製品の公式サイトの画面です（2026年10月21日に取得）。
