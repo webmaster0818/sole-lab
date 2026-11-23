@@ -375,19 +375,11 @@ export default function PitsoleVsRunwayPage() {
               <ul className="space-y-3 text-sm text-gray-600">
                 <li className="flex items-start gap-2">
                   <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
-                  <span><span className="font-semibold text-gray-900">世界特許取得</span>（BMZ社の立方骨サポート技術）</span>
+                  <span><span className="font-semibold text-gray-900">特許あり</span>（BMZ社の立方骨を支える構造・特許第4733957号ほか）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
                   <span>足の横アーチと縦アーチを同時にサポート</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
-                  <span>骨格を正しいアライメントに導く設計</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#8a6a4f] mt-0.5 shrink-0">&#10003;</span>
-                  <span>体幹を安定させ、効率的な歩行を促進</span>
                 </li>
               </ul>
             </div>
@@ -572,8 +564,8 @@ export default function PitsoleVsRunwayPage() {
                   desc: "男女兼用・幅広いサイズ展開のため、家族で共有可能。まとめ買いセットを活用すれば1足あたりのコストも抑えられます。",
                 },
                 {
-                  title: "腰痛や姿勢の悩みがある方",
-                  desc: "骨格を正しいアライメントに導く設計のため、ダイエット目的だけでなく姿勢改善・腰痛軽減を実感している口コミが多数あります。",
+                  title: "足裏の構造（特許）で選びたい方",
+                  desc: "足裏の立方骨（キュボイド）を支える構造に関する特許があります（特許第4733957号ほか・株式会社セレスの公式ニュースリリース 2022年4月）。姿勢や腰痛への効果を示す試験データは公式に掲載がなく、当サイトでは断定しません。",
                 },
               ].map((item) => (
                 <li key={item.title} className="flex items-start gap-3">
