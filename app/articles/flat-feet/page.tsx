@@ -473,12 +473,15 @@ export default function FlatFeetPage() {
             <div className="bg-gray-50 rounded-lg p-4 text-sm text-gray-700">
               <p className="font-bold text-gray-900 mb-2">スペック</p>
               <ul className="space-y-1">
-                <li>特許技術：キュボイドバランス理論</li>
-                <li>サイズ展開：XS〜L（21.0〜27.5cm）</li>
-                <li>アーチ対応：3点（縦2＋横1）</li>
-                <li>ヒールカップ：あり</li>
-                <li>厚さ：約2.5mm（つま先部）</li>
+                <li>サイズ展開：XS（21.0〜22.5cm）／S（23.0〜24.5cm）／M（25.0〜26.0cm）／L（26.5〜27.5cm）の4サイズ</li>
+                <li>構造：足裏の3か所を支える立体構造（アーチサポート・重心バランス設計・かかとを包み込むカップ形状）</li>
+                <li>特許：BMZ社の立方骨（キュボイド）を支える構造の特許を採用</li>
               </ul>
+              <p className="mt-3 text-xs text-gray-500 leading-relaxed">
+                出典：
+                <a href="https://bacchus-inc.jp/shop/products/N-PITSOLE-S_ec" target="_blank" rel="noopener noreferrer nofollow" className="underline">BACCHUS ONLINE SHOP</a>
+                （株式会社バッカスの公式通販）の商品ページ表記（2026年11月25日確認）。特許番号は株式会社セレスの公式ニュースリリース（2022年4月）で確認できます。厚みの数値は公式に記載がありません。
+              </p>
             </div>
           </div>
           <Link
@@ -510,6 +513,9 @@ export default function FlatFeetPage() {
                 <li>アーチ対応：3点アーチ（内側縦・外側縦・横）</li>
                 <li>特徴：美姿勢サポート</li>
               </ul>
+              <p className="mt-3 text-xs text-gray-500 leading-relaxed">
+                出典：FLOReショップ公式サイト・FLORe公式ショップ楽天市場店の商品ページ表記（サイズは2026年11月7日確認）。素材・厚み・お手入れ方法は公式に記載がありません。
+              </p>
             </div>
           </div>
           <Link
@@ -528,20 +534,25 @@ export default function FlatFeetPage() {
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <div>
               <p className="text-sm text-gray-700 leading-relaxed mb-3">
-                低価格で始めやすいエントリーモデルです。<strong>厚さ約1.5mmの超薄型設計</strong>で、パンプスやローファーなど靴内のスペースが限られる靴にも使いやすいのが最大のメリット。ビジネスシーンでインソールを使いたい方に適しています。
+                美容整体師・井上剛志氏が監修したインソールです。公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明し、<strong>拇趾球・小趾球・踵骨の3つの支点を高めて重心を整える設計</strong>としています。表面は無地の薄いベージュで、抗菌防臭加工済みです。
               </p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                アーチサポートは控えめなので、軽度の扁平足や予防目的での使用に向いています。重度の扁平足にはサポート力が不足する場合がありますが、まずはインソールを試してみたいという方の入門用としておすすめです。
+                公式は構造の一つに「アーチプッシュアップ（アーチの押し上げ）」を挙げていますが、扁平足の程度別にどこまで向くかは公式に案内がありません。痛みが強い場合や足の変形が進んでいる場合は、インソールで様子を見るより先に整形外科でご相談ください。
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-4 text-sm text-gray-700">
               <p className="font-bold text-gray-900 mb-2">スペック</p>
               <ul className="space-y-1">
-                <li>監修：美容整体師（井上剛志氏）</li>
+                <li>監修：美容整体師・井上剛志氏</li>
                 <li>サイズ展開：S（23.0〜24.5cm）／M（25.0〜26.5cm）の2サイズ</li>
-                <li>アーチ対応：傾斜設計による重心移動のサポート</li>
-                <li>特徴：抗菌防臭機能あり</li>
+                <li>構造：フリーフィンガーサポート／アーチプッシュアップ／スリーアップバランスの3つ</li>
+                <li>特徴：抗菌防臭加工済み</li>
               </ul>
+              <p className="mt-3 text-xs text-gray-500 leading-relaxed">
+                出典：
+                <a href="https://ichiban-boshi.com/shop/products/B_sui_s" target="_blank" rel="noopener noreferrer nofollow" className="underline">ロッピング公式ショップ 一番星</a>
+                の商品ページ表記（2026年11月25日確認。「美容整体師『井上剛志監修』」と記載）。厚みの数値は公式に記載がありません。
+              </p>
             </div>
           </div>
           <Link
