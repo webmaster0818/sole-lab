@@ -538,7 +538,7 @@ export default function PitsolePage() {
       <section className="section-light py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            ピットソールの特徴と効果の仕組み
+            ピットソールの特徴
           </h2>
           <div className="space-y-6">
             <div className="card">
@@ -546,36 +546,33 @@ export default function PitsolePage() {
                 1. 世界特許取得の足裏アーチサポート
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                BMZ社が開発した特許技術により、足裏の「立方骨（キュボイド）」を的確に支えます。
-                これにより足の横アーチと縦アーチの両方をサポートし、足本来の骨格バランスを取り戻します。
-                一般的なインソールが土踏まずだけを持ち上げるのに対し、ピットソールは骨格全体のアライメントに着目した設計です。
+                BMZ社の足裏の立方骨（キュボイド）を支える構造に関する特許を採用しています（特許番号は株式会社セレスの公式ニュースリリース 2022年4月で確認できます）。
+                特許は構造について認められたもので、効果を保証するものではありません。
               </p>
             </div>
             <div className="card">
               <h3 className="text-base font-bold text-gray-900 mb-2">
-                2. 骨盤サポートによる姿勢補整
+                2. 姿勢のサポート
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                足裏のアーチが崩れると、膝・骨盤・背骨と連鎖的に歪みが生じます。
-                ピットソールは足元から骨格のバランスを整えることで、骨盤の傾きを改善し、正しい姿勢での歩行を促します。
-                姿勢が改善されることで、普段使われにくい体幹や下半身の筋肉が正しく使われるようになります。
+                販売元は姿勢をサポートするインソールとして案内しています。
+                骨盤の傾きや姿勢がどの程度変わるかを示すデータは、公式サイトには掲載されていません（当サイトは商品を使用していません）。
               </p>
             </div>
             <div className="card">
               <h3 className="text-base font-bold text-gray-900 mb-2">
-                3. 衝撃吸収と歩行効率の向上
+                3. 中敷きとしての使い方
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                適度なクッション性により、歩行時の衝撃を吸収。
-                足・膝・腰への負担を軽減しながら、効率的な重心移動をサポートします。
-                立ち仕事や長時間の歩行による疲労軽減にも効果が期待できます。
+                靴の中敷きとして使うインソールです。
+                衝撃吸収の性能や疲労軽減を示す数値は、公式サイトには掲載されていません。
               </p>
             </div>
           </div>
           <div className="mt-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
             <p className="text-sm text-gray-700 leading-relaxed">
               <span className="font-bold text-amber-700">注意点：</span>
-              ピットソールの仕組みは「正しい姿勢・歩行を促す → 筋肉の使い方が変わる → 長期的な体型変化」というメカニズムです。
+              ピットソールは姿勢のサポートを目的としたインソールです。
               脂肪を燃焼させる薬理作用があるわけではないため、「履くだけですぐ痩せる」ことはありません。
             </p>
           </div>
