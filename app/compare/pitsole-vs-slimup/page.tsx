@@ -116,7 +116,7 @@ const comparisonItems = [
   {
     label: "監修・権威性",
     pitsole: "BMZ社（特許技術企業）",
-    slimup: "井上剛志（YouTube136万人）",
+    slimup: "井上剛志（YouTube136万人超）",
     winner: "draw" as const,
   },
   {
@@ -285,7 +285,7 @@ export default function PitsoleVsSlimupPage() {
                 <tr className="border-b border-gray-100">
                   <td className="py-3 px-2 text-gray-600">販売元</td>
                   <td className="py-3 px-2 text-center text-gray-900">BACCHUS（バッカス）</td>
-                  <td className="py-3 px-2 text-center text-gray-900">イッティ</td>
+                  <td className="py-3 px-2 text-center text-gray-900">株式会社ロッピングライフ（旧イッティ）</td>
                 </tr>
                 <tr className="border-b border-gray-100">
                   <td className="py-3 px-2 text-gray-600">監修・技術</td>
@@ -448,7 +448,7 @@ export default function PitsoleVsSlimupPage() {
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed mb-4">
               ピットソールは<span className="font-bold text-gray-900">「特許技術」</span>がセールスポイント。BMZ社が開発した立方骨サポートは国際特許を取得しており、科学的なエビデンスに基づいた設計です。
-              一方、スリムアップインソールは<span className="font-bold text-gray-900">「整体師の知見」</span>がベース。YouTube登録者136万人の井上剛志氏が監修しており、整体の現場で培った骨格矯正のノウハウが詰まっています。
+              一方、スリムアップインソールは<span className="font-bold text-gray-900">「整体師の知見」</span>がベース。YouTube登録者136万人超（公式の表記。注記として「2024年4月2日時点・メーカー調べ」とあります）の井上剛志氏が監修しており、公式は3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）を製品の特徴として挙げています。
             </p>
             <p className="text-sm text-gray-600 leading-relaxed">
               どちらも「足裏アーチをサポートして正しい姿勢・歩行を促す」という基本コンセプトは共通しています。
@@ -580,7 +580,7 @@ export default function PitsoleVsSlimupPage() {
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>
-                    YouTube136万人の整体師が監修
+                    YouTube136万人超の整体師が監修
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-emerald-500 mt-0.5 shrink-0">&#10003;</span>

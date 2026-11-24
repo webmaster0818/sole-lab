@@ -21,7 +21,7 @@ const structuredData = {
     "美容整体師・井上剛志監修のダイエットインソール。足指・アーチ・3つの支点を支える構造と抗菌防臭加工つき。",
   brand: {
     "@type": "Brand",
-    name: "イッティ",
+    name: "株式会社ロッピングライフ",
   },
   offers: [
     {
@@ -32,7 +32,7 @@ const structuredData = {
       availability: "https://schema.org/InStock",
       seller: {
         "@type": "Organization",
-        name: "イッティ公式",
+        name: "株式会社ロッピングライフ（公式通販 一番星）",
       },
     },
   ],
@@ -88,7 +88,7 @@ const faqStructuredData = {
       name: "楽天やAmazonでも正規品を購入できますか？",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "はい、楽天市場・Amazon・Yahoo!ショッピングでもイッティ公式が出店しており正規品を購入できます。ただし、価格やポイント還元の内容はショップごとに異なる場合があります。",
+        text: "はい、楽天市場・Amazon・Yahoo!ショッピングでも公式店が出店しており正規品を購入できます。ただし、価格やポイント還元の内容はショップごとに異なる場合があります。",
       },
     },
     {
@@ -231,7 +231,7 @@ export default function SlimUpInsolePricePage() {
             公式通販にセット販売や特典の記載はありません（2026年11月2日確認）。
           </p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-            販売元はイッティ公式で、購入できるのは<strong>公式サイト・楽天市場・Amazon・Yahoo!ショッピング</strong>の4つのオンラインチャネルのみ。
+            販売元は株式会社ロッピングライフ（公式通販「一番星」）で、購入できるのは<strong>公式サイト・楽天市場・Amazon・Yahoo!ショッピング</strong>の4つのオンラインチャネルのみ。
             ドラッグストアやドンキホーテなど市販の実店舗では取り扱いがありません。
           </p>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
@@ -337,7 +337,7 @@ export default function SlimUpInsolePricePage() {
             },
             {
               title: "正規品の保証",
-              desc: "イッティ公式が直接販売するため、類似品・模倣品のリスクがありません。品質面で安心して購入できます。",
+              desc: "公式ショップが直接販売するため、類似品・模倣品のリスクがありません。品質面で安心して購入できます。",
             },
             {
               title: "在庫の安定供給",
@@ -579,7 +579,7 @@ export default function SlimUpInsolePricePage() {
             },
             {
               q: "楽天やAmazonでも正規品を購入できますか？",
-              a: "はい、楽天市場・Amazon・Yahoo!ショッピングでもイッティ公式が出店しており正規品を購入できます。ただし、価格やポイント還元の内容はショップごとに異なる場合があるため、購入前に公式サイトの価格と比較することをおすすめします。",
+              a: "はい、楽天市場・Amazon・Yahoo!ショッピングでも公式店が出店しており正規品を購入できます。ただし、価格やポイント還元の内容はショップごとに異なる場合があるため、購入前に公式サイトの価格と比較することをおすすめします。",
             },
             {
               q: "何足セットで買うのが一番お得ですか？",

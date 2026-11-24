@@ -223,7 +223,7 @@ export default function RunwayVsSlimupPage() {
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">監修・権威性</td>
                 <td className="px-4 py-3 text-center text-gray-600">雑誌掲載実績</td>
-                <td className="px-4 py-3 text-center text-gray-600">整体師 井上剛志監修（YouTube136万人）</td>
+                <td className="px-4 py-3 text-center text-gray-600">整体師 井上剛志監修（YouTube136万人超）</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">抗菌防臭</td>
@@ -233,7 +233,7 @@ export default function RunwayVsSlimupPage() {
               <tr>
                 <td className="px-4 py-3 font-medium text-gray-900">販売元</td>
                 <td className="px-4 py-3 text-center text-gray-600">FLOReショップ</td>
-                <td className="px-4 py-3 text-center text-gray-600">イッティ</td>
+                <td className="px-4 py-3 text-center text-gray-600">株式会社ロッピングライフ（旧イッティ）</td>
               </tr>
             </tbody>
           </table>
@@ -298,7 +298,7 @@ export default function RunwayVsSlimupPage() {
                   <span className="text-xs text-gray-500 text-right">公式通販にセット販売の記載なし（2026年11月2日確認）</span>
                 </li>
               </ul>
-              <p className="mt-3 text-xs text-gray-500">販売元：イッティ公式サイト</p>
+              <p className="mt-3 text-xs text-gray-500">販売元：株式会社ロッピングライフ（公式通販「一番星」）</p>
             </div>
           </div>
 
@@ -590,15 +590,15 @@ export default function RunwayVsSlimupPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-600 mt-0.5 shrink-0">&#10003;</span>
-                  <span>YouTube登録者数約136万人の影響力</span>
+                  <span>YouTube登録者数136万人超の影響力</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-600 mt-0.5 shrink-0">&#10003;</span>
-                  <span>販売元イッティは健康系商品で実績あり</span>
+                  <span>販売元はテレビ朝日グループの株式会社ロッピングライフ</span>
                 </li>
               </ul>
               <p className="mt-4 text-xs text-gray-500 leading-relaxed">
-                YouTube登録者約136万人を誇る美容整体師が監修しており、専門家のお墨付きという点で信頼性が高い傾向があります。
+                YouTube登録者136万人超を誇る美容整体師が監修しており、専門家のお墨付きという点で信頼性が高い傾向があります。
                 公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。
               </p>
             </div>
@@ -607,7 +607,7 @@ export default function RunwayVsSlimupPage() {
           <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
             <p>
               信頼性の面では、<strong>スリムアップインソール</strong>が「専門家監修」という明確な権威性を持っています。
-              井上剛志氏はYouTubeで136万人の登録者を持つ人気整体師で、骨格や筋肉に関する専門知識が商品設計に反映されています。
+              井上剛志氏はYouTubeで136万人超の登録者を持つ整体師です（登録者数は公式の表記で、注記として「2024年4月2日時点・メーカー調べ」とあります）。公式は、監修した3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）を製品の特徴として挙げています。
             </p>
             <p>
               <strong>ランウェイキュアソール</strong>は雑誌掲載実績という形でメディアからの評価を受けています。
@@ -760,7 +760,7 @@ export default function RunwayVsSlimupPage() {
             雑誌掲載実績もあり、美容意識の高い女性に支持されている商品です。
           </p>
           <p>
-            <strong>スリムアップインソール</strong>は、YouTube登録者約136万人の美容整体師・井上剛志氏が監修。
+            <strong>スリムアップインソール</strong>は、YouTube登録者136万人超の美容整体師・井上剛志氏が監修。
             3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）と抗菌防臭加工を備えたインソールです。
             S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開で、最大26.5cmまで対応します（公式サイトにて2026年7月確認）。
             価格は1足6,980円（税込）で、公式通販にセット販売の記載はありません（2026年11月2日確認）。

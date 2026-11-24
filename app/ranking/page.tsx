@@ -744,7 +744,7 @@ export default function RankingPage() {
                   美容整体師 井上剛志 監修
                 </span>
                 <span className="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold px-2.5 py-1 rounded-full">
-                  YouTube登録者136万人
+                  YouTube登録者136万人超
                 </span>
                 <span className="inline-block bg-emerald-100 text-emerald-700 text-xs font-semibold px-2.5 py-1 rounded-full">
                   抗菌防臭
@@ -752,7 +752,7 @@ export default function RankingPage() {
               </div>
 
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                YouTube登録者数136万人を誇る美容整体師・井上剛志氏が監修したダイエットインソールです。
+                YouTube登録者数136万人超（公式の表記。注記として「2024年4月2日時点・メーカー調べ」とあります）の美容整体師・井上剛志氏が監修したダイエットインソールです。
                 公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しており、3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）を備えます。
                 抗菌防臭機能も備えており、毎日の使用でも清潔に保てます。
                 価格は公式通販で1足6,980円（税込）で、セット販売の記載はありません（2026年11月2日確認）。
@@ -1052,7 +1052,7 @@ export default function RankingPage() {
                   スリムアップインソール
                 </p>
                 <p className="text-sm text-gray-600">
-                  美容整体師・井上剛志氏（YouTube登録者136万人）の監修で、公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。さらに抗菌防臭機能を搭載しています。
+                  美容整体師・井上剛志氏（YouTube登録者136万人超）の監修で、公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。さらに抗菌防臭機能を搭載しています。
                 </p>
               </div>
             </div>
@@ -1312,7 +1312,7 @@ export default function RankingPage() {
                 スリムアップインソール
               </p>
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                YouTube登録者136万人の美容整体師・井上剛志氏が監修。「姿勢を整え足裏刺激し、美脚を目指す特殊構造」で、
+                YouTube登録者136万人超の美容整体師・井上剛志氏が監修。「姿勢を整え足裏刺激し、美脚を目指す特殊構造」で、
                 抗菌防臭機能も備えた実用的なインソールです。
               </p>
               <Link
