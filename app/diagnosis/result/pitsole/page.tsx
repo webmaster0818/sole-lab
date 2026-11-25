@@ -31,7 +31,7 @@ export default function DiagnosisResultPage() {
           <p className="mt-3 text-xs text-gray-400">この診断結果と相性が良いのは</p>
           <h1 className="mt-1 text-3xl font-bold" style={{ color: "#8a6a4f" }}>ピットソール</h1>
           <p className="mt-1 text-sm text-gray-500">特許取得の骨格矯正インソール</p>
-          <p className="mt-5 text-sm text-gray-700 leading-relaxed text-left">効果・実績を重視する方に向いた結果です。世界特許の独自構造で骨格から姿勢をサポートするピットソールは、実績・口コミの多さを重視し、本格的に取り組みたい方と相性が良い製品です。</p>
+          <p className="mt-5 text-sm text-gray-700 leading-relaxed text-left">効果・実績を重視する方に向いた結果です。世界特許取得の独自構造のピットソールは、実績・口コミの多さを重視し、本格的に取り組みたい方と相性が良い製品です。</p>
           <div className="mt-5 rounded-xl bg-gray-50 p-4 text-left">
             <p className="text-xs font-bold text-gray-500 mb-2">こんな回答傾向の方に出る結果です</p>
             <ul className="space-y-1.5 text-sm text-gray-700">

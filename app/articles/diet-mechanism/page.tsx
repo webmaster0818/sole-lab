@@ -925,7 +925,7 @@ export default function DietMechanismPage() {
                       おすすめの人
                     </td>
                     <td className="py-2 text-gray-900">
-                      骨格から整える設計を重視する人
+                      特許取得の構造を重視する人
                     </td>
                     <td className="py-2 text-gray-900">
                       見た目の変化を重視する人

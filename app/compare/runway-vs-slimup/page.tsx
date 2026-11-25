@@ -341,7 +341,6 @@ export default function RunwayVsSlimupPage() {
             <h3 className="text-base font-bold text-gray-900 mb-3">3点アーチサポート</h3>
             <p className="text-sm text-gray-600 leading-relaxed mb-3">
               足裏にある「内側縦アーチ」「外側縦アーチ」「横アーチ」の3つを同時にサポートする設計です。
-              アーチの崩れを補正することで骨盤を正しい位置に導き、自然と美しい姿勢を促します。
             </p>
             <ul className="space-y-1.5 text-sm text-gray-600">
               <li className="flex items-start gap-2">

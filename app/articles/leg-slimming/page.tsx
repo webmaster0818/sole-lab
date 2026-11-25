@@ -89,7 +89,7 @@ const recommendedProducts = [
     description:
       "世界特許取得のキュボイド理論に基づく骨格矯正インソール。足裏の立方骨を支えることで骨盤の位置を整え、下半身全体の筋肉バランスを改善します。脚痩せに直結する正しい歩行姿勢を根本からサポートするため、本格的に美脚を目指したい方に最適です。",
     points: [
-      "世界特許取得の独自構造で骨格から矯正",
+      "世界特許取得の独自構造",
       "累計200万足突破（2025年4月時点）の実績",
       "内もも・ヒップの筋肉を効率的に活性化",
     ],
@@ -666,7 +666,7 @@ export default function LegSlimmingArticlePage() {
           </h2>
           <div className="space-y-4">
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-              脚が太くなる原因の多くは、足裏のアーチ崩れや歩行姿勢の乱れから始まっています。インソールで足元から骨格バランスを整えることで、筋肉の使い方が変わり、むくみの軽減や脚のラインの改善が期待できます。
+              脚が太くなる原因の多くは、足裏のアーチ崩れや歩行姿勢の乱れから始まっています。インソールは足裏のアーチを支える製品ですが、むくみや脚のラインへの効果を示す公開データは製品ごとに異なり、確認できるものは限られています。
             </p>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
               ただし、インソールは魔法のアイテムではありません。正しい歩行習慣やストレッチ、食事管理と組み合わせてこそ、本当の脚痩せ効果を発揮します。まずは自分の悩みや生活スタイルに合ったインソールを選び、毎日の歩行から変えていってください。
@@ -687,7 +687,7 @@ export default function LegSlimmingArticlePage() {
                   <span className="text-[#8a6a4f] mt-0.5 shrink-0">
                     &#10003;
                   </span>
-                  インソールは足裏から骨格を整え、正しい筋肉の使い方を促す
+                  インソールは足裏のアーチを支える（効果の程度は製品ごとに異なる）
                 </li>
                 <li className="flex items-start gap-2 text-sm text-gray-600">
                   <span className="text-[#8a6a4f] mt-0.5 shrink-0">

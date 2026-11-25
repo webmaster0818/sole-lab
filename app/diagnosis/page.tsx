@@ -86,7 +86,7 @@ export default function DiagnosisPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
-              { name: "ピットソール", tag: "効果・実績重視", desc: "世界特許の独自構造で骨格から姿勢をサポート", href: "/pitsole/", c: "#8a6a4f" },
+              { name: "ピットソール", tag: "効果・実績重視", desc: "世界特許取得の独自構造", href: "/pitsole/", c: "#8a6a4f" },
               { name: "ランウェイキュアソール", tag: "美姿勢サポート", desc: "3つのアーチをサポート、M・Lの2サイズ・女性向け", href: "/runway-cure-sole/", c: "#c9a76c" },
               { name: "スリムアップインソール", tag: "コスパ重視", desc: "手頃な価格で、初めての方にもおすすめ", href: "/slim-up-insole/", c: "#a67a56" },
             ].map((p) => (
