@@ -20,7 +20,7 @@ const structuredData = {
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: { "@type": "Organization", name: "ソールラボ", url: "https://sole-laboratory.com" },
   datePublished: "2026-06-05",
-  dateModified: "2026-07-12",
+  dateModified: "2026-11-26",
 };
 
 const faqs = [{"q": "ダイエットインソールは履くだけで痩せますか？", "a": "履くだけで痩せる魔法ではありません。正しい歩き方と毎日の継続、食事・運動との組み合わせで効果が高まります。"}, {"q": "元の中敷きは外すべきですか？", "a": "はい。フィットと効果を保つため、元の中敷きを外してインソールと入れ替えるのがおすすめです。サイズはカットして調整します。"}, {"q": "1日何時間履けば良いですか？", "a": "決まりはありませんが、できるだけ日常的に履くのが理想です。最初は短時間から慣らし、徐々に時間を延ばしてください。"}, {"q": "元の中敷きの上に重ねて入れてもいいですか？", "a": "基本的には元の中敷きを外して入れ替えるのがおすすめです。重ねると靴の中が窮屈になり、つま先や甲が圧迫されてサイズ感が変わったり、ズレやすくなったりします。元の中敷きが取り外せない靴では、ハーフ（前足部）タイプを選ぶなどの工夫をしてください。"}, {"q": "毎日洗ったほうがいいですか？お手入れの頻度は？", "a": "毎日洗う必要はありませんが、汗や皮脂で汚れやニオイがたまりやすいため、定期的なお手入れがおすすめです。使用後は靴から取り出して陰干しし、湿気を逃がすと清潔に保てます。洗える素材かどうかや洗い方は製品ごとに異なるため、各製品の表示に従ってください。"}, {"q": "履いていて違和感や痛みが出たら？", "a": "アーチサポートのある製品では、慣れるまで足裏に押し上げられる感覚や違和感が出ることがあります。まずは短時間の使用から慣らしてください。我慢できない痛みやしびれ、皮膚のトラブルが続く場合は使用を中止し、必要に応じて医療機関にご相談ください。"}, {"q": "インソールが靴の中で浮いたりズレたりするときは？", "a": "元の中敷きを外し忘れていないか、カットが大きすぎ・小さすぎないかをまずご確認ください。かかとを靴の奥まで押し込んで装着し直すと改善することも多く見られます。それでもズレる場合は、元の中敷きを型紙にして輪郭を少しずつ再調整するか、固定方法について製品の表示・公式の案内を確認してください。"}, {"q": "慣らし期間はどのくらいを目安にすればいいですか？", "a": "一般に、数日〜2週間程度かけて短時間の使用から少しずつ時間を延ばす方法がよく紹介されます。ただし慣れるまでの期間には個人差があるため、足の状態を見ながら無理なく進めてください。強い痛みやしびれが続く場合は使用を中止し、整形外科などの受診をご検討ください。"}];
@@ -123,6 +123,24 @@ export default function CorrectUsagePage() {
               </tbody>
             </table>
           </div>
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3 mt-8">口コミの掲載状況（楽天市場の公式店レビュー・2026年11月26日確認）</h3>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-gray-200 rounded-xl">
+              <thead>
+                <tr className="bg-[#faf7f3] text-gray-900">
+                  <th className="p-3 text-left border-b border-gray-200">商品（掲載ページ）</th>
+                  <th className="p-3 text-left border-b border-gray-200">評価</th>
+                  <th className="p-3 text-left border-b border-gray-200">件数</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-700">
+                <tr><td className="p-3 border-b border-gray-200"><a href="https://review.rakuten.co.jp/item/1/409507_10000004/1.1/" className="text-[#8a6a4f] underline" target="_blank" rel="noopener noreferrer">ピットソール 2足SET（BACCHUS ONLINE SHOP）</a></td><td className="p-3 border-b border-gray-200">3.98</td><td className="p-3 border-b border-gray-200">456件</td></tr>
+                <tr><td className="p-3 border-b border-gray-200"><a href="https://review.rakuten.co.jp/item/1/405162_10000129/1.1/" className="text-[#8a6a4f] underline" target="_blank" rel="noopener noreferrer">ランウェイキュアソール（FLORe公式ショップ 楽天市場店）</a></td><td className="p-3 border-b border-gray-200">3.98</td><td className="p-3 border-b border-gray-200">869件</td></tr>
+                <tr><td className="p-3"><a href="https://review.rakuten.co.jp/item/1/304721_10001278/1.1/" className="text-[#8a6a4f] underline" target="_blank" rel="noopener noreferrer">スリムアップインソール 単品（イッティ公式 楽天市場店）</a></td><td className="p-3">3.57</td><td className="p-3">7件</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs md:text-sm text-gray-600 leading-relaxed mb-2">出典：楽天市場の各商品レビューページ（2026年11月26日確認）。評価は購入者による5段階の総合評価です。スリムアップインソールは件数が少なく、傾向として読むことはできません。口コミの本文は投稿者に著作権があるため転載していません。当サイトは商品を使用していません。</p>
         </section>
 
         <section className="mb-12">
