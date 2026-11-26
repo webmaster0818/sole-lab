@@ -28,7 +28,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-08",
-  dateModified: "2026-11-17",
+  dateModified: "2026-11-26",
 };
 
 const faqStructuredData = {
@@ -152,7 +152,7 @@ export default function PelvisCorrectionPage() {
             </li>
             <li>
               <a href="#mechanism" className="hover:text-[#8a6a4f] transition-colors">
-                3. インソールで骨盤矯正できる仕組み
+                3. インソールと骨盤の関係の考え方
               </a>
             </li>
             <li>
@@ -289,14 +289,14 @@ export default function PelvisCorrectionPage() {
         </p>
       </section>
 
-      {/* インソールで骨盤矯正できる仕組み */}
+      {/* インソールと骨盤の関係の考え方 */}
       <section id="mechanism" className="max-w-4xl mx-auto px-4 mb-16">
         <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-[#8a6a4f]">
-          インソールで骨盤矯正できる仕組み
+          インソールと骨盤の関係の考え方
         </h2>
 
         <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-6">
-          骨盤矯正インソールは、足裏から骨盤の位置を整える科学的なアプローチです。「靴の中に入れるだけで本当に効果があるの？」と疑問に思う方もいるかもしれません。そのメカニズムを3つのステップで解説します。
+          骨盤矯正をうたうインソールは、足裏のアーチを支えて立ち方・歩き方を整えることを目的とした商品です。骨盤そのものの位置が変わることを示す研究の出典は当サイトでは確認できていないため、ここでは一般的な考え方として3つの視点を整理します。
         </p>
 
         <div className="grid gap-4 md:grid-cols-3 mb-6">
@@ -306,14 +306,14 @@ export default function PelvisCorrectionPage() {
             </div>
             <h3 className="font-bold text-gray-900 text-sm mb-2">足裏アーチの再構築</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
-              内側縦アーチ（土踏まず）・外側縦アーチ・横アーチの3つを補整し、足裏本来のアーチ形状を取り戻します。特に立方骨（キュボイド）周辺のサポートが重心の安定に直結します。
+              内側縦アーチ（土踏まず）・外側縦アーチ・横アーチを支える形状の商品が多く、足裏の接地を安定させることを目的としています。
             </p>
           </div>
           <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
             <div className="w-10 h-10 bg-[#f3ece4] rounded-lg flex items-center justify-center mb-3">
               <span className="text-[#8a6a4f] font-bold text-lg">2</span>
             </div>
-            <h3 className="font-bold text-gray-900 text-sm mb-2">下肢アライメントの改善</h3>
+            <h3 className="font-bold text-gray-900 text-sm mb-2">膝・股関節の並びへの目配り</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
               足裏を支えることで、膝や股関節を含む下肢のアライメント（骨の配列）にも目を向ける、という考え方です。
             </p>
@@ -322,9 +322,9 @@ export default function PelvisCorrectionPage() {
             <div className="w-10 h-10 bg-[#f3ece4] rounded-lg flex items-center justify-center mb-3">
               <span className="text-[#8a6a4f] font-bold text-lg">3</span>
             </div>
-            <h3 className="font-bold text-gray-900 text-sm mb-2">骨盤周囲筋の活性化</h3>
+            <h3 className="font-bold text-gray-900 text-sm mb-2">立ち方・歩き方や運動との組み合わせ</h3>
             <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
-              正しい足裏バランスで立つ・歩くことで、骨盤を支えるインナーマッスル（腸腰筋・骨盤底筋群・中殿筋など）が自然と活性化。筋力で骨盤を正しい位置に維持できるようになります。
+              骨盤を支えるインナーマッスル（腸腰筋・骨盤底筋群・中殿筋など）を使うのは、日々の立ち方・歩き方や運動です。インソールはその補助として使うものと考えてください。
             </p>
           </div>
         </div>
@@ -334,7 +334,7 @@ export default function PelvisCorrectionPage() {
         </p>
 
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
-          <p className="text-sm font-bold text-gray-900 mb-2">科学的な裏付け</p>
+          <p className="text-sm font-bold text-gray-900 mb-2">研究の出典について</p>
           <p className="text-sm text-gray-700 leading-relaxed">
             なお、インソールで骨盤の傾きが変わることを示す研究について、当サイトでは出典を確認できていません。この節の内容は一般的な考え方の説明で、効果を保証するものではありません。
           </p>
@@ -374,10 +374,10 @@ export default function PelvisCorrectionPage() {
           </div>
           <div className="border border-gray-200 rounded-xl p-5">
             <h3 className="font-bold text-gray-900 text-sm md:text-base mb-2">
-              <span className="text-[#8a6a4f] mr-2">3</span>特許技術・科学的根拠
+              <span className="text-[#8a6a4f] mr-2">3</span>特許の記載
             </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
-              骨盤矯正をうたう根拠として特許技術があるかは重要な判断基準です。特許は第三者機関が技術の新規性・有用性を認めた証拠であり、「なんとなく効きそう」な製品との差が明確に出るポイントです。
+              特許の有無と特許番号を公式サイトに記載しているかも、確認項目の一つです。ただし特許は技術の新規性などが認められたもので、効果を保証するものではありません。
             </p>
           </div>
           <div className="border border-gray-200 rounded-xl p-5">

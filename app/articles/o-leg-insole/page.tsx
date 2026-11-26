@@ -36,7 +36,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-16",
-  dateModified: "2026-04-16",
+  dateModified: "2026-11-26",
 };
 
 const faqs = [
@@ -632,7 +632,7 @@ export default function OLegInsolePage() {
               },
               {
                 title: "最初は短時間から慣らす",
-                desc: "O脚の状態で長年歩いてきた筋肉や関節に、いきなり正しいアライメントを強制すると痛みが出ることがあります。最初は2〜3時間から始め、1週間かけて徐々に使用時間を延ばしていってください。",
+                desc: "アーチサポートの形状に足が慣れていないうちは、長時間使うと足や膝に違和感が出ることがあります。最初は2〜3時間から始め、1週間かけて徐々に使用時間を延ばしていってください。",
               },
               {
                 title: "靴との相性を確認する",
