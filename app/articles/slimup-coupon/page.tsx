@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SupervisorSource from "../../components/SupervisorSource";
 
 export const metadata: Metadata = {
   title:
@@ -409,6 +410,7 @@ export default function SlimupCouponPage() {
             <p>
               ドラッグストアや100円ショップで販売されているインソールは別の商品です。見た目が似ていても、美容整体師・井上剛志氏監修の3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）は正規品だけのものです。
             </p>
+            <SupervisorSource className="mt-3" />
           </div>
 
           <div className="bg-red-50 border border-red-200 rounded-xl p-5">

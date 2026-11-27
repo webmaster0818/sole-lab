@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SupervisorSource from "../../components/SupervisorSource";
 
 export const metadata: Metadata = {
   title: "スリムアップインソール 長期レビュー検証｜3ヶ月使うとどうなる？",
@@ -231,6 +232,7 @@ export default function SlimupLongReviewPage() {
           <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
             スリムアップインソールは、美容整体師・井上剛志氏が監修した機能性インソールです。足裏のアーチをサポートし、歩行時の姿勢・筋肉の使い方を整えることを狙った設計で、S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開です（公式サイトにて2026年7月確認）。詳しい製品情報は<Link href="/slim-up-insole/" className="text-[#8a6a4f] hover:underline">スリムアップインソール詳細ページ</Link>を参照してください。
           </p>
+          <SupervisorSource className="mt-3" />
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
             <h3 className="text-sm md:text-base font-bold text-gray-900 mb-3">

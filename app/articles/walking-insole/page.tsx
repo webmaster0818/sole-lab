@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SupervisorSource from "../../components/SupervisorSource";
 
 export const metadata: Metadata = {
   title:
@@ -298,6 +299,7 @@ export default function WalkingInsolePage() {
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
                 美容整体師・井上剛志氏の監修で、公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。サイズはS（23.0〜24.5cm）とM（25.0〜26.5cm）の2サイズ展開（公式サイトにて2026年7月確認）。価格は公式通販で1足6,980円（税込）で、セット販売の記載はありません（2026年11月2日確認）。ウォーキング用とランニング用で使い分けも可能。
               </p>
+              <SupervisorSource className="mt-3" />
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4">
                 <div>
                   <span className="text-gray-500 block text-xs">価格</span>

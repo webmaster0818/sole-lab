@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import OfficialCTA from "../../components/OfficialCTA";
+import SupervisorSource from "../../components/SupervisorSource";
 
 export const metadata: Metadata = {
   title:
@@ -141,6 +142,7 @@ export default function SlimUpInsolePricePage() {
             <br className="hidden md:block" />
             公式サイト・楽天・Amazon・Yahoo!の価格を比較しました。
           </p>
+          <SupervisorSource className="mt-3" />
         </div>
       </section>
 

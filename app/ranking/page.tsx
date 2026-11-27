@@ -4,6 +4,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import OfficialCTA from "../components/OfficialCTA";
 import KeihyoNote from "../components/KeihyoNote";
 import VerificationNote from "../components/VerificationNote";
+import SupervisorSource from "../components/SupervisorSource";
 
 export const metadata: Metadata = {
   title:
@@ -750,6 +751,7 @@ export default function RankingPage() {
                   抗菌防臭
                 </span>
               </div>
+              <SupervisorSource className="mt-3" />
 
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
                 YouTube登録者数136万人超（公式の表記。注記として「2024年4月2日時点・メーカー調べ」とあります）の美容整体師・井上剛志氏が監修したダイエットインソールです。

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SupervisorSource from "../../components/SupervisorSource";
 
 export const metadata: Metadata = {
   title:
@@ -692,6 +693,7 @@ export default function PatentTechnologyPage() {
             <p>
               スリムアップインソールは、特許技術ではなく「専門家監修」をアプローチの軸にしたダイエットインソールです。美容整体の分野で活動する井上剛志氏が監修しています（公式の商品ページに「美容整体師『井上剛志監修』」と記載・2026年11月25日確認）。
             </p>
+            <SupervisorSource className="mt-3" />
           </div>
 
           {/* 井上剛志の監修 */}

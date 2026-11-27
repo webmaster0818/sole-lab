@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SupervisorSource from "../../components/SupervisorSource";
 
 export const metadata: Metadata = {
   title: "パンプス用インソールおすすめ5選｜ヒール靴の疲れ対策",
@@ -320,6 +321,7 @@ export default function PumpsInsolePage() {
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
               公式通販（ロッピング公式ショップ 一番星）で「美容整体師『井上剛志監修』」と案内されているインソールで、S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開です。厚みやパンプスへの対応、歩き方・体型への効果は公式サイトに記載がないため、お使いのパンプスに入るかは実際にご確認ください（2026年11月25日確認）。
             </p>
+            <SupervisorSource className="mt-3" />
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師（井上剛志氏）監修と公式に記載</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>S・Mの2サイズ展開</span></li>

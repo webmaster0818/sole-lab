@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import VerificationNote from "../../components/VerificationNote";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import SupervisorSource from "../../components/SupervisorSource";
 
 export const metadata: Metadata = {
   title:
@@ -199,6 +200,7 @@ export default function SlimupNotWorkingPage() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 美容整体師・井上剛志氏の監修。公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明し、3つの構造（フリーフィンガーサポート・アーチプッシュアップ・スリーアップバランス）を挙げています。
               </p>
+              <SupervisorSource className="mt-3" />
             </div>
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <h3 className="text-base font-bold text-gray-900 mb-2">

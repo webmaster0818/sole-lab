@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import OfficialCTA from "../../components/OfficialCTA";
 import VerificationNote from "../../components/VerificationNote";
+import SupervisorSource from "../../components/SupervisorSource";
 
 export const metadata: Metadata = {
   title:
@@ -320,6 +321,7 @@ export default function PitsoleVsSlimupPage() {
               </tbody>
             </table>
           </div>
+          <SupervisorSource className="mt-3" />
         </div>
       </section>
 

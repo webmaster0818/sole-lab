@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 import OfficialCTA from "../../components/OfficialCTA";
 import VerificationNote from "../../components/VerificationNote";
+import SupervisorSource from "../../components/SupervisorSource";
 
 export const metadata: Metadata = {
   title:
@@ -238,6 +239,7 @@ export default function RunwayVsSlimupPage() {
             </tbody>
           </table>
         </div>
+        <SupervisorSource className="mt-3" />
 
         <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
           <p>

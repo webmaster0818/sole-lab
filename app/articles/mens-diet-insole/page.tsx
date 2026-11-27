@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 import ThemeArticles from "../../components/ThemeArticles";
+import SupervisorSource from "../../components/SupervisorSource";
 export const metadata: Metadata = {
   title:
     "ダイエットインソール男性向けおすすめ3選｜メンズの選び方ガイド",
@@ -311,6 +312,7 @@ export default function MensDietInsolePage() {
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
                 S（23.0〜24.5cm）/M（25.0〜26.5cm）の2サイズ展開で、26.5cmまでの男性に対応（公式サイトにて2026年7月確認）。美容整体師・井上剛志氏の監修で、公式は「姿勢を整え足裏刺激し、美脚を目指す特殊構造」と説明しています。価格は公式通販で1足6,980円（税込）で、セット販売の記載はありません（2026年11月2日確認）。
               </p>
+              <SupervisorSource className="mt-3" />
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4">
                 <div>
                   <span className="text-gray-500 block text-xs">単品価格</span>
