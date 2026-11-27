@@ -31,7 +31,7 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-05-17",
-  dateModified: "2026-11-18",
+  dateModified: "2026-11-28",
 };
 
 const faqStructuredData = {
@@ -258,6 +258,31 @@ export default function PumpsInsolePage() {
             パンプスとの相性が良い、薄型・滑り止め付きのインソールを5つ厳選しました。
           </p>
 
+          <h3 className="text-base md:text-lg font-bold text-gray-900 mb-3">5商品の形・厚さ・サイズを一覧で比べる（公式の記載のみ）</h3>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-xs md:text-sm border border-gray-200">
+              <thead className="bg-gray-50">
+                <tr>
+                  <th className="border border-gray-200 px-2 py-2 text-left">商品</th>
+                  <th className="border border-gray-200 px-2 py-2 text-left">形</th>
+                  <th className="border border-gray-200 px-2 py-2 text-left">厚さ（公式の記載）</th>
+                  <th className="border border-gray-200 px-2 py-2 text-left">サイズ</th>
+                  <th className="border border-gray-200 px-2 py-2 text-left">公式の確認日</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td className="border border-gray-200 px-2 py-2">ランウェイキュアソール</td><td className="border border-gray-200 px-2 py-2">インソール（中敷き）</td><td className="border border-gray-200 px-2 py-2">記載なし</td><td className="border border-gray-200 px-2 py-2">M 22.5〜23.5cm／L 24.0〜25.0cm</td><td className="border border-gray-200 px-2 py-2">2026年11月12日</td></tr>
+                <tr><td className="border border-gray-200 px-2 py-2">ピットソール</td><td className="border border-gray-200 px-2 py-2">インソール（中敷き）</td><td className="border border-gray-200 px-2 py-2">記載なし</td><td className="border border-gray-200 px-2 py-2">XS 21.0〜22.5cm〜L 26.5〜27.5cm（4サイズ）</td><td className="border border-gray-200 px-2 py-2">2026年11月25日</td></tr>
+                <tr><td className="border border-gray-200 px-2 py-2">スリムアップインソール</td><td className="border border-gray-200 px-2 py-2">インソール（中敷き）</td><td className="border border-gray-200 px-2 py-2">記載なし</td><td className="border border-gray-200 px-2 py-2">S 23.0〜24.5cm／M 25.0〜26.5cm</td><td className="border border-gray-200 px-2 py-2">2026年11月25日</td></tr>
+                <tr><td className="border border-gray-200 px-2 py-2">コロンブス つま先コンフォート</td><td className="border border-gray-200 px-2 py-2">つま先用のジェルパッド</td><td className="border border-gray-200 px-2 py-2">1mm・2mm・3mm</td><td className="border border-gray-200 px-2 py-2">女性用</td><td className="border border-gray-200 px-2 py-2">2026年10月24日</td></tr>
+                <tr><td className="border border-gray-200 px-2 py-2">ドクターショール パーティーフィート</td><td className="border border-gray-200 px-2 py-2">前すべりストッパー・ジェルハーフ・インソール・かかと用など10種類</td><td className="border border-gray-200 px-2 py-2">「透明・薄型タイプ」（数値の記載なし）</td><td className="border border-gray-200 px-2 py-2">アイテムにより異なる</td><td className="border border-gray-200 px-2 py-2">2026年10月25日</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 leading-relaxed mb-6">
+            各社の公式サイトに書かれている内容だけを並べています。当サイトは商品を使用していないため、履き心地や疲れにくさの比較は載せていません。
+          </p>
+
           {/* Product 1 */}
           <div className="bg-white border-2 border-[#8a6a4f] rounded-xl p-5 md:p-6 mb-6 shadow-sm relative">
             <span className="absolute -top-3 left-4 bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 1</span>
@@ -267,7 +292,7 @@ export default function PumpsInsolePage() {
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>3点アーチサポート設計で足裏を支える</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美姿勢サポートでヒールによる骨盤前傾を補正</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>公式の説明は「美姿勢サポート」（骨盤などへの効果の数値は公式に記載なし）</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>女性向けサイズ展開で選びやすい</span></li>
             </ul>
             <Link href="/runway-cure-sole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">ランウェイキュアソールの詳細レビューを見る &rarr;</Link>
@@ -281,7 +306,7 @@ export default function PumpsInsolePage() {
               世界特許取得の3点サポート構造で、パンプスでも足裏のアーチをしっかり支えます。XSサイズ（21〜22.5cm）からの展開があり、小さめのパンプスにも対応可能。カットして調整できるため、さまざまなデザインのパンプスに合わせることができます。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界特許の3点サポートで前方荷重を分散</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>世界特許取得の3点サポート構造</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>XSサイズからの展開で小さめのパンプスにも対応</span></li>
               <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>カット調整で好みのフィット感に</span></li>
             </ul>
@@ -293,12 +318,12 @@ export default function PumpsInsolePage() {
             <span className="absolute -top-3 left-4 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full">おすすめ 3</span>
             <h3 className="text-base md:text-xl font-bold text-gray-900 mt-2 mb-3">スリムアップインソール（Slim Up Insole）</h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-3">
-              美容整体師監修のインソールで、パンプスでの歩行姿勢を改善します。正しい重心移動を促す設計により、ヒールでの歩き方が安定し、足の疲れだけでなく見た目の美しさも向上します。通勤でパンプスを履く方のダイエットサポートとしても効果的です。
+              公式通販（ロッピング公式ショップ 一番星）で「美容整体師『井上剛志監修』」と案内されているインソールで、S（23.0〜24.5cm）・M（25.0〜26.5cm）の2サイズ展開です。厚みやパンプスへの対応、歩き方・体型への効果は公式サイトに記載がないため、お使いのパンプスに入るかは実際にご確認ください（2026年11月25日確認）。
             </p>
             <ul className="text-sm text-gray-700 space-y-1 mb-4">
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師監修で歩き方が美しく変わる</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>正しい重心移動でヒールでの歩行が安定</span></li>
-              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>通勤中のダイエット効果も期待できる</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>美容整体師（井上剛志氏）監修と公式に記載</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>S・Mの2サイズ展開</span></li>
+              <li className="flex items-start gap-2"><span className="text-[#8a6a4f] font-bold mt-0.5">+</span><span>料金は3商品の一覧（ランキングページ）で比較できます</span></li>
             </ul>
             <Link href="/slim-up-insole/" className="inline-block text-sm font-bold text-[#8a6a4f] hover:underline">スリムアップインソールの詳細レビューを見る &rarr;</Link>
           </div>
