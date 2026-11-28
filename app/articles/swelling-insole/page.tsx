@@ -8,17 +8,17 @@ import InsoleTypeGuide from "../../components/InsoleTypeGuide";
 
 export const metadata: Metadata = {
   title:
-    "足のむくみ改善にインソールが効果的な理由｜おすすめと対策",
+    "足のむくみとインソール｜原因・対策と3商品の公式情報",
   description:
-    "足のむくみの原因を解説し、インソールでむくみが改善するメカニズム（アーチサポート→筋ポンプ機能促進→血流改善）を紹介。おすすめ3商品のむくみへの効果比較とインソール以外の対策も網羅。",
+    "足のむくみの原因と、歩く・足首を回すなどの対策をまとめました。インソール3商品の公式サイトにむくみへの効果の記載があるか（2026年11月28日確認）も整理しています。",
   alternates: {
     canonical: "https://sole-laboratory.com/articles/swelling-insole/",
   },
   openGraph: { images: ["/og-default.png"],
     title:
-      "足のむくみ改善にインソールが効果的な理由｜おすすめと対策｜ソールラボ",
+      "足のむくみとインソール｜原因・対策と3商品の公式情報｜ソールラボ",
     description:
-      "足のむくみの原因とインソールによる改善メカニズムを解説。おすすめ3商品のむくみへの効果を比較。",
+      "足のむくみの原因と対策、インソール3商品の公式情報をまとめました。",
     url: "https://sole-laboratory.com/articles/swelling-insole/",
     type: "article",
   },
@@ -28,9 +28,9 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://sole-laboratory.com/og-image.png",
   headline:
-    "足のむくみ改善にインソールが効果的な理由｜おすすめと対策",
+    "足のむくみとインソール｜原因・対策と3商品の公式情報",
   description:
-    "足のむくみの原因とインソールによる改善メカニズムを解説し、おすすめ商品とむくみ対策をまとめたガイド。",
+    "足のむくみの原因と対策、インソール3商品の公式情報をまとめたガイド。",
   author: { "@type": "Organization", name: "ソールラボ 編集部", url: "https://sole-laboratory.com/about/" },
   publisher: {
     "@type": "Organization",
@@ -38,29 +38,19 @@ const structuredData = {
     url: "https://sole-laboratory.com",
   },
   datePublished: "2026-04-16",
-  dateModified: "2026-04-16",
+  dateModified: "2026-11-28",
 };
 
 const faqs = [
   {
-    question: "インソールで足のむくみは本当に改善しますか？",
+    question: "インソールで足のむくみは改善しますか？",
     answer:
-      "足裏アーチサポート付きインソールは、歩行時のふくらはぎの筋ポンプ機能を促進し、下肢の血液・リンパ液の循環を改善する効果が期待できます。これにより、夕方の足のむくみや疲労感が軽減される方が多く見られます。ただし、病的なむくみ（心臓・腎臓・肝臓の疾患が原因）の場合はインソールでは改善しないため、医療機関の受診が必要です。",
+      "当サイトで紹介している3商品の公式サイトには、むくみの軽減を示す試験結果や効果の説明はありません（2026年11月28日確認）。スリムアップインソールの公式サイトには「凹凸による刺激が指圧効果となり血行をよくします（※指圧代用器としての効果）」との記載があります。当サイトは商品を使用しておらず、インソールでむくみがどの程度変わるかは示せません。むくみが続く場合や片足だけむくむ場合は医療機関を受診してください。",
   },
   {
-    question: "むくみ対策にインソールを使う場合、どれくらいで効果を感じますか？",
+    question: "むくみ対策として、インソール以外にできることはありますか？",
     answer:
-      "個人差がありますが、夕方の足のだるさ・むくみ感の軽減は1〜2週間で実感する方が多く見られます。これはアーチサポートにより歩行効率が上がり、ふくらはぎの筋ポンプが正常に機能するようになるためです。継続使用でさらに効果が実感しやすくなります。",
-  },
-  {
-    question: "立ち仕事のむくみにもインソールは効果がありますか？",
-    answer:
-      "はい、立ち仕事の方にはインソールが特に効果的です。長時間の立位姿勢は重力の影響で下肢に血液・リンパ液が溜まりやすくなります。アーチサポートインソールは足裏の姿勢を正し、少しの体重移動でもふくらはぎの筋ポンプが効率的に働くようサポートします。",
-  },
-  {
-    question: "むくみ対策のインソールと着圧ソックスは併用できますか？",
-    answer:
-      "はい、インソールと着圧ソックスの併用は相乗効果が期待できます。インソールが足裏のアーチと歩行効率を改善し、着圧ソックスが外側から静脈還流を促進するため、ダブルのアプローチでむくみを軽減できます。特にデスクワークや立ち仕事が長い方におすすめの組み合わせです。",
+      "このページ後半の「インソール以外のむくみ対策」で、歩く・足首を回す・足を高くして休む・着圧ソックスなどの方法をまとめています。着圧ソックスは医療用と一般用で圧の強さが異なるため、医療用を使う場合は医師に相談してください。",
   },
   {
     question: "むくみがひどいのですが、病院に行くべきですか？",
@@ -138,13 +128,12 @@ export default function SwellingInsolePage() {
             足のお悩み解決ガイド
           </p>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
-            足のむくみ改善にインソールが
+            足のむくみとインソール
             <br />
-            <span className="text-[#8a6a4f]">効果的な理由</span>
-            ｜おすすめと対策
+            <span className="text-[#8a6a4f]">原因・対策と3商品の公式情報</span>
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
-            「夕方になると足がパンパン」「靴がきつくなる」「脚が重だるい」。足のむくみは多くの方が日常的に感じている悩みです。本記事ではむくみの原因を分かりやすく解説し、インソールがなぜむくみ改善に効果的なのかそのメカニズムを紐解きます。おすすめ3商品のむくみへの効果と、インソール以外のむくみ対策もまとめました。
+            「夕方になると足がパンパン」「靴がきつくなる」「脚が重だるい」。足のむくみは多くの方が日常的に感じている悩みです。本記事ではむくみの原因と日常でできる対策をまとめ、インソール3商品の公式サイトにむくみへの効果の記載があるかも整理しました。
           </p>
           <div className="flex flex-wrap gap-2 text-xs">
             <span className="bg-[#faf7f3] text-[#8a6a4f] px-3 py-1 rounded-full font-medium border border-[#e8ded6]">
@@ -154,7 +143,7 @@ export default function SwellingInsolePage() {
               足 浮腫み 対策
             </span>
             <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full">
-              2026年4月更新
+              2026年11月更新
             </span>
           </div>
         </div>
@@ -225,62 +214,23 @@ export default function SwellingInsolePage() {
         </div>
       </section>
 
-      {/* インソールでむくみが改善するメカニズム */}
+      {/* インソールとむくみの関係 */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            インソールでむくみが改善するメカニズム
+            インソールとむくみの関係（公式に記載があること）
           </h2>
-          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
+          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              「インソールでむくみが改善する」と聞くと意外に思うかもしれませんが、そのメカニズムは明確です。アーチサポートによる筋ポンプ機能の促進と血流改善がキーポイントです。
+              当サイトで紹介している3商品の公式サイトを確認したところ、むくみの軽減を示す試験結果や、むくみに効く仕組みの説明はありませんでした（2026年11月28日確認）。当サイトは商品を使用しておらず、インソールでむくみがどの程度変わるかを示すことはできません。
             </p>
-          </div>
-
-          <div className="space-y-4">
-            {[
-              {
-                step: "STEP 1",
-                title: "アーチサポートで足裏の姿勢を正す",
-                desc: "足裏のアーチが崩れた状態（扁平足・開張足）では、足裏の筋肉が正しく機能せず、歩行効率が低下しています。インソールのアーチサポートが足裏を正しい位置に導き、足の筋肉が本来の機能を発揮できる状態を作ります。これが「むくみ改善の土台」になります。",
-              },
-              {
-                step: "STEP 2",
-                title: "歩行効率の向上でふくらはぎの筋ポンプが活性化",
-                desc: "足裏のアーチが正しい位置にサポートされると、歩行時の「かかと着地→足裏全体で荷重→つま先蹴り出し」のローリング動作がスムーズになります。この正しい歩行パターンでは、ふくらはぎの筋肉が効率的に収縮・弛緩を繰り返し、筋ポンプ機能が最大化されます。ふくらはぎが「第二の心臓」として正常に機能することで、静脈血の心臓への還流が促進されます。",
-              },
-              {
-                step: "STEP 3",
-                title: "血液・リンパ液の循環が改善",
-                desc: "筋ポンプ機能が活性化されることで、下肢に滞留していた静脈血やリンパ液が効率的に心臓に戻ります。組織間液（むくみの原因となる余分な水分）も回収されやすくなり、結果として足のむくみが軽減されます。特に夕方に悪化するむくみは、この循環改善の恩恵を受けやすい傾向があります。",
-              },
-              {
-                step: "STEP 4",
-                title: "疲労軽減で活動量の維持・向上",
-                desc: "アーチサポートは歩行時の足裏への衝撃を吸収し、疲労を軽減する効果もあります。足が疲れにくくなることで、活動量が自然に増え、さらに筋ポンプ機能が働く機会が増えます。この好循環がむくみを根本的に改善する方向に導きます。",
-              },
-            ].map((item) => (
-              <div key={item.step} className="card">
-                <div className="flex items-start gap-3">
-                  <span className="bg-[#8a6a4f] text-white text-xs font-bold px-3 py-1 rounded-full shrink-0">
-                    {item.step}
-                  </span>
-                  <div>
-                    <h3 className="text-base font-bold text-gray-900 mb-2">
-                      {item.title}
-                    </h3>
-                    <p className="text-sm text-gray-600 leading-relaxed">
-                      {item.desc}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mt-8">
             <p>
-              つまり、インソールは「足裏のアーチサポート→歩行効率の向上→ふくらはぎの筋ポンプ機能の促進→血流・リンパ循環の改善→むくみの軽減」という一連の連鎖反応を引き起こします。直接的にむくみを「吸い取る」わけではなく、身体が持つ循環機能を正常化させるアプローチです。
+              スリムアップインソールの公式サイトには「アーチを押し上げ血流対策！凹凸による刺激が指圧効果となり血行をよくします。（※指圧代用器としての効果）」との記載があります（出典：
+              <a href="https://ichiban-boshi.com/shop/products/B_sui_s" target="_blank" rel="noopener noreferrer" className="text-[#8a6a4f] underline">ロッピング公式ショップ 一番星</a>
+              、2026年11月28日確認）。むくみへの効果としての記載ではありません。
+            </p>
+            <p>
+              むくみの対策としては、このページ後半でまとめている、ふくらはぎを動かす（歩く・足首を回す）、足を高くして休むなどの方法があります。
             </p>
           </div>
         </div>
@@ -290,11 +240,11 @@ export default function SwellingInsolePage() {
       <section className="py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            おすすめ3商品のむくみ改善効果を比較
+            3商品の公式情報（むくみへの効果の記載の有無）
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              むくみ改善の観点から、ダイエットインソール3商品の効果を比較しました。いずれもアーチサポート機能を持っていますが、むくみ改善に対するアプローチにはそれぞれ特徴があります。
+              3商品とも、公式サイトにむくみへの効果の記載はありません（2026年11月28日確認）。下の一覧は、公式サイトで確認できる構造と価格です。
             </p>
           </div>
 
@@ -303,47 +253,39 @@ export default function SwellingInsolePage() {
               {
                 rank: "1",
                 name: "ピットソール（Pitsole）",
-                swellingEffect: "むくみ改善効果：高い",
+                swellingEffect: "むくみへの効果：公式に記載なし",
                 points: [
-                  "3点アーチサポートで足裏の筋肉を最大限に活性化",
-                  "世界特許のキュボイドサポートで歩行効率を高め、ふくらはぎの筋ポンプを促進",
-                  "高い剛性のアーチサポートが歩行中も維持され、持続的な効果が期待できる",
-                  "クッション性も確保されており、長時間使用でも疲労しにくい",
+                  "公式の表記は「3つの構造」（拇趾球・小趾球・踵骨の3支点）",
                 ],
                 price: "6,578円（税込）〜",
-                best: "立ち仕事・ウォーキング習慣のある方",
+                best: "公式ショップ（BACCHUS ONLINE SHOP）で単品から購入できます",
               },
               {
                 rank: "2",
                 name: "ランウェイキュアソール",
-                swellingEffect: "むくみ改善効果：中〜高",
+                swellingEffect: "むくみへの効果：公式に記載なし",
                 points: [
-                  "3点アーチサポート設計で姿勢面をサポート",
-                  "3点アーチサポート設計で足裏から姿勢を整える",
-                  "3点アーチサポート設計で足裏から姿勢を整える",
-                  "パンプスで使えるため、オフィスワークの方にも実用的",
+                  "公式の表記は「3点アーチサポート設計」",
                 ],
                 price: "6,980円（税込）〜",
-                best: "オフィスワーク・パンプス使用の方",
+                best: "FLORe公式ショップ 楽天市場店で購入できます",
               },
               {
                 rank: "3",
                 name: "スリムアップインソール",
-                swellingEffect: "むくみ改善効果：中程度",
+                swellingEffect: "むくみへの効果：公式に記載なし",
                 points: [
-                  "傾斜設計でふくらはぎの筋肉を自然に刺激",
-                  "手頃な価格で気軽にむくみ対策を始められる",
-                  "男女兼用で家族で共有も可能",
-                  "基本的なアーチサポート機能でむくみ軽減をサポート",
+                  "公式の表記は「フリーフィンガーサポート」「アーチプッシュアップ」「スリーアップバランス」の3つの構造",
+                  "公式に「凹凸による刺激が指圧効果となり血行をよくします（※指圧代用器としての効果）」の記載あり",
                 ],
                 price: "6,980円（税込）〜",
-                best: "コスパ重視でむくみ対策を始めたい方",
+                best: "ロッピング公式ショップ 一番星で購入できます",
               },
             ].map((item) => (
               <div key={item.rank} className="card">
                 <div className="flex items-start gap-4">
                   <span className="text-3xl font-bold text-[#8a6a4f] shrink-0">
-                    {item.rank}位
+                    {item.rank}
                   </span>
                   <div className="flex-1">
                     <h3 className="text-base md:text-lg font-bold text-gray-900 mb-1">
@@ -373,7 +315,7 @@ export default function SwellingInsolePage() {
                         </span>
                       </span>
                       <span className="text-gray-500">
-                        おすすめ：
+                        購入先：
                         <span className="text-gray-900 font-medium">
                           {item.best}
                         </span>
@@ -400,11 +342,11 @@ export default function SwellingInsolePage() {
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            インソール以外のむくみ改善対策
+            インソール以外のむくみ対策
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed mb-8">
             <p>
-              インソールはむくみ改善の有効なツールですが、他の対策と組み合わせることでさらに効果が高まります。以下のむくみ対策を日常生活に取り入れてください。
+              むくみの対策として、日常生活に取り入れやすい方法をまとめました。むくみが続く場合や片足だけがむくむ場合は、自己判断せず医療機関を受診してください。
             </p>
           </div>
 
@@ -426,7 +368,7 @@ export default function SwellingInsolePage() {
                   },
                   {
                     title: "ウォーキング",
-                    desc: "1日30分以上のウォーキングは、ふくらはぎの筋ポンプを最も効果的に活性化する方法です。インソールを入れた靴でウォーキングすれば、むくみ改善とダイエットの両方に効果が期待できます。",
+                    desc: "歩くとふくらはぎの筋肉が動きます。長時間同じ姿勢が続く日は、こまめに歩く時間をつくってください。",
                   },
                   {
                     title: "足上げ（エレベーション）",
@@ -454,7 +396,7 @@ export default function SwellingInsolePage() {
                 {[
                   {
                     title: "着圧ソックス・ストッキング",
-                    desc: "足首から上に向かって段階的に圧力をかけることで、静脈還流を物理的にサポートします。医療用（20〜30mmHg）と一般用（10〜20mmHg）があり、初めての方は一般用から始めるのがおすすめ。インソールとの併用で相乗効果が期待できます。",
+                    desc: "足首から上に向かって段階的に圧力をかけることで、静脈還流を物理的にサポートします。医療用（20〜30mmHg）と一般用（10〜20mmHg）があり、初めての方は一般用から始めるのがおすすめです。",
                   },
                   {
                     title: "着圧レギンス・スパッツ",
@@ -523,16 +465,14 @@ export default function SwellingInsolePage() {
               {
                 scene: "立ち仕事の方",
                 plan: [
-                  "インソール装着の靴で出勤（アーチサポートで筋ポンプを常時サポート）",
                   "休憩時に足首回し・かかと上げ下げを行う",
-                  "着圧ソックスを併用（インソール＋着圧のダブルケア）",
+                  "着圧ソックスを使う（医療用は医師に相談）",
                   "帰宅後に足上げ10分＋ふくらはぎマッサージ",
                 ],
               },
               {
                 scene: "デスクワークの方",
                 plan: [
-                  "インソール装着の靴を使用（通勤時の歩行効率を最大化）",
                   "1時間に1回は立ち上がって歩く（トイレ・給湯室まで歩く等）",
                   "座ったまま足首回し・つま先上げ下げを頻繁に行う",
                   "昼休みに10分のウォーキングを習慣化",
@@ -541,7 +481,6 @@ export default function SwellingInsolePage() {
               {
                 scene: "在宅勤務の方",
                 plan: [
-                  "室内用スリッパにインソールを入れるか、室内履き対応のインソールを使用",
                   "30分に1回はスタンディングデスクに切り替えるか、立ち上がってストレッチ",
                   "朝と夕方に15分のウォーキングを習慣化",
                   "着圧レギンスを日中に着用（室内なのでファッションを気にせず使える）",
@@ -595,7 +534,7 @@ export default function SwellingInsolePage() {
               },
               {
                 title: "きつい靴やヒールの長時間着用",
-                desc: "きつい靴は足の血流を妨げ、ハイヒールはふくらはぎの筋ポンプ機能を低下させます。仕事でヒールが必要な場合は、デスク下で靴を脱ぐ、通勤はスニーカーにするなど、メリハリをつけてください。インソールで足裏をサポートすることも重要です。",
+                desc: "きつい靴は足の血流を妨げ、ハイヒールはふくらはぎの筋ポンプ機能を低下させます。仕事でヒールが必要な場合は、デスク下で靴を脱ぐ、通勤はスニーカーにするなど、メリハリをつけてください。",
               },
               {
                 title: "寝る前の大量の水分やアルコール",
@@ -616,31 +555,6 @@ export default function SwellingInsolePage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* 足底内在筋トレーニング */}
-      <section className="py-12 md:py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
-            足底内在筋を鍛えてむくみを根本改善
-          </h3>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            むくみの根本的な改善には、インソールの使用に加えて足底内在筋のトレーニングが効果的です。インソールで正しい足の使い方をサポートしつつ、筋力強化で根本改善を目指してください。
-          </p>
-          <div className="space-y-3 mb-4">
-            <div className="bg-white p-4 rounded-lg border border-gray-200">
-              <h4 className="font-bold text-gray-800 mb-1">タオルギャザー運動</h4>
-              <p className="text-gray-700 text-sm">床に広げたタオルを足指でつかんで引き寄せる運動です。毎日3セット行うことで、足底の筋力が強化され、血流の改善につながります。</p>
-            </div>
-            <div className="bg-white p-4 rounded-lg border border-gray-200">
-              <h4 className="font-bold text-gray-800 mb-1">足首回し運動</h4>
-              <p className="text-gray-700 text-sm">足首をゆっくり大きく回すことで、ふくらはぎの筋ポンプ機能を促進します。座ったままできるので、デスクワーク中にもおすすめです。</p>
-            </div>
-          </div>
-          <p className="text-gray-600 text-sm bg-[#faf7f3] p-3 rounded-lg">
-            インソールで正しい足の使い方をサポートしつつ、これらのトレーニングで筋力を強化することで、むくみの根本改善が期待できます。
-          </p>
         </div>
       </section>
 
@@ -680,13 +594,12 @@ export default function SwellingInsolePage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
             <p>
-              足のむくみの改善にインソールは効果的なアプローチです。足裏アーチサポートにより歩行効率が向上し、ふくらはぎの筋ポンプ機能が促進されることで、下肢の血液・リンパ循環が改善されます。
+              足のむくみの対策としては、歩く・足首を回す・足を高くして休む・着圧ソックスを使う・水分と塩分を見直すといった方法があります。むくみが続く場合や片足だけがむくむ場合は、医療機関を受診してください。
             </p>
             <p>
-              おすすめ3商品の中では、3点アーチサポートで筋ポンプを最大限に活性化するピットソールがむくみ改善にも最も効果的です。姿勢サポートを重視する方にはランウェイキュアソール、コスパ重視で気軽に始めたい方にはスリムアップインソールが適しています。
-            </p>
-            <p>
-              さらに効果を高めるには、ストレッチ（かかと上げ下げ・足首回し）、着圧ソックス、適切な水分・塩分管理を併用してください。インソールは「身体の循環機能を正常化するサポートツール」として、むくみのない軽やかな脚を目指す第一歩にしてください。
+              インソール3商品の公式サイトには、むくみへの効果の記載はありません（2026年11月28日確認）。3商品の違いは、
+              <Link href="/ranking/" className="text-[#8a6a4f] underline">ランキング</Link>
+              で公式の仕様・価格をもとに比較しています。
             </p>
           </div>
 
